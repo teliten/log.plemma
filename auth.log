@@ -34238,3 +34238,6 @@ Aug 25 11:25:35 localhost sshd[8169]: Disconnected from authenticating user root
 Aug 25 11:26:28 localhost sshd[8175]: Accepted publickey for root from 73.85.202.231 port 21602 ssh2: RSA SHA256:sYGMS02maJk0PHWENTuanDPSojJ1MAe6+Av4bU+3qGY
 Aug 25 11:26:29 localhost sshd[8175]: pam_unix(sshd:session): session opened for user root by (uid=0)
 Aug 25 11:26:29 localhost systemd-logind[388]: New session 258 of user root.
+Aug 25 11:27:16 localhost sshd[8195]: Accepted publickey for root from 73.85.202.231 port 21860 ssh2: RSA SHA256:sYGMS02maJk0PHWENTuanDPSojJ1MAe6+Av4bU+3qGY
+Aug 25 11:27:16 localhost sshd[8195]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Aug 25 11:27:16 localhost systemd-logind[388]: New session 259 of user root.
