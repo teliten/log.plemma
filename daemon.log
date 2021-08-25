@@ -1,0 +1,152 @@
+Aug 22 00:00:02 localhost systemd[1]: logrotate.service: Succeeded.
+Aug 22 00:00:02 localhost systemd[1]: Started Rotate log files.
+Aug 22 00:00:02 localhost mandb[14961]: /usr/bin/mandb: can't write to /var/cache/man/14961: No space left on device
+Aug 22 00:00:02 localhost mandb[14961]: /usr/bin/mandb: can't create index cache /var/cache/man/14961: No space left on device
+Aug 22 00:00:02 localhost systemd[1]: man-db.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Aug 22 00:00:02 localhost systemd[1]: man-db.service: Failed with result 'exit-code'.
+Aug 22 00:00:02 localhost systemd[1]: Failed to start Daily man-db regeneration.
+Aug 22 00:14:36 localhost systemd[1]: Starting Cleanup of Temporary Directories...
+Aug 22 00:14:37 localhost systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
+Aug 22 00:14:37 localhost systemd[1]: Started Cleanup of Temporary Directories.
+Aug 22 03:22:42 localhost systemd[1]: Started Session 159 of user root.
+Aug 22 03:26:20 localhost systemd[1]: session-147.scope: Succeeded.
+Aug 22 03:26:20 localhost systemd[1]: session-159.scope: Succeeded.
+Aug 22 03:26:24 localhost systemd[1]: Started Session 160 of user root.
+Aug 22 03:27:18 localhost systemd[1]: session-116.scope: Succeeded.
+Aug 22 04:32:54 localhost systemd[1]: Starting Daily apt download activities...
+Aug 22 04:32:57 localhost apt.systemd.daily[19733]: Apt returned an error, exiting
+Aug 22 04:32:57 localhost apt.systemd.daily[19733]: error message: E:Write error - write (28: No space left on device), E:IO Error saving source cache, E:The package lists or status file could not be parsed or opened.
+Aug 22 04:32:57 localhost systemd[1]: apt-daily.service: Succeeded.
+Aug 22 04:32:57 localhost systemd[1]: Started Daily apt download activities.
+Aug 22 06:18:36 localhost systemd[1]: Starting Daily apt upgrade and clean activities...
+Aug 22 06:18:37 localhost systemd[1]: apt-daily-upgrade.service: Succeeded.
+Aug 22 06:18:37 localhost systemd[1]: Started Daily apt upgrade and clean activities.
+Aug 22 08:01:42 localhost dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
+Aug 22 08:01:42 localhost dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Aug 22 08:01:42 localhost dhclient[631]: bound to 158.247.223.84 -- renewal in 37277 seconds.
+Aug 22 09:23:27 localhost systemd[1]: Starting Daily apt download activities...
+Aug 22 09:23:28 localhost systemd[1]: apt-daily.service: Succeeded.
+Aug 22 09:23:28 localhost systemd[1]: Started Daily apt download activities.
+Aug 22 18:22:59 localhost dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
+Aug 22 18:22:59 localhost dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Aug 22 18:22:59 localhost dhclient[631]: bound to 158.247.223.84 -- renewal in 30051 seconds.
+Aug 22 22:26:43 localhost systemd[1]: Starting Daily apt download activities...
+Aug 22 22:26:43 localhost systemd[1]: apt-daily.service: Succeeded.
+Aug 22 22:26:43 localhost systemd[1]: Started Daily apt download activities.
+Aug 23 00:00:01 localhost systemd[1]: logrotate.service: Failed to run 'start' task: No space left on device
+Aug 23 00:00:01 localhost systemd[1]: logrotate.service: Failed with result 'resources'.
+Aug 23 00:00:01 localhost systemd[1]: Failed to start Rotate log files.
+Aug 23 00:00:01 localhost systemd[1]: Starting Daily man-db regeneration...
+Aug 23 00:00:01 localhost mandb[1258]: /usr/bin/mandb: can't write to /var/cache/man/1258: No space left on device
+Aug 23 00:00:01 localhost mandb[1258]: /usr/bin/mandb: can't create index cache /var/cache/man/1258: No space left on device
+Aug 23 00:00:01 localhost systemd[1]: man-db.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Aug 23 00:00:01 localhost systemd[1]: man-db.service: Failed with result 'exit-code'.
+Aug 23 00:00:01 localhost systemd[1]: Failed to start Daily man-db regeneration.
+Aug 23 00:14:41 localhost systemd[1]: Starting Cleanup of Temporary Directories...
+Aug 23 00:14:41 localhost systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
+Aug 23 00:14:Aug 24 05:05:43 localhost systemd[1]: Starting Daily apt download activities...
+Aug 24 05:05:48 localhost systemd[1]: apt-daily.service: Succeeded.
+Aug 24 05:05:48 localhost systemd[1]: Started Daily apt download activities.
+Aug 24 06:49:11 localhost systemd[1]: Starting Daily apt upgrade and clean activities...
+Aug 24 06:49:13 localhost systemd[1]: apt-daily-upgrade.service: Succeeded.
+Aug 24 06:49:13 localhost systemd[1]: Started Daily apt upgrade and clean activities.
+Aug 24 07:20:25 localhost dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
+Aug 24 07:20:25 localhost dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Aug 24 07:20:25 localhost dhclient[631]: bound to 158.247.223.84 -- renewal in 36425 seconds.
+Aug 24 08:05:43 localhost systemd[1]: Started Session 218 of user root.
+Aug 24 08:06:12 localhost systemd[1]: Reloading.
+Aug 24 08:06:12 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Aug 24 08:06:12 localhost systemd[1]: Reloading.
+Aug 24 08:06:12 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Aug 24 08:06:12 localhost systemd[1]: Starting Daily apt download activities...
+Aug 24 08:06:12 localhost systemd[1]: Reloading.
+Aug 24 08:06:13 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Aug 24 08:06:13 localhost systemd[1]: apt-daily.service: Succeeded.
+Aug 24 08:06:13 localhost systemd[1]: Started Daily apt download activities.
+Aug 24 08:06:13 localhost systemd[1]: Reloading.
+Aug 24 08:06:13 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Aug 24 08:06:13 localhost systemd[1]: Starting The Apache HTTP Server...
+Aug 24 08:06:13 localhost apachectl[22707]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+Aug 24 08:06:13 localhost systemd[1]: Started The Apache HTTP Server.
+Aug 24 08:06:13 localhost systemd[1]: Reloading.
+Aug 24 08:06:13 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Aug 24 08:06:13 localhost systemd[1]: Reloading.
+Aug 24 08:06:14 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Aug 24 08:06:14 localhost systemd[1]: Reloading.
+Aug 24 08:06:14 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Aug 24 08:06:14 localhost systemd[1]: Reloading.
+Aug 24 08:06:14 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Aug 24 08:06:14 localhost systemd[1]: Reloading.
+Aug 24 08:06:14 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Aug 24 09:06:15 localhost systemd[1]: Started Session 220 of user root.
+Aug 24 12:13:40 localhost systemd[1]: Started Session 224 of user root.
+Aug 24 14:27:08 localhost systemd[1]: session-224.scope: Succeeded.
+Aug 24 17:27:30 localhost dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
+Aug 24 17:27:30 localhost dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Aug 24 17:27:30 localhost dhclient[631]: bound to 158.247.223.84 -- renewal in 32806 seconds.
+Aug 24 17:28:01 localhost systemd[1]: Started Session 231 of user root.
+Aug 24 17:30:58 localhost dhclient[27896]: DHCPDISCOVER on ens3 to 255.255.255.255 port 67 interval 7
+Aug 24 17:30:58 localhost dhclient[27896]: DHCPOFFER of 158.247.223.84 from 169.254.169.254
+Aug 24 17:30:58 localhost dhclient[27896]: DHCPREQUEST for 158.247.223.84 on ens3 to 255.255.255.255 port 67
+Aug 24 17:30:58 localhost dhclient[27896]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Aug 24 17:30:58 localhost root: /etc/dhcp/dhclient-exit-hooks.d/rfc3442-classless-routes returned non-zero exit status 2
+Aug 24 17:30:58 localhost dhclient[27896]: bound to 158.247.223.84 -- renewal in 37450 seconds.
+Aug 24 17:31:46 localhost ntpd[500]: Listen normally on 7 ens3:1 158.247.200.34:123
+Aug 24 17:31:46 localhost ntpd[500]: new interface(s) found: waking up resolver
+Aug 24 17:41:39 localhost systemd[1]: Stopping The Apache HTTP Server...
+Aug 24 17:41:39 localhost apachectl[28049]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+Aug 24 17:41:39 localhost systemd[1]: apache2.service: Succeeded.
+Aug 24 17:41:39 localhost systemd[1]: Stopped The Apache HTTP Server.
+Aug 24 17:41:39 localhost systemd[1]: Starting The Apache HTTP Server...
+Aug 24 17:41:39 localhost apachectl[28054]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+Aug 24 17:41:39 localhost systemd[1]: Started The Apache HTTP Server.
+Aug 24 17:56:07 localhost systemd[1]: Started Session 232 of user root.
+Aug 24 18:27:03 localhost systemd[1]: session-232.scope: Succeeded.
+Aug 24 19:39:40 localhost systemd[1]: Started Session 235 of user root.
+Aug 24 19:58:31 localhost systemd[1]: Started Session 236 of user root.
+Aug 24 21:00:24 localhost systemd[1]: Started Session 238 of user root.
+Aug 24 21:03:25 localhost systemd[1]: Started Session 239 of user root.
+Aug 24 21:03:47 localhost systemd[1]: session-239.scope: Succeeded.
+Aug 24 21:15:42 localhost systemd[1]: Started Session 240 of user root.
+Aug 24 21:16:44 localhost systemd[1]: Stopping The Apache HTTP Server...
+Aug 24 21:16:44 localhost apachectl[30484]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+Aug 24 21:16:44 localhost systemd[1]: apache2.service: Succeeded.
+Aug 24 21:16:44 localhost systemd[1]: Stopped The Apache HTTP Server.
+Aug 24 21:16:44 localhost systemd[1]: Starting The Apache HTTP Server...
+Aug 24 21:16:44 localhost apachectl[30489]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+Aug 24 21:16:44 localhost systemd[1]: Started The Apache HTTP Server.
+Aug 24 21:17:24 localhost systemd[1]: Stopping The Apache HTTP Server...
+Aug 24 21:17:25 localhost apachectl[30592]: AH00526: Syntax error on line 17 of /etc/apache2/sites-enabled/000-default.conf:
+Aug 24 21:17:25 localhost apachectl[30592]: unknown order
+Aug 24 21:17:25 localhost apachectl[30592]: Action 'stop' failed.
+Aug 24 21:17:25 localhost apachectl[30592]: The Apache error log may have more information.
+Aug 24 21:17:25 localhost systemd[1]: apache2.service: Control process exited, code=exited, status=1/FAILURE
+Aug 24 21:17:25 localhost systemd[1]: apache2.service: Failed with result 'exit-code'.
+Aug 24 21:17:25 localhost systemd[1]: Stopped The Apache HTTP Server.
+Aug 24 21:17:25 localhost systemd[1]: Starting The Apache HTTP Server...
+Aug 24 21:17:25 localhost apachectl[30597]: AH00526: Syntax error on line 17 of /etc/apache2/sites-enabled/000-default.conf:
+Aug 24 21:17:25 localhost apachectl[30597]: unknown order
+Aug 24 21:17:25 localhost apachectl[30597]: Action 'start' failed.
+Aug 24 21:17:25 localhost apachectl[30597]: The Apache error log may have more information.
+Aug 24 21:17:25 localhost systemd[1]: apache2.service: Control process exited, code=exited, status=1/FAILURE
+Aug 24 21:17:25 localhost systemd[1]: apache2.service: Failed with result 'exit-code'.
+Aug 24 21:17:25 localhost systemd[1]: Failed to start The Apache HTTP Server.
+Aug 24 21:17:59 localhost systemd[1]: Starting The Apache HTTP Server...
+Aug 24 21:17:59 localhost apachectl[30637]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+Aug 24 21:17:59 localhost systemd[1]: Started The Apache HTTP Server.
+Aug 24 21:23:36 localhost systemd[1]: session-238.scope: Succeeded.
+Aug 24 22:09:59 localhost systemd[1]: session-236.scope: Succeeded.
+Aug 24 22:56:09 localhost systemd[1]: Starting Daily apt download activities...
+Aug 24 22:56:10 localhost systemd[1]: apt-daily.service: Succeeded.
+Aug 24 22:56:10 localhost systemd[1]: Started Daily apt download activities.
+Aug 24 23:48:11 localhost systemd[1]: session-240.scope: Succeeded.
+Aug 25 00:00:01 localhost systemd[1]: Starting Rotate log files...
+Aug 25 00:00:01 localhost systemd[1]: Starting Daily man-db regeneration...
+Aug 25 00:00:01 localhost systemd[1]: logrotate.service: Succeeded.
+Aug 25 00:00:01 localhost systemd[1]: Started Rotate log files.
+Aug 25 00:00:02 localhost systemd[1]: man-db.service: Succeeded.
+Aug 25 00:00:02 localhost systemd[1]: Started Daily man-db regeneration.
+Aug 25 00:15:23 localhost systemd[1]: Starting Cleanup of Temporary Directories...
+Aug 25 00:15:24 localhost systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
+Aug 25 00:15:24 localhost systemd[1]: Started Cleanup of Temporary Directories.
+Aug 25 01:57:13 localhost systemd[1]: Started Session 246 of user root.

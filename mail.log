@@ -1,0 +1,32 @@
+Aug 22 06:25:02 localhost exim4: ALERT: exim paniclog /var/log/exim4/paniclog has non-zero size, mail system possibly broken
+Aug 22 06:25:02 localhost exim4: PANIC: sending out e-mail warning has failed, exim has non-zero return code
+Aug 23 06:25:01 localhost exim4: ALERT: exim paniclog /var/log/exim4/paniclog has non-zero size, mail system possibly broken
+Aug 23 06:25:01 localhost exim[6058]: 2021-08-23 06:25:01 failed to write to main log: length=79 result=-1 errno=28 (No space left on device)
+Aug 23 06:25:01 localhost exim[6058]: write failed on panic log: length=104 result=-1 errno=28 (No space left on device)
+Aug 23 06:25:01 localhost exim4: PANIC: sending out e-mail warning has failed, exim has non-zero return code
+Aug 23 06:26:54 localhost exim[6102]: 2021-08-23 06:26:54 failed to write to main log: length=46 result=-1 errno=28 (No space left on device)
+Aug 23 06:26:54 localhost exim[6102]: write failed on panic log: length=104 result=-1 errno=28 (No space left on device)
+Aug 23 06:56:54 localhost exim[6444]: 2021-08-23 06:56:54 failed to write to main log: length=46 result=-1 errno=28 (No space left on device)
+Aug 23 06:56:54 localhost exim[6444]: write failed on panic log: length=104 result=-1 errno=28 (No space left on device)
+Aug 23 07:26:54 localhost exim[6816]: 2021-08-23 07:26:54 failed to write to main log: length=46 result=-1 errno=28 (No space left on device)
+Aug 23 07:26:54 localhost exim[6816]: write failed on panic log: length=104 result=-1 errno=28 (No space left on device)
+Aug 23 07:56:54 localhost exim[7252]: 2021-08-23 07:56:54 failed to write to main log: length=46 result=-1 errno=28 (No space left on device)
+Aug 23 07:56:54 localhost exim[7252]: write failed on panic log: length=104 result=-1 errno=28 (No space left on device)
+Aug 23 08:26:54 localhost exim[7922]: 2021-08-23 08:26:54 failed to write to main log: length=46 result=-1 errno=28 (No space left on device)
+Aug 23 08:26:54 localhost exim[7922]: write failed on panic log: length=104 result=-1 errno=28 (No space left on device)
+Aug 23 08:56:54 localhost exim[8603]: 2021-08-23 08:56:54 failed to write to main log: length=46 result=-1 errno=28 (No space left on device)
+Aug 23 08:56:54 localhost exim[8603]: write failed on panic log: length=104 result=-1 errno=28 (No space left on device)
+Aug 23 09:26:54 localhost exim[8980]: 2021-08-23 09:26:54 failed to write to main log: length=46 result=-1 errno=28 (No space left on device)
+Aug 23 09:26:54 localhost exim[8980]: write failed on panic log: length=104 result=-1 errno=28 (No space left on device)
+Aug 23 09:56:54 localhost exim[9347]: 2021-08-23 09:56:54 failed to write to main log: length=46 result=-1 errno=28 (No space left on device)
+Aug 23 09:56:54 localhost exim[9347]: write failed on panic log: length=104 result=-1 errno=28 (No space left on device)
+Aug 23 10:26:54 localhost exim[9717]: 2021-08-23 10:26:54 failed to write to main log: length=46 result=-1 errno=28 (No space left on device)
+Aug 23 10:26:54 localhost exim[9717]: write failed on panic log: length=104 result=-1 errno=28 (No space left on device)
+Aug 23 10:56:54 localhost exim[10038]: 2021-08-23 10:56:54 failed to write to main log: length=47 result=-1 errno=28 (No space left on device)
+Aug 23 10:56:54 localhost exim[10038]: write failed on panic log: length=104 result=-1 errno=28 (No space left on device)
+Aug 23 11:26:54 localhost exim[10380]: 2021-08-23 11:26:54 failed to write to main log: length=47 result=-1 errno=28 (No space left on device)
+Aug 23 11:26:54 localhost exim[10380]: write failed on panic log: length=104 result=-1 errno=28 (No space left on device)
+Aug 23 11:56:54 localhost exim[10741]: 2021-08-23 11:56:54 failed to write to main log: length=47 result=-1 errno=28 (No space left on device)
+Aug 23 11:56:54 localhost exim[10741]: write failed on panic log: length=104 result=-1 errno=28 (No space left on device)
+Aug 23 12:26:54 localhost exim[11321]: 2021-08-23 12:26:54 failed to write to main log: length=47 result=-1 errno=28 (No space left on device)
+Aug 23 12:26:54 localhost exim[11321]: write failed on panicAug 24 06:25:02 localhost exim4: ALERT: exim paniclog /var/log/exim4/paniclog has non-zero size, mail system possibly broken

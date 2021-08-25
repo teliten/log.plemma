@@ -1,0 +1,80 @@
+PWD=/
+_=/usr/bin/env
+LANG=C.UTF-8
+INVOCATION_ID=e2ca3f288a8a4f69a3d76fe5ed6efb42
+SHLVL=2
+JOURNAL_STREAM=9:17083
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+debconf: unable to initialize frontend: Dialog
+debconf: (TERM is not set, so the dialog frontend is not usable.)
+debconf: falling back to frontend: Readline
+debconf: unable to initialize frontend: Readline
+debconf: (This frontend requires a controlling tty.)
+debconf: falling back to frontend: Teletype
+Creating SSH2 RSA key; this may take some time ...
+2048 SHA256:d+qf8Ot3KXdXgsh8LV49isSg99AS2m0AGAr2EvBq+Jk root@guest (RSA)
+Creating SSH2 ECDSA key; this may take some time ...
+256 SHA256:E4nwtBWvcMUk3pC7eK+VXde2izkClB/zhOSy+Ma63zA root@guest (ECDSA)
+Creating SSH2 ED25519 key; this may take some time ...
+256 SHA256:V0EO05fjmG6V4QXwK2BaGx9QHnvCMVAleC3ikLtZ7Y0 root@guest (ED25519)
+rescue-ssh.target is a disabled or a static unit, not starting it.
+<13>Aug 16 23:57:10 root: Imageboot: Waiting for metadata service...
+<13>Aug 16 23:57:10 root: Imageboot: Setting hostname
+<13>Aug 16 23:57:10 root: Imageboot: Setting root password
+Rule added
+Rule added (v6)
+<13>Aug 16 23:57:11 root: Imageboot: Executing firstboot script
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Waiting for apt lock
+Removed /etc/systemd/system/multi-user.target.wants/imageboot.service.

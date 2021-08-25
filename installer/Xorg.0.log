@@ -1,0 +1,554 @@
+[     1.848] 
+X.Org X Server 1.20.4
+X Protocol Version 11, Revision 0
+[     1.848] Build Operating System: Linux 4.9.0-8-amd64 x86_64 Debian
+[     1.848] Current Operating System: Linux (none) 4.19.0-8-amd64 #1 SMP Debian 4.19.98-1 (2020-01-26) x86_64
+[     1.848] Kernel command line: BOOT_IMAGE=/install.amd/vmlinuz vga=788 initrd=/install.amd/gtk/initrd.gz --- quiet locale=en_US.UTF-8 console-setup/layoutcode=us console-keymaps-at/keymap=us keyboard-configuration/layoutcode=us keymap=us netcfg/get_hostname=guest netcfg/get_domain=guest ipv6.disable=1 auto url=http://10.0.2.2:8081/preseed_qemu.txt 
+[     1.849] Build Date: 05 March 2019  08:11:12PM
+[     1.849] xorg-server 2:1.20.4-1 (https://www.debian.org/support) 
+[     1.849] Current version of pixman: 0.36.0
+[     1.849] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[     1.849] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[     1.850] (==) Log file: "/var/log/Xorg.0.log", Time: Thu Jun  3 15:57:35 2021
+[     1.850] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[     1.850] (==) No Layout section.  Using the first Screen section.
+[     1.850] (==) No screen section available. Using defaults.
+[     1.850] (**) |-->Screen "Default Screen Section" (0)
+[     1.850] (**) |   |-->Monitor "<default monitor>"
+[     1.850] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[     1.850] (==) Automatically adding devices
+[     1.850] (==) Automatically enabling devices
+[     1.850] (==) Automatically adding GPU devices
+[     1.850] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[     1.850] (==) FontPath set to:
+	built-ins
+[     1.850] (==) ModulePath set to "/usr/lib/xorg/modules"
+[     1.850] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[     1.850] (II) Loader magic: 0x561884fd2aa0
+[     1.850] (II) Module ABI versions:
+[     1.850] 	X.Org ANSI C Emulation: 0.4
+[     1.850] 	X.Org Video Driver: 24.0
+[     1.850] 	X.Org XInput driver : 24.1
+[     1.850] 	X.Org Server Extension : 10.0
+[     1.852] (--) PCI:*(0@0:2:0) 1234:1111:1af4:1100 rev 2, Mem @ 0xfd000000/16777216, 0xfebd0000/4096, BIOS @ 0x????????/131072
+[     1.852] (==) Matched modesetting as autoconfigured driver 0
+[     1.852] (==) Matched fbdev as autoconfigured driver 1
+[     1.852] (==) Matched vesa as autoconfigured driver 2
+[     1.852] (==) Assigned the driver to the xf86ConfigLayout
+[     1.852] (II) LoadModule: "modesetting"
+[     1.852] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[     1.852] (II) Module modesetting: vendor="X.Org Foundation"
+[     1.852] 	compiled for 1.20.4, module version = 1.20.4
+[     1.852] 	Module class: X.Org Video Driver
+[     1.852] 	ABI class: X.Org Video Driver, version 24.0
+[     1.852] (II) LoadModule: "fbdev"
+[     1.852] (II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+[     1.852] (II) Module fbdev: vendor="X.Org Foundation"
+[     1.852] 	compiled for 1.20.0, module version = 0.5.0
+[     1.852] 	Module class: X.Org Video Driver
+[     1.852] 	ABI class: X.Org Video Driver, version 24.0
+[     1.852] (II) LoadModule: "vesa"
+[     1.852] (WW) Warning, couldn't open module vesa
+[     1.852] (EE) Failed to load module "vesa" (module does not exist, 0)
+[     1.852] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[     1.852] (II) FBDEV: driver for framebuffer: fbdev
+[     1.852] (--) using VT number 5
+
+[     1.853] (EE) open /dev/dri/card0: No such file or directory
+[     1.853] (WW) Falling back to old probe method for modesetting
+[     1.853] (EE) open /dev/dri/card0: No such file or directory
+[     1.853] (II) Loading sub module "fbdevhw"
+[     1.853] (II) LoadModule: "fbdevhw"
+[     1.853] (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+[     1.853] (II) Module fbdevhw: vendor="X.Org Foundation"
+[     1.853] 	compiled for 1.20.4, module version = 0.0.2
+[     1.853] 	ABI class: X.Org Video Driver, version 24.0
+[     1.853] (EE) Unable to find a valid framebuffer device
+[     1.853] (WW) Falling back to old probe method for fbdev
+[     1.853] (II) Loading sub module "fbdevhw"
+[     1.853] (II) LoadModule: "fbdevhw"
+[     1.853] (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+[     1.853] (II) Module fbdevhw: vendor="X.Org Foundation"
+[     1.853] 	compiled for 1.20.4, module version = 0.0.2
+[     1.853] 	ABI class: X.Org Video Driver, version 24.0
+[     1.853] (II) FBDEV(2): using default device
+[     1.853] (EE) Screen 0 deleted because of no matching config section.
+[     1.853] (II) UnloadModule: "modesetting"
+[     1.853] (EE) Screen 0 deleted because of no matching config section.
+[     1.853] (II) UnloadModule: "fbdev"
+[     1.853] (II) UnloadSubModule: "fbdevhw"
+[     1.853] (II) FBDEV(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 16/16
+[     1.853] (==) FBDEV(0): Depth 16, (==) framebuffer bpp 16
+[     1.853] (==) FBDEV(0): RGB weight 565
+[     1.853] (==) FBDEV(0): Default visual is TrueColor
+[     1.853] (II) FBDEV(0): hardware: VESA VGA (video memory: 1875kB)
+[     1.853] (DB) xf86MergeOutputClassOptions unsupported bus type 0
+[     1.853] (II) FBDEV(0): checking modes against framebuffer device...
+[     1.853] (II) FBDEV(0): checking modes against monitor...
+[     1.853] (II) FBDEV(0): Virtual size is 800x600 (pitch 800)
+[     1.853] (**) FBDEV(0):  Built-in mode "current": 48.0 MHz, 46.9 kHz, 75.1 Hz
+[     1.853] (II) FBDEV(0): Modeline "current"x0.0   48.00  800 832 928 1024  600 604 608 624 -hsync -vsync -csync (46.9 kHz b)
+[     1.853] (==) FBDEV(0): DPI set to (96, 96)
+[     1.853] (II) Loading sub module "fb"
+[     1.853] (II) LoadModule: "fb"
+[     1.853] (II) Loading /usr/lib/xorg/modules/libfb.so
+[     1.853] (II) Module fb: vendor="X.Org Foundation"
+[     1.853] 	compiled for 1.20.4, module version = 1.0.0
+[     1.853] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[     1.853] (**) FBDEV(0): using shadow framebuffer
+[     1.853] (II) Loading sub module "shadow"
+[     1.853] (II) LoadModule: "shadow"
+[     1.853] (II) Loading /usr/lib/xorg/modules/libshadow.so
+[     1.853] (II) Module shadow: vendor="X.Org Foundation"
+[     1.853] 	compiled for 1.20.4, module version = 1.1.0
+[     1.853] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[     1.854] (II) FBDEV(0): FBIOBLANK: Invalid argument (Screen blanking not supported by kernel - disabling)
+[     1.854] (==) FBDEV(0): Backing store disabled
+[     1.854] (WW) FBDEV(0): The fbdev driver didn't call xf86SetGamma() to initialise
+	the gamma values.
+[     1.854] (WW) FBDEV(0): PLEASE FIX THE `fbdev' DRIVER!
+[     1.854] (==) FBDEV(0): DPMS enabled
+[     1.854] (II) Initializing extension Generic Event Extension
+[     1.854] (II) Initializing extension SHAPE
+[     1.854] (II) Initializing extension MIT-SHM
+[     1.854] (II) Initializing extension XInputExtension
+[     1.854] (II) Initializing extension XTEST
+[     1.854] (II) Initializing extension BIG-REQUESTS
+[     1.854] (II) Initializing extension SYNC
+[     1.854] (II) Initializing extension XKEYBOARD
+[     1.854] (II) Initializing extension XC-MISC
+[     1.854] (II) Initializing extension XFIXES
+[     1.854] (II) Initializing extension RENDER
+[     1.854] (II) Initializing extension RANDR
+[     1.854] (II) Initializing extension DAMAGE
+[     1.854] (II) Initializing extension DOUBLE-BUFFER
+[     1.854] (II) Initializing extension DPMS
+[     1.854] (II) Initializing extension Present
+[     1.854] (II) Initializing extension DRI3
+[     1.854] (II) Initializing extension X-Resource
+[     1.854] (II) Initializing extension XFree86-DGA
+[     1.875] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event0)
+[     1.875] (**) AT Translated Set 2 keyboard: Applying InputClass "evdev keyboard catchall"
+[     1.875] (II) LoadModule: "evdev"
+[     1.875] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[     1.875] (II) Module evdev: vendor="X.Org Foundation"
+[     1.875] 	compiled for 1.20.1, module version = 2.10.6
+[     1.875] 	Module class: X.Org XInput Driver
+[     1.875] 	ABI class: X.Org XInput driver, version 24.1
+[     1.875] (II) Using input driver 'evdev' for 'AT Translated Set 2 keyboard'
+[     1.875] (**) AT Translated Set 2 keyboard: always reports core events
+[     1.875] (**) evdev: AT Translated Set 2 keyboard: Device: "/dev/input/event0"
+[     1.875] (--) evdev: AT Translated Set 2 keyboard: Vendor 0x1 Product 0x1
+[     1.875] (--) evdev: AT Translated Set 2 keyboard: Found keys
+[     1.875] (II) evdev: AT Translated Set 2 keyboard: Configuring as keyboard
+[     1.875] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input0/event0"
+[     1.875] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 6)
+[     1.875] (**) Option "xkb_rules" "evdev"
+[     1.876] (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/event2)
+[     1.876] (**) VirtualPS/2 VMware VMMouse: Applying InputClass "evdev pointer catchall"
+[     1.876] (II) Using input driver 'evdev' for 'VirtualPS/2 VMware VMMouse'
+[     1.876] (**) VirtualPS/2 VMware VMMouse: always reports core events
+[     1.876] (**) evdev: VirtualPS/2 VMware VMMouse: Device: "/dev/input/event2"
+[     1.876] (--) evdev: VirtualPS/2 VMware VMMouse: Vendor 0x2 Product 0x13
+[     1.876] (--) evdev: VirtualPS/2 VMware VMMouse: Found 3 mouse buttons
+[     1.876] (--) evdev: VirtualPS/2 VMware VMMouse: Found scroll wheel(s)
+[     1.876] (--) evdev: VirtualPS/2 VMware VMMouse: Found relative axes
+[     1.876] (--) evdev: VirtualPS/2 VMware VMMouse: Found x and y relative axes
+[     1.876] (II) evdev: VirtualPS/2 VMware VMMouse: Configuring as mouse
+[     1.876] (II) evdev: VirtualPS/2 VMware VMMouse: Adding scrollwheel support
+[     1.876] (**) evdev: VirtualPS/2 VMware VMMouse: YAxisMapping: buttons 4 and 5
+[     1.876] (**) evdev: VirtualPS/2 VMware VMMouse: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[     1.876] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input2/event2"
+[     1.876] (II) XINPUT: Adding extended input device "VirtualPS/2 VMware VMMouse" (type: MOUSE, id 7)
+[     1.876] (II) evdev: VirtualPS/2 VMware VMMouse: initialized for relative axes.
+[     1.876] (**) VirtualPS/2 VMware VMMouse: (accel) keeping acceleration scheme 1
+[     1.876] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration profile 0
+[     1.876] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration factor: 2.000
+[     1.876] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration threshold: 4
+[     1.876] (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/mouse1)
+[     1.876] (II) No input driver specified, ignoring this device.
+[     1.876] (II) This device may have been added with another device file.
+[     1.877] (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/event1)
+[     1.877] (**) VirtualPS/2 VMware VMMouse: Applying InputClass "evdev pointer catchall"
+[     1.877] (II) Using input driver 'evdev' for 'VirtualPS/2 VMware VMMouse'
+[     1.877] (**) VirtualPS/2 VMware VMMouse: always reports core events
+[     1.877] (**) evdev: VirtualPS/2 VMware VMMouse: Device: "/dev/input/event1"
+[     1.877] (--) evdev: VirtualPS/2 VMware VMMouse: Vendor 0x2 Product 0x13
+[     1.877] (--) evdev: VirtualPS/2 VMware VMMouse: Found 3 mouse buttons
+[     1.877] (--) evdev: VirtualPS/2 VMware VMMouse: Found absolute axes
+[     1.877] (--) evdev: VirtualPS/2 VMware VMMouse: Found x and y absolute axes
+[     1.877] (--) evdev: VirtualPS/2 VMware VMMouse: Found absolute touchscreen
+[     1.877] (II) evdev: VirtualPS/2 VMware VMMouse: Configuring as touchscreen
+[     1.877] (**) evdev: VirtualPS/2 VMware VMMouse: YAxisMapping: buttons 4 and 5
+[     1.877] (**) evdev: VirtualPS/2 VMware VMMouse: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[     1.877] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input3/event1"
+[     1.877] (II) XINPUT: Adding extended input device "VirtualPS/2 VMware VMMouse" (type: TOUCHSCREEN, id 8)
+[     1.877] (II) evdev: VirtualPS/2 VMware VMMouse: initialized for absolute axes.
+[     1.877] (**) VirtualPS/2 VMware VMMouse: (accel) keeping acceleration scheme 1
+[     1.877] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration profile 0
+[     1.877] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration factor: 2.000
+[     1.877] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration threshold: 4
+[     1.877] (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/mouse0)
+[     1.877] (II) No input driver specified, ignoring this device.
+[     1.877] (II) This device may have been added with another device file.
+[     3.484] (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/mouse1)
+[     3.484] (II) No input driver specified, ignoring this device.
+[     3.484] (II) This device may have been added with another device file.
+[     3.485] (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/mouse0)
+[     3.485] (II) No input driver specified, ignoring this device.
+[     3.485] (II) This device may have been added with another device file.
+[     3.498] (II) config/udev: removing device VirtualPS/2 VMware VMMouse
+[     3.533] (II) evdev: VirtualPS/2 VMware VMMouse: Close
+[     3.533] (II) UnloadModule: "evdev"
+[     3.534] (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/event1)
+[     3.534] (**) VirtualPS/2 VMware VMMouse: Applying InputClass "evdev pointer catchall"
+[     3.534] (II) Using input driver 'evdev' for 'VirtualPS/2 VMware VMMouse'
+[     3.534] (**) VirtualPS/2 VMware VMMouse: always reports core events
+[     3.534] (**) evdev: VirtualPS/2 VMware VMMouse: Device: "/dev/input/event1"
+[     3.534] (--) evdev: VirtualPS/2 VMware VMMouse: Vendor 0x2 Product 0x13
+[     3.534] (--) evdev: VirtualPS/2 VMware VMMouse: Found 3 mouse buttons
+[     3.534] (--) evdev: VirtualPS/2 VMware VMMouse: Found absolute axes
+[     3.534] (--) evdev: VirtualPS/2 VMware VMMouse: Found x and y absolute axes
+[     3.534] (--) evdev: VirtualPS/2 VMware VMMouse: Found absolute touchscreen
+[     3.534] (II) evdev: VirtualPS/2 VMware VMMouse: Configuring as touchscreen
+[     3.534] (**) evdev: VirtualPS/2 VMware VMMouse: YAxisMapping: buttons 4 and 5
+[     3.534] (**) evdev: VirtualPS/2 VMware VMMouse: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[     3.534] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input3/event1"
+[     3.534] (II) XINPUT: Adding extended input device "VirtualPS/2 VMware VMMouse" (type: TOUCHSCREEN, id 8)
+[     3.534] (II) evdev: VirtualPS/2 VMware VMMouse: initialized for absolute axes.
+[     3.534] (**) VirtualPS/2 VMware VMMouse: (accel) keeping acceleration scheme 1
+[     3.534] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration profile 0
+[     3.534] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration factor: 2.000
+[     3.534] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration threshold: 4
+[     3.534] (II) config/udev: removing device VirtualPS/2 VMware VMMouse
+[     3.573] (II) evdev: VirtualPS/2 VMware VMMouse: Close
+[     3.573] (II) UnloadModule: "evdev"
+[     3.574] (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/event2)
+[     3.574] (**) VirtualPS/2 VMware VMMouse: Applying InputClass "evdev pointer catchall"
+[     3.574] (II) Using input driver 'evdev' for 'VirtualPS/2 VMware VMMouse'
+[     3.574] (**) VirtualPS/2 VMware VMMouse: always reports core events
+[     3.574] (**) evdev: VirtualPS/2 VMware VMMouse: Device: "/dev/input/event2"
+[     3.574] (--) evdev: VirtualPS/2 VMware VMMouse: Vendor 0x2 Product 0x13
+[     3.574] (--) evdev: VirtualPS/2 VMware VMMouse: Found 3 mouse buttons
+[     3.574] (--) evdev: VirtualPS/2 VMware VMMouse: Found scroll wheel(s)
+[     3.574] (--) evdev: VirtualPS/2 VMware VMMouse: Found relative axes
+[     3.574] (--) evdev: VirtualPS/2 VMware VMMouse: Found x and y relative axes
+[     3.574] (II) evdev: VirtualPS/2 VMware VMMouse: Configuring as mouse
+[     3.574] (II) evdev: VirtualPS/2 VMware VMMouse: Adding scrollwheel support
+[     3.574] (**) evdev: VirtualPS/2 VMware VMMouse: YAxisMapping: buttons 4 and 5
+[     3.574] (**) evdev: VirtualPS/2 VMware VMMouse: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[     3.574] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input2/event2"
+[     3.574] (II) XINPUT: Adding extended input device "VirtualPS/2 VMware VMMouse" (type: MOUSE, id 7)
+[     3.574] (II) evdev: VirtualPS/2 VMware VMMouse: initialized for relative axes.
+[     3.574] (**) VirtualPS/2 VMware VMMouse: (accel) keeping acceleration scheme 1
+[     3.574] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration profile 0
+[     3.574] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration factor: 2.000
+[     3.574] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration threshold: 4
+[     3.577] (II) config/udev: removing device AT Translated Set 2 keyboard
+[     3.617] (II) evdev: AT Translated Set 2 keyboard: Close
+[     3.617] (II) UnloadModule: "evdev"
+[     3.618] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event0)
+[     3.618] (**) AT Translated Set 2 keyboard: Applying InputClass "evdev keyboard catchall"
+[     3.618] (II) Using input driver 'evdev' for 'AT Translated Set 2 keyboard'
+[     3.618] (**) AT Translated Set 2 keyboard: always reports core events
+[     3.618] (**) evdev: AT Translated Set 2 keyboard: Device: "/dev/input/event0"
+[     3.618] (--) evdev: AT Translated Set 2 keyboard: Vendor 0x1 Product 0x1
+[     3.618] (--) evdev: AT Translated Set 2 keyboard: Found keys
+[     3.618] (II) evdev: AT Translated Set 2 keyboard: Configuring as keyboard
+[     3.618] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input0/event0"
+[     3.618] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 6)
+[     3.618] (**) Option "xkb_rules" "evdev"
+[     3.618] (**) Option "xkb_model" "pc105"
+[     3.618] (**) Option "xkb_layout" "us"
+[     3.618] (WW) Option "xkb_variant" requires a string value
+[     3.618] (WW) Option "xkb_options" requires a string value
+[    15.622] (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/mouse0)
+[    15.622] (II) No input driver specified, ignoring this device.
+[    15.622] (II) This device may have been added with another device file.
+[    15.624] (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/mouse1)
+[    15.624] (II) No input driver specified, ignoring this device.
+[    15.624] (II) This device may have been added with another device file.
+[    15.638] (II) config/udev: removing device AT Translated Set 2 keyboard
+[    15.693] (II) evdev: AT Translated Set 2 keyboard: Close
+[    15.693] (II) UnloadModule: "evdev"
+[    15.694] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event0)
+[    15.694] (**) AT Translated Set 2 keyboard: Applying InputClass "evdev keyboard catchall"
+[    15.694] (II) Using input driver 'evdev' for 'AT Translated Set 2 keyboard'
+[    15.694] (**) AT Translated Set 2 keyboard: always reports core events
+[    15.694] (**) evdev: AT Translated Set 2 keyboard: Device: "/dev/input/event0"
+[    15.694] (--) evdev: AT Translated Set 2 keyboard: Vendor 0x1 Product 0x1
+[    15.694] (--) evdev: AT Translated Set 2 keyboard: Found keys
+[    15.694] (II) evdev: AT Translated Set 2 keyboard: Configuring as keyboard
+[    15.694] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input0/event0"
+[    15.694] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 6)
+[    15.694] (**) Option "xkb_rules" "evdev"
+[    15.694] (**) Option "xkb_model" "pc105"
+[    15.694] (**) Option "xkb_layout" "us"
+[    15.694] (WW) Option "xkb_variant" requires a string value
+[    15.694] (WW) Option "xkb_options" requires a string value
+[    15.694] (II) config/udev: removing device VirtualPS/2 VMware VMMouse
+[    15.733] (II) evdev: VirtualPS/2 VMware VMMouse: Close
+[    15.733] (II) UnloadModule: "evdev"
+[    15.734] (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/event1)
+[    15.734] (**) VirtualPS/2 VMware VMMouse: Applying InputClass "evdev pointer catchall"
+[    15.734] (II) Using input driver 'evdev' for 'VirtualPS/2 VMware VMMouse'
+[    15.734] (**) VirtualPS/2 VMware VMMouse: always reports core events
+[    15.734] (**) evdev: VirtualPS/2 VMware VMMouse: Device: "/dev/input/event1"
+[    15.734] (--) evdev: VirtualPS/2 VMware VMMouse: Vendor 0x2 Product 0x13
+[    15.734] (--) evdev: VirtualPS/2 VMware VMMouse: Found 3 mouse buttons
+[    15.734] (--) evdev: VirtualPS/2 VMware VMMouse: Found absolute axes
+[    15.734] (--) evdev: VirtualPS/2 VMware VMMouse: Found x and y absolute axes
+[    15.734] (--) evdev: VirtualPS/2 VMware VMMouse: Found absolute touchscreen
+[    15.734] (II) evdev: VirtualPS/2 VMware VMMouse: Configuring as touchscreen
+[    15.734] (**) evdev: VirtualPS/2 VMware VMMouse: YAxisMapping: buttons 4 and 5
+[    15.734] (**) evdev: VirtualPS/2 VMware VMMouse: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[    15.734] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input3/event1"
+[    15.734] (II) XINPUT: Adding extended input device "VirtualPS/2 VMware VMMouse" (type: TOUCHSCREEN, id 8)
+[    15.734] (II) evdev: VirtualPS/2 VMware VMMouse: initialized for absolute axes.
+[    15.734] (**) VirtualPS/2 VMware VMMouse: (accel) keeping acceleration scheme 1
+[    15.734] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration profile 0
+[    15.734] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration factor: 2.000
+[    15.734] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration threshold: 4
+[    15.735] (II) config/udev: removing device VirtualPS/2 VMware VMMouse
+[    15.781] (II) evdev: VirtualPS/2 VMware VMMouse: Close
+[    15.781] (II) UnloadModule: "evdev"
+[    15.782] (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/event2)
+[    15.782] (**) VirtualPS/2 VMware VMMouse: Applying InputClass "evdev pointer catchall"
+[    15.782] (II) Using input driver 'evdev' for 'VirtualPS/2 VMware VMMouse'
+[    15.782] (**) VirtualPS/2 VMware VMMouse: always reports core events
+[    15.782] (**) evdev: VirtualPS/2 VMware VMMouse: Device: "/dev/input/event2"
+[    15.782] (--) evdev: VirtualPS/2 VMware VMMouse: Vendor 0x2 Product 0x13
+[    15.782] (--) evdev: VirtualPS/2 VMware VMMouse: Found 3 mouse buttons
+[    15.782] (--) evdev: VirtualPS/2 VMware VMMouse: Found scroll wheel(s)
+[    15.782] (--) evdev: VirtualPS/2 VMware VMMouse: Found relative axes
+[    15.782] (--) evdev: VirtualPS/2 VMware VMMouse: Found x and y relative axes
+[    15.782] (II) evdev: VirtualPS/2 VMware VMMouse: Configuring as mouse
+[    15.782] (II) evdev: VirtualPS/2 VMware VMMouse: Adding scrollwheel support
+[    15.782] (**) evdev: VirtualPS/2 VMware VMMouse: YAxisMapping: buttons 4 and 5
+[    15.782] (**) evdev: VirtualPS/2 VMware VMMouse: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[    15.782] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input2/event2"
+[    15.782] (II) XINPUT: Adding extended input device "VirtualPS/2 VMware VMMouse" (type: MOUSE, id 7)
+[    15.782] (II) evdev: VirtualPS/2 VMware VMMouse: initialized for relative axes.
+[    15.782] (**) VirtualPS/2 VMware VMMouse: (accel) keeping acceleration scheme 1
+[    15.782] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration profile 0
+[    15.782] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration factor: 2.000
+[    15.782] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration threshold: 4
+[    27.872] (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/mouse0)
+[    27.872] (II) No input driver specified, ignoring this device.
+[    27.872] (II) This device may have been added with another device file.
+[    27.873] (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/mouse1)
+[    27.873] (II) No input driver specified, ignoring this device.
+[    27.873] (II) This device may have been added with another device file.
+[    27.894] (II) config/udev: removing device AT Translated Set 2 keyboard
+[    27.937] (II) evdev: AT Translated Set 2 keyboard: Close
+[    27.937] (II) UnloadModule: "evdev"
+[    27.938] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event0)
+[    27.938] (**) AT Translated Set 2 keyboard: Applying InputClass "evdev keyboard catchall"
+[    27.938] (II) Using input driver 'evdev' for 'AT Translated Set 2 keyboard'
+[    27.938] (**) AT Translated Set 2 keyboard: always reports core events
+[    27.938] (**) evdev: AT Translated Set 2 keyboard: Device: "/dev/input/event0"
+[    27.938] (--) evdev: AT Translated Set 2 keyboard: Vendor 0x1 Product 0x1
+[    27.938] (--) evdev: AT Translated Set 2 keyboard: Found keys
+[    27.938] (II) evdev: AT Translated Set 2 keyboard: Configuring as keyboard
+[    27.938] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input0/event0"
+[    27.938] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 6)
+[    27.938] (**) Option "xkb_rules" "evdev"
+[    27.938] (**) Option "xkb_model" "pc105"
+[    27.938] (**) Option "xkb_layout" "us"
+[    27.938] (WW) Option "xkb_variant" requires a string value
+[    27.938] (WW) Option "xkb_options" requires a string value
+[    27.938] (II) config/udev: removing device VirtualPS/2 VMware VMMouse
+[    27.989] (II) evdev: VirtualPS/2 VMware VMMouse: Close
+[    27.989] (II) UnloadModule: "evdev"
+[    27.990] (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/event1)
+[    27.990] (**) VirtualPS/2 VMware VMMouse: Applying InputClass "evdev pointer catchall"
+[    27.990] (II) Using input driver 'evdev' for 'VirtualPS/2 VMware VMMouse'
+[    27.990] (**) VirtualPS/2 VMware VMMouse: always reports core events
+[    27.990] (**) evdev: VirtualPS/2 VMware VMMouse: Device: "/dev/input/event1"
+[    27.990] (--) evdev: VirtualPS/2 VMware VMMouse: Vendor 0x2 Product 0x13
+[    27.990] (--) evdev: VirtualPS/2 VMware VMMouse: Found 3 mouse buttons
+[    27.990] (--) evdev: VirtualPS/2 VMware VMMouse: Found absolute axes
+[    27.990] (--) evdev: VirtualPS/2 VMware VMMouse: Found x and y absolute axes
+[    27.990] (--) evdev: VirtualPS/2 VMware VMMouse: Found absolute touchscreen
+[    27.990] (II) evdev: VirtualPS/2 VMware VMMouse: Configuring as touchscreen
+[    27.990] (**) evdev: VirtualPS/2 VMware VMMouse: YAxisMapping: buttons 4 and 5
+[    27.990] (**) evdev: VirtualPS/2 VMware VMMouse: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[    27.990] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input3/event1"
+[    27.990] (II) XINPUT: Adding extended input device "VirtualPS/2 VMware VMMouse" (type: TOUCHSCREEN, id 8)
+[    27.990] (II) evdev: VirtualPS/2 VMware VMMouse: initialized for absolute axes.
+[    27.990] (**) VirtualPS/2 VMware VMMouse: (accel) keeping acceleration scheme 1
+[    27.990] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration profile 0
+[    27.990] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration factor: 2.000
+[    27.990] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration threshold: 4
+[    27.992] (II) config/udev: removing device VirtualPS/2 VMware VMMouse
+[    28.045] (II) evdev: VirtualPS/2 VMware VMMouse: Close
+[    28.045] (II) UnloadModule: "evdev"
+[    28.046] (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/event2)
+[    28.046] (**) VirtualPS/2 VMware VMMouse: Applying InputClass "evdev pointer catchall"
+[    28.046] (II) Using input driver 'evdev' for 'VirtualPS/2 VMware VMMouse'
+[    28.046] (**) VirtualPS/2 VMware VMMouse: always reports core events
+[    28.046] (**) evdev: VirtualPS/2 VMware VMMouse: Device: "/dev/input/event2"
+[    28.046] (--) evdev: VirtualPS/2 VMware VMMouse: Vendor 0x2 Product 0x13
+[    28.046] (--) evdev: VirtualPS/2 VMware VMMouse: Found 3 mouse buttons
+[    28.046] (--) evdev: VirtualPS/2 VMware VMMouse: Found scroll wheel(s)
+[    28.046] (--) evdev: VirtualPS/2 VMware VMMouse: Found relative axes
+[    28.046] (--) evdev: VirtualPS/2 VMware VMMouse: Found x and y relative axes
+[    28.046] (II) evdev: VirtualPS/2 VMware VMMouse: Configuring as mouse
+[    28.046] (II) evdev: VirtualPS/2 VMware VMMouse: Adding scrollwheel support
+[    28.046] (**) evdev: VirtualPS/2 VMware VMMouse: YAxisMapping: buttons 4 and 5
+[    28.046] (**) evdev: VirtualPS/2 VMware VMMouse: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[    28.046] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input2/event2"
+[    28.046] (II) XINPUT: Adding extended input device "VirtualPS/2 VMware VMMouse" (type: MOUSE, id 7)
+[    28.046] (II) evdev: VirtualPS/2 VMware VMMouse: initialized for relative axes.
+[    28.046] (**) VirtualPS/2 VMware VMMouse: (accel) keeping acceleration scheme 1
+[    28.046] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration profile 0
+[    28.046] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration factor: 2.000
+[    28.046] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration threshold: 4
+[    34.517] (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/mouse1)
+[    34.517] (II) No input driver specified, ignoring this device.
+[    34.517] (II) This device may have been added with another device file.
+[    34.518] (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/mouse0)
+[    34.518] (II) No input driver specified, ignoring this device.
+[    34.518] (II) This device may have been added with another device file.
+[    34.542] (II) config/udev: removing device AT Translated Set 2 keyboard
+[    34.577] (II) evdev: AT Translated Set 2 keyboard: Close
+[    34.577] (II) UnloadModule: "evdev"
+[    34.578] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event0)
+[    34.578] (**) AT Translated Set 2 keyboard: Applying InputClass "evdev keyboard catchall"
+[    34.578] (II) Using input driver 'evdev' for 'AT Translated Set 2 keyboard'
+[    34.578] (**) AT Translated Set 2 keyboard: always reports core events
+[    34.578] (**) evdev: AT Translated Set 2 keyboard: Device: "/dev/input/event0"
+[    34.578] (--) evdev: AT Translated Set 2 keyboard: Vendor 0x1 Product 0x1
+[    34.578] (--) evdev: AT Translated Set 2 keyboard: Found keys
+[    34.578] (II) evdev: AT Translated Set 2 keyboard: Configuring as keyboard
+[    34.578] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input0/event0"
+[    34.578] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 6)
+[    34.578] (**) Option "xkb_rules" "evdev"
+[    34.578] (**) Option "xkb_model" "pc105"
+[    34.578] (**) Option "xkb_layout" "us"
+[    34.578] (WW) Option "xkb_variant" requires a string value
+[    34.578] (WW) Option "xkb_options" requires a string value
+[    34.578] (II) config/udev: removing device VirtualPS/2 VMware VMMouse
+[    34.609] (II) evdev: VirtualPS/2 VMware VMMouse: Close
+[    34.609] (II) UnloadModule: "evdev"
+[    34.610] (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/event2)
+[    34.610] (**) VirtualPS/2 VMware VMMouse: Applying InputClass "evdev pointer catchall"
+[    34.610] (II) Using input driver 'evdev' for 'VirtualPS/2 VMware VMMouse'
+[    34.610] (**) VirtualPS/2 VMware VMMouse: always reports core events
+[    34.610] (**) evdev: VirtualPS/2 VMware VMMouse: Device: "/dev/input/event2"
+[    34.610] (--) evdev: VirtualPS/2 VMware VMMouse: Vendor 0x2 Product 0x13
+[    34.610] (--) evdev: VirtualPS/2 VMware VMMouse: Found 3 mouse buttons
+[    34.610] (--) evdev: VirtualPS/2 VMware VMMouse: Found scroll wheel(s)
+[    34.610] (--) evdev: VirtualPS/2 VMware VMMouse: Found relative axes
+[    34.610] (--) evdev: VirtualPS/2 VMware VMMouse: Found x and y relative axes
+[    34.610] (II) evdev: VirtualPS/2 VMware VMMouse: Configuring as mouse
+[    34.610] (II) evdev: VirtualPS/2 VMware VMMouse: Adding scrollwheel support
+[    34.610] (**) evdev: VirtualPS/2 VMware VMMouse: YAxisMapping: buttons 4 and 5
+[    34.610] (**) evdev: VirtualPS/2 VMware VMMouse: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[    34.610] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input2/event2"
+[    34.610] (II) XINPUT: Adding extended input device "VirtualPS/2 VMware VMMouse" (type: MOUSE, id 7)
+[    34.610] (II) evdev: VirtualPS/2 VMware VMMouse: initialized for relative axes.
+[    34.610] (**) VirtualPS/2 VMware VMMouse: (accel) keeping acceleration scheme 1
+[    34.610] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration profile 0
+[    34.610] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration factor: 2.000
+[    34.610] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration threshold: 4
+[    34.610] (II) config/udev: removing device VirtualPS/2 VMware VMMouse
+[    34.693] (II) evdev: VirtualPS/2 VMware VMMouse: Close
+[    34.693] (II) UnloadModule: "evdev"
+[    34.694] (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/event1)
+[    34.694] (**) VirtualPS/2 VMware VMMouse: Applying InputClass "evdev pointer catchall"
+[    34.694] (II) Using input driver 'evdev' for 'VirtualPS/2 VMware VMMouse'
+[    34.694] (**) VirtualPS/2 VMware VMMouse: always reports core events
+[    34.694] (**) evdev: VirtualPS/2 VMware VMMouse: Device: "/dev/input/event1"
+[    34.694] (--) evdev: VirtualPS/2 VMware VMMouse: Vendor 0x2 Product 0x13
+[    34.694] (--) evdev: VirtualPS/2 VMware VMMouse: Found 3 mouse buttons
+[    34.694] (--) evdev: VirtualPS/2 VMware VMMouse: Found absolute axes
+[    34.694] (--) evdev: VirtualPS/2 VMware VMMouse: Found x and y absolute axes
+[    34.694] (--) evdev: VirtualPS/2 VMware VMMouse: Found absolute touchscreen
+[    34.694] (II) evdev: VirtualPS/2 VMware VMMouse: Configuring as touchscreen
+[    34.694] (**) evdev: VirtualPS/2 VMware VMMouse: YAxisMapping: buttons 4 and 5
+[    34.694] (**) evdev: VirtualPS/2 VMware VMMouse: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[    34.694] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input3/event1"
+[    34.694] (II) XINPUT: Adding extended input device "VirtualPS/2 VMware VMMouse" (type: TOUCHSCREEN, id 8)
+[    34.694] (II) evdev: VirtualPS/2 VMware VMMouse: initialized for absolute axes.
+[    34.694] (**) VirtualPS/2 VMware VMMouse: (accel) keeping acceleration scheme 1
+[    34.694] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration profile 0
+[    34.694] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration factor: 2.000
+[    34.694] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration threshold: 4
+[   247.273] (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/mouse1)
+[   247.273] (II) No input driver specified, ignoring this device.
+[   247.273] (II) This device may have been added with another device file.
+[   247.274] (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/mouse0)
+[   247.274] (II) No input driver specified, ignoring this device.
+[   247.274] (II) This device may have been added with another device file.
+[   247.298] (II) config/udev: removing device VirtualPS/2 VMware VMMouse
+[   247.349] (II) evdev: VirtualPS/2 VMware VMMouse: Close
+[   247.349] (II) UnloadModule: "evdev"
+[   247.350] (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/event1)
+[   247.350] (**) VirtualPS/2 VMware VMMouse: Applying InputClass "evdev pointer catchall"
+[   247.350] (II) Using input driver 'evdev' for 'VirtualPS/2 VMware VMMouse'
+[   247.350] (**) VirtualPS/2 VMware VMMouse: always reports core events
+[   247.350] (**) evdev: VirtualPS/2 VMware VMMouse: Device: "/dev/input/event1"
+[   247.350] (--) evdev: VirtualPS/2 VMware VMMouse: Vendor 0x2 Product 0x13
+[   247.350] (--) evdev: VirtualPS/2 VMware VMMouse: Found 3 mouse buttons
+[   247.350] (--) evdev: VirtualPS/2 VMware VMMouse: Found absolute axes
+[   247.350] (--) evdev: VirtualPS/2 VMware VMMouse: Found x and y absolute axes
+[   247.350] (--) evdev: VirtualPS/2 VMware VMMouse: Found absolute touchscreen
+[   247.350] (II) evdev: VirtualPS/2 VMware VMMouse: Configuring as touchscreen
+[   247.350] (**) evdev: VirtualPS/2 VMware VMMouse: YAxisMapping: buttons 4 and 5
+[   247.350] (**) evdev: VirtualPS/2 VMware VMMouse: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[   247.350] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input3/event1"
+[   247.350] (II) XINPUT: Adding extended input device "VirtualPS/2 VMware VMMouse" (type: TOUCHSCREEN, id 8)
+[   247.350] (II) evdev: VirtualPS/2 VMware VMMouse: initialized for absolute axes.
+[   247.350] (**) VirtualPS/2 VMware VMMouse: (accel) keeping acceleration scheme 1
+[   247.350] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration profile 0
+[   247.350] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration factor: 2.000
+[   247.350] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration threshold: 4
+[   247.350] (II) config/udev: removing device VirtualPS/2 VMware VMMouse
+[   247.385] (II) evdev: VirtualPS/2 VMware VMMouse: Close
+[   247.385] (II) UnloadModule: "evdev"
+[   247.386] (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/event2)
+[   247.386] (**) VirtualPS/2 VMware VMMouse: Applying InputClass "evdev pointer catchall"
+[   247.386] (II) Using input driver 'evdev' for 'VirtualPS/2 VMware VMMouse'
+[   247.386] (**) VirtualPS/2 VMware VMMouse: always reports core events
+[   247.386] (**) evdev: VirtualPS/2 VMware VMMouse: Device: "/dev/input/event2"
+[   247.386] (--) evdev: VirtualPS/2 VMware VMMouse: Vendor 0x2 Product 0x13
+[   247.386] (--) evdev: VirtualPS/2 VMware VMMouse: Found 3 mouse buttons
+[   247.386] (--) evdev: VirtualPS/2 VMware VMMouse: Found scroll wheel(s)
+[   247.386] (--) evdev: VirtualPS/2 VMware VMMouse: Found relative axes
+[   247.386] (--) evdev: VirtualPS/2 VMware VMMouse: Found x and y relative axes
+[   247.386] (II) evdev: VirtualPS/2 VMware VMMouse: Configuring as mouse
+[   247.386] (II) evdev: VirtualPS/2 VMware VMMouse: Adding scrollwheel support
+[   247.386] (**) evdev: VirtualPS/2 VMware VMMouse: YAxisMapping: buttons 4 and 5
+[   247.386] (**) evdev: VirtualPS/2 VMware VMMouse: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[   247.386] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input2/event2"
+[   247.386] (II) XINPUT: Adding extended input device "VirtualPS/2 VMware VMMouse" (type: MOUSE, id 7)
+[   247.386] (II) evdev: VirtualPS/2 VMware VMMouse: initialized for relative axes.
+[   247.386] (**) VirtualPS/2 VMware VMMouse: (accel) keeping acceleration scheme 1
+[   247.386] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration profile 0
+[   247.386] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration factor: 2.000
+[   247.386] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration threshold: 4
+[   247.386] (II) config/udev: removing device AT Translated Set 2 keyboard
+[   247.417] (II) evdev: AT Translated Set 2 keyboard: Close
+[   247.417] (II) UnloadModule: "evdev"
+[   247.418] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event0)
+[   247.418] (**) AT Translated Set 2 keyboard: Applying InputClass "evdev keyboard catchall"
+[   247.418] (II) Using input driver 'evdev' for 'AT Translated Set 2 keyboard'
+[   247.418] (**) AT Translated Set 2 keyboard: always reports core events
+[   247.418] (**) evdev: AT Translated Set 2 keyboard: Device: "/dev/input/event0"
+[   247.418] (--) evdev: AT Translated Set 2 keyboard: Vendor 0x1 Product 0x1
+[   247.418] (--) evdev: AT Translated Set 2 keyboard: Found keys
+[   247.418] (II) evdev: AT Translated Set 2 keyboard: Configuring as keyboard
+[   247.418] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input0/event0"
+[   247.418] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 6)
+[   247.418] (**) Option "xkb_rules" "evdev"
+[   247.418] (**) Option "xkb_model" "pc105"
+[   247.418] (**) Option "xkb_layout" "us"
+[   247.418] (WW) Option "xkb_variant" requires a string value
+[   247.418] (WW) Option "xkb_options" requires a string value

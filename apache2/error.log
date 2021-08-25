@@ -1,0 +1,28 @@
+[Tue Aug 24 08:06:13.585098 2021] [mpm_event:notice] [pid 22718:tid 140594600129664] AH00489: Apache/2.4.38 (Debian) configured -- resuming normal operations
+[Tue Aug 24 08:06:13.585238 2021] [core:notice] [pid 22718:tid 140594600129664] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Aug 24 17:41:39.698251 2021] [mpm_event:notice] [pid 22718:tid 140594600129664] AH00491: caught SIGTERM, shutting down
+[Tue Aug 24 17:41:39.766537 2021] [mpm_event:notice] [pid 28058:tid 140590743319680] AH00489: Apache/2.4.38 (Debian) configured -- resuming normal operations
+[Tue Aug 24 17:41:39.766713 2021] [core:notice] [pid 28058:tid 140590743319680] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Aug 24 19:57:36.521252 2021] [core:error] [pid 28060:tid 140590486304512] [client 73.85.201.116:59410] AH00037: Symbolic link not allowed or link target not accessible: /var/www/html/rsync
+[Tue Aug 24 20:27:24.421038 2021] [core:error] [pid 28060:tid 140590595409664] [client 12.244.110.78:21928] AH00037: Symbolic link not allowed or link target not accessible: /var/www/html/rsync
+[Tue Aug 24 20:29:06.636684 2021] [core:error] [pid 28060:tid 140590628980480] [client 12.244.110.78:25221] AH00037: Symbolic link not allowed or link target not accessible: /var/www/html/rsync
+[Tue Aug 24 21:04:17.048705 2021] [core:error] [pid 28060:tid 140590469519104] [client 73.85.203.18:12390] AH00037: Symbolic link not allowed or link target not accessible: /var/www/html/rsync, referer: http://www.plemma.cc/
+[Tue Aug 24 21:04:24.837480 2021] [core:error] [pid 28060:tid 140590637373184] [client 73.85.203.18:12374] AH00037: Symbolic link not allowed or link target not accessible: /var/www/html/rsync, referer: http://www.plemma.cc/
+[Tue Aug 24 21:04:28.216108 2021] [core:error] [pid 28060:tid 140590603802368] [client 73.85.203.18:12374] AH00037: Symbolic link not allowed or link target not accessible: /var/www/html/rsync, referer: http://www.plemma.cc/
+[Tue Aug 24 21:04:42.006212 2021] [core:error] [pid 28060:tid 140590494697216] [client 73.85.203.18:12460] AH00037: Symbolic link not allowed or link target not accessible: /var/www/html/rsync, referer: http://www.plemma.cc/
+[Tue Aug 24 21:16:44.167616 2021] [mpm_event:notice] [pid 28058:tid 140590743319680] AH00491: caught SIGTERM, shutting down
+[Tue Aug 24 21:16:44.227134 2021] [mpm_event:notice] [pid 30493:tid 140415051265152] AH00489: Apache/2.4.38 (Debian) configured -- resuming normal operations
+[Tue Aug 24 21:16:44.227475 2021] [core:notice] [pid 30493:tid 140415051265152] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Aug 24 21:16:52.468817 2021] [core:error] [pid 30495:tid 140414896011008] [client 71.57.179.233:35470] AH00037: Symbolic link not allowed or link target not accessible: /var/www/html/rsync, referer: http://www.plemma.cc/
+[Tue Aug 24 21:16:54.749023 2021] [core:error] [pid 30495:tid 140414845654784] [client 71.57.179.233:35512] AH00037: Symbolic link not allowed or link target not accessible: /var/www/html/rsync, referer: http://www.plemma.cc/
+[Tue Aug 24 21:16:55.630882 2021] [core:error] [pid 30495:tid 140414761727744] [client 71.57.179.233:35512] AH00037: Symbolic link not allowed or link target not accessible: /var/www/html/rsync, referer: http://www.plemma.cc/
+[Tue Aug 24 21:16:56.197628 2021] [core:error] [pid 30495:tid 140414828869376] [client 71.57.179.233:35512] AH00037: Symbolic link not allowed or link target not accessible: /var/www/html/rsync, referer: http://www.plemma.cc/
+[Tue Aug 24 21:16:56.417601 2021] [core:error] [pid 30495:tid 140414820476672] [client 71.57.179.233:35514] AH00037: Symbolic link not allowed or link target not accessible: /var/www/html/rsync, referer: http://www.plemma.cc/
+[Tue Aug 24 21:16:58.432371 2021] [core:error] [pid 30495:tid 140414812083968] (13)Permission denied: [client 71.57.179.233:35514] AH00035: access to /rsync/ denied (filesystem path '/mnt/rsync') because search permissions are missing on a component of the path
+[Tue Aug 24 21:16:59.698650 2021] [core:error] [pid 30495:tid 140414854047488] (13)Permission denied: [client 71.57.179.233:35514] AH00035: access to /rsync/ denied (filesystem path '/mnt/rsync') because search permissions are missing on a component of the path
+[Tue Aug 24 21:17:01.294541 2021] [core:error] [pid 30495:tid 140414803691264] (13)Permission denied: [client 71.57.179.233:35514] AH00035: access to /rsync/ denied (filesystem path '/mnt/rsync') because search permissions are missing on a component of the path
+[Tue Aug 24 21:17:25.106760 2021] [mpm_event:notice] [pid 30493:tid 140415051265152] AH00491: caught SIGTERM, shutting down
+[Tue Aug 24 21:17:59.386379 2021] [mpm_event:notice] [pid 30641:tid 140220791014528] AH00489: Apache/2.4.38 (Debian) configured -- resuming normal operations
+[Tue Aug 24 21:17:59.387549 2021] [core:notice] [pid 30641:tid 140220791014528] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Aug 24 21:18:08.123117 2021] [core:error] [pid 30645:tid 140220523529984] [client 71.57.179.233:35684] AH00037: Symbolic link not allowed or link target not accessible: /var/www/html/rsync, referer: http://www.plemma.cc/
+[Tue Aug 24 21:18:10.032830 2021] [core:error] [pid 30645:tid 140220624242432] [client 71.57.179.233:35684] AH00037: Symbolic link not allowed or link target not accessible: /var/www/html/rsync, referer: http://www.plemma.cc/

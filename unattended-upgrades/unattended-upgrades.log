@@ -1,0 +1,76 @@
+2021-08-16 23:57:00,148 INFO Initial blacklist : 
+2021-08-16 23:57:00,149 INFO Initial whitelist: 
+2021-08-16 23:57:00,149 INFO Starting unattended upgrades script
+2021-08-16 23:57:00,149 INFO Allowed origins are: origin=Debian,codename=buster,label=Debian, origin=Debian,codename=buster,label=Debian-Security
+2021-08-16 23:57:08,467 INFO Initial blacklist : 
+2021-08-16 23:57:08,467 INFO Initial whitelist: 
+2021-08-16 23:57:08,467 INFO Starting unattended upgrades script
+2021-08-16 23:57:08,468 INFO Allowed origins are: origin=Debian,codename=buster,label=Debian, origin=Debian,codename=buster,label=Debian-Security
+2021-08-16 23:57:14,432 INFO Packages that will be upgraded: base-files isc-dhcp-client isc-dhcp-common klibc-utils krb5-locales libgcrypt20 libglib2.0-0 libglib2.0-data libgnutls-dane0 libgnutls30 libgssapi-krb5-2 libhogweed4 libk5crypto3 libklibc libkrb5-3 libkrb5support0 libmariadb3 libnettle6 libnss-systemd libpam-systemd libsystemd0 libudev1 libxml2 linux-image-amd64 mariadb-common systemd systemd-sysv udev
+2021-08-16 23:57:14,432 INFO Writing dpkg log to /var/log/unattended-upgrades/unattended-upgrades-dpkg.log
+2021-08-16 23:58:04,278 INFO All upgrades installed
+2021-08-17 06:27:43,521 INFO Initial blacklist : 
+2021-08-17 06:27:43,521 INFO Initial whitelist: 
+2021-08-17 06:27:43,521 INFO Starting unattended upgrades script
+2021-08-17 06:27:43,521 INFO Allowed origins are: origin=Debian,codename=buster,label=Debian, origin=Debian,codename=buster,label=Debian-Security
+2021-08-17 06:27:44,253 INFO Removing unused kernel packages: linux-image-4.19.0-8-amd64
+2021-08-17 06:27:46,135 INFO Packages that were successfully auto-removed: linux-image-4.19.0-8-amd64
+2021-08-17 06:27:46,135 INFO Packages that are kept back: 
+2021-08-17 06:27:46,389 INFO No packages found that can be upgraded unattended and no pending auto-removals
+2021-08-17 16:30:45,231 INFO Initial blacklist : 
+2021-08-17 16:30:45,232 INFO Initial whitelist: 
+2021-08-17 16:30:45,232 INFO Starting unattended upgrades script
+2021-08-17 16:30:45,232 INFO Allowed origins are: origin=Debian,codename=buster,label=Debian, origin=Debian,codename=buster,label=Debian-Security
+2021-08-18 00:24:42,114 INFO Initial blacklist : 
+2021-08-18 00:24:42,114 INFO Initial whitelist: 
+2021-08-18 00:24:42,115 INFO Starting unattended upgrades script
+2021-08-18 00:24:42,115 INFO Allowed origins are: origin=Debian,codename=buster,label=Debian, origin=Debian,codename=buster,label=Debian-Security
+2021-08-18 06:07:43,685 INFO Initial blacklist : 
+2021-08-18 06:07:43,686 INFO Initial whitelist: 
+2021-08-18 06:07:43,686 INFO Starting unattended upgrades script
+2021-08-18 06:07:43,686 INFO Allowed origins are: origin=Debian,codename=buster,label=Debian, origin=Debian,codename=buster,label=Debian-Security
+2021-08-18 06:07:44,418 INFO No packages found that can be upgraded unattended and no pending auto-removals
+2021-08-19 06:38:43,873 INFO Initial blacklist : 
+2021-08-19 06:38:43,874 INFO Initial whitelist: 
+2021-08-19 06:38:43,874 INFO Starting unattended upgrades script
+2021-08-19 06:38:43,874 INFO Allowed origins are: origin=Debian,codename=buster,label=Debian, origin=Debian,codename=buster,label=Debian-Security
+2021-08-19 06:38:44,763 INFO No packages found that can be upgraded unattended and no pending auto-removals
+2021-08-19 14:31:38,370 INFO Initial blacklist : 
+2021-08-19 14:31:38,371 INFO Initial whitelist: 
+2021-08-19 14:31:38,372 INFO Starting unattended upgrades script
+2021-08-19 14:31:38,372 INFO Allowed origins are: origin=Debian,codename=buster,label=Debian, origin=Debian,codename=buster,label=Debian-Security
+2021-08-19 14:31:38,466 ERROR Apt returned an error, exiting
+2021-08-19 14:31:38,467 ERROR error message: E:Write error - write (28: No space left on device), E:IO Error saving source cache, E:The package lists or status file could not be parsed or opened.
+2021-08-20 06:16:43,957 INFO Initial blacklist : 
+2021-08-20 06:16:43,959 INFO Initial whitelist: 
+2021-08-20 06:16:43,959 INFO Starting unattended upgrades script
+2021-08-20 06:16:43,959 INFO Allowed origins are: origin=Debian,codename=buster,label=Debian, origin=Debian,codename=buster,label=Debian-Security
+2021-08-20 06:16:44,890 INFO No packages found that can be upgraded unattended and no pending auto-removals
+2021-08-20 16:54:35,313 INFO Initial blacklist : 
+2021-08-20 16:54:35,314 INFO Initial whitelist: 
+2021-08-20 16:54:35,314 INFO Starting unattended upgrades script
+2021-08-20 16:54:35,314 INFO Allowed origins are: origin=Debian,codename=buster,label=Debian, origin=Debian,codename=buster,label=Debian-Security
+2021-08-21 02:33:45,639 INFO Initial blacklist : 
+2021-08-21 02:33:45,640 INFO Initial whitelist: 
+2021-08-21 02:33:45,641 INFO Starting unattended upgrades script
+2021-08-21 02:33:45,641 INFO Allowed origins are: origin=Debian,codename=buster,label=Debian, origin=Debian,codename=buster,label=Debian-Security
+2021-08-21 06:51:41,224 INFO Initial blacklist : 
+2021-08-21 06:51:41,226 INFO Initial whitelist: 
+2021-08-21 06:51:41,226 INFO Starting unattended upgrades script
+2021-08-21 06:51:41,226 INFO Allowed origins are: origin=Debian,codename=buster,label=Debian, origin=Debian,codename=buster,label=Debian-Security
+2021-08-21 06:51:42,185 INFO No packages found that can be upgraded unattended and no pending auto-removals
+2021-08-22 04:32:57,864 INFO Initial blacklist : 
+2021-08-22 04:32:57,865 INFO Initial whitelist: 
+2021-08-22 04:32:57,865 INFO Starting unattended upgrades script
+2021-08-22 04:32:57,865 INFO Allowed origins are: origin=Debian,codename=buster,label=Debian, origin=Debian,codename=buster,label=Debian-Security
+2021-08-22 04:32:57,929 ERROR Apt returned an error, exiting
+2021-08-22 04:32:57,929 ERROR error message: E:Write error - write (28: No space left on device), E:IO Error saving source cache, E:The package lists or status file could not be parsed or opened.
+2021-08-24 05:05:47,739 INFO Initial blacklist : 
+2021-08-24 05:05:47,739 INFO Initial whitelist: 
+2021-08-24 05:05:47,739 INFO Starting unattended upgrades script
+2021-08-24 05:05:47,740 INFO Allowed origins are: origin=Debian,codename=buster,label=Debian, origin=Debian,codename=buster,label=Debian-Security
+2021-08-24 06:49:12,435 INFO Initial blacklist : 
+2021-08-24 06:49:12,436 INFO Initial whitelist: 
+2021-08-24 06:49:12,437 INFO Starting unattended upgrades script
+2021-08-24 06:49:12,437 INFO Allowed origins are: origin=Debian,codename=buster,label=Debian, origin=Debian,codename=buster,label=Debian-Security
+2021-08-24 06:49:13,647 INFO No packages found that can be upgraded unattended and no pending auto-removals
