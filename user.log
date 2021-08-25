@@ -1,2 +1,3 @@
 Aug 22 06:25:05 localhost cron[394]: exim: insufficient disk space
 Aug 25 18:32:35 localhost s3fs[11073]: s3fs: credentials file /root/.passwd-s3fs should not have others permissions.
+Aug 25 21:21:25 localhost s3fs[11642]: s3fs: credentials file /root/.passwd-s3fs should not have others permissions.
