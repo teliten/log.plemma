@@ -6296,3 +6296,16 @@
 2021-08-25 06:57:47 trigproc libc-bin:amd64 2.28-10 <none>
 2021-08-25 06:57:47 status half-configured libc-bin:amd64 2.28-10
 2021-08-25 06:57:47 status installed libc-bin:amd64 2.28-10
+2021-08-25 13:11:24 startup archives unpack
+2021-08-25 13:11:25 install s3fs:amd64 <none> 1.84-1
+2021-08-25 13:11:25 status half-installed s3fs:amd64 1.84-1
+2021-08-25 13:11:25 status triggers-pending man-db:amd64 2.8.5-2
+2021-08-25 13:11:25 status unpacked s3fs:amd64 1.84-1
+2021-08-25 13:11:25 startup packages configure
+2021-08-25 13:11:25 configure s3fs:amd64 1.84-1 <none>
+2021-08-25 13:11:25 status unpacked s3fs:amd64 1.84-1
+2021-08-25 13:11:25 status half-configured s3fs:amd64 1.84-1
+2021-08-25 13:11:25 status installed s3fs:amd64 1.84-1
+2021-08-25 13:11:25 trigproc man-db:amd64 2.8.5-2 <none>
+2021-08-25 13:11:25 status half-configured man-db:amd64 2.8.5-2
+2021-08-25 13:11:25 status installed man-db:amd64 2.8.5-2

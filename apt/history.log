@@ -255,3 +255,8 @@ Start-Date: 2021-08-25  06:57:46
 Commandline: /usr/bin/unattended-upgrade
 Upgrade: libssl-dev:amd64 (1.1.1d-0+deb10u6, 1.1.1d-0+deb10u7), libssl1.1:amd64 (1.1.1d-0+deb10u6, 1.1.1d-0+deb10u7)
 End-Date: 2021-08-25  06:57:47
+
+Start-Date: 2021-08-25  13:11:24
+Commandline: apt install s3fs
+Install: s3fs:amd64 (1.84-1)
+End-Date: 2021-08-25  13:11:25
