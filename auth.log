@@ -34373,3 +34373,17 @@ Aug 25 11:49:37 localhost sshd[8320]: Disconnected from authenticating user root
 Aug 25 11:50:03 localhost sshd[8325]: Accepted publickey for root from 73.1.126.122 port 60254 ssh2: RSA SHA256:sYGMS02maJk0PHWENTuanDPSojJ1MAe6+Av4bU+3qGY
 Aug 25 11:50:03 localhost sshd[8325]: pam_unix(sshd:session): session opened for user root by (uid=0)
 Aug 25 11:50:03 localhost systemd-logind[388]: New session 261 of user root.
+Aug 25 11:51:41 localhost sshd[8345]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.205  user=root
+Aug 25 11:51:43 localhost sshd[8343]: error: PAM: Authentication failure for root from 218.92.0.205
+Aug 25 11:51:43 localhost sshd[8346]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.205  user=root
+Aug 25 11:51:45 localhost sshd[8343]: error: PAM: Authentication failure for root from 218.92.0.205
+Aug 25 11:51:46 localhost sshd[8347]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.205  user=root
+Aug 25 11:51:47 localhost sshd[8343]: error: PAM: Authentication failure for root from 218.92.0.205
+Aug 25 11:51:48 localhost sshd[8343]: Received disconnect from 218.92.0.205 port 53972:11:  [preauth]
+Aug 25 11:51:48 localhost sshd[8343]: Disconnected from authenticating user root 218.92.0.205 port 53972 [preauth]
+Aug 25 11:53:05 localhost sshd[8348]: Did not receive identification string from 218.92.0.205 port 16731
+Aug 25 11:54:06 localhost sshd[8349]: Received disconnect from 218.92.0.205 port 55058:11:  [preauth]
+Aug 25 11:54:06 localhost sshd[8349]: Disconnected from 218.92.0.205 port 55058 [preauth]
+Aug 25 11:54:19 localhost sshd[8351]: Accepted publickey for root from 73.1.126.122 port 60256 ssh2: RSA SHA256:sYGMS02maJk0PHWENTuanDPSojJ1MAe6+Av4bU+3qGY
+Aug 25 11:54:19 localhost sshd[8351]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Aug 25 11:54:19 localhost systemd-logind[388]: New session 262 of user root.
