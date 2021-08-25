@@ -245,3 +245,13 @@ Start-Date: 2021-08-24  08:06:09
 Commandline: apt install apache2
 Install: libaprutil1:amd64 (1.6.1-4, automatic), libaprutil1-dbd-sqlite3:amd64 (1.6.1-4, automatic), ssl-cert:amd64 (1.0.39, automatic), apache2-data:amd64 (2.4.38-3+deb10u5, automatic), libapr1:amd64 (1.6.5-1+b1, automatic), libaprutil1-ldap:amd64 (1.6.1-4, automatic), liblua5.2-0:amd64 (5.2.4-1.1+b2, automatic), apache2-bin:amd64 (2.4.38-3+deb10u5, automatic), libjansson4:amd64 (2.12-1, automatic), apache2:amd64 (2.4.38-3+deb10u5), apache2-utils:amd64 (2.4.38-3+deb10u5, automatic)
 End-Date: 2021-08-24  08:06:15
+
+Start-Date: 2021-08-25  06:57:43
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: openssl:amd64 (1.1.1d-0+deb10u6, 1.1.1d-0+deb10u7)
+End-Date: 2021-08-25  06:57:44
+
+Start-Date: 2021-08-25  06:57:46
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: libssl-dev:amd64 (1.1.1d-0+deb10u6, 1.1.1d-0+deb10u7), libssl1.1:amd64 (1.1.1d-0+deb10u6, 1.1.1d-0+deb10u7)
+End-Date: 2021-08-25  06:57:47

@@ -74,3 +74,14 @@
 2021-08-24 06:49:12,437 INFO Starting unattended upgrades script
 2021-08-24 06:49:12,437 INFO Allowed origins are: origin=Debian,codename=buster,label=Debian, origin=Debian,codename=buster,label=Debian-Security
 2021-08-24 06:49:13,647 INFO No packages found that can be upgraded unattended and no pending auto-removals
+2021-08-25 06:48:46,767 INFO Initial blacklist : 
+2021-08-25 06:48:46,767 INFO Initial whitelist: 
+2021-08-25 06:48:46,767 INFO Starting unattended upgrades script
+2021-08-25 06:48:46,768 INFO Allowed origins are: origin=Debian,codename=buster,label=Debian, origin=Debian,codename=buster,label=Debian-Security
+2021-08-25 06:57:40,510 INFO Initial blacklist : 
+2021-08-25 06:57:40,512 INFO Initial whitelist: 
+2021-08-25 06:57:40,512 INFO Starting unattended upgrades script
+2021-08-25 06:57:40,513 INFO Allowed origins are: origin=Debian,codename=buster,label=Debian, origin=Debian,codename=buster,label=Debian-Security
+2021-08-25 06:57:42,342 INFO Packages that will be upgraded: libssl-dev libssl1.1 openssl
+2021-08-25 06:57:42,343 INFO Writing dpkg log to /var/log/unattended-upgrades/unattended-upgrades-dpkg.log
+2021-08-25 06:57:48,120 INFO All upgrades installed
