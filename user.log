@@ -9,3 +9,9 @@ Aug 26 14:01:14 localhost s3fs[16088]: init v1.84(commit:unknown) with GnuTLS(gc
 Aug 26 14:01:16 localhost s3fs[16088]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
 Aug 26 14:01:16 localhost s3fs[16105]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
 Aug 26 14:01:17 localhost s3fs[16105]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
+Aug 26 14:13:33 localhost s3fs[16177]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
+Aug 26 14:13:34 localhost s3fs[16177]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
+Aug 26 14:13:59 localhost s3fs[16229]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
+Aug 26 14:14:00 localhost s3fs[16229]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
+Aug 26 14:25:16 localhost s3fs[16518]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
+Aug 26 14:25:17 localhost s3fs[16518]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
