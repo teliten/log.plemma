@@ -2,3 +2,10 @@ Aug 22 06:25:05 localhost cron[394]: exim: insufficient disk space
 Aug 25 18:32:35 localhost s3fs[11073]: s3fs: credentials file /root/.passwd-s3fs should not have others permissions.
 Aug 25 21:21:25 localhost s3fs[11642]: s3fs: credentials file /root/.passwd-s3fs should not have others permissions.
 Aug 26 13:43:18 localhost s3fs[15936]: s3fs: credentials file /root/.passwd-s3fs should not have others permissions.
+Aug 26 14:00:15 localhost s3fs[16051]: s3fs: credentials file /root/.passwd-s3fs should not have others permissions.
+Aug 26 14:00:34 localhost s3fs[16072]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
+Aug 26 14:00:35 localhost s3fs[16072]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
+Aug 26 14:01:14 localhost s3fs[16088]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
+Aug 26 14:01:16 localhost s3fs[16088]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
+Aug 26 14:01:16 localhost s3fs[16105]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
+Aug 26 14:01:17 localhost s3fs[16105]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
