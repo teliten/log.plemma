@@ -1,242 +1,556 @@
-Aug 22 00:00:02 localhost systemd[1]: logrotate.service: Succeeded.
-Aug 22 00:00:02 localhost systemd[1]: Started Rotate log files.
-Aug 22 00:00:02 localhost mandb[14961]: /usr/bin/mandb: can't write to /var/cache/man/14961: No space left on device
-Aug 22 00:00:02 localhost mandb[14961]: /usr/bin/mandb: can't create index cache /var/cache/man/14961: No space left on device
-Aug 22 00:00:02 localhost systemd[1]: man-db.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
-Aug 22 00:00:02 localhost systemd[1]: man-db.service: Failed with result 'exit-code'.
-Aug 22 00:00:02 localhost systemd[1]: Failed to start Daily man-db regeneration.
-Aug 22 00:14:36 localhost systemd[1]: Starting Cleanup of Temporary Directories...
-Aug 22 00:14:37 localhost systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
-Aug 22 00:14:37 localhost systemd[1]: Started Cleanup of Temporary Directories.
-Aug 22 03:22:42 localhost systemd[1]: Started Session 159 of user root.
-Aug 22 03:26:20 localhost systemd[1]: session-147.scope: Succeeded.
-Aug 22 03:26:20 localhost systemd[1]: session-159.scope: Succeeded.
-Aug 22 03:26:24 localhost systemd[1]: Started Session 160 of user root.
-Aug 22 03:27:18 localhost systemd[1]: session-116.scope: Succeeded.
-Aug 22 04:32:54 localhost systemd[1]: Starting Daily apt download activities...
-Aug 22 04:32:57 localhost apt.systemd.daily[19733]: Apt returned an error, exiting
-Aug 22 04:32:57 localhost apt.systemd.daily[19733]: error message: E:Write error - write (28: No space left on device), E:IO Error saving source cache, E:The package lists or status file could not be parsed or opened.
-Aug 22 04:32:57 localhost systemd[1]: apt-daily.service: Succeeded.
-Aug 22 04:32:57 localhost systemd[1]: Started Daily apt download activities.
-Aug 22 06:18:36 localhost systemd[1]: Starting Daily apt upgrade and clean activities...
-Aug 22 06:18:37 localhost systemd[1]: apt-daily-upgrade.service: Succeeded.
-Aug 22 06:18:37 localhost systemd[1]: Started Daily apt upgrade and clean activities.
-Aug 22 08:01:42 localhost dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
-Aug 22 08:01:42 localhost dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
-Aug 22 08:01:42 localhost dhclient[631]: bound to 158.247.223.84 -- renewal in 37277 seconds.
-Aug 22 09:23:27 localhost systemd[1]: Starting Daily apt download activities...
-Aug 22 09:23:28 localhost systemd[1]: apt-daily.service: Succeeded.
-Aug 22 09:23:28 localhost systemd[1]: Started Daily apt download activities.
-Aug 22 18:22:59 localhost dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
-Aug 22 18:22:59 localhost dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
-Aug 22 18:22:59 localhost dhclient[631]: bound to 158.247.223.84 -- renewal in 30051 seconds.
-Aug 22 22:26:43 localhost systemd[1]: Starting Daily apt download activities...
-Aug 22 22:26:43 localhost systemd[1]: apt-daily.service: Succeeded.
-Aug 22 22:26:43 localhost systemd[1]: Started Daily apt download activities.
-Aug 23 00:00:01 localhost systemd[1]: logrotate.service: Failed to run 'start' task: No space left on device
-Aug 23 00:00:01 localhost systemd[1]: logrotate.service: Failed with result 'resources'.
-Aug 23 00:00:01 localhost systemd[1]: Failed to start Rotate log files.
-Aug 23 00:00:01 localhost systemd[1]: Starting Daily man-db regeneration...
-Aug 23 00:00:01 localhost mandb[1258]: /usr/bin/mandb: can't write to /var/cache/man/1258: No space left on device
-Aug 23 00:00:01 localhost mandb[1258]: /usr/bin/mandb: can't create index cache /var/cache/man/1258: No space left on device
-Aug 23 00:00:01 localhost systemd[1]: man-db.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
-Aug 23 00:00:01 localhost systemd[1]: man-db.service: Failed with result 'exit-code'.
-Aug 23 00:00:01 localhost systemd[1]: Failed to start Daily man-db regeneration.
-Aug 23 00:14:41 localhost systemd[1]: Starting Cleanup of Temporary Directories...
-Aug 23 00:14:41 localhost systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
-Aug 23 00:14:Aug 24 05:05:43 localhost systemd[1]: Starting Daily apt download activities...
-Aug 24 05:05:48 localhost systemd[1]: apt-daily.service: Succeeded.
-Aug 24 05:05:48 localhost systemd[1]: Started Daily apt download activities.
-Aug 24 06:49:11 localhost systemd[1]: Starting Daily apt upgrade and clean activities...
-Aug 24 06:49:13 localhost systemd[1]: apt-daily-upgrade.service: Succeeded.
-Aug 24 06:49:13 localhost systemd[1]: Started Daily apt upgrade and clean activities.
-Aug 24 07:20:25 localhost dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
-Aug 24 07:20:25 localhost dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
-Aug 24 07:20:25 localhost dhclient[631]: bound to 158.247.223.84 -- renewal in 36425 seconds.
-Aug 24 08:05:43 localhost systemd[1]: Started Session 218 of user root.
-Aug 24 08:06:12 localhost systemd[1]: Reloading.
-Aug 24 08:06:12 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
-Aug 24 08:06:12 localhost systemd[1]: Reloading.
-Aug 24 08:06:12 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
-Aug 24 08:06:12 localhost systemd[1]: Starting Daily apt download activities...
-Aug 24 08:06:12 localhost systemd[1]: Reloading.
-Aug 24 08:06:13 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
-Aug 24 08:06:13 localhost systemd[1]: apt-daily.service: Succeeded.
-Aug 24 08:06:13 localhost systemd[1]: Started Daily apt download activities.
-Aug 24 08:06:13 localhost systemd[1]: Reloading.
-Aug 24 08:06:13 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
-Aug 24 08:06:13 localhost systemd[1]: Starting The Apache HTTP Server...
-Aug 24 08:06:13 localhost apachectl[22707]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
-Aug 24 08:06:13 localhost systemd[1]: Started The Apache HTTP Server.
-Aug 24 08:06:13 localhost systemd[1]: Reloading.
-Aug 24 08:06:13 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
-Aug 24 08:06:13 localhost systemd[1]: Reloading.
-Aug 24 08:06:14 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
-Aug 24 08:06:14 localhost systemd[1]: Reloading.
-Aug 24 08:06:14 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
-Aug 24 08:06:14 localhost systemd[1]: Reloading.
-Aug 24 08:06:14 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
-Aug 24 08:06:14 localhost systemd[1]: Reloading.
-Aug 24 08:06:14 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
-Aug 24 09:06:15 localhost systemd[1]: Started Session 220 of user root.
-Aug 24 12:13:40 localhost systemd[1]: Started Session 224 of user root.
-Aug 24 14:27:08 localhost systemd[1]: session-224.scope: Succeeded.
-Aug 24 17:27:30 localhost dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
-Aug 24 17:27:30 localhost dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
-Aug 24 17:27:30 localhost dhclient[631]: bound to 158.247.223.84 -- renewal in 32806 seconds.
-Aug 24 17:28:01 localhost systemd[1]: Started Session 231 of user root.
-Aug 24 17:30:58 localhost dhclient[27896]: DHCPDISCOVER on ens3 to 255.255.255.255 port 67 interval 7
-Aug 24 17:30:58 localhost dhclient[27896]: DHCPOFFER of 158.247.223.84 from 169.254.169.254
-Aug 24 17:30:58 localhost dhclient[27896]: DHCPREQUEST for 158.247.223.84 on ens3 to 255.255.255.255 port 67
-Aug 24 17:30:58 localhost dhclient[27896]: DHCPACK of 158.247.223.84 from 169.254.169.254
-Aug 24 17:30:58 localhost root: /etc/dhcp/dhclient-exit-hooks.d/rfc3442-classless-routes returned non-zero exit status 2
-Aug 24 17:30:58 localhost dhclient[27896]: bound to 158.247.223.84 -- renewal in 37450 seconds.
-Aug 24 17:31:46 localhost ntpd[500]: Listen normally on 7 ens3:1 158.247.200.34:123
-Aug 24 17:31:46 localhost ntpd[500]: new interface(s) found: waking up resolver
-Aug 24 17:41:39 localhost systemd[1]: Stopping The Apache HTTP Server...
-Aug 24 17:41:39 localhost apachectl[28049]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
-Aug 24 17:41:39 localhost systemd[1]: apache2.service: Succeeded.
-Aug 24 17:41:39 localhost systemd[1]: Stopped The Apache HTTP Server.
-Aug 24 17:41:39 localhost systemd[1]: Starting The Apache HTTP Server...
-Aug 24 17:41:39 localhost apachectl[28054]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
-Aug 24 17:41:39 localhost systemd[1]: Started The Apache HTTP Server.
-Aug 24 17:56:07 localhost systemd[1]: Started Session 232 of user root.
-Aug 24 18:27:03 localhost systemd[1]: session-232.scope: Succeeded.
-Aug 24 19:39:40 localhost systemd[1]: Started Session 235 of user root.
-Aug 24 19:58:31 localhost systemd[1]: Started Session 236 of user root.
-Aug 24 21:00:24 localhost systemd[1]: Started Session 238 of user root.
-Aug 24 21:03:25 localhost systemd[1]: Started Session 239 of user root.
-Aug 24 21:03:47 localhost systemd[1]: session-239.scope: Succeeded.
-Aug 24 21:15:42 localhost systemd[1]: Started Session 240 of user root.
-Aug 24 21:16:44 localhost systemd[1]: Stopping The Apache HTTP Server...
-Aug 24 21:16:44 localhost apachectl[30484]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
-Aug 24 21:16:44 localhost systemd[1]: apache2.service: Succeeded.
-Aug 24 21:16:44 localhost systemd[1]: Stopped The Apache HTTP Server.
-Aug 24 21:16:44 localhost systemd[1]: Starting The Apache HTTP Server...
-Aug 24 21:16:44 localhost apachectl[30489]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
-Aug 24 21:16:44 localhost systemd[1]: Started The Apache HTTP Server.
-Aug 24 21:17:24 localhost systemd[1]: Stopping The Apache HTTP Server...
-Aug 24 21:17:25 localhost apachectl[30592]: AH00526: Syntax error on line 17 of /etc/apache2/sites-enabled/000-default.conf:
-Aug 24 21:17:25 localhost apachectl[30592]: unknown order
-Aug 24 21:17:25 localhost apachectl[30592]: Action 'stop' failed.
-Aug 24 21:17:25 localhost apachectl[30592]: The Apache error log may have more information.
-Aug 24 21:17:25 localhost systemd[1]: apache2.service: Control process exited, code=exited, status=1/FAILURE
-Aug 24 21:17:25 localhost systemd[1]: apache2.service: Failed with result 'exit-code'.
-Aug 24 21:17:25 localhost systemd[1]: Stopped The Apache HTTP Server.
-Aug 24 21:17:25 localhost systemd[1]: Starting The Apache HTTP Server...
-Aug 24 21:17:25 localhost apachectl[30597]: AH00526: Syntax error on line 17 of /etc/apache2/sites-enabled/000-default.conf:
-Aug 24 21:17:25 localhost apachectl[30597]: unknown order
-Aug 24 21:17:25 localhost apachectl[30597]: Action 'start' failed.
-Aug 24 21:17:25 localhost apachectl[30597]: The Apache error log may have more information.
-Aug 24 21:17:25 localhost systemd[1]: apache2.service: Control process exited, code=exited, status=1/FAILURE
-Aug 24 21:17:25 localhost systemd[1]: apache2.service: Failed with result 'exit-code'.
-Aug 24 21:17:25 localhost systemd[1]: Failed to start The Apache HTTP Server.
-Aug 24 21:17:59 localhost systemd[1]: Starting The Apache HTTP Server...
-Aug 24 21:17:59 localhost apachectl[30637]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
-Aug 24 21:17:59 localhost systemd[1]: Started The Apache HTTP Server.
-Aug 24 21:23:36 localhost systemd[1]: session-238.scope: Succeeded.
-Aug 24 22:09:59 localhost systemd[1]: session-236.scope: Succeeded.
-Aug 24 22:56:09 localhost systemd[1]: Starting Daily apt download activities...
-Aug 24 22:56:10 localhost systemd[1]: apt-daily.service: Succeeded.
-Aug 24 22:56:10 localhost systemd[1]: Started Daily apt download activities.
-Aug 24 23:48:11 localhost systemd[1]: session-240.scope: Succeeded.
-Aug 25 00:00:01 localhost systemd[1]: Starting Rotate log files...
-Aug 25 00:00:01 localhost systemd[1]: Starting Daily man-db regeneration...
-Aug 25 00:00:01 localhost systemd[1]: logrotate.service: Succeeded.
-Aug 25 00:00:01 localhost systemd[1]: Started Rotate log files.
-Aug 25 00:00:02 localhost systemd[1]: man-db.service: Succeeded.
-Aug 25 00:00:02 localhost systemd[1]: Started Daily man-db regeneration.
-Aug 25 00:15:23 localhost systemd[1]: Starting Cleanup of Temporary Directories...
-Aug 25 00:15:24 localhost systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
-Aug 25 00:15:24 localhost systemd[1]: Started Cleanup of Temporary Directories.
-Aug 25 01:57:13 localhost systemd[1]: Started Session 246 of user root.
-Aug 25 02:31:10 localhost systemd[1]: session-246.scope: Succeeded.
-Aug 25 02:34:16 localhost dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
-Aug 25 02:34:16 localhost dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
-Aug 25 02:34:16 localhost dhclient[631]: bound to 158.247.223.84 -- renewal in 38426 seconds.
-Aug 25 03:55:08 localhost dhclient[27896]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
-Aug 25 03:55:08 localhost dhclient[27896]: DHCPACK of 158.247.223.84 from 169.254.169.254
-Aug 25 03:55:09 localhost dhclient[27896]: bound to 158.247.223.84 -- renewal in 36777 seconds.
-Aug 25 06:48:43 localhost systemd[1]: Starting Daily apt download activities...
-Aug 25 06:48:49 localhost systemd[1]: apt-daily.service: Succeeded.
-Aug 25 06:48:49 localhost systemd[1]: Started Daily apt download activities.
-Aug 25 06:57:39 localhost systemd[1]: Starting Daily apt upgrade and clean activities...
-Aug 25 06:57:48 localhost systemd[1]: apt-daily-upgrade.service: Succeeded.
-Aug 25 06:57:48 localhost systemd[1]: Started Daily apt upgrade and clean activities.
-Aug 25 11:26:29 localhost systemd[1]: Started Session 258 of user root.
-Aug 25 11:27:16 localhost systemd[1]: Started Session 259 of user root.
-Aug 25 11:34:01 localhost systemd[1]: Started Session 260 of user root.
-Aug 25 11:50:03 localhost systemd[1]: Started Session 261 of user root.
-Aug 25 11:54:19 localhost systemd[1]: Started Session 262 of user root.
-Aug 25 12:21:52 localhost systemd[1]: Started Session 264 of user root.
-Aug 25 12:23:30 localhost systemd[1]: session-262.scope: Succeeded.
-Aug 25 12:33:35 localhost systemd[1]: Started Session 265 of user root.
-Aug 25 13:14:42 localhost dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
-Aug 25 13:14:42 localhost dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
-Aug 25 13:14:42 localhost dhclient[631]: bound to 158.247.223.84 -- renewal in 29330 seconds.
-Aug 25 13:52:22 localhost systemd[1]: session-258.scope: Succeeded.
-Aug 25 13:59:53 localhost systemd[1]: session-260.scope: Succeeded.
-Aug 25 14:00:09 localhost systemd[1]: session-259.scope: Succeeded.
-Aug 25 14:08:06 localhost dhclient[27896]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
-Aug 25 14:08:06 localhost dhclient[27896]: DHCPACK of 158.247.223.84 from 169.254.169.254
-Aug 25 14:08:06 localhost dhclient[27896]: bound to 158.247.223.84 -- renewal in 29692 seconds.
-Aug 25 14:10:48 localhost systemd[1]: session-261.scope: Succeeded.
-Aug 25 15:25:21 localhost systemd[1]: session-264.scope: Succeeded.
-Aug 25 16:22:09 localhost systemd[1]: session-265.scope: Succeeded.
-Aug 25 18:32:27 localhost systemd[1]: Started Session 272 of user root.
-Aug 25 18:57:33 localhost systemd[1]: session-272.scope: Succeeded.
-Aug 25 21:21:16 localhost systemd[1]: Started Session 276 of user root.
-Aug 25 21:21:38 localhost systemd[1]: Started Session 277 of user root.
-Aug 25 21:23:32 localhost dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
-Aug 25 21:23:32 localhost dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
-Aug 25 21:23:32 localhost dhclient[631]: bound to 158.247.223.84 -- renewal in 35680 seconds.
-Aug 25 21:47:22 localhost systemd[1]: session-276.scope: Succeeded.
-Aug 25 22:22:58 localhost dhclient[27896]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
-Aug 25 22:22:58 localhost dhclient[27896]: DHCPACK of 158.247.223.84 from 169.254.169.254
-Aug 25 22:22:59 localhost dhclient[27896]: bound to 158.247.223.84 -- renewal in 33736 seconds.
-Aug 25 23:34:41 localhost systemd[1]: session-277.scope: Succeeded.
-Aug 26 00:00:37 localhost systemd[1]: Starting Rotate log files...
-Aug 26 00:00:37 localhost systemd[1]: Starting Daily man-db regeneration...
-Aug 26 00:00:37 localhost systemd[1]: Reloading The Apache HTTP Server.
-Aug 26 00:00:38 localhost apachectl[12126]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
-Aug 26 00:00:38 localhost systemd[1]: Reloaded The Apache HTTP Server.
-Aug 26 00:00:38 localhost systemd[1]: logrotate.service: Succeeded.
-Aug 26 00:00:38 localhost systemd[1]: Started Rotate log files.
-Aug 26 00:00:38 localhost systemd[1]: man-db.service: Succeeded.
-Aug 26 00:00:38 localhost systemd[1]: Started Daily man-db regeneration.
-Aug 26 00:15:42 localhost systemd[1]: Starting Cleanup of Temporary Directories...
-Aug 26 00:15:43 localhost systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
-Aug 26 00:15:43 localhost systemd[1]: Started Cleanup of Temporary Directories.
-Aug 26 05:51:43 localhost systemd[1]: Starting Daily apt download activities...
-Aug 26 05:51:47 localhost systemd[1]: apt-daily.service: Succeeded.
-Aug 26 05:51:47 localhost systemd[1]: Started Daily apt download activities.
-Aug 26 06:43:43 localhost systemd[1]: Starting Daily apt upgrade and clean activities...
-Aug 26 06:43:45 localhost systemd[1]: apt-daily-upgrade.service: Succeeded.
-Aug 26 06:43:45 localhost systemd[1]: Started Daily apt upgrade and clean activities.
-Aug 26 07:18:12 localhost dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
-Aug 26 07:18:12 localhost dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
-Aug 26 07:18:12 localhost dhclient[631]: bound to 158.247.223.84 -- renewal in 37307 seconds.
-Aug 26 07:45:15 localhost dhclient[27896]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
-Aug 26 07:45:15 localhost dhclient[27896]: DHCPACK of 158.247.223.84 from 169.254.169.254
-Aug 26 07:45:15 localhost dhclient[27896]: bound to 158.247.223.84 -- renewal in 33887 seconds.
-Aug 26 09:31:43 localhost systemd[1]: Starting Daily apt download activities...
-Aug 26 09:31:44 localhost systemd[1]: apt-daily.service: Succeeded.
-Aug 26 09:31:44 localhost systemd[1]: Started Daily apt download activities.
-Aug 26 13:43:08 localhost systemd[1]: Started Session 295 of user root.
-Aug 26 14:00:07 localhost systemd[1]: Started Session 296 of user root.
-Aug 26 14:00:35 localhost systemd[24351]: mnt-amzn2.mount: Succeeded.
-Aug 26 14:00:35 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
-Aug 26 14:01:15 localhost systemd[1]: Started Session 297 of user root.
-Aug 26 14:01:16 localhost systemd[24351]: mnt-amzn2.mount: Succeeded.
-Aug 26 14:01:16 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
-Aug 26 14:01:17 localhost systemd[24351]: mnt-amzn2.mount: Succeeded.
-Aug 26 14:01:17 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
-Aug 26 14:03:09 localhost systemd[1]: session-235.scope: Succeeded.
-Aug 26 14:13:34 localhost systemd[24351]: mnt-amzn2.mount: Succeeded.
-Aug 26 14:13:34 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
-Aug 26 14:14:00 localhost systemd[24351]: mnt-amzn2.mount: Succeeded.
-Aug 26 14:14:00 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
-Aug 26 14:25:07 localhost systemd[1]: Started Session 299 of user root.
-Aug 26 14:25:17 localhost systemd[24351]: mnt-amzn2.mount: Succeeded.
-Aug 26 14:25:17 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
-Aug 26 14:25:18 localhost systemd[1]: session-296.scope: Succeeded.
+Aug 29 00:00:44 localhost systemd[1]: logrotate.service: Succeeded.
+Aug 29 00:00:44 localhost systemd[1]: Started Rotate log files.
+Aug 29 00:17:01 localhost systemd[1]: Starting Cleanup of Temporary Directories...
+Aug 29 00:17:01 localhost systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
+Aug 29 00:17:01 localhost systemd[1]: Started Cleanup of Temporary Directories.
+Aug 29 00:36:29 localhost systemd[1]: Starting Daily apt download activities...
+Aug 29 00:36:34 localhost systemd[1]: apt-daily.service: Succeeded.
+Aug 29 00:36:34 localhost systemd[1]: Started Daily apt download activities.
+Aug 29 00:59:31 localhost systemd[1]: session-375.scope: Succeeded.
+Aug 29 01:44:50 localhost systemd[1]: Started Session 381 of user root.
+Aug 29 01:55:40 localhost dhclient[27896]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
+Aug 29 01:55:40 localhost dhclient[27896]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Aug 29 01:55:40 localhost dhclient[27896]: bound to 158.247.223.84 -- renewal in 36365 seconds.
+Aug 29 02:03:09 localhost dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
+Aug 29 02:03:09 localhost dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Aug 29 02:03:09 localhost dhclient[631]: bound to 158.247.223.84 -- renewal in 33817 seconds.
+Aug 29 02:55:55 localhost systemd[1]: session-381.scope: Succeeded.
+Aug 29 06:49:43 localhost systemd[1]: Starting Daily apt upgrade and clean activities...
+Aug 29 06:49:45 localhost systemd[1]: apt-daily-upgrade.service: Succeeded.
+Aug 29 06:49:45 localhost systemd[1]: Started Daily apt upgrade and clean activities.
+Aug 29 11:26:46 localhost dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
+Aug 29 11:26:46 localhost dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Aug 29 11:26:46 localhost dhclient[631]: bound to 158.247.223.84 -- renewal in 35563 seconds.
+Aug 29 11:35:41 localhost systemd[1]: Started Session 394 of user root.
+Aug 29 12:01:45 localhost dhclient[27896]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
+Aug 29 12:01:45 localhost dhclient[27896]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Aug 29 12:01:45 localhost dhclient[27896]: bound to 158.247.223.84 -- renewal in 36097 seconds.
+Aug 29 12:08:03 localhost systemd[1]: Reloading.
+Aug 29 12:08:03 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Aug 29 12:08:03 localhost systemd[1]: Stopping LSB: exim Mail Transport Agent...
+Aug 29 12:08:03 localhost exim4[4158]: Stopping MTA: exim4_listener.
+Aug 29 12:08:03 localhost exim4[4158]: ALERT: exim paniclog /var/log/exim4/paniclog has non-zero size, mail system possibly broken
+Aug 29 12:08:03 localhost systemd[1]: exim4.service: Succeeded.
+Aug 29 12:08:03 localhost systemd[1]: Stopped LSB: exim Mail Transport Agent.
+Aug 29 12:08:04 localhost systemd[1]: Reloading.
+Aug 29 12:08:04 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Aug 29 12:08:04 localhost systemd[1]: Starting Daily apt download activities...
+Aug 29 12:08:04 localhost systemd[1]: apt-daily.service: Succeeded.
+Aug 29 12:08:04 localhost systemd[1]: Started Daily apt download activities.
+Aug 29 12:08:11 localhost systemd[1]: Reloading.
+Aug 29 12:08:11 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Aug 29 12:08:12 localhost systemd[1]: Reloading.
+Aug 29 12:08:12 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Aug 29 12:08:12 localhost systemd[1]: Reloading.
+Aug 29 12:08:12 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Aug 29 12:08:12 localhost systemd[1]: Created slice system-postfix.slice.
+Aug 29 12:08:12 localhost systemd[1]: Starting Postfix Mail Transport Agent (instance -)...
+Aug 29 12:08:13 localhost systemd[1]: Started Postfix Mail Transport Agent (instance -).
+Aug 29 12:08:13 localhost systemd[1]: Starting Postfix Mail Transport Agent...
+Aug 29 12:08:13 localhost systemd[1]: Started Postfix Mail Transport Agent.
+Aug 29 12:08:13 localhost systemd[1]: Reloading.
+Aug 29 12:08:13 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Aug 29 12:08:14 localhost systemd[1]: Reloading.
+Aug 29 12:08:15 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Aug 29 12:08:15 localhost systemd[1]: Stopping System Logging Service...
+Aug 29 12:08:15 localhost systemd[1]: rsyslog.service: Succeeded.
+Aug 29 12:08:15 localhost systemd[1]: Stopped System Logging Service.
+Aug 29 12:08:15 localhost systemd[1]: Starting System Logging Service...
+Aug 29 12:08:15 localhost systemd[1]: Started System Logging Service.
+Aug 29 12:09:35 localhost systemd[1]: Reloading.
+Aug 29 12:09:35 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Aug 29 12:09:35 localhost systemd[1]: Reloading.
+Aug 29 12:09:35 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Aug 29 12:09:35 localhost systemd[1]: Started Clean PHP session files every 30 mins.
+Aug 29 12:09:36 localhost php7.3-common: php_invoke calendar: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:36 localhost php7.3-common: php_invoke calendar: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:36 localhost php7.3-common: php_invoke ctype: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:36 localhost php7.3-common: php_invoke ctype: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:37 localhost php7.3-common: php_invoke exif: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:37 localhost php7.3-common: php_invoke exif: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:37 localhost php7.3-common: php_invoke fileinfo: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:37 localhost php7.3-common: php_invoke fileinfo: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:38 localhost php7.3-common: php_invoke ftp: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:38 localhost php7.3-common: php_invoke ftp: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:38 localhost php7.3-common: php_invoke gettext: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:38 localhost php7.3-common: php_invoke gettext: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:39 localhost php7.3-common: php_invoke iconv: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:39 localhost php7.3-common: php_invoke iconv: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:39 localhost php7.3-common: php_invoke pdo: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:39 localhost php7.3-common: php_invoke pdo: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:40 localhost php7.3-common: php_invoke phar: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:40 localhost php7.3-common: php_invoke phar: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:40 localhost php7.3-common: php_invoke posix: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:40 localhost php7.3-common: php_invoke posix: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:41 localhost php7.3-common: php_invoke shmop: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:41 localhost php7.3-common: php_invoke shmop: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:41 localhost php7.3-common: php_invoke sockets: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:41 localhost php7.3-common: php_invoke sockets: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:42 localhost php7.3-common: php_invoke sysvmsg: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:42 localhost php7.3-common: php_invoke sysvmsg: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:42 localhost php7.3-common: php_invoke sysvsem: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:42 localhost php7.3-common: php_invoke sysvsem: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:43 localhost php7.3-common: php_invoke sysvshm: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:43 localhost php7.3-common: php_invoke sysvshm: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:43 localhost php7.3-common: php_invoke tokenizer: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:43 localhost php7.3-common: php_invoke tokenizer: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:44 localhost php7.3-mysql: php_invoke mysqlnd: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:44 localhost php7.3-mysql: php_invoke mysqlnd: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:44 localhost php7.3-mysql: php_invoke mysqli: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:44 localhost php7.3-mysql: php_invoke mysqli: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:45 localhost php7.3-mysql: php_invoke pdo_mysql: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:45 localhost php7.3-mysql: php_invoke pdo_mysql: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:46 localhost php7.3-intl: php_invoke intl: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:46 localhost php7.3-intl: php_invoke intl: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:46 localhost php7.3-opcache: php_invoke opcache: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:46 localhost php7.3-opcache: php_invoke opcache: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:46 localhost php7.3-mbstring: php_invoke mbstring: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:46 localhost php7.3-mbstring: php_invoke mbstring: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:47 localhost php7.3-json: php_invoke json: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:47 localhost php7.3-json: php_invoke json: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:47 localhost php7.3-readline: php_invoke readline: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:47 localhost php7.3-readline: php_invoke readline: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:49 localhost php7.3-pspell: php_invoke pspell: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:49 localhost php7.3-pspell: php_invoke pspell: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:49 localhost php7.3-xml: php_invoke dom: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:49 localhost php7.3-xml: php_invoke dom: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:49 localhost php7.3-xml: php_invoke simplexml: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:49 localhost php7.3-xml: php_invoke simplexml: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:50 localhost php7.3-xml: php_invoke wddx: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:50 localhost php7.3-xml: php_invoke wddx: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:50 localhost php7.3-xml: php_invoke xml: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:50 localhost php7.3-xml: php_invoke xml: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:51 localhost php7.3-xml: php_invoke xmlreader: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:51 localhost php7.3-xml: php_invoke xmlreader: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:51 localhost php7.3-xml: php_invoke xmlwriter: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:51 localhost php7.3-xml: php_invoke xmlwriter: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:52 localhost php7.3-xml: php_invoke xsl: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:52 localhost php7.3-xml: php_invoke xsl: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:52 localhost php7.3-cli: php_invoke readline: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:52 localhost php7.3-cli: php_invoke fileinfo: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:52 localhost php7.3-cli: php_invoke mbstring: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:52 localhost php7.3-cli: php_invoke xmlwriter: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:52 localhost php7.3-cli: php_invoke mysqlnd: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:52 localhost php7.3-cli: php_invoke simplexml: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:52 localhost php7.3-cli: php_invoke json: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:52 localhost php7.3-cli: php_invoke shmop: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:52 localhost php7.3-cli: php_invoke mysqli: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:52 localhost php7.3-cli: php_invoke exif: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:52 localhost php7.3-cli: php_invoke phar: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:52 localhost php7.3-cli: php_invoke posix: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:52 localhost php7.3-cli: php_invoke tokenizer: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:52 localhost php7.3-cli: php_invoke ftp: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:52 localhost php7.3-cli: php_invoke sockets: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:52 localhost php7.3-cli: php_invoke wddx: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:52 localhost php7.3-cli: php_invoke pdo_mysql: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:52 localhost php7.3-cli: php_invoke ctype: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:52 localhost php7.3-cli: php_invoke sysvsem: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:52 localhost php7.3-cli: php_invoke xml: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:52 localhost php7.3-cli: php_invoke sysvmsg: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:53 localhost php7.3-cli: php_invoke calendar: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:53 localhost php7.3-cli: php_invoke xsl: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:53 localhost php7.3-cli: php_invoke xmlreader: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:53 localhost php7.3-cli: php_invoke pdo: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:53 localhost php7.3-cli: php_invoke iconv: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:53 localhost php7.3-cli: php_invoke gettext: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:53 localhost php7.3-cli: php_invoke intl: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:53 localhost php7.3-cli: php_invoke opcache: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:53 localhost php7.3-cli: php_invoke pspell: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:53 localhost php7.3-cli: php_invoke sysvshm: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:53 localhost php7.3-cli: php_invoke dom: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:53 localhost libapache2-mod-php7.3: php_invoke readline: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:53 localhost libapache2-mod-php7.3: php_invoke fileinfo: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:53 localhost libapache2-mod-php7.3: php_invoke mbstring: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:53 localhost libapache2-mod-php7.3: php_invoke xmlwriter: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:53 localhost libapache2-mod-php7.3: php_invoke mysqlnd: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:53 localhost libapache2-mod-php7.3: php_invoke simplexml: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:53 localhost libapache2-mod-php7.3: php_invoke json: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:53 localhost libapache2-mod-php7.3: php_invoke shmop: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:53 localhost libapache2-mod-php7.3: php_invoke mysqli: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:53 localhost libapache2-mod-php7.3: php_invoke exif: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:53 localhost libapache2-mod-php7.3: php_invoke phar: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:53 localhost libapache2-mod-php7.3: php_invoke posix: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:53 localhost libapache2-mod-php7.3: php_invoke tokenizer: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:53 localhost libapache2-mod-php7.3: php_invoke ftp: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:53 localhost libapache2-mod-php7.3: php_invoke sockets: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:53 localhost libapache2-mod-php7.3: php_invoke wddx: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:53 localhost libapache2-mod-php7.3: php_invoke pdo_mysql: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:53 localhost libapache2-mod-php7.3: php_invoke ctype: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:54 localhost libapache2-mod-php7.3: php_invoke sysvsem: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:54 localhost libapache2-mod-php7.3: php_invoke xml: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:54 localhost libapache2-mod-php7.3: php_invoke sysvmsg: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:54 localhost libapache2-mod-php7.3: php_invoke calendar: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:54 localhost libapache2-mod-php7.3: php_invoke xsl: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:54 localhost libapache2-mod-php7.3: php_invoke xmlreader: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:54 localhost libapache2-mod-php7.3: php_invoke pdo: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:54 localhost libapache2-mod-php7.3: php_invoke iconv: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:54 localhost libapache2-mod-php7.3: php_invoke gettext: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:54 localhost libapache2-mod-php7.3: php_invoke intl: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:54 localhost libapache2-mod-php7.3: php_invoke opcache: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:54 localhost libapache2-mod-php7.3: php_invoke pspell: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:54 localhost libapache2-mod-php7.3: php_invoke sysvshm: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:54 localhost libapache2-mod-php7.3: php_invoke dom: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:09:54 localhost libapache2-mod-php7.3: apache2_switch_mpm Switch to prefork
+Aug 29 12:09:54 localhost systemd[1]: Reloading.
+Aug 29 12:09:54 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Aug 29 12:09:55 localhost systemd[1]: Stopping The Apache HTTP Server...
+Aug 29 12:09:55 localhost apachectl[15658]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+Aug 29 12:09:55 localhost systemd[1]: apache2.service: Succeeded.
+Aug 29 12:09:55 localhost systemd[1]: Stopped The Apache HTTP Server.
+Aug 29 12:09:55 localhost systemd[1]: Starting The Apache HTTP Server...
+Aug 29 12:09:55 localhost apachectl[15664]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+Aug 29 12:09:55 localhost systemd[1]: Started The Apache HTTP Server.
+Aug 29 12:09:55 localhost libapache2-mod-php7.3: apache2_invoke: Enable module php7.3
+Aug 29 12:09:55 localhost systemd[1]: Reloading.
+Aug 29 12:09:55 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Aug 29 12:09:55 localhost systemd[1]: Stopping The Apache HTTP Server...
+Aug 29 12:09:55 localhost apachectl[15718]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+Aug 29 12:09:55 localhost systemd[1]: apache2.service: Succeeded.
+Aug 29 12:09:55 localhost systemd[1]: Stopped The Apache HTTP Server.
+Aug 29 12:09:55 localhost systemd[1]: Starting The Apache HTTP Server...
+Aug 29 12:09:55 localhost apachectl[15723]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+Aug 29 12:09:55 localhost systemd[1]: Started The Apache HTTP Server.
+Aug 29 12:09:56 localhost php7.3-gd: php_invoke gd: already enabled for PHP 7.3 cli sapi
+Aug 29 12:09:56 localhost php7.3-gd: php_invoke gd: already enabled for PHP 7.3 apache2 sapi
+Aug 29 12:39:01 localhost systemd[1]: Starting Clean php session files...
+Aug 29 12:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 29 12:39:01 localhost systemd[1]: Started Clean php session files.
+Aug 29 13:09:01 localhost systemd[1]: Starting Clean php session files...
+Aug 29 13:09:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 29 13:09:01 localhost systemd[1]: Started Clean php session files.
+Aug 29 13:39:01 localhost systemd[1]: Starting Clean php session files...
+Aug 29 13:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 29 13:39:01 localhost systemd[1]: Started Clean php session files.
+Aug 29 14:09:01 localhost systemd[1]: Starting Clean php session files...
+Aug 29 14:09:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 29 14:09:01 localhost systemd[1]: Started Clean php session files.
+Aug 29 14:15:59 localhost systemd[1]: Started Session 401 of user root.
+Aug 29 14:35:43 localhost systemd[1]: session-394.scope: Succeeded.
+Aug 29 14:39:01 localhost systemd[1]: Starting Clean php session files...
+Aug 29 14:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 29 14:39:01 localhost systemd[1]: Started Clean php session files.
+Aug 29 15:02:44 localhost roundcube-core: apache2_invoke: Enable configuration roundcube.conf
+Aug 29 15:02:44 localhost systemd[1]: Reloading.
+Aug 29 15:02:45 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Aug 29 15:02:45 localhost systemd[1]: Reloading The Apache HTTP Server.
+Aug 29 15:02:45 localhost apachectl[18990]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+Aug 29 15:02:45 localhost systemd[1]: Reloaded The Apache HTTP Server.
+Aug 29 15:02:45 localhost systemd[1]: Reloading.
+Aug 29 15:02:45 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Aug 29 15:02:45 localhost systemd[1]: Reloading The Apache HTTP Server.
+Aug 29 15:02:45 localhost apachectl[19024]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+Aug 29 15:02:45 localhost systemd[1]: Reloaded The Apache HTTP Server.
+Aug 29 15:03:26 localhost systemd[1]: Reloading.
+Aug 29 15:03:26 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Aug 29 15:03:26 localhost systemd[1]: Reloading.
+Aug 29 15:03:26 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Aug 29 15:03:26 localhost systemd[1]: Reloading.
+Aug 29 15:03:26 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Aug 29 15:03:27 localhost systemd[1]: Starting MariaDB 10.3.29 database server...
+Aug 29 15:03:27 localhost mysqld[19531]: 2021-08-29 15:03:27 0 [Note] /usr/sbin/mysqld (mysqld 10.3.29-MariaDB-0+deb10u1) starting as process 19531 ...
+Aug 29 15:03:27 localhost systemd[1]: Started MariaDB 10.3.29 database server.
+Aug 29 15:03:27 localhost /etc/mysql/debian-start[19566]: Upgrading MySQL tables if necessary.
+Aug 29 15:03:27 localhost systemd[1]: Reloading.
+Aug 29 15:03:27 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: /usr/bin/mysql_upgrade: the '--basedir' option is always ignored
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: Looking for 'mysql' as: /usr/bin/mysql
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: Looking for 'mysqlcheck' as: /usr/bin/mysqlcheck
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: Phase 1/7: Checking and upgrading mysql database
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: Running 'mysqlcheck' with connection arguments: --socket='/var/run/mysqld/mysqld.sock' --host='localhost' --socket='/var/run/mysqld/mysqld.sock' --host='localhost' --socket='/var/run/mysqld/mysqld.sock' 
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: # Connecting to localhost...
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: # Disconnecting from localhost...
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: Processing databases
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: mysql
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: mysql.column_stats                                 OK
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: mysql.columns_priv                                 OK
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: mysql.db                                           OK
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: mysql.event                                        OK
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: mysql.func                                         OK
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: mysql.gtid_slave_pos                               OK
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: mysql.help_category                                OK
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: mysql.help_keyword                                 OK
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: mysql.help_relation                                OK
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: mysql.help_topic                                   OK
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: mysql.host                                         OK
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: mysql.index_stats                                  OK
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: mysql.innodb_index_stats                           OK
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: mysql.innodb_table_stats                           OK
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: mysql.plugin                                       OK
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: mysql.proc                                         OK
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: mysql.procs_priv                                   OK
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: mysql.proxies_priv                                 OK
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: mysql.roles_mapping                                OK
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: mysql.servers                                      OK
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: mysql.table_stats                                  OK
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: mysql.tables_priv                                  OK
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: mysql.time_zone                                    OK
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: mysql.time_zone_leap_second                        OK
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: mysql.time_zone_name                               OK
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: mysql.time_zone_transition                         OK
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: mysql.time_zone_transition_type                    OK
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: mysql.transaction_registry                         OK
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: mysql.user                                         OK
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: Phase 2/7: Installing used storage engines... Skipped
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: Phase 3/7: Fixing views
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: Running 'mysqlcheck' with connection arguments: --socket='/var/run/mysqld/mysqld.sock' --host='localhost' --socket='/var/run/mysqld/mysqld.sock' --host='localhost' --socket='/var/run/mysqld/mysqld.sock' 
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: Processing databases
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: information_schema
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: mysql
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: performance_schema
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: Phase 4/7: Running 'mysql_fix_privilege_tables'
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: Phase 5/7: Fixing table and database names
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: Running 'mysqlcheck' with connection arguments: --socket='/var/run/mysqld/mysqld.sock' --host='localhost' --socket='/var/run/mysqld/mysqld.sock' --host='localhost' --socket='/var/run/mysqld/mysqld.sock' 
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: # Connecting to localhost...
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: # Disconnecting from localhost...
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: Processing databases
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: information_schema
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: mysql
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: performance_schema
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: Phase 6/7: Checking and upgrading tables
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: Running 'mysqlcheck' with connection arguments: --socket='/var/run/mysqld/mysqld.sock' --host='localhost' --socket='/var/run/mysqld/mysqld.sock' --host='localhost' --socket='/var/run/mysqld/mysqld.sock' 
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: # Connecting to localhost...
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: # Disconnecting from localhost...
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: Processing databases
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: information_schema
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: performance_schema
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: Phase 7/7: Running 'FLUSH PRIVILEGES'
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19569]: OK
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19647]: Checking for insecure root accounts.
+Aug 29 15:03:28 localhost /etc/mysql/debian-start[19657]: Triggering myisam-recover for all MyISAM tables and aria-recover for all Aria tables
+Aug 29 15:09:01 localhost systemd[1]: Starting Clean php session files...
+Aug 29 15:09:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 29 15:09:01 localhost systemd[1]: Started Clean php session files.
+Aug 29 15:16:20 localhost systemd[1]: session-220.scope: Succeeded.
+Aug 29 15:38:45 localhost systemd[1]: Started Session 406 of user root.
+Aug 29 15:39:01 localhost systemd[1]: Starting Clean php session files...
+Aug 29 15:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 29 15:39:01 localhost systemd[1]: Started Clean php session files.
+Aug 29 15:46:25 localhost systemd[1]: Reloading Postfix Mail Transport Agent (instance -).
+Aug 29 15:46:25 localhost systemd[1]: Reloaded Postfix Mail Transport Agent (instance -).
+Aug 29 15:46:25 localhost systemd[1]: Reloading Postfix Mail Transport Agent.
+Aug 29 15:46:25 localhost systemd[1]: Reloaded Postfix Mail Transport Agent.
+Aug 29 15:48:17 localhost systemd[1]: Reloading Postfix Mail Transport Agent (instance -).
+Aug 29 15:48:17 localhost systemd[1]: Reloaded Postfix Mail Transport Agent (instance -).
+Aug 29 15:48:17 localhost systemd[1]: Reloading Postfix Mail Transport Agent.
+Aug 29 15:48:17 localhost systemd[1]: Reloaded Postfix Mail Transport Agent.
+Aug 29 15:49:20 localhost systemd[1]: session-401.scope: Succeeded.
+Aug 29 15:49:25 localhost systemd[1]: Started Session 408 of user root.
+Aug 29 16:09:01 localhost systemd[1]: Starting Clean php session files...
+Aug 29 16:09:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 29 16:09:01 localhost systemd[1]: Started Clean php session files.
+Aug 29 16:22:11 localhost systemd[1]: postfix.service: Succeeded.
+Aug 29 16:22:11 localhost systemd[1]: Stopped Postfix Mail Transport Agent.
+Aug 29 16:22:11 localhost systemd[1]: Stopping Postfix Mail Transport Agent...
+Aug 29 16:22:11 localhost systemd[1]: Stopping Postfix Mail Transport Agent (instance -)...
+Aug 29 16:22:11 localhost postmulti[21791]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Aug 29 16:22:11 localhost systemd[1]: postfix@-.service: Succeeded.
+Aug 29 16:22:11 localhost systemd[1]: Stopped Postfix Mail Transport Agent (instance -).
+Aug 29 16:22:11 localhost systemd[1]: Starting Postfix Mail Transport Agent (instance -)...
+Aug 29 16:22:11 localhost configure-instance.sh[21801]: postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Aug 29 16:22:11 localhost configure-instance.sh[21801]: postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Aug 29 16:22:11 localhost configure-instance.sh[21801]: postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Aug 29 16:22:11 localhost configure-instance.sh[21801]: postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Aug 29 16:22:11 localhost configure-instance.sh[21801]: postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Aug 29 16:22:11 localhost configure-instance.sh[21801]: postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Aug 29 16:22:11 localhost postmulti[21863]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Aug 29 16:22:11 localhost postmulti[21863]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Aug 29 16:22:11 localhost postmulti[21863]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Aug 29 16:22:11 localhost postmulti[21863]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Aug 29 16:22:11 localhost postmulti[21863]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Aug 29 16:22:11 localhost postmulti[21863]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Aug 29 16:22:11 localhost postmulti[21863]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Aug 29 16:22:11 localhost postmulti[21863]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Aug 29 16:22:11 localhost postmulti[21863]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Aug 29 16:22:11 localhost postmulti[21863]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Aug 29 16:22:11 localhost postmulti[21863]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Aug 29 16:22:11 localhost postmulti[21863]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Aug 29 16:22:11 localhost postmulti[21863]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Aug 29 16:22:11 localhost postmulti[21863]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Aug 29 16:22:11 localhost postmulti[21863]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Aug 29 16:22:11 localhost postmulti[21863]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Aug 29 16:22:11 localhost postmulti[21863]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Aug 29 16:22:11 localhost postmulti[21863]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Aug 29 16:22:11 localhost postmulti[21863]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Aug 29 16:22:11 localhost postmulti[21863]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Aug 29 16:22:11 localhost postmulti[21863]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Aug 29 16:22:11 localhost systemd[1]: Started Postfix Mail Transport Agent (instance -).
+Aug 29 16:22:11 localhost systemd[1]: Starting Postfix Mail Transport Agent...
+Aug 29 16:22:11 localhost systemd[1]: Started Postfix Mail Transport Agent.
+Aug 29 16:38:18 localhost systemd[1]: Reloading.
+Aug 29 16:38:18 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Aug 29 16:38:18 localhost systemd[1]: Reloading.
+Aug 29 16:38:18 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Aug 29 16:38:19 localhost systemd[1]: /lib/systemd/system/dovecot.service:9: PIDFile= references path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.
+Aug 29 16:38:19 localhost systemd[1]: /lib/systemd/system/dovecot.service:9: PIDFile= references path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.
+Aug 29 16:38:19 localhost systemd[1]: Started Dovecot IMAP/POP3 email server.
+Aug 29 16:38:19 localhost systemd[1]: Reloading.
+Aug 29 16:38:19 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Aug 29 16:38:19 localhost systemd[1]: /lib/systemd/system/dovecot.service:9: PIDFile= references path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.
+Aug 29 16:38:19 localhost systemd[1]: Reloading.
+Aug 29 16:38:19 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Aug 29 16:38:19 localhost systemd[1]: /lib/systemd/system/dovecot.service:9: PIDFile= references path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.
+Aug 29 16:38:20 localhost systemd[1]: Reloading.
+Aug 29 16:38:20 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Aug 29 16:38:20 localhost systemd[1]: /lib/systemd/system/dovecot.service:9: PIDFile= references path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.
+Aug 29 16:38:20 localhost systemd[1]: Stopping Dovecot IMAP/POP3 email server...
+Aug 29 16:38:21 localhost systemd[1]: dovecot.service: Succeeded.
+Aug 29 16:38:21 localhost systemd[1]: Stopped Dovecot IMAP/POP3 email server.
+Aug 29 16:38:21 localhost systemd[1]: Started Dovecot IMAP/POP3 email server.
+Aug 29 16:39:01 localhost systemd[1]: Starting Clean php session files...
+Aug 29 16:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 29 16:39:01 localhost systemd[1]: Started Clean php session files.
+Aug 29 17:09:01 localhost systemd[1]: Starting Clean php session files...
+Aug 29 17:09:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 29 17:09:01 localhost systemd[1]: Started Clean php session files.
+Aug 29 17:39:01 localhost systemd[1]: Starting Clean php session files...
+Aug 29 17:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 29 17:39:01 localhost systemd[1]: Started Clean php session files.
+Aug 29 18:06:49 localhost systemd[1]: session-408.scope: Succeeded.
+Aug 29 18:09:01 localhost systemd[1]: Starting Clean php session files...
+Aug 29 18:09:02 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 29 18:09:02 localhost systemd[1]: Started Clean php session files.
+Aug 29 18:39:01 localhost systemd[1]: Starting Clean php session files...
+Aug 29 18:39:02 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 29 18:39:02 localhost systemd[1]: Started Clean php session files.
+Aug 29 18:51:19 localhost systemd[1]: session-406.scope: Succeeded.
+Aug 29 19:09:01 localhost systemd[1]: Starting Clean php session files...
+Aug 29 19:09:02 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 29 19:09:02 localhost systemd[1]: Started Clean php session files.
+Aug 29 19:35:42 localhost systemd[1]: Starting Daily apt download activities...
+Aug 29 19:35:43 localhost systemd[1]: apt-daily.service: Succeeded.
+Aug 29 19:35:43 localhost systemd[1]: Started Daily apt download activities.
+Aug 29 19:39:01 localhost systemd[1]: Starting Clean php session files...
+Aug 29 19:39:02 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 29 19:39:02 localhost systemd[1]: Started Clean php session files.
+Aug 29 20:09:01 localhost systemd[1]: Starting Clean php session files...
+Aug 29 20:09:02 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 29 20:09:02 localhost systemd[1]: Started Clean php session files.
+Aug 29 20:39:02 localhost systemd[1]: Starting Clean php session files...
+Aug 29 20:39:02 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 29 20:39:02 localhost systemd[1]: Started Clean php session files.
+Aug 29 21:09:01 localhost systemd[1]: Starting Clean php session files...
+Aug 29 21:09:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 29 21:09:01 localhost systemd[1]: Started Clean php session files.
+Aug 29 21:19:29 localhost dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
+Aug 29 21:19:29 localhost dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Aug 29 21:19:29 localhost dhclient[631]: bound to 158.247.223.84 -- renewal in 32645 seconds.
+Aug 29 21:39:01 localhost systemd[1]: Starting Clean php session files...
+Aug 29 21:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 29 21:39:01 localhost systemd[1]: Started Clean php session files.
+Aug 29 22:03:22 localhost dhclient[27896]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
+Aug 29 22:03:22 localhost dhclient[27896]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Aug 29 22:03:22 localhost dhclient[27896]: bound to 158.247.223.84 -- renewal in 32763 seconds.
+Aug 29 22:09:01 localhost systemd[1]: Starting Clean php session files...
+Aug 29 22:09:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 29 22:09:01 localhost systemd[1]: Started Clean php session files.
+Aug 29 22:39:01 localhost systemd[1]: Starting Clean php session files...
+Aug 29 22:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 29 22:39:01 localhost systemd[1]: Started Clean php session files.
+Aug 29 23:09:01 localhost systemd[1]: Starting Clean php session files...
+Aug 29 23:09:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 29 23:09:01 localhost systemd[1]: Started Clean php session files.
+Aug 29 23:39:01 localhost systemd[1]: Starting Clean php session files...
+Aug 29 23:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 29 23:39:01 localhost systemd[1]: Started Clean php session files.
+Aug 30 00:00:42 localhost systemd[1]: Starting Daily man-db regeneration...
+Aug 30 00:00:42 localhost systemd[1]: Starting Rotate log files...
+Aug 30 00:00:43 localhost systemd[1]: Reloading The Apache HTTP Server.
+Aug 30 00:00:43 localhost apachectl[27648]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+Aug 30 00:00:43 localhost systemd[1]: Reloaded The Apache HTTP Server.
+Aug 30 00:00:43 localhost systemd[1]: logrotate.service: Succeeded.
+Aug 30 00:00:43 localhost systemd[1]: Started Rotate log files.
+Aug 30 00:00:43 localhost systemd[1]: man-db.service: Succeeded.
+Aug 30 00:00:43 localhost systemd[1]: Started Daily man-db regeneration.
+Aug 30 00:09:01 localhost systemd[1]: Starting Clean php session files...
+Aug 30 00:09:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 30 00:09:01 localhost systemd[1]: Started Clean php session files.
+Aug 30 00:17:10 localhost systemd[1]: Starting Cleanup of Temporary Directories...
+Aug 30 00:17:10 localhost systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
+Aug 30 00:17:10 localhost systemd[1]: Started Cleanup of Temporary Directories.
+Aug 30 00:39:01 localhost systemd[1]: Starting Clean php session files...
+Aug 30 00:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 30 00:39:01 localhost systemd[1]: Started Clean php session files.
+Aug 30 01:09:01 localhost systemd[1]: Starting Clean php session files...
+Aug 30 01:09:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 30 01:09:01 localhost systemd[1]: Started Clean php session files.
+Aug 30 01:20:02 localhost systemd[1]: Started Session 438 of user root.
+Aug 30 01:39:01 localhost systemd[1]: Starting Clean php session files...
+Aug 30 01:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 30 01:39:01 localhost systemd[1]: Started Clean php session files.
+Aug 30 02:09:01 localhost systemd[1]: Starting Clean php session files...
+Aug 30 02:09:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 30 02:09:01 localhost systemd[1]: Started Clean php session files.
+Aug 30 02:39:01 localhost systemd[1]: Starting Clean php session files...
+Aug 30 02:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 30 02:39:01 localhost systemd[1]: Started Clean php session files.
+Aug 30 03:09:01 localhost systemd[1]: Starting Clean php session files...
+Aug 30 03:09:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 30 03:09:01 localhost systemd[1]: Started Clean php session files.
+Aug 30 03:39:01 localhost systemd[1]: Starting Clean php session files...
+Aug 30 03:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 30 03:39:01 localhost systemd[1]: Started Clean php session files.
+Aug 30 04:09:01 localhost systemd[1]: Starting Clean php session files...
+Aug 30 04:09:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 30 04:09:01 localhost systemd[1]: Started Clean php session files.
+Aug 30 04:10:35 localhost systemd[1]: session-438.scope: Succeeded.
+Aug 30 04:39:01 localhost systemd[1]: Starting Clean php session files...
+Aug 30 04:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 30 04:39:01 localhost systemd[1]: Started Clean php session files.
+Aug 30 05:09:01 localhost systemd[1]: Starting Clean php session files...
+Aug 30 05:09:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 30 05:09:01 localhost systemd[1]: Started Clean php session files.
+Aug 30 05:39:01 localhost systemd[1]: Starting Clean php session files...
+Aug 30 05:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 30 05:39:01 localhost systemd[1]: Started Clean php session files.
+Aug 30 06:04:42 localhost systemd[1]: Starting Daily apt upgrade and clean activities...
+Aug 30 06:04:44 localhost systemd[1]: apt-daily-upgrade.service: Succeeded.
+Aug 30 06:04:44 localhost systemd[1]: Started Daily apt upgrade and clean activities.
+Aug 30 06:09:01 localhost systemd[1]: Starting Clean php session files...
+Aug 30 06:09:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 30 06:09:01 localhost systemd[1]: Started Clean php session files.
+Aug 30 06:23:34 localhost dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
+Aug 30 06:23:34 localhost dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Aug 30 06:23:34 localhost dhclient[631]: bound to 158.247.223.84 -- renewal in 31517 seconds.
+Aug 30 06:33:42 localhost systemd[1]: Starting Daily apt download activities...
+Aug 30 06:33:46 localhost systemd[1]: apt-daily.service: Succeeded.
+Aug 30 06:33:46 localhost systemd[1]: Started Daily apt download activities.
+Aug 30 06:39:01 localhost systemd[1]: Starting Clean php session files...
+Aug 30 06:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 30 06:39:01 localhost systemd[1]: Started Clean php session files.
+Aug 30 07:09:01 localhost systemd[1]: Starting Clean php session files...
+Aug 30 07:09:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 30 07:09:01 localhost systemd[1]: Started Clean php session files.
+Aug 30 07:09:25 localhost dhclient[27896]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
+Aug 30 07:09:25 localhost dhclient[27896]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Aug 30 07:09:25 localhost dhclient[27896]: bound to 158.247.223.84 -- renewal in 35763 seconds.
+Aug 30 07:39:01 localhost systemd[1]: Starting Clean php session files...
+Aug 30 07:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 30 07:39:01 localhost systemd[1]: Started Clean php session files.
+Aug 30 08:09:01 localhost systemd[1]: Starting Clean php session files...
+Aug 30 08:09:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 30 08:09:01 localhost systemd[1]: Started Clean php session files.
+Aug 30 08:39:01 localhost systemd[1]: Starting Clean php session files...
+Aug 30 08:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 30 08:39:01 localhost systemd[1]: Started Clean php session files.
+Aug 30 09:09:01 localhost systemd[1]: Starting Clean php session files...
+Aug 30 09:09:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 30 09:09:01 localhost systemd[1]: Started Clean php session files.
+Aug 30 09:39:01 localhost systemd[1]: Starting Clean php session files...
+Aug 30 09:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 30 09:39:01 localhost systemd[1]: Started Clean php session files.
+Aug 30 10:09:01 localhost systemd[1]: Starting Clean php session files...
+Aug 30 10:09:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 30 10:09:01 localhost systemd[1]: Started Clean php session files.
+Aug 30 10:39:01 localhost systemd[1]: Starting Clean php session files...
+Aug 30 10:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 30 10:39:01 localhost systemd[1]: Started Clean php session files.
+Aug 30 11:09:01 localhost systemd[1]: Starting Clean php session files...
+Aug 30 11:09:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 30 11:09:01 localhost systemd[1]: Started Clean php session files.
+Aug 30 11:39:01 localhost systemd[1]: Starting Clean php session files...
+Aug 30 11:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 30 11:39:01 localhost systemd[1]: Started Clean php session files.
+Aug 30 12:09:00 localhost systemd[1]: Starting Clean php session files...
+Aug 30 12:09:00 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Aug 30 12:09:00 localhost systemd[1]: Started Clean php session files.
+Aug 30 12:23:16 localhost systemd[1]: Started Session 474 of user root.

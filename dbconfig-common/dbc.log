@@ -1,0 +1,10 @@
+W: use of dbc preinst hooks is now unnecesary and deprecated.
+ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2).
+unable to connect to mysql server.
+ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2).
+unable to connect to mysql server.
+ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2).
+unable to connect to mysql server.
+ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2).
+unable to connect to mysql server.
+populating database via sql...  done.

@@ -1,17 +1,7 @@
-Aug 22 06:25:05 localhost cron[394]: exim: insufficient disk space
-Aug 25 18:32:35 localhost s3fs[11073]: s3fs: credentials file /root/.passwd-s3fs should not have others permissions.
-Aug 25 21:21:25 localhost s3fs[11642]: s3fs: credentials file /root/.passwd-s3fs should not have others permissions.
-Aug 26 13:43:18 localhost s3fs[15936]: s3fs: credentials file /root/.passwd-s3fs should not have others permissions.
-Aug 26 14:00:15 localhost s3fs[16051]: s3fs: credentials file /root/.passwd-s3fs should not have others permissions.
-Aug 26 14:00:34 localhost s3fs[16072]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
-Aug 26 14:00:35 localhost s3fs[16072]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
-Aug 26 14:01:14 localhost s3fs[16088]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
-Aug 26 14:01:16 localhost s3fs[16088]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
-Aug 26 14:01:16 localhost s3fs[16105]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
-Aug 26 14:01:17 localhost s3fs[16105]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
-Aug 26 14:13:33 localhost s3fs[16177]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
-Aug 26 14:13:34 localhost s3fs[16177]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
-Aug 26 14:13:59 localhost s3fs[16229]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
-Aug 26 14:14:00 localhost s3fs[16229]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
-Aug 26 14:25:16 localhost s3fs[16518]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
-Aug 26 14:25:17 localhost s3fs[16518]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
+Aug 29 01:44:54 localhost s3fs[2137]: s3fs: MOUNTPOINT directory /mnt/amzn2 is not empty. if you are sure this is safe, can use the 'nonempty' mount option.
+Aug 29 11:35:43 localhost s3fs[3952]: s3fs: MOUNTPOINT directory /mnt/amzn2 is not empty. if you are sure this is safe, can use the 'nonempty' mount option.
+Aug 29 14:16:05 localhost s3fs[17347]: s3fs: MOUNTPOINT directory /mnt/amzn2 is not empty. if you are sure this is safe, can use the 'nonempty' mount option.
+Aug 29 15:38:47 localhost s3fs[21461]: s3fs: MOUNTPOINT directory /mnt/amzn2 is not empty. if you are sure this is safe, can use the 'nonempty' mount option.
+Aug 29 15:49:29 localhost s3fs[21637]: s3fs: MOUNTPOINT directory /mnt/amzn2 is not empty. if you are sure this is safe, can use the 'nonempty' mount option.
+Aug 30 01:20:15 localhost s3fs[27997]: s3fs: MOUNTPOINT directory /mnt/amzn2 is not empty. if you are sure this is safe, can use the 'nonempty' mount option.
+Aug 30 12:23:19 localhost s3fs[8684]: s3fs: MOUNTPOINT directory /mnt/amzn2 is not empty. if you are sure this is safe, can use the 'nonempty' mount option.

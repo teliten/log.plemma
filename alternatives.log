@@ -121,3 +121,13 @@ update-alternatives 2021-08-18 01:39:05: run with --quiet --install /usr/bin/c99
 update-alternatives 2021-08-18 01:39:05: link group c99 updated to point to /usr/bin/c99-gcc
 update-alternatives 2021-08-18 01:39:06: run with --install /usr/bin/c++ c++ /usr/bin/g++ 20
 update-alternatives 2021-08-18 01:39:06: link group c++ updated to point to /usr/bin/g++
+update-alternatives 2021-08-28 13:28:30: run with --install /bin/csh csh /bin/tcsh 20 --slave /usr/share/man/man1/csh.1.gz csh.1.gz /usr/share/man/man1/tcsh.1.gz
+update-alternatives 2021-08-28 13:28:30: link group csh updated to point to /bin/tcsh
+update-alternatives 2021-08-29 12:09:52: run with --install /usr/bin/php php /usr/bin/php7.3 73 --slave /usr/share/man/man1/php.1.gz php.1.gz /usr/share/man/man1/php7.3.1.gz
+update-alternatives 2021-08-29 12:09:52: link group php updated to point to /usr/bin/php7.3
+update-alternatives 2021-08-29 12:09:52: run with --install /usr/bin/phar phar /usr/bin/phar7.3 73 --slave /usr/share/man/man1/phar.1.gz phar.1.gz /usr/share/man/man1/phar7.3.1.gz
+update-alternatives 2021-08-29 12:09:52: link group phar updated to point to /usr/bin/phar7.3
+update-alternatives 2021-08-29 12:09:52: run with --install /usr/bin/phar.phar phar.phar /usr/bin/phar.phar7.3 73 --slave /usr/share/man/man1/phar.phar.1.gz phar.phar.1.gz /usr/share/man/man1/phar.phar7.3.1.gz
+update-alternatives 2021-08-29 12:09:52: link group phar.phar updated to point to /usr/bin/phar.phar7.3
+update-alternatives 2021-08-29 15:03:23: run with --quiet --install /usr/bin/awk awk /usr/bin/gawk 10 --slave /usr/share/man/man1/awk.1.gz awk.1.gz /usr/share/man/man1/gawk.1.gz --slave /usr/bin/nawk nawk /usr/bin/gawk --slave /usr/share/man/man1/nawk.1.gz nawk.1.gz /usr/share/man/man1/gawk.1.gz
+update-alternatives 2021-08-29 15:03:23: link group awk updated to point to /usr/bin/gawk

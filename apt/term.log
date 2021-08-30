@@ -3072,3 +3072,1313 @@ Unpacking s3fs (1.84-1) ...
 Setting up s3fs (1.84-1) ...
 Processing triggers for man-db (2.8.5-2) ...
 Log ended: 2021-08-25  13:11:25
+
+Log started: 2021-08-28  13:28:29
+Selecting previously unselected package tcsh.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 50118 files and directories currently installed.)
+Preparing to unpack .../tcsh_6.20.00-7+b1_amd64.deb ...
+Unpacking tcsh (6.20.00-7+b1) ...
+Setting up tcsh (6.20.00-7+b1) ...
+update-alternatives: using /bin/tcsh to provide /bin/csh (csh) in auto mode
+Processing triggers for man-db (2.8.5-2) ...
+Log ended: 2021-08-28  13:28:31
+
+Log started: 2021-08-29  12:08:03
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 50164 files and directories currently installed.)
+Removing exim4-daemon-light (4.92-8+deb10u6) ...
+Removing exim4-base (4.92-8+deb10u6) ...
+Removing exim4-config (4.92-8+deb10u6) ...
+Selecting previously unselected package postfix.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 50030 files and directories currently installed.)
+Preparing to unpack .../postfix_3.4.14-0+deb10u1_amd64.deb ...
+Unpacking postfix (3.4.14-0+deb10u1) ...
+Setting up postfix (3.4.14-0+deb10u1) ...
+Adding group `postfix' (GID 116) ...
+Done.
+Adding system user `postfix' (UID 109) ...
+Adding new user `postfix' (UID 109) with group `postfix' ...
+Not creating home directory `/var/spool/postfix'.
+Creating /etc/postfix/dynamicmaps.cf
+Adding group `postdrop' (GID 117) ...
+Done.
+setting myhostname: localhost
+setting alias maps
+setting alias database
+changing /etc/mailname to metacloud.plemma.cc
+setting myorigin
+setting destinations: $myhostname, metacloud.plemma.cc, localhost, localhost.localdomain, localhost
+setting relayhost: 
+setting mynetworks: 127.0.0.0/8 [::ffff:127.0.0.0]/104 [::1]/128
+setting mailbox_size_limit: 0
+setting recipient_delimiter: +
+setting inet_interfaces: all
+setting inet_protocols: all
+WARNING: /etc/aliases exists, but does not have a root alias.
+
+Postfix (main.cf) is now set up with a default configuration.  If you need to 
+make changes, edit /etc/postfix/main.cf (and others) as needed.  To view 
+Postfix configuration values, see postconf(1).
+
+After modifying main.cf, be sure to run 'service postfix reload'.
+
+kl Running newaliases
+Created symlink /etc/systemd/system/multi-user.target.wants/postfix.service → /lib/systemd/system/postfix.service.
+ Processing triggers for ufw (0.36-1) ...
+Processing triggers for systemd (241-7~deb10u8) ...
+Processing triggers for man-db (2.8.5-2) ...
+Processing triggers for rsyslog (8.1901.0-1) ...
+Log ended: 2021-08-29  12:08:15
+
+Log started: 2021-08-29  12:09:29
+Selecting previously unselected package dbconfig-common.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 50223 files and directories currently installed.)
+Preparing to unpack .../00-dbconfig-common_2.0.11+deb10u1_all.deb ...
+Unpacking dbconfig-common (2.0.11+deb10u1) ...
+Selecting previously unselected package php-common.
+Preparing to unpack .../01-php-common_2%3a69_all.deb ...
+Unpacking php-common (2:69) ...
+Selecting previously unselected package php7.3-common.
+Preparing to unpack .../02-php7.3-common_7.3.29-1~deb10u1_amd64.deb ...
+Unpacking php7.3-common (7.3.29-1~deb10u1) ...
+Selecting previously unselected package php7.3-json.
+Preparing to unpack .../03-php7.3-json_7.3.29-1~deb10u1_amd64.deb ...
+Unpacking php7.3-json (7.3.29-1~deb10u1) ...
+Selecting previously unselected package php7.3-opcache.
+Preparing to unpack .../04-php7.3-opcache_7.3.29-1~deb10u1_amd64.deb ...
+Unpacking php7.3-opcache (7.3.29-1~deb10u1) ...
+Selecting previously unselected package php7.3-readline.
+Preparing to unpack .../05-php7.3-readline_7.3.29-1~deb10u1_amd64.deb ...
+Unpacking php7.3-readline (7.3.29-1~deb10u1) ...
+Selecting previously unselected package libsodium23:amd64.
+Preparing to unpack .../06-libsodium23_1.0.17-1_amd64.deb ...
+Unpacking libsodium23:amd64 (1.0.17-1) ...
+Selecting previously unselected package php7.3-cli.
+Preparing to unpack .../07-php7.3-cli_7.3.29-1~deb10u1_amd64.deb ...
+Unpacking php7.3-cli (7.3.29-1~deb10u1) ...
+Selecting previously unselected package libapache2-mod-php7.3.
+Preparing to unpack .../08-libapache2-mod-php7.3_7.3.29-1~deb10u1_amd64.deb ...
+Unpacking libapache2-mod-php7.3 (7.3.29-1~deb10u1) ...
+Selecting previously unselected package libapache2-mod-php.
+Preparing to unpack .../09-libapache2-mod-php_2%3a7.3+69_all.deb ...
+Unpacking libapache2-mod-php (2:7.3+69) ...
+Selecting previously unselected package libxslt1.1:amd64.
+Preparing to unpack .../10-libxslt1.1_1.1.32-2.2~deb10u1_amd64.deb ...
+Unpacking libxslt1.1:amd64 (1.1.32-2.2~deb10u1) ...
+Selecting previously unselected package php7.3-xml.
+Preparing to unpack .../11-php7.3-xml_7.3.29-1~deb10u1_amd64.deb ...
+Unpacking php7.3-xml (7.3.29-1~deb10u1) ...
+Selecting previously unselected package php-xml.
+Preparing to unpack .../12-php-xml_2%3a7.3+69_all.deb ...
+Unpacking php-xml (2:7.3+69) ...
+Selecting previously unselected package php-pear.
+Preparing to unpack .../13-php-pear_1%3a1.10.6+submodules+notgz-1.1+deb10u2_all.deb ...
+Unpacking php-pear (1:1.10.6+submodules+notgz-1.1+deb10u2) ...
+Selecting previously unselected package php7.3-intl.
+Preparing to unpack .../14-php7.3-intl_7.3.29-1~deb10u1_amd64.deb ...
+Unpacking php7.3-intl (7.3.29-1~deb10u1) ...
+Selecting previously unselected package php-intl.
+Preparing to unpack .../15-php-intl_2%3a7.3+69_all.deb ...
+Unpacking php-intl (2:7.3+69) ...
+Selecting previously unselected package libconfig-inifiles-perl.
+Preparing to unpack .../16-libconfig-inifiles-perl_3.000001-1_all.deb ...
+Unpacking libconfig-inifiles-perl (3.000001-1) ...
+Selecting previously unselected package libaio1:amd64.
+Preparing to unpack .../17-libaio1_0.3.112-3_amd64.deb ...
+Unpacking libaio1:amd64 (0.3.112-3) ...
+Selecting previously unselected package libreadline5:amd64.
+Preparing to unpack .../18-libreadline5_5.2+dfsg-3+b13_amd64.deb ...
+Unpacking libreadline5:amd64 (5.2+dfsg-3+b13) ...
+Selecting previously unselected package libsnappy1v5:amd64.
+Preparing to unpack .../19-libsnappy1v5_1.1.7-1_amd64.deb ...
+Unpacking libsnappy1v5:amd64 (1.1.7-1) ...
+Selecting previously unselected package mariadb-client-core-10.3.
+Preparing to unpack .../20-mariadb-client-core-10.3_1%3a10.3.29-0+deb10u1_amd64.deb ...
+Unpacking mariadb-client-core-10.3 (1:10.3.29-0+deb10u1) ...
+Selecting previously unselected package mariadb-client-10.3.
+Preparing to unpack .../21-mariadb-client-10.3_1%3a10.3.29-0+deb10u1_amd64.deb ...
+Unpacking mariadb-client-10.3 (1:10.3.29-0+deb10u1) ...
+Selecting previously unselected package mariadb-client.
+Preparing to unpack .../22-mariadb-client_1%3a10.3.29-0+deb10u1_all.deb ...
+Unpacking mariadb-client (1:10.3.29-0+deb10u1) ...
+Selecting previously unselected package php7.3-mysql.
+Preparing to unpack .../23-php7.3-mysql_7.3.29-1~deb10u1_amd64.deb ...
+Unpacking php7.3-mysql (7.3.29-1~deb10u1) ...
+Selecting previously unselected package php-mysql.
+Preparing to unpack .../24-php-mysql_2%3a7.3+69_all.deb ...
+Unpacking php-mysql (2:7.3+69) ...
+Selecting previously unselected package roundcube-mysql.
+Preparing to unpack .../25-roundcube-mysql_1.3.16+dfsg.1-1~deb10u1_all.deb ...
+Unpacking roundcube-mysql (1.3.16+dfsg.1-1~deb10u1) ...
+Selecting previously unselected package php-net-socket.
+Preparing to unpack .../26-php-net-socket_1.0.14-2_all.deb ...
+Unpacking php-net-socket (1.0.14-2) ...
+Selecting previously unselected package php-auth-sasl.
+Preparing to unpack .../27-php-auth-sasl_1.0.6-3_all.deb ...
+Unpacking php-auth-sasl (1.0.6-3) ...
+Selecting previously unselected package php7.3-mbstring.
+Preparing to unpack .../28-php7.3-mbstring_7.3.29-1~deb10u1_amd64.deb ...
+Unpacking php7.3-mbstring (7.3.29-1~deb10u1) ...
+Selecting previously unselected package php-mbstring.
+Preparing to unpack .../29-php-mbstring_2%3a7.3+69_all.deb ...
+Unpacking php-mbstring (2:7.3+69) ...
+Selecting previously unselected package php-mail-mime.
+Preparing to unpack .../30-php-mail-mime_1.10.2-0.1_all.deb ...
+Unpacking php-mail-mime (1.10.2-0.1) ...
+Selecting previously unselected package php-net-smtp.
+Preparing to unpack .../31-php-net-smtp_1.8.0-1_all.deb ...
+Unpacking php-net-smtp (1.8.0-1) ...
+Selecting previously unselected package php-net-sieve.
+Preparing to unpack .../32-php-net-sieve_1.4.1-1_all.deb ...
+Unpacking php-net-sieve (1.4.1-1) ...
+Selecting previously unselected package roundcube-core.
+Preparing to unpack .../33-roundcube-core_1.3.16+dfsg.1-1~deb10u1_all.deb ...
+W: use of dbc preinst hooks is now unnecesary and deprecated.
+Unpacking roundcube-core (1.3.16+dfsg.1-1~deb10u1) ...
+Selecting previously unselected package roundcube.
+Preparing to unpack .../34-roundcube_1.3.16+dfsg.1-1~deb10u1_all.deb ...
+Unpacking roundcube (1.3.16+dfsg.1-1~deb10u1) ...
+Selecting previously unselected package libaspell15:amd64.
+Preparing to unpack .../35-libaspell15_0.60.7~20110707-6+deb10u1_amd64.deb ...
+Unpacking libaspell15:amd64 (0.60.7~20110707-6+deb10u1) ...
+Selecting previously unselected package aspell.
+Preparing to unpack .../36-aspell_0.60.7~20110707-6+deb10u1_amd64.deb ...
+Unpacking aspell (0.60.7~20110707-6+deb10u1) ...
+Selecting previously unselected package aspell-en.
+Preparing to unpack .../37-aspell-en_2018.04.16-0-1_all.deb ...
+Unpacking aspell-en (2018.04.16-0-1) ...
+Selecting previously unselected package fonts-dejavu-core.
+Preparing to unpack .../38-fonts-dejavu-core_2.37-1_all.deb ...
+Unpacking fonts-dejavu-core (2.37-1) ...
+Selecting previously unselected package fontconfig-config.
+Preparing to unpack .../39-fontconfig-config_2.13.1-2_all.deb ...
+Unpacking fontconfig-config (2.13.1-2) ...
+Selecting previously unselected package libdbi-perl:amd64.
+Preparing to unpack .../40-libdbi-perl_1.642-1+deb10u2_amd64.deb ...
+Unpacking libdbi-perl:amd64 (1.642-1+deb10u2) ...
+Selecting previously unselected package libdbd-mysql-perl:amd64.
+Preparing to unpack .../41-libdbd-mysql-perl_4.050-2_amd64.deb ...
+Unpacking libdbd-mysql-perl:amd64 (4.050-2) ...
+Selecting previously unselected package libfontconfig1:amd64.
+Preparing to unpack .../42-libfontconfig1_2.13.1-2_amd64.deb ...
+Unpacking libfontconfig1:amd64 (2.13.1-2) ...
+Selecting previously unselected package libjpeg62-turbo:amd64.
+Preparing to unpack .../43-libjpeg62-turbo_1%3a1.5.2-2+deb10u1_amd64.deb ...
+Unpacking libjpeg62-turbo:amd64 (1:1.5.2-2+deb10u1) ...
+Selecting previously unselected package libjbig0:amd64.
+Preparing to unpack .../44-libjbig0_2.1-3.1+b2_amd64.deb ...
+Unpacking libjbig0:amd64 (2.1-3.1+b2) ...
+Selecting previously unselected package libwebp6:amd64.
+Preparing to unpack .../45-libwebp6_0.6.1-2+deb10u1_amd64.deb ...
+Unpacking libwebp6:amd64 (0.6.1-2+deb10u1) ...
+Selecting previously unselected package libtiff5:amd64.
+Preparing to unpack .../46-libtiff5_4.1.0+git191117-2~deb10u2_amd64.deb ...
+Unpacking libtiff5:amd64 (4.1.0+git191117-2~deb10u2) ...
+Selecting previously unselected package libxpm4:amd64.
+Preparing to unpack .../47-libxpm4_1%3a3.5.12-1_amd64.deb ...
+Unpacking libxpm4:amd64 (1:3.5.12-1) ...
+Selecting previously unselected package libgd3:amd64.
+Preparing to unpack .../48-libgd3_2.2.5-5.2_amd64.deb ...
+Unpacking libgd3:amd64 (2.2.5-5.2) ...
+Selecting previously unselected package libterm-readkey-perl.
+Preparing to unpack .../49-libterm-readkey-perl_2.38-1_amd64.deb ...
+Unpacking libterm-readkey-perl (2.38-1) ...
+Selecting previously unselected package php7.3-gd.
+Preparing to unpack .../50-php7.3-gd_7.3.29-1~deb10u1_amd64.deb ...
+Unpacking php7.3-gd (7.3.29-1~deb10u1) ...
+Selecting previously unselected package php-gd.
+Preparing to unpack .../51-php-gd_2%3a7.3+69_all.deb ...
+Unpacking php-gd (2:7.3+69) ...
+Selecting previously unselected package php7.3-pspell.
+Preparing to unpack .../52-php7.3-pspell_7.3.29-1~deb10u1_amd64.deb ...
+Unpacking php7.3-pspell (7.3.29-1~deb10u1) ...
+Selecting previously unselected package php-pspell.
+Preparing to unpack .../53-php-pspell_2%3a7.3+69_all.deb ...
+Unpacking php-pspell (2:7.3+69) ...
+Setting up libconfig-inifiles-perl (3.000001-1) ...
+Setting up php-common (2:69) ...
+Created symlink /etc/systemd/system/timers.target.wants/phpsessionclean.timer → /lib/systemd/system/phpsessionclean.timer.
+Setting up libreadline5:amd64 (5.2+dfsg-3+b13) ...
+Setting up libsodium23:amd64 (1.0.17-1) ...
+Setting up libxpm4:amd64 (1:3.5.12-1) ...
+Setting up libaspell15:amd64 (0.60.7~20110707-6+deb10u1) ...
+Setting up dbconfig-common (2.0.11+deb10u1) ...
+
+Creating config file /etc/dbconfig-common/config with new version
+Setting up libjbig0:amd64 (2.1-3.1+b2) ...
+Setting up libsnappy1v5:amd64 (1.1.7-1) ...
+Setting up php7.3-common (7.3.29-1~deb10u1) ...
+
+Creating config file /etc/php/7.3/mods-available/calendar.ini with new version
+
+Creating config file /etc/php/7.3/mods-available/ctype.ini with new version
+
+Creating config file /etc/php/7.3/mods-available/exif.ini with new version
+
+Creating config file /etc/php/7.3/mods-available/fileinfo.ini with new version
+
+Creating config file /etc/php/7.3/mods-available/ftp.ini with new version
+
+Creating config file /etc/php/7.3/mods-available/gettext.ini with new version
+
+Creating config file /etc/php/7.3/mods-available/iconv.ini with new version
+
+Creating config file /etc/php/7.3/mods-available/pdo.ini with new version
+
+Creating config file /etc/php/7.3/mods-available/phar.ini with new version
+
+Creating config file /etc/php/7.3/mods-available/posix.ini with new version
+
+Creating config file /etc/php/7.3/mods-available/shmop.ini with new version
+
+Creating config file /etc/php/7.3/mods-available/sockets.ini with new version
+
+Creating config file /etc/php/7.3/mods-available/sysvmsg.ini with new version
+
+Creating config file /etc/php/7.3/mods-available/sysvsem.ini with new version
+
+Creating config file /etc/php/7.3/mods-available/sysvshm.ini with new version
+
+Creating config file /etc/php/7.3/mods-available/tokenizer.ini with new version
+Setting up php-net-socket (1.0.14-2) ...
+Setting up libjpeg62-turbo:amd64 (1:1.5.2-2+deb10u1) ...
+Setting up libwebp6:amd64 (0.6.1-2+deb10u1) ...
+Setting up fonts-dejavu-core (2.37-1) ...
+Setting up php7.3-mysql (7.3.29-1~deb10u1) ...
+
+Creating config file /etc/php/7.3/mods-available/mysqlnd.ini with new version
+
+Creating config file /etc/php/7.3/mods-available/mysqli.ini with new version
+
+Creating config file /etc/php/7.3/mods-available/pdo_mysql.ini with new version
+Setting up aspell (0.60.7~20110707-6+deb10u1) ...
+Setting up php7.3-intl (7.3.29-1~deb10u1) ...
+
+Creating config file /etc/php/7.3/mods-available/intl.ini with new version
+Setting up php-net-sieve (1.4.1-1) ...
+Setting up php-net-smtp (1.8.0-1) ...
+Setting up php7.3-opcache (7.3.29-1~deb10u1) ...
+
+Creating config file /etc/php/7.3/mods-available/opcache.ini with new version
+Setting up libxslt1.1:amd64 (1.1.32-2.2~deb10u1) ...
+Setting up libtiff5:amd64 (4.1.0+git191117-2~deb10u2) ...
+Setting up libterm-readkey-perl (2.38-1) ...
+Setting up libaio1:amd64 (0.3.112-3) ...
+Setting up libdbi-perl:amd64 (1.642-1+deb10u2) ...
+Setting up php-mysql (2:7.3+69) ...
+Setting up php7.3-mbstring (7.3.29-1~deb10u1) ...
+
+Creating config file /etc/php/7.3/mods-available/mbstring.ini with new version
+Setting up php7.3-json (7.3.29-1~deb10u1) ...
+
+Creating config file /etc/php/7.3/mods-available/json.ini with new version
+Setting up php7.3-readline (7.3.29-1~deb10u1) ...
+
+Creating config file /etc/php/7.3/mods-available/readline.ini with new version
+Setting up fontconfig-config (2.13.1-2) ...
+Setting up aspell-en (2018.04.16-0-1) ...
+Setting up php-mbstring (2:7.3+69) ...
+Setting up php7.3-pspell (7.3.29-1~deb10u1) ...
+
+Creating config file /etc/php/7.3/mods-available/pspell.ini with new version
+Setting up php-intl (2:7.3+69) ...
+Setting up libdbd-mysql-perl:amd64 (4.050-2) ...
+Setting up php7.3-xml (7.3.29-1~deb10u1) ...
+
+Creating config file /etc/php/7.3/mods-available/dom.ini with new version
+
+Creating config file /etc/php/7.3/mods-available/simplexml.ini with new version
+
+Creating config file /etc/php/7.3/mods-available/wddx.ini with new version
+
+Creating config file /etc/php/7.3/mods-available/xml.ini with new version
+
+Creating config file /etc/php/7.3/mods-available/xmlreader.ini with new version
+
+Creating config file /etc/php/7.3/mods-available/xmlwriter.ini with new version
+
+Creating config file /etc/php/7.3/mods-available/xsl.ini with new version
+Setting up mariadb-client-core-10.3 (1:10.3.29-0+deb10u1) ...
+Setting up php7.3-cli (7.3.29-1~deb10u1) ...
+update-alternatives: using /usr/bin/php7.3 to provide /usr/bin/php (php) in auto mode
+update-alternatives: using /usr/bin/phar7.3 to provide /usr/bin/phar (phar) in auto mode
+update-alternatives: using /usr/bin/phar.phar7.3 to provide /usr/bin/phar.phar (phar.phar) in auto mode
+
+Creating config file /etc/php/7.3/cli/php.ini with new version
+Setting up libfontconfig1:amd64 (2.13.1-2) ...
+Setting up php-xml (2:7.3+69) ...
+Setting up php-pspell (2:7.3+69) ...
+Setting up php-pear (1:1.10.6+submodules+notgz-1.1+deb10u2) ...
+Setting up libapache2-mod-php7.3 (7.3.29-1~deb10u1) ...
+
+Creating config file /etc/php/7.3/apache2/php.ini with new version
+Module mpm_event disabled.
+Enabling module mpm_prefork.
+apache2_switch_mpm Switch to prefork
+apache2_invoke: Enable module php7.3
+Setting up php-mail-mime (1.10.2-0.1) ...
+Setting up libgd3:amd64 (2.2.5-5.2) ...
+Setting up mariadb-client-10.3 (1:10.3.29-0+deb10u1) ...
+Setting up libapache2-mod-php (2:7.3+69) ...
+Setting up roundcube-mysql (1.3.16+dfsg.1-1~deb10u1) ...
+Setting up php-auth-sasl (1.0.6-3) ...
+Setting up php7.3-gd (7.3.29-1~deb10u1) ...
+
+Creating config file /etc/php/7.3/mods-available/gd.ini with new version
+Setting up mariadb-client (1:10.3.29-0+deb10u1) ...
+Setting up roundcube-core (1.3.16+dfsg.1-1~deb10u1) ...
+[?1049h[22;0;0t[1;41r[4l[?25l(B[m[37m[40m[1;41r[H[2J[1;1H[97m[44m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1;1H[37mPackage configuration[14;3H[30m[47m┌──────────────────────────────────────────────────────────────────────────────┤ [31mConfiguring roundcube-core[30m ├──────────────────────────────────────────────────────────────────────────────┐[15;3H│                                                                                                                                                                                          │[97m[40m [16;3H[30m[47m│ The roundcube package must have a database installed and configured before it can be used. This can be optionally handled with dbconfig-common.                                          │[97m[40m [17;3H[30m[47m│                                                                                                                                                                                          │[97m[40m [18;3H[30m[47m│ If you are an advanced database administrator and know that you want to perform this configuration manually, or if your database has already been installed and configured, you should   │[97m[40m [19;3H[30m[47m│ refuse this option. Details on what needs to be done should most likely be provided in /usr/share/doc/roundcube.                                                                         │[97m[40m [20;3H[30m[47m│                                                                                                                                                                                          │[97m[40m [21;3H[30m[47m│ Otherwise, you should probably choose this option.                                                                                                                                       │[97m[40m [22;3H[30m[47m│                                                                                                                                                                                          │[97m[40m [23;3H[30m[47m│ Configure database for roundcube with dbconfig-common?                                                                                                                                   │[97m[40m [24;3H[30m[47m│                                                                                                                                                                                          │[97m[40m [25;3H[30m[47m│                                                         [37m[41m<Yes>[30m[47m                                                            <No>                                                            │[97m[40m [26;3H[30m[47m│                                                                                                                                                                                          │[97m[40m [27;3H[30m[47m└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘[97m[40m [28;4H                                                                                                                                                                                            [25;62H[?12l[?25h[41;1H[37m(B[m[39;49m[K[?1049l[23;0;0t[?1049h[22;0;0t[1;41r[4l[?25l(B[m[37m[40m[1;41r[H[2J[1;1H[97m[44m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1;1H[?25l[?12l[?25h[37mPackage configuration[16;30H[30m[47m┌───────────────────────────────────────────────────┤ [31mConfiguring roundcube-core[30m ├───────────────────────────────────────────────────┐[17;30H│ Please provide a password for roundcube to register with the database server. If left blank, a random password will be generated.  │[97m[40m [18;30H[30m[47m│                                                                                                                                    │[97m[40m [19;30H[30m[47m│ MySQL application password for roundcube:                                                                                          │[97m[40m [20;30H[30m[47m│                                                                                                                                    │[97m[40m [21;30H[30m[47m│ [37m[44m__________________________________________________________________________________________________________________________________[30m[47m │[97m[40m [22;30H[30m[47m│                                                                                                                                    │[97m[40m [23;30H[30m[47m│                                       <Ok>                                           <Cancel>                                      │[97m[40m [24;30H[30m[47m│                                                                                                                                    │[97m[40m [25;30H[30m[47m└────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘[97m[40m [26;31H                                                                                                                                      [21;32H[37m[44m********[?25l[?12l[?25h[41;1H[40m(B[m[39;49m[K[?1049l[23;0;0t[?1049h[22;0;0t[1;41r[4l[?25l(B[m[37m[40m[1;41r[H[2J[1;1H[97m[44m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1;1H[?25l[?12l[?25h[37mPackage configuration[16;76H[30m[47m┌────┤ [31mConfiguring roundcube-core[30m ├─────┐[17;76H│                                       │[97m[40m [18;76H[30m[47m│                                       │[97m[40m [19;76H[30m[47m│ Password confirmation:                │[97m[40m [20;76H[30m[47m│                                       │[97m[40m [21;76H[30m[47m│ [37m[44m_____________________________________[30m[47m │[97m[40m [22;76H[30m[47m│                                       │[97m[40m [23;76H[30m[47m│        <Ok>            <Cancel>       │[97m[40m [24;76H[30m[47m│                                       │[97m[40m [25;76H[30m[47m└───────────────────────────────────────┘[97m[40m [26;77H                                         [21;78H[37m[44m*********[?25l[?12l[?25h[41;1H[40m(B[m[39;49m[K[?1049l[23;0;0t[?1049h[22;0;0t[1;41r[4l[?25l(B[m[37m[40m[1;41r[H[2J[1;1H[97m[44m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1;1H[37mPackage configuration[17;71H[30m[47m┌──────────┤ [31mConfiguring roundcube-core[30m ├──────────┐[18;71H│                                                  │[97m[40m [19;71H[30m[47m│ Password mismatch                                │[97m[40m [20;71H[30m[47m│                                                  │[97m[40m [21;71H[30m[47m│ The password and its confirmation do not match.  │[97m[40m [22;71H[30m[47m│                                                  │[97m[40m [23;71H[30m[47m│                      [37m[41m<Ok>[30m[47m                        │[97m[40m [24;71H[30m[47m│                                                  │[97m[40m [25;71H[30m[47m└──────────────────────────────────────────────────┘[97m[40m [26;72H                                                    [23;95H[?12l[?25h[41;1H[37m(B[m[39;49m[K[?1049l[23;0;0t[?1049h[22;0;0t[1;41r[4l[?25l(B[m[37m[40m[1;41r[H[2J[1;1H[97m[44m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1;1H[?25l[?12l[?25h[37mPackage configuration[16;30H[30m[47m┌───────────────────────────────────────────────────┤ [31mConfiguring roundcube-core[30m ├───────────────────────────────────────────────────┐[17;30H│ Please provide a password for roundcube to register with the database server. If left blank, a random password will be generated.  │[97m[40m [18;30H[30m[47m│                                                                                                                                    │[97m[40m [19;30H[30m[47m│ MySQL application password for roundcube:                                                                                          │[97m[40m [20;30H[30m[47m│                                                                                                                                    │[97m[40m [21;30H[30m[47m│ [37m[44m__________________________________________________________________________________________________________________________________[30m[47m │[97m[40m [22;30H[30m[47m│                                                                                                                                    │[97m[40m [23;30H[30m[47m│                                       <Ok>                                           <Cancel>                                      │[97m[40m [24;30H[30m[47m│                                                                                                                                    │[97m[40m [25;30H[30m[47m└────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘[97m[40m [26;31H                                                                                                                                      [21;32H[37m[44m********[?25l[?12l[?25h[41;1H[40m(B[m[39;49m[K[?1049l[23;0;0t[?1049h[22;0;0t[1;41r[4l[?25l(B[m[37m[40m[1;41r[H[2J[1;1H[97m[44m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1;1H[?25l[?12l[?25h[37mPackage configuration[16;76H[30m[47m┌────┤ [31mConfiguring roundcube-core[30m ├─────┐[17;76H│                                       │[97m[40m [18;76H[30m[47m│                                       │[97m[40m [19;76H[30m[47m│ Password confirmation:                │[97m[40m [20;76H[30m[47m│                                       │[97m[40m [21;76H[30m[47m│ [37m[44m_____________________________________[30m[47m │[97m[40m [22;76H[30m[47m│                                       │[97m[40m [23;76H[30m[47m│        <Ok>            <Cancel>       │[97m[40m [24;76H[30m[47m│                                       │[97m[40m [25;76H[30m[47m└───────────────────────────────────────┘[97m[40m [26;77H                                         [21;78H[37m[44m********[?25l[?12l[?25h[41;1H[40m(B[m[39;49m[K[?1049l[23;0;0tdbconfig-common: writing config to /etc/dbconfig-common/roundcube.conf
+
+Creating config file /etc/dbconfig-common/roundcube.conf with new version
+
+Creating config file /etc/roundcube/debian-db.php with new version
+[?1049h[22;0;0t[1;41r[4l[?25l(B[m[37m[40m[1;41r[H[2J[1;1H[97m[44m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1;1H[?25l[?12l[?25h[37mPackage configuration[16;28H[30m[47m┌────────────────────────────────────────────────────┤ [31mConfiguring roundcube-core[30m ├─────────────────────────────────────────────────────┐[17;28H│ Please provide the password for the administrative account "root" with which this package should create its MySQL database and user.  │[97m[40m [18;28H[30m[47m│                                                                                                                                       │[97m[40m [19;28H[30m[47m│ Password of the database's administrative user:                                                                                       │[97m[40m [20;28H[30m[47m│                                                                                                                                       │[97m[40m [21;28H[30m[47m│ [37m[44m_____________________________________________________________________________________________________________________________________[30m[47m │[97m[40m [22;28H[30m[47m│                                                                                                                                       │[97m[40m [23;28H[30m[47m│                                                                <Ok>                                                                   │[97m[40m [24;28H[30m[47m│                                                                                                                                       │[97m[40m [25;28H[30m[47m└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘[97m[40m [26;29H                                                                                                                                         [21;30H[37m[44m********[?25l[?12l[?25h[41;1H[40m(B[m[39;49m[K[?1049l[23;0;0tERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2).
+unable to connect to mysql server.
+error encountered creating user:
+ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+[?1049h[22;0;0t[1;41r[4l[?25l(B[m[37m[40m[1;41r[H[2J[1;1H[97m[44m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1;1H[37mPackage configuration[7;32H[30m[47m┌────────────────────────────────────────────────┤ [31mConfiguring roundcube-core[30m ├─────────────────────────────────────────────────┐[8;32H│ An error occurred while installing the database:                                                                              │[97m[40m [9;32H[30m[47m│                                                                                                                               │[97m[40m [10;32H[30m[47m│ ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) . Your options are:  │[97m[40m [11;32H[30m[47m│  * abort - Causes the operation to fail; you will need to downgrade,                                                          │[97m[40m [12;32H[30m[47m│    reinstall, reconfigure this package, or otherwise manually intervene                                                       │[97m[40m [13;32H[30m[47m│    to continue using it. This will usually also impact your ability to                                                        │[97m[40m [14;32H[30m[47m│    install other packages until the installation failure is resolved.                                                         │[97m[40m [15;32H[30m[47m│  * retry - Prompts once more with all the configuration questions                                                             │[97m[40m [16;32H[30m[47m│    (including ones you may have missed due to the debconf priority                                                            │[97m[40m [17;32H[30m[47m│    setting) and makes another attempt at performing the operation.                                                            │[97m[40m [18;32H[30m[47m│  * retry (skip questions) - Immediately attempts the operation again,                                                         │[97m[40m [19;32H[30m[47m│    skipping all questions. This is normally useful only if you have                                                           │[97m[40m [20;32H[30m[47m│    solved the underlying problem since the time the error occurred.                                                           │[97m[40m [21;32H[30m[47m│  * ignore - Continues the operation ignoring dbconfig-common errors.                                                          │[97m[40m [22;32H[30m[47m│    This will usually leave this package without a functional database.                                                        │[97m[40m [23;32H[30m[47m│                                                                                                                               │[97m[40m [24;32H[30m[47m│ Next step for database installation:                                                                                          │[97m[40m [25;32H[30m[47m│                                                                                                                               │[97m[40m [26;32H[30m[47m│                                                    [37m[41mabort                  [30m[47m                                                    │[97m[40m [27;32H[30m[47m│                                                    retry                                                                      │[97m[40m [28;32H[30m[47m│                                                    retry (skip questions)                                                     │[97m[40m [29;32H[30m[47m│                                                    ignore                                                                     │[97m[40m [30;32H[30m[47m│                                                                                                                               │[97m[40m [31;32H[30m[47m│                                                                                                                               │[97m[40m [32;32H[30m[47m│                                                            <Ok>                                                               │[97m[40m [33;32H[30m[47m│                                                                                                                               │[97m[40m [34;32H[30m[47m└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘[97m[40m [35;33H                                                                                                                                 [26;85H[?12l[?25h[41;1H[37m(B[m[39;49m[K[?1049l[23;0;0tdbconfig-common: roundcube configure: aborted.
+dbconfig-common: flushing administrative password
+[1mdpkg:[0m error processing package roundcube-core (--configure):
+ installed roundcube-core package post-installation script subprocess returned error exit status 1
+Setting up php-gd (2:7.3+69) ...
+[1mdpkg:[0m dependency problems prevent configuration of roundcube:
+ roundcube depends on roundcube-core (= 1.3.16+dfsg.1-1~deb10u1); however:
+  Package roundcube-core is not configured yet.
+
+[1mdpkg:[0m error processing package roundcube (--configure):
+ dependency problems - leaving unconfigured
+Processing triggers for libc-bin (2.28-10) ...
+Processing triggers for man-db (2.8.5-2) ...
+Processing triggers for dictionaries-common (1.28.1) ...
+aspell-autobuildhash: processing: en [en-common].
+aspell-autobuildhash: processing: en [en-variant_0].
+aspell-autobuildhash: processing: en [en-variant_1].
+aspell-autobuildhash: processing: en [en-variant_2].
+aspell-autobuildhash: processing: en [en-w_accents-only].
+aspell-autobuildhash: processing: en [en-wo_accents-only].
+aspell-autobuildhash: processing: en [en_AU-variant_0].
+aspell-autobuildhash: processing: en [en_AU-variant_1].
+aspell-autobuildhash: processing: en [en_AU-w_accents-only].
+aspell-autobuildhash: processing: en [en_AU-wo_accents-only].
+aspell-autobuildhash: processing: en [en_CA-variant_0].
+aspell-autobuildhash: processing: en [en_CA-variant_1].
+aspell-autobuildhash: processing: en [en_CA-w_accents-only].
+aspell-autobuildhash: processing: en [en_CA-wo_accents-only].
+aspell-autobuildhash: processing: en [en_GB-ise-w_accents-only].
+aspell-autobuildhash: processing: en [en_GB-ise-wo_accents-only].
+aspell-autobuildhash: processing: en [en_GB-ize-w_accents-only].
+aspell-autobuildhash: processing: en [en_GB-ize-wo_accents-only].
+aspell-autobuildhash: processing: en [en_GB-variant_0].
+aspell-autobuildhash: processing: en [en_GB-variant_1].
+aspell-autobuildhash: processing: en [en_US-w_accents-only].
+aspell-autobuildhash: processing: en [en_US-wo_accents-only].
+Processing triggers for libapache2-mod-php7.3 (7.3.29-1~deb10u1) ...
+Errors were encountered while processing:
+ roundcube-core
+ roundcube
+Log ended: 2021-08-29  12:10:25
+
+Log started: 2021-08-29  15:00:05
+Selecting previously unselected package cmake-data.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 52942 files and directories currently installed.)
+Preparing to unpack .../cmake-data_3.13.4-1_all.deb ...
+Unpacking cmake-data (3.13.4-1) ...
+Selecting previously unselected package libarchive13:amd64.
+Preparing to unpack .../libarchive13_3.3.3-4+deb10u1_amd64.deb ...
+Unpacking libarchive13:amd64 (3.3.3-4+deb10u1) ...
+Selecting previously unselected package libjsoncpp1:amd64.
+Preparing to unpack .../libjsoncpp1_1.7.4-3_amd64.deb ...
+Unpacking libjsoncpp1:amd64 (1.7.4-3) ...
+Selecting previously unselected package librhash0:amd64.
+Preparing to unpack .../librhash0_1.3.8-1_amd64.deb ...
+Unpacking librhash0:amd64 (1.3.8-1) ...
+Selecting previously unselected package cmake.
+Preparing to unpack .../cmake_3.13.4-1_amd64.deb ...
+Unpacking cmake (3.13.4-1) ...
+Setting up libarchive13:amd64 (3.3.3-4+deb10u1) ...
+Setting up roundcube-core (1.3.16+dfsg.1-1~deb10u1) ...
+[?1049h[22;0;0t[1;41r[4l[?25l(B[m[37m[40m[1;41r[H[2J[1;1H[97m[44m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1;1H[37mPackage configuration[14;3H[30m[47m┌──────────────────────────────────────────────────────────────────────────────┤ [31mConfiguring roundcube-core[30m ├──────────────────────────────────────────────────────────────────────────────┐[15;3H│                                                                                                                                                                                          │[97m[40m [16;3H[30m[47m│ The roundcube package must have a database installed and configured before it can be used. This can be optionally handled with dbconfig-common.                                          │[97m[40m [17;3H[30m[47m│                                                                                                                                                                                          │[97m[40m [18;3H[30m[47m│ If you are an advanced database administrator and know that you want to perform this configuration manually, or if your database has already been installed and configured, you should   │[97m[40m [19;3H[30m[47m│ refuse this option. Details on what needs to be done should most likely be provided in /usr/share/doc/roundcube.                                                                         │[97m[40m [20;3H[30m[47m│                                                                                                                                                                                          │[97m[40m [21;3H[30m[47m│ Otherwise, you should probably choose this option.                                                                                                                                       │[97m[40m [22;3H[30m[47m│                                                                                                                                                                                          │[97m[40m [23;3H[30m[47m│ Configure database for roundcube with dbconfig-common?                                                                                                                                   │[97m[40m [24;3H[30m[47m│                                                                                                                                                                                          │[97m[40m [25;3H[30m[47m│                                                         [37m[41m<Yes>[30m[47m                                                            <No>                                                            │[97m[40m [26;3H[30m[47m│                                                                                                                                                                                          │[97m[40m [27;3H[30m[47m└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘[97m[40m [28;4H                                                                                                                                                                                            [25;62H[?12l[?25h[41;1H[37m(B[m[39;49m[K[?1049l[23;0;0tdbconfig-common: writing config to /etc/dbconfig-common/roundcube.conf
+[?1049h[22;0;0t[1;41r[4l[?25l(B[m[37m[40m[1;41r[H[2J[1;1H[97m[44m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1;1H[?25l[?12l[?25h[37mPackage configuration[16;28H[30m[47m┌────────────────────────────────────────────────────┤ [31mConfiguring roundcube-core[30m ├─────────────────────────────────────────────────────┐[17;28H│ Please provide the password for the administrative account "root" with which this package should create its MySQL database and user.  │[97m[40m [18;28H[30m[47m│                                                                                                                                       │[97m[40m [19;28H[30m[47m│ Password of the database's administrative user:                                                                                       │[97m[40m [20;28H[30m[47m│                                                                                                                                       │[97m[40m [21;28H[30m[47m│ [37m[44m_____________________________________________________________________________________________________________________________________[30m[47m │[97m[40m [22;28H[30m[47m│                                                                                                                                       │[97m[40m [23;28H[30m[47m│                                                                <Ok>                                                                   │[97m[40m [24;28H[30m[47m│                                                                                                                                       │[97m[40m [25;28H[30m[47m└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘[97m[40m [26;29H                                                                                                                                         [21;30H[37m[44m********[?25l[?12l[?25h[41;1H[40m(B[m[39;49m[K[?1049l[23;0;0tERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2).
+unable to connect to mysql server.
+error encountered creating user:
+ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+[?1049h[22;0;0t[1;41r[4l[?25l(B[m[37m[40m[1;41r[H[2J[1;1H[97m[44m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1;1H[37mPackage configuration[7;32H[30m[47m┌────────────────────────────────────────────────┤ [31mConfiguring roundcube-core[30m ├─────────────────────────────────────────────────┐[8;32H│ An error occurred while installing the database:                                                                              │[97m[40m [9;32H[30m[47m│                                                                                                                               │[97m[40m [10;32H[30m[47m│ ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) . Your options are:  │[97m[40m [11;32H[30m[47m│  * abort - Causes the operation to fail; you will need to downgrade,                                                          │[97m[40m [12;32H[30m[47m│    reinstall, reconfigure this package, or otherwise manually intervene                                                       │[97m[40m [13;32H[30m[47m│    to continue using it. This will usually also impact your ability to                                                        │[97m[40m [14;32H[30m[47m│    install other packages until the installation failure is resolved.                                                         │[97m[40m [15;32H[30m[47m│  * retry - Prompts once more with all the configuration questions                                                             │[97m[40m [16;32H[30m[47m│    (including ones you may have missed due to the debconf priority                                                            │[97m[40m [17;32H[30m[47m│    setting) and makes another attempt at performing the operation.                                                            │[97m[40m [18;32H[30m[47m│  * retry (skip questions) - Immediately attempts the operation again,                                                         │[97m[40m [19;32H[30m[47m│    skipping all questions. This is normally useful only if you have                                                           │[97m[40m [20;32H[30m[47m│    solved the underlying problem since the time the error occurred.                                                           │[97m[40m [21;32H[30m[47m│  * ignore - Continues the operation ignoring dbconfig-common errors.                                                          │[97m[40m [22;32H[30m[47m│    This will usually leave this package without a functional database.                                                        │[97m[40m [23;32H[30m[47m│                                                                                                                               │[97m[40m [24;32H[30m[47m│ Next step for database installation:                                                                                          │[97m[40m [25;32H[30m[47m│                                                                                                                               │[97m[40m [26;32H[30m[47m│                                                    [37m[41mabort                  [30m[47m                                                    │[97m[40m [27;32H[30m[47m│                                                    retry                                                                      │[97m[40m [28;32H[30m[47m│                                                    retry (skip questions)                                                     │[97m[40m [29;32H[30m[47m│                                                    ignore                                                                     │[97m[40m [30;32H[30m[47m│                                                                                                                               │[97m[40m [31;32H[30m[47m│                                                                                                                               │[97m[40m [32;32H[30m[47m│                                                            <Ok>                                                               │[97m[40m [33;32H[30m[47m│                                                                                                                               │[97m[40m [34;32H[30m[47m└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘[97m[40m [35;33H                                                                                                                                 [26;85H[30m[47mabort                  [27;85H[37m[41mretry                  [27;85H[30m[47mretry                  [28;85H[37m[41mretry (skip questions) [28;85H[?12l[?25h[41;1H[40m(B[m[39;49m[K[?1049l[23;0;0tdbconfig-common: roundcube configure: trying again (skip questions).
+\dbconfig-common: writing config to /etc/dbconfig-common/roundcube.conf
+[?1049h[22;0;0t[1;41r[4l[?25l(B[m[37m[40m[1;41r[H[2J[1;1H[97m[44m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1;1H[?25l[?12l[?25h[37mPackage configuration[16;28H[30m[47m┌────────────────────────────────────────────────────┤ [31mConfiguring roundcube-core[30m ├─────────────────────────────────────────────────────┐[17;28H│ Please provide the password for the administrative account "root" with which this package should create its MySQL database and user.  │[97m[40m [18;28H[30m[47m│                                                                                                                                       │[97m[40m [19;28H[30m[47m│ Password of the database's administrative user:                                                                                       │[97m[40m [20;28H[30m[47m│                                                                                                                                       │[97m[40m [21;28H[30m[47m│ [37m[44m_____________________________________________________________________________________________________________________________________[30m[47m │[97m[40m [22;28H[30m[47m│                                                                                                                                       │[97m[40m [23;28H[30m[47m│                                                                <Ok>                                                                   │[97m[40m [24;28H[30m[47m│                                                                                                                                       │[97m[40m [25;28H[30m[47m└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘[97m[40m [26;29H                                                                                                                                         [21;30H[37m[44m********[?25l[?12l[?25h[41;1H[40m(B[m[39;49m[K[?1049l[23;0;0tERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2).
+unable to connect to mysql server.
+error encountered creating user:
+ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+[?1049h[22;0;0t[1;41r[4l[?25l(B[m[37m[40m[1;41r[H[2J[1;1H[97m[44m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1;1H[37mPackage configuration[7;32H[30m[47m┌────────────────────────────────────────────────┤ [31mConfiguring roundcube-core[30m ├─────────────────────────────────────────────────┐[8;32H│ An error occurred while installing the database:                                                                              │[97m[40m [9;32H[30m[47m│                                                                                                                               │[97m[40m [10;32H[30m[47m│ ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) . Your options are:  │[97m[40m [11;32H[30m[47m│  * abort - Causes the operation to fail; you will need to downgrade,                                                          │[97m[40m [12;32H[30m[47m│    reinstall, reconfigure this package, or otherwise manually intervene                                                       │[97m[40m [13;32H[30m[47m│    to continue using it. This will usually also impact your ability to                                                        │[97m[40m [14;32H[30m[47m│    install other packages until the installation failure is resolved.                                                         │[97m[40m [15;32H[30m[47m│  * retry - Prompts once more with all the configuration questions                                                             │[97m[40m [16;32H[30m[47m│    (including ones you may have missed due to the debconf priority                                                            │[97m[40m [17;32H[30m[47m│    setting) and makes another attempt at performing the operation.                                                            │[97m[40m [18;32H[30m[47m│  * retry (skip questions) - Immediately attempts the operation again,                                                         │[97m[40m [19;32H[30m[47m│    skipping all questions. This is normally useful only if you have                                                           │[97m[40m [20;32H[30m[47m│    solved the underlying problem since the time the error occurred.                                                           │[97m[40m [21;32H[30m[47m│  * ignore - Continues the operation ignoring dbconfig-common errors.                                                          │[97m[40m [22;32H[30m[47m│    This will usually leave this package without a functional database.                                                        │[97m[40m [23;32H[30m[47m│                                                                                                                               │[97m[40m [24;32H[30m[47m│ Next step for database installation:                                                                                          │[97m[40m [25;32H[30m[47m│                                                                                                                               │[97m[40m [26;32H[30m[47m│                                                    abort                                                                      │[97m[40m [27;32H[30m[47m│                                                    retry                                                                      │[97m[40m [28;32H[30m[47m│                                                    [37m[41mretry (skip questions) [30m[47m                                                    │[97m[40m [29;32H[30m[47m│                                                    ignore                                                                     │[97m[40m [30;32H[30m[47m│                                                                                                                               │[97m[40m [31;32H[30m[47m│                                                                                                                               │[97m[40m [32;32H[30m[47m│                                                            <Ok>                                                               │[97m[40m [33;32H[30m[47m│                                                                                                                               │[97m[40m [34;32H[30m[47m└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘[97m[40m [35;33H                                                                                                                                 [28;85H[30m[47mretry (skip questions) [29;85H[37m[41mignore                 [29;85H[Aretry (skip questions) [29;85H[30m[47mignore                 [28;85H[A[37m[41mretry                  [28;85H[30m[47mretry (skip questions) [27;85Hretry                  [28;85H[37m[41mretry (skip questions) [28;85H[30m[47mretry (skip questions) [29;85H[37m[41mignore                 [29;85H[Aretry (skip questions) [29;85H[30m[47mignore                 [28;85H[A[37m[41mretry                  [28;85H[30m[47mretry (skip questions) [27;85H[A[37m[41mabort                  [27;85H[30m[47mretry                  [26;85H[?12l[?25h[41;1H[37m[40m(B[m[39;49m[K[?1049l[23;0;0tdbconfig-common: roundcube configure: aborted.
+dbconfig-common: flushing administrative password
+[1mdpkg:[0m error processing package roundcube-core (--configure):
+ installed roundcube-core package post-installation script subprocess returned error exit status 1
+Setting up librhash0:amd64 (1.3.8-1) ...
+Setting up cmake-data (3.13.4-1) ...
+Setting up libjsoncpp1:amd64 (1.7.4-3) ...
+[1mdpkg:[0m dependency problems prevent configuration of roundcube:
+ roundcube depends on roundcube-core (= 1.3.16+dfsg.1-1~deb10u1); however:
+  Package roundcube-core is not configured yet.
+
+[1mdpkg:[0m error processing package roundcube (--configure):
+ dependency problems - leaving unconfigured
+Setting up cmake (3.13.4-1) ...
+Processing triggers for man-db (2.8.5-2) ...
+Processing triggers for libc-bin (2.28-10) ...
+Errors were encountered while processing:
+ roundcube-core
+ roundcube
+Log ended: 2021-08-29  15:00:41
+
+Log started: 2021-08-29  15:02:24
+Selecting previously unselected package python-pycurl.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 55511 files and directories currently installed.)
+Preparing to unpack .../python-pycurl_7.43.0.2-0.1_amd64.deb ...
+Unpacking python-pycurl (7.43.0.2-0.1) ...
+Setting up roundcube-core (1.3.16+dfsg.1-1~deb10u1) ...
+[?1049h[22;0;0t[1;41r[4l[?25l(B[m[37m[40m[1;41r[H[2J[1;1H[97m[44m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1;1H[37mPackage configuration[14;3H[30m[47m┌──────────────────────────────────────────────────────────────────────────────┤ [31mConfiguring roundcube-core[30m ├──────────────────────────────────────────────────────────────────────────────┐[15;3H│                                                                                                                                                                                          │[97m[40m [16;3H[30m[47m│ The roundcube package must have a database installed and configured before it can be used. This can be optionally handled with dbconfig-common.                                          │[97m[40m [17;3H[30m[47m│                                                                                                                                                                                          │[97m[40m [18;3H[30m[47m│ If you are an advanced database administrator and know that you want to perform this configuration manually, or if your database has already been installed and configured, you should   │[97m[40m [19;3H[30m[47m│ refuse this option. Details on what needs to be done should most likely be provided in /usr/share/doc/roundcube.                                                                         │[97m[40m [20;3H[30m[47m│                                                                                                                                                                                          │[97m[40m [21;3H[30m[47m│ Otherwise, you should probably choose this option.                                                                                                                                       │[97m[40m [22;3H[30m[47m│                                                                                                                                                                                          │[97m[40m [23;3H[30m[47m│ Configure database for roundcube with dbconfig-common?                                                                                                                                   │[97m[40m [24;3H[30m[47m│                                                                                                                                                                                          │[97m[40m [25;3H[30m[47m│                                                         [37m[41m<Yes>[30m[47m                                                            <No>                                                            │[97m[40m [26;3H[30m[47m│                                                                                                                                                                                          │[97m[40m [27;3H[30m[47m└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘[97m[40m [28;4H                                                                                                                                                                                            [25;62H[?12l[?25h[41;1H[37m(B[m[39;49m[K[?1049l[23;0;0tdbconfig-common: writing config to /etc/dbconfig-common/roundcube.conf
+[?1049h[22;0;0t[1;41r[4l[?25l(B[m[37m[40m[1;41r[H[2J[1;1H[97m[44m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1;1H[?25l[?12l[?25h[37mPackage configuration[16;28H[30m[47m┌────────────────────────────────────────────────────┤ [31mConfiguring roundcube-core[30m ├─────────────────────────────────────────────────────┐[17;28H│ Please provide the password for the administrative account "root" with which this package should create its MySQL database and user.  │[97m[40m [18;28H[30m[47m│                                                                                                                                       │[97m[40m [19;28H[30m[47m│ Password of the database's administrative user:                                                                                       │[97m[40m [20;28H[30m[47m│                                                                                                                                       │[97m[40m [21;28H[30m[47m│ [37m[44m_____________________________________________________________________________________________________________________________________[30m[47m │[97m[40m [22;28H[30m[47m│                                                                                                                                       │[97m[40m [23;28H[30m[47m│                                                                <Ok>                                                                   │[97m[40m [24;28H[30m[47m│                                                                                                                                       │[97m[40m [25;28H[30m[47m└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘[97m[40m [26;29H                                                                                                                                         [21;30H[?25l[?12l[?25h[41;1H[37m(B[m[39;49m[K[?1049l[23;0;0tERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2).
+unable to connect to mysql server.
+error encountered creating user:
+ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+[?1049h[22;0;0t[1;41r[4l[?25l(B[m[37m[40m[1;41r[H[2J[1;1H[97m[44m[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K[1;1H[37mPackage configuration[7;32H[30m[47m┌────────────────────────────────────────────────┤ [31mConfiguring roundcube-core[30m ├─────────────────────────────────────────────────┐[8;32H│ An error occurred while installing the database:                                                                              │[97m[40m [9;32H[30m[47m│                                                                                                                               │[97m[40m [10;32H[30m[47m│ ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) . Your options are:  │[97m[40m [11;32H[30m[47m│  * abort - Causes the operation to fail; you will need to downgrade,                                                          │[97m[40m [12;32H[30m[47m│    reinstall, reconfigure this package, or otherwise manually intervene                                                       │[97m[40m [13;32H[30m[47m│    to continue using it. This will usually also impact your ability to                                                        │[97m[40m [14;32H[30m[47m│    install other packages until the installation failure is resolved.                                                         │[97m[40m [15;32H[30m[47m│  * retry - Prompts once more with all the configuration questions                                                             │[97m[40m [16;32H[30m[47m│    (including ones you may have missed due to the debconf priority                                                            │[97m[40m [17;32H[30m[47m│    setting) and makes another attempt at performing the operation.                                                            │[97m[40m [18;32H[30m[47m│  * retry (skip questions) - Immediately attempts the operation again,                                                         │[97m[40m [19;32H[30m[47m│    skipping all questions. This is normally useful only if you have                                                           │[97m[40m [20;32H[30m[47m│    solved the underlying problem since the time the error occurred.                                                           │[97m[40m [21;32H[30m[47m│  * ignore - Continues the operation ignoring dbconfig-common errors.                                                          │[97m[40m [22;32H[30m[47m│    This will usually leave this package without a functional database.                                                        │[97m[40m [23;32H[30m[47m│                                                                                                                               │[97m[40m [24;32H[30m[47m│ Next step for database installation:                                                                                          │[97m[40m [25;32H[30m[47m│                                                                                                                               │[97m[40m [26;32H[30m[47m│                                                    [37m[41mabort                  [30m[47m                                                    │[97m[40m [27;32H[30m[47m│                                                    retry                                                                      │[97m[40m [28;32H[30m[47m│                                                    retry (skip questions)                                                     │[97m[40m [29;32H[30m[47m│                                                    ignore                                                                     │[97m[40m [30;32H[30m[47m│                                                                                                                               │[97m[40m [31;32H[30m[47m│                                                                                                                               │[97m[40m [32;32H[30m[47m│                                                            <Ok>                                                               │[97m[40m [33;32H[30m[47m│                                                                                                                               │[97m[40m [34;32H[30m[47m└───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘[97m[40m [35;33H                                                                                                                                 [26;85H[30m[47mabort                  [27;85H[37m[41mretry                  [27;85H[30m[47mretry                  [28;85H[37m[41mretry (skip questions) [28;85H[30m[47mretry (skip questions) [29;85H[37m[41mignore                 [29;85H[?12l[?25h[41;1H[40m(B[m[39;49m[K[?1049l[23;0;0tdbconfig-common: roundcube configure: ignoring errors from here forwards
+populating database via sql...  done.
+dbconfig-common: flushing administrative password
+apache2_invoke: Enable configuration roundcube.conf
+Setting up python-pycurl (7.43.0.2-0.1) ...
+Setting up roundcube (1.3.16+dfsg.1-1~deb10u1) ...
+Log ended: 2021-08-29  15:02:46
+
+Log started: 2021-08-29  15:03:19
+Selecting previously unselected package libsigsegv2:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 55520 files and directories currently installed.)
+Preparing to unpack .../libsigsegv2_2.12-2_amd64.deb ...
+Unpacking libsigsegv2:amd64 (2.12-2) ...
+Setting up libsigsegv2:amd64 (2.12-2) ...
+Selecting previously unselected package gawk.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 55529 files and directories currently installed.)
+Preparing to unpack .../00-gawk_1%3a4.2.1+dfsg-1_amd64.deb ...
+Unpacking gawk (1:4.2.1+dfsg-1) ...
+Selecting previously unselected package galera-3.
+Preparing to unpack .../01-galera-3_25.3.25-2_amd64.deb ...
+Unpacking galera-3 (25.3.25-2) ...
+Selecting previously unselected package mariadb-server-core-10.3.
+Preparing to unpack .../02-mariadb-server-core-10.3_1%3a10.3.29-0+deb10u1_amd64.deb ...
+Unpacking mariadb-server-core-10.3 (1:10.3.29-0+deb10u1) ...
+Selecting previously unselected package socat.
+Preparing to unpack .../03-socat_1.7.3.2-2_amd64.deb ...
+Unpacking socat (1.7.3.2-2) ...
+Selecting previously unselected package mariadb-server-10.3.
+Preparing to unpack .../04-mariadb-server-10.3_1%3a10.3.29-0+deb10u1_amd64.deb ...
+Unpacking mariadb-server-10.3 (1:10.3.29-0+deb10u1) ...
+Selecting previously unselected package default-mysql-server.
+Preparing to unpack .../05-default-mysql-server_1.0.5_all.deb ...
+Unpacking default-mysql-server (1.0.5) ...
+Selecting previously unselected package libhtml-tagset-perl.
+Preparing to unpack .../06-libhtml-tagset-perl_3.20-3_all.deb ...
+Unpacking libhtml-tagset-perl (3.20-3) ...
+Selecting previously unselected package liburi-perl.
+Preparing to unpack .../07-liburi-perl_1.76-1_all.deb ...
+Unpacking liburi-perl (1.76-1) ...
+Selecting previously unselected package libhtml-parser-perl.
+Preparing to unpack .../08-libhtml-parser-perl_3.72-3+b3_amd64.deb ...
+Unpacking libhtml-parser-perl (3.72-3+b3) ...
+Selecting previously unselected package libcgi-pm-perl.
+Preparing to unpack .../09-libcgi-pm-perl_4.40-1_all.deb ...
+Unpacking libcgi-pm-perl (4.40-1) ...
+Selecting previously unselected package libfcgi-perl.
+Preparing to unpack .../10-libfcgi-perl_0.78-2+b3_amd64.deb ...
+Unpacking libfcgi-perl (0.78-2+b3) ...
+Selecting previously unselected package libcgi-fast-perl.
+Preparing to unpack .../11-libcgi-fast-perl_1%3a2.13-1_all.deb ...
+Unpacking libcgi-fast-perl (1:2.13-1) ...
+Selecting previously unselected package libencode-locale-perl.
+Preparing to unpack .../12-libencode-locale-perl_1.05-1_all.deb ...
+Unpacking libencode-locale-perl (1.05-1) ...
+Selecting previously unselected package libhtml-template-perl.
+Preparing to unpack .../13-libhtml-template-perl_2.97-1_all.deb ...
+Unpacking libhtml-template-perl (2.97-1) ...
+Selecting previously unselected package libtimedate-perl.
+Preparing to unpack .../14-libtimedate-perl_2.3000-2+deb10u1_all.deb ...
+Unpacking libtimedate-perl (2.3000-2+deb10u1) ...
+Selecting previously unselected package libhttp-date-perl.
+Preparing to unpack .../15-libhttp-date-perl_6.02-1_all.deb ...
+Unpacking libhttp-date-perl (6.02-1) ...
+Selecting previously unselected package libio-html-perl.
+Preparing to unpack .../16-libio-html-perl_1.001-1_all.deb ...
+Unpacking libio-html-perl (1.001-1) ...
+Selecting previously unselected package liblwp-mediatypes-perl.
+Preparing to unpack .../17-liblwp-mediatypes-perl_6.02-1_all.deb ...
+Unpacking liblwp-mediatypes-perl (6.02-1) ...
+Selecting previously unselected package libhttp-message-perl.
+Preparing to unpack .../18-libhttp-message-perl_6.18-1_all.deb ...
+Unpacking libhttp-message-perl (6.18-1) ...
+Setting up gawk (1:4.2.1+dfsg-1) ...
+Setting up libhtml-tagset-perl (3.20-3) ...
+Setting up liblwp-mediatypes-perl (6.02-1) ...
+Setting up libencode-locale-perl (1.05-1) ...
+Setting up socat (1.7.3.2-2) ...
+Setting up mariadb-server-core-10.3 (1:10.3.29-0+deb10u1) ...
+Setting up libio-html-perl (1.001-1) ...
+Setting up galera-3 (25.3.25-2) ...
+Setting up libtimedate-perl (2.3000-2+deb10u1) ...
+Setting up mariadb-server-10.3 (1:10.3.29-0+deb10u1) ...
+Created symlink /etc/systemd/system/mysql.service → /lib/systemd/system/mariadb.service.
+Created symlink /etc/systemd/system/mysqld.service → /lib/systemd/system/mariadb.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/mariadb.service → /lib/systemd/system/mariadb.service.
+Setting up libfcgi-perl (0.78-2+b3) ...
+Setting up liburi-perl (1.76-1) ...
+Setting up libhttp-date-perl (6.02-1) ...
+Setting up default-mysql-server (1.0.5) ...
+Setting up libhtml-parser-perl (3.72-3+b3) ...
+Setting up libhttp-message-perl (6.18-1) ...
+Setting up libcgi-pm-perl (4.40-1) ...
+Setting up libhtml-template-perl (2.97-1) ...
+Setting up libcgi-fast-perl (1:2.13-1) ...
+Processing triggers for systemd (241-7~deb10u8) ...
+Processing triggers for man-db (2.8.5-2) ...
+Processing triggers for libc-bin (2.28-10) ...
+Log ended: 2021-08-29  15:03:30
+
+Log started: 2021-08-29  15:03:47
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 56261 files and directories currently installed.)
+Removing roundcube (1.3.16+dfsg.1-1~deb10u1) ...
+Log ended: 2021-08-29  15:03:47
+
+Log started: 2021-08-29  15:03:54
+Selecting previously unselected package roundcube.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 56259 files and directories currently installed.)
+Preparing to unpack .../roundcube_1.3.16+dfsg.1-1~deb10u1_all.deb ...
+Unpacking roundcube (1.3.16+dfsg.1-1~deb10u1) ...
+Setting up roundcube (1.3.16+dfsg.1-1~deb10u1) ...
+Log ended: 2021-08-29  15:03:54
+
+Log started: 2021-08-29  15:05:53
+Selecting previously unselected package libcurl4-openssl-dev:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 56262 files and directories currently installed.)
+Preparing to unpack .../libcurl4-openssl-dev_7.64.0-4+deb10u2_amd64.deb ...
+Unpacking libcurl4-openssl-dev:amd64 (7.64.0-4+deb10u2) ...
+Setting up libcurl4-openssl-dev:amd64 (7.64.0-4+deb10u2) ...
+Processing triggers for man-db (2.8.5-2) ...
+Log ended: 2021-08-29  15:05:54
+
+Log started: 2021-08-29  16:38:10
+Selecting previously unselected package libexttextcat-data.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 56284 files and directories currently installed.)
+Preparing to unpack .../0-libexttextcat-data_3.4.5-1_all.deb ...
+Unpacking libexttextcat-data (3.4.5-1) ...
+Selecting previously unselected package libexttextcat-2.0-0:amd64.
+Preparing to unpack .../1-libexttextcat-2.0-0_3.4.5-1_amd64.deb ...
+Unpacking libexttextcat-2.0-0:amd64 (3.4.5-1) ...
+Selecting previously unselected package liblua5.3-0:amd64.
+Preparing to unpack .../2-liblua5.3-0_5.3.3-1.1_amd64.deb ...
+Unpacking liblua5.3-0:amd64 (5.3.3-1.1) ...
+Selecting previously unselected package libstemmer0d:amd64.
+Preparing to unpack .../3-libstemmer0d_0+svn585-1+b2_amd64.deb ...
+Unpacking libstemmer0d:amd64 (0+svn585-1+b2) ...
+Selecting previously unselected package dovecot-core.
+Preparing to unpack .../4-dovecot-core_1%3a2.3.4.1-5+deb10u6_amd64.deb ...
+Unpacking dovecot-core (1:2.3.4.1-5+deb10u6) ...
+Selecting previously unselected package dovecot-mysql.
+Preparing to unpack .../5-dovecot-mysql_1%3a2.3.4.1-5+deb10u6_amd64.deb ...
+Unpacking dovecot-mysql (1:2.3.4.1-5+deb10u6) ...
+Setting up libexttextcat-data (3.4.5-1) ...
+Setting up liblua5.3-0:amd64 (5.3.3-1.1) ...
+Setting up libstemmer0d:amd64 (0+svn585-1+b2) ...
+Setting up libexttextcat-2.0-0:amd64 (3.4.5-1) ...
+Setting up dovecot-core (1:2.3.4.1-5+deb10u6) ...
+
+Creating config file /etc/dovecot/dovecot.conf with new version
+
+Creating config file /etc/dovecot/dovecot-dict-auth.conf.ext with new version
+
+Creating config file /etc/dovecot/dovecot-dict-sql.conf.ext with new version
+
+Creating config file /etc/dovecot/dovecot-sql.conf.ext with new version
+
+Creating config file /etc/dovecot/conf.d/10-auth.conf with new version
+
+Creating config file /etc/dovecot/conf.d/10-director.conf with new version
+
+Creating config file /etc/dovecot/conf.d/10-logging.conf with new version
+
+Creating config file /etc/dovecot/conf.d/10-mail.conf with new version
+
+Creating config file /etc/dovecot/conf.d/10-master.conf with new version
+
+Creating config file /etc/dovecot/conf.d/10-ssl.conf with new version
+
+Creating config file /etc/dovecot/conf.d/10-tcpwrapper.conf with new version
+
+Creating config file /etc/dovecot/conf.d/15-lda.conf with new version
+
+Creating config file /etc/dovecot/conf.d/15-mailboxes.conf with new version
+
+Creating config file /etc/dovecot/conf.d/90-acl.conf with new version
+
+Creating config file /etc/dovecot/conf.d/90-plugin.conf with new version
+
+Creating config file /etc/dovecot/conf.d/90-quota.conf with new version
+
+Creating config file /etc/dovecot/conf.d/auth-checkpassword.conf.ext with new version
+
+Creating config file /etc/dovecot/conf.d/auth-deny.conf.ext with new version
+
+Creating config file /etc/dovecot/conf.d/auth-dict.conf.ext with new version
+
+Creating config file /etc/dovecot/conf.d/auth-master.conf.ext with new version
+
+Creating config file /etc/dovecot/conf.d/auth-passwdfile.conf.ext with new version
+
+Creating config file /etc/dovecot/conf.d/auth-sql.conf.ext with new version
+
+Creating config file /etc/dovecot/conf.d/auth-static.conf.ext with new version
+
+Creating config file /etc/dovecot/conf.d/auth-system.conf.ext with new version
+
+Creating config file /etc/dovecot/conf.d/auth-vpopmail.conf.ext with new version
+Created symlink /etc/systemd/system/multi-user.target.wants/dovecot.service → /lib/systemd/system/dovecot.service.
+Setting up dovecot-mysql (1:2.3.4.1-5+deb10u6) ...
+Processing triggers for systemd (241-7~deb10u8) ...
+Processing triggers for man-db (2.8.5-2) ...
+Processing triggers for libc-bin (2.28-10) ...
+Processing triggers for dovecot-core (1:2.3.4.1-5+deb10u6) ...
+Log ended: 2021-08-29  16:38:21

@@ -1,772 +1,399 @@
-Jun  3 16:06:17 guest systemd-sysusers[213]: Creating group systemd-coredump with gid 999.
-Jun  3 16:06:17 guest systemd-sysusers[213]: Creating user systemd-coredump (systemd Core Dumper) with uid 999 and gid 999.
-Jun  3 16:06:17 guest systemd[1]: Starting Flush Journal to Persistent Storage...
-Jun  3 16:06:17 guest systemd[1]: Started udev Coldplug all Devices.
-Jun  3 16:06:17 guest systemd[1]: Starting Helper to synchronize boot up for ifupdown...
-Jun  3 16:06:17 guest systemd[1]: Started Helper to synchronize boot up for ifupdown.
-Jun  3 16:06:17 guest systemd[1]: Started Flush Journal to Persistent Storage.
-Jun  3 16:06:17 guest systemd[1]: Started Set the console keyboard layout.
-Jun  3 16:06:17 guest systemd[1]: Started Create System Users.
-Jun  3 16:06:17 guest systemd[1]: Starting Create Static Device Nodes in /dev...
-Jun  3 16:06:17 guest systemd[1]: Started Create Static Device Nodes in /dev.
-Jun  3 16:06:17 guest systemd[1]: Starting udev Kernel Device Manager...
-Jun  3 16:06:17 guest systemd[1]: Reached target Local File Systems (Pre).
-Jun  3 16:06:17 guest systemd[1]: Reached target Local File Systems.
-Jun  3 16:06:17 guest systemd[1]: Starting Load AppArmor profiles...
-Jun  3 16:06:17 guest systemd[1]: Starting Create Volatile Files and Directories...
-Jun  3 16:06:17 guest systemd[1]: Condition check resulted in Commit a transient machine-id on disk being skipped.
-Jun  3 16:06:17 guest systemd[1]: Starting Set console font and keymap...
-Jun  3 16:06:17 guest systemd[1]: Started Set console font and keymap.
-Jun  3 16:06:17 guest apparmor.systemd[220]: Restarting AppArmor
-Jun  3 16:06:17 guest apparmor.systemd[220]: Reloading AppArmor profiles
-Jun  3 16:06:17 guest systemd[1]: Started Create Volatile Files and Directories.
-Jun  3 16:06:17 guest systemd[1]: Starting Update UTMP about System Boot/Shutdown...
-Jun  3 16:06:17 guest systemd[1]: Started udev Kernel Device Manager.
-Jun  3 16:06:17 guest systemd[1]: Started Update UTMP about System Boot/Shutdown.
-Jun  3 16:06:17 guest systemd-udevd[242]: Using default interface naming scheme 'v240'.
-Jun  3 16:06:17 guest systemd-udevd[242]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
-Jun  3 16:06:17 guest systemd-udevd[245]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
-Jun  3 16:06:17 guest systemd[1]: Started Load AppArmor profiles.
-Jun  3 16:06:17 guest systemd[1]: Starting Raise network interfaces...
-Jun  3 16:06:17 guest systemd[1]: Reached target System Initialization.
-Jun  3 16:06:17 guest systemd[1]: Started Daily Cleanup of Temporary Directories.
-Jun  3 16:06:17 guest systemd[1]: Started Daily apt download activities.
-Jun  3 16:06:17 guest systemd[1]: Started Daily apt upgrade and clean activities.
-Jun  3 16:06:17 guest systemd[1]: Started Daily man-db regeneration.
-Jun  3 16:06:17 guest systemd[1]: Started Daily rotation of log files.
-Jun  3 16:06:17 guest systemd[1]: Reached target Timers.
-Jun  3 16:06:17 guest systemd[1]: Listening on D-Bus System Message Bus Socket.
-Jun  3 16:06:17 guest systemd[1]: Reached target Sockets.
-Jun  3 16:06:17 guest systemd[1]: Reached target Basic System.
-Jun  3 16:06:17 guest systemd[1]: Condition check resulted in getty on tty2-tty6 if dbus and logind are not available being skipped.
-Jun  3 16:06:17 guest systemd[1]: Started D-Bus System Message Bus.
-Jun  3 16:06:17 guest systemd[1]: Starting Login Service...
-Jun  3 16:06:17 guest systemd[1]: Starting System Logging Service...
-Jun  3 16:06:17 guest systemd[1]: Started Regular background program processing daemon.
-Jun  3 16:06:17 guest systemd[1]: Found device Virtio network device.
-Jun  3 16:06:17 guest systemd[1]: Started System Logging Service.
-Jun  3 16:06:17 guest systemd[1]: Started ifup for ens3.
-Jun  3 16:06:17 guest systemd[1]: Started Raise network interfaces.
-Jun  3 16:06:17 guest systemd[1]: Reached target Network.
-Jun  3 16:06:17 guest systemd[1]: Starting Permit User Sessions...
-Jun  3 16:06:17 guest systemd[1]: Starting Network Time Service...
-Jun  3 16:06:17 guest systemd[1]: Starting OpenBSD Secure Shell server...
-Jun  3 16:06:17 guest systemd[1]: Started Permit User Sessions.
-Jun  3 16:06:17 guest systemd[1]: Started Getty on tty1.
-Jun  3 16:06:17 guest systemd[1]: Reached target Login Prompts.
-Jun  3 16:06:17 guest systemd[1]: Started Login Service.
-Jun  3 16:06:17 guest systemd[1]: Started Unattended Upgrades Shutdown.
-Jun  3 16:06:17 guest ntpd[326]: ntpd 4.2.8p12@1.3728-o (1): Starting
-Jun  3 16:06:17 guest ntpd[326]: Command line: /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 105:112
-Jun  3 16:06:17 guest systemd[1]: Started Network Time Service.
-Jun  3 16:06:17 guest ntpd[355]: proto: precision = 0.061 usec (-24)
-Jun  3 16:06:17 guest ntpd[355]: restrict: ignoring line 40, mask '::' unusable.
-Jun  3 16:06:17 guest ntpd[355]: leapsecond file ('/usr/share/zoneinfo/leap-seconds.list'): good hash signature
-Jun  3 16:06:17 guest ntpd[355]: leapsecond file ('/usr/share/zoneinfo/leap-seconds.list'): loaded, expire=2021-12-28T00:00:00Z last=2017-01-01T00:00:00Z ofs=37
-Jun  3 16:06:17 guest ntpd[355]: Listen and drop on 0 v4wildcard 0.0.0.0:123
-Jun  3 16:06:17 guest ntpd[355]: Listen normally on 1 lo 127.0.0.1:123
-Jun  3 16:06:17 guest ntpd[355]: Listening on routing socket on fd #18 for interface updates
-Jun  3 16:06:17 guest ntpd[355]: kernel reports TIME_ERROR: 0x41: Clock Unsynchronized
-Jun  3 16:06:17 guest ntpd[355]: kernel reports TIME_ERROR: 0x41: Clock Unsynchronized
-Jun  3 16:06:17 guest sh[321]: Internet Systems Consortium DHCP Client 4.4.1
-Jun  3 16:06:17 guest sh[321]: Copyright 2004-2018 Internet Systems Consortium.
-Jun  3 16:06:17 guest sh[321]: All rights reserved.
-Jun  3 16:06:17 guest sh[321]: For info, please visit https://www.isc.org/software/dhcp/
-Jun  3 16:06:17 guest dhclient[354]: Internet Systems Consortium DHCP Client 4.4.1
-Jun  3 16:06:17 guest dhclient[354]: Copyright 2004-2018 Internet Systems Consortium.
-Jun  3 16:06:17 guest dhclient[354]: All rights reserved.
-Jun  3 16:06:17 guest dhclient[354]: For info, please visit https://www.isc.org/software/dhcp/
-Jun  3 16:06:17 guest dhclient[354]: 
-Jun  3 16:06:17 guest dhclient[354]: Listening on LPF/ens3/52:54:00:12:34:56
-Jun  3 16:06:17 guest sh[321]: Listening on LPF/ens3/52:54:00:12:34:56
-Jun  3 16:06:17 guest sh[321]: Sending on   LPF/ens3/52:54:00:12:34:56
-Jun  3 16:06:17 guest sh[321]: Sending on   Socket/fallback
-Jun  3 16:06:17 guest sh[321]: Created duid "\000\001\000\001(K\272yRT\000\0224V".
-Jun  3 16:06:17 guest sh[321]: DHCPDISCOVER on ens3 to 255.255.255.255 port 67 interval 7
-Jun  3 16:06:17 guest dhclient[354]: Sending on   LPF/ens3/52:54:00:12:34:56
-Jun  3 16:06:17 guest sh[321]: DHCPOFFER of 10.0.2.15 from 10.0.2.2
-Jun  3 16:06:17 guest sh[321]: DHCPREQUEST for 10.0.2.15 on ens3 to 255.255.255.255 port 67
-Jun  3 16:06:17 guest sh[321]: DHCPACK of 10.0.2.15 from 10.0.2.2
-Jun  3 16:06:17 guest dhclient[354]: Sending on   Socket/fallback
-Jun  3 16:06:17 guest dhclient[354]: Created duid "\000\001\000\001(K\272yRT\000\0224V".
-Jun  3 16:06:17 guest dhclient[354]: DHCPDISCOVER on ens3 to 255.255.255.255 port 67 interval 7
-Jun  3 16:06:17 guest dhclient[354]: DHCPOFFER of 10.0.2.15 from 10.0.2.2
-Jun  3 16:06:17 guest dhclient[354]: DHCPREQUEST for 10.0.2.15 on ens3 to 255.255.255.255 port 67
-Jun  3 16:06:17 guest dhclient[354]: DHCPACK of 10.0.2.15 from 10.0.2.2
-Jun  3 16:06:17 guest dhclient[354]: bound to 10.0.2.15 -- renewal in 38884 seconds.
-Jun  3 16:06:17 guest sh[321]: bound to 10.0.2.15 -- renewal in 38884 seconds.
-Jun  3 16:06:17 guest sh[321]: ens3=ens3
-Jun  3 16:06:18 guest ntpd[355]: Soliciting pool server 104.236.116.147
-Jun  3 16:06:19 guest ntpd[355]: Listen normally on 2 ens3 10.0.2.15:123
-Jun  3 16:06:19 guest ntpd[355]: new interface(s) found: waking up resolver
-Jun  3 16:06:19 guest ntpd[355]: Soliciting pool server 185.144.161.170
-Jun  3 16:06:19 guest systemd[1]: Started OpenBSD Secure Shell server.
-Jun  3 16:06:19 guest systemd[1]: Reached target Multi-User System.
-Jun  3 16:06:19 guest systemd[1]: Reached target Graphical Interface.
-Jun  3 16:06:19 guest systemd[1]: Starting Update UTMP about System Runlevel Changes...
-Jun  3 16:06:19 guest systemd[1]: systemd-update-utmp-runlevel.service: Succeeded.
-Jun  3 16:06:19 guest systemd[1]: Started Update UTMP about System Runlevel Changes.
-Jun  3 16:06:19 guest systemd[1]: Startup finished in 1.579s (kernel) + 2.829s (userspace) = 4.409s.
-Jun  3 16:06:20 guest ntpd[355]: Soliciting pool server 193.182.111.142
-Jun  3 16:06:20 guest ntpd[355]: Soliciting pool server 216.229.4.69
-Jun  3 16:06:21 guest ntpd[355]: Soliciting pool server 91.228.108.123
-Jun  3 16:06:21 guest ntpd[355]: Soliciting pool server 137.190.2.4
-Jun  3 16:06:22 guest systemd[1]: Created slice User Slice of UID 0.
-Jun  3 16:06:22 guest systemd[1]: Starting User Runtime Directory /run/user/0...
-Jun  3 16:06:22 guest systemd[1]: Started User Runtime Directory /run/user/0.
-Jun  3 16:06:22 guest systemd[1]: Starting User Manager for UID 0...
-Jun  3 16:06:22 guest ntpd[355]: Soliciting pool server 72.14.183.239
-Jun  3 16:06:22 guest ntpd[355]: Soliciting pool server 185.41.243.43
-Jun  3 16:06:22 guest systemd[399]: Reached target Paths.
-Jun  3 16:06:22 guest systemd[399]: Reached target Sockets.
-Jun  3 16:06:22 guest systemd[399]: Reached target Timers.
-Jun  3 16:06:22 guest systemd[399]: Reached target Basic System.
-Jun  3 16:06:22 guest systemd[399]: Reached target Default.
-Jun  3 16:06:22 guest systemd[399]: Startup finished in 16ms.
-Jun  3 16:06:22 guest systemd[1]: Started User Manager for UID 0.
-Jun  3 16:06:22 guest systemd[1]: Started Session 1 of user root.
-Jun  3 16:06:23 guest ntpd[355]: Soliciting pool server 38.229.71.1
-Jun  3 16:06:23 guest ntpd[355]: Soliciting pool server 185.77.225.135
-Jun  3 16:06:24 guest ntpd[355]: Soliciting pool server 50.205.244.38
-Jun  3 16:06:25 guest ntpd[355]: Soliciting pool server 129.70.132.35
-Jun  3 16:06:26 guest ntpd[355]: Soliciting pool server 5.79.108.34
-Jun  3 16:06:27 guest ntpd[355]: Soliciting pool server 222.166.0.129
-Jun  3 16:06:45 guest systemd[1]: Reloading.
-Jun  3 16:06:45 guest systemd[1]: getty@tty1.service: Current command vanished from the unit file, execution of the command list won't be resumed.
-Jun  3 16:06:45 guest systemd[1]: Reloading.
-Jun  3 16:06:45 guest systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
-Jun  3 16:06:45 guest systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
-Jun  3 16:06:45 guest systemd[1]: Starting IPv6 Recursive DNS Server discovery Daemon...
-Jun  3 16:06:45 guest systemd[1]: Started IPv6 Recursive DNS Server discovery Daemon.
-Jun  3 16:06:45 guest systemd[1]: Reloading.
-Jun  3 16:06:45 guest systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
-Jun  3 16:06:47 guest systemd[1]: Reloading.
-Jun  3 16:06:47 guest systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
-Jun  3 16:06:47 guest systemd[1]: Reloading.
-Jun  3 16:06:47 guest systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
-Jun  3 16:06:48 guest systemd[1]: Reloading.
-Jun  3 16:06:48 guest systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
-Jun  3 16:06:48 guest systemd[1]: Reloading.
-Jun  3 16:06:48 guest systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
-Jun  3 16:06:50 guest systemd[1]: Reloading.
-Jun  3 16:06:50 guest systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
-Jun  3 16:06:50 guest systemd[1]: Reloading.
-Jun  3 16:06:50 guest systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
-Jun  3 16:06:56 guest systemd[1]: Reloading.
-Jun  3 16:06:56 guest systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
-Jun  3 16:06:58 guest systemd[1]: Mounting FUSE Control File System...
-Jun  3 16:06:58 guest systemd[1]: Mounted FUSE Control File System.
-Jun  3 16:06:58 guest systemd[1]: Reloading.
-Jun  3 16:06:58 guest systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
-Jun  3 16:06:58 guest systemd[1]: Reloading.
-Jun  3 16:06:58 guest systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
-Jun  3 16:06:59 guest systemd[1]: Reloading.
-Jun  3 16:06:59 guest systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
-Jun  3 16:06:59 guest systemd[1]: Reloading.
-Jun  3 16:06:59 guest systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
-Jun  3 16:07:00 guest systemd[1]: Reloading.
-Jun  3 16:07:00 guest systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
-Jun  3 16:07:01 guest systemd[1]: Reloading.
-Jun  3 16:07:01 guest systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
-Jun  3 16:07:01 guest systemd[1]: Reached target Network is Online.
-Jun  3 16:07:01 guest systemd[1]: Starting LSB: exim Mail Transport Agent...
-Jun  3 16:07:02 guest exim4[2517]: Starting MTA: exim4.
-Jun  3 16:07:02 guest systemd[1]: Started LSB: exim Mail Transport Agent.
-Jun  3 16:07:02 guest systemd[1]: Reloading.
-Jun  3 16:07:02 guest systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
-Jun  3 16:07:02 guest systemd[1]: Stopping System Logging Service...
-Jun  3 16:07:02 guest systemd[1]: rsyslog.service: Succeeded.
-Jun  3 16:07:02 guest systemd[1]: Stopped System Logging Service.
-Jun  3 16:07:02 guest systemd[1]: Starting System Logging Service...
-Jun  3 16:07:02 guest systemd[1]: Started System Logging Service.
-Jun  3 16:07:02 guest systemd[1]: Reloading.
-Jun  3 16:07:02 guest systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
-Jun  3 16:07:14 guest systemd[1]: Reloading.
-Jun  3 16:07:14 guest systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
-Jun  3 16:07:25 guest systemd[1]: Reloading.
-Jun  3 16:07:25 guest systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
-Jun  3 16:07:26 guest systemd[1]: Stopping Session 1 of user root.
-Jun  3 16:07:26 guest systemd[1]: Stopped target Graphical Interface.
-Jun  3 16:07:26 guest systemd[1]: Stopped target Multi-User System.
-Jun  3 16:07:26 guest systemd[1]: Stopped target Login Prompts.
-Aug 16 23:56:51 guest systemd[1]: Starting Flush Journal to Persistent Storage...
-Aug 16 23:56:51 guest systemd[1]: Started Flush Journal to Persistent Storage.
-Aug 16 23:56:51 guest systemd-udevd[290]: Using default interface naming scheme 'v240'.
-Aug 16 23:56:51 guest systemd-udevd[290]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
-Aug 16 23:56:51 guest systemd[1]: Started Set the console keyboard layout.
-Aug 16 23:56:51 guest systemd[1]: Reached target Local File Systems (Pre).
-Aug 16 23:56:51 guest systemd[1]: Reached target Local File Systems.
-Aug 16 23:56:51 guest systemd[1]: Starting Create Volatile Files and Directories...
-Aug 16 23:56:51 guest systemd[1]: Starting Load AppArmor profiles...
-Aug 16 23:56:51 guest systemd[1]: Starting Commit a transient machine-id on disk...
-Aug 16 23:56:51 guest systemd[1]: Starting Set console font and keymap...
-Aug 16 23:56:51 guest systemd-udevd[283]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
-Aug 16 23:56:51 guest systemd[1]: Started Set console font and keymap.
-Aug 16 23:56:51 guest systemd[1]: etc-machine\x2did.mount: Succeeded.
-Aug 16 23:56:51 guest apparmor.systemd[310]: Restarting AppArmor
-Aug 16 23:56:51 guest apparmor.systemd[310]: Reloading AppArmor profiles
-Aug 16 23:56:51 guest systemd[1]: Started Commit a transient machine-id on disk.
-Aug 16 23:56:51 guest systemd[1]: Started Create Volatile Files and Directories.
-Aug 16 23:56:51 guest systemd[1]: Started Load AppArmor profiles.
-Aug 16 23:56:51 guest systemd[1]: Starting Raise network interfaces...
-Aug 16 23:56:51 guest systemd[1]: Starting Update UTMP about System Boot/Shutdown...
-Aug 16 23:56:51 guest systemd[1]: Started Update UTMP about System Boot/Shutdown.
-Aug 16 23:56:51 guest systemd[1]: Reached target System Initialization.
-Aug 16 23:56:51 guest systemd[1]: Started Daily apt download activities.
-Aug 16 23:56:51 guest systemd[1]: Started Daily rotation of log files.
-Aug 16 23:56:51 guest systemd[1]: Started Daily Cleanup of Temporary Directories.
-Aug 16 23:56:51 guest systemd[1]: Started Daily apt upgrade and clean activities.
-Aug 16 23:56:51 guest systemd[1]: Listening on D-Bus System Message Bus Socket.
-Aug 16 23:56:51 guest systemd[1]: Reached target Sockets.
-Aug 16 23:56:51 guest systemd[1]: Reached target Basic System.
-Aug 16 23:56:51 guest systemd[1]: Starting IPv6 Recursive DNS Server discovery Daemon...
-Aug 16 23:56:51 guest systemd[1]: Starting System Logging Service...
-Aug 16 23:56:51 guest systemd[1]: Started D-Bus System Message Bus.
-Aug 16 23:56:51 guest systemd[1]: Starting Login Service...
-Aug 16 23:56:51 guest systemd[1]: Started Regular background program processing daemon.
-Aug 16 23:56:51 guest systemd[1]: Condition check resulted in getty on tty2-tty6 if dbus and logind are not available being skipped.
-Aug 16 23:56:51 guest systemd[1]: Started Daily man-db regeneration.
-Aug 16 23:56:51 guest systemd[1]: Reached target Timers.
-Aug 16 23:56:51 guest systemd[1]: Starting Daily man-db regeneration...
-Aug 16 23:56:51 guest systemd[1]: Starting Rotate log files...
-Aug 16 23:56:51 guest systemd[1]: Started System Logging Service.
-Aug 16 23:56:51 guest dbus-daemon[387]: [system] Successfully activated service 'org.freedesktop.systemd1'
-Aug 16 23:56:51 guest systemd[1]: Started IPv6 Recursive DNS Server discovery Daemon.
-Aug 16 23:56:51 guest systemd[1]: Started Raise network interfaces.
-Aug 16 23:56:51 guest systemd[1]: Started Login Service.
-Aug 16 23:56:51 guest systemd[1]: Started Uncomplicated firewall.
-Aug 16 23:56:51 guest systemd[1]: Reached target Network.
-Aug 16 23:56:51 guest systemd[1]: Reached target Network is Online.
-Aug 16 23:56:51 guest systemd[1]: Starting LSB: exim Mail Transport Agent...
-Aug 16 23:56:51 guest systemd[1]: Starting Ethernet Configuration...
-Aug 16 23:56:51 guest systemd[1]: Starting Permit User Sessions...
-Aug 16 23:56:51 guest systemd[1]: Starting Daily apt download activities...
-Aug 16 23:56:51 guest systemd[1]: Started Unattended Upgrades Shutdown.
-Aug 16 23:56:51 guest systemd[1]: Starting Network Time Service...
-Aug 16 23:56:51 guest systemd[1]: Starting OpenBSD Secure Shell server...
-Aug 16 23:56:51 guest systemd[1]: Started Permit User Sessions.
-Aug 16 23:56:51 guest systemd[1]: Started Getty on tty1.
-Aug 16 23:56:51 guest systemd[1]: Reached target Login Prompts.
-Aug 16 23:56:51 guest ntpd[462]: ntpd 4.2.8p12@1.3728-o (1): Starting
-Aug 16 23:56:51 guest ntpd[462]: Command line: /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 105:112
-Aug 16 23:56:51 guest systemd[1]: Started Network Time Service.
-Aug 16 23:56:51 guest ntpd[500]: proto: precision = 0.054 usec (-24)
-Aug 16 23:56:51 guest ntpd[500]: leapsecond file ('/usr/share/zoneinfo/leap-seconds.list'): good hash signature
-Aug 16 23:56:51 guest ntpd[500]: leapsecond file ('/usr/share/zoneinfo/leap-seconds.list'): loaded, expire=2021-12-28T00:00:00Z last=2017-01-01T00:00:00Z ofs=37
-Aug 16 23:56:51 guest ntpd[500]: Listen and drop on 0 v6wildcard [::]:123
-Aug 16 23:56:51 guest ntpd[500]: Listen and drop on 1 v4wildcard 0.0.0.0:123
-Aug 16 23:56:51 guest ntpd[500]: Listen normally on 2 lo 127.0.0.1:123
-Aug 16 23:56:51 guest ntpd[500]: Listen normally on 3 lo [::1]:123
-Aug 16 23:56:51 guest ntpd[500]: Listening on routing socket on fd #20 for interface updates
-Aug 16 23:56:51 guest ntpd[500]: kernel reports TIME_ERROR: 0x41: Clock Unsynchronized
-Aug 16 23:56:51 guest ntpd[500]: kernel reports TIME_ERROR: 0x41: Clock Unsynchronized
-Aug 16 23:56:51 guest systemd[1]: Started OpenBSD Secure Shell server.
-Aug 16 23:56:51 guest dhclient[631]: Internet Systems Consortium DHCP Client 4.4.1
-Aug 16 23:56:51 guest dhclient[631]: Copyright 2004-2018 Internet Systems Consortium.
-Aug 16 23:56:51 guest dhclient[631]: All rights reserved.
-Aug 16 23:56:51 guest dhclient[631]: For info, please visit https://www.isc.org/software/dhcp/
-Aug 16 23:56:51 guest dhclient[631]: 
-Aug 16 23:56:52 guest dhclient[631]: Listening on LPF/ens3/56:00:03:85:82:df
-Aug 16 23:56:52 guest dhclient[631]: Sending on   LPF/ens3/56:00:03:85:82:df
-Aug 16 23:56:52 guest dhclient[631]: Sending on   Socket/fallback
-Aug 16 23:56:52 guest dhclient[631]: Created duid "\000\001\000\001(\255\267\304V\000\003\205\202\337".
-Aug 16 23:56:52 guest dhclient[631]: DHCPDISCOVER on ens3 to 255.255.255.255 port 67 interval 5
-Aug 16 23:56:52 guest dhclient[631]: DHCPOFFER of 158.247.223.84 from 169.254.169.254
-Aug 16 23:56:52 guest dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 255.255.255.255 port 67
-Aug 16 23:56:52 guest dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
-Aug 16 23:56:52 guest dhclient[631]: bound to 158.247.223.84 -- renewal in 40526 seconds.
-Aug 16 23:56:52 guest systemd[1]: Reloading.
-Aug 16 23:56:52 guest systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
-Aug 16 23:56:52 guest systemd[1]: getty@tty1.service: Current command vanished from the unit file, execution of the command list won't be resumed.
-Aug 16 23:56:52 guest systemd[1]: ethcon.service: Current command vanished from the unit file, execution of the command list won't be resumed.
-Aug 16 23:56:52 guest systemd[1]: Started Ethernet Configuration.
-Aug 16 23:56:52 guest exim4[455]: Starting MTA: exim4.
-Aug 16 23:56:52 guest exim4[455]: ALERT: exim paniclog /var/log/exim4/paniclog has non-zero size, mail system possibly broken
-Aug 16 23:56:52 guest systemd[1]: Started LSB: exim Mail Transport Agent.
-Aug 16 23:56:52 guest systemd[1]: logrotate.service: Succeeded.
-Aug 16 23:56:52 guest systemd[1]: Started Rotate log files.
-Aug 16 23:56:53 guest ntpd[500]: Listen normally on 4 ens3 158.247.223.84:123
-Aug 16 23:56:53 guest ntpd[500]: bind(24) AF_INET6 fe80::5400:3ff:fe85:82df%2#123 flags 0x11 failed: Cannot assign requested address
-Aug 16 23:56:53 guest ntpd[500]: unable to create socket on ens3 (5) for fe80::5400:3ff:fe85:82df%2#123
-Aug 16 23:56:53 guest ntpd[500]: failed to init interface for address fe80::5400:3ff:fe85:82df%2
-Aug 16 23:56:53 guest ntpd[500]: new interface(s) found: waking up resolver
-Aug 16 23:56:53 guest systemd[1]: man-db.service: Succeeded.
-Aug 16 23:56:53 guest systemd[1]: Started Daily man-db regeneration.
-Aug 16 23:56:55 guest ntpd[500]: Listen normally on 6 ens3 [fe80::5400:3ff:fe85:82df%2]:123
-Aug 16 23:56:55 guest ntpd[500]: new interface(s) found: waking up resolver
-Aug 16 23:57:07 guest systemd[1]: apt-daily.service: Succeeded.
-Aug 16 23:57:07 guest systemd[1]: Started Daily apt download activities.
-Aug 16 23:57:07 guest systemd[1]: Starting Daily apt upgrade and clean activities...
-Aug 16 23:57:07 guest systemd[1]: Starting Imageboot...
-Aug 16 23:57:09 guest systemd[1]: Reloading.
-Aug 16 23:57:09 guest systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
-Aug 16 23:57:09 guest systemd[1]: imageboot.service: Current command vanished from the unit file, execution of the command list won't be resumed.
-Aug 16 23:57:09 guest systemd[1]: Reloading.
-Aug 16 23:57:09 guest systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
-Aug 16 23:57:09 guest systemd[1]: Reloading.
-Aug 16 23:57:09 guest systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
-Aug 16 23:57:09 guest systemd[1]: Stopping OpenBSD Secure Shell server...
-Aug 16 23:57:09 guest systemd[1]: ssh.service: Succeeded.
-Aug 16 23:57:09 guest systemd[1]: Stopped OpenBSD Secure Shell server.
-Aug 16 23:57:09 guest systemd[1]: Starting OpenBSD Secure Shell server...
-Aug 16 23:57:09 guest systemd[1]: Started OpenBSD Secure Shell server.
-Aug 16 23:57:10 guest dbus-daemon[387]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.13' (uid=0 pid=1645 comm="hostnamectl set-hostname vultr.guest ")
-Aug 16 23:57:10 guest systemd[1]: Starting Hostname Service...
-Aug 16 23:57:10 guest dbus-daemon[387]: [system] Successfully activated service 'org.freedesktop.hostname1'
-Aug 16 23:57:10 guest systemd[1]: Started Hostname Service.
-Aug 16 23:57:10 guest systemd-hostnamed[1646]: Changed static host name to 'vultr.guest'
-Aug 16 23:57:10 guest systemd-hostnamed[1646]: Changed host name to 'vultr.guest'
-Aug 16 23:57:30 guest systemd[1]: Mounting FUSE Control File System...
-Aug 16 23:57:30 guest systemd[1]: Mounted FUSE Control File System.
-Aug 16 23:57:35 guest dbus-daemon[387]: [system] Reloaded configuration
-Aug 16 23:57:35 guest dbus-daemon[387]: [system] Reloaded configuration
-Aug 16 23:57:35 guest dbus-daemon[387]: [system] Reloaded configuration
-Aug 16 23:57:35 guest dbus-daemon[387]: [system] Reloaded configuration
-Aug 16 23:57:35 guest dbus-daemon[387]: [system] Reloaded configuration
-Aug 16 23:57:35 guest dbus-daemon[387]: [system] Reloaded configuration
-Aug 16 23:57:35 guest dbus-daemon[387]: [system] Reloaded configuration
-Aug 16 23:57:35 guest dbus-daemon[387]: [system] Reloaded configuration
-Aug 16 23:57:35 guest dbus-daemon[387]: [system] Reloaded configuration
-Aug 16 23:57:35 guest dbus-daemon[387]: [system] Reloaded configuration
-Aug 16 23:57:35 guest dbus-daemon[387]: [system] Reloaded configuration
-Aug 16 23:57:35 guest dbus-daemon[387]: [system] Reloaded configuration
-Aug 16 23:57:35 guest dbus-daemon[387]: [system] Reloaded configuration
-Aug 16 23:57:35 guest dbus-daemon[387]: [system] Reloaded configuration
-Aug 16 23:57:35 guest dbus-daemon[387]: [system] Reloaded configuration
-Aug 16 23:57:36 guest dbus-daemon[387]: [system] Reloaded configuration
-Aug 16 23:57:36 guest systemd[1]: Reexecuting.
-Aug 16 23:57:36 guest systemd[1]: systemd-journal-flush.service: Succeeded.
-Aug 16 23:57:36 guest systemd[1]: Stopped Flush Journal to Persistent Storage.
-Aug 16 23:57:36 guest systemd[1]: Stopping Flush Journal to Persistent Storage...
-Aug 16 23:57:36 guest systemd[1]: Starting Flush Journal to Persistent Storage...
-Aug 16 23:57:36 guest systemd[1]: Started Flush Journal to Persistent Storage.
-Aug 16 23:57:36 guest dbus-daemon[387]: [system] Reloaded configuration
-Aug 16 23:57:40 guest systemd[1]: systemd-hostnamed.service: Succeeded.
-Aug 16 23:57:41 guest systemd[1]: Reloading.
-Aug 16 23:57:41 guest systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
-Aug 16 23:57:41 guest systemd[1]: Reloading.
-Aug 16 23:57:41 guest systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
-Aug 16 23:57:41 guest systemd[1]: Stopping udev Kernel Device Manager...
-Aug 16 23:57:41 guest systemd[1]: systemd-udevd.service: Succeeded.
-Aug 16 23:57:41 guest systemd[1]: Stopped udev Kernel Device Manager.
-Aug 16 23:57:41 guest systemd[1]: Starting udev Kernel Device Manager...
-Aug 16 23:57:41 guest systemd[1]: Started udev Kernel Device Manager.
-Aug 16 23:57:41 guest systemd[1]: Reloading.
-Aug 16 23:57:41 guest systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
-Aug 16 23:57:41 guest systemd[1]: Reloading.
-Aug 16 23:57:41 guest systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
-Aug 16 23:58:04 guest systemd[1]: apt-daily-upgrade.service: Succeeded.
-Aug 16 23:58:04 guest systemd[1]: Started Daily apt upgrade and clean activities.
-Aug 16 23:58:05 guest systemd[1]: Reloading.
-Aug 16 23:58:05 guest systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
-Aug 16 23:58:05 guest systemd[1]: Reached target Multi-User System.
-Aug 16 23:58:05 guest systemd[1]: Reached target Graphical Interface.
-Aug 16 23:58:05 guest systemd[1]: Starting Update UTMP about System Runlevel Changes...
-Aug 16 23:58:05 guest systemd[1]: Started Imageboot.
-Aug 16 23:58:05 guest systemd[1]: systemd-update-utmp-runlevel.service: Succeeded.
-Aug 16 23:58:05 guest systemd[1]: Started Update UTMP about System Runlevel Changes.
-Aug 16 23:58:05 guest systemd[1]: Startup finished in 2.730s (kernel) + 1min 15.158s (userspace) = 1min 17.889s.
-Aug 17 00:00:42 guest systemd[1]: Starting Daily man-db regeneration...
-Aug 17 00:00:42 guest systemd[1]: Starting Rotate log files...
-Aug 17 00:00:43 vultr systemd[1]: logrotate.service: Succeeded.
-Aug 17 00:00:43 vultr systemd[1]: Started Rotate log files.
-Aug 17 00:00:43 vultr systemd[1]: man-db.service: Succeeded.
-Aug 17 00:00:43 vultr systemd[1]: Started Daily man-db regeneration.
-Aug 17 00:05:42 vultr ntpd[500]: kernel reports TIME_ERROR: 0x41: Clock Unsynchronized
-Aug 17 00:12:42 vultr systemd[1]: Starting Cleanup of Temporary Directories...
-Aug 17 00:12:43 vultr systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
-Aug 17 00:12:43 vultr systemd[1]: Started Cleanup of Temporary Directories.
-Aug 17 06:27:42 vultr systemd[1]: Starting Daily apt upgrade and clean activities...
-Aug 17 06:27:46 vultr systemd[1]: apt-daily-upgrade.service: Succeeded.
-Aug 17 06:27:46 vultr systemd[1]: Started Daily apt upgrade and clean activities.
-Aug 17 11:12:19 vultr dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
-Aug 17 11:12:19 vultr dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
-Aug 17 11:12:19 vultr dhclient[631]: bound to 158.247.223.84 -- renewal in 39035 seconds.
-Aug 17 16:30:42 vultr systemd[1]: Starting Daily apt download activities...
-Aug 17 16:30:45 vultr systemd[1]: apt-daily.service: Succeeded.
-Aug 17 16:30:45 vultr systemd[1]: Started Daily apt download activities.
-Aug 17 22:02:54 vultr dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
-Aug 17 22:02:54 vultr dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
-Aug 17 22:02:54 vultr dhclient[631]: bound to 158.247.223.84 -- renewal in 36563 seconds.
-Aug 18 00:00:37 vultr systemd[1]: Starting Rotate log files...
-Aug 18 00:00:37 vultr systemd[1]: Starting Daily man-db regeneration...
-Aug 18 00:00:37 vultr systemd[1]: logrotate.service: Succeeded.
-Aug 18 00:00:37 vultr systemd[1]: Started Rotate log files.
-Aug 18 00:00:37 vultr systemd[1]: man-db.service: Succeeded.
-Aug 18 00:00:37 vultr systemd[1]: Started Daily man-db regeneration.
-Aug 18 00:13:42 vultr systemd[1]: Starting Cleanup of Temporary Directories...
-Aug 18 00:13:43 vultr systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
-Aug 18 00:13:43 vultr systemd[1]: Started Cleanup of Temporary Directories.
-Aug 18 00:24:39 vultr systemd[1]: Starting Daily apt download activities...
-Aug 18 00:24:42 vultr systemd[1]: apt-daily.service: Succeeded.
-Aug 18 00:24:42 vultr systemd[1]: Started Daily apt download activities.
-Aug 18 01:38:14 vultr systemd[1]: Created slice User Slice of UID 0.
-Aug 18 01:38:14 vultr systemd[1]: Starting User Runtime Directory /run/user/0...
-Aug 18 01:38:14 vultr systemd[1]: Started User Runtime Directory /run/user/0.
-Aug 18 01:38:14 vultr systemd[1]: Starting User Manager for UID 0...
-Aug 18 01:38:14 vultr systemd[15428]: Reached target Timers.
-Aug 18 01:38:14 vultr systemd[15428]: Reached target Paths.
-Aug 18 01:38:14 vultr systemd[15428]: Reached target Sockets.
-Aug 18 01:38:14 vultr systemd[15428]: Reached target Basic System.
-Aug 18 01:38:14 vultr systemd[1]: Started User Manager for UID 0.
-Aug 18 01:38:14 vultr systemd[1]: Started Session 28 of user root.
-Aug 18 01:38:14 vultr systemd[15428]: Reached target Default.
-Aug 18 01:38:14 vultr systemd[15428]: Startup finished in 22ms.
-Aug 18 01:43:35 vultr systemd[1]: session-28.scope: Succeeded.
-Aug 18 01:43:45 vultr systemd[1]: Stopping User Manager for UID 0...
-Aug 18 01:43:45 vultr systemd[15428]: Stopped target Default.
-Aug 18 01:43:45 vultr systemd[15428]: Stopped target Basic System.
-Aug 18 01:43:45 vultr systemd[15428]: Stopped target Timers.
-Aug 18 01:43:45 vultr systemd[15428]: Stopped target Sockets.
-Aug 18 01:43:45 vultr systemd[15428]: Stopped target Paths.
-Aug 18 01:43:45 vultr systemd[15428]: Reached target Shutdown.
-Aug 18 01:43:45 vultr systemd[15428]: systemd-exit.service: Succeeded.
-Aug 18 01:43:45 vultr systemd[15428]: Started Exit the Session.
-Aug 18 01:43:45 vultr systemd[15428]: Reached target Exit the Session.
-Aug 18 01:43:45 vultr systemd[1]: user@0.service: Succeeded.
-Aug 18 01:43:45 vultr systemd[1]: Stopped User Manager for UID 0.
-Aug 18 01:43:45 vultr systemd[1]: Stopping User Runtime Directory /run/user/0...
-Aug 18 01:43:45 vultr systemd[1]: run-user-0.mount: Succeeded.
-Aug 18 01:43:45 vultr systemd[1]: user-runtime-dir@0.service: Succeeded.
-Aug 18 01:43:45 vultr systemd[1]: Stopped User Runtime Directory /run/user/0.
-Aug 18 01:43:45 vultr systemd[1]: Removed slice User Slice of UID 0.
-Aug 18 01:47:34 vultr systemd[1]: Created slice User Slice of UID 0.
-Aug 18 01:47:34 vultr systemd[1]: Starting User Runtime Directory /run/user/0...
-Aug 18 01:47:34 vultr systemd[1]: Started User Runtime Directory /run/user/0.
-Aug 18 01:47:34 vultr systemd[1]: Starting User Manager for UID 0...
-Aug 18 01:47:34 vultr systemd[24351]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
-Aug 18 01:47:34 vultr systemd[24351]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
-Aug 18 01:47:34 vultr systemd[24351]: Reached target Timers.
-Aug 18 01:47:34 vultr systemd[24351]: Listening on GnuPG cryptographic agent and passphrase cache.
-Aug 18 01:47:34 vultr systemd[24351]: Listening on GnuPG network certificate management daemon.
-Aug 18 01:47:34 vultr systemd[24351]: Reached target Paths.
-Aug 18 01:47:34 vultr systemd[24351]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
-Aug 18 01:47:34 vultr systemd[24351]: Reached target Sockets.
-Aug 18 01:47:34 vultr systemd[24351]: Reached target Basic System.
-Aug 18 01:47:34 vultr systemd[1]: Started User Manager for UID 0.
-Aug 18 01:47:34 vultr systemd[1]: Started Session 30 of user root.
-Aug 18 01:47:34 vultr systemd[24351]: Reached target Default.
-Aug 18 01:47:34 vultr systemd[24351]: Startup finished in 30ms.
-Aug 18 01:47:51 vultr systemd[1]: Started Session 32 of user root.
-Aug 18 02:37:48 vultr systemd[1]: Started Session 34 of user root.
-Aug 18 02:38:20 vultr systemd[1]: Reloading.
-Aug 18 02:38:21 vultr systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
-Aug 18 02:38:21 vultr systemd[1]: Reloading.
-Aug 18 02:38:21 vultr systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
-Aug 18 03:57:12 vultr systemd[1]: session-32.scope: Succeeded.
-Aug 18 06:07:42 vultr systemd[1]: Starting Daily apt upgrade and clean activities...
-Aug 18 06:07:44 vultr systemd[1]: apt-daily-upgrade.service: Succeeded.
-Aug 18 06:07:44 vultr systemd[1]: Started Daily apt upgrade and clean activities.
-Aug 18 08:12:17 vultr dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
-Aug 18 08:12:17 vultr dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
-Aug 18 08:12:17 vultr dhclient[631]: bound to 158.247.223.84 -- renewal in 30536 seconds.
-Aug 18 12:13:04 vultr systemd[1]: Started Session 45 of user root.
-Aug 18 12:13:12 vultr systemd[1]: session-45.scope: Succeeded.
-Aug 18 12:13:26 vultr systemd[1]: Started Session 46 of user root.
-Aug 18 12:13:39 vultr systemd[1]: session-46.scope: Succeeded.
-Aug 18 12:14:08 vultr systemd[1]: Started Session 47 of user root.
-Aug 18 12:52:54 vultr systemd[1]: Starting Daily apt download activities...
-Aug 18 12:52:55 vultr systemd[1]: apt-daily.service: Succeeded.
-Aug 18 12:52:55 vultr systemd[1]: Started Daily apt download activities.
-Aug 18 16:41:14 vultr dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
-Aug 18 16:41:14 vultr dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
-Aug 18 16:41:14 vultr dhclient[631]: bound to 158.247.223.84 -- renewal in 31964 seconds.
-Aug 18 19:13:55 vultr systemd[1]: Started Session 55 of user root.
-Aug 18 20:03:04 vultr systemd[1]: Stopping OpenBSD Secure Shell server...
-Aug 18 20:03:04 vultr systemd[1]: ssh.service: Succeeded.
-Aug 18 20:03:04 vultr systemd[1]: Stopped OpenBSD Secure Shell server.
-Aug 18 20:03:04 vultr systemd[1]: ssh.service: Found left-over process 28496 (sshd) in control group while starting unit. Ignoring.
-Aug 18 20:03:04 vultr systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
-Aug 18 20:03:04 vultr systemd[1]: ssh.service: Found left-over process 28497 (sshd) in control group while starting unit. Ignoring.
-Aug 18 20:03:04 vultr systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
-Aug 18 20:03:04 vultr systemd[1]: ssh.service: Found left-over process 28506 (sshd) in control group while starting unit. Ignoring.
-Aug 18 20:03:04 vultr systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
-Aug 18 20:03:04 vultr systemd[1]: ssh.service: Found left-over process 28507 (sshd) in control group while starting unit. Ignoring.
-Aug 18 20:03:04 vultr systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
-Aug 18 20:03:04 vultr systemd[1]: Starting OpenBSD Secure Shell server...
-Aug 18 20:03:04 vultr sshd[28524]: /etc/ssh/sshd_config line 33: unsupported option "password-prohibited".
-Aug 18 20:03:04 vultr systemd[1]: ssh.service: Control process exited, code=exited, status=255/EXCEPTION
-Aug 18 20:03:04 vultr systemd[1]: ssh.service: Failed with result 'exit-code'.
-Aug 18 20:03:04 vultr systemd[1]: Failed to start OpenBSD Secure Shell server.
-Aug 18 20:03:04 vultr systemd[1]: ssh.service: Service RestartSec=100ms expired, scheduling restart.
-Aug 18 20:03:04 vultr systemd[1]: ssh.service: Scheduled restart job, restart counter is at 1.
-Aug 18 20:03:04 vultr systemd[1]: Stopped OpenBSD Secure Shell server.
-Aug 18 20:03:04 vultr systemd[1]: ssh.service: Found left-over process 28496 (sshd) in control group while starting unit. Ignoring.
-Aug 18 20:03:04 vultr systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
-Aug 18 20:03:04 vultr systemd[1]: ssh.service: Found left-over process 28497 (sshd) in control group while starting unit. Ignoring.
-Aug 18 20:03:04 vultr systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
-Aug 18 20:03:04 vultr systemd[1]: ssh.service: Found left-over process 28506 (sshd) in control group while starting unit. Ignoring.
-Aug 18 20:03:04 vultr systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
-Aug 18 20:03:04 vultr systemd[1]: ssh.service: Found left-over process 28507 (sshd) in control group while starting unit. Ignoring.
-Aug 18 20:03:04 vultr systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
-Aug 18 20:03:04 vultr systemd[1]: Starting OpenBSD Secure Shell server...
-Aug 18 20:03:04 vultr sshd[28543]: /etc/ssh/sshd_config line 33: unsupported option "password-prohibited".
-Aug 18 20:03:04 vultr systemd[1]: ssh.service: Control process exited, code=exited, status=255/EXCEPTION
-Aug 18 20:03:04 vultr systemd[1]: ssh.service: Failed with result 'exit-code'.
-Aug 18 20:03:04 vultr systemd[1]: Failed to start OpenBSD Secure Shell server.
-Aug 18 20:03:04 vultr systemd[1]: ssh.service: Service RestartSec=100ms expired, scheduling restart.
-Aug 18 20:03:04 vultr systemd[1]: ssh.service: Scheduled restart job, restart counter is at 2.
-Aug 18 20:03:04 vultr systemd[1]: Stopped OpenBSD Secure Shell server.
-Aug 18 20:03:04 vultr systemd[1]: ssh.service: Found left-over process 28496 (sshd) in control group while starting unit. Ignoring.
-Aug 18 20:03:04 vultr systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
-Aug 18 20:03:04 vultr systemd[1]: ssh.service: Found left-over process 28497 (sshd) in control group while starting unit. Ignoring.
-Aug 18 20:03:04 vultr systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
-Aug 18 20:03:04 vultr systemd[1]: ssh.service: Found left-over process 28506 (sshd) in control group while starting unit. Ignoring.
-Aug 18 20:03:04 vultr systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
-Aug 18 20:03:04 vultr systemd[1]: ssh.service: Found left-over process 28507 (sshd) in control group while starting unit. Ignoring.
-Aug 18 20:03:04 vultr systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
-Aug 18 20:03:04 vultr systemd[1]: Starting OpenBSD Secure Shell server...
-Aug 18 20:03:04 vultr sshd[28544]: /etc/ssh/sshd_config line 33: unsupported option "password-prohibited".
-Aug 18 20:03:04 vultr systemd[1]: ssh.service: Control process exited, code=exited, status=255/EXCEPTION
-Aug 18 20:03:04 vultr systemd[1]: ssh.service: Failed with result 'exit-code'.
-Aug 18 20:03:04 vultr systemd[1]: Failed to start OpenBSD Secure Shell server.
-Aug 18 20:03:04 vultr systemd[1]: ssh.service: Service RestartSec=100ms expired, scheduling restart.
-Aug 18 20:03:04 vultr systemd[1]: ssh.service: Scheduled restart job, restart counter is at 3.
-Aug 18 20:03:04 vultr systemd[1]: Stopped OpenBSD Secure Shell server.
-Aug 18 20:03:04 vultr systemd[1]: ssh.service: Found left-over process 28496 (sshd) in control group while starting unit. Ignoring.
-Aug 18 20:03:04 vultr systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
-Aug 18 20:03:04 vultr systemd[1]: ssh.service: Found left-over process 28497 (sshd) in control group while starting unit. Ignoring.
-Aug 18 20:03:04 vultr systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
-Aug 18 20:03:04 vultr systemd[1]: ssh.service: Found left-over process 28506 (sshd) in control group while starting unit. Ignoring.
-Aug 18 20:03:04 vultr systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
-Aug 18 20:03:04 vultr systemd[1]: ssh.service: Found left-over process 28507 (sshd) in control group while starting unit. Ignoring.
-Aug 18 20:03:04 vultr systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
-Aug 18 20:03:04 vultr systemd[1]: Starting OpenBSD Secure Shell server...
-Aug 18 20:03:04 vultr sshd[28545]: /etc/ssh/sshd_config line 33: unsupported option "password-prohibited".
-Aug 18 20:03:04 vultr systemd[1]: ssh.service: Control process exited, code=exited, status=255/EXCEPTION
-Aug 18 20:03:04 vultr systemd[1]: ssh.service: Failed with result 'exit-code'.
-Aug 18 20:03:04 vultr systemd[1]: Failed to start OpenBSD Secure Shell server.
-Aug 18 20:03:05 vultr systemd[1]: ssh.service: Service RestartSec=100ms expired, scheduling restart.
-Aug 18 20:03:05 vultr systemd[1]: ssh.service: Scheduled restart job, restart counter is at 4.
-Aug 18 20:03:05 vultr systemd[1]: Stopped OpenBSD Secure Shell server.
-Aug 18 20:03:05 vultr systemd[1]: ssh.service: Found left-over process 28496 (sshd) in control group while starting unit. Ignoring.
-Aug 18 20:03:05 vultr systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
-Aug 18 20:03:05 vultr systemd[1]: ssh.service: Found left-over process 28497 (sshd) in control group while starting unit. Ignoring.
-Aug 18 20:03:05 vultr systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
-Aug 18 20:03:05 vultr systemd[1]: ssh.service: Found left-over process 28506 (sshd) in control group while starting unit. Ignoring.
-Aug 18 20:03:05 vultr systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
-Aug 18 20:03:05 vultr systemd[1]: ssh.service: Found left-over process 28507 (sshd) in control group while starting unit. Ignoring.
-Aug 18 20:03:05 vultr systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
-Aug 18 20:03:05 vultr systemd[1]: Starting OpenBSD Secure Shell server...
-Aug 18 20:03:05 vultr sshd[28546]: /etc/ssh/sshd_config line 33: unsupported option "password-prohibited".
-Aug 18 20:03:05 vultr systemd[1]: ssh.service: Control process exited, code=exited, status=255/EXCEPTION
-Aug 18 20:03:05 vultr systemd[1]: ssh.service: Failed with result 'exit-code'.
-Aug 18 20:03:05 vultr systemd[1]: Failed to start OpenBSD Secure Shell server.
-Aug 18 20:03:05 vultr systemd[1]: ssh.service: Service RestartSec=100ms expired, scheduling restart.
-Aug 18 20:03:05 vultr systemd[1]: ssh.service: Scheduled restart job, restart counter is at 5.
-Aug 18 20:03:05 vultr systemd[1]: Stopped OpenBSD Secure Shell server.
-Aug 18 20:03:05 vultr systemd[1]: ssh.service: Start request repeated too quickly.
-Aug 18 20:03:05 vultr systemd[1]: ssh.service: Failed with result 'exit-code'.
-Aug 18 20:03:05 vultr systemd[1]: Failed to start OpenBSD Secure Shell server.
-Aug 18 20:05:05 vultr systemd[1]: Starting OpenBSD Secure Shell server...
-Aug 18 20:05:05 vultr sshd[28582]: /etc/ssh/sshd_config line 33: unsupported option "password-prohibited".
-Aug 18 20:05:05 vultr systemd[1]: ssh.service: Control process exited, code=exited, status=255/EXCEPTION
-Aug 18 20:05:05 vultr systemd[1]: ssh.service: Failed with result 'exit-code'.
-Aug 18 20:05:05 vultr systemd[1]: Failed to start OpenBSD Secure Shell server.
-Aug 18 20:05:05 vultr systemd[1]: ssh.service: Service RestartSec=100ms expired, scheduling restart.
-Aug 18 20:05:05 vultr systemd[1]: ssh.service: Scheduled restart job, restart counter is at 1.
-Aug 18 20:05:05 vultr systemd[1]: Stopped OpenBSD Secure Shell server.
-Aug 18 20:05:05 vultr systemd[1]: Starting OpenBSD Secure Shell server...
-Aug 18 20:05:05 vultr sshd[28601]: /etc/ssh/sshd_config line 33: unsupported option "password-prohibited".
-Aug 18 20:05:05 vultr systemd[1]: ssh.service: Control process exited, code=exited, status=255/EXCEPTION
-Aug 18 20:05:05 vultr systemd[1]: ssh.service: Failed with result 'exit-code'.
-Aug 18 20:05:05 vultr systemd[1]: Failed to start OpenBSD Secure Shell server.
-Aug 18 20:05:05 vultr systemd[1]: ssh.service: Service RestartSec=100ms expired, scheduling restart.
-Aug 18 20:05:05 vultr systemd[1]: ssh.service: Scheduled restart job, restart counter is at 2.
-Aug 18 20:05:05 vultr systemd[1]: Stopped OpenBSD Secure Shell server.
-Aug 18 20:05:05 vultr systemd[1]: Starting OpenBSD Secure Shell server...
-Aug 18 20:05:05 vultr sshd[28602]: /etc/ssh/sshd_config line 33: unsupported option "password-prohibited".
-Aug 18 20:05:05 vultr systemd[1]: ssh.service: Control process exited, code=exited, status=255/EXCEPTION
-Aug 18 20:05:05 vultr systemd[1]: ssh.service: Failed with result 'exit-code'.
-Aug 18 20:05:05 vultr systemd[1]: Failed to start OpenBSD Secure Shell server.
-Aug 18 20:05:05 vultr systemd[1]: ssh.service: Service RestartSec=100ms expired, scheduling restart.
-Aug 18 20:05:05 vultr systemd[1]: ssh.service: Scheduled restart job, restart counter is at 3.
-Aug 18 20:05:05 vultr systemd[1]: Stopped OpenBSD Secure Shell server.
-Aug 18 20:05:05 vultr systemd[1]: Starting OpenBSD Secure Shell server...
-Aug 18 20:05:05 vultr sshd[28603]: /etc/ssh/sshd_config line 33: unsupported option "password-prohibited".
-Aug 18 20:05:05 vultr systemd[1]: ssh.service: Control process exited, code=exited, status=255/EXCEPTION
-Aug 18 20:05:05 vultr systemd[1]: ssh.service: Failed with result 'exit-code'.
-Aug 18 20:05:05 vultr systemd[1]: Failed to start OpenBSD Secure Shell server.
-Aug 18 20:05:06 vultr systemd[1]: ssh.service: Service RestartSec=100ms expired, scheduling restart.
-Aug 18 20:05:06 vultr systemd[1]: ssh.service: Scheduled restart job, restart counter is at 4.
-Aug 18 20:05:06 vultr systemd[1]: Stopped OpenBSD Secure Shell server.
-Aug 18 20:05:06 vultr systemd[1]: Starting OpenBSD Secure Shell server...
-Aug 18 20:05:06 vultr sshd[28604]: /etc/ssh/sshd_config line 33: unsupported option "password-prohibited".
-Aug 18 20:05:06 vultr systemd[1]: ssh.service: Control process exited, code=exited, status=255/EXCEPTION
-Aug 18 20:05:06 vultr systemd[1]: ssh.service: Failed with result 'exit-code'.
-Aug 18 20:05:06 vultr systemd[1]: Failed to start OpenBSD Secure Shell server.
-Aug 18 20:05:06 vultr systemd[1]: ssh.service: Service RestartSec=100ms expired, scheduling restart.
-Aug 18 20:05:06 vultr systemd[1]: ssh.service: Scheduled restart job, restart counter is at 5.
-Aug 18 20:05:06 vultr systemd[1]: Stopped OpenBSD Secure Shell server.
-Aug 18 20:05:06 vultr systemd[1]: ssh.service: Start request repeated too quickly.
-Aug 18 20:05:06 vultr systemd[1]: ssh.service: Failed with result 'exit-code'.
-Aug 18 20:05:06 vultr systemd[1]: Failed to start OpenBSD Secure Shell server.
-Aug 18 20:06:08 vultr systemd[1]: Starting OpenBSD Secure Shell server...
-Aug 18 20:06:08 vultr systemd[1]: Started OpenBSD Secure Shell server.
-Aug 18 20:34:54 vultr systemd[1]: Starting Daily apt download activities...
-Aug 18 20:34:55 vultr systemd[1]: apt-daily.service: Succeeded.
-Aug 18 20:34:55 vultr systemd[1]: Started Daily apt download activities.
-Aug 18 21:04:40 vultr systemd[1]: Stopping OpenBSD Secure Shell server...
-Aug 18 21:04:40 vultr systemd[1]: ssh.service: Succeeded.
-Aug 18 21:04:40 vultr systemd[1]: Stopped OpenBSD Secure Shell server.
-Aug 18 21:04:40 vultr systemd[1]: ssh.service: Found left-over process 29045 (sshd) in control group while starting unit. Ignoring.
-Aug 18 21:04:40 vultr systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
-Aug 18 21:04:40 vultr systemd[1]: ssh.service: Found left-over process 29046 (sshd) in control group while starting unit. Ignoring.
-Aug 18 21:04:40 vultr systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
-Aug 18 21:04:40 vultr systemd[1]: Starting OpenBSD Secure Shell server...
-Aug 18 21:04:40 vultr systemd[1]: ssh.service: Found left-over process 29045 (sshd) in control group while starting unit. Ignoring.
-Aug 18 21:04:40 vultr systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
-Aug 18 21:04:40 vultr systemd[1]: ssh.service: Found left-over process 29046 (sshd) in control group while starting unit. Ignoring.
-Aug 18 21:04:40 vultr systemd[1]: This usually indicates unclean termination of a previous run, or service implementation deficiencies.
-Aug 18 21:04:40 vultr systemd[1]: Started OpenBSD Secure Shell server.
-Aug 18 21:10:29 vultr systemd[1]: Stopping OpenBSD Secure Shell server...
-Aug 18 21:10:29 vultr systemd[1]: ssh.service: Succeeded.
-Aug 18 21:10:29 vultr systemd[1]: Stopped OpenBSD Secure Shell server.
-Aug 18 21:10:29 vultr systemd[1]: Starting OpenBSD Secure Shell server...
-Aug 18 21:10:29 vultr systemd[1]: Started OpenBSD Secure Shell server.
-Aug 18 21:11:22 vultr systemd[1]: Stopping OpenBSD Secure Shell server...
-Aug 18 21:11:22 vultr systemd[1]: ssh.service: Succeeded.
-Aug 18 21:11:22 vultr systemd[1]: Stopped OpenBSD Secure Shell server.
-Aug 18 21:11:23 vultr systemd[1]: Starting OpenBSD Secure Shell server...
-Aug 18 21:11:23 vultr systemd[1]: Started OpenBSD Secure Shell server.
-Aug 18 21:12:07 vultr systemd[1]: Stopping OpenBSD Secure Shell server...
-Aug 18 21:12:07 vultr systemd[1]: ssh.service: Succeeded.
-Aug 18 21:12:07 vultr systemd[1]: Stopped OpenBSD Secure Shell server.
-Aug 18 21:12:07 vultr systemd[1]: Starting OpenBSD Secure Shell server...
-Aug 18 21:12:07 vultr systemd[1]: Started OpenBSD Secure Shell server.
-Aug 18 21:14:34 vultr systemd[1]: Started Session 58 of user root.
-Aug 18 21:15:59 vultr systemd[1]: Reloading.
-Aug 18 21:16:00 vultr systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
-Aug 18 21:16:00 vultr systemd[1]: Reloading.
-Aug 18 21:16:00 vultr systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
-Aug 18 21:16:00 vultr systemd[1]: Condition check resulted in fast remote file copy program daemon being skipped.
-Aug 18 21:16:00 vultr systemd[1]: Reloading.
-Aug 18 21:16:00 vultr systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
-Aug 18 21:16:00 vultr systemd[1]: Reloading.
-Aug 18 21:16:01 vultr systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
-Aug 18 21:34:11 vultr systemd[1]: session-55.scope: Succeeded.
-Aug 18 21:34:17 vultr systemd[1]: session-58.scope: Succeeded.
-Aug 18 21:37:29 vultr systemd[1]: Started Session 60 of user root.
-Aug 18 21:40:11 vultr systemd[1]: session-34.scope: Succeeded.
-Aug 18 22:16:48 vultr systemd[1]: session-30.scope: Succeeded.
-Aug 18 22:27:41 vultr systemd[1]: session-47.scope: Succeeded.
-Aug 18 23:18:19 vultr systemd[1]: Started Session 63 of user root.
-Aug 18 23:35:07 vultr systemd[1]: session-60.scope: Succeeded.
-Aug 18 23:35:10 vultr systemd[1]: Started Session 64 of user root.
-Aug 19 00:00:39 vultr systemd[1]: Starting Daily man-db regeneration...
-Aug 19 00:00:39 vultr systemd[1]: Starting Rotate log files...
-Aug 19 00:00:39 localhost systemd[1]: logrotate.service: Succeeded.
-Aug 19 00:00:39 localhost systemd[1]: Started Rotate log files.
-Aug 19 00:00:39 localhost systemd[1]: man-db.service: Succeeded.
-Aug 19 00:00:39 localhost systemd[1]: Started Daily man-db regeneration.
-Aug 19 00:14:18 localhost systemd[1]: Starting Cleanup of Temporary Directories...
-Aug 19 00:14:18 localhost systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
-Aug 19 00:14:18 localhost systemd[1]: Started Cleanup of Temporary Directories.
-Aug 19 00:27:36 localhost systemd[24351]: mnt-rsync.mount: Succeeded.
-Aug 19 00:27:36 localhost systemd[1]: mnt-rsync.mount: Succeeded.
-Aug 19 00:28:03 localhost systemd[1]: mnt-rsync.mount: Succeeded.
-Aug 19 00:28:03 localhost systemd[24351]: mnt-rsync.mount: Succeeded.
-Aug 19 00:28:18 localhost systemd[24351]: mnt-rsync.mount: Succeeded.
-Aug 19 00:28:18 localhost systemd[1]: mnt-rsync.mount: Succeeded.
-Aug 19 00:29:37 localhost systemd[1]: session-63.scope: Succeeded.
-Aug 19 01:33:58 localhost dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
-Aug 19 01:33:58 localhost dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
-Aug 19 01:33:58 localhost dhclient[631]: bound to 158.247.223.84 -- renewal in 36917 seconds.
-Aug 19 06:38:42 localhost systemd[1]: Starting Daily apt upgrade and clean activities...
-Aug 19 06:38:44 localhost systemd[1]: apt-daily-upgrade.service: Succeeded.
-Aug 19 06:38:44 localhost systemd[1]: Started Daily apt upgrade and clean activities.
-Aug 19 11:49:16 localhost dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
-Aug 19 11:49:16 localhost dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
-Aug 19 11:49:16 localhost dhclient[631]: bound to 158.247.223.84 -- renewal in 33743 seconds.
-Aug 19 14:31:35 localhost systemd[1]: Starting Daily apt download activities...
-Aug 19 14:31:38 localhost apt.systemd.daily[10853]: Apt returned an error, exiting
-Aug 19 14:31:38 localhost apt.systemd.daily[10853]: error message: E:Write error - write (28: No space left on device), E:IO Error saving source cache, E:The package lists or status file could not be parsed or opened.
-Aug 19 14:31:38 localhost systemd[1]: apt-daily.service: Succeeded.
-Aug 19 14:31:38 localhost systemd[1]: Started Daily apt download activities.
-Aug 19 21:11:39 localhost dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
-Aug 19 21:11:39 localhost dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
-Aug 19 21:11:39 localhost dhclient[631]: bound to 158.247.223.84 -- renewal in 36869 seconds.
-Aug 19 21:52:42 localhost systemd[1]: Starting Daily apt download activities...
-Aug 19 21:52:43 localhost systemd[1]: apt-daily.service: Succeeded.
-Aug 19 21:52:43 localhost systemd[1]: Started Daily apt download activities.
-Aug 19 22:57:05 localhost systemd[1]: Started Session 89 of user root.
-Aug 20 00:00:21 localhost systemd[1]: logrotate.service: Failed to run 'start' task: No space left on device
-Aug 20 00:00:21 localhost systemd[1]: logrotate.service: Failed with result 'resources'.
-Aug 20 00:00:21 localhost systemd[1]: Failed to start Rotate log files.
-Aug 20 00:00:21 localhost systemd[1]: Starting Daily man-db regeneration...
-Aug 20 00:00:21 localhost mandb[18145]: /usr/bin/mandb: can't write to /var/cache/man/18145: No space left on device
-Aug 20 00:00:21 localhost mandb[18145]: /usr/bin/mandb: can't create index cache /var/cache/man/18145: No space left on device
-Aug 20 00:00:21 localhost systemd[1]: man-db.service: Main process exited, code=exiteAug 20 02:43:57 localhost systemd[1]: Started Session 95 of user root.
-Aug 20 02:56:30 localhost systemd[1]: session-92.scope: Succeeded.
-Aug 20 03:04:28 localhost systemd[24351]: Started GnuPG cryptographic agent and passphrase cache.
-Aug 20 03:04:28 localhost gpg-agent[20549]: gpg-agent (GnuPG) 2.2.12 starting in supervised mode.
-Aug 20 03:04:28 localhost gpg-agent[20549]: using fd 3 for extra socket (/run/user/0/gnupg/S.gpg-agent.extra)
-Aug 20 03:04:28 localhost gpg-agent[20549]: using fd 4 for std socket (/run/user/0/gnupg/S.gpg-agent)
-Aug 20 03:04:28 localhost gpg-agent[20549]: using fd 5 for ssh socket (/run/user/0/gnupg/S.gpg-agent.ssh)
-Aug 20 03:04:28 localhost gpg-agent[20549]: using fd 6 for browser socket (/run/user/0/gnupg/S.gpg-agent.browser)
-Aug 20 03:04:28 localhost gpg-agent[20549]: listening on: std=4 extra=3 browser=6 ssh=5
-Aug 20 04:37:25 localhost systemd[1]: Started Session 98 of user root.
-Aug 20 05:08:35 localhost systemd[1]: session-95.scope: Succeeded.
-Aug 20 06:16:42 localhost systemd[1]: Starting Daily apt upgrade and clean activities...
-Aug 20 06:16:44 localhost systemd[1]: apt-daily-upgrade.service: Succeeded.
-Aug 20 06:16:44 localhost systemd[1]: Started Daily apt upgrade and clean activities.
-Aug 20 07:26:08 localhost dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
-Aug 20 07:26:08 localhost dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
-Aug 20 07:26:08 localhost dhclient[631]: bound to 158.247.223.84 -- renewal in 36776 seconds.
-Aug 20 09:41:47 localhost systemd[1]: Started Session 105 of user root.
-Aug 20 09:43:22 localhost systemd[1]: Started Session 106 of user root.
-Aug 20 10:20:13 localhost systemd[1]: session-98.scope: Succeeded.
-Aug 20 10:20:55 localhost systemd[1]: session-105.scope: Succeeded.
-Aug 20 15:45:14 localhost systemd[1]: Started Session 113 of user root.
-Aug 20 16:45:57 localhost systemd[1]: session-106.scope: Succeeded.
-Aug 20 16:54:32 localhost systemd[1]: Starting Daily apt download activities...
-Aug 20 16:54:36 localhost systemd[1]: apt-daily.service: Succeeded.
-Aug 20 16:54:36 localhost systemd[1]: Started Daily apt download activities.
-Aug 20 17:38:25 localhost systemd[1]: Started Session 116 of user root.
-Aug 20 17:39:04 localhost dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
-Aug 20 17:39:04 localhost dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
-Aug 20 17:39:04 localhost dhclient[631]: bound to 158.247.223.84 -- renewal in 32035 seconds.
-Aug 20 18:10:54 localhost systemd[1]: Started Session 117 of user root.
-Aug 20 18:30:38 localhost systemd[1]: Started Session 119 of user root.
-Aug 20 18:33:38 localhost systemd[1]: Started Session 120 of user root.
-Aug 20 19:40:43 localhost systemd[1]: session-113.scope: Succeeded.
-Aug 20 20:28:14 localhost systemd[1]: session-117.scope: Succeeded.
-Aug 20 21:21:12 localhost systemd[1]: session-120.scope: Succeeded.
-Aug 20 21:21:12 localhost systemd[1]: session-119.scope: Succeeded.
-Aug 20 21:23:54 localhost systemd[1]: Started Session 124 of user root.
-Aug 20 22:00:10 localhost systemd[1]: session-124.scope: Succeeded.
-Aug 20 23:07:35 localhost systemd[1]: Started Session 126 of user root.
-Aug 21 00:00:25 localhost systemd[1]: Starting Rotate log files...
-Aug 21 00:00:25 localhost systemd[1]: Starting Daily man-db regeneration...
-Aug 21 00:00:25 localhost systemd[1]: logrotate.service: Succeeded.
-Aug 21 00:00:25 localhost systemd[1]: Started Rotate log files.
-Aug 21 00:00:25 localhost mandb[1168]: /usr/bin/mandb: can't write to /var/cache/man/1168: No space left on device
-Aug 21 00:00:25 localhost mandb[1168]: /usr/bin/mandb: can't create index cache /var/cache/man/1168: No space left on device
-Aug 21 00:00:25 localhost systemd[1]: man-db.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
-Aug 21 00:00:25 localhost systemd[1]: man-db.service: Failed with result 'exit-code'.
-Aug 21 00:00:25 localhost systemd[1]: Failed to start Daily man-db regeneration.
-Aug 21 00:14:33 localhost systemd[1]: Starting Cleanup of Temporary Directories...
-Aug 21 00:14:33 localhost systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
-Aug 21 00:14:33 localhost systemd[1]: Started Cleanup of Temporary Directories.
-Aug 21 00:30:29 localhost systemd[1]: session-126.scope: Succeeded.
-Aug 21 02:32:59 localhost dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
-Aug 21 02:32:59 localhost dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
-Aug 21 02:32:59 localhost dhclient[631]: bound to 158.247.223.84 -- renewal in 32115 seconds.
-Aug 21 02:33:43 localhost systemd[1]: Starting Daily apt download activities...
-Aug 21 02:33:46 localhost systemd[1]: apt-daily.service: Succeeded.
-Aug 21 02:33:46 localhost systemd[1]: Started Daily apt download activities.
-Aug 21 06:51:40 localhost systemd[1]: Starting Daily apt upgrade and clean activities...
-Aug 21 06:51:42 localhost systemd[1]: apt-daily-upgrade.service: Succeeded.
-Aug 21 06:51:42 localhost systemd[1]: Started Daily apt upgrade and clean activities.
-Aug 21 10:14:38 localhost systemd[1]: Starting Daily apt download activities...
-Aug 21 10:14:39 localhost systemd[1]: apt-daily.service: Succeeded.
-Aug 21 10:14:39 localhost systemd[1]: Started Daily apt download activities.
-Aug 21 11:28:14 localhost dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
-Aug 21 11:28:14 localhost dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
-Aug 21 11:28:14 localhost dhclient[631]: bound to 158.247.223.84 -- renewal in 35513 seconds.
-Aug 21 17:46:31 localhost systemd[1]: Started Session 147 of user root.
-Aug 21 21:20:07 localhost dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
-Aug 21 21:20:07 localhost dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
-Aug 21 21:20:07 localhost dhclient[631]: bound to 158.247.223.84 -- renewal in 38495 seconds.
-Aug 22 00:00:02 localhost systemd[1]: Starting Rotate log files...
-Aug 22 00:00:02 localhost systemd[1]: Starting Daily man-db regeneration...
+Aug 22 00:00:02 localhost systemd[1]: logrotate.service: Succeeded.
+Aug 22 00:00:02 localhost systemd[1]: Started Rotate log files.
+Aug 22 00:00:02 localhost mandb[14961]: /usr/bin/mandb: can't write to /var/cache/man/14961: No space left on device
+Aug 22 00:00:02 localhost mandb[14961]: /usr/bin/mandb: can't create index cache /var/cache/man/14961: No space left on device
+Aug 22 00:00:02 localhost systemd[1]: man-db.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Aug 22 00:00:02 localhost systemd[1]: man-db.service: Failed with result 'exit-code'.
+Aug 22 00:00:02 localhost systemd[1]: Failed to start Daily man-db regeneration.
+Aug 22 00:14:36 localhost systemd[1]: Starting Cleanup of Temporary Directories...
+Aug 22 00:14:37 localhost systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
+Aug 22 00:14:37 localhost systemd[1]: Started Cleanup of Temporary Directories.
+Aug 22 03:22:42 localhost systemd[1]: Started Session 159 of user root.
+Aug 22 03:26:20 localhost systemd[1]: session-147.scope: Succeeded.
+Aug 22 03:26:20 localhost systemd[1]: session-159.scope: Succeeded.
+Aug 22 03:26:24 localhost systemd[1]: Started Session 160 of user root.
+Aug 22 03:27:18 localhost systemd[1]: session-116.scope: Succeeded.
+Aug 22 04:32:54 localhost systemd[1]: Starting Daily apt download activities...
+Aug 22 04:32:57 localhost apt.systemd.daily[19733]: Apt returned an error, exiting
+Aug 22 04:32:57 localhost apt.systemd.daily[19733]: error message: E:Write error - write (28: No space left on device), E:IO Error saving source cache, E:The package lists or status file could not be parsed or opened.
+Aug 22 04:32:57 localhost systemd[1]: apt-daily.service: Succeeded.
+Aug 22 04:32:57 localhost systemd[1]: Started Daily apt download activities.
+Aug 22 06:18:36 localhost systemd[1]: Starting Daily apt upgrade and clean activities...
+Aug 22 06:18:37 localhost systemd[1]: apt-daily-upgrade.service: Succeeded.
+Aug 22 06:18:37 localhost systemd[1]: Started Daily apt upgrade and clean activities.
+Aug 22 08:01:42 localhost dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
+Aug 22 08:01:42 localhost dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Aug 22 08:01:42 localhost dhclient[631]: bound to 158.247.223.84 -- renewal in 37277 seconds.
+Aug 22 09:23:27 localhost systemd[1]: Starting Daily apt download activities...
+Aug 22 09:23:28 localhost systemd[1]: apt-daily.service: Succeeded.
+Aug 22 09:23:28 localhost systemd[1]: Started Daily apt download activities.
+Aug 22 18:22:59 localhost dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
+Aug 22 18:22:59 localhost dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Aug 22 18:22:59 localhost dhclient[631]: bound to 158.247.223.84 -- renewal in 30051 seconds.
+Aug 22 22:26:43 localhost systemd[1]: Starting Daily apt download activities...
+Aug 22 22:26:43 localhost systemd[1]: apt-daily.service: Succeeded.
+Aug 22 22:26:43 localhost systemd[1]: Started Daily apt download activities.
+Aug 23 00:00:01 localhost systemd[1]: logrotate.service: Failed to run 'start' task: No space left on device
+Aug 23 00:00:01 localhost systemd[1]: logrotate.service: Failed with result 'resources'.
+Aug 23 00:00:01 localhost systemd[1]: Failed to start Rotate log files.
+Aug 23 00:00:01 localhost systemd[1]: Starting Daily man-db regeneration...
+Aug 23 00:00:01 localhost mandb[1258]: /usr/bin/mandb: can't write to /var/cache/man/1258: No space left on device
+Aug 23 00:00:01 localhost mandb[1258]: /usr/bin/mandb: can't create index cache /var/cache/man/1258: No space left on device
+Aug 23 00:00:01 localhost systemd[1]: man-db.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Aug 23 00:00:01 localhost systemd[1]: man-db.service: Failed with result 'exit-code'.
+Aug 23 00:00:01 localhost systemd[1]: Failed to start Daily man-db regeneration.
+Aug 23 00:14:41 localhost systemd[1]: Starting Cleanup of Temporary Directories...
+Aug 23 00:14:41 localhost systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
+Aug 23 00:14:Aug 24 05:05:43 localhost systemd[1]: Starting Daily apt download activities...
+Aug 24 05:05:48 localhost systemd[1]: apt-daily.service: Succeeded.
+Aug 24 05:05:48 localhost systemd[1]: Started Daily apt download activities.
+Aug 24 06:49:11 localhost systemd[1]: Starting Daily apt upgrade and clean activities...
+Aug 24 06:49:13 localhost systemd[1]: apt-daily-upgrade.service: Succeeded.
+Aug 24 06:49:13 localhost systemd[1]: Started Daily apt upgrade and clean activities.
+Aug 24 07:20:25 localhost dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
+Aug 24 07:20:25 localhost dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Aug 24 07:20:25 localhost dhclient[631]: bound to 158.247.223.84 -- renewal in 36425 seconds.
+Aug 24 08:05:43 localhost systemd[1]: Started Session 218 of user root.
+Aug 24 08:06:12 localhost systemd[1]: Reloading.
+Aug 24 08:06:12 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Aug 24 08:06:12 localhost systemd[1]: Reloading.
+Aug 24 08:06:12 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Aug 24 08:06:12 localhost systemd[1]: Starting Daily apt download activities...
+Aug 24 08:06:12 localhost systemd[1]: Reloading.
+Aug 24 08:06:13 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Aug 24 08:06:13 localhost systemd[1]: apt-daily.service: Succeeded.
+Aug 24 08:06:13 localhost systemd[1]: Started Daily apt download activities.
+Aug 24 08:06:13 localhost systemd[1]: Reloading.
+Aug 24 08:06:13 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Aug 24 08:06:13 localhost systemd[1]: Starting The Apache HTTP Server...
+Aug 24 08:06:13 localhost apachectl[22707]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+Aug 24 08:06:13 localhost systemd[1]: Started The Apache HTTP Server.
+Aug 24 08:06:13 localhost systemd[1]: Reloading.
+Aug 24 08:06:13 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Aug 24 08:06:13 localhost systemd[1]: Reloading.
+Aug 24 08:06:14 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Aug 24 08:06:14 localhost systemd[1]: Reloading.
+Aug 24 08:06:14 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Aug 24 08:06:14 localhost systemd[1]: Reloading.
+Aug 24 08:06:14 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Aug 24 08:06:14 localhost systemd[1]: Reloading.
+Aug 24 08:06:14 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Aug 24 09:06:15 localhost systemd[1]: Started Session 220 of user root.
+Aug 24 12:13:40 localhost systemd[1]: Started Session 224 of user root.
+Aug 24 14:27:08 localhost systemd[1]: session-224.scope: Succeeded.
+Aug 24 17:27:30 localhost dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
+Aug 24 17:27:30 localhost dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Aug 24 17:27:30 localhost dhclient[631]: bound to 158.247.223.84 -- renewal in 32806 seconds.
+Aug 24 17:28:01 localhost systemd[1]: Started Session 231 of user root.
+Aug 24 17:30:58 localhost dhclient[27896]: DHCPDISCOVER on ens3 to 255.255.255.255 port 67 interval 7
+Aug 24 17:30:58 localhost dhclient[27896]: DHCPOFFER of 158.247.223.84 from 169.254.169.254
+Aug 24 17:30:58 localhost dhclient[27896]: DHCPREQUEST for 158.247.223.84 on ens3 to 255.255.255.255 port 67
+Aug 24 17:30:58 localhost dhclient[27896]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Aug 24 17:30:58 localhost root: /etc/dhcp/dhclient-exit-hooks.d/rfc3442-classless-routes returned non-zero exit status 2
+Aug 24 17:30:58 localhost dhclient[27896]: bound to 158.247.223.84 -- renewal in 37450 seconds.
+Aug 24 17:31:46 localhost ntpd[500]: Listen normally on 7 ens3:1 158.247.200.34:123
+Aug 24 17:31:46 localhost ntpd[500]: new interface(s) found: waking up resolver
+Aug 24 17:41:39 localhost systemd[1]: Stopping The Apache HTTP Server...
+Aug 24 17:41:39 localhost apachectl[28049]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+Aug 24 17:41:39 localhost systemd[1]: apache2.service: Succeeded.
+Aug 24 17:41:39 localhost systemd[1]: Stopped The Apache HTTP Server.
+Aug 24 17:41:39 localhost systemd[1]: Starting The Apache HTTP Server...
+Aug 24 17:41:39 localhost apachectl[28054]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+Aug 24 17:41:39 localhost systemd[1]: Started The Apache HTTP Server.
+Aug 24 17:56:07 localhost systemd[1]: Started Session 232 of user root.
+Aug 24 18:27:03 localhost systemd[1]: session-232.scope: Succeeded.
+Aug 24 19:39:40 localhost systemd[1]: Started Session 235 of user root.
+Aug 24 19:58:31 localhost systemd[1]: Started Session 236 of user root.
+Aug 24 21:00:24 localhost systemd[1]: Started Session 238 of user root.
+Aug 24 21:03:25 localhost systemd[1]: Started Session 239 of user root.
+Aug 24 21:03:47 localhost systemd[1]: session-239.scope: Succeeded.
+Aug 24 21:15:42 localhost systemd[1]: Started Session 240 of user root.
+Aug 24 21:16:44 localhost systemd[1]: Stopping The Apache HTTP Server...
+Aug 24 21:16:44 localhost apachectl[30484]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+Aug 24 21:16:44 localhost systemd[1]: apache2.service: Succeeded.
+Aug 24 21:16:44 localhost systemd[1]: Stopped The Apache HTTP Server.
+Aug 24 21:16:44 localhost systemd[1]: Starting The Apache HTTP Server...
+Aug 24 21:16:44 localhost apachectl[30489]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+Aug 24 21:16:44 localhost systemd[1]: Started The Apache HTTP Server.
+Aug 24 21:17:24 localhost systemd[1]: Stopping The Apache HTTP Server...
+Aug 24 21:17:25 localhost apachectl[30592]: AH00526: Syntax error on line 17 of /etc/apache2/sites-enabled/000-default.conf:
+Aug 24 21:17:25 localhost apachectl[30592]: unknown order
+Aug 24 21:17:25 localhost apachectl[30592]: Action 'stop' failed.
+Aug 24 21:17:25 localhost apachectl[30592]: The Apache error log may have more information.
+Aug 24 21:17:25 localhost systemd[1]: apache2.service: Control process exited, code=exited, status=1/FAILURE
+Aug 24 21:17:25 localhost systemd[1]: apache2.service: Failed with result 'exit-code'.
+Aug 24 21:17:25 localhost systemd[1]: Stopped The Apache HTTP Server.
+Aug 24 21:17:25 localhost systemd[1]: Starting The Apache HTTP Server...
+Aug 24 21:17:25 localhost apachectl[30597]: AH00526: Syntax error on line 17 of /etc/apache2/sites-enabled/000-default.conf:
+Aug 24 21:17:25 localhost apachectl[30597]: unknown order
+Aug 24 21:17:25 localhost apachectl[30597]: Action 'start' failed.
+Aug 24 21:17:25 localhost apachectl[30597]: The Apache error log may have more information.
+Aug 24 21:17:25 localhost systemd[1]: apache2.service: Control process exited, code=exited, status=1/FAILURE
+Aug 24 21:17:25 localhost systemd[1]: apache2.service: Failed with result 'exit-code'.
+Aug 24 21:17:25 localhost systemd[1]: Failed to start The Apache HTTP Server.
+Aug 24 21:17:59 localhost systemd[1]: Starting The Apache HTTP Server...
+Aug 24 21:17:59 localhost apachectl[30637]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+Aug 24 21:17:59 localhost systemd[1]: Started The Apache HTTP Server.
+Aug 24 21:23:36 localhost systemd[1]: session-238.scope: Succeeded.
+Aug 24 22:09:59 localhost systemd[1]: session-236.scope: Succeeded.
+Aug 24 22:56:09 localhost systemd[1]: Starting Daily apt download activities...
+Aug 24 22:56:10 localhost systemd[1]: apt-daily.service: Succeeded.
+Aug 24 22:56:10 localhost systemd[1]: Started Daily apt download activities.
+Aug 24 23:48:11 localhost systemd[1]: session-240.scope: Succeeded.
+Aug 25 00:00:01 localhost systemd[1]: Starting Rotate log files...
+Aug 25 00:00:01 localhost systemd[1]: Starting Daily man-db regeneration...
+Aug 25 00:00:01 localhost systemd[1]: logrotate.service: Succeeded.
+Aug 25 00:00:01 localhost systemd[1]: Started Rotate log files.
+Aug 25 00:00:02 localhost systemd[1]: man-db.service: Succeeded.
+Aug 25 00:00:02 localhost systemd[1]: Started Daily man-db regeneration.
+Aug 25 00:15:23 localhost systemd[1]: Starting Cleanup of Temporary Directories...
+Aug 25 00:15:24 localhost systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
+Aug 25 00:15:24 localhost systemd[1]: Started Cleanup of Temporary Directories.
+Aug 25 01:57:13 localhost systemd[1]: Started Session 246 of user root.
+Aug 25 02:31:10 localhost systemd[1]: session-246.scope: Succeeded.
+Aug 25 02:34:16 localhost dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
+Aug 25 02:34:16 localhost dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Aug 25 02:34:16 localhost dhclient[631]: bound to 158.247.223.84 -- renewal in 38426 seconds.
+Aug 25 03:55:08 localhost dhclient[27896]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
+Aug 25 03:55:08 localhost dhclient[27896]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Aug 25 03:55:09 localhost dhclient[27896]: bound to 158.247.223.84 -- renewal in 36777 seconds.
+Aug 25 06:48:43 localhost systemd[1]: Starting Daily apt download activities...
+Aug 25 06:48:49 localhost systemd[1]: apt-daily.service: Succeeded.
+Aug 25 06:48:49 localhost systemd[1]: Started Daily apt download activities.
+Aug 25 06:57:39 localhost systemd[1]: Starting Daily apt upgrade and clean activities...
+Aug 25 06:57:48 localhost systemd[1]: apt-daily-upgrade.service: Succeeded.
+Aug 25 06:57:48 localhost systemd[1]: Started Daily apt upgrade and clean activities.
+Aug 25 11:26:29 localhost systemd[1]: Started Session 258 of user root.
+Aug 25 11:27:16 localhost systemd[1]: Started Session 259 of user root.
+Aug 25 11:34:01 localhost systemd[1]: Started Session 260 of user root.
+Aug 25 11:50:03 localhost systemd[1]: Started Session 261 of user root.
+Aug 25 11:54:19 localhost systemd[1]: Started Session 262 of user root.
+Aug 25 12:21:52 localhost systemd[1]: Started Session 264 of user root.
+Aug 25 12:23:30 localhost systemd[1]: session-262.scope: Succeeded.
+Aug 25 12:33:35 localhost systemd[1]: Started Session 265 of user root.
+Aug 25 13:14:42 localhost dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
+Aug 25 13:14:42 localhost dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Aug 25 13:14:42 localhost dhclient[631]: bound to 158.247.223.84 -- renewal in 29330 seconds.
+Aug 25 13:52:22 localhost systemd[1]: session-258.scope: Succeeded.
+Aug 25 13:59:53 localhost systemd[1]: session-260.scope: Succeeded.
+Aug 25 14:00:09 localhost systemd[1]: session-259.scope: Succeeded.
+Aug 25 14:08:06 localhost dhclient[27896]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
+Aug 25 14:08:06 localhost dhclient[27896]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Aug 25 14:08:06 localhost dhclient[27896]: bound to 158.247.223.84 -- renewal in 29692 seconds.
+Aug 25 14:10:48 localhost systemd[1]: session-261.scope: Succeeded.
+Aug 25 15:25:21 localhost systemd[1]: session-264.scope: Succeeded.
+Aug 25 16:22:09 localhost systemd[1]: session-265.scope: Succeeded.
+Aug 25 18:32:27 localhost systemd[1]: Started Session 272 of user root.
+Aug 25 18:57:33 localhost systemd[1]: session-272.scope: Succeeded.
+Aug 25 21:21:16 localhost systemd[1]: Started Session 276 of user root.
+Aug 25 21:21:38 localhost systemd[1]: Started Session 277 of user root.
+Aug 25 21:23:32 localhost dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
+Aug 25 21:23:32 localhost dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Aug 25 21:23:32 localhost dhclient[631]: bound to 158.247.223.84 -- renewal in 35680 seconds.
+Aug 25 21:47:22 localhost systemd[1]: session-276.scope: Succeeded.
+Aug 25 22:22:58 localhost dhclient[27896]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
+Aug 25 22:22:58 localhost dhclient[27896]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Aug 25 22:22:59 localhost dhclient[27896]: bound to 158.247.223.84 -- renewal in 33736 seconds.
+Aug 25 23:34:41 localhost systemd[1]: session-277.scope: Succeeded.
+Aug 26 00:00:37 localhost systemd[1]: Starting Rotate log files...
+Aug 26 00:00:37 localhost systemd[1]: Starting Daily man-db regeneration...
+Aug 26 00:00:37 localhost systemd[1]: Reloading The Apache HTTP Server.
+Aug 26 00:00:38 localhost apachectl[12126]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+Aug 26 00:00:38 localhost systemd[1]: Reloaded The Apache HTTP Server.
+Aug 26 00:00:38 localhost systemd[1]: logrotate.service: Succeeded.
+Aug 26 00:00:38 localhost systemd[1]: Started Rotate log files.
+Aug 26 00:00:38 localhost systemd[1]: man-db.service: Succeeded.
+Aug 26 00:00:38 localhost systemd[1]: Started Daily man-db regeneration.
+Aug 26 00:15:42 localhost systemd[1]: Starting Cleanup of Temporary Directories...
+Aug 26 00:15:43 localhost systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
+Aug 26 00:15:43 localhost systemd[1]: Started Cleanup of Temporary Directories.
+Aug 26 05:51:43 localhost systemd[1]: Starting Daily apt download activities...
+Aug 26 05:51:47 localhost systemd[1]: apt-daily.service: Succeeded.
+Aug 26 05:51:47 localhost systemd[1]: Started Daily apt download activities.
+Aug 26 06:43:43 localhost systemd[1]: Starting Daily apt upgrade and clean activities...
+Aug 26 06:43:45 localhost systemd[1]: apt-daily-upgrade.service: Succeeded.
+Aug 26 06:43:45 localhost systemd[1]: Started Daily apt upgrade and clean activities.
+Aug 26 07:18:12 localhost dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
+Aug 26 07:18:12 localhost dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Aug 26 07:18:12 localhost dhclient[631]: bound to 158.247.223.84 -- renewal in 37307 seconds.
+Aug 26 07:45:15 localhost dhclient[27896]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
+Aug 26 07:45:15 localhost dhclient[27896]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Aug 26 07:45:15 localhost dhclient[27896]: bound to 158.247.223.84 -- renewal in 33887 seconds.
+Aug 26 09:31:43 localhost systemd[1]: Starting Daily apt download activities...
+Aug 26 09:31:44 localhost systemd[1]: apt-daily.service: Succeeded.
+Aug 26 09:31:44 localhost systemd[1]: Started Daily apt download activities.
+Aug 26 13:43:08 localhost systemd[1]: Started Session 295 of user root.
+Aug 26 14:00:07 localhost systemd[1]: Started Session 296 of user root.
+Aug 26 14:00:35 localhost systemd[24351]: mnt-amzn2.mount: Succeeded.
+Aug 26 14:00:35 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
+Aug 26 14:01:15 localhost systemd[1]: Started Session 297 of user root.
+Aug 26 14:01:16 localhost systemd[24351]: mnt-amzn2.mount: Succeeded.
+Aug 26 14:01:16 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
+Aug 26 14:01:17 localhost systemd[24351]: mnt-amzn2.mount: Succeeded.
+Aug 26 14:01:17 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
+Aug 26 14:03:09 localhost systemd[1]: session-235.scope: Succeeded.
+Aug 26 14:13:34 localhost systemd[24351]: mnt-amzn2.mount: Succeeded.
+Aug 26 14:13:34 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
+Aug 26 14:14:00 localhost systemd[24351]: mnt-amzn2.mount: Succeeded.
+Aug 26 14:14:00 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
+Aug 26 14:25:07 localhost systemd[1]: Started Session 299 of user root.
+Aug 26 14:25:17 localhost systemd[24351]: mnt-amzn2.mount: Succeeded.
+Aug 26 14:25:17 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
+Aug 26 14:25:18 localhost systemd[1]: session-296.scope: Succeeded.
+Aug 26 16:27:46 localhost systemd[1]: session-297.scope: Succeeded.
+Aug 26 16:40:19 localhost systemd[1]: session-299.scope: Succeeded.
+Aug 26 17:01:17 localhost systemd[1]: Started Session 302 of user root.
+Aug 26 17:01:20 localhost systemd[24351]: mnt-amzn2.mount: Succeeded.
+Aug 26 17:01:20 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
+Aug 26 17:03:04 localhost systemd[1]: session-295.scope: Succeeded.
+Aug 26 17:03:23 localhost systemd[1]: session-218.scope: Succeeded.
+Aug 26 17:03:41 localhost systemd[24351]: mnt-amzn2.mount: Succeeded.
+Aug 26 17:03:41 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
+Aug 26 17:04:03 localhost systemd[1]: Started Session 303 of user root.
+Aug 26 17:04:13 localhost systemd[24351]: mnt-amzn2.mount: Succeeded.
+Aug 26 17:04:13 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
+Aug 26 17:10:02 localhost dhclient[27896]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
+Aug 26 17:10:02 localhost dhclient[27896]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Aug 26 17:10:02 localhost dhclient[27896]: bound to 158.247.223.84 -- renewal in 31749 seconds.
+Aug 26 17:39:59 localhost dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
+Aug 26 17:39:59 localhost dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Aug 26 17:39:59 localhost dhclient[631]: bound to 158.247.223.84 -- renewal in 36302 seconds.
+Aug 26 18:45:47 localhost systemd[1]: session-303.scope: Succeeded.
+Aug 26 18:59:38 localhost systemd[1]: Started Session 306 of user root.
+Aug 26 19:14:18 localhost systemd[24351]: mnt-amzn2.mount: Succeeded.
+Aug 26 19:14:18 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
+Aug 26 21:31:46 localhost systemd[1]: Started Session 310 of user root.
+Aug 26 21:32:01 localhost systemd[24351]: mnt-amzn2.mount: Succeeded.
+Aug 26 21:32:01 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
+Aug 26 21:57:22 localhost systemd[1]: Started Session 311 of user root.
+Aug 26 21:57:42 localhost systemd[24351]: mnt-amzn2.mount: Succeeded.
+Aug 26 21:57:42 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
+Aug 26 22:39:46 localhost systemd[1]: Started Session 313 of user root.
+Aug 26 22:40:08 localhost systemd[24351]: mnt-amzn2.mount: Succeeded.
+Aug 26 22:40:08 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
+Aug 26 22:41:33 localhost systemd[1]: Started Session 314 of user root.
+Aug 26 22:41:53 localhost systemd[24351]: mnt-amzn2.mount: Succeeded.
+Aug 26 22:41:53 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
+Aug 26 23:28:05 localhost systemd[1]: session-314.scope: Succeeded.
+Aug 26 23:28:24 localhost systemd[1]: session-313.scope: Succeeded.
+Aug 27 00:00:13 localhost systemd[1]: Starting Rotate log files...
+Aug 27 00:00:13 localhost systemd[1]: Starting Daily man-db regeneration...
+Aug 27 00:00:13 localhost systemd[1]: Started Session 316 of user root.
+Aug 27 00:00:13 localhost systemd[1]: Reloading The Apache HTTP Server.
+Aug 27 00:00:13 localhost apachectl[20584]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+Aug 27 00:00:13 localhost systemd[1]: Reloaded The Apache HTTP Server.
+Aug 27 00:00:13 localhost systemd[1]: logrotate.service: Succeeded.
+Aug 27 00:00:13 localhost systemd[1]: Started Rotate log files.
+Aug 27 00:00:13 localhost systemd[1]: man-db.service: Succeeded.
+Aug 27 00:00:13 localhost systemd[1]: Started Daily man-db regeneration.
+Aug 27 00:00:17 localhost systemd[1]: Started Session 317 of user root.
+Aug 27 00:00:37 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
+Aug 27 00:00:37 localhost systemd[24351]: mnt-amzn2.mount: Succeeded.
+Aug 27 00:07:05 localhost systemd[1]: session-310.scope: Succeeded.
+Aug 27 00:15:47 localhost systemd[1]: Starting Cleanup of Temporary Directories...
+Aug 27 00:15:47 localhost systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
+Aug 27 00:15:47 localhost systemd[1]: Started Cleanup of Temporary Directories.
+Aug 27 00:17:30 localhost systemd[1]: session-311.scope: Succeeded.
+Aug 27 01:59:11 localhost dhclient[27896]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
+Aug 27 01:59:11 localhost dhclient[27896]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Aug 27 01:59:11 localhost dhclient[27896]: bound to 158.247.223.84 -- renewal in 29560 seconds.
+Aug 27 02:13:44 localhost systemd[1]: session-316.scope: Succeeded.
+Aug 27 02:27:58 localhost systemd[1]: session-317.scope: Succeeded.
+Aug 27 03:45:01 localhost dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
+Aug 27 03:45:01 localhost dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Aug 27 03:45:01 localhost dhclient[631]: bound to 158.247.223.84 -- renewal in 38746 seconds.
+Aug 27 05:27:54 localhost systemd[1]: Starting Daily apt download activities...
+Aug 27 05:28:00 localhost systemd[1]: apt-daily.service: Succeeded.
+Aug 27 05:28:00 localhost systemd[1]: Started Daily apt download activities.
+Aug 27 06:34:43 localhost systemd[1]: Starting Daily apt upgrade and clean activities...
+Aug 27 06:34:46 localhost systemd[1]: apt-daily-upgrade.service: Succeeded.
+Aug 27 06:34:46 localhost systemd[1]: Started Daily apt upgrade and clean activities.
+Aug 27 07:59:42 localhost systemd[1]: Started Session 327 of user root.
+Aug 27 07:59:53 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
+Aug 27 07:59:53 localhost systemd[24351]: mnt-amzn2.mount: Succeeded.
+Aug 27 09:39:57 localhost systemd[1]: Started Session 330 of user root.
+Aug 27 09:40:06 localhost systemd[24351]: mnt-amzn2.mount: Succeeded.
+Aug 27 09:40:06 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
+Aug 27 10:11:52 localhost dhclient[27896]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
+Aug 27 10:11:52 localhost dhclient[27896]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Aug 27 10:11:52 localhost dhclient[27896]: bound to 158.247.223.84 -- renewal in 37023 seconds.
+Aug 27 10:13:55 localhost systemd[1]: session-327.scope: Succeeded.
+Aug 27 11:07:38 localhost systemd[1]: Started Session 332 of user root.
+Aug 27 11:07:49 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
+Aug 27 11:07:49 localhost systemd[24351]: mnt-amzn2.mount: Succeeded.
+Aug 27 11:46:00 localhost systemd[1]: session-330.scope: Succeeded.
+Aug 27 13:59:09 localhost systemd[1]: Starting Daily apt download activities...
+Aug 27 13:59:10 localhost systemd[1]: apt-daily.service: Succeeded.
+Aug 27 13:59:10 localhost systemd[1]: Started Daily apt download activities.
+Aug 27 14:30:47 localhost dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
+Aug 27 14:30:47 localhost dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Aug 27 14:30:47 localhost dhclient[631]: bound to 158.247.223.84 -- renewal in 33031 seconds.
+Aug 27 17:35:43 localhost systemd[1]: session-332.scope: Succeeded.
+Aug 27 20:28:55 localhost dhclient[27896]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
+Aug 27 20:28:55 localhost dhclient[27896]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Aug 27 20:28:55 localhost dhclient[27896]: bound to 158.247.223.84 -- renewal in 35409 seconds.
+Aug 27 23:41:18 localhost dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
+Aug 27 23:41:18 localhost dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Aug 27 23:41:18 localhost dhclient[631]: bound to 158.247.223.84 -- renewal in 32653 seconds.
+Aug 28 00:00:43 localhost systemd[1]: Starting Rotate log files...
+Aug 28 00:00:43 localhost systemd[1]: Starting Daily man-db regeneration...
+Aug 28 00:00:43 localhost systemd[1]: Reloading The Apache HTTP Server.
+Aug 28 00:00:43 localhost apachectl[27791]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+Aug 28 00:00:43 localhost systemd[1]: Reloaded The Apache HTTP Server.
+Aug 28 00:00:43 localhost systemd[1]: logrotate.service: Succeeded.
+Aug 28 00:00:43 localhost systemd[1]: Started Rotate log files.
+Aug 28 00:00:43 localhost systemd[1]: man-db.service: Succeeded.
+Aug 28 00:00:43 localhost systemd[1]: Started Daily man-db regeneration.
+Aug 28 00:16:42 localhost systemd[1]: Starting Cleanup of Temporary Directories...
+Aug 28 00:16:43 localhost systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
+Aug 28 00:16:43 localhost systemd[1]: Started Cleanup of Temporary Directories.
+Aug 28 04:37:42 localhost systemd[1]: Starting Daily apt download activities...
+Aug 28 04:37:47 localhost systemd[1]: apt-daily.service: Succeeded.
+Aug 28 04:37:47 localhost systemd[1]: Started Daily apt download activities.
+Aug 28 06:19:04 localhost dhclient[27896]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
+Aug 28 06:19:04 localhost dhclient[27896]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Aug 28 06:19:04 localhost dhclient[27896]: bound to 158.247.223.84 -- renewal in 31939 seconds.
+Aug 28 06:44:09 localhost systemd[1]: Starting Daily apt upgrade and clean activities...
+Aug 28 06:44:11 localhost systemd[1]: apt-daily-upgrade.service: Succeeded.
+Aug 28 06:44:11 localhost systemd[1]: Started Daily apt upgrade and clean activities.
+Aug 28 08:45:31 localhost dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
+Aug 28 08:45:31 localhost dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Aug 28 08:45:31 localhost dhclient[631]: bound to 158.247.223.84 -- renewal in 30244 seconds.
+Aug 28 11:23:10 localhost systemd[1]: Started Session 359 of user root.
+Aug 28 11:23:13 localhost systemd[24351]: mnt-amzn2.mount: Succeeded.
+Aug 28 11:23:13 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
+Aug 28 12:49:56 localhost systemd[1]: Started Session 361 of user root.
+Aug 28 12:50:00 localhost systemd[24351]: mnt-amzn2.mount: Succeeded.
+Aug 28 12:50:00 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
+Aug 28 13:27:22 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
+Aug 28 13:27:22 localhost systemd[24351]: mnt-amzn2.mount: Succeeded.
+Aug 28 13:29:32 localhost systemd[24351]: mnt-amzn2.mount: Succeeded.
+Aug 28 13:29:32 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
+Aug 28 15:11:23 localhost dhclient[27896]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
+Aug 28 15:11:23 localhost dhclient[27896]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Aug 28 15:11:23 localhost dhclient[27896]: bound to 158.247.223.84 -- renewal in 38657 seconds.
+Aug 28 15:29:10 localhost systemd[1]: Starting Daily apt download activities...
+Aug 28 15:29:12 localhost systemd[1]: apt-daily.service: Succeeded.
+Aug 28 15:29:12 localhost systemd[1]: Started Daily apt download activities.
+Aug 28 15:41:39 localhost systemd[1]: session-359.scope: Succeeded.
+Aug 28 17:09:35 localhost dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
+Aug 28 17:09:35 localhost dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Aug 28 17:09:35 localhost dhclient[631]: bound to 158.247.223.84 -- renewal in 32013 seconds.
+Aug 28 19:09:00 localhost systemd[1]: Started Session 368 of user root.
+Aug 28 19:09:22 localhost systemd[1]: Started Session 369 of user root.
+Aug 28 19:10:38 localhost systemd[1]: session-369.scope: Succeeded.
+Aug 28 19:10:44 localhost systemd[1]: Started Session 370 of user root.
+Aug 28 21:03:09 localhost systemd[1]: session-302.scope: Succeeded.
+Aug 28 21:03:16 localhost systemd[1]: session-199.scope: Succeeded.
+Aug 28 21:16:00 localhost systemd[1]: session-368.scope: Succeeded.
+Aug 28 22:41:49 localhost systemd[1]: Started Session 375 of user root.
+Aug 28 22:42:04 localhost systemd[1]: Started Session 376 of user root.
+Aug 28 23:16:02 localhost systemd[1]: session-370.scope: Succeeded.
+Aug 28 23:56:02 localhost systemd[1]: session-376.scope: Succeeded.
+Aug 29 00:00:43 localhost systemd[1]: Starting Rotate log files...
+Aug 29 00:00:43 localhost systemd[1]: Starting Daily man-db regeneration...
+Aug 29 00:00:43 localhost systemd[1]: Reloading The Apache HTTP Server.
+Aug 29 00:00:43 localhost apachectl[1431]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+Aug 29 00:00:43 localhost systemd[1]: Reloaded The Apache HTTP Server.
+Aug 29 00:00:43 localhost systemd[1]: man-db.service: Succeeded.
+Aug 29 00:00:43 localhost systemd[1]: Started Daily man-db regeneration.
