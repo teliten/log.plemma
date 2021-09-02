@@ -6,3 +6,141 @@ Aug 30 05:00:01 localhost postfix/local[29294]: warning: maildir access problem 
 Aug 30 05:00:01 localhost postfix/local[29294]: warning: perhaps you need to create the maildirs in advance
 Aug 30 05:00:01 localhost postfix/local[29294]: warning: maildir access problem for UID/GID=33/33: create maildir file /var/www/Maildir/tmp/1630299601.P29294.plemma: Permission denied
 Aug 30 05:00:01 localhost postfix/local[29294]: warning: perhaps you need to create the maildirs in advance
+Aug 31 05:00:02 localhost postfix/local[13968]: warning: maildir access problem for UID/GID=33/33: create maildir file /var/www/Maildir/tmp/1630386002.P13968.plemma: Permission denied
+Aug 31 05:00:02 localhost postfix/local[13968]: warning: perhaps you need to create the maildirs in advance
+Aug 31 05:00:02 localhost postfix/local[13968]: warning: maildir access problem for UID/GID=33/33: create maildir file /var/www/Maildir/tmp/1630386002.P13968.plemma: Permission denied
+Aug 31 05:00:02 localhost postfix/local[13968]: warning: perhaps you need to create the maildirs in advance
+Aug 31 16:27:31 localhost dovecot: master: Warning: Killed with signal 15 (by pid=28251 uid=0 code=kill)
+Aug 31 16:27:32 localhost dovecot: log(25442): Warning: Killed with signal 15 (by pid=1 uid=0 code=kill)
+Aug 31 16:27:52 localhost dovecot: master: Warning: Killed with signal 15 (by pid=28289 uid=0 code=kill)
+Aug 31 16:27:53 localhost dovecot: log(28265): Warning: Killed with signal 15 (by pid=1 uid=0 code=kill)
+Aug 31 16:29:49 localhost dovecot: master: Warning: Killed with signal 15 (by pid=28408 uid=0 code=kill)
+Aug 31 16:29:50 localhost dovecot: log(28301): Warning: Killed with signal 15 (by pid=1 uid=0 code=kill)
+Aug 31 16:30:05 localhost dovecot: master: Warning: Killed with signal 15 (by pid=28592 uid=0 code=kill)
+Aug 31 16:30:06 localhost dovecot: log(28417): Warning: Killed with signal 15 (by pid=1 uid=0 code=kill)
+Aug 31 16:31:29 localhost dovecot: master: Warning: Killed with signal 15 (by pid=28646 uid=0 code=kill)
+Aug 31 16:31:58 localhost dovecot: master: Warning: Killed with signal 15 (by pid=28721 uid=0 code=kill)
+Aug 31 16:32:33 localhost cyrus/master[29504]: cannot find executable for service 'pop3'
+Aug 31 16:36:12 localhost postfix/postfix-script[31539]: warning: symlink leaves directory: /etc/postfix/./makedefs.out
+Aug 31 16:38:02 localhost cyrus/master[31809]: cannot find executable for service 'nntp'
+Aug 31 16:38:47 localhost cyrus/master[31856]: cannot find executable for service 'nntp'
+Aug 31 16:58:42 localhost cyrus/master[476]: cannot find executable for service 'nntp'
+Aug 31 17:01:26 localhost dovecot: master: Warning: Killed with signal 15 (by pid=716 uid=0 code=kill)
+Aug 31 17:01:27 localhost dovecot: log(28758): Warning: Killed with signal 15 (by pid=1 uid=0 code=kill)
+Aug 31 17:05:17 localhost postfix/smtpd[863]: warning: Illegal address syntax from localhost[::1] in RCPT command: adam@fromthemachine.org,adam@plemma.cc
+Aug 31 17:05:46 localhost postfix/trivial-rewrite[871]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Aug 31 17:05:51 localhost postfix/trivial-rewrite[871]: warning: do not list domain plemma.cc in BOTH mydestination and virtual_alias_domains
+Aug 31 17:05:59 localhost postfix/trivial-rewrite[871]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Aug 31 17:09:15 localhost postfix/smtpd[1018]: warning: database /etc/postfix/virtual.db is older than source file /etc/postfix/virtual
+Aug 31 17:09:28 localhost postfix/cleanup[1021]: warning: database /etc/postfix/virtual.db is older than source file /etc/postfix/virtual
+Aug 31 17:18:10 localhost postfix/postfix-script[1304]: warning: symlink leaves directory: /etc/postfix/./makedefs.out
+Aug 31 17:18:13 localhost postfix/smtpd[1367]: warning: database /etc/postfix/virtual.db is older than source file /etc/postfix/virtual
+Aug 31 17:18:22 localhost postfix/cleanup[1372]: warning: database /etc/postfix/virtual.db is older than source file /etc/postfix/virtual
+Aug 31 19:41:59 localhost postfix/smtpd[3532]: warning: database /etc/postfix/virtual.db is older than source file /etc/postfix/virtual
+Aug 31 19:42:05 localhost postfix/smtpd[3537]: warning: database /etc/postfix/virtual.db is older than source file /etc/postfix/virtual
+Aug 31 19:42:07 localhost postfix/trivial-rewrite[3539]: warning: do not list domain emplifyhr.com in BOTH mydestination and virtual_alias_domains
+Aug 31 19:42:07 localhost postfix/cleanup[3540]: warning: database /etc/postfix/virtual.db is older than source file /etc/postfix/virtual
+Aug 31 19:42:07 localhost postfix/trivial-rewrite[3539]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Aug 31 19:43:53 localhost postfix/smtpd[3570]: warning: database /etc/postfix/virtual.db is older than source file /etc/postfix/virtual
+Aug 31 19:43:55 localhost postfix/trivial-rewrite[3539]: warning: do not list domain emplifyhr.com in BOTH mydestination and virtual_alias_domains
+Aug 31 19:43:56 localhost postfix/trivial-rewrite[3539]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Aug 31 19:50:56 localhost postfix/smtpd[3705]: warning: database /etc/postfix/virtual.db is older than source file /etc/postfix/virtual
+Aug 31 19:50:58 localhost postfix/trivial-rewrite[3712]: warning: do not list domain emplifyhr.com in BOTH mydestination and virtual_alias_domains
+Aug 31 19:50:58 localhost postfix/cleanup[3713]: warning: database /etc/postfix/virtual.db is older than source file /etc/postfix/virtual
+Aug 31 19:50:58 localhost postfix/trivial-rewrite[3712]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Aug 31 20:00:20 localhost postfix/smtpd[3833]: warning: database /etc/postfix/virtual.db is older than source file /etc/postfix/virtual
+Aug 31 20:00:23 localhost postfix/trivial-rewrite[3836]: warning: do not list domain emplifyhr.com in BOTH mydestination and virtual_alias_domains
+Aug 31 20:00:23 localhost postfix/cleanup[3837]: warning: database /etc/postfix/virtual.db is older than source file /etc/postfix/virtual
+Aug 31 20:00:23 localhost postfix/trivial-rewrite[3836]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Aug 31 20:30:34 localhost postfix/smtpd[4321]: warning: database /etc/postfix/virtual.db is older than source file /etc/postfix/virtual
+Aug 31 20:30:36 localhost postfix/trivial-rewrite[4324]: warning: do not list domain emplifyhr.com in BOTH mydestination and virtual_alias_domains
+Aug 31 20:30:36 localhost postfix/cleanup[4325]: warning: database /etc/postfix/virtual.db is older than source file /etc/postfix/virtual
+Aug 31 20:30:37 localhost postfix/trivial-rewrite[4324]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Aug 31 20:37:31 localhost postfix/smtpd[4457]: warning: database /etc/postfix/virtual.db is older than source file /etc/postfix/virtual
+Aug 31 20:37:33 localhost postfix/trivial-rewrite[4460]: warning: do not list domain emplifyhr.com in BOTH mydestination and virtual_alias_domains
+Aug 31 20:37:33 localhost postfix/cleanup[4461]: warning: database /etc/postfix/virtual.db is older than source file /etc/postfix/virtual
+Aug 31 20:37:33 localhost postfix/trivial-rewrite[4460]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Aug 31 20:43:23 localhost postfix/smtpd[4593]: warning: database /etc/postfix/virtual.db is older than source file /etc/postfix/virtual
+Aug 31 20:43:26 localhost postfix/trivial-rewrite[4590]: warning: do not list domain ermccorp.com in BOTH mydestination and virtual_alias_domains
+Aug 31 20:43:26 localhost postfix/cleanup[4596]: warning: database /etc/postfix/virtual.db is older than source file /etc/postfix/virtual
+Aug 31 20:43:26 localhost postfix/trivial-rewrite[4590]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Aug 31 20:43:37 localhost postfix/trivial-rewrite[4590]: warning: do not list domain EMPLIFYHR.COM in BOTH mydestination and virtual_alias_domains
+Aug 31 20:43:37 localhost postfix/trivial-rewrite[4590]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Aug 31 21:33:35 localhost postfix/smtpd[5335]: warning: database /etc/postfix/virtual.db is older than source file /etc/postfix/virtual
+Aug 31 21:33:37 localhost postfix/trivial-rewrite[5330]: warning: do not list domain emplifyhr.com in BOTH mydestination and virtual_alias_domains
+Aug 31 21:33:37 localhost postfix/cleanup[5338]: warning: database /etc/postfix/virtual.db is older than source file /etc/postfix/virtual
+Aug 31 21:33:37 localhost postfix/trivial-rewrite[5330]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Aug 31 22:11:07 localhost postfix/smtpd[6013]: warning: database /etc/postfix/virtual.db is older than source file /etc/postfix/virtual
+Aug 31 22:11:20 localhost postfix/smtpd[6015]: warning: database /etc/postfix/virtual.db is older than source file /etc/postfix/virtual
+Aug 31 22:33:15 localhost postfix/smtpd[6464]: warning: database /etc/postfix/virtual.db is older than source file /etc/postfix/virtual
+Aug 31 22:34:10 localhost postfix/trivial-rewrite[6461]: warning: do not list domain emplifyhr.com in BOTH mydestination and virtual_alias_domains
+Aug 31 22:34:11 localhost postfix/cleanup[6480]: warning: database /etc/postfix/virtual.db is older than source file /etc/postfix/virtual
+Aug 31 22:45:45 localhost postfix/smtpd[6693]: warning: database /etc/postfix/virtual.db is older than source file /etc/postfix/virtual
+Aug 31 22:45:47 localhost postfix/trivial-rewrite[6699]: warning: do not list domain emplifyhr.com in BOTH mydestination and virtual_alias_domains
+Aug 31 22:45:47 localhost postfix/cleanup[6700]: warning: database /etc/postfix/virtual.db is older than source file /etc/postfix/virtual
+Aug 31 22:45:47 localhost postfix/trivial-rewrite[6699]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Aug 31 23:49:48 localhost postfix/smtpd[7768]: warning: database /etc/postfix/virtual.db is older than source file /etc/postfix/virtual
+Aug 31 23:49:59 localhost postfix/trivial-rewrite[7720]: warning: do not list domain ermccorp.com in BOTH mydestination and virtual_alias_domains
+Aug 31 23:49:59 localhost postfix/cleanup[7779]: warning: database /etc/postfix/virtual.db is older than source file /etc/postfix/virtual
+Aug 31 23:50:09 localhost postfix/trivial-rewrite[7720]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Sep  1 01:31:22 localhost postfix/smtpd[9781]: warning: database /etc/postfix/virtual.db is older than source file /etc/postfix/virtual
+Sep  1 01:31:25 localhost postfix/trivial-rewrite[9787]: warning: do not list domain ermccorp.com in BOTH mydestination and virtual_alias_domains
+Sep  1 01:31:25 localhost postfix/cleanup[9788]: warning: database /etc/postfix/virtual.db is older than source file /etc/postfix/virtual
+Sep  1 01:31:26 localhost postfix/trivial-rewrite[9787]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Sep  1 01:46:25 localhost postfix/postmap[10341]: fatal: usage: postmap [-bfFhimnNoprsuUvw] [-c config_dir] [-d key] [-q key] [map_type:]file...
+Sep  1 01:46:32 localhost postfix/postmap[10350]: fatal: open /etc/vir: No such file or directory
+Sep  1 01:46:38 localhost postfix/postmap[10353]: fatal: open /etc/virtual: No such file or directory
+Sep  1 01:46:53 localhost postfix/postfix-script[10505]: warning: symlink leaves directory: /etc/postfix/./makedefs.out
+Sep  1 01:48:03 localhost postfix[10610]: fatal: usage: postfix [-c config_dir] [-Dv] command
+Sep  1 01:50:48 localhost dovecot: master: Warning: Killed with signal 15 (by pid=10749 uid=0 code=kill)
+Sep  1 01:51:44 localhost postfix/postfix-script[10983]: warning: symlink leaves directory: /etc/postfix/./makedefs.out
+Sep  1 01:53:12 localhost postfix/trivial-rewrite[11047]: warning: do not list domain plemma.cc in BOTH mydestination and virtual_alias_domains
+Sep  1 01:53:30 localhost postfix/trivial-rewrite[11047]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Sep  1 01:54:19 localhost postfix/trivial-rewrite[11047]: warning: do not list domain ERMCCORP.COM in BOTH mydestination and virtual_alias_domains
+Sep  1 01:54:25 localhost postfix/trivial-rewrite[11047]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Sep  1 01:55:54 localhost postfix/trivial-rewrite[11047]: warning: do not list domain plemma.cc in BOTH mydestination and virtual_alias_domains
+Sep  1 01:55:54 localhost postfix/trivial-rewrite[11047]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Sep  1 02:05:18 localhost postfix/trivial-rewrite[11439]: warning: do not list domain ermccorp.com in BOTH mydestination and virtual_alias_domains
+Sep  1 02:05:18 localhost postfix/trivial-rewrite[11439]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Sep  1 02:07:44 localhost postfix/trivial-rewrite[11439]: warning: do not list domain ermccorp.com in BOTH mydestination and virtual_alias_domains
+Sep  1 02:07:44 localhost postfix/trivial-rewrite[11439]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Sep  1 07:28:16 localhost postfix/smtpd[16884]: warning: non-SMTP command from ec2-35-178-169-29.eu-west-2.compute.amazonaws.com[35.178.169.29]: GET / HTTP/1.1
+Sep  1 07:48:16 localhost postfix/trivial-rewrite[17187]: warning: do not list domain ermccorp.com in BOTH mydestination and virtual_alias_domains
+Sep  1 07:48:16 localhost postfix/trivial-rewrite[17187]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Sep  1 07:53:57 localhost postfix/trivial-rewrite[17325]: warning: do not list domain ermccorp.com in BOTH mydestination and virtual_alias_domains
+Sep  1 07:53:57 localhost postfix/trivial-rewrite[17325]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Sep  1 14:55:11 localhost postfix/trivial-rewrite[24313]: warning: do not list domain ermccorp.com in BOTH mydestination and virtual_alias_domains
+Sep  1 14:55:12 localhost postfix/trivial-rewrite[24313]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Sep  1 15:14:04 localhost postfix/trivial-rewrite[24613]: warning: do not list domain emplifyhr.com in BOTH mydestination and virtual_alias_domains
+Sep  1 15:14:05 localhost postfix/trivial-rewrite[24613]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Sep  1 15:35:18 localhost postfix/trivial-rewrite[24906]: warning: do not list domain emplifyhr.com in BOTH mydestination and virtual_alias_domains
+Sep  1 15:35:18 localhost postfix/trivial-rewrite[24906]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Sep  1 15:56:02 localhost postfix/trivial-rewrite[25265]: warning: do not list domain ermccorp.com in BOTH mydestination and virtual_alias_domains
+Sep  1 15:56:04 localhost postfix/trivial-rewrite[25265]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Sep  1 15:58:47 localhost postfix/trivial-rewrite[25314]: warning: do not list domain ermccorp.com in BOTH mydestination and virtual_alias_domains
+Sep  1 15:58:48 localhost postfix/trivial-rewrite[25314]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Sep  1 17:13:16 localhost postfix/trivial-rewrite[26376]: warning: do not list domain emplifyhr.com in BOTH mydestination and virtual_alias_domains
+Sep  1 17:13:16 localhost postfix/trivial-rewrite[26376]: warning: do not list domain emplifyhr.com in BOTH mydestination and virtual_alias_domains
+Sep  1 17:13:16 localhost postfix/trivial-rewrite[26376]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Sep  1 17:13:46 localhost postfix/trivial-rewrite[26376]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Sep  1 17:33:58 localhost postfix/trivial-rewrite[26675]: warning: do not list domain emplifyhr.com in BOTH mydestination and virtual_alias_domains
+Sep  1 17:33:58 localhost postfix/trivial-rewrite[26675]: warning: do not list domain emplifyhr.com in BOTH mydestination and virtual_alias_domains
+Sep  1 17:33:59 localhost postfix/trivial-rewrite[26675]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Sep  1 17:34:29 localhost postfix/trivial-rewrite[26675]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Sep  1 20:10:20 localhost postfix/trivial-rewrite[29171]: warning: do not list domain emplifyhr.com in BOTH mydestination and virtual_alias_domains
+Sep  1 20:10:21 localhost postfix/trivial-rewrite[29171]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Sep  1 23:09:05 localhost postfix/smtpd[31939]: warning: hostname security.criminalip.com does not resolve to address 89.248.168.112
+Sep  2 00:07:12 localhost postfix/smtp[420]: warning: no MX host for JISCMAIL.AC.UK has a valid address record
+Sep  2 03:37:13 localhost postfix/smtp[4278]: warning: no MX host for JISCMAIL.AC.UK has a valid address record
+Sep  2 07:07:49 localhost postfix/smtpd[7631]: warning: hostname bizcloud-power.cyborgit.net does not resolve to address 143.244.172.144: Name or service not known
+Sep  2 07:07:50 localhost postfix/trivial-rewrite[7570]: warning: do not list domain ermccorp.com in BOTH mydestination and virtual_alias_domains
+Sep  2 07:07:51 localhost postfix/trivial-rewrite[7570]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Sep  2 09:49:17 localhost postfix/trivial-rewrite[10616]: warning: do not list domain ermccorp.com in BOTH mydestination and virtual_alias_domains
+Sep  2 09:49:18 localhost postfix/trivial-rewrite[10616]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Sep  2 10:12:52 localhost postfix/trivial-rewrite[10948]: warning: do not list domain emplifyhr.com in BOTH mydestination and virtual_alias_domains
+Sep  2 10:12:52 localhost postfix/trivial-rewrite[10948]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Sep  2 14:25:48 localhost postfix/smtpd[14967]: warning: hostname Pool-5-193.106.49.132.o.kg does not resolve to address 193.106.49.132: Name or service not known
+Sep  2 14:25:48 localhost postfix/trivial-rewrite[14975]: warning: do not list domain emplifyhr.com in BOTH mydestination and virtual_alias_domains
+Sep  2 14:25:49 localhost postfix/trivial-rewrite[14975]: warning: do not list domain emplifyhr.com in BOTH mydestination and virtual_alias_domains
+Sep  2 14:25:49 localhost postfix/trivial-rewrite[14975]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Sep  2 14:26:19 localhost postfix/trivial-rewrite[14975]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains

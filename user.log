@@ -5,3 +5,34 @@ Aug 29 15:38:47 localhost s3fs[21461]: s3fs: MOUNTPOINT directory /mnt/amzn2 is 
 Aug 29 15:49:29 localhost s3fs[21637]: s3fs: MOUNTPOINT directory /mnt/amzn2 is not empty. if you are sure this is safe, can use the 'nonempty' mount option.
 Aug 30 01:20:15 localhost s3fs[27997]: s3fs: MOUNTPOINT directory /mnt/amzn2 is not empty. if you are sure this is safe, can use the 'nonempty' mount option.
 Aug 30 12:23:19 localhost s3fs[8684]: s3fs: MOUNTPOINT directory /mnt/amzn2 is not empty. if you are sure this is safe, can use the 'nonempty' mount option.
+Aug 30 12:38:27 localhost s3fs[9309]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
+Aug 30 12:38:28 localhost s3fs[9309]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
+Aug 30 12:38:43 localhost s3fs[9327]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
+Aug 30 12:38:43 localhost s3fs[9327]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
+Aug 30 12:39:07 localhost s3fs[9399]: s3fs: missing BUCKET argument.
+Aug 30 12:39:21 localhost s3fs[9409]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
+Aug 30 12:39:22 localhost s3fs[9409]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
+Aug 30 12:39:44 localhost s3fs[9436]: s3fs.cpp:set_s3fs_log_level(273): change debug level from [CRT] to [INF] 
+Aug 30 12:39:44 localhost s3fs[9436]:     PROC(uid=0, gid=0) - MountPoint(uid=0, gid=0, mode=40755)
+Aug 30 12:39:44 localhost s3fs[9438]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
+Aug 30 12:39:44 localhost s3fs[9438]: check services.
+Aug 30 12:39:44 localhost s3fs[9438]:       check a bucket.
+Aug 30 12:39:44 localhost s3fs[9438]:       URL is https://s3.amazonaws.com/amzn2/rsync/
+Aug 30 12:39:44 localhost s3fs[9438]:       URL changed is https://amzn2.s3.amazonaws.com/rsync/
+Aug 30 12:39:44 localhost s3fs[9438]:       computing signature [GET] [/rsync/] [] []
+Aug 30 12:39:44 localhost s3fs[9438]:       url is https://s3.amazonaws.com
+Aug 30 12:39:45 localhost s3fs[9438]:       HTTP response code 404 was returned, returning ENOENT
+Aug 30 12:39:45 localhost s3fs[9438]: curl.cpp:CheckBucket(3104): Check bucket failed, S3 response: <?xml version="1.0" encoding="UTF-8"?>#012<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>rsync/</Key><RequestId>5WHHZN3P2KEY2RMY</RequestId><HostId>3whC6uDaIHHJJHvVF5fISdlC6KSqXOIY7VdNIQYLc2FxnrJb0ljgTZ6532n1y7i9sn+PLkhS3uk=</HostId></Error>
+Aug 30 12:39:45 localhost s3fs[9438]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
+Aug 30 12:39:45 localhost s3fs[9438]: s3fs.cpp:s3fs_exit_fuseloop(3369): Exiting FUSE event loop due to errors
+Aug 30 12:39:45 localhost s3fs[9438]: destroy
+Aug 30 12:40:33 localhost s3fs[9466]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
+Aug 30 12:40:34 localhost s3fs[9466]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
+Aug 30 20:49:50 localhost s3fs[26470]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
+Aug 30 20:49:51 localhost s3fs[26470]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
+Aug 30 21:52:10 localhost s3fs[29313]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
+Aug 30 21:52:11 localhost s3fs[29313]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
+Aug 31 08:33:15 localhost s3fs[19113]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
+Aug 31 08:33:16 localhost s3fs[19113]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
+Aug 31 14:24:41 localhost s3fs[22962]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
+Aug 31 14:24:42 localhost s3fs[22962]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
