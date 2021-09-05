@@ -2209,3 +2209,34 @@ Sep  5 18:09:01 localhost dovecot: imap-login: Login: user=<adam>, method=PLAIN,
 Sep  5 18:09:08 localhost dovecot: imap(adam)<23923><v7pcbUPLXp9Ja5D2>: Connection closed (UID FETCH finished 1.585 secs ago) in=1132 out=52866 deleted=0 expunged=0 trashed=0 hdr_count=2 hdr_bytes=538 body_count=2 body_bytes=43163
 Sep  5 18:09:11 localhost dovecot: imap-login: Login: user=<adam>, method=PLAIN, rip=73.107.144.246, lip=158.247.223.84, mpid=23980, TLS, session=<2NnvbUPLYp9Ja5D2>
 Sep  5 18:09:13 localhost dovecot: imap(adam)<23980><2NnvbUPLYp9Ja5D2>: Connection closed (UID SEARCH finished 0.299 secs ago) in=121 out=1345 deleted=0 expunged=0 trashed=0 hdr_count=0 hdr_bytes=0 body_count=0 body_bytes=0
+Sep  5 18:10:28 localhost postfix/smtpd[24058]: connect from scanner-08.ch1.censys-scanner.com[167.248.133.44]
+Sep  5 18:10:29 localhost postfix/smtpd[24058]: lost connection after STARTTLS from scanner-08.ch1.censys-scanner.com[167.248.133.44]
+Sep  5 18:10:29 localhost postfix/smtpd[24058]: disconnect from scanner-08.ch1.censys-scanner.com[167.248.133.44] ehlo=1 starttls=1 commands=2
+Sep  5 18:10:30 localhost dovecot: imap-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=74.120.14.113, lip=158.247.223.84, TLS: Connection closed, session=<i3OwckPLDL9KeA5x>
+Sep  5 18:13:49 localhost postfix/anvil[24060]: statistics: max connection rate 1/60s for (smtp:167.248.133.44) at Sep  5 18:10:28
+Sep  5 18:13:49 localhost postfix/anvil[24060]: statistics: max connection count 1 for (smtp:167.248.133.44) at Sep  5 18:10:28
+Sep  5 18:13:49 localhost postfix/anvil[24060]: statistics: max cache size 1 at Sep  5 18:10:28
+Sep  5 18:15:02 localhost postfix/smtpd[24105]: connect from so254-22.mailgun.net[198.61.254.22]
+Sep  5 18:15:03 localhost postfix/smtpd[24105]: SSL_accept error from so254-22.mailgun.net[198.61.254.22]: -1
+Sep  5 18:15:03 localhost postfix/smtpd[24105]: warning: TLS library problem: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:../ssl/record/rec_layer_s3.c:1544:SSL alert number 42:
+Sep  5 18:15:03 localhost postfix/smtpd[24105]: lost connection after STARTTLS from so254-22.mailgun.net[198.61.254.22]
+Sep  5 18:15:03 localhost postfix/smtpd[24105]: disconnect from so254-22.mailgun.net[198.61.254.22] ehlo=1 starttls=0/1 commands=1/2
+Sep  5 18:15:03 localhost postfix/smtpd[24105]: connect from so254-22.mailgun.net[198.61.254.22]
+Sep  5 18:15:04 localhost postfix/smtpd[24109]: connect from so254-22.mailgun.net[198.61.254.22]
+Sep  5 18:15:04 localhost postfix/smtpd[24105]: D13A764E3: client=so254-22.mailgun.net[198.61.254.22]
+Sep  5 18:15:05 localhost postfix/smtpd[24109]: SSL_accept error from so254-22.mailgun.net[198.61.254.22]: -1
+Sep  5 18:15:05 localhost postfix/smtpd[24109]: warning: TLS library problem: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:../ssl/record/rec_layer_s3.c:1544:SSL alert number 42:
+Sep  5 18:15:05 localhost postfix/smtpd[24109]: lost connection after STARTTLS from so254-22.mailgun.net[198.61.254.22]
+Sep  5 18:15:05 localhost postfix/smtpd[24109]: disconnect from so254-22.mailgun.net[198.61.254.22] ehlo=1 starttls=0/1 commands=1/2
+Sep  5 18:15:05 localhost postfix/smtpd[24109]: connect from so254-22.mailgun.net[198.61.254.22]
+Sep  5 18:15:06 localhost postfix/smtpd[24109]: CE7A664E8: client=so254-22.mailgun.net[198.61.254.22]
+Sep  5 18:15:08 localhost postfix/cleanup[24110]: D13A764E3: message-id=<20210905181447.1.5C3E1E51E270FF07@mail.gitguardian.com>
+Sep  5 18:15:08 localhost postfix/qmgr[19627]: D13A764E3: from=<bounce+a77c2d.0441b-root=metacloud.plemma.cc@mail.gitguardian.com>, size=11496, nrcpt=1 (queue active)
+Sep  5 18:15:08 localhost postfix/local[24112]: D13A764E3: to=<root@metacloud.plemma.cc>, relay=local, delay=3.8, delays=3.8/0.01/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Sep  5 18:15:08 localhost postfix/qmgr[19627]: D13A764E3: removed
+Sep  5 18:15:08 localhost postfix/cleanup[24111]: CE7A664E8: message-id=<20210905181451.1.1E6B23B33866EE1C@mail.gitguardian.com>
+Sep  5 18:15:08 localhost postfix/qmgr[19627]: CE7A664E8: from=<bounce+a77c2d.0441b-root=metacloud.plemma.cc@mail.gitguardian.com>, size=11467, nrcpt=1 (queue active)
+Sep  5 18:15:08 localhost postfix/local[24112]: CE7A664E8: to=<root@metacloud.plemma.cc>, relay=local, delay=2.3, delays=2.3/0/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Sep  5 18:15:08 localhost postfix/qmgr[19627]: CE7A664E8: removed
+Sep  5 18:17:32 localhost postfix/smtpd[24105]: disconnect from so254-22.mailgun.net[198.61.254.22] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Sep  5 18:17:32 localhost postfix/smtpd[24109]: disconnect from so254-22.mailgun.net[198.61.254.22] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7

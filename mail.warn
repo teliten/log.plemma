@@ -186,3 +186,5 @@ Sep  5 17:58:58 localhost postfix/trivial-rewrite[23713]: warning: do not list d
 Sep  5 17:59:09 localhost postfix/smtpd[23708]: warning: hostname ip-11-18.dataclub.eu does not resolve to address 185.29.11.18: Name or service not known
 Sep  5 17:59:10 localhost postfix/trivial-rewrite[23713]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
 Sep  5 17:59:11 localhost postfix/trivial-rewrite[23713]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  5 18:15:03 localhost postfix/smtpd[24105]: warning: TLS library problem: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:../ssl/record/rec_layer_s3.c:1544:SSL alert number 42:
+Sep  5 18:15:05 localhost postfix/smtpd[24109]: warning: TLS library problem: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:../ssl/record/rec_layer_s3.c:1544:SSL alert number 42:

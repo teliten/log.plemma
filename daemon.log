@@ -152,3 +152,6 @@ Sep  5 17:51:48 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
 Sep  5 18:09:01 localhost systemd[1]: Starting Clean php session files...
 Sep  5 18:09:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
 Sep  5 18:09:01 localhost systemd[1]: Started Clean php session files.
+Sep  5 18:09:22 localhost systemd[24255]: mnt-amzn2.mount: Succeeded.
+Sep  5 18:09:22 localhost systemd[24351]: mnt-amzn2.mount: Succeeded.
+Sep  5 18:09:22 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
