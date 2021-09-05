@@ -216,3 +216,6 @@ Sep  5 19:22:32 localhost systemd[1]: /lib/systemd/system/dovecot.service:9: PID
 Sep  5 19:22:36 localhost systemd[1]: Reloading.
 Sep  5 19:22:36 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
 Sep  5 19:22:36 localhost systemd[1]: /lib/systemd/system/dovecot.service:9: PIDFile= references path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.
+Sep  5 19:29:48 localhost systemd[24255]: mnt-amzn2.mount: Succeeded.
+Sep  5 19:29:48 localhost systemd[24351]: mnt-amzn2.mount: Succeeded.
+Sep  5 19:29:48 localhost systemd[1]: mnt-amzn2.mount: Succeeded.

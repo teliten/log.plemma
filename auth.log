@@ -13064,3 +13064,86 @@ Sep  5 19:29:16 localhost sshd[4344]: Disconnected from invalid user nick 45.64.
 Sep  5 19:29:39 localhost sudo: pam_unix(sudo:session): session closed for user root
 Sep  5 19:29:45 localhost sudo:     adam : TTY=pts/2 ; PWD=/home/adam ; USER=root ; COMMAND=/usr/bin/bash
 Sep  5 19:29:45 localhost sudo: pam_unix(sudo:session): session opened for user root by adam(uid=0)
+Sep  5 19:30:15 localhost sshd[4444]: Connection closed by authenticating user root 37.0.8.72 port 55592 [preauth]
+Sep  5 19:30:20 localhost sshd[4446]: Invalid user nick from 181.129.14.218 port 12052
+Sep  5 19:30:20 localhost sshd[4446]: Received disconnect from 181.129.14.218 port 12052:11: Bye Bye [preauth]
+Sep  5 19:30:20 localhost sshd[4446]: Disconnected from invalid user nick 181.129.14.218 port 12052 [preauth]
+Sep  5 19:30:56 localhost sshd[4449]: Invalid user sanolsylee from 104.248.232.77 port 32560
+Sep  5 19:30:56 localhost sshd[4449]: Received disconnect from 104.248.232.77 port 32560:11: Bye Bye [preauth]
+Sep  5 19:30:56 localhost sshd[4449]: Disconnected from invalid user sanolsylee 104.248.232.77 port 32560 [preauth]
+Sep  5 19:31:11 localhost sshd[4451]: Received disconnect from 180.184.64.255 port 46462:11: Bye Bye [preauth]
+Sep  5 19:31:11 localhost sshd[4451]: Disconnected from authenticating user root 180.184.64.255 port 46462 [preauth]
+Sep  5 19:31:35 localhost sshd[4456]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.205  user=root
+Sep  5 19:31:37 localhost sshd[4454]: error: PAM: Authentication failure for root from 218.92.0.205
+Sep  5 19:31:38 localhost sshd[4457]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.205  user=root
+Sep  5 19:31:40 localhost sshd[4454]: error: PAM: Authentication failure for root from 218.92.0.205
+Sep  5 19:31:40 localhost sshd[4458]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.205  user=root
+Sep  5 19:31:42 localhost sshd[4454]: error: PAM: Authentication failure for root from 218.92.0.205
+Sep  5 19:31:42 localhost sshd[4454]: Received disconnect from 218.92.0.205 port 43245:11:  [preauth]
+Sep  5 19:31:42 localhost sshd[4454]: Disconnected from authenticating user root 218.92.0.205 port 43245 [preauth]
+Sep  5 19:33:14 localhost sshd[5028]: Connection closed by authenticating user root 37.0.8.72 port 44068 [preauth]
+Sep  5 19:33:57 localhost sshd[5064]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.205  user=root
+Sep  5 19:33:59 localhost sshd[5062]: error: PAM: Authentication failure for root from 218.92.0.205
+Sep  5 19:33:59 localhost sshd[5065]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.205  user=root
+Sep  5 19:34:01 localhost sshd[5062]: error: PAM: Authentication failure for root from 218.92.0.205
+Sep  5 19:34:01 localhost sshd[5066]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.205  user=root
+Sep  5 19:34:04 localhost sshd[5062]: error: PAM: Authentication failure for root from 218.92.0.205
+Sep  5 19:34:04 localhost sshd[5062]: Received disconnect from 218.92.0.205 port 12366:11:  [preauth]
+Sep  5 19:34:04 localhost sshd[5062]: Disconnected from authenticating user root 218.92.0.205 port 12366 [preauth]
+Sep  5 19:34:17 localhost sshd[5067]: Received disconnect from 81.68.178.143 port 50058:11: Bye Bye [preauth]
+Sep  5 19:34:17 localhost sshd[5067]: Disconnected from authenticating user root 81.68.178.143 port 50058 [preauth]
+Sep  5 19:34:24 localhost sshd[5071]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=222.186.30.76  user=root
+Sep  5 19:34:26 localhost sshd[5069]: error: PAM: Authentication failure for root from 222.186.30.76
+Sep  5 19:34:26 localhost sshd[5072]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=222.186.30.76  user=root
+Sep  5 19:34:28 localhost sshd[5069]: error: PAM: Authentication failure for root from 222.186.30.76
+Sep  5 19:34:29 localhost sshd[5073]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=222.186.30.76  user=root
+Sep  5 19:34:30 localhost sshd[5069]: error: PAM: Authentication failure for root from 222.186.30.76
+Sep  5 19:34:30 localhost sshd[5069]: Received disconnect from 222.186.30.76 port 42947:11:  [preauth]
+Sep  5 19:34:30 localhost sshd[5069]: Disconnected from authenticating user root 222.186.30.76 port 42947 [preauth]
+Sep  5 19:34:32 localhost sshd[5077]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=222.186.30.76  user=root
+Sep  5 19:34:34 localhost sshd[5075]: error: PAM: Authentication failure for root from 222.186.30.76
+Sep  5 19:34:34 localhost sshd[5078]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=222.186.30.76  user=root
+Sep  5 19:34:35 localhost sshd[5075]: error: PAM: Authentication failure for root from 222.186.30.76
+Sep  5 19:34:35 localhost sshd[5079]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=222.186.30.76  user=root
+Sep  5 19:34:37 localhost sshd[5075]: error: PAM: Authentication failure for root from 222.186.30.76
+Sep  5 19:34:37 localhost sshd[5075]: Received disconnect from 222.186.30.76 port 43770:11:  [preauth]
+Sep  5 19:34:37 localhost sshd[5075]: Disconnected from authenticating user root 222.186.30.76 port 43770 [preauth]
+Sep  5 19:34:39 localhost sshd[5082]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=222.186.30.76  user=root
+Sep  5 19:34:41 localhost sshd[5080]: error: PAM: Authentication failure for root from 222.186.30.76
+Sep  5 19:34:41 localhost sshd[5083]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=222.186.30.76  user=root
+Sep  5 19:34:43 localhost sshd[5080]: error: PAM: Authentication failure for root from 222.186.30.76
+Sep  5 19:34:43 localhost sshd[5084]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=222.186.30.76  user=root
+Sep  5 19:34:45 localhost sshd[5080]: error: PAM: Authentication failure for root from 222.186.30.76
+Sep  5 19:34:45 localhost sshd[5080]: Received disconnect from 222.186.30.76 port 37493:11:  [preauth]
+Sep  5 19:34:45 localhost sshd[5080]: Disconnected from authenticating user root 222.186.30.76 port 37493 [preauth]
+Sep  5 19:34:47 localhost sshd[5087]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=222.186.30.76  user=root
+Sep  5 19:34:48 localhost sshd[5085]: error: PAM: Authentication failure for root from 222.186.30.76
+Sep  5 19:34:50 localhost sshd[5088]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=222.186.30.76  user=root
+Sep  5 19:34:51 localhost sshd[5085]: error: PAM: Authentication failure for root from 222.186.30.76
+Sep  5 19:34:52 localhost sshd[5163]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=222.186.30.76  user=root
+Sep  5 19:34:53 localhost sshd[5085]: error: PAM: Authentication failure for root from 222.186.30.76
+Sep  5 19:34:54 localhost sshd[5085]: Received disconnect from 222.186.30.76 port 35494:11:  [preauth]
+Sep  5 19:34:54 localhost sshd[5085]: Disconnected from authenticating user root 222.186.30.76 port 35494 [preauth]
+Sep  5 19:34:55 localhost sshd[5287]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=222.186.30.76  user=root
+Sep  5 19:34:57 localhost sshd[5223]: error: PAM: Authentication failure for root from 222.186.30.76
+Sep  5 19:34:57 localhost sshd[5372]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=222.186.30.76  user=root
+Sep  5 19:35:00 localhost sshd[5223]: error: PAM: Authentication failure for root from 222.186.30.76
+Sep  5 19:35:00 localhost sshd[5482]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=222.186.30.76  user=root
+Sep  5 19:35:01 localhost CRON[5483]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep  5 19:35:01 localhost CRON[5483]: pam_unix(cron:session): session closed for user root
+Sep  5 19:35:02 localhost sshd[5223]: error: PAM: Authentication failure for root from 222.186.30.76
+Sep  5 19:35:02 localhost sshd[5223]: Received disconnect from 222.186.30.76 port 36825:11:  [preauth]
+Sep  5 19:35:02 localhost sshd[5223]: Disconnected from authenticating user root 222.186.30.76 port 36825 [preauth]
+Sep  5 19:35:03 localhost sshd[5489]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=222.186.30.76  user=root
+Sep  5 19:35:05 localhost sshd[5486]: error: PAM: Authentication failure for root from 222.186.30.76
+Sep  5 19:35:06 localhost sshd[5490]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=222.186.30.76  user=root
+Sep  5 19:35:07 localhost sshd[5486]: error: PAM: Authentication failure for root from 222.186.30.76
+Sep  5 19:35:07 localhost sshd[5491]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=222.186.30.76  user=root
+Sep  5 19:35:09 localhost sshd[5486]: error: PAM: Authentication failure for root from 222.186.30.76
+Sep  5 19:35:09 localhost sshd[5486]: Received disconnect from 222.186.30.76 port 36078:11:  [preauth]
+Sep  5 19:35:09 localhost sshd[5486]: Disconnected from authenticating user root 222.186.30.76 port 36078 [preauth]
+Sep  5 19:35:22 localhost sshd[5502]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.205  user=root
+Sep  5 19:35:24 localhost sshd[5500]: error: PAM: Authentication failure for root from 218.92.0.205
+Sep  5 19:35:24 localhost sshd[5503]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.205  user=root
+Sep  5 19:35:26 localhost sshd[5500]: error: PAM: Authentication failure for root from 218.92.0.205
+Sep  5 19:35:26 localhost sshd[5505]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=218.92.0.205  user=root
