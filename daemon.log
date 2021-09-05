@@ -155,3 +155,64 @@ Sep  5 18:09:01 localhost systemd[1]: Started Clean php session files.
 Sep  5 18:09:22 localhost systemd[24255]: mnt-amzn2.mount: Succeeded.
 Sep  5 18:09:22 localhost systemd[24351]: mnt-amzn2.mount: Succeeded.
 Sep  5 18:09:22 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
+Sep  5 18:18:38 localhost systemd[24255]: mnt-amzn2.mount: Succeeded.
+Sep  5 18:18:38 localhost systemd[24351]: mnt-amzn2.mount: Succeeded.
+Sep  5 18:18:38 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
+Sep  5 18:39:01 localhost systemd[1]: Starting Clean php session files...
+Sep  5 18:39:02 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Sep  5 18:39:02 localhost systemd[1]: Started Clean php session files.
+Sep  5 19:09:01 localhost systemd[1]: Starting Clean php session files...
+Sep  5 19:09:02 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Sep  5 19:09:02 localhost systemd[1]: Started Clean php session files.
+Sep  5 19:14:31 localhost systemd[1]: Reloading.
+Sep  5 19:14:31 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Sep  5 19:14:31 localhost systemd[1]: /lib/systemd/system/dovecot.service:9: PIDFile= references path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.
+Sep  5 19:14:32 localhost systemd[1]: Reloading.
+Sep  5 19:14:32 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Sep  5 19:14:32 localhost systemd[1]: /lib/systemd/system/dovecot.service:9: PIDFile= references path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.
+Sep  5 19:14:32 localhost systemd[1]: Reloading.
+Sep  5 19:14:32 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Sep  5 19:14:32 localhost systemd[1]: /lib/systemd/system/dovecot.service:9: PIDFile= references path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.
+Sep  5 19:14:32 localhost systemd[1]: Starting PostgreSQL RDBMS...
+Sep  5 19:14:32 localhost systemd[1]: Started PostgreSQL RDBMS.
+Sep  5 19:14:32 localhost systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 310 (update-binfmts)
+Sep  5 19:14:32 localhost systemd[1]: Mounting Arbitrary Executable File Formats File System...
+Sep  5 19:14:32 localhost systemd[1]: Mounted Arbitrary Executable File Formats File System.
+Sep  5 19:14:32 localhost systemd[1]: Reloading.
+Sep  5 19:14:32 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Sep  5 19:14:32 localhost systemd[1]: /lib/systemd/system/dovecot.service:9: PIDFile= references path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.
+Sep  5 19:14:32 localhost systemd[1]: Starting Daily apt download activities...
+Sep  5 19:14:32 localhost systemd[1]: Reloading.
+Sep  5 19:14:33 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Sep  5 19:14:33 localhost systemd[1]: /lib/systemd/system/dovecot.service:9: PIDFile= references path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.
+Sep  5 19:14:33 localhost systemd[1]: Reloading.
+Sep  5 19:14:33 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Sep  5 19:14:33 localhost systemd[1]: /lib/systemd/system/dovecot.service:9: PIDFile= references path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.
+Sep  5 19:14:33 localhost systemd[1]: apt-daily.service: Succeeded.
+Sep  5 19:14:33 localhost systemd[1]: Started Daily apt download activities.
+Sep  5 19:14:33 localhost systemd[1]: Starting Enable support for additional executable binary formats...
+Sep  5 19:14:33 localhost systemd[1]: Started Enable support for additional executable binary formats.
+Sep  5 19:14:33 localhost systemd[1]: Reloading.
+Sep  5 19:14:33 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Sep  5 19:14:33 localhost systemd[1]: /lib/systemd/system/dovecot.service:9: PIDFile= references path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.
+Sep  5 19:22:29 localhost systemd[1]: Reloading.
+Sep  5 19:22:29 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Sep  5 19:22:29 localhost systemd[1]: /lib/systemd/system/dovecot.service:9: PIDFile= references path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.
+Sep  5 19:22:29 localhost systemd[1]: Reloading.
+Sep  5 19:22:29 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Sep  5 19:22:29 localhost systemd[1]: /lib/systemd/system/dovecot.service:9: PIDFile= references path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.
+Sep  5 19:22:29 localhost systemd[1]: Reloading.
+Sep  5 19:22:29 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Sep  5 19:22:29 localhost systemd[1]: /lib/systemd/system/dovecot.service:9: PIDFile= references path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.
+Sep  5 19:22:29 localhost systemd[1]: Created slice system-postgresql.slice.
+Sep  5 19:22:29 localhost systemd[1]: Starting PostgreSQL Cluster 11-main...
+Sep  5 19:22:32 localhost systemd[1]: Started PostgreSQL Cluster 11-main.
+Sep  5 19:22:32 localhost systemd[1]: Reloading.
+Sep  5 19:22:32 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Sep  5 19:22:32 localhost systemd[1]: /lib/systemd/system/dovecot.service:9: PIDFile= references path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.
+Sep  5 19:22:32 localhost systemd[1]: Reloading.
+Sep  5 19:22:32 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Sep  5 19:22:32 localhost systemd[1]: /lib/systemd/system/dovecot.service:9: PIDFile= references path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.
+Sep  5 19:22:36 localhost systemd[1]: Reloading.
+Sep  5 19:22:36 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Sep  5 19:22:36 localhost systemd[1]: /lib/systemd/system/dovecot.service:9: PIDFile= references path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.

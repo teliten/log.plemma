@@ -188,3 +188,20 @@ Sep  5 17:59:10 localhost postfix/trivial-rewrite[23713]: warning: do not list d
 Sep  5 17:59:11 localhost postfix/trivial-rewrite[23713]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
 Sep  5 18:15:03 localhost postfix/smtpd[24105]: warning: TLS library problem: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:../ssl/record/rec_layer_s3.c:1544:SSL alert number 42:
 Sep  5 18:15:05 localhost postfix/smtpd[24109]: warning: TLS library problem: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:../ssl/record/rec_layer_s3.c:1544:SSL alert number 42:
+Sep  5 18:25:19 localhost postfix/trivial-rewrite[13333]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  5 18:25:19 localhost postfix/trivial-rewrite[13333]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  5 18:25:52 localhost postfix/smtpd[13327]: warning: hostname ip-11-18.dataclub.eu does not resolve to address 185.29.11.18: Name or service not known
+Sep  5 18:25:53 localhost postfix/trivial-rewrite[13333]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  5 18:47:41 localhost postfix/trivial-rewrite[18485]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  5 18:47:43 localhost postfix/trivial-rewrite[18485]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  5 18:58:15 localhost postfix/trivial-rewrite[18651]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Sep  5 18:58:15 localhost postfix/trivial-rewrite[18651]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Sep  5 19:02:16 localhost postfix/trivial-rewrite[31990]: warning: do not list domain ermccorp.com in BOTH mydestination and virtual_alias_domains
+Sep  5 19:02:17 localhost postfix/trivial-rewrite[31990]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Sep  5 19:13:43 localhost postfix/smtpd[32279]: warning: hostname ip-222-31.dataclub.info does not resolve to address 46.183.222.31: Name or service not known
+Sep  5 19:13:45 localhost postfix/trivial-rewrite[32282]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  5 19:13:45 localhost postfix/trivial-rewrite[32282]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  5 19:15:37 localhost postfix/trivial-rewrite[1013]: warning: do not list domain emplifyhr.com in BOTH mydestination and virtual_alias_domains
+Sep  5 19:15:37 localhost postfix/trivial-rewrite[1013]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Sep  5 19:22:50 localhost postfix/trivial-rewrite[3970]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  5 19:22:50 localhost postfix/trivial-rewrite[3970]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains

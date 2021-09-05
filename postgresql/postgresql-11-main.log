@@ -1,0 +1,11 @@
+2021-09-05 19:22:30.029 UTC [2710] LOG:  listening on IPv6 address "::1", port 5432
+2021-09-05 19:22:30.029 UTC [2710] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-09-05 19:22:30.030 UTC [2710] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2021-09-05 19:22:30.042 UTC [2711] LOG:  database system was shut down at 2021-09-05 19:22:29 UTC
+2021-09-05 19:22:30.047 UTC [2710] LOG:  database system is ready to accept connections
+2021-09-05 19:22:30.619 UTC [2718] [unknown]@[unknown] LOG:  incomplete startup packet
+2021-09-05 19:23:56.847 UTC [4074] postgres@postgres FATAL:  password authentication failed for user "postgres"
+2021-09-05 19:23:56.847 UTC [4074] postgres@postgres DETAIL:  User "postgres" has no password assigned.
+	Connection matched pg_hba.conf line 94: "host    all             all             ::1/128                 md5"
+2021-09-05 19:24:36.561 UTC [4101] root@root FATAL:  role "root" does not exist
+2021-09-05 19:24:52.985 UTC [4135] root@root FATAL:  role "root" does not exist
