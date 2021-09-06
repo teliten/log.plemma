@@ -647,3 +647,40 @@
 2021-09-06 15:38:45 trigproc libc-bin:amd64 2.28-10 <none>
 2021-09-06 15:38:45 status half-configured libc-bin:amd64 2.28-10
 2021-09-06 15:38:45 status installed libc-bin:amd64 2.28-10
+2021-09-06 21:11:42 startup archives unpack
+2021-09-06 21:11:42 install gcsfuse:amd64 <none> 0.36.0
+2021-09-06 21:11:42 status half-installed gcsfuse:amd64 0.36.0
+2021-09-06 21:11:42 status unpacked gcsfuse:amd64 0.36.0
+2021-09-06 21:11:42 startup packages configure
+2021-09-06 21:11:42 configure gcsfuse:amd64 0.36.0 <none>
+2021-09-06 21:11:42 status unpacked gcsfuse:amd64 0.36.0
+2021-09-06 21:11:42 status half-configured gcsfuse:amd64 0.36.0
+2021-09-06 21:11:42 status installed gcsfuse:amd64 0.36.0
+2021-09-06 22:06:57 startup archives unpack
+2021-09-06 22:06:57 install libhtml-form-perl:all <none> 6.03-1
+2021-09-06 22:06:57 status half-installed libhtml-form-perl:all 6.03-1
+2021-09-06 22:06:57 status triggers-pending man-db:amd64 2.8.5-2
+2021-09-06 22:06:57 status unpacked libhtml-form-perl:all 6.03-1
+2021-09-06 22:06:57 install gsutil:all <none> 3.1-1
+2021-09-06 22:06:57 status half-installed gsutil:all 3.1-1
+2021-09-06 22:06:57 status unpacked gsutil:all 3.1-1
+2021-09-06 22:06:57 startup packages configure
+2021-09-06 22:06:57 configure libhtml-form-perl:all 6.03-1 <none>
+2021-09-06 22:06:57 status unpacked libhtml-form-perl:all 6.03-1
+2021-09-06 22:06:57 status half-configured libhtml-form-perl:all 6.03-1
+2021-09-06 22:06:57 status installed libhtml-form-perl:all 6.03-1
+2021-09-06 22:06:57 configure gsutil:all 3.1-1 <none>
+2021-09-06 22:06:57 status unpacked gsutil:all 3.1-1
+2021-09-06 22:06:57 status half-configured gsutil:all 3.1-1
+2021-09-06 22:06:57 status installed gsutil:all 3.1-1
+2021-09-06 22:06:57 trigproc man-db:amd64 2.8.5-2 <none>
+2021-09-06 22:06:57 status half-configured man-db:amd64 2.8.5-2
+2021-09-06 22:06:57 status installed man-db:amd64 2.8.5-2
+2021-09-06 22:10:38 startup packages remove
+2021-09-06 22:10:38 status installed gsutil:all 3.1-1
+2021-09-06 22:10:38 remove gsutil:all 3.1-1 <none>
+2021-09-06 22:10:38 status half-configured gsutil:all 3.1-1
+2021-09-06 22:10:38 status half-installed gsutil:all 3.1-1
+2021-09-06 22:10:38 status config-files gsutil:all 3.1-1
+2021-09-06 22:10:38 status not-installed gsutil:all <none>
+2021-09-06 22:10:38 startup packages configure
