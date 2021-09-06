@@ -700,3 +700,7 @@ Sep  6 22:01:32 localhost postfix/trivial-rewrite[19596]: warning: do not list d
 Sep  6 22:01:32 localhost postfix/trivial-rewrite[19596]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
 Sep  6 22:10:38 localhost postfix/trivial-rewrite[13717]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
 Sep  6 22:10:39 localhost postfix/trivial-rewrite[13717]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 22:18:22 localhost postfix/smtpd[4148]: warning: TLS library problem: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:../ssl/record/rec_layer_s3.c:1544:SSL alert number 42:
+Sep  6 22:30:20 localhost postfix/trivial-rewrite[6443]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Sep  6 22:30:21 localhost postfix/trivial-rewrite[6443]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Sep  6 22:30:42 localhost postfix/trivial-rewrite[6443]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains

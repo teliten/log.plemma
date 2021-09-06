@@ -7388,3 +7388,73 @@ Sep  6 22:15:24 localhost dovecot: imap-login: Login: user=<adam>, method=PLAIN,
 Sep  6 22:15:24 localhost dovecot: imap(adam)<27614><3MtV/FrL6p4AAAAAAAAAAAAAAAAAAAAB>: Logged out in=92 out=972 deleted=0 expunged=0 trashed=0 hdr_count=0 hdr_bytes=0 body_count=0 body_bytes=0
 Sep  6 22:16:24 localhost dovecot: imap-login: Login: user=<adam>, method=PLAIN, rip=::1, lip=::1, mpid=30520, secured, session=<tbTr/1rL8J4AAAAAAAAAAAAAAAAAAAAB>
 Sep  6 22:16:24 localhost dovecot: imap(adam)<30520><tbTr/1rL8J4AAAAAAAAAAAAAAAAAAAAB>: Logged out in=92 out=980 deleted=0 expunged=0 trashed=0 hdr_count=0 hdr_bytes=0 body_count=0 body_bytes=0
+Sep  6 22:17:24 localhost dovecot: imap-login: Login: user=<adam>, method=PLAIN, rip=::1, lip=::1, mpid=1383, secured, session=<bWSCA1vL/p4AAAAAAAAAAAAAAAAAAAAB>
+Sep  6 22:17:24 localhost dovecot: imap(adam)<1383><bWSCA1vL/p4AAAAAAAAAAAAAAAAAAAAB>: Logged out in=92 out=980 deleted=0 expunged=0 trashed=0 hdr_count=0 hdr_bytes=0 body_count=0 body_bytes=0
+Sep  6 22:17:47 localhost dovecot: imap-login: Login: user=<adam>, method=PLAIN, rip=73.107.144.246, lip=158.247.223.84, mpid=2467, TLS, session=<EJjVBFvLBKhJa5D2>
+Sep  6 22:17:48 localhost dovecot: imap(adam)<2467><EJjVBFvLBKhJa5D2>: Connection closed (LIST finished 0.253 secs ago) in=50 out=1094 deleted=0 expunged=0 trashed=0 hdr_count=0 hdr_bytes=0 body_count=0 body_bytes=0
+Sep  6 22:17:50 localhost dovecot: imap-login: Login: user=<adam>, method=PLAIN, rip=73.107.144.246, lip=158.247.223.84, mpid=2626, TLS, session=<NesNBVvLCKhJa5D2>
+Sep  6 22:17:57 localhost dovecot: imap(adam)<2626><NesNBVvLCKhJa5D2>: Connection closed (UID FETCH finished 0.867 secs ago) in=1607 out=19099 deleted=0 expunged=0 trashed=0 hdr_count=2 hdr_bytes=571 body_count=2 body_bytes=4932
+Sep  6 22:18:03 localhost dovecot: imap-login: Login: user=<adam>, method=PLAIN, rip=73.107.144.246, lip=158.247.223.84, mpid=3270, TLS, session=<u77HBVvLDKhJa5D2>
+Sep  6 22:18:04 localhost dovecot: imap(adam)<3270><u77HBVvLDKhJa5D2>: Connection closed (SELECT finished 0.287 secs ago) in=84 out=1289 deleted=0 expunged=0 trashed=0 hdr_count=0 hdr_bytes=0 body_count=0 body_bytes=0
+Sep  6 22:18:22 localhost postfix/smtpd[4148]: connect from so254-22.mailgun.net[198.61.254.22]
+Sep  6 22:18:22 localhost postfix/smtpd[4148]: SSL_accept error from so254-22.mailgun.net[198.61.254.22]: -1
+Sep  6 22:18:22 localhost postfix/smtpd[4148]: warning: TLS library problem: error:14094412:SSL routines:ssl3_read_bytes:sslv3 alert bad certificate:../ssl/record/rec_layer_s3.c:1544:SSL alert number 42:
+Sep  6 22:18:22 localhost postfix/smtpd[4148]: lost connection after STARTTLS from so254-22.mailgun.net[198.61.254.22]
+Sep  6 22:18:22 localhost postfix/smtpd[4148]: disconnect from so254-22.mailgun.net[198.61.254.22] ehlo=1 starttls=0/1 commands=1/2
+Sep  6 22:18:23 localhost postfix/smtpd[4148]: connect from so254-22.mailgun.net[198.61.254.22]
+Sep  6 22:18:24 localhost postfix/smtpd[4148]: 5FD20DD27: client=so254-22.mailgun.net[198.61.254.22]
+Sep  6 22:18:24 localhost dovecot: imap-login: Login: user=<adam>, method=PLAIN, rip=::1, lip=::1, mpid=4309, secured, session=<SRASB1vLAJ8AAAAAAAAAAAAAAAAAAAAB>
+Sep  6 22:18:24 localhost dovecot: imap(adam)<4309><SRASB1vLAJ8AAAAAAAAAAAAAAAAAAAAB>: Logged out in=92 out=972 deleted=0 expunged=0 trashed=0 hdr_count=0 hdr_bytes=0 body_count=0 body_bytes=0
+Sep  6 22:18:27 localhost postfix/cleanup[4302]: 5FD20DD27: message-id=<20210906221816.1.BEB895A6A3B7D7AA@mail.gitguardian.com>
+Sep  6 22:18:27 localhost postfix/qmgr[19627]: 5FD20DD27: from=<bounce+a77c2d.0441b-root=metacloud.plemma.cc@mail.gitguardian.com>, size=11733, nrcpt=1 (queue active)
+Sep  6 22:18:27 localhost postfix/local[4460]: 5FD20DD27: to=<root@metacloud.plemma.cc>, relay=local, delay=3.5, delays=3.4/0.01/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Sep  6 22:18:27 localhost postfix/qmgr[19627]: 5FD20DD27: removed
+Sep  6 22:19:24 localhost dovecot: imap-login: Login: user=<adam>, method=PLAIN, rip=::1, lip=::1, mpid=7227, secured, session=<anikClvLAp8AAAAAAAAAAAAAAAAAAAAB>
+Sep  6 22:19:24 localhost dovecot: imap(adam)<7227><anikClvLAp8AAAAAAAAAAAAAAAAAAAAB>: Logged out in=92 out=972 deleted=0 expunged=0 trashed=0 hdr_count=0 hdr_bytes=0 body_count=0 body_bytes=0
+Sep  6 22:20:24 localhost dovecot: imap-login: Login: user=<adam>, method=PLAIN, rip=::1, lip=::1, mpid=10101, secured, session=<T5I4DlvLBJ8AAAAAAAAAAAAAAAAAAAAB>
+Sep  6 22:20:24 localhost dovecot: imap(adam)<10101><T5I4DlvLBJ8AAAAAAAAAAAAAAAAAAAAB>: Logged out in=92 out=972 deleted=0 expunged=0 trashed=0 hdr_count=0 hdr_bytes=0 body_count=0 body_bytes=0
+Sep  6 22:20:46 localhost postfix/smtpd[4148]: disconnect from so254-22.mailgun.net[198.61.254.22] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Sep  6 22:21:24 localhost dovecot: imap-login: Login: user=<adam>, method=PLAIN, rip=::1, lip=::1, mpid=13106, secured, session=<jqzLEVvLBp8AAAAAAAAAAAAAAAAAAAAB>
+Sep  6 22:21:24 localhost dovecot: imap(adam)<13106><jqzLEVvLBp8AAAAAAAAAAAAAAAAAAAAB>: Logged out in=92 out=972 deleted=0 expunged=0 trashed=0 hdr_count=0 hdr_bytes=0 body_count=0 body_bytes=0
+Sep  6 22:22:24 localhost dovecot: imap-login: Login: user=<adam>, method=PLAIN, rip=::1, lip=::1, mpid=15964, secured, session=<5YdfFVvLCJ8AAAAAAAAAAAAAAAAAAAAB>
+Sep  6 22:22:24 localhost dovecot: imap(adam)<15964><5YdfFVvLCJ8AAAAAAAAAAAAAAAAAAAAB>: Logged out in=92 out=972 deleted=0 expunged=0 trashed=0 hdr_count=0 hdr_bytes=0 body_count=0 body_bytes=0
+Sep  6 22:23:24 localhost dovecot: imap-login: Login: user=<adam>, method=PLAIN, rip=::1, lip=::1, mpid=18838, secured, session=<f8ryGFvLDJ8AAAAAAAAAAAAAAAAAAAAB>
+Sep  6 22:23:24 localhost dovecot: imap(adam)<18838><f8ryGFvLDJ8AAAAAAAAAAAAAAAAAAAAB>: Logged out in=92 out=972 deleted=0 expunged=0 trashed=0 hdr_count=0 hdr_bytes=0 body_count=0 body_bytes=0
+Sep  6 22:24:06 localhost postfix/anvil[4200]: statistics: max connection rate 2/60s for (smtp:198.61.254.22) at Sep  6 22:18:23
+Sep  6 22:24:06 localhost postfix/anvil[4200]: statistics: max connection count 1 for (smtp:198.61.254.22) at Sep  6 22:18:22
+Sep  6 22:24:06 localhost postfix/anvil[4200]: statistics: max cache size 1 at Sep  6 22:18:22
+Sep  6 22:24:24 localhost dovecot: imap-login: Login: user=<adam>, method=PLAIN, rip=::1, lip=::1, mpid=21800, secured, session=<H6eGHFvLEp8AAAAAAAAAAAAAAAAAAAAB>
+Sep  6 22:24:24 localhost dovecot: imap(adam)<21800><H6eGHFvLEp8AAAAAAAAAAAAAAAAAAAAB>: Logged out in=92 out=972 deleted=0 expunged=0 trashed=0 hdr_count=0 hdr_bytes=0 body_count=0 body_bytes=0
+Sep  6 22:25:24 localhost dovecot: imap-login: Login: user=<adam>, method=PLAIN, rip=::1, lip=::1, mpid=24698, secured, session=<y9sZIFvLFJ8AAAAAAAAAAAAAAAAAAAAB>
+Sep  6 22:25:24 localhost dovecot: imap(adam)<24698><y9sZIFvLFJ8AAAAAAAAAAAAAAAAAAAAB>: Logged out in=92 out=980 deleted=0 expunged=0 trashed=0 hdr_count=0 hdr_bytes=0 body_count=0 body_bytes=0
+Sep  6 22:26:24 localhost dovecot: imap-login: Login: user=<adam>, method=PLAIN, rip=::1, lip=::1, mpid=27567, secured, session=<iy+uI1vLFp8AAAAAAAAAAAAAAAAAAAAB>
+Sep  6 22:26:24 localhost dovecot: imap(adam)<27567><iy+uI1vLFp8AAAAAAAAAAAAAAAAAAAAB>: Logged out in=92 out=972 deleted=0 expunged=0 trashed=0 hdr_count=0 hdr_bytes=0 body_count=0 body_bytes=0
+Sep  6 22:27:24 localhost dovecot: imap-login: Login: user=<adam>, method=PLAIN, rip=::1, lip=::1, mpid=30427, secured, session=<zstAJ1vLGp8AAAAAAAAAAAAAAAAAAAAB>
+Sep  6 22:27:24 localhost dovecot: imap(adam)<30427><zstAJ1vLGp8AAAAAAAAAAAAAAAAAAAAB>: Logged out in=92 out=972 deleted=0 expunged=0 trashed=0 hdr_count=0 hdr_bytes=0 body_count=0 body_bytes=0
+Sep  6 22:28:24 localhost dovecot: imap-login: Login: user=<adam>, method=PLAIN, rip=::1, lip=::1, mpid=849, secured, session=<owzUKlvLHJ8AAAAAAAAAAAAAAAAAAAAB>
+Sep  6 22:28:24 localhost dovecot: imap(adam)<849><owzUKlvLHJ8AAAAAAAAAAAAAAAAAAAAB>: Logged out in=92 out=972 deleted=0 expunged=0 trashed=0 hdr_count=0 hdr_bytes=0 body_count=0 body_bytes=0
+Sep  6 22:29:24 localhost dovecot: imap-login: Login: user=<adam>, method=PLAIN, rip=::1, lip=::1, mpid=3727, secured, session=<KA1oLlvLHp8AAAAAAAAAAAAAAAAAAAAB>
+Sep  6 22:29:24 localhost dovecot: imap(adam)<3727><KA1oLlvLHp8AAAAAAAAAAAAAAAAAAAAB>: Logged out in=92 out=972 deleted=0 expunged=0 trashed=0 hdr_count=0 hdr_bytes=0 body_count=0 body_bytes=0
+Sep  6 22:30:19 localhost postfix/smtpd[6389]: connect from mail-yb1-f200.google.com[209.85.219.200]
+Sep  6 22:30:20 localhost postfix/trivial-rewrite[6443]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Sep  6 22:30:20 localhost postfix/smtpd[6389]: E5435DD27: client=mail-yb1-f200.google.com[209.85.219.200]
+Sep  6 22:30:20 localhost postfix/cleanup[6444]: E5435DD27: message-id=<F1.0F.11996.A7696316@twitter.com>
+Sep  6 22:30:21 localhost postfix/qmgr[19627]: E5435DD27: from=<n08768b3bef-bf65d1c7b8b54898-adam_flash===fromthemachine.org@bounce.twitter.com>, size=108696, nrcpt=3 (queue active)
+Sep  6 22:30:21 localhost postfix/trivial-rewrite[6443]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Sep  6 22:30:21 localhost postfix/local[6496]: E5435DD27: to=<adam@localhost>, orig_to=<adam_flash@fromthemachine.org>, relay=local, delay=0.64, delays=0.63/0.02/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Sep  6 22:30:21 localhost postfix/local[6496]: E5435DD27: to=<ftm@fromthemachine.org>, orig_to=<adam_flash@fromthemachine.org>, relay=local, delay=0.66, delays=0.63/0.02/0/0.02, dsn=5.1.1, status=bounced (unknown user: "ftm")
+Sep  6 22:30:21 localhost postfix/smtpd[6389]: disconnect from mail-yb1-f200.google.com[209.85.219.200] ehlo=2 starttls=1 mail=1 rcpt=1 bdat=2 quit=1 commands=8
+Sep  6 22:30:22 localhost postfix/smtp[6495]: connect to smtp-relay.gmail.com[2404:6800:4008:c03::1c]:587: Network is unreachable
+Sep  6 22:30:24 localhost dovecot: imap-login: Login: user=<adam>, method=PLAIN, rip=::1, lip=::1, mpid=6655, secured, session=<N7b7MVvLIp8AAAAAAAAAAAAAAAAAAAAB>
+Sep  6 22:30:24 localhost dovecot: imap(adam)<6655><N7b7MVvLIp8AAAAAAAAAAAAAAAAAAAAB>: Logged out in=298 out=27246 deleted=0 expunged=0 trashed=0 hdr_count=50 hdr_bytes=13481 body_count=0 body_bytes=0
+Sep  6 22:30:24 localhost postfix/smtp[6495]: E5435DD27: to=<0xc514f094370cfc5ee45a1dd9b72bb9675efe266f@ethmail.cc>, orig_to=<adam_flash@fromthemachine.org>, relay=smtp-relay.gmail.com[74.125.203.28]:587, delay=4, delays=0.63/0.03/2/1.4, dsn=2.0.0, status=sent (250 2.0.0 OK  1630967424 e199sm490909vke.1 - gsmtp)
+Sep  6 22:30:24 localhost postfix/cleanup[6444]: EEE38DD33: message-id=<20210906223024.EEE38DD33@plemma.cc>
+Sep  6 22:30:24 localhost postfix/qmgr[19627]: EEE38DD33: from=<>, size=8143, nrcpt=1 (queue active)
+Sep  6 22:30:24 localhost postfix/bounce[6498]: E5435DD27: sender non-delivery notification: EEE38DD33
+Sep  6 22:30:24 localhost postfix/qmgr[19627]: E5435DD27: removed
+Sep  6 22:30:24 localhost postfix/smtp[6495]: connect to smtp-relay.gmail.com[2404:6800:4008:c03::1c]:587: Network is unreachable
+Sep  6 22:30:27 localhost postfix/smtp[6495]: EEE38DD33: to=<n08768b3bef-bf65d1c7b8b54898-adam_flash===fromthemachine.org@bounce.twitter.com>, relay=smtp-relay.gmail.com[74.125.203.28]:587, delay=2, delays=0/0/1.4/0.66, dsn=2.0.0, status=sent (250 2.0.0 OK  1630967426 5sm2272481vki.4 - gsmtp)
+Sep  6 22:30:27 localhost postfix/qmgr[19627]: EEE38DD33: removed
+Sep  6 22:30:42 localhost postfix/smtpd[6389]: connect from unknown[94.79.49.180]
+Sep  6 22:30:42 localhost postfix/trivial-rewrite[6443]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 22:30:42 localhost postfix/smtpd[6389]: D8F32DD27: client=unknown[94.79.49.180]

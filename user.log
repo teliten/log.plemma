@@ -318,3 +318,10 @@ Sep  6 22:13:52 localhost s3fs[23079]: s3fs.cpp:s3fs_check_service(3780): bucket
 Sep  6 22:14:58 localhost dockerd[8431]: time="2021-09-06T22:14:58.102748520Z" level=info msg="NetworkDB stats plemma(b3be9f6424e0) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
 Sep  6 22:16:22 localhost s3fs[30427]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
 Sep  6 22:16:23 localhost s3fs[30427]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
+Sep  6 22:19:58 localhost dockerd[8431]: time="2021-09-06T22:19:58.303151194Z" level=info msg="NetworkDB stats plemma(b3be9f6424e0) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+Sep  6 22:23:48 localhost dockerd[8431]: time="2021-09-06T22:23:48.708919918Z" level=warning msg="Ignoring Exit Event, no such exec command found" container=943b600ef514fe12c4bd90fc5f98cd5a120847bc617e3e7b545cdc6edb51dae1 exec-id=0d7b6cb2339510c52b28091b492c0114b6f4c9909b9326c68f4aedf0d36abac4 exec-pid=20057
+Sep  6 22:23:48 localhost dockerd[8431]: time="2021-09-06T22:23:48.710509334Z" level=error msg="exit event" container=943b600ef514fe12c4bd90fc5f98cd5a120847bc617e3e7b545cdc6edb51dae1 error="no such process" module=libcontainerd namespace=moby process=0d7b6cb2339510c52b28091b492c0114b6f4c9909b9326c68f4aedf0d36abac4
+Sep  6 22:24:58 localhost dockerd[8431]: time="2021-09-06T22:24:58.307600580Z" level=info msg="NetworkDB stats plemma(b3be9f6424e0) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+Sep  6 22:29:58 localhost dockerd[8431]: time="2021-09-06T22:29:58.502409870Z" level=info msg="NetworkDB stats plemma(b3be9f6424e0) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+Sep  6 22:30:24 localhost s3fs[6658]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
+Sep  6 22:30:25 localhost s3fs[6658]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
