@@ -7375,3 +7375,8 @@ Sep  6 22:11:27 localhost dovecot: imap-login: Login: user=<adam>, method=PLAIN,
 Sep  6 22:11:27 localhost dovecot: imap(adam)<16072><KQQ67lrLxJ4AAAAAAAAAAAAAAAAAAAAB>: Logged out in=298 out=27285 deleted=0 expunged=0 trashed=0 hdr_count=50 hdr_bytes=13529 body_count=0 body_bytes=0
 Sep  6 22:12:28 localhost dovecot: imap-login: Login: user=<adam>, method=PLAIN, rip=::1, lip=::1, mpid=18961, secured, session=<SfPY8VrLxp4AAAAAAAAAAAAAAAAAAAAB>
 Sep  6 22:12:28 localhost dovecot: imap(adam)<18961><SfPY8VrLxp4AAAAAAAAAAAAAAAAAAAAB>: Logged out in=144 out=1107 deleted=0 expunged=0 trashed=0 hdr_count=0 hdr_bytes=0 body_count=0 body_bytes=0
+Sep  6 22:13:29 localhost dovecot: imap-login: Login: user=<adam>, method=PLAIN, rip=::1, lip=::1, mpid=22005, secured, session=<AVR89VrL1J4AAAAAAAAAAAAAAAAAAAAB>
+Sep  6 22:13:29 localhost dovecot: imap(adam)<22005><AVR89VrL1J4AAAAAAAAAAAAAAAAAAAAB>: Logged out in=92 out=980 deleted=0 expunged=0 trashed=0 hdr_count=0 hdr_bytes=0 body_count=0 body_bytes=0
+Sep  6 22:13:59 localhost postfix/anvil[13665]: statistics: max connection rate 1/60s for (smtp:220.233.84.26) at Sep  6 22:10:38
+Sep  6 22:13:59 localhost postfix/anvil[13665]: statistics: max connection count 1 for (smtp:220.233.84.26) at Sep  6 22:10:38
+Sep  6 22:13:59 localhost postfix/anvil[13665]: statistics: max cache size 1 at Sep  6 22:10:38
