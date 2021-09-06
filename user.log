@@ -315,3 +315,6 @@ Sep  6 22:12:44 localhost s3fs[19772]: init v1.84(commit:unknown) with GnuTLS(gc
 Sep  6 22:12:46 localhost s3fs[19772]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
 Sep  6 22:13:51 localhost s3fs[23079]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
 Sep  6 22:13:52 localhost s3fs[23079]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
+Sep  6 22:14:58 localhost dockerd[8431]: time="2021-09-06T22:14:58.102748520Z" level=info msg="NetworkDB stats plemma(b3be9f6424e0) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+Sep  6 22:16:22 localhost s3fs[30427]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
+Sep  6 22:16:23 localhost s3fs[30427]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.

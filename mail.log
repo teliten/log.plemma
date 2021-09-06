@@ -7380,3 +7380,11 @@ Sep  6 22:13:29 localhost dovecot: imap(adam)<22005><AVR89VrL1J4AAAAAAAAAAAAAAAA
 Sep  6 22:13:59 localhost postfix/anvil[13665]: statistics: max connection rate 1/60s for (smtp:220.233.84.26) at Sep  6 22:10:38
 Sep  6 22:13:59 localhost postfix/anvil[13665]: statistics: max connection count 1 for (smtp:220.233.84.26) at Sep  6 22:10:38
 Sep  6 22:13:59 localhost postfix/anvil[13665]: statistics: max cache size 1 at Sep  6 22:10:38
+Sep  6 22:14:16 localhost dovecot: imap-login: Login: user=<adam>, method=PLAIN, rip=::1, lip=::1, mpid=24207, secured, session=<3YlJ+FrL3p4AAAAAAAAAAAAAAAAAAAAB>
+Sep  6 22:14:16 localhost dovecot: imap(adam)<24207><3YlJ+FrL3p4AAAAAAAAAAAAAAAAAAAAB>: Logged out in=445 out=2191 deleted=0 expunged=0 trashed=0 hdr_count=1 hdr_bytes=323 body_count=1 body_bytes=369
+Sep  6 22:14:24 localhost dovecot: imap-login: Login: user=<adam>, method=PLAIN, rip=::1, lip=::1, mpid=24760, secured, session=<XlnE+FrL5p4AAAAAAAAAAAAAAAAAAAAB>
+Sep  6 22:14:24 localhost dovecot: imap(adam)<24760><XlnE+FrL5p4AAAAAAAAAAAAAAAAAAAAB>: Logged out in=144 out=1112 deleted=0 expunged=0 trashed=0 hdr_count=0 hdr_bytes=0 body_count=0 body_bytes=0
+Sep  6 22:15:24 localhost dovecot: imap-login: Login: user=<adam>, method=PLAIN, rip=::1, lip=::1, mpid=27614, secured, session=<3MtV/FrL6p4AAAAAAAAAAAAAAAAAAAAB>
+Sep  6 22:15:24 localhost dovecot: imap(adam)<27614><3MtV/FrL6p4AAAAAAAAAAAAAAAAAAAAB>: Logged out in=92 out=972 deleted=0 expunged=0 trashed=0 hdr_count=0 hdr_bytes=0 body_count=0 body_bytes=0
+Sep  6 22:16:24 localhost dovecot: imap-login: Login: user=<adam>, method=PLAIN, rip=::1, lip=::1, mpid=30520, secured, session=<tbTr/1rL8J4AAAAAAAAAAAAAAAAAAAAB>
+Sep  6 22:16:24 localhost dovecot: imap(adam)<30520><tbTr/1rL8J4AAAAAAAAAAAAAAAAAAAAB>: Logged out in=92 out=980 deleted=0 expunged=0 trashed=0 hdr_count=0 hdr_bytes=0 body_count=0 body_bytes=0
