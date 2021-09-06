@@ -8,3 +8,5 @@ Sep  5 19:58:48 localhost ntpd[500]: new interface(s) found: waking up resolver
 Sep  5 19:58:55 localhost ntpd[500]: new interface(s) found: waking up resolver
 Sep  6 13:28:37 localhost ntpd[6255]: new interface(s) found: waking up resolver
 Sep  6 13:31:27 localhost ntpd[6255]: new interface(s) found: waking up resolver
+Sep  6 17:55:41 localhost ntpd[6255]: new interface(s) found: waking up resolver
+Sep  6 17:55:43 localhost ntpd[6255]: new interface(s) found: waking up resolver

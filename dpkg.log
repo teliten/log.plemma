@@ -623,3 +623,27 @@
 2021-09-06 13:36:17 trigproc man-db:amd64 2.8.5-2 <none>
 2021-09-06 13:36:17 status half-configured man-db:amd64 2.8.5-2
 2021-09-06 13:36:17 status installed man-db:amd64 2.8.5-2
+2021-09-06 15:38:45 startup packages remove
+2021-09-06 15:38:45 status installed libgnutls-dane0:amd64 3.6.7-4+deb10u7
+2021-09-06 15:38:45 remove libgnutls-dane0:amd64 3.6.7-4+deb10u7 <none>
+2021-09-06 15:38:45 status triggers-pending libc-bin:amd64 2.28-10
+2021-09-06 15:38:45 status half-configured libgnutls-dane0:amd64 3.6.7-4+deb10u7
+2021-09-06 15:38:45 status half-installed libgnutls-dane0:amd64 3.6.7-4+deb10u7
+2021-09-06 15:38:45 status config-files libgnutls-dane0:amd64 3.6.7-4+deb10u7
+2021-09-06 15:38:45 status not-installed libgnutls-dane0:amd64 <none>
+2021-09-06 15:38:45 status installed libunbound8:amd64 1.9.0-2+deb10u2
+2021-09-06 15:38:45 remove libunbound8:amd64 1.9.0-2+deb10u2 <none>
+2021-09-06 15:38:45 status half-configured libunbound8:amd64 1.9.0-2+deb10u2
+2021-09-06 15:38:45 status half-installed libunbound8:amd64 1.9.0-2+deb10u2
+2021-09-06 15:38:45 status config-files libunbound8:amd64 1.9.0-2+deb10u2
+2021-09-06 15:38:45 status not-installed libunbound8:amd64 <none>
+2021-09-06 15:38:45 status installed libevent-2.1-6:amd64 2.1.8-stable-4
+2021-09-06 15:38:45 remove libevent-2.1-6:amd64 2.1.8-stable-4 <none>
+2021-09-06 15:38:45 status half-configured libevent-2.1-6:amd64 2.1.8-stable-4
+2021-09-06 15:38:45 status half-installed libevent-2.1-6:amd64 2.1.8-stable-4
+2021-09-06 15:38:45 status config-files libevent-2.1-6:amd64 2.1.8-stable-4
+2021-09-06 15:38:45 status not-installed libevent-2.1-6:amd64 <none>
+2021-09-06 15:38:45 startup packages configure
+2021-09-06 15:38:45 trigproc libc-bin:amd64 2.28-10 <none>
+2021-09-06 15:38:45 status half-configured libc-bin:amd64 2.28-10
+2021-09-06 15:38:45 status installed libc-bin:amd64 2.28-10
