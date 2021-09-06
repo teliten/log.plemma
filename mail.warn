@@ -495,3 +495,58 @@ Sep  6 11:40:15 localhost postfix/trivial-rewrite[2842]: warning: do not list do
 Sep  6 11:40:16 localhost postfix/trivial-rewrite[2842]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
 Sep  6 11:59:24 localhost postfix/trivial-rewrite[24951]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
 Sep  6 11:59:24 localhost postfix/trivial-rewrite[24951]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 12:18:33 localhost postfix/trivial-rewrite[15111]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 12:18:33 localhost postfix/trivial-rewrite[15111]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 12:18:35 localhost postfix/trivial-rewrite[15111]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 12:24:33 localhost postfix/trivial-rewrite[32160]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 12:24:34 localhost postfix/trivial-rewrite[32160]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 12:43:40 localhost postfix/trivial-rewrite[22237]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 12:43:41 localhost postfix/trivial-rewrite[22237]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 12:43:42 localhost postfix/trivial-rewrite[22237]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 12:48:57 localhost postfix/trivial-rewrite[5208]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 12:51:00 localhost postfix/smtpd[11466]: warning: hostname hosted-by.rootlayer.net does not resolve to address 185.222.57.88
+Sep  6 12:51:01 localhost postfix/trivial-rewrite[11771]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 12:51:23 localhost postfix/trivial-rewrite[11771]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 12:57:51 localhost postfix/smtpd[31358]: warning: hostname bizcloud-power.hawe.co.jp does not resolve to address 139.59.28.97: Name or service not known
+Sep  6 12:57:53 localhost postfix/trivial-rewrite[31462]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 12:57:53 localhost postfix/trivial-rewrite[31462]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 13:10:53 localhost postfix/smtpd[3624]: warning: hostname hp0.j.txmxco.buzz does not resolve to address 159.65.173.232: Name or service not known
+Sep  6 13:10:55 localhost postfix/trivial-rewrite[3728]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 13:10:57 localhost postfix/smtpd[3730]: warning: hostname hosted-by.rootlayer.net does not resolve to address 185.222.57.167
+Sep  6 13:10:59 localhost postfix/trivial-rewrite[3728]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 13:11:00 localhost postfix/trivial-rewrite[3728]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 13:11:14 localhost postfix/trivial-rewrite[3728]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 13:23:58 localhost postfix/trivial-rewrite[8578]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 13:23:59 localhost postfix/trivial-rewrite[8578]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 13:25:05 localhost postfix/trivial-rewrite[8578]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Sep  6 13:25:05 localhost postfix/trivial-rewrite[8578]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Sep  6 13:30:46 localhost postfix/trivial-rewrite[28326]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 13:30:46 localhost postfix/trivial-rewrite[28326]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 13:34:03 localhost postfix/smtpd[4966]: warning: hostname ip-223-23.dataclub.info does not resolve to address 46.183.223.23: Name or service not known
+Sep  6 13:34:05 localhost postfix/trivial-rewrite[5119]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 13:34:12 localhost postfix/trivial-rewrite[5119]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 13:35:45 localhost postfix/trivial-rewrite[5119]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 13:35:45 localhost postfix/trivial-rewrite[5119]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 13:36:51 localhost postfix/trivial-rewrite[5119]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 13:36:51 localhost postfix/trivial-rewrite[5119]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 13:47:15 localhost postfix/trivial-rewrite[11295]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 13:47:15 localhost postfix/trivial-rewrite[11295]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 13:47:16 localhost postfix/trivial-rewrite[11295]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 14:04:39 localhost postfix/trivial-rewrite[29179]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 14:04:40 localhost postfix/trivial-rewrite[29179]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 14:04:41 localhost postfix/trivial-rewrite[29179]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 14:10:09 localhost postfix/trivial-rewrite[12734]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 14:10:09 localhost postfix/trivial-rewrite[12734]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 14:13:22 localhost postfix/trivial-rewrite[22006]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 14:13:22 localhost postfix/trivial-rewrite[22006]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 14:30:01 localhost postfix/trivial-rewrite[5257]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 14:30:01 localhost postfix/trivial-rewrite[5257]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 14:33:42 localhost postfix/trivial-rewrite[16030]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 14:33:42 localhost postfix/trivial-rewrite[16030]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 14:34:59 localhost postfix/trivial-rewrite[16030]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 14:35:00 localhost postfix/trivial-rewrite[16030]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 14:38:26 localhost postfix/trivial-rewrite[29650]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 14:38:27 localhost postfix/trivial-rewrite[29650]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 14:40:23 localhost postfix/trivial-rewrite[2836]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 14:41:44 localhost postfix/trivial-rewrite[2836]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep  6 14:41:44 localhost postfix/trivial-rewrite[2836]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains

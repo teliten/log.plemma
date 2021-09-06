@@ -1,0 +1,2 @@
+[06-Sep-2021 12:19:05 UTC] ERROR: SMTP server does not support authentication ()
+[06-Sep-2021 12:19:05 +0000]: <3a0mkgut> SMTP Error: Authentication failure: SMTP server does not support authentication (Code: ) in /usr/share/roundcube/program/lib/Roundcube/rcube.php on line 1667 (POST /roundcube/?_task=mail&_unlock=loading1630930745135&_lang=undefined&_framed=1&_action=send)
