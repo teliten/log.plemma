@@ -4,3 +4,7 @@ update-alternatives 2021-09-05 19:22:29: run with --install /usr/share/man/man1/
 update-alternatives 2021-09-05 19:22:29: link group postmaster.1.gz updated to point to /usr/share/postgresql/11/man/man1/postmaster.1.gz
 update-alternatives 2021-09-05 19:22:32: run with --install /usr/bin/sar sar /usr/bin/sar.sysstat 0 --slave /usr/share/man/man1/sar.1.gz sar.1.gz /usr/share/man/man1/sar.sysstat.1.gz
 update-alternatives 2021-09-05 19:22:32: link group sar updated to point to /usr/bin/sar.sysstat
+update-alternatives 2021-09-05 19:55:32: run with --install /usr/bin/jsonschema jsonschema /usr/bin/python3-jsonschema 200
+update-alternatives 2021-09-05 19:55:32: link group jsonschema updated to point to /usr/bin/python3-jsonschema
+update-alternatives 2021-09-05 19:55:32: run with --install /usr/bin/wsdump wsdump /usr/bin/python3-wsdump 200
+update-alternatives 2021-09-05 19:55:32: link group wsdump updated to point to /usr/bin/python3-wsdump

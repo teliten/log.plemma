@@ -9,3 +9,12 @@ Sep  5 18:18:38 localhost s3fs[24172]: s3fs.cpp:s3fs_check_service(3780): bucket
 Sep  5 19:29:47 localhost s3fs[4352]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
 Sep  5 19:29:48 localhost s3fs[4352]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
 Sep  5 19:35:27 localhost s3fs[5508]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
+Sep  5 19:35:28 localhost s3fs[5508]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
+Sep  5 20:23:28 localhost dockerd[8431]: time="2021-09-05T20:23:28.542353630Z" level=error msg="d898657692ceca97dee35ed5805646771462a2f342dad5cb04e8d32ab648c126 cleanup: failed to delete container from containerd: no such container"
+Sep  5 21:27:44 localhost dockerd[8431]: time="2021-09-05T21:27:44.690086317Z" level=info msg="shim docker-containerd-shim started" address="unix:///run/containerd/s/5e43ed60afd469670e74df85297c14624eaad4977236633799da546e8560038b" debug=false pid=31132
+Sep  5 21:27:47 localhost dockerd[8431]: time="2021-09-05T21:27:47.456473234Z" level=info msg="shim reaped" id=a861ae5080affcc6ff9ee0eaee4e066d50b342f8d43b90432e640e888dd3343b
+Sep  5 21:27:47 localhost dockerd[8431]: time="2021-09-05T21:27:47.466302495Z" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Sep  5 21:27:52 localhost dockerd[8431]: time="2021-09-05T21:27:52.209699650Z" level=error msg="39cf11e45f06db50f2c9299abb88b1cff2538d3bca3cc0b46afcfb305b5ca9d8 cleanup: failed to delete container from containerd: no such container"
+Sep  5 21:29:45 localhost dockerd[8431]: time="2021-09-05T21:29:45.741245252Z" level=error msg="2faa5a3e6e628f6511d05099979b524deae7db99dc4b9b2574b802cad4c32658 cleanup: failed to delete container from containerd: no such container"
+Sep  6 12:07:21 localhost s3fs[15240]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
+Sep  6 12:07:22 localhost s3fs[15240]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.

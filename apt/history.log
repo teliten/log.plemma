@@ -45,3 +45,15 @@ Commandline: apt install postgresql
 Requested-By: adam (1001)
 Install: sysstat:amd64 (12.0.3-2, automatic), postgresql-11:amd64 (11.12-0+deb10u1, automatic), postgresql:amd64 (11+200+deb10u4)
 End-Date: 2021-09-05  19:22:36
+
+Start-Date: 2021-09-05  19:55:23
+Commandline: apt install docker-compose
+Requested-By: adam (1001)
+Install: python3-texttable:amd64 (1.6.0-1, automatic), libmodule-find-perl:amd64 (0.13-1, automatic), python3-distutils:amd64 (3.7.3-1, automatic), python3-cached-property:amd64 (1.5.1-3, automatic), libsecret-1-0:amd64 (0.18.7-1, automatic), docker-compose:amd64 (1.21.0-3), cgroupfs-mount:amd64 (1.4, automatic), needrestart:amd64 (3.4-5, automatic), python3-dockerpty:amd64 (0.4.1-1, automatic), libsecret-common:amd64 (0.18.7-1, automatic), python3-jsonschema:amd64 (2.6.0-4, automatic), libintl-perl:amd64 (1.26-2, automatic), python3-docker:amd64 (3.4.1-4, automatic), libmodule-scandeps-perl:amd64 (1.27-1, automatic), python3-docopt:amd64 (0.6.2-2, automatic), runc:amd64 (1.0.0~rc6+dfsg1-3, automatic), python3-lib2to3:amd64 (3.7.3-1, automatic), python3-yaml:amd64 (3.13-2, automatic), golang-docker-credential-helpers:amd64 (0.6.1-2+deb10u1, automatic), tini:amd64 (0.18.0-1, automatic), libsort-naturally-perl:amd64 (1.03-2, automatic), python3-dockerpycreds:amd64 (0.3.0-1, automatic), libnss3:amd64 (2:3.42.1-1+deb10u3, automatic), libyaml-0-2:amd64 (0.2.1-1, automatic), python3-websocket:amd64 (0.53.0-1, automatic), libintl-xs-perl:amd64 (1.26-2+b4, automatic), libnspr4:amd64 (2:4.20-1, automatic), libproc-processtable-perl:amd64 (0.56-1, automatic), docker.io:amd64 (18.09.1+dfsg1-7.1+deb10u3, automatic)
+End-Date: 2021-09-05  19:55:40
+
+Start-Date: 2021-09-05  20:22:25
+Commandline: apt install sqlite3 libsqlite3-dev
+Requested-By: adam (1001)
+Install: libsqlite3-dev:amd64 (3.27.2-3+deb10u1), sqlite3:amd64 (3.27.2-3+deb10u1)
+End-Date: 2021-09-05  20:22:26
