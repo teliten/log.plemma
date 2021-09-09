@@ -1,0 +1,2 @@
+[08-Sep-2021 14:26:43 +0000]: <7mcfb23p> PHP Error: SMTP server does not support authentication (POST /roundcube/?_task=mail&_unlock=loading1631111201533&_framed=1&_action=send)
+[08-Sep-2021 14:26:43 +0000]: <7mcfb23p> SMTP Error: Authentication failure: SMTP server does not support authentication (Code: ) in /usr/share/roundcube/program/lib/Roundcube/rcube.php on line 1773 (POST /roundcube/?_task=mail&_unlock=loading1631111201533&_framed=1&_action=send)

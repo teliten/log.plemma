@@ -1,10 +1,5 @@
-[Mon Sep 06 00:00:00.910014 2021] [mpm_prefork:notice] [pid 31948] AH00163: Apache/2.4.38 (Debian) configured -- resuming normal operations
-[Mon Sep 06 00:00:00.910038 2021] [core:notice] [pid 31948] AH00094: Command line: '/usr/sbin/apache2'
-[Mon Sep 06 03:53:04.169764 2021] [php7:error] [pid 26503] [client 45.146.164.110:38154] script '/var/www/html/index.php' not found or unable to stat
-[Mon Sep 06 10:17:12.854242 2021] [php7:error] [pid 15443] [client 103.59.132.44:56721] script '/var/www/html/index.php' not found or unable to stat, referer: http://158.247.223.84:80/index.php
-[Mon Sep 06 12:37:17.200989 2021] [core:error] [pid 14371] [client 73.107.144.246:32800] AH00037: Symbolic link not allowed or link target not accessible: /var/lib/roundcube/index.php, referer: http://www.plemma.cc/roundcube/?_task=mail&_mbox=INBOX&_page=2
-[Mon Sep 06 12:37:17.549509 2021] [core:error] [pid 14371] [client 73.107.144.246:32800] AH00037: Symbolic link not allowed or link target not accessible: /var/lib/roundcube/index.php, referer: http://www.plemma.cc/roundcube/?_task=mail&_mbox=INBOX&_page=2
-[Mon Sep 06 12:43:42.687957 2021] [mpm_prefork:notice] [pid 31948] AH00169: caught SIGTERM, shutting down
-[Mon Sep 06 12:43:42.799066 2021] [mpm_prefork:notice] [pid 22329] AH00163: Apache/2.4.38 (Debian) configured -- resuming normal operations
-[Mon Sep 06 12:43:42.799178 2021] [core:notice] [pid 22329] AH00094: Command line: '/usr/sbin/apache2'
-[Mon Sep 06 18:12:43.920032 2021] [php7:error] [pid 18602] [client 45.146.164.110:58194] script '/var/www/html/index.php' not found or unable to stat
+[Thu Sep 09 00:00:03.050991 2021] [mpm_prefork:notice] [pid 22329] AH00163: Apache/2.4.38 (Debian) configured -- resuming normal operations
+[Thu Sep 09 00:00:03.051034 2021] [core:notice] [pid 22329] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Sep 09 04:10:00.246719 2021] [php7:error] [pid 30008] [client 45.146.164.110:42248] script '/var/www/html/index.php' not found or unable to stat
+[Thu Sep 09 04:25:05.279225 2021] [php7:error] [pid 30006] [client 109.248.6.111:46079] script '/var/www/html/gate.php' not found or unable to stat
+[Thu Sep 09 08:58:59.727166 2021] [php7:error] [pid 30007] [client 178.62.120.225:59626] script '/var/www/html/system_api.php' not found or unable to stat
