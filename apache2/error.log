@@ -1,5 +1,4 @@
-[Thu Sep 09 00:00:03.050991 2021] [mpm_prefork:notice] [pid 22329] AH00163: Apache/2.4.38 (Debian) configured -- resuming normal operations
-[Thu Sep 09 00:00:03.051034 2021] [core:notice] [pid 22329] AH00094: Command line: '/usr/sbin/apache2'
-[Thu Sep 09 04:10:00.246719 2021] [php7:error] [pid 30008] [client 45.146.164.110:42248] script '/var/www/html/index.php' not found or unable to stat
-[Thu Sep 09 04:25:05.279225 2021] [php7:error] [pid 30006] [client 109.248.6.111:46079] script '/var/www/html/gate.php' not found or unable to stat
-[Thu Sep 09 08:58:59.727166 2021] [php7:error] [pid 30007] [client 178.62.120.225:59626] script '/var/www/html/system_api.php' not found or unable to stat
+[Fri Sep 10 00:00:38.155248 2021] [mpm_prefork:notice] [pid 22329] AH00163: Apache/2.4.38 (Debian) configured -- resuming normal operations
+[Fri Sep 10 00:00:38.155280 2021] [core:notice] [pid 22329] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Sep 10 08:38:53.247946 2021] [php7:error] [pid 22850] [client 185.46.121.66:33168] script '/var/www/html/wp-login.php' not found or unable to stat
+[Fri Sep 10 08:38:53.269324 2021] [php7:error] [pid 22851] [client 185.46.121.66:33176] script '/var/www/html/wp-login.php' not found or unable to stat
