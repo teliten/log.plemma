@@ -290,3 +290,25 @@ Sep 13 13:57:55 localhost systemd[1]: Started Session 2680 of user adam.
 Sep 13 14:01:02 localhost systemd[24255]: mnt-amzn2.mount: Succeeded.
 Sep 13 14:01:02 localhost systemd[24351]: mnt-amzn2.mount: Succeeded.
 Sep 13 14:01:02 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
+Sep 13 14:07:15 localhost systemd[24255]: mnt-amzn2.mount: Succeeded.
+Sep 13 14:07:15 localhost systemd[24351]: mnt-amzn2.mount: Succeeded.
+Sep 13 14:07:15 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
+Sep 13 14:09:01 localhost systemd[1]: Starting Clean php session files...
+Sep 13 14:09:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Sep 13 14:09:01 localhost systemd[1]: Started Clean php session files.
+Sep 13 14:16:47 localhost systemd[1]: Stopping D-Bus System Message Bus...
+Sep 13 14:16:47 localhost systemd[1]: unattended-upgrades.service: Main process exited, code=exited, status=1/FAILURE
+Sep 13 14:16:47 localhost systemd[1]: unattended-upgrades.service: Failed with result 'exit-code'.
+Sep 13 14:16:47 localhost systemd[1]: dbus.service: Succeeded.
+Sep 13 14:16:47 localhost systemd[1]: Stopped D-Bus System Message Bus.
+Sep 13 14:16:47 localhost systemd[1]: Started D-Bus System Message Bus.
+Sep 13 14:16:47 localhost systemd[1]: Reexecuting.
+Sep 13 14:16:47 localhost systemd[1]: systemd-journal-flush.service: Succeeded.
+Sep 13 14:16:47 localhost systemd[1]: Stopped Flush Journal to Persistent Storage.
+Sep 13 14:16:47 localhost systemd[1]: Stopping Flush Journal to Persistent Storage...
+Sep 13 14:16:47 localhost systemd[1]: Started Unattended Upgrades Shutdown.
+Sep 13 14:16:47 localhost systemd[1]: Starting Flush Journal to Persistent Storage...
+Sep 13 14:16:47 localhost systemd[1]: Started Flush Journal to Persistent Storage.
+Sep 13 14:18:34 localhost systemd[24351]: mnt-amzn2.mount: Succeeded.
+Sep 13 14:18:34 localhost systemd[24255]: mnt-amzn2.mount: Succeeded.
+Sep 13 14:18:34 localhost systemd[1]: mnt-amzn2.mount: Succeeded.

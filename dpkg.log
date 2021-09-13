@@ -684,3 +684,12 @@
 2021-09-06 22:10:38 status config-files gsutil:all 3.1-1
 2021-09-06 22:10:38 status not-installed gsutil:all <none>
 2021-09-06 22:10:38 startup packages configure
+2021-09-13 14:16:37 startup archives unpack
+2021-09-13 14:16:38 install kubectx:all <none> 0.6.2-1
+2021-09-13 14:16:38 status half-installed kubectx:all 0.6.2-1
+2021-09-13 14:16:38 status unpacked kubectx:all 0.6.2-1
+2021-09-13 14:16:38 startup packages configure
+2021-09-13 14:16:38 configure kubectx:all 0.6.2-1 <none>
+2021-09-13 14:16:38 status unpacked kubectx:all 0.6.2-1
+2021-09-13 14:16:38 status half-configured kubectx:all 0.6.2-1
+2021-09-13 14:16:38 status installed kubectx:all 0.6.2-1

@@ -5662,3 +5662,57 @@ Sep 13 14:00:57 localhost postfix/bounce[4847]: AD2F56543: sender non-delivery n
 Sep 13 14:00:57 localhost postfix/qmgr[19627]: AD2F56543: removed
 Sep 13 14:00:59 localhost postfix/smtp[4845]: 4A0A5DD54: to=<n08838051e9-b1741b286c9a422c-anneb===fromthemachine.org@bounce.twitter.com>, relay=smtp-relay.gmail.com[108.177.97.28]:587, delay=2.1, delays=0/0/0.96/1.1, dsn=2.0.0, status=sent (250 2.0.0 OK  1631541659 y6sm1692849pjr.5 - gsmtp)
 Sep 13 14:00:59 localhost postfix/qmgr[19627]: 4A0A5DD54: removed
+Sep 13 14:04:05 localhost postfix/smtpd[5087]: connect from mail-pj1-f51.google.com[209.85.216.51]
+Sep 13 14:04:06 localhost postfix/trivial-rewrite[5089]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep 13 14:04:06 localhost postfix/smtpd[5087]: CEC416543: client=mail-pj1-f51.google.com[209.85.216.51]
+Sep 13 14:04:06 localhost postfix/cleanup[5090]: CEC416543: message-id=<CAL16LDckOn6hg+=Wypyik-0yDEjbHt9UMpmeg-uT89NhpHdh5w@mail.gmail.com>
+Sep 13 14:04:06 localhost postfix/qmgr[19627]: CEC416543: from=<jayitetg03@gmail.com>, size=8321, nrcpt=1 (queue active)
+Sep 13 14:04:06 localhost postfix/trivial-rewrite[5089]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep 13 14:04:06 localhost postfix/local[5091]: CEC416543: to=<adam@lamc.la>, relay=local, delay=0.03, delays=0.02/0.01/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Sep 13 14:04:06 localhost postfix/qmgr[19627]: CEC416543: removed
+Sep 13 14:04:07 localhost postfix/smtpd[5087]: disconnect from mail-pj1-f51.google.com[209.85.216.51] ehlo=2 starttls=1 mail=1 rcpt=1 bdat=1 quit=1 commands=7
+Sep 13 14:05:16 localhost postfix/smtpd[5087]: connect from unknown[114.97.55.55]
+Sep 13 14:05:16 localhost postfix/smtpd[5087]: lost connection after CONNECT from unknown[114.97.55.55]
+Sep 13 14:05:16 localhost postfix/smtpd[5087]: disconnect from unknown[114.97.55.55] commands=0/0
+Sep 13 14:05:19 localhost postfix/smtpd[5087]: connect from unknown[114.97.55.55]
+Sep 13 14:05:25 localhost postfix/trivial-rewrite[5089]: warning: do not list domain plemma.cc in BOTH mydestination and virtual_alias_domains
+Sep 13 14:05:25 localhost postfix/smtpd[5087]: NOQUEUE: reject: RCPT from unknown[114.97.55.55]: 454 4.7.1 <3123827806@qq.com>: Relay access denied; from=<wpast@plemma.cc> to=<3123827806@qq.com> proto=ESMTP helo=<8852505t.gmi.market>
+Sep 13 14:05:28 localhost postfix/smtpd[5087]: lost connection after DATA from unknown[114.97.55.55]
+Sep 13 14:05:28 localhost postfix/smtpd[5087]: disconnect from unknown[114.97.55.55] ehlo=1 mail=1 rcpt=0/1 data=0/1 rset=1 commands=3/5
+Sep 13 14:05:47 localhost postfix/smtpd[5087]: connect from 13.r1.unverified-forwarding.1e100.net[108.177.16.13]
+Sep 13 14:05:49 localhost postfix/smtpd[5087]: NOQUEUE: reject: RCPT from 13.r1.unverified-forwarding.1e100.net[108.177.16.13]: 454 4.7.1 <prvs=8807b7a81=betaxm+bncBCC7XN6N3YMBBD5B52EQMGQETCPO6PY@liber-t.xyz>: Relay access denied; from=<> to=<prvs=8807b7a81=betaxm+bncBCC7XN6N3YMBBD5B52EQMGQETCPO6PY@liber-t.xyz> proto=ESMTP helo=<13.r1.unverified-forwarding.1e100.net>
+Sep 13 14:05:49 localhost postfix/smtpd[5087]: disconnect from 13.r1.unverified-forwarding.1e100.net[108.177.16.13] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Sep 13 14:06:55 localhost postfix/anvil[4433]: statistics: max connection rate 2/60s for (smtp:114.97.55.55) at Sep 13 14:05:19
+Sep 13 14:06:55 localhost postfix/anvil[4433]: statistics: max connection count 1 for (smtp:158.247.16.163) at Sep 13 13:56:55
+Sep 13 14:06:55 localhost postfix/anvil[4433]: statistics: max cache size 2 at Sep 13 14:05:47
+Sep 13 14:10:10 localhost postfix/smtpd[5851]: warning: hostname hosted-by.rootlayer.net does not resolve to address 185.222.57.176
+Sep 13 14:10:10 localhost postfix/smtpd[5851]: connect from unknown[185.222.57.176]
+Sep 13 14:10:11 localhost postfix/trivial-rewrite[5854]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep 13 14:10:11 localhost postfix/smtpd[5851]: CBD956543: client=unknown[185.222.57.176]
+Sep 13 14:10:12 localhost postfix/cleanup[5855]: CBD956543: message-id=<20210913161007.F8ED744D70046B4F@dhl.com>
+Sep 13 14:10:12 localhost postfix/qmgr[19627]: CBD956543: from=<Georgia.Ropall@dhl.com>, size=27640, nrcpt=1 (queue active)
+Sep 13 14:10:12 localhost postfix/trivial-rewrite[5854]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep 13 14:10:12 localhost postfix/local[5856]: CBD956543: to=<adam@lamc.la>, relay=local, delay=1.4, delays=1.4/0.01/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Sep 13 14:10:12 localhost postfix/qmgr[19627]: CBD956543: removed
+Sep 13 14:10:13 localhost postfix/smtpd[5851]: disconnect from unknown[185.222.57.176] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+Sep 13 14:11:17 localhost postfix/smtpd[5851]: connect from mail-qt1-f197.google.com[209.85.160.197]
+Sep 13 14:11:19 localhost postfix/smtpd[5851]: NOQUEUE: reject: RCPT from mail-qt1-f197.google.com[209.85.160.197]: 454 4.7.1 <arsmallerXM!@reallyhim.com>: Relay access denied; from=<adam@carpent.us> to=<arsmallerXM!@reallyhim.com> proto=ESMTP helo=<mail-qt1-f197.google.com>
+Sep 13 14:11:19 localhost postfix/smtpd[5851]: disconnect from mail-qt1-f197.google.com[209.85.160.197] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Sep 13 14:11:35 localhost postfix/smtpd[5851]: connect from mail-vk1-f179.google.com[209.85.221.179]
+Sep 13 14:11:36 localhost postfix/trivial-rewrite[5854]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep 13 14:11:36 localhost postfix/smtpd[5851]: 93E4D6543: client=mail-vk1-f179.google.com[209.85.221.179]
+Sep 13 14:11:36 localhost postfix/cleanup[5855]: 93E4D6543: message-id=<CAFVqa_w24bUvsD2=JYDjq=GYc9yh3GKB1e2xHEHA=v+ZR2kKAA@mail.gmail.com>
+Sep 13 14:11:36 localhost postfix/qmgr[19627]: 93E4D6543: from=<frb.info33@gmail.com>, size=3601, nrcpt=1 (queue active)
+Sep 13 14:11:36 localhost postfix/trivial-rewrite[5854]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Sep 13 14:11:36 localhost postfix/local[5856]: 93E4D6543: to=<adam@lamc.la>, relay=local, delay=0.01, delays=0.01/0/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Sep 13 14:11:36 localhost postfix/qmgr[19627]: 93E4D6543: removed
+Sep 13 14:11:36 localhost postfix/smtpd[5851]: disconnect from mail-vk1-f179.google.com[209.85.221.179] ehlo=2 starttls=1 mail=1 rcpt=1 bdat=1 quit=1 commands=7
+Sep 13 14:14:50 localhost dovecot: imap-login: Login: user=<adam>, method=PLAIN, rip=73.107.144.246, lip=158.247.223.84, mpid=6216, TLS, session=<QXqbFuHLxLpJa5D2>
+Sep 13 14:14:52 localhost dovecot: imap(adam)<6216><QXqbFuHLxLpJa5D2>: Connection closed (LIST finished 0.417 secs ago) in=50 out=1204 deleted=0 expunged=0 trashed=0 hdr_count=0 hdr_bytes=0 body_count=0 body_bytes=0
+Sep 13 14:14:55 localhost dovecot: imap-login: Login: user=<adam>, method=PLAIN, rip=73.107.144.246, lip=158.247.223.84, mpid=6227, TLS, session=<KwviFuHL1rpJa5D2>
+Sep 13 14:14:57 localhost postfix/anvil[5853]: statistics: max connection rate 1/60s for (smtp:185.222.57.176) at Sep 13 14:10:10
+Sep 13 14:14:57 localhost postfix/anvil[5853]: statistics: max connection count 1 for (smtp:185.222.57.176) at Sep 13 14:10:10
+Sep 13 14:14:57 localhost postfix/anvil[5853]: statistics: max cache size 2 at Sep 13 14:11:35
+Sep 13 14:15:22 localhost dovecot: imap(adam)<6227><KwviFuHL1rpJa5D2>: Connection closed (UID FETCH finished 0.369 secs ago) in=2192 out=288672 deleted=0 expunged=0 trashed=0 hdr_count=20 hdr_bytes=6342 body_count=21 body_bytes=262421
+Sep 13 14:15:26 localhost dovecot: imap-login: Login: user=<adam>, method=PLAIN, rip=73.107.144.246, lip=158.247.223.84, mpid=6349, TLS, session=<vP2/GOHL5rpJa5D2>
+Sep 13 14:15:31 localhost dovecot: imap(adam)<6349><vP2/GOHL5rpJa5D2>: Connection closed (UID SEARCH finished 0.688 secs ago) in=121 out=1353 deleted=0 expunged=0 trashed=0 hdr_count=0 hdr_bytes=0 body_count=0 body_bytes=0

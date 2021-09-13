@@ -87,3 +87,9 @@ Start-Date: 2021-09-06  22:10:38
 Commandline: apt remove gsutil
 Remove: gsutil:amd64 (3.1-1)
 End-Date: 2021-09-06  22:10:38
+
+Start-Date: 2021-09-13  14:16:37
+Commandline: apt install kubectx
+Requested-By: adam (1001)
+Install: kubectx:amd64 (0.6.2-1)
+End-Date: 2021-09-13  14:16:38
