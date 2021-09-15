@@ -93,3 +93,13 @@ Commandline: apt install kubectx
 Requested-By: adam (1001)
 Install: kubectx:amd64 (0.6.2-1)
 End-Date: 2021-09-13  14:16:38
+
+Start-Date: 2021-09-13  14:19:04
+Commandline: apt-get install -y apt-transport-https ca-certificates curl
+Install: apt-transport-https:amd64 (1.8.2.3)
+End-Date: 2021-09-13  14:19:04
+
+Start-Date: 2021-09-13  14:19:33
+Commandline: apt-get install -y kubectl
+Install: kubectl:amd64 (1.22.1-00)
+End-Date: 2021-09-13  14:19:35
