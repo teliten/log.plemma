@@ -1,105 +1,15 @@
 
-Start-Date: 2021-09-05  18:24:36
-Commandline: apt install zlib1g-dev
-Requested-By: adam (1001)
-Install: zlib1g-dev:amd64 (1:1.2.11.dfsg-1)
-End-Date: 2021-09-05  18:24:37
+Start-Date: 2022-01-06  06:02:09
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: apache2-ssl-dev:amd64 (2.4.38-3+deb10u6, 2.4.38-3+deb10u7), apache2-dev:amd64 (2.4.38-3+deb10u6, 2.4.38-3+deb10u7)
+End-Date: 2022-01-06  06:02:10
 
-Start-Date: 2021-09-05  18:42:36
-Commandline: apt-get install libffi-dev
-Install: libffi-dev:amd64 (3.2.1-9)
-End-Date: 2021-09-05  18:42:36
+Start-Date: 2022-01-06  06:02:12
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: apache2-data:amd64 (2.4.38-3+deb10u6, 2.4.38-3+deb10u7), apache2-bin:amd64 (2.4.38-3+deb10u6, 2.4.38-3+deb10u7), apache2:amd64 (2.4.38-3+deb10u6, 2.4.38-3+deb10u7), apache2-utils:amd64 (2.4.38-3+deb10u6, 2.4.38-3+deb10u7)
+End-Date: 2022-01-06  06:02:15
 
-Start-Date: 2021-09-05  18:45:31
-Commandline: apt install docker
-Requested-By: adam (1001)
-Install: docker:amd64 (1.5-2), wmdocker:amd64 (1.5-2, automatic)
-End-Date: 2021-09-05  18:45:31
-
-Start-Date: 2021-09-05  19:13:37
-Commandline: apt install python-psycopg2
-Requested-By: adam (1001)
-Install: libpq5:amd64 (11.12-0+deb10u1, automatic), python-psycopg2:amd64 (2.7.7-1), python-egenix-mxtools:amd64 (3.2.9-1, automatic), python-egenix-mxdatetime:amd64 (3.2.9-1, automatic)
-End-Date: 2021-09-05  19:13:38
-
-Start-Date: 2021-09-05  19:14:22
-Commandline: apt install postgresql-server-dev-11
-Requested-By: adam (1001)
-Install: postgresql-common:amd64 (200+deb10u4, automatic), libobjc-8-dev:amd64 (8.3.0-6, automatic), libllvm7:amd64 (1:7.0.1-8+deb10u2, automatic), lib32stdc++6:amd64 (8.3.0-6, automatic), libomp-7-dev:amd64 (1:7.0.1-8+deb10u2, automatic), libobjc4:amd64 (8.3.0-6, automatic), clang-7:amd64 (1:7.0.1-8+deb10u2, automatic), libomp5-7:amd64 (1:7.0.1-8+deb10u2, automatic), libclang-common-7-dev:amd64 (1:7.0.1-8+deb10u2, automatic), libpq-dev:amd64 (11.12-0+deb10u1, automatic), lib32gcc1:amd64 (1:8.3.0-6, automatic), libc6-i386:amd64 (2.28-10, automatic), libtinfo-dev:amd64 (6.1+20181013-2+deb10u2, automatic), binfmt-support:amd64 (2.2.0-2, automatic), llvm-7-dev:amd64 (1:7.0.1-8+deb10u2, automatic), libncurses-dev:amd64 (6.1+20181013-2+deb10u2, automatic), postgresql-server-dev-11:amd64 (11.12-0+deb10u1), llvm-7-runtime:amd64 (1:7.0.1-8+deb10u2, automatic), libclang1-7:amd64 (1:7.0.1-8+deb10u2, automatic), llvm-7:amd64 (1:7.0.1-8+deb10u2, automatic), postgresql-client-common:amd64 (200+deb10u4, automatic)
-End-Date: 2021-09-05  19:14:34
-
-Start-Date: 2021-09-05  19:14:51
-Commandline: apt install postgresql-server-dev-all
-Requested-By: adam (1001)
-Install: postgresql-server-dev-all:amd64 (200+deb10u4), dctrl-tools:amd64 (2.24-3, automatic)
-End-Date: 2021-09-05  19:14:52
-
-Start-Date: 2021-09-05  19:18:02
-Commandline: apt install postgresql-client
-Requested-By: adam (1001)
-Install: postgresql-client:amd64 (11+200+deb10u4), postgresql-client-11:amd64 (11.12-0+deb10u1, automatic)
-End-Date: 2021-09-05  19:18:03
-
-Start-Date: 2021-09-05  19:22:26
-Commandline: apt install postgresql
-Requested-By: adam (1001)
-Install: sysstat:amd64 (12.0.3-2, automatic), postgresql-11:amd64 (11.12-0+deb10u1, automatic), postgresql:amd64 (11+200+deb10u4)
-End-Date: 2021-09-05  19:22:36
-
-Start-Date: 2021-09-05  19:55:23
-Commandline: apt install docker-compose
-Requested-By: adam (1001)
-Install: python3-texttable:amd64 (1.6.0-1, automatic), libmodule-find-perl:amd64 (0.13-1, automatic), python3-distutils:amd64 (3.7.3-1, automatic), python3-cached-property:amd64 (1.5.1-3, automatic), libsecret-1-0:amd64 (0.18.7-1, automatic), docker-compose:amd64 (1.21.0-3), cgroupfs-mount:amd64 (1.4, automatic), needrestart:amd64 (3.4-5, automatic), python3-dockerpty:amd64 (0.4.1-1, automatic), libsecret-common:amd64 (0.18.7-1, automatic), python3-jsonschema:amd64 (2.6.0-4, automatic), libintl-perl:amd64 (1.26-2, automatic), python3-docker:amd64 (3.4.1-4, automatic), libmodule-scandeps-perl:amd64 (1.27-1, automatic), python3-docopt:amd64 (0.6.2-2, automatic), runc:amd64 (1.0.0~rc6+dfsg1-3, automatic), python3-lib2to3:amd64 (3.7.3-1, automatic), python3-yaml:amd64 (3.13-2, automatic), golang-docker-credential-helpers:amd64 (0.6.1-2+deb10u1, automatic), tini:amd64 (0.18.0-1, automatic), libsort-naturally-perl:amd64 (1.03-2, automatic), python3-dockerpycreds:amd64 (0.3.0-1, automatic), libnss3:amd64 (2:3.42.1-1+deb10u3, automatic), libyaml-0-2:amd64 (0.2.1-1, automatic), python3-websocket:amd64 (0.53.0-1, automatic), libintl-xs-perl:amd64 (1.26-2+b4, automatic), libnspr4:amd64 (2:4.20-1, automatic), libproc-processtable-perl:amd64 (0.56-1, automatic), docker.io:amd64 (18.09.1+dfsg1-7.1+deb10u3, automatic)
-End-Date: 2021-09-05  19:55:40
-
-Start-Date: 2021-09-05  20:22:25
-Commandline: apt install sqlite3 libsqlite3-dev
-Requested-By: adam (1001)
-Install: libsqlite3-dev:amd64 (3.27.2-3+deb10u1), sqlite3:amd64 (3.27.2-3+deb10u1)
-End-Date: 2021-09-05  20:22:26
-
-Start-Date: 2021-09-06  12:46:26
-Commandline: apt install unzip
-Install: unzip:amd64 (6.0-23+deb10u2)
-End-Date: 2021-09-06  12:46:27
-
-Start-Date: 2021-09-06  13:36:15
-Commandline: apt install yarn
-Install: python-ttystatus:amd64 (0.38-2, automatic), python-yaml:amd64 (3.13-2, automatic), python-chardet:amd64 (3.0.4-3, automatic), python-pygments:amd64 (2.3.1+dfsg-1+deb10u2, automatic), cmdtest:amd64 (0.32-3), python-cliapp:amd64 (1.20180812.1-2, automatic), python-markdown:amd64 (3.0.1-3, automatic)
-End-Date: 2021-09-06  13:36:17
-
-Start-Date: 2021-09-06  15:38:45
-Commandline: apt autoremove
-Remove: libunbound8:amd64 (1.9.0-2+deb10u2), libevent-2.1-6:amd64 (2.1.8-stable-4), libgnutls-dane0:amd64 (3.6.7-4+deb10u7)
-End-Date: 2021-09-06  15:38:46
-
-Start-Date: 2021-09-06  21:11:42
-Commandline: apt-get install gcsfuse
-Install: gcsfuse:amd64 (0.36.0)
-End-Date: 2021-09-06  21:11:42
-
-Start-Date: 2021-09-06  22:06:57
-Commandline: apt install gsutil
-Install: libhtml-form-perl:amd64 (6.03-1, automatic), gsutil:amd64 (3.1-1)
-End-Date: 2021-09-06  22:06:57
-
-Start-Date: 2021-09-06  22:10:38
-Commandline: apt remove gsutil
-Remove: gsutil:amd64 (3.1-1)
-End-Date: 2021-09-06  22:10:38
-
-Start-Date: 2021-09-13  14:16:37
-Commandline: apt install kubectx
-Requested-By: adam (1001)
-Install: kubectx:amd64 (0.6.2-1)
-End-Date: 2021-09-13  14:16:38
-
-Start-Date: 2021-09-13  14:19:04
-Commandline: apt-get install -y apt-transport-https ca-certificates curl
-Install: apt-transport-https:amd64 (1.8.2.3)
-End-Date: 2021-09-13  14:19:04
-
-Start-Date: 2021-09-13  14:19:33
-Commandline: apt-get install -y kubectl
-Install: kubectl:amd64 (1.22.1-00)
-End-Date: 2021-09-13  14:19:35
+Start-Date: 2022-01-10  06:51:46
+Commandline: /usr/bin/unattended-upgrade
+Upgrade: roundcube-core:amd64 (1.3.17+dfsg.1-1~deb10u1, 1.3.17+dfsg.1-1~deb10u2), roundcube-mysql:amd64 (1.3.17+dfsg.1-1~deb10u1, 1.3.17+dfsg.1-1~deb10u2), roundcube:amd64 (1.3.17+dfsg.1-1~deb10u1, 1.3.17+dfsg.1-1~deb10u2)
+End-Date: 2022-01-10  06:51:50

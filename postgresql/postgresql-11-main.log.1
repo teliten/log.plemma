@@ -1,91 +1,141 @@
-2021-09-05 19:22:30.029 UTC [2710] LOG:  listening on IPv6 address "::1", port 5432
-2021-09-05 19:22:30.029 UTC [2710] LOG:  listening on IPv4 address "127.0.0.1", port 5432
-2021-09-05 19:22:30.030 UTC [2710] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
-2021-09-05 19:22:30.042 UTC [2711] LOG:  database system was shut down at 2021-09-05 19:22:29 UTC
-2021-09-05 19:22:30.047 UTC [2710] LOG:  database system is ready to accept connections
-2021-09-05 19:22:30.619 UTC [2718] [unknown]@[unknown] LOG:  incomplete startup packet
-2021-09-05 19:23:56.847 UTC [4074] postgres@postgres FATAL:  password authentication failed for user "postgres"
-2021-09-05 19:23:56.847 UTC [4074] postgres@postgres DETAIL:  User "postgres" has no password assigned.
-	Connection matched pg_hba.conf line 94: "host    all             all             ::1/128                 md5"
-2021-09-05 19:24:36.561 UTC [4101] root@root FATAL:  role "root" does not exist
-2021-09-05 19:24:52.985 UTC [4135] root@root FATAL:  role "root" does not exist
-2021-09-05 19:35:52.568 UTC [6101] postgres@postgres FATAL:  password authentication failed for user "postgres"
-2021-09-05 19:35:52.568 UTC [6101] postgres@postgres DETAIL:  User "postgres" has no password assigned.
-	Connection matched pg_hba.conf line 94: "host    all             all             ::1/128                 md5"
-2021-09-05 19:36:07.939 UTC [6202] postgres@postgres FATAL:  password authentication failed for user "postgres"
-2021-09-05 19:36:07.939 UTC [6202] postgres@postgres DETAIL:  User "postgres" has no password assigned.
-	Connection matched pg_hba.conf line 94: "host    all             all             ::1/128                 md5"
-2021-09-05 19:39:17.053 UTC [2710] LOG:  received fast shutdown request
-2021-09-05 19:39:17.054 UTC [2710] LOG:  aborting any active transactions
-2021-09-05 19:39:17.057 UTC [2710] LOG:  background worker "logical replication launcher" (PID 2717) exited with exit code 1
-2021-09-05 19:39:17.063 UTC [2712] LOG:  shutting down
-2021-09-05 19:39:17.072 UTC [2710] LOG:  database system is shut down
-2021-09-05 19:39:17.231 UTC [6345] LOG:  listening on IPv6 address "::1", port 5432
-2021-09-05 19:39:17.231 UTC [6345] LOG:  listening on IPv4 address "127.0.0.1", port 5432
-2021-09-05 19:39:17.232 UTC [6345] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
-2021-09-05 19:39:17.251 UTC [6346] LOG:  database system was shut down at 2021-09-05 19:39:17 UTC
-2021-09-05 19:39:17.257 UTC [6345] LOG:  database system is ready to accept connections
-2021-09-05 19:39:17.820 UTC [6353] [unknown]@[unknown] LOG:  incomplete startup packet
-2021-09-05 19:39:20.830 UTC [6392] root@root FATAL:  role "root" does not exist
-2021-09-05 19:40:57.766 UTC [6345] LOG:  received fast shutdown request
-2021-09-05 19:40:57.767 UTC [6345] LOG:  aborting any active transactions
-2021-09-05 19:40:57.770 UTC [6345] LOG:  background worker "logical replication launcher" (PID 6352) exited with exit code 1
-2021-09-05 19:40:57.775 UTC [6347] LOG:  shutting down
-2021-09-05 19:40:57.782 UTC [6345] LOG:  database system is shut down
-2021-09-05 19:40:57.942 UTC [6438] LOG:  listening on IPv6 address "::1", port 5432
-2021-09-05 19:40:57.942 UTC [6438] LOG:  listening on IPv4 address "127.0.0.1", port 5432
-2021-09-05 19:40:57.942 UTC [6438] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
-2021-09-05 19:40:57.958 UTC [6438] LOG:  peer authentication is only supported on local sockets
-2021-09-05 19:40:57.958 UTC [6438] CONTEXT:  line 92 of configuration file "/etc/postgresql/11/main/pg_hba.conf"
-2021-09-05 19:40:57.958 UTC [6438] FATAL:  could not load pg_hba.conf
-2021-09-05 19:40:57.959 UTC [6438] LOG:  database system is shut down
-pg_ctl: could not start server
-Examine the log output.
-2021-09-05 19:41:45.271 UTC [6584] LOG:  listening on IPv6 address "::1", port 5432
-2021-09-05 19:41:45.271 UTC [6584] LOG:  listening on IPv4 address "127.0.0.1", port 5432
-2021-09-05 19:41:45.272 UTC [6584] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
-2021-09-05 19:41:45.284 UTC [6584] LOG:  peer authentication is only supported on local sockets
-2021-09-05 19:41:45.284 UTC [6584] CONTEXT:  line 92 of configuration file "/etc/postgresql/11/main/pg_hba.conf"
-2021-09-05 19:41:45.284 UTC [6584] FATAL:  could not load pg_hba.conf
-2021-09-05 19:41:45.286 UTC [6584] LOG:  database system is shut down
-pg_ctl: could not start server
-Examine the log output.
-2021-09-05 19:42:09.882 UTC [6721] LOG:  listening on IPv6 address "::1", port 5432
-2021-09-05 19:42:09.882 UTC [6721] LOG:  listening on IPv4 address "127.0.0.1", port 5432
-2021-09-05 19:42:09.882 UTC [6721] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
-2021-09-05 19:42:09.898 UTC [6721] LOG:  peer authentication is only supported on local sockets
-2021-09-05 19:42:09.898 UTC [6721] CONTEXT:  line 92 of configuration file "/etc/postgresql/11/main/pg_hba.conf"
-2021-09-05 19:42:09.898 UTC [6721] FATAL:  could not load pg_hba.conf
-2021-09-05 19:42:09.899 UTC [6721] LOG:  database system is shut down
-pg_ctl: could not start server
-Examine the log output.
-2021-09-05 19:44:18.325 UTC [6935] LOG:  listening on IPv4 address "0.0.0.0", port 5432
-2021-09-05 19:44:18.325 UTC [6935] LOG:  listening on IPv6 address "::", port 5432
-2021-09-05 19:44:18.326 UTC [6935] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
-2021-09-05 19:44:18.348 UTC [6935] LOG:  peer authentication is only supported on local sockets
-2021-09-05 19:44:18.348 UTC [6935] CONTEXT:  line 92 of configuration file "/etc/postgresql/11/main/pg_hba.conf"
-2021-09-05 19:44:18.348 UTC [6935] FATAL:  could not load pg_hba.conf
-2021-09-05 19:44:18.350 UTC [6935] LOG:  database system is shut down
-pg_ctl: could not start server
-Examine the log output.
-2021-09-05 19:47:17.956 UTC [7052] LOG:  listening on IPv4 address "0.0.0.0", port 5432
-2021-09-05 19:47:17.956 UTC [7052] LOG:  listening on IPv6 address "::", port 5432
-2021-09-05 19:47:17.957 UTC [7052] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
-2021-09-05 19:47:17.989 UTC [7053] LOG:  database system was shut down at 2021-09-05 19:40:57 UTC
-2021-09-05 19:47:17.995 UTC [7052] LOG:  database system is ready to accept connections
-2021-09-05 19:47:18.541 UTC [7060] [unknown]@[unknown] LOG:  incomplete startup packet
-2021-09-05 19:47:29.639 UTC [7190] postgres@postgres FATAL:  password authentication failed for user "postgres"
-2021-09-05 19:47:29.639 UTC [7190] postgres@postgres DETAIL:  User "postgres" has no password assigned.
-	Connection matched pg_hba.conf line 94: "host    all             all             ::1/128                 md5"
-2021-09-05 19:47:47.811 UTC [7293] postgres@postgres FATAL:  password authentication failed for user "postgres"
-2021-09-05 19:47:47.811 UTC [7293] postgres@postgres DETAIL:  User "postgres" has no password assigned.
-	Connection matched pg_hba.conf line 94: "host    all             all             ::1/128                 md5"
-2021-09-05 19:48:04.924 UTC [7312] root@root FATAL:  role "root" does not exist
-2021-09-05 19:48:15.286 UTC [7346] root@postgres@ FATAL:  role "root" does not exist
-2021-09-05 19:51:15.371 UTC [7520] postgres@postgres ERROR:  relation "alembic_version" does not exist at character 15
-2021-09-05 19:51:15.371 UTC [7520] postgres@postgres STATEMENT:  select 1 from alembic_version
-2021-09-05 19:56:51.901 UTC [7052] LOG:  received fast shutdown request
-2021-09-05 19:56:51.903 UTC [7052] LOG:  aborting any active transactions
-2021-09-05 19:56:51.913 UTC [7052] LOG:  background worker "logical replication launcher" (PID 7059) exited with exit code 1
-2021-09-05 19:56:51.913 UTC [7054] LOG:  shutting down
-2021-09-05 19:56:51.928 UTC [7052] LOG:  database system is shut down
+2022-01-02 01:29:18.316 UTC [26602] postgress@postgres FATAL:  no pg_hba.conf entry for host "211.194.14.190", user "postgress", database "postgres", SSL off
+2022-01-02 02:45:30.521 UTC [31959] postgress@postgres FATAL:  no pg_hba.conf entry for host "120.78.172.59", user "postgress", database "postgres", SSL off
+2022-01-02 06:28:46.686 UTC [15463] postgres@postgres FATAL:  no pg_hba.conf entry for host "35.233.62.116", user "postgres", database "postgres", SSL on
+2022-01-02 06:28:47.276 UTC [15464] postgres@postgres FATAL:  no pg_hba.conf entry for host "35.233.62.116", user "postgres", database "postgres", SSL off
+2022-01-02 13:18:57.272 UTC [13048] [unknown]@[unknown] FATAL:  unsupported frontend protocol 0.0: server supports 2.0 to 3.0
+2022-01-02 13:18:57.607 UTC [13064] [unknown]@[unknown] FATAL:  unsupported frontend protocol 255.255: server supports 2.0 to 3.0
+2022-01-02 13:18:57.947 UTC [13065] [unknown]@[unknown] FATAL:  no PostgreSQL user name specified in startup packet
+2022-01-02 15:25:05.425 UTC [21771] [unknown]@[unknown] LOG:  could not accept SSL connection: unsupported protocol
+2022-01-02 16:47:00.496 UTC [27603] postgres@postgres FATAL:  no pg_hba.conf entry for host "195.54.160.149", user "postgres", database "postgres", SSL off
+2022-01-02 17:10:22.867 UTC [29226] postgres@postgres FATAL:  no pg_hba.conf entry for host "195.54.160.149", user "postgres", database "postgres", SSL off
+2022-01-02 17:31:28.801 UTC [30678] postgres@postgres FATAL:  no pg_hba.conf entry for host "195.54.160.149", user "postgres", database "postgres", SSL off
+2022-01-02 17:52:52.671 UTC [32202] postgres@postgres FATAL:  no pg_hba.conf entry for host "195.54.160.149", user "postgres", database "postgres", SSL off
+2022-01-02 18:14:03.690 UTC [1267] postgres@postgres FATAL:  no pg_hba.conf entry for host "195.54.160.149", user "postgres", database "postgres", SSL off
+2022-01-02 18:35:19.443 UTC [2785] postgres@postgres FATAL:  no pg_hba.conf entry for host "195.54.160.149", user "postgres", database "postgres", SSL off
+2022-01-02 18:54:14.466 UTC [4141] [unknown]@[unknown] FATAL:  unsupported frontend protocol 16.0: server supports 2.0 to 3.0
+2022-01-02 18:56:48.865 UTC [4302] postgres@postgres FATAL:  no pg_hba.conf entry for host "195.54.160.149", user "postgres", database "postgres", SSL off
+2022-01-02 19:18:30.748 UTC [5889] postgres@postgres FATAL:  no pg_hba.conf entry for host "195.54.160.149", user "postgres", database "postgres", SSL off
+2022-01-02 19:30:35.740 UTC [6689] postgress@postgres FATAL:  no pg_hba.conf entry for host "106.14.156.89", user "postgress", database "postgres", SSL off
+2022-01-02 19:39:55.658 UTC [7412] postgres@postgres FATAL:  no pg_hba.conf entry for host "195.54.160.149", user "postgres", database "postgres", SSL off
+2022-01-02 20:01:25.668 UTC [8909] postgres@postgres FATAL:  no pg_hba.conf entry for host "195.54.160.149", user "postgres", database "postgres", SSL off
+2022-01-02 20:23:13.289 UTC [10425] postgres@postgres FATAL:  no pg_hba.conf entry for host "195.54.160.149", user "postgres", database "postgres", SSL off
+2022-01-02 20:45:24.493 UTC [12110] postgres@postgres FATAL:  no pg_hba.conf entry for host "195.54.160.149", user "postgres", database "postgres", SSL off
+2022-01-02 21:07:32.264 UTC [13643] postgres@postgres FATAL:  no pg_hba.conf entry for host "195.54.160.149", user "postgres", database "postgres", SSL off
+2022-01-02 21:10:03.836 UTC [13849] postgres@postgres FATAL:  no pg_hba.conf entry for host "118.193.21.186", user "postgres", database "postgres", SSL on
+2022-01-02 21:10:04.068 UTC [13850] postgres@postgres FATAL:  no pg_hba.conf entry for host "118.193.21.186", user "postgres", database "postgres", SSL off
+2022-01-02 21:29:52.540 UTC [15195] postgres@postgres FATAL:  no pg_hba.conf entry for host "195.54.160.149", user "postgres", database "postgres", SSL off
+2022-01-02 21:52:04.640 UTC [16732] postgres@postgres FATAL:  no pg_hba.conf entry for host "195.54.160.149", user "postgres", database "postgres", SSL off
+2022-01-03 00:17:29.194 UTC [26866] [unknown]@[unknown] FATAL:  unsupported frontend protocol 0.0: server supports 2.0 to 3.0
+2022-01-03 00:17:29.555 UTC [26867] [unknown]@[unknown] FATAL:  unsupported frontend protocol 255.255: server supports 2.0 to 3.0
+2022-01-03 00:17:29.865 UTC [26868] [unknown]@[unknown] FATAL:  no PostgreSQL user name specified in startup packet
+2022-01-03 05:13:25.660 UTC [15129] postgres@bbbbbbb FATAL:  no pg_hba.conf entry for host "195.54.160.149", user "postgres", database "bbbbbbb", SSL off
+2022-01-03 05:15:18.259 UTC [15262] a@a FATAL:  no pg_hba.conf entry for host "34.228.155.34", user "a", database "a", SSL off
+2022-01-03 06:53:23.742 UTC [22443] postgres@postgres FATAL:  no pg_hba.conf entry for host "130.211.54.158", user "postgres", database "postgres", SSL on
+2022-01-03 06:53:24.295 UTC [22444] postgres@postgres FATAL:  no pg_hba.conf entry for host "130.211.54.158", user "postgres", database "postgres", SSL off
+2022-01-03 14:55:09.907 UTC [25271] [unknown]@[unknown] LOG:  invalid length of startup packet
+2022-01-03 14:55:15.202 UTC [25275] [unknown]@[unknown] LOG:  invalid length of startup packet
+2022-01-03 14:55:20.493 UTC [25282] [unknown]@[unknown] LOG:  invalid length of startup packet
+2022-01-03 15:10:32.444 UTC [26385] [unknown]@[unknown] LOG:  invalid length of startup packet
+2022-01-03 16:13:42.296 UTC [30871] [unknown]@[unknown] LOG:  could not accept SSL connection: unsupported protocol
+2022-01-03 17:02:02.093 UTC [1982] postgress@postgres FATAL:  no pg_hba.conf entry for host "121.40.249.205", user "postgress", database "postgres", SSL off
+2022-01-03 19:03:04.486 UTC [10997] [unknown]@[unknown] LOG:  invalid length of startup packet
+2022-01-03 19:03:05.195 UTC [10999] [unknown]@[unknown] LOG:  incomplete startup packet
+2022-01-03 19:03:05.570 UTC [11000] [unknown]@[unknown] LOG:  incomplete startup packet
+2022-01-03 19:03:09.095 UTC [11001] [unknown]@[unknown] LOG:  invalid length of startup packet
+2022-01-03 19:03:12.854 UTC [11004] [unknown]@[unknown] LOG:  invalid length of startup packet
+2022-01-03 19:03:16.962 UTC [11005] [unknown]@[unknown] LOG:  invalid length of startup packet
+2022-01-03 19:03:21.535 UTC [11006] [unknown]@[unknown] FATAL:  unsupported frontend protocol 65107.19778: server supports 2.0 to 3.0
+2022-01-03 19:03:25.699 UTC [11015] [unknown]@[unknown] LOG:  incomplete startup packet
+2022-01-03 19:03:30.366 UTC [11052] [unknown]@[unknown] LOG:  invalid length of startup packet
+2022-01-03 19:20:27.140 UTC [12348] [unknown]@[unknown] FATAL:  unsupported frontend protocol 16.0: server supports 2.0 to 3.0
+2022-01-04 00:28:46.070 UTC [2233] postgress@postgres FATAL:  no pg_hba.conf entry for host "8.142.96.229", user "postgress", database "postgres", SSL off
+2022-01-04 01:11:24.471 UTC [5341] postgres@bbbbbbb FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "bbbbbbb", SSL off
+2022-01-04 02:56:43.281 UTC [13263] [unknown]@[unknown] LOG:  could not receive data from client: Connection reset by peer
+2022-01-04 02:56:43.281 UTC [13263] [unknown]@[unknown] LOG:  incomplete startup packet
+2022-01-04 06:14:52.448 UTC [28268] postgress@postgres FATAL:  no pg_hba.conf entry for host "183.220.145.200", user "postgress", database "postgres", SSL off
+2022-01-04 07:17:17.779 UTC [689] postgres@postgres FATAL:  no pg_hba.conf entry for host "35.195.93.98", user "postgres", database "postgres", SSL on
+2022-01-04 07:17:18.318 UTC [690] postgres@postgres FATAL:  no pg_hba.conf entry for host "35.195.93.98", user "postgres", database "postgres", SSL off
+2022-01-04 07:39:20.274 UTC [2320] [unknown]@[unknown] FATAL:  unsupported frontend protocol 0.0: server supports 2.0 to 3.0
+2022-01-04 07:39:20.845 UTC [2327] [unknown]@[unknown] FATAL:  unsupported frontend protocol 255.255: server supports 2.0 to 3.0
+2022-01-04 07:39:21.399 UTC [2332] [unknown]@[unknown] FATAL:  no PostgreSQL user name specified in startup packet
+2022-01-04 15:05:01.846 UTC [2210] postgres@postgres FATAL:  no pg_hba.conf entry for host "118.193.21.186", user "postgres", database "postgres", SSL on
+2022-01-04 15:05:02.078 UTC [2214] postgres@postgres FATAL:  no pg_hba.conf entry for host "118.193.21.186", user "postgres", database "postgres", SSL off
+2022-01-04 17:30:18.652 UTC [12913] [unknown]@[unknown] LOG:  could not accept SSL connection: unsupported protocol
+2022-01-04 19:53:08.082 UTC [23133] [unknown]@[unknown] FATAL:  unsupported frontend protocol 16.0: server supports 2.0 to 3.0
+2022-01-04 21:06:19.717 UTC [28258] postgres@bbbbbbb FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "bbbbbbb", SSL off
+2022-01-05 00:13:04.421 UTC [9218] [unknown]@[unknown] FATAL:  unsupported frontend protocol 0.0: server supports 2.0 to 3.0
+2022-01-05 00:13:04.974 UTC [9219] [unknown]@[unknown] FATAL:  unsupported frontend protocol 255.255: server supports 2.0 to 3.0
+2022-01-05 00:13:05.374 UTC [9220] [unknown]@[unknown] FATAL:  no PostgreSQL user name specified in startup packet
+2022-01-05 01:13:47.563 UTC [13674] [unknown]@[unknown] LOG:  invalid length of startup packet
+2022-01-05 07:57:47.826 UTC [10623] postgres@postgres FATAL:  no pg_hba.conf entry for host "35.195.93.98", user "postgres", database "postgres", SSL on
+2022-01-05 07:57:48.368 UTC [10624] postgres@postgres FATAL:  no pg_hba.conf entry for host "35.195.93.98", user "postgres", database "postgres", SSL off
+2022-01-05 08:42:15.130 UTC [13997] [unknown]@[unknown] LOG:  invalid length of startup packet
+2022-01-05 14:51:30.295 UTC [8718] postgres@bbbbbbb FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "bbbbbbb", SSL off
+2022-01-05 16:39:12.899 UTC [16772] [unknown]@[unknown] LOG:  could not accept SSL connection: unsupported protocol
+2022-01-05 20:09:29.660 UTC [32215] [unknown]@[unknown] FATAL:  unsupported frontend protocol 16.0: server supports 2.0 to 3.0
+2022-01-06 03:17:01.006 UTC [31746] [unknown]@[unknown] FATAL:  unsupported frontend protocol 0.0: server supports 2.0 to 3.0
+2022-01-06 03:17:01.313 UTC [31747] [unknown]@[unknown] FATAL:  unsupported frontend protocol 255.255: server supports 2.0 to 3.0
+2022-01-06 03:17:01.623 UTC [31751] [unknown]@[unknown] FATAL:  no PostgreSQL user name specified in startup packet
+2022-01-06 05:54:31.387 UTC [11561] [unknown]@[unknown] FATAL:  unsupported frontend protocol 0.0: server supports 2.0 to 3.0
+2022-01-06 05:54:31.691 UTC [11562] [unknown]@[unknown] FATAL:  unsupported frontend protocol 255.255: server supports 2.0 to 3.0
+2022-01-06 05:54:31.994 UTC [11563] [unknown]@[unknown] FATAL:  no PostgreSQL user name specified in startup packet
+2022-01-06 08:33:04.613 UTC [24132] postgres@postgres FATAL:  no pg_hba.conf entry for host "34.140.248.32", user "postgres", database "postgres", SSL on
+2022-01-06 08:33:05.184 UTC [24133] postgres@postgres FATAL:  no pg_hba.conf entry for host "34.140.248.32", user "postgres", database "postgres", SSL off
+2022-01-06 10:34:03.102 UTC [810] postgres@bbbbbbb FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "bbbbbbb", SSL off
+2022-01-06 12:59:06.094 UTC [11932] postgress@postgres FATAL:  no pg_hba.conf entry for host "112.125.94.5", user "postgress", database "postgres", SSL off
+2022-01-06 13:07:11.007 UTC [12514] [unknown]@[unknown] LOG:  invalid length of startup packet
+2022-01-06 13:07:11.662 UTC [12515] [unknown]@[unknown] LOG:  invalid length of startup packet
+2022-01-06 13:07:12.755 UTC [12516] [unknown]@[unknown] LOG:  invalid length of startup packet
+2022-01-06 13:07:13.853 UTC [12517] [unknown]@[unknown] LOG:  invalid length of startup packet
+2022-01-06 13:07:14.982 UTC [12518] [unknown]@[unknown] LOG:  invalid length of startup packet
+2022-01-06 13:07:16.080 UTC [12521] [unknown]@[unknown] LOG:  invalid length of startup packet
+2022-01-06 13:07:17.167 UTC [12522] [unknown]@[unknown] LOG:  invalid length of startup packet
+2022-01-06 13:07:18.254 UTC [12524] [unknown]@[unknown] LOG:  invalid length of startup packet
+2022-01-06 15:29:14.890 UTC [23543] [unknown]@[unknown] LOG:  could not accept SSL connection: unsupported protocol
+2022-01-06 20:27:24.262 UTC [14333] [unknown]@[unknown] FATAL:  unsupported frontend protocol 16.0: server supports 2.0 to 3.0
+2022-01-07 02:42:17.502 UTC [11449] [unknown]@[unknown] LOG:  invalid length of startup packet
+2022-01-07 02:42:18.392 UTC [11451] [unknown]@[unknown] LOG:  incomplete startup packet
+2022-01-07 02:42:18.875 UTC [11452] [unknown]@[unknown] LOG:  incomplete startup packet
+2022-01-07 02:42:34.202 UTC [11453] [unknown]@[unknown] LOG:  invalid length of startup packet
+2022-01-07 02:42:45.818 UTC [11507] [unknown]@[unknown] LOG:  invalid length of startup packet
+2022-01-07 02:42:49.893 UTC [11508] [unknown]@[unknown] FATAL:  unsupported frontend protocol 65107.19778: server supports 2.0 to 3.0
+2022-01-07 02:42:54.196 UTC [11511] [unknown]@[unknown] LOG:  invalid length of startup packet
+2022-01-07 02:42:58.673 UTC [11513] [unknown]@[unknown] LOG:  incomplete startup packet
+2022-01-07 02:43:02.059 UTC [11514] [unknown]@[unknown] LOG:  invalid length of startup packet
+2022-01-07 05:44:04.359 UTC [24726] postgres@bbbbbbb FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "bbbbbbb", SSL off
+2022-01-07 09:11:56.464 UTC [7372] postgres@postgres FATAL:  no pg_hba.conf entry for host "35.195.93.98", user "postgres", database "postgres", SSL on
+2022-01-07 09:11:57.010 UTC [7373] postgres@postgres FATAL:  no pg_hba.conf entry for host "35.195.93.98", user "postgres", database "postgres", SSL off
+2022-01-07 12:57:07.179 UTC [24008] [unknown]@[unknown] FATAL:  unsupported frontend protocol 0.0: server supports 2.0 to 3.0
+2022-01-07 12:57:07.490 UTC [24011] [unknown]@[unknown] FATAL:  unsupported frontend protocol 255.255: server supports 2.0 to 3.0
+2022-01-07 12:57:07.796 UTC [24014] [unknown]@[unknown] FATAL:  no PostgreSQL user name specified in startup packet
+2022-01-07 16:08:05.178 UTC [5739] [unknown]@[unknown] LOG:  invalid length of startup packet
+2022-01-07 16:08:15.440 UTC [5740] [unknown]@[unknown] LOG:  incomplete startup packet
+2022-01-07 16:08:16.599 UTC [5743] [unknown]@[unknown] LOG:  invalid length of startup packet
+2022-01-07 16:08:16.897 UTC [5744] [unknown]@[unknown] LOG:  invalid length of startup packet
+2022-01-07 16:08:17.137 UTC [5745] [unknown]@[unknown] FATAL:  unsupported frontend protocol 65363.19778: server supports 2.0 to 3.0
+2022-01-07 16:48:26.439 UTC [8821] [unknown]@[unknown] LOG:  could not accept SSL connection: unsupported protocol
+2022-01-07 17:44:42.398 UTC [13153] [unknown]@[unknown] FATAL:  unsupported frontend protocol 0.0: server supports 2.0 to 3.0
+2022-01-07 17:44:42.846 UTC [13154] [unknown]@[unknown] FATAL:  unsupported frontend protocol 255.255: server supports 2.0 to 3.0
+2022-01-07 17:44:43.701 UTC [13156] [unknown]@[unknown] FATAL:  no PostgreSQL user name specified in startup packet
+2022-01-07 23:10:02.462 UTC [5500] [unknown]@[unknown] FATAL:  unsupported frontend protocol 16.0: server supports 2.0 to 3.0
+2022-01-08 00:29:42.630 UTC [11698] [unknown]@[unknown] LOG:  invalid length of startup packet
+2022-01-08 03:53:27.234 UTC [26886] postgres@postgres FATAL:  no pg_hba.conf entry for host "118.193.31.186", user "postgres", database "postgres", SSL on
+2022-01-08 03:53:27.301 UTC [26887] postgres@postgres FATAL:  no pg_hba.conf entry for host "118.193.31.186", user "postgres", database "postgres", SSL off
+2022-01-08 03:54:45.575 UTC [27004] postgress@postgres FATAL:  no pg_hba.conf entry for host "47.107.136.24", user "postgress", database "postgres", SSL off
+2022-01-08 06:42:26.672 UTC [7361] [unknown]@[unknown] LOG:  invalid length of startup packet
+2022-01-08 06:42:27.450 UTC [7363] [unknown]@[unknown] LOG:  incomplete startup packet
+2022-01-08 06:42:27.832 UTC [7364] [unknown]@[unknown] LOG:  incomplete startup packet
+2022-01-08 06:42:31.275 UTC [7365] [unknown]@[unknown] LOG:  invalid length of startup packet
+2022-01-08 06:42:35.053 UTC [7368] [unknown]@[unknown] LOG:  invalid length of startup packet
+2022-01-08 06:42:38.947 UTC [7370] [unknown]@[unknown] FATAL:  unsupported frontend protocol 65107.19778: server supports 2.0 to 3.0
+2022-01-08 06:42:42.718 UTC [7373] [unknown]@[unknown] LOG:  invalid length of startup packet
+2022-01-08 06:42:44.629 UTC [7369] [unknown]@[unknown] LOG:  incomplete startup packet
+2022-01-08 06:42:46.574 UTC [7380] [unknown]@[unknown] LOG:  incomplete startup packet
+2022-01-08 06:42:50.041 UTC [7381] [unknown]@[unknown] LOG:  invalid length of startup packet
+2022-01-08 06:46:39.887 UTC [7645] [unknown]@[unknown] FATAL:  unsupported frontend protocol 0.0: server supports 2.0 to 3.0
+2022-01-08 06:46:40.332 UTC [7654] [unknown]@[unknown] FATAL:  unsupported frontend protocol 255.255: server supports 2.0 to 3.0
+2022-01-08 06:46:40.793 UTC [7655] [unknown]@[unknown] FATAL:  no PostgreSQL user name specified in startup packet
+2022-01-08 09:49:07.426 UTC [22001] postgres@postgres FATAL:  no pg_hba.conf entry for host "35.233.62.116", user "postgres", database "postgres", SSL on
+2022-01-08 09:49:08.011 UTC [22002] postgres@postgres FATAL:  no pg_hba.conf entry for host "35.233.62.116", user "postgres", database "postgres", SSL off
+2022-01-08 18:22:07.466 UTC [28208] [unknown]@[unknown] LOG:  could not accept SSL connection: unsupported protocol
+2022-01-08 23:26:03.235 UTC [18881] [unknown]@[unknown] FATAL:  unsupported frontend protocol 16.0: server supports 2.0 to 3.0
