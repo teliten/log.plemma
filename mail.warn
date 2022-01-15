@@ -2237,3 +2237,5 @@ Jan 15 03:51:03 localhost postfix/trivial-rewrite[3826]: warning: do not list do
 Jan 15 03:51:03 localhost postfix/trivial-rewrite[3826]: warning: do not list domain ermccorp.com in BOTH mydestination and virtual_alias_domains
 Jan 15 03:51:05 localhost postfix/trivial-rewrite[3826]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
 Jan 15 03:51:07 localhost postfix/trivial-rewrite[3826]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Jan 15 04:15:20 localhost postfix/trivial-rewrite[6012]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 15 04:15:20 localhost postfix/trivial-rewrite[6012]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains

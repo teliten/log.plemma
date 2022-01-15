@@ -1308,3 +1308,33 @@ Jan 15 04:13:06 localhost s3fs[5563]: s3fs.cpp:s3fs_check_service(3780): bucket 
 Jan 15 04:13:06 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
 Jan 15 04:13:06 localhost systemd[24255]: mnt-amzn2.mount: Succeeded.
 Jan 15 04:13:21 localhost kernel: [13061860.426304] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=45.143.203.3 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=47842 PROTO=TCP SPT=48946 DPT=13389 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jan 15 04:13:49 localhost kernel: [13061889.261799] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=79.124.62.34 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=239 ID=38925 PROTO=TCP SPT=58036 DPT=18682 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jan 15 04:13:55 localhost dockerd[8431]: time="2022-01-15T04:13:55.103045667Z" level=info msg="NetworkDB stats plemma(b3be9f6424e0) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+Jan 15 04:14:01 localhost kernel: [13061900.369850] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=104.149.169.130 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=243 ID=4407 DF PROTO=TCP SPT=4 DPT=8303 WINDOW=512 RES=0x00 SYN URGP=0 
+Jan 15 04:14:43 localhost kernel: [13061943.214011] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=79.124.62.110 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=239 ID=45821 PROTO=TCP SPT=57698 DPT=43831 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jan 15 04:14:45 localhost kernel: [13061945.266142] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=104.149.169.130 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=243 ID=4407 DF PROTO=TCP SPT=5 DPT=89 WINDOW=512 RES=0x00 SYN URGP=0 
+Jan 15 04:15:01 localhost CRON[5747]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 15 04:15:03 localhost kernel: [13061962.746701] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=45.143.200.110 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=239 ID=59419 PROTO=TCP SPT=45276 DPT=38616 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jan 15 04:15:11 localhost systemd[24255]: mnt-rsync.mount: Succeeded.
+Jan 15 04:15:11 localhost systemd[1]: mnt-rsync.mount: Succeeded.
+Jan 15 04:15:18 localhost postfix/smtpd[6003]: connect from central.jrtelecom.psi.br[177.71.92.23]
+Jan 15 04:15:20 localhost postfix/trivial-rewrite[6012]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 15 04:15:20 localhost postfix/smtpd[6003]: 39BDAE2B: client=central.jrtelecom.psi.br[177.71.92.23]
+Jan 15 04:15:20 localhost postfix/cleanup[6013]: 39BDAE2B: message-id=<20220115051718.0BE2EA47BC9C1D3C@juniornet.psi.br>
+Jan 15 04:15:20 localhost postfix/qmgr[19627]: 39BDAE2B: from=<maria@juniornet.psi.br>, size=10732, nrcpt=1 (queue active)
+Jan 15 04:15:20 localhost postfix/trivial-rewrite[6012]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 15 04:15:20 localhost postfix/local[6014]: 39BDAE2B: to=<adam@lamc.la>, relay=local, delay=0.65, delays=0.64/0.01/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Jan 15 04:15:20 localhost postfix/qmgr[19627]: 39BDAE2B: removed
+Jan 15 04:15:21 localhost postfix/smtpd[6003]: disconnect from central.jrtelecom.psi.br[177.71.92.23] ehlo=2 starttls=1 mail=1 rcpt=1 bdat=2 quit=1 commands=8
+Jan 15 04:15:38 localhost kernel: [13061997.518474] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=45.134.26.233 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=13516 PROTO=TCP SPT=44259 DPT=46174 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jan 15 04:15:52 localhost kernel: [13062011.811264] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=45.146.166.116 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=245 ID=20784 PROTO=TCP SPT=44386 DPT=21877 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jan 15 04:16:08 localhost kernel: [13062028.333500] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=209.237.154.187 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=246 ID=54321 PROTO=TCP SPT=47058 DPT=52002 WINDOW=65535 RES=0x00 SYN URGP=0 
+Jan 15 04:16:29 localhost kernel: [13062049.120927] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=92.63.197.55 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=25302 PROTO=TCP SPT=47519 DPT=50005 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jan 15 04:17:01 localhost CRON[6168]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 15 04:17:06 localhost kernel: [13062085.984170] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=172.104.174.83 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=245 ID=57239 PROTO=TCP SPT=40017 DPT=2083 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jan 15 04:17:10 localhost kernel: [13062090.109571] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=47.115.150.229 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=237 ID=13907 PROTO=TCP SPT=40091 DPT=2375 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jan 15 04:17:35 localhost kernel: [13062114.523781] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=79.124.62.86 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=239 ID=23391 PROTO=TCP SPT=54388 DPT=38312 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jan 15 04:17:53 localhost s3fs[6212]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
+Jan 15 04:17:54 localhost s3fs[6212]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
+Jan 15 04:17:54 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
+Jan 15 04:17:54 localhost systemd[24255]: mnt-amzn2.mount: Succeeded.

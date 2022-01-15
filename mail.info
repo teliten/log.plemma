@@ -21515,3 +21515,12 @@ Jan 15 04:07:10 localhost postfix/smtpd[5027]: disconnect from unknown[163.123.1
 Jan 15 04:10:30 localhost postfix/anvil[5029]: statistics: max connection rate 1/60s for (smtp:163.123.142.198) at Jan 15 04:07:09
 Jan 15 04:10:30 localhost postfix/anvil[5029]: statistics: max connection count 1 for (smtp:163.123.142.198) at Jan 15 04:07:09
 Jan 15 04:10:30 localhost postfix/anvil[5029]: statistics: max cache size 1 at Jan 15 04:07:09
+Jan 15 04:15:18 localhost postfix/smtpd[6003]: connect from central.jrtelecom.psi.br[177.71.92.23]
+Jan 15 04:15:20 localhost postfix/trivial-rewrite[6012]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 15 04:15:20 localhost postfix/smtpd[6003]: 39BDAE2B: client=central.jrtelecom.psi.br[177.71.92.23]
+Jan 15 04:15:20 localhost postfix/cleanup[6013]: 39BDAE2B: message-id=<20220115051718.0BE2EA47BC9C1D3C@juniornet.psi.br>
+Jan 15 04:15:20 localhost postfix/qmgr[19627]: 39BDAE2B: from=<maria@juniornet.psi.br>, size=10732, nrcpt=1 (queue active)
+Jan 15 04:15:20 localhost postfix/trivial-rewrite[6012]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 15 04:15:20 localhost postfix/local[6014]: 39BDAE2B: to=<adam@lamc.la>, relay=local, delay=0.65, delays=0.64/0.01/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Jan 15 04:15:20 localhost postfix/qmgr[19627]: 39BDAE2B: removed
+Jan 15 04:15:21 localhost postfix/smtpd[6003]: disconnect from central.jrtelecom.psi.br[177.71.92.23] ehlo=2 starttls=1 mail=1 rcpt=1 bdat=2 quit=1 commands=8
