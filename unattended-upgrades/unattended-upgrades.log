@@ -128,3 +128,48 @@
 2022-01-14 11:31:36,732 INFO Initial whitelist: 
 2022-01-14 11:31:36,732 INFO Starting unattended upgrades script
 2022-01-14 11:31:36,733 INFO Allowed origins are: origin=Debian,codename=buster,label=Debian, origin=Debian,codename=buster,label=Debian-Security
+2022-01-15 06:32:23,784 INFO Initial blacklist : 
+2022-01-15 06:32:23,784 INFO Initial whitelist: 
+2022-01-15 06:32:23,784 INFO Starting unattended upgrades script
+2022-01-15 06:32:23,785 INFO Allowed origins are: origin=Debian,codename=buster,label=Debian, origin=Debian,codename=buster,label=Debian-Security
+2022-01-15 06:32:24,711 INFO No packages found that can be upgraded unattended and no pending auto-removals
+2022-01-15 11:52:58,670 INFO Initial blacklist : 
+2022-01-15 11:52:58,671 INFO Initial whitelist: 
+2022-01-15 11:52:58,671 INFO Starting unattended upgrades script
+2022-01-15 11:52:58,671 INFO Allowed origins are: origin=Debian,codename=buster,label=Debian, origin=Debian,codename=buster,label=Debian-Security
+2022-01-16 00:40:46,330 INFO Initial blacklist : 
+2022-01-16 00:40:46,330 INFO Initial whitelist: 
+2022-01-16 00:40:46,330 INFO Starting unattended upgrades script
+2022-01-16 00:40:46,331 INFO Allowed origins are: origin=Debian,codename=buster,label=Debian, origin=Debian,codename=buster,label=Debian-Security
+2022-01-16 06:53:14,701 INFO Initial blacklist : 
+2022-01-16 06:53:14,702 INFO Initial whitelist: 
+2022-01-16 06:53:14,702 INFO Starting unattended upgrades script
+2022-01-16 06:53:14,702 INFO Allowed origins are: origin=Debian,codename=buster,label=Debian, origin=Debian,codename=buster,label=Debian-Security
+2022-01-16 06:53:15,591 INFO No packages found that can be upgraded unattended and no pending auto-removals
+2022-01-17 02:43:09,140 INFO Initial blacklist : 
+2022-01-17 02:43:09,141 INFO Initial whitelist: 
+2022-01-17 02:43:09,141 INFO Starting unattended upgrades script
+2022-01-17 02:43:09,141 INFO Allowed origins are: origin=Debian,codename=buster,label=Debian, origin=Debian,codename=buster,label=Debian-Security
+2022-01-17 06:26:43,781 INFO Initial blacklist : 
+2022-01-17 06:26:43,782 INFO Initial whitelist: 
+2022-01-17 06:26:43,782 INFO Starting unattended upgrades script
+2022-01-17 06:26:43,782 INFO Allowed origins are: origin=Debian,codename=buster,label=Debian, origin=Debian,codename=buster,label=Debian-Security
+2022-01-17 06:26:44,707 INFO No packages found that can be upgraded unattended and no pending auto-removals
+2022-01-18 06:45:40,482 INFO Initial blacklist : 
+2022-01-18 06:45:40,483 INFO Initial whitelist: 
+2022-01-18 06:45:40,483 INFO Starting unattended upgrades script
+2022-01-18 06:45:40,483 INFO Allowed origins are: origin=Debian,codename=buster,label=Debian, origin=Debian,codename=buster,label=Debian-Security
+2022-01-18 06:45:41,352 INFO No packages found that can be upgraded unattended and no pending auto-removals
+2022-01-18 17:08:57,830 INFO Initial blacklist : 
+2022-01-18 17:08:57,831 INFO Initial whitelist: 
+2022-01-18 17:08:57,831 INFO Starting unattended upgrades script
+2022-01-18 17:08:57,831 INFO Allowed origins are: origin=Debian,codename=buster,label=Debian, origin=Debian,codename=buster,label=Debian-Security
+2022-01-19 06:14:36,346 INFO Initial blacklist : 
+2022-01-19 06:14:36,347 INFO Initial whitelist: 
+2022-01-19 06:14:36,347 INFO Starting unattended upgrades script
+2022-01-19 06:14:36,347 INFO Allowed origins are: origin=Debian,codename=buster,label=Debian, origin=Debian,codename=buster,label=Debian-Security
+2022-01-19 06:14:37,277 INFO No packages found that can be upgraded unattended and no pending auto-removals
+2022-01-19 07:53:58,073 INFO Initial blacklist : 
+2022-01-19 07:53:58,074 INFO Initial whitelist: 
+2022-01-19 07:53:58,074 INFO Starting unattended upgrades script
+2022-01-19 07:53:58,074 INFO Allowed origins are: origin=Debian,codename=buster,label=Debian, origin=Debian,codename=buster,label=Debian-Security

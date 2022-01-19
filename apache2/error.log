@@ -1,2 +1,4 @@
-[Sat Jan 15 00:00:03.134669 2022] [mpm_prefork:notice] [pid 12594] AH00163: Apache/2.4.38 (Debian) configured -- resuming normal operations
-[Sat Jan 15 00:00:03.134713 2022] [core:notice] [pid 12594] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Jan 19 00:00:04.749929 2022] [mpm_prefork:notice] [pid 12594] AH00163: Apache/2.4.38 (Debian) configured -- resuming normal operations
+[Wed Jan 19 00:00:04.749965 2022] [core:notice] [pid 12594] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Jan 19 01:33:21.790498 2022] [php7:error] [pid 15526] [client 45.146.165.37:56892] script '/var/www/html/index.php' not found or unable to stat
+[Wed Jan 19 05:18:45.072517 2022] [core:error] [pid 15527] [client 45.146.165.37:42100] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
