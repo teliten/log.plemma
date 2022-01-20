@@ -48,3 +48,27 @@ Have fun!
 apache2_invoke roundcube.conf: already enabled
 Setting up roundcube (1.3.17+dfsg.1-1~deb10u2) ...
 Log ended: 2022-01-10  06:51:50
+
+Log started: 2022-01-19  16:45:19
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 72202 files and directories currently installed.)
+Removing cmdtest (0.32-3) ...
+Selecting previously unselected package yarn.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 72178 files and directories currently installed.)
+Preparing to unpack .../yarn_1.22.17-1_all.deb ...
+Unpacking yarn (1.22.17-1) ...
+Setting up yarn (1.22.17-1) ...
+Processing triggers for man-db (2.8.5-2) ...
+Log ended: 2022-01-19  16:45:20
+
+Log started: 2022-01-19  16:46:29
+Selecting previously unselected package zsh-common.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 72197 files and directories currently installed.)
+Preparing to unpack .../zsh-common_5.7.1-1_all.deb ...
+Unpacking zsh-common (5.7.1-1) ...
+Selecting previously unselected package zsh.
+Preparing to unpack .../archives/zsh_5.7.1-1_amd64.deb ...
+Unpacking zsh (5.7.1-1) ...
+Setting up zsh-common (5.7.1-1) ...
+Setting up zsh (5.7.1-1) ...
+Processing triggers for man-db (2.8.5-2) ...
+Log ended: 2022-01-19  16:46:31

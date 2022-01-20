@@ -185,3 +185,75 @@
 2022-01-19 16:02:33.130 UTC [26694] postgres@postgres FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "postgres", SSL off
 2022-01-19 16:24:21.707 UTC [28370] postgres@postgres FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "postgres", SSL off
 2022-01-19 16:25:06.500 UTC [28436] postgres@postgres FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "postgres", SSL off
+2022-01-19 16:45:23.562 UTC [6857] LOG:  received fast shutdown request
+2022-01-19 16:45:23.567 UTC [6857] LOG:  aborting any active transactions
+2022-01-19 16:45:23.597 UTC [6857] LOG:  background worker "logical replication launcher" (PID 6864) exited with exit code 1
+2022-01-19 16:45:23.598 UTC [6859] LOG:  shutting down
+2022-01-19 16:45:23.629 UTC [6857] LOG:  database system is shut down
+2022-01-19 16:45:23.822 UTC [31943] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-01-19 16:45:23.822 UTC [31943] LOG:  listening on IPv6 address "::", port 5432
+2022-01-19 16:45:23.823 UTC [31943] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2022-01-19 16:45:23.860 UTC [31950] LOG:  database system was shut down at 2022-01-19 16:45:23 UTC
+2022-01-19 16:45:23.871 UTC [31943] LOG:  database system is ready to accept connections
+2022-01-19 16:45:24.395 UTC [32069] [unknown]@[unknown] LOG:  incomplete startup packet
+2022-01-19 16:47:31.365 UTC [894] postgres@postgres FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "postgres", SSL off
+2022-01-19 16:47:36.918 UTC [905] postgres@postgres FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "postgres", SSL off
+2022-01-19 16:50:20.348 UTC [1058] [unknown]@[unknown] LOG:  invalid length of startup packet
+2022-01-19 17:11:32.460 UTC [3391] postgres@postgres FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "postgres", SSL off
+2022-01-19 17:12:17.859 UTC [3420] postgres@postgres FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "postgres", SSL off
+2022-01-19 17:59:19.987 UTC [6744] postgres@postgres FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "postgres", SSL off
+2022-01-19 18:01:37.726 UTC [6907] postgres@postgres FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "postgres", SSL off
+2022-01-19 18:21:15.194 UTC [8626] postgres@postgres FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "postgres", SSL off
+2022-01-19 18:23:39.950 UTC [8786] postgres@postgres FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "postgres", SSL off
+2022-01-19 18:41:04.972 UTC [10137] postgres@postgres FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "postgres", SSL off
+2022-01-19 18:44:11.469 UTC [10362] postgres@postgres FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "postgres", SSL off
+2022-01-19 18:49:26.257 UTC [10814] [unknown]@[unknown] LOG:  invalid length of startup packet
+2022-01-19 18:49:57.867 UTC [10839] [unknown]@[unknown] LOG:  invalid length of startup packet
+2022-01-19 19:27:35.244 UTC [13834] postgres@postgres FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "postgres", SSL off
+2022-01-19 19:31:19.432 UTC [14117] postgres@postgres FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "postgres", SSL off
+2022-01-19 19:47:28.403 UTC [15439] postgres@postgres FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "postgres", SSL off
+2022-01-19 19:51:53.334 UTC [15756] postgres@postgres FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "postgres", SSL off
+2022-01-19 20:07:19.341 UTC [16903] [unknown]@[unknown] FATAL:  unsupported frontend protocol 0.0: server supports 2.0 to 3.0
+2022-01-19 20:07:19.695 UTC [16905] [unknown]@[unknown] FATAL:  unsupported frontend protocol 255.255: server supports 2.0 to 3.0
+2022-01-19 20:07:20.034 UTC [16906] [unknown]@[unknown] FATAL:  no PostgreSQL user name specified in startup packet
+2022-01-19 20:07:27.679 UTC [16915] postgres@postgres FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "postgres", SSL off
+2022-01-19 20:13:36.630 UTC [17407] postgres@postgres FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "postgres", SSL off
+2022-01-19 20:32:38.097 UTC [18837] postgres@postgres FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "postgres", SSL off
+2022-01-19 21:05:35.898 UTC [21376] postgres@postgres FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "postgres", SSL off
+2022-01-19 21:57:09.129 UTC [25317] postgres@postgres FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "postgres", SSL off
+2022-01-19 22:23:12.083 UTC [27489] postgres@postgres FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "postgres", SSL off
+2022-01-19 23:15:33.544 UTC [31437] postgres@postgres FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "postgres", SSL off
+2022-01-19 23:53:17.782 UTC [1862] postgres@postgres FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "postgres", SSL off
+2022-01-20 00:18:40.983 UTC [3829] postgres@postgres FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "postgres", SSL off
+2022-01-20 00:33:09.346 UTC [4891] postgres@postgres FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "postgres", SSL off
+2022-01-20 00:53:31.412 UTC [6451] postgress@postgres FATAL:  no pg_hba.conf entry for host "121.43.186.172", user "postgress", database "postgres", SSL off
+2022-01-20 01:08:40.388 UTC [7564] postgres@postgres FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "postgres", SSL off
+2022-01-20 01:34:26.799 UTC [9502] [unknown]@[unknown] LOG:  invalid length of startup packet
+2022-01-20 01:34:27.496 UTC [9503] [unknown]@[unknown] LOG:  invalid length of startup packet
+2022-01-20 01:34:29.606 UTC [9504] [unknown]@[unknown] LOG:  invalid length of startup packet
+2022-01-20 01:34:31.731 UTC [9505] [unknown]@[unknown] LOG:  invalid length of startup packet
+2022-01-20 01:34:33.807 UTC [9506] [unknown]@[unknown] LOG:  invalid length of startup packet
+2022-01-20 01:34:36.838 UTC [9507] [unknown]@[unknown] LOG:  invalid length of startup packet
+2022-01-20 01:34:39.011 UTC [9510] [unknown]@[unknown] LOG:  invalid length of startup packet
+2022-01-20 01:34:41.243 UTC [9517] [unknown]@[unknown] LOG:  invalid length of startup packet
+2022-01-20 01:50:55.518 UTC [10778] postgres@postgres FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "postgres", SSL off
+2022-01-20 02:41:37.573 UTC [14696] [unknown]@[unknown] LOG:  invalid length of startup packet
+2022-01-20 02:41:52.483 UTC [14749] postgres@postgres FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "postgres", SSL off
+2022-01-20 03:04:37.994 UTC [16411] postgres@postgres FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "postgres", SSL off
+2022-01-20 03:10:02.188 UTC [16859] postgres@postgres FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "postgres", SSL off
+2022-01-20 03:26:28.087 UTC [18084] postgres@postgres FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "postgres", SSL off
+2022-01-20 03:31:12.730 UTC [18446] postgres@postgres FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "postgres", SSL off
+2022-01-20 03:48:30.290 UTC [19792] postgres@postgres FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "postgres", SSL off
+2022-01-20 03:52:47.860 UTC [20110] postgres@postgres FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "postgres", SSL off
+2022-01-20 04:10:29.717 UTC [21533] postgres@postgres FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "postgres", SSL off
+2022-01-20 04:14:05.128 UTC [21776] postgres@postgres FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "postgres", SSL off
+2022-01-20 04:32:49.940 UTC [23185] postgres@postgres FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "postgres", SSL off
+2022-01-20 04:35:54.965 UTC [23411] postgres@postgres FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "postgres", SSL off
+2022-01-20 04:55:17.470 UTC [24916] postgres@postgres FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "postgres", SSL off
+2022-01-20 04:57:42.554 UTC [25090] postgres@postgres FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "postgres", SSL off
+2022-01-20 05:17:53.276 UTC [26690] postgres@postgres FATAL:  no pg_hba.conf entry for host "118.193.31.186", user "postgres", database "postgres", SSL on
+2022-01-20 05:17:53.345 UTC [26691] postgres@postgres FATAL:  no pg_hba.conf entry for host "118.193.31.186", user "postgres", database "postgres", SSL off
+2022-01-20 05:18:03.507 UTC [26703] postgres@postgres FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "postgres", SSL off
+2022-01-20 05:19:29.127 UTC [26827] postgres@postgres FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "postgres", SSL off
+2022-01-20 05:40:15.992 UTC [28428] postgres@postgres FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "postgres", SSL off
+2022-01-20 05:41:22.779 UTC [28513] postgres@postgres FATAL:  no pg_hba.conf entry for host "45.146.165.37", user "postgres", database "postgres", SSL off

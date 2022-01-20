@@ -672,3 +672,151 @@ Jan 19 16:09:01 localhost systemd[1]: Started Clean php session files.
 Jan 19 16:38:05 localhost systemd[1]: Started Session 30782 of user adam.
 Jan 19 16:38:12 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
 Jan 19 16:38:12 localhost systemd[24255]: mnt-amzn2.mount: Succeeded.
+Jan 19 16:39:01 localhost systemd[1]: Starting Clean php session files...
+Jan 19 16:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 19 16:39:01 localhost systemd[1]: Started Clean php session files.
+Jan 19 16:45:23 localhost systemd[1]: Stopping Postfix Mail Transport Agent (instance -)...
+Jan 19 16:45:23 localhost systemd[1]: Stopping OpenBSD Secure Shell server...
+Jan 19 16:45:23 localhost systemd[1]: Stopping PostgreSQL Cluster 11-main...
+Jan 19 16:45:23 localhost systemd[1]: ssh.service: Succeeded.
+Jan 19 16:45:23 localhost systemd[1]: Stopped OpenBSD Secure Shell server.
+Jan 19 16:45:23 localhost systemd[1]: Starting OpenBSD Secure Shell server...
+Jan 19 16:45:23 localhost systemd[1]: Started OpenBSD Secure Shell server.
+Jan 19 16:45:23 localhost postmulti[31858]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Jan 19 16:45:23 localhost systemd[1]: postfix@-.service: Succeeded.
+Jan 19 16:45:23 localhost systemd[1]: Stopped Postfix Mail Transport Agent (instance -).
+Jan 19 16:45:23 localhost systemd[1]: Starting Postfix Mail Transport Agent (instance -)...
+Jan 19 16:45:23 localhost configure-instance.sh[31875]: postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Jan 19 16:45:23 localhost configure-instance.sh[31875]: postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Jan 19 16:45:23 localhost configure-instance.sh[31875]: postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Jan 19 16:45:23 localhost configure-instance.sh[31875]: postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Jan 19 16:45:23 localhost configure-instance.sh[31875]: postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Jan 19 16:45:23 localhost systemd[1]: postgresql@11-main.service: Succeeded.
+Jan 19 16:45:23 localhost systemd[1]: Stopped PostgreSQL Cluster 11-main.
+Jan 19 16:45:23 localhost systemd[1]: Starting PostgreSQL Cluster 11-main...
+Jan 19 16:45:23 localhost configure-instance.sh[31875]: postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Jan 19 16:45:23 localhost postmulti[31944]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Jan 19 16:45:23 localhost postmulti[31944]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Jan 19 16:45:23 localhost postmulti[31944]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Jan 19 16:45:23 localhost postmulti[31944]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Jan 19 16:45:23 localhost postmulti[31944]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Jan 19 16:45:23 localhost postmulti[31944]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Jan 19 16:45:23 localhost postmulti[31944]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Jan 19 16:45:23 localhost postmulti[31944]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Jan 19 16:45:23 localhost postmulti[31944]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Jan 19 16:45:24 localhost postmulti[31944]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Jan 19 16:45:24 localhost postmulti[31944]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Jan 19 16:45:24 localhost postmulti[31944]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Jan 19 16:45:24 localhost postmulti[31944]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Jan 19 16:45:24 localhost postmulti[31944]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Jan 19 16:45:24 localhost postmulti[31944]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Jan 19 16:45:24 localhost postmulti[31944]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Jan 19 16:45:24 localhost postmulti[31944]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Jan 19 16:45:24 localhost postmulti[31944]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Jan 19 16:45:24 localhost postmulti[31944]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Jan 19 16:45:24 localhost postmulti[31944]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Jan 19 16:45:24 localhost postmulti[31944]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Jan 19 16:45:24 localhost systemd[1]: Started Postfix Mail Transport Agent (instance -).
+Jan 19 16:45:25 localhost systemd[1]: Started PostgreSQL Cluster 11-main.
+Jan 19 17:09:02 localhost systemd[1]: Starting Clean php session files...
+Jan 19 17:09:05 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 19 17:09:05 localhost systemd[1]: Started Clean php session files.
+Jan 19 17:39:01 localhost systemd[1]: Starting Clean php session files...
+Jan 19 17:39:02 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 19 17:39:02 localhost systemd[1]: Started Clean php session files.
+Jan 19 18:09:00 localhost systemd[1]: Starting Clean php session files...
+Jan 19 18:09:00 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 19 18:09:00 localhost systemd[1]: Started Clean php session files.
+Jan 19 18:39:01 localhost systemd[1]: Starting Clean php session files...
+Jan 19 18:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 19 18:39:01 localhost systemd[1]: Started Clean php session files.
+Jan 19 19:09:01 localhost systemd[1]: Starting Clean php session files...
+Jan 19 19:09:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 19 19:09:01 localhost systemd[1]: Started Clean php session files.
+Jan 19 19:39:01 localhost systemd[1]: Starting Clean php session files...
+Jan 19 19:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 19 19:39:01 localhost systemd[1]: Started Clean php session files.
+Jan 19 19:40:54 localhost systemd[1]: Starting Daily apt download activities...
+Jan 19 19:40:55 localhost systemd[1]: apt-daily.service: Succeeded.
+Jan 19 19:40:55 localhost systemd[1]: Started Daily apt download activities.
+Jan 19 20:09:01 localhost systemd[1]: Starting Clean php session files...
+Jan 19 20:09:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 19 20:09:01 localhost systemd[1]: Started Clean php session files.
+Jan 19 20:39:01 localhost systemd[1]: Starting Clean php session files...
+Jan 19 20:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 19 20:39:01 localhost systemd[1]: Started Clean php session files.
+Jan 19 21:09:01 localhost systemd[1]: Starting Clean php session files...
+Jan 19 21:09:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 19 21:09:01 localhost systemd[1]: Started Clean php session files.
+Jan 19 21:39:01 localhost systemd[1]: Starting Clean php session files...
+Jan 19 21:39:02 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 19 21:39:02 localhost systemd[1]: Started Clean php session files.
+Jan 19 22:09:01 localhost systemd[1]: Starting Clean php session files...
+Jan 19 22:09:02 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 19 22:09:02 localhost systemd[1]: Started Clean php session files.
+Jan 19 22:22:55 localhost dhclient[27896]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
+Jan 19 22:22:55 localhost dhclient[27896]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Jan 19 22:22:55 localhost dhclient[27896]: bound to 158.247.223.84 -- renewal in 35693 seconds.
+Jan 19 22:39:01 localhost systemd[1]: Starting Clean php session files...
+Jan 19 22:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 19 22:39:01 localhost systemd[1]: Started Clean php session files.
+Jan 19 23:09:01 localhost systemd[1]: Starting Clean php session files...
+Jan 19 23:09:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 19 23:09:01 localhost systemd[1]: Started Clean php session files.
+Jan 19 23:39:01 localhost systemd[1]: Starting Clean php session files...
+Jan 19 23:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 19 23:39:01 localhost systemd[1]: Started Clean php session files.
+Jan 20 00:00:00 localhost systemd[1]: Starting Rotate log files...
+Jan 20 00:00:00 localhost systemd[1]: Starting Daily man-db regeneration...
+Jan 20 00:00:00 localhost systemd[1]: Reloading The Apache HTTP Server.
+Jan 20 00:00:00 localhost apachectl[2359]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+Jan 20 00:00:00 localhost systemd[1]: Reloaded The Apache HTTP Server.
+Jan 20 00:00:01 localhost systemd[1]: man-db.service: Succeeded.
+Jan 20 00:00:01 localhost systemd[1]: Started Daily man-db regeneration.
+Jan 20 00:00:01 localhost systemd[1]: logrotate.service: Succeeded.
+Jan 20 00:00:01 localhost systemd[1]: Started Rotate log files.
+Jan 20 00:09:01 localhost systemd[1]: Starting Clean php session files...
+Jan 20 00:09:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 20 00:09:01 localhost systemd[1]: Started Clean php session files.
+Jan 20 00:39:01 localhost systemd[1]: Starting Clean php session files...
+Jan 20 00:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 20 00:39:01 localhost systemd[1]: Started Clean php session files.
+Jan 20 00:56:42 localhost systemd[1]: Starting Cleanup of Temporary Directories...
+Jan 20 00:56:43 localhost systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
+Jan 20 00:56:43 localhost systemd[1]: Started Cleanup of Temporary Directories.
+Jan 20 01:09:01 localhost systemd[1]: Starting Clean php session files...
+Jan 20 01:09:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 20 01:09:01 localhost systemd[1]: Started Clean php session files.
+Jan 20 01:39:01 localhost systemd[1]: Starting Clean php session files...
+Jan 20 01:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 20 01:39:01 localhost systemd[1]: Started Clean php session files.
+Jan 20 01:48:58 localhost dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
+Jan 20 01:48:58 localhost dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Jan 20 01:48:58 localhost dhclient[631]: bound to 158.247.223.84 -- renewal in 30108 seconds.
+Jan 20 02:09:01 localhost systemd[1]: Starting Clean php session files...
+Jan 20 02:09:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 20 02:09:01 localhost systemd[1]: Started Clean php session files.
+Jan 20 02:39:01 localhost systemd[1]: Starting Clean php session files...
+Jan 20 02:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 20 02:39:01 localhost systemd[1]: Started Clean php session files.
+Jan 20 03:09:01 localhost systemd[1]: Starting Clean php session files...
+Jan 20 03:09:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 20 03:09:01 localhost systemd[1]: Started Clean php session files.
+Jan 20 03:39:01 localhost systemd[1]: Starting Clean php session files...
+Jan 20 03:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 20 03:39:01 localhost systemd[1]: Started Clean php session files.
+Jan 20 04:09:01 localhost systemd[1]: Starting Clean php session files...
+Jan 20 04:09:02 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 20 04:09:02 localhost systemd[1]: Started Clean php session files.
+Jan 20 04:39:01 localhost systemd[1]: Starting Clean php session files...
+Jan 20 04:39:02 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 20 04:39:02 localhost systemd[1]: Started Clean php session files.
+Jan 20 05:09:01 localhost systemd[1]: Starting Clean php session files...
+Jan 20 05:09:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 20 05:09:01 localhost systemd[1]: Started Clean php session files.
+Jan 20 05:39:01 localhost systemd[1]: Starting Clean php session files...
+Jan 20 05:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 20 05:39:01 localhost systemd[1]: Started Clean php session files.
+Jan 20 06:00:09 localhost systemd[1]: Started Session 30905 of user adam.
+Jan 20 06:00:16 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
+Jan 20 06:00:16 localhost systemd[24255]: mnt-amzn2.mount: Succeeded.
