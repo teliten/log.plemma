@@ -12696,3 +12696,169 @@ Jan 21 07:43:45 localhost s3fs[19781]: init v1.84(commit:unknown) with GnuTLS(gc
 Jan 21 07:43:46 localhost s3fs[19781]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
 Jan 21 07:43:46 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
 Jan 21 07:43:46 localhost systemd[24255]: mnt-amzn2.mount: Succeeded.
+Jan 21 07:43:50 localhost kernel: [13592892.642322] dockerd invoked oom-killer: gfp_mask=0x6200ca(GFP_HIGHUSER_MOVABLE), nodemask=(null), order=0, oom_score_adj=-500
+Jan 21 07:43:50 localhost kernel: [13592892.642329] dockerd cpuset=/ mems_allowed=0
+Jan 21 07:43:50 localhost kernel: [13592892.642361] CPU: 0 PID: 10620 Comm: dockerd Not tainted 4.19.0-16-amd64 #1 Debian 4.19.181-1
+Jan 21 07:43:50 localhost kernel: [13592892.642361] Hardware name: Vultr VC2, BIOS  
+Jan 21 07:43:50 localhost kernel: [13592892.642364] Call Trace:
+Jan 21 07:43:50 localhost kernel: [13592892.642429]  dump_stack+0x66/0x81
+Jan 21 07:43:50 localhost kernel: [13592892.642450]  dump_header+0x6b/0x283
+Jan 21 07:43:50 localhost kernel: [13592892.642469]  ? do_try_to_free_pages+0x2ec/0x370
+Jan 21 07:43:50 localhost kernel: [13592892.642470]  oom_kill_process.cold.30+0xb/0x1cf
+Jan 21 07:43:50 localhost kernel: [13592892.642477]  ? oom_badness+0x23/0x140
+Jan 21 07:43:50 localhost kernel: [13592892.642478]  out_of_memory+0x1a5/0x450
+Jan 21 07:43:50 localhost kernel: [13592892.642486]  __alloc_pages_slowpath+0xbd8/0xcb0
+Jan 21 07:43:50 localhost kernel: [13592892.642491]  ? read_pages+0x7f/0x190
+Jan 21 07:43:50 localhost kernel: [13592892.642492]  __alloc_pages_nodemask+0x28b/0x2b0
+Jan 21 07:43:50 localhost kernel: [13592892.642494]  filemap_fault+0x333/0x780
+Jan 21 07:43:50 localhost kernel: [13592892.642497]  ? filemap_map_pages+0x1ed/0x3a0
+Jan 21 07:43:50 localhost kernel: [13592892.642581]  ext4_filemap_fault+0x2c/0x40 [ext4]
+Jan 21 07:43:50 localhost kernel: [13592892.642599]  __do_fault+0x36/0x130
+Jan 21 07:43:50 localhost kernel: [13592892.642606]  __handle_mm_fault+0xdf9/0x11f0
+Jan 21 07:43:50 localhost kernel: [13592892.642611]  ? __switch_to_asm+0x41/0x70
+Jan 21 07:43:50 localhost kernel: [13592892.642613]  handle_mm_fault+0xd6/0x200
+Jan 21 07:43:50 localhost kernel: [13592892.642621]  __do_page_fault+0x249/0x4f0
+Jan 21 07:43:50 localhost kernel: [13592892.642627]  ? async_page_fault+0x8/0x30
+Jan 21 07:43:50 localhost kernel: [13592892.642629]  async_page_fault+0x1e/0x30
+Jan 21 07:43:50 localhost kernel: [13592892.642650] RIP: 0033:0x55b704101f13
+Jan 21 07:43:50 localhost kernel: [13592892.642663] Code: Bad RIP value.
+Jan 21 07:43:50 localhost kernel: [13592892.642664] RSP: 002b:000000c000054e98 EFLAGS: 00010202
+Jan 21 07:43:50 localhost kernel: [13592892.642667] RAX: ffffffffffffff92 RBX: 0000000005a6a0f4 RCX: 000055b704101f13
+Jan 21 07:43:50 localhost kernel: [13592892.642668] RDX: 0000000000000000 RSI: 0000000000000080 RDI: 000055b7074f88c0
+Jan 21 07:43:50 localhost kernel: [13592892.642668] RBP: 000000c000054ee0 R08: 0000000000000000 R09: 0000000000000000
+Jan 21 07:43:50 localhost kernel: [13592892.642669] R10: 000000c000054ed0 R11: 0000000000000202 R12: 0000000000000001
+Jan 21 07:43:50 localhost kernel: [13592892.642669] R13: 000000c001c328a0 R14: 000000c002058660 R15: 0000000000000039
+Jan 21 07:43:50 localhost kernel: [13592892.642671] Mem-Info:
+Jan 21 07:43:50 localhost kernel: [13592892.642673] active_anon:192782 inactive_anon:7350 isolated_anon:0
+Jan 21 07:43:50 localhost kernel: [13592892.642673]  active_file:54 inactive_file:52 isolated_file:0
+Jan 21 07:43:50 localhost kernel: [13592892.642673]  unevictable:0 dirty:0 writeback:0 unstable:0
+Jan 21 07:43:50 localhost kernel: [13592892.642673]  slab_reclaimable:8563 slab_unreclaimable:16518
+Jan 21 07:43:50 localhost kernel: [13592892.642673]  mapped:3581 shmem:9389 pagetables:2646 bounce:0
+Jan 21 07:43:50 localhost kernel: [13592892.642673]  free:12168 free_pcp:78 free_cma:0
+Jan 21 07:43:50 localhost kernel: [13592892.642677] Node 0 active_anon:771128kB inactive_anon:29400kB active_file:216kB inactive_file:208kB unevictable:0kB isolated(anon):0kB isolated(file):0kB mapped:14324kB dirty:0kB writeback:0kB shmem:37556kB shmem_thp: 0kB shmem_pmdmapped: 0kB anon_thp: 122880kB writeback_tmp:0kB unstable:0kB all_unreclaimable? no
+Jan 21 07:43:50 localhost kernel: [13592892.642678] Node 0 DMA free:4492kB min:728kB low:908kB high:1088kB active_anon:8816kB inactive_anon:212kB active_file:0kB inactive_file:0kB unevictable:0kB writepending:0kB present:15992kB managed:15908kB mlocked:0kB kernel_stack:112kB pagetables:156kB bounce:0kB free_pcp:0kB local_pcp:0kB free_cma:0kB
+Jan 21 07:43:50 localhost kernel: [13592892.642683] lowmem_reserve[]: 0 941 941 941 941
+Jan 21 07:43:50 localhost kernel: [13592892.642684] Node 0 DMA32 free:44180kB min:44324kB low:55404kB high:66484kB active_anon:762300kB inactive_anon:29188kB active_file:216kB inactive_file:208kB unevictable:0kB writepending:0kB present:1032048kB managed:994988kB mlocked:0kB kernel_stack:5104kB pagetables:10428kB bounce:0kB free_pcp:312kB local_pcp:312kB free_cma:0kB
+Jan 21 07:43:50 localhost kernel: [13592892.642686] lowmem_reserve[]: 0 0 0 0 0
+Jan 21 07:43:50 localhost kernel: [13592892.642687] Node 0 DMA: 29*4kB (UE) 27*8kB (UE) 30*16kB (UME) 19*32kB (UE) 14*64kB (UME) 7*128kB (ME) 3*256kB (E) 1*512kB (M) 0*1024kB 0*2048kB 0*4096kB = 4492kB
+Jan 21 07:43:50 localhost kernel: [13592892.642691] Node 0 DMA32: 823*4kB (UME) 289*8kB (UE) 215*16kB (UME) 96*32kB (UME) 175*64kB (UME) 69*128kB (UME) 27*256kB (UME) 6*512kB (UM) 2*1024kB (ME) 0*2048kB 0*4096kB = 44180kB
+Jan 21 07:43:50 localhost kernel: [13592892.642700] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=1048576kB
+Jan 21 07:43:50 localhost kernel: [13592892.642701] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=2048kB
+Jan 21 07:43:50 localhost kernel: [13592892.642702] 9497 total pagecache pages
+Jan 21 07:43:50 localhost kernel: [13592892.642704] 0 pages in swap cache
+Jan 21 07:43:50 localhost kernel: [13592892.642705] Swap cache stats: add 0, delete 0, find 0/0
+Jan 21 07:43:50 localhost kernel: [13592892.642705] Free swap  = 0kB
+Jan 21 07:43:50 localhost kernel: [13592892.642706] Total swap = 0kB
+Jan 21 07:43:50 localhost kernel: [13592892.642706] 262010 pages RAM
+Jan 21 07:43:50 localhost kernel: [13592892.642706] 0 pages HighMem/MovableOnly
+Jan 21 07:43:50 localhost kernel: [13592892.642707] 9286 pages reserved
+Jan 21 07:43:50 localhost kernel: [13592892.642707] 0 pages hwpoisoned
+Jan 21 07:43:50 localhost kernel: [13592892.642707] Tasks state (memory values in pages):
+Jan 21 07:43:50 localhost kernel: [13592892.642708] [  pid  ]   uid  tgid total_vm      rss pgtables_bytes swapents oom_score_adj name
+Jan 21 07:43:50 localhost kernel: [13592892.642718] [    394]     0   394     2557       68    61440        0             0 cron
+Jan 21 07:43:50 localhost kernel: [13592892.642722] [    478]     0   478     1403       28    49152        0             0 agetty
+Jan 21 07:43:50 localhost kernel: [13592892.642727] [    631]     0   631     2372      330    61440        0             0 dhclient
+Jan 21 07:43:50 localhost kernel: [13592892.642733] [  27896]     0 27896     2372      325    53248        0             0 dhclient
+Jan 21 07:43:50 localhost kernel: [13592892.642738] [  24255]  1001 24255     5317      385    73728        0             0 systemd
+Jan 21 07:43:50 localhost kernel: [13592892.642740] [  24256]  1001 24256    42985      675   102400        0             0 (sd-pam)
+Jan 21 07:43:50 localhost kernel: [13592892.642746] [  28118]     0 28118     1323       16    45056        0             0 tail
+Jan 21 07:43:50 localhost kernel: [13592892.642748] [  31730]     0 31730    56456      604    81920        0             0 rsyslogd
+Jan 21 07:43:50 localhost kernel: [13592892.642753] [  10752]     0 10752     1049       91    45056        0             0 dovecot
+Jan 21 07:43:50 localhost kernel: [13592892.642754] [  10762]   111 10762      978       57    40960        0             0 anvil
+Jan 21 07:43:50 localhost kernel: [13592892.642756] [  10763]     0 10763     1012       91    45056        0             0 log
+Jan 21 07:43:50 localhost kernel: [13592892.642758] [  10765]     0 10765     1322      319    49152        0             0 config
+Jan 21 07:43:50 localhost kernel: [13592892.642759] [  10774]   111 10774     1043       94    45056        0             0 stats
+Jan 21 07:43:50 localhost kernel: [13592892.642764] [   8431]     0  8431   222444    14029   495616        0          -500 dockerd
+Jan 21 07:43:50 localhost kernel: [13592892.642766] [   8436]     0  8436   188923     1841   237568        0          -500 docker-containe
+Jan 21 07:43:50 localhost kernel: [13592892.642771] [   6243]     0  6243     5450      197    65536        0         -1000 systemd-udevd
+Jan 21 07:43:50 localhost kernel: [13592892.642776] [   6251]     0  6251     1796       30    40960        0             0 rdnssd
+Jan 21 07:43:50 localhost kernel: [13592892.642778] [   6252]   107  6252     1888       40    45056        0             0 rdnssd
+Jan 21 07:43:50 localhost kernel: [13592892.642784] [  12545]     0 12545   309546     2496   217088        0             0 gcsfuse
+Jan 21 07:43:50 localhost kernel: [13592892.642789] [  21378]     0 21378   309546     1871   208896        0             0 gcsfuse
+Jan 21 07:43:50 localhost kernel: [13592892.642793] [  24595]     0 24595   309546     1889   196608        0             0 gcsfuse
+Jan 21 07:43:50 localhost kernel: [13592892.642799] [  31986]     0 31986   309546     1882   200704        0             0 gcsfuse
+Jan 21 07:43:50 localhost kernel: [13592892.642803] [   7969]     0  7969   326763    11405   348160        0             0 gcsfuse
+Jan 21 07:43:50 localhost kernel: [13592892.642808] [  11384]     0 11384   326763     9561   348160        0             0 gcsfuse
+Jan 21 07:43:50 localhost kernel: [13592892.642811] [   5566]     0  5566   343788    17781   532480        0             0 gcsfuse
+Jan 21 07:43:50 localhost kernel: [13592892.642816] [   6640]   104  6640     2314      195    57344        0          -900 dbus-daemon
+Jan 21 07:43:50 localhost kernel: [13592892.642822] [   6664]     0  6664    13461     4687   131072        0             0 systemd-journal
+Jan 21 07:43:50 localhost kernel: [13592892.642826] [   6665]     0  6665     4975      368    77824        0             0 systemd-logind
+Jan 21 07:43:50 localhost kernel: [13592892.642829] [   6667]     0  6667    28022     1915   110592        0             0 unattended-upgr
+Jan 21 07:43:50 localhost kernel: [13592892.642833] [  12398]   110 12398   313799    16991   405504        0             0 mysqld
+Jan 21 07:43:50 localhost kernel: [13592892.642835] [  12984]   105 12984    19198      152    65536        0             0 ntpd
+Jan 21 07:43:50 localhost kernel: [13592892.642839] [  12594]     0 12594    54229     2210   176128        0             0 apache2
+Jan 21 07:43:50 localhost kernel: [13592892.642841] [   5986]     0  5986   309482     1641   196608        0             0 gcsfuse
+Jan 21 07:43:50 localhost kernel: [13592892.642842] [   6206]     0  6206     6033     2993    90112        0             0 ssh
+Jan 21 07:43:50 localhost kernel: [13592892.642844] [   6207]     0  6207   111869      587    94208        0             0 sshfs
+Jan 21 07:43:50 localhost kernel: [13592892.642847] [   8086]     0  8086   326779    11050   380928        0             0 gcsfuse
+Jan 21 07:43:50 localhost kernel: [13592892.642852] [  30247]     0 30247   309482     1513   204800        0             0 gcsfuse
+Jan 21 07:43:50 localhost kernel: [13592892.642857] [  31861]     0 31861     3963      217    69632        0         -1000 sshd
+Jan 21 07:43:50 localhost kernel: [13592892.642858] [  31943]   114 31943    53809     3126   159744        0          -900 postgres
+Jan 21 07:43:50 localhost kernel: [13592892.642859] [  31951]   114 31951    53840      895   139264        0             0 postgres
+Jan 21 07:43:50 localhost kernel: [13592892.642860] [  31952]   114 31952    53809      870   139264        0             0 postgres
+Jan 21 07:43:50 localhost kernel: [13592892.642861] [  31953]   114 31953    53809     1558   135168        0             0 postgres
+Jan 21 07:43:50 localhost kernel: [13592892.642862] [  31954]   114 31954    53909      794   147456        0             0 postgres
+Jan 21 07:43:50 localhost kernel: [13592892.642864] [  31955]   114 31955    17570      499   118784        0             0 postgres
+Jan 21 07:43:50 localhost kernel: [13592892.642865] [  31956]   114 31956    53910      672   135168        0             0 postgres
+Jan 21 07:43:50 localhost kernel: [13592892.642866] [  32064]     0 32064    10868      213    81920        0             0 master
+Jan 21 07:43:50 localhost kernel: [13592892.642867] [  32066]   109 32066    10995      244    77824        0             0 qmgr
+Jan 21 07:43:50 localhost kernel: [13592892.642871] [  32222]   109 32222    11070      309    90112        0             0 tlsmgr
+Jan 21 07:43:50 localhost kernel: [13592892.642875] [  30448]     0 30448   326699    10282   339968        0             0 gcsfuse
+Jan 21 07:43:50 localhost kernel: [13592892.642877] [  16604]    33 16604    54383     1645   163840        0             0 apache2
+Jan 21 07:43:50 localhost kernel: [13592892.642878] [  16605]    33 16605    54318     1596   163840        0             0 apache2
+Jan 21 07:43:50 localhost kernel: [13592892.642879] [  16606]    33 16606    54383     1645   163840        0             0 apache2
+Jan 21 07:43:50 localhost kernel: [13592892.642880] [  16608]    33 16608    54383     1644   163840        0             0 apache2
+Jan 21 07:43:50 localhost kernel: [13592892.642881] [  22315]    33 22315    54383     1645   163840        0             0 apache2
+Jan 21 07:43:50 localhost kernel: [13592892.642886] [  12995]     0 12995     4172      273    65536        0             0 sshd
+Jan 21 07:43:50 localhost kernel: [13592892.642887] [  13062]  1001 13062     4243      284    65536        0             0 sshd
+Jan 21 07:43:50 localhost kernel: [13592892.642891] [  13063]  1001 13063     1979      368    61440        0             0 bash
+Jan 21 07:43:50 localhost kernel: [13592892.642892] [  13658]     0 13658     2571      107    61440        0             0 sudo
+Jan 21 07:43:50 localhost kernel: [13592892.642893] [  13659]     0 13659     2672     1056    57344        0             0 bash
+Jan 21 07:43:50 localhost kernel: [13592892.642897] [  14277]     0 14277   309482     1480   196608        0             0 gcsfuse
+Jan 21 07:43:50 localhost kernel: [13592892.642898] [  15848]     0 15848   214582    15753  2170880        0             0 npm install ans
+Jan 21 07:43:50 localhost kernel: [13592892.642903] [  15920]     0 15920     4172      274    65536        0             0 sshd
+Jan 21 07:43:50 localhost kernel: [13592892.642908] [  15935]  1001 15935     4243      282    65536        0             0 sshd
+Jan 21 07:43:50 localhost kernel: [13592892.642910] [  15936]  1001 15936     1979      363    53248        0             0 bash
+Jan 21 07:43:50 localhost kernel: [13592892.642912] [  15983]     0 15983     2629      107    53248        0             0 sudo
+Jan 21 07:43:50 localhost kernel: [13592892.642913] [  15990]     0 15990     2672     1055    57344        0             0 bash
+Jan 21 07:43:50 localhost kernel: [13592892.642915] [  16722]     0 16722   309482     1439   200704        0             0 gcsfuse
+Jan 21 07:43:50 localhost kernel: [13592892.642920] [  17742]     0 17742     4172      272    69632        0             0 sshd
+Jan 21 07:43:50 localhost kernel: [13592892.642925] [  17758]  1001 17758     4243      280    69632        0             0 sshd
+Jan 21 07:43:50 localhost kernel: [13592892.642929] [  17759]  1001 17759     1979      364    61440        0             0 bash
+Jan 21 07:43:50 localhost kernel: [13592892.642931] [  17762]     0 17762     2629      107    65536        0             0 sudo
+Jan 21 07:43:50 localhost kernel: [13592892.642932] [  17764]     0 17764     2672     1055    53248        0             0 bash
+Jan 21 07:43:50 localhost kernel: [13592892.642934] [  18076]     0 18076   309482     2374   196608        0             0 gcsfuse
+Jan 21 07:43:50 localhost kernel: [13592892.642936] [  19294]   109 19294    10958      215    81920        0             0 pickup
+Jan 21 07:43:50 localhost kernel: [13592892.642941] [  19515]   109 19515    10958      220    81920        0             0 anvil
+Jan 21 07:43:50 localhost kernel: [13592892.642943] [  19575]   109 19575    10957      220    81920        0             0 proxymap
+Jan 21 07:43:50 localhost kernel: [13592892.642944] [  19591]   109 19591    10961      219    86016        0             0 trivial-rewrite
+Jan 21 07:43:50 localhost kernel: [13592892.642946] [  19594]   109 19594    11162      323    81920        0             0 smtpd
+Jan 21 07:43:50 localhost kernel: [13592892.642948] [  19641]     0 19641     4172      274    69632        0             0 sshd
+Jan 21 07:43:50 localhost kernel: [13592892.642953] [  19642]    33 19642    54306     1583   163840        0             0 apache2
+Jan 21 07:43:50 localhost kernel: [13592892.642955] [  19643]    33 19643    54306     1583   163840        0             0 apache2
+Jan 21 07:43:50 localhost kernel: [13592892.642956] [  19644]    33 19644    54306     1566   163840        0             0 apache2
+Jan 21 07:43:50 localhost kernel: [13592892.642957] [  19645]    33 19645    54306     1566   163840        0             0 apache2
+Jan 21 07:43:50 localhost kernel: [13592892.642959] [  19646]    33 19646    54306     1566   163840        0             0 apache2
+Jan 21 07:43:50 localhost kernel: [13592892.642961] [  19706]     0 19706     3963      210    69632        0             0 sshd
+Jan 21 07:43:50 localhost kernel: [13592892.642963] [  19707]   106 19707     3963      218    69632        0             0 sshd
+Jan 21 07:43:50 localhost kernel: [13592892.642964] [  19737]     0 19737     3963      210    69632        0             0 sshd
+Jan 21 07:43:50 localhost kernel: [13592892.642966] [  19749]  1001 19749     4243      282    69632        0             0 sshd
+Jan 21 07:43:50 localhost kernel: [13592892.642968] [  19750]  1001 19750     1979      367    45056        0             0 bash
+Jan 21 07:43:50 localhost kernel: [13592892.642969] [  19774]     0 19774     4147      259    77824        0             0 sshd
+Jan 21 07:43:50 localhost kernel: [13592892.642970] [  19775]   106 19775     3963      217    77824        0             0 sshd
+Jan 21 07:43:50 localhost kernel: [13592892.642972] [  19776]     0 19776     2571      107    61440        0             0 sudo
+Jan 21 07:43:50 localhost kernel: [13592892.642973] [  19777]     0 19777     1715       93    57344        0             0 bash
+Jan 21 07:43:50 localhost kernel: [13592892.642975] [  19789]     0 19789     1694       89    53248        0             0 bash
+Jan 21 07:43:50 localhost kernel: [13592892.642980] [  19791]     0 19791     4147      268    73728        0             0 sshd
+Jan 21 07:43:50 localhost kernel: [13592892.642982] [  19794]     0 19794     2924       71    61440        0             0 git
+Jan 21 07:43:50 localhost kernel: [13592892.642983] [  19795]     0 19795    26100     1472   110592        0             0 git-remote-http
+Jan 21 07:43:50 localhost kernel: [13592892.642985] [  19807]     0 19807     4973       69    61440        0             0 git
+Jan 21 07:43:50 localhost kernel: [13592892.642986] [  19809]     0 19809    37995    35002   356352        0             0 git
+Jan 21 07:43:50 localhost kernel: [13592892.642987] Out of memory: Kill process 19809 (git) score 138 or sacrifice child
+Jan 21 07:43:50 localhost kernel: [13592892.646101] Killed process 19809 (git) total-vm:151980kB, anon-rss:140008kB, file-rss:0kB, shmem-rss:0kB
+Jan 21 07:43:50 localhost kernel: [13592892.655222] oom_reaper: reaped process 19809 (git), now anon-rss:0kB, file-rss:0kB, shmem-rss:0kB
+Jan 21 07:43:51 localhost kernel: [13592893.812408] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=79.124.62.110 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=240 ID=50871 PROTO=TCP SPT=43363 DPT=43483 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jan 21 07:43:54 localhost s3fs[19817]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
+Jan 21 07:43:55 localhost s3fs[19817]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
+Jan 21 07:43:55 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
+Jan 21 07:43:55 localhost systemd[24255]: mnt-amzn2.mount: Succeeded.
