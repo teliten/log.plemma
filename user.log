@@ -14183,3 +14183,22 @@ Jan 21 06:37:19 localhost dockerd[8431]: time="2022-01-21T06:37:19.123470799Z" l
 Jan 21 06:37:20 localhost dockerd[8431]: time="2022-01-21T06:37:20.157638621Z" level=warning msg="failed to retrieve runc version: exit status 2"
 Jan 21 06:41:42 localhost s3fs[15994]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
 Jan 21 06:41:43 localhost s3fs[15994]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
+Jan 21 06:42:19 localhost dockerd[8431]: time="2022-01-21T06:42:19.304752739Z" level=info msg="NetworkDB stats plemma(b3be9f6424e0) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+Jan 21 06:46:04 localhost dockerd[8431]: time="2022-01-21T06:46:04.863560278Z" level=error msg="heartbeat to manager { } failed" error="rpc error: code = DeadlineExceeded desc = context deadline exceeded" method="(*session).heartbeat" module=node/agent node.id=q1i0m3xoyyfgv2k6unxikqkj9 session.id=ez2vato8m479ync2dng58sw2t sessionID=ez2vato8m479ync2dng58sw2t
+Jan 21 06:46:05 localhost dockerd[8431]: time="2022-01-21T06:46:05.357118560Z" level=warning msg="failed to retrieve runc version: exit status 2"
+Jan 21 06:46:19 localhost dockerd[8431]: time="2022-01-21T06:46:18.740336073Z" level=error msg="agent: session failed" backoff=100ms error="rpc error: code = DeadlineExceeded desc = context deadline exceeded" module=node/agent node.id=q1i0m3xoyyfgv2k6unxikqkj9
+Jan 21 06:46:20 localhost dockerd[8431]: time="2022-01-21T06:46:18.742930064Z" level=info msg="manager selected by agent for new session: { }" module=node/agent node.id=q1i0m3xoyyfgv2k6unxikqkj9
+Jan 21 06:46:22 localhost dockerd[8431]: time="2022-01-21T06:46:19.754910334Z" level=info msg="waiting 55.347025ms before registering session" module=node/agent node.id=q1i0m3xoyyfgv2k6unxikqkj9
+Jan 21 06:46:27 localhost dockerd[8431]: time="2022-01-21T06:46:27.293520309Z" level=error msg="agent: session failed" backoff=300ms error="session initiation timed out" module=node/agent node.id=q1i0m3xoyyfgv2k6unxikqkj9
+Jan 21 06:46:27 localhost dockerd[8431]: time="2022-01-21T06:46:27.304089402Z" level=info msg="manager selected by agent for new session: { }" module=node/agent node.id=q1i0m3xoyyfgv2k6unxikqkj9
+Jan 21 06:46:31 localhost dockerd[8431]: time="2022-01-21T06:46:27.813639801Z" level=info msg="waiting 145.169127ms before registering session" module=node/agent node.id=q1i0m3xoyyfgv2k6unxikqkj9
+Jan 21 06:46:56 localhost dockerd[8431]: time="2022-01-21T06:46:44.682599893Z" level=error msg="agent: session failed" backoff=700ms error="session initiation timed out" module=node/agent node.id=q1i0m3xoyyfgv2k6unxikqkj9
+Jan 21 06:46:59 localhost dockerd[8431]: time="2022-01-21T06:46:59.376305369Z" level=info msg="worker q1i0m3xoyyfgv2k6unxikqkj9 was successfully registered" method="(*Dispatcher).register"
+Jan 21 06:46:59 localhost dockerd[8431]: time="2022-01-21T06:46:59.584457546Z" level=info msg="manager selected by agent for new session: { }" module=node/agent node.id=q1i0m3xoyyfgv2k6unxikqkj9
+Jan 21 06:46:59 localhost dockerd[8431]: time="2022-01-21T06:46:59.587868714Z" level=info msg="waiting 522.841218ms before registering session" module=node/agent node.id=q1i0m3xoyyfgv2k6unxikqkj9
+Jan 21 06:46:59 localhost dockerd[8431]: time="2022-01-21T06:46:59.760818495Z" level=info msg="shim reaped" id=1920a29c17471d9fe114e68b7a85d4b1d5e200343fb96b7f9b0eacaeeef8b579
+Jan 21 06:46:59 localhost dockerd[8431]: time="2022-01-21T06:46:59.768828955Z" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Jan 21 06:47:00 localhost dockerd[8431]: time="2022-01-21T06:47:00.210889694Z" level=info msg="worker q1i0m3xoyyfgv2k6unxikqkj9 was successfully registered" method="(*Dispatcher).register"
+Jan 21 06:47:19 localhost dockerd[8431]: time="2022-01-21T06:47:19.503197973Z" level=info msg="NetworkDB stats plemma(b3be9f6424e0) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+Jan 21 06:48:06 localhost s3fs[17768]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
+Jan 21 06:48:07 localhost s3fs[17768]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.

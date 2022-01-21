@@ -1017,3 +1017,22 @@ Jan 21 06:39:01 localhost systemd[1]: Started Clean php session files.
 Jan 21 06:41:22 localhost systemd[1]: Started Session 31134 of user adam.
 Jan 21 06:41:43 localhost systemd[24255]: mnt-amzn2.mount: Succeeded.
 Jan 21 06:41:43 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
+Jan 21 06:45:28 localhost systemd[1]: Starting Daily apt upgrade and clean activities...
+Jan 21 06:45:34 localhost systemd[1]: apt-daily-upgrade.service: Succeeded.
+Jan 21 06:45:34 localhost systemd[1]: Started Daily apt upgrade and clean activities.
+Jan 21 06:46:59 localhost systemd-udevd[17243]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 06:46:59 localhost systemd[24255]: run-docker-netns-f7ec5168d720.mount: Succeeded.
+Jan 21 06:46:59 localhost systemd[1]: run-docker-netns-f7ec5168d720.mount: Succeeded.
+Jan 21 06:46:59 localhost systemd[24255]: var-lib-docker-containers-1920a29c17471d9fe114e68b7a85d4b1d5e200343fb96b7f9b0eacaeeef8b579-mounts-shm.mount: Succeeded.
+Jan 21 06:46:59 localhost systemd[1]: var-lib-docker-containers-1920a29c17471d9fe114e68b7a85d4b1d5e200343fb96b7f9b0eacaeeef8b579-mounts-shm.mount: Succeeded.
+Jan 21 06:46:59 localhost systemd-udevd[17243]: link_config: could not get ethtool features for veth4e69c6c
+Jan 21 06:46:59 localhost systemd-udevd[17243]: Could not set offload features of veth4e69c6c: No such device
+Jan 21 06:46:59 localhost systemd-udevd[17243]: Using default interface naming scheme 'v240'.
+Jan 21 06:46:59 localhost systemd[1]: var-lib-docker-overlay2-dcc70cb65b432d88bef093f80eb407ba61dadd478c38899b21df007082a4fc9f-merged.mount: Succeeded.
+Jan 21 06:46:59 localhost systemd[24255]: var-lib-docker-overlay2-dcc70cb65b432d88bef093f80eb407ba61dadd478c38899b21df007082a4fc9f-merged.mount: Succeeded.
+Jan 21 06:47:02 localhost ntpd[12984]: Deleting interface #5 br-ae25a847f7d8, 172.18.0.1#123, interface stats: received=0, sent=0, dropped=0, active_time=8899779 secs
+Jan 21 06:47:02 localhost ntpd[12984]: Deleting interface #9 br-ae25a847f7d8, fe80::42:56ff:fed9:d12a%4#123, interface stats: received=0, sent=0, dropped=0, active_time=8899779 secs
+Jan 21 06:47:02 localhost ntpd[12984]: Deleting interface #10 vethf169d03, fe80::2449:7ff:fed1:c228%6#123, interface stats: received=0, sent=0, dropped=0, active_time=8899779 secs
+Jan 21 06:48:00 localhost systemd[1]: Started Session 31136 of user adam.
+Jan 21 06:48:07 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
+Jan 21 06:48:07 localhost systemd[24255]: mnt-amzn2.mount: Succeeded.

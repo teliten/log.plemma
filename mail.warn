@@ -2693,3 +2693,5 @@ Jan 21 06:29:36 localhost postfix/trivial-rewrite[13864]: warning: do not list d
 Jan 21 06:29:36 localhost postfix/trivial-rewrite[13864]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
 Jan 21 06:29:38 localhost postfix/trivial-rewrite[13864]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
 Jan 21 06:33:49 localhost postfix/smtpd[14429]: warning: hostname hosted-by.rootlayer.net does not resolve to address 185.222.57.195
+Jan 21 06:43:40 localhost postfix/trivial-rewrite[16174]: warning: do not list domain plemma.cc in BOTH mydestination and virtual_alias_domains
+Jan 21 06:46:27 localhost postfix/trivial-rewrite[17091]: warning: do not list domain emplifyhr.com in BOTH mydestination and virtual_alias_domains

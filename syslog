@@ -1964,3 +1964,520 @@ Jan 21 06:41:43 localhost systemd[24255]: mnt-amzn2.mount: Succeeded.
 Jan 21 06:41:43 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
 Jan 21 06:42:10 localhost kernel: [13589192.471979] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=31.202.43.47 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=47 ID=10845 DF PROTO=TCP SPT=39526 DPT=5555 WINDOW=65535 RES=0x00 SYN URGP=0 
 Jan 21 06:42:11 localhost kernel: [13589193.495131] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=31.202.43.47 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=47 ID=10846 DF PROTO=TCP SPT=39526 DPT=5555 WINDOW=65535 RES=0x00 SYN URGP=0 
+Jan 21 06:42:17 localhost kernel: [13589199.228199] docker-containe invoked oom-killer: gfp_mask=0x6200ca(GFP_HIGHUSER_MOVABLE), nodemask=(null), order=0, oom_score_adj=-500
+Jan 21 06:42:17 localhost kernel: [13589199.228214] docker-containe cpuset=/ mems_allowed=0
+Jan 21 06:42:17 localhost kernel: [13589199.228273] CPU: 0 PID: 11391 Comm: docker-containe Not tainted 4.19.0-16-amd64 #1 Debian 4.19.181-1
+Jan 21 06:42:17 localhost kernel: [13589199.228273] Hardware name: Vultr VC2, BIOS  
+Jan 21 06:42:17 localhost kernel: [13589199.228279] Call Trace:
+Jan 21 06:42:17 localhost kernel: [13589199.228353]  dump_stack+0x66/0x81
+Jan 21 06:42:17 localhost kernel: [13589199.228368]  dump_header+0x6b/0x283
+Jan 21 06:42:17 localhost kernel: [13589199.228388]  ? do_try_to_free_pages+0x2ec/0x370
+Jan 21 06:42:17 localhost kernel: [13589199.228389]  oom_kill_process.cold.30+0xb/0x1cf
+Jan 21 06:42:17 localhost kernel: [13589199.228397]  ? oom_badness+0x23/0x140
+Jan 21 06:42:17 localhost kernel: [13589199.228399]  out_of_memory+0x1a5/0x450
+Jan 21 06:42:17 localhost kernel: [13589199.228408]  __alloc_pages_slowpath+0xbd8/0xcb0
+Jan 21 06:42:17 localhost kernel: [13589199.228413]  ? read_pages+0x7f/0x190
+Jan 21 06:42:17 localhost kernel: [13589199.228414]  __alloc_pages_nodemask+0x28b/0x2b0
+Jan 21 06:42:17 localhost kernel: [13589199.228416]  filemap_fault+0x333/0x780
+Jan 21 06:42:17 localhost kernel: [13589199.228429]  ? alloc_set_pte+0xf2/0x560
+Jan 21 06:42:17 localhost kernel: [13589199.228430]  ? filemap_map_pages+0x1ed/0x3a0
+Jan 21 06:42:17 localhost kernel: [13589199.228528]  ext4_filemap_fault+0x2c/0x40 [ext4]
+Jan 21 06:42:17 localhost kernel: [13589199.228537]  __do_fault+0x36/0x130
+Jan 21 06:42:17 localhost kernel: [13589199.228545]  __handle_mm_fault+0xdf9/0x11f0
+Jan 21 06:42:17 localhost kernel: [13589199.228551]  ? __switch_to_asm+0x35/0x70
+Jan 21 06:42:17 localhost kernel: [13589199.228552]  handle_mm_fault+0xd6/0x200
+Jan 21 06:42:17 localhost kernel: [13589199.228562]  __do_page_fault+0x249/0x4f0
+Jan 21 06:42:17 localhost kernel: [13589199.228568]  ? async_page_fault+0x8/0x30
+Jan 21 06:42:17 localhost kernel: [13589199.228569]  async_page_fault+0x1e/0x30
+Jan 21 06:42:17 localhost kernel: [13589199.228583] RIP: 0033:0xa3f8a0
+Jan 21 06:42:17 localhost kernel: [13589199.228596] Code: Bad RIP value.
+Jan 21 06:42:17 localhost kernel: [13589199.228596] RSP: 002b:000000c00005aea0 EFLAGS: 00010202
+Jan 21 06:42:17 localhost kernel: [13589199.228600] RAX: ffffffffffffff92 RBX: 000000000b399e76 RCX: 0000000000a74943
+Jan 21 06:42:17 localhost kernel: [13589199.228601] RDX: 0000000000000000 RSI: 0000000000000080 RDI: 0000000002667f80
+Jan 21 06:42:17 localhost kernel: [13589199.228601] RBP: 000000c00005aee0 R08: 0000000000000000 R09: 0000000000000000
+Jan 21 06:42:17 localhost kernel: [13589199.228602] R10: 000000c00005aed0 R11: 0000000000000202 R12: 0000000000000001
+Jan 21 06:42:17 localhost kernel: [13589199.228602] R13: 0000000000000001 R14: 0000000000000002 R15: 0000000000000000
+Jan 21 06:42:17 localhost kernel: [13589199.228603] Mem-Info:
+Jan 21 06:42:17 localhost kernel: [13589199.228606] active_anon:193278 inactive_anon:7348 isolated_anon:0
+Jan 21 06:42:17 localhost kernel: [13589199.228606]  active_file:23 inactive_file:65 isolated_file:0
+Jan 21 06:42:17 localhost kernel: [13589199.228606]  unevictable:0 dirty:0 writeback:0 unstable:0
+Jan 21 06:42:17 localhost kernel: [13589199.228606]  slab_reclaimable:8785 slab_unreclaimable:15903
+Jan 21 06:42:17 localhost kernel: [13589199.228606]  mapped:3544 shmem:9401 pagetables:2358 bounce:0
+Jan 21 06:42:17 localhost kernel: [13589199.228606]  free:12198 free_pcp:218 free_cma:0
+Jan 21 06:42:17 localhost kernel: [13589199.228610] Node 0 active_anon:773112kB inactive_anon:29392kB active_file:92kB inactive_file:260kB unevictable:0kB isolated(anon):0kB isolated(file):0kB mapped:14176kB dirty:0kB writeback:0kB shmem:37604kB shmem_thp: 0kB shmem_pmdmapped: 0kB anon_thp: 163840kB writeback_tmp:0kB unstable:0kB all_unreclaimable? no
+Jan 21 06:42:17 localhost kernel: [13589199.228611] Node 0 DMA free:4484kB min:728kB low:908kB high:1088kB active_anon:8960kB inactive_anon:4kB active_file:0kB inactive_file:8kB unevictable:0kB writepending:0kB present:15992kB managed:15908kB mlocked:0kB kernel_stack:112kB pagetables:152kB bounce:0kB free_pcp:0kB local_pcp:0kB free_cma:0kB
+Jan 21 06:42:17 localhost kernel: [13589199.228615] lowmem_reserve[]: 0 941 941 941 941
+Jan 21 06:42:17 localhost kernel: [13589199.228616] Node 0 DMA32 free:44308kB min:44324kB low:55404kB high:66484kB active_anon:764128kB inactive_anon:29388kB active_file:88kB inactive_file:256kB unevictable:0kB writepending:0kB present:1032048kB managed:994988kB mlocked:0kB kernel_stack:6160kB pagetables:9280kB bounce:0kB free_pcp:872kB local_pcp:872kB free_cma:0kB
+Jan 21 06:42:17 localhost kernel: [13589199.228619] lowmem_reserve[]: 0 0 0 0 0
+Jan 21 06:42:17 localhost kernel: [13589199.228620] Node 0 DMA: 27*4kB (UE) 31*8kB (UE) 32*16kB (UME) 23*32kB (UE) 11*64kB (UE) 7*128kB (ME) 3*256kB (E) 1*512kB (M) 0*1024kB 0*2048kB 0*4096kB = 4484kB
+Jan 21 06:42:17 localhost kernel: [13589199.228624] Node 0 DMA32: 1007*4kB (UE) 655*8kB (UE) 552*16kB (UME) 317*32kB (UME) 169*64kB (UME) 41*128kB (UME) 0*256kB 0*512kB 0*1024kB 0*2048kB 0*4096kB = 44308kB
+Jan 21 06:42:17 localhost kernel: [13589199.228632] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=1048576kB
+Jan 21 06:42:17 localhost kernel: [13589199.228633] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=2048kB
+Jan 21 06:42:17 localhost kernel: [13589199.228633] 9491 total pagecache pages
+Jan 21 06:42:17 localhost kernel: [13589199.228636] 0 pages in swap cache
+Jan 21 06:42:17 localhost kernel: [13589199.228637] Swap cache stats: add 0, delete 0, find 0/0
+Jan 21 06:42:17 localhost kernel: [13589199.228637] Free swap  = 0kB
+Jan 21 06:42:17 localhost kernel: [13589199.228638] Total swap = 0kB
+Jan 21 06:42:17 localhost kernel: [13589199.228640] 262010 pages RAM
+Jan 21 06:42:17 localhost kernel: [13589199.228641] 0 pages HighMem/MovableOnly
+Jan 21 06:42:17 localhost kernel: [13589199.228641] 9286 pages reserved
+Jan 21 06:42:17 localhost kernel: [13589199.228641] 0 pages hwpoisoned
+Jan 21 06:42:17 localhost kernel: [13589199.228642] Tasks state (memory values in pages):
+Jan 21 06:42:17 localhost kernel: [13589199.228642] [  pid  ]   uid  tgid total_vm      rss pgtables_bytes swapents oom_score_adj name
+Jan 21 06:42:17 localhost kernel: [13589199.228650] [    394]     0   394     2557       68    61440        0             0 cron
+Jan 21 06:42:17 localhost kernel: [13589199.228659] [    478]     0   478     1403       28    49152        0             0 agetty
+Jan 21 06:42:17 localhost kernel: [13589199.228663] [    631]     0   631     2372      330    61440        0             0 dhclient
+Jan 21 06:42:17 localhost kernel: [13589199.228668] [  27896]     0 27896     2372      325    53248        0             0 dhclient
+Jan 21 06:42:17 localhost kernel: [13589199.228672] [  24255]  1001 24255     5317      385    73728        0             0 systemd
+Jan 21 06:42:17 localhost kernel: [13589199.228673] [  24256]  1001 24256    42985      675   102400        0             0 (sd-pam)
+Jan 21 06:42:17 localhost kernel: [13589199.228682] [  28118]     0 28118     1323       16    45056        0             0 tail
+Jan 21 06:42:17 localhost kernel: [13589199.228687] [  31730]     0 31730    56456      595    81920        0             0 rsyslogd
+Jan 21 06:42:17 localhost kernel: [13589199.228691] [  10752]     0 10752     1049       92    45056        0             0 dovecot
+Jan 21 06:42:17 localhost kernel: [13589199.228692] [  10762]   111 10762      978       57    40960        0             0 anvil
+Jan 21 06:42:17 localhost kernel: [13589199.228693] [  10763]     0 10763     1012       91    45056        0             0 log
+Jan 21 06:42:17 localhost kernel: [13589199.228694] [  10765]     0 10765     1322      319    49152        0             0 config
+Jan 21 06:42:17 localhost kernel: [13589199.228695] [  10774]   111 10774     1043       94    45056        0             0 stats
+Jan 21 06:42:17 localhost kernel: [13589199.228697] [   8431]     0  8431   222444    14108   495616        0          -500 dockerd
+Jan 21 06:42:17 localhost kernel: [13589199.228700] [   8436]     0  8436   188923     1970   237568        0          -500 docker-containe
+Jan 21 06:42:17 localhost kernel: [13589199.228702] [  10504]     0 10504   100107      101   102400        0          -500 docker-proxy
+Jan 21 06:42:17 localhost kernel: [13589199.228703] [  10519]     0 10519   118540      109   102400        0          -500 docker-proxy
+Jan 21 06:42:17 localhost kernel: [13589199.228704] [  10544]     0 10544   177324      339   155648        0          -999 docker-containe
+Jan 21 06:42:17 localhost kernel: [13589199.228708] [  10600]   100 10600      402       35    45056        0             0 rabbitmq-server
+Jan 21 06:42:17 localhost kernel: [13589199.228709] [  10867]   100 10867      722      535    49152        0             0 epmd
+Jan 21 06:42:17 localhost kernel: [13589199.228710] [  11090]   100 11090   425072    19362   323584        0             0 beam.smp
+Jan 21 06:42:17 localhost kernel: [13589199.228711] [  11195]   100 11195      189        8    40960        0             0 erl_child_setup
+Jan 21 06:42:17 localhost kernel: [13589199.228716] [  11217]   100 11217      194        7    45056        0             0 inet_gethost
+Jan 21 06:42:17 localhost kernel: [13589199.228717] [  11218]   100 11218      194        9    45056        0             0 inet_gethost
+Jan 21 06:42:17 localhost kernel: [13589199.228721] [   6243]     0  6243     5450      197    65536        0         -1000 systemd-udevd
+Jan 21 06:42:17 localhost kernel: [13589199.228730] [   6251]     0  6251     1796       30    40960        0             0 rdnssd
+Jan 21 06:42:17 localhost kernel: [13589199.228731] [   6252]   107  6252     1888       40    45056        0             0 rdnssd
+Jan 21 06:42:17 localhost kernel: [13589199.228735] [  12545]     0 12545   309546     2496   217088        0             0 gcsfuse
+Jan 21 06:42:17 localhost kernel: [13589199.228743] [  21378]     0 21378   309546     1871   208896        0             0 gcsfuse
+Jan 21 06:42:17 localhost kernel: [13589199.228749] [  24595]     0 24595   309546     1889   196608        0             0 gcsfuse
+Jan 21 06:42:17 localhost kernel: [13589199.228752] [  31986]     0 31986   309546     1882   200704        0             0 gcsfuse
+Jan 21 06:42:17 localhost kernel: [13589199.228756] [   7969]     0  7969   326763    11405   348160        0             0 gcsfuse
+Jan 21 06:42:17 localhost kernel: [13589199.228760] [  11384]     0 11384   326763     9561   348160        0             0 gcsfuse
+Jan 21 06:42:17 localhost kernel: [13589199.228764] [   5566]     0  5566   343788    17781   532480        0             0 gcsfuse
+Jan 21 06:42:17 localhost kernel: [13589199.228768] [   6640]   104  6640     2314      195    57344        0          -900 dbus-daemon
+Jan 21 06:42:17 localhost kernel: [13589199.228772] [   6664]     0  6664    13778     4691   131072        0             0 systemd-journal
+Jan 21 06:42:17 localhost kernel: [13589199.228776] [   6665]     0  6665     4975      368    77824        0             0 systemd-logind
+Jan 21 06:42:17 localhost kernel: [13589199.228784] [   6667]     0  6667    28022     1915   110592        0             0 unattended-upgr
+Jan 21 06:42:17 localhost kernel: [13589199.228798] [  12398]   110 12398   313799    16991   405504        0             0 mysqld
+Jan 21 06:42:17 localhost kernel: [13589199.228799] [  12984]   105 12984    19198      152    65536        0             0 ntpd
+Jan 21 06:42:17 localhost kernel: [13589199.228808] [  12594]     0 12594    54229     2210   176128        0             0 apache2
+Jan 21 06:42:17 localhost kernel: [13589199.228812] [   5986]     0  5986   309482     1639   196608        0             0 gcsfuse
+Jan 21 06:42:17 localhost kernel: [13589199.228813] [   6206]     0  6206     6033     2993    90112        0             0 ssh
+Jan 21 06:42:17 localhost kernel: [13589199.228815] [   6207]     0  6207   111869      586    94208        0             0 sshfs
+Jan 21 06:42:17 localhost kernel: [13589199.228818] [   8086]     0  8086   326779    10995   380928        0             0 gcsfuse
+Jan 21 06:42:17 localhost kernel: [13589199.228822] [  30247]     0 30247   309482     1513   204800        0             0 gcsfuse
+Jan 21 06:42:17 localhost kernel: [13589199.228826] [  31861]     0 31861     3963      217    69632        0         -1000 sshd
+Jan 21 06:42:17 localhost kernel: [13589199.228827] [  31943]   114 31943    53809     3126   159744        0          -900 postgres
+Jan 21 06:42:17 localhost kernel: [13589199.228828] [  31951]   114 31951    53840      895   139264        0             0 postgres
+Jan 21 06:42:17 localhost kernel: [13589199.228829] [  31952]   114 31952    53809      870   139264        0             0 postgres
+Jan 21 06:42:17 localhost kernel: [13589199.228830] [  31953]   114 31953    53809     1558   135168        0             0 postgres
+Jan 21 06:42:17 localhost kernel: [13589199.228831] [  31954]   114 31954    53909      794   147456        0             0 postgres
+Jan 21 06:42:17 localhost kernel: [13589199.228833] [  31955]   114 31955    17570      499   118784        0             0 postgres
+Jan 21 06:42:17 localhost kernel: [13589199.228833] [  31956]   114 31956    53910      672   135168        0             0 postgres
+Jan 21 06:42:17 localhost kernel: [13589199.228837] [  32064]     0 32064    10868      213    81920        0             0 master
+Jan 21 06:42:17 localhost kernel: [13589199.228838] [  32066]   109 32066    10995      244    77824        0             0 qmgr
+Jan 21 06:42:17 localhost kernel: [13589199.228842] [  32222]   109 32222    11070      309    90112        0             0 tlsmgr
+Jan 21 06:42:17 localhost kernel: [13589199.228846] [  30448]     0 30448   326699     9922   339968        0             0 gcsfuse
+Jan 21 06:42:17 localhost kernel: [13589199.228847] [  16604]    33 16604    54383     1645   163840        0             0 apache2
+Jan 21 06:42:17 localhost kernel: [13589199.228848] [  16605]    33 16605    54318     1596   163840        0             0 apache2
+Jan 21 06:42:17 localhost kernel: [13589199.228849] [  16606]    33 16606    54383     1645   163840        0             0 apache2
+Jan 21 06:42:17 localhost kernel: [13589199.228850] [  16607]    33 16607    54383     1645   163840        0             0 apache2
+Jan 21 06:42:17 localhost kernel: [13589199.228851] [  16608]    33 16608    54383     1636   163840        0             0 apache2
+Jan 21 06:42:17 localhost kernel: [13589199.228852] [  22315]    33 22315    54383     1636   163840        0             0 apache2
+Jan 21 06:42:17 localhost kernel: [13589199.228853] [   8727]   109  8727    10958      214    86016        0             0 pickup
+Jan 21 06:42:17 localhost kernel: [13589199.228857] [  12995]     0 12995     4172      273    65536        0             0 sshd
+Jan 21 06:42:17 localhost kernel: [13589199.228858] [  13062]  1001 13062     4243      284    65536        0             0 sshd
+Jan 21 06:42:17 localhost kernel: [13589199.228861] [  13063]  1001 13063     1979      368    61440        0             0 bash
+Jan 21 06:42:17 localhost kernel: [13589199.228862] [  13658]     0 13658     2571      107    61440        0             0 sudo
+Jan 21 06:42:17 localhost kernel: [13589199.228863] [  13659]     0 13659     2672     1056    57344        0             0 bash
+Jan 21 06:42:17 localhost kernel: [13589199.228867] [  14277]     0 14277   309482     1428   192512        0             0 gcsfuse
+Jan 21 06:42:17 localhost kernel: [13589199.228868] [  15848]     0 15848   214582    15726  2170880        0             0 npm install ans
+Jan 21 06:42:17 localhost kernel: [13589199.228870] [  15920]     0 15920     4172      274    65536        0             0 sshd
+Jan 21 06:42:17 localhost kernel: [13589199.228872] [  15935]  1001 15935     4243      282    65536        0             0 sshd
+Jan 21 06:42:17 localhost kernel: [13589199.228873] [  15936]  1001 15936     1979      363    53248        0             0 bash
+Jan 21 06:42:17 localhost kernel: [13589199.228874] [  15983]     0 15983     2629      107    53248        0             0 sudo
+Jan 21 06:42:17 localhost kernel: [13589199.228874] [  15990]     0 15990     1715       92    53248        0             0 bash
+Jan 21 06:42:17 localhost kernel: [13589199.228875] [  16015]     0 16015     1694       76    53248        0             0 bash
+Jan 21 06:42:17 localhost kernel: [13589199.228876] [  16020]     0 16020     2924       71    57344        0             0 git
+Jan 21 06:42:17 localhost kernel: [13589199.228877] [  16021]     0 16021    26100     1472   106496        0             0 git-remote-http
+Jan 21 06:42:17 localhost kernel: [13589199.228878] [  16033]     0 16033     4973       69    65536        0             0 git
+Jan 21 06:42:17 localhost kernel: [13589199.228881] [  16035]     0 16035    27749    24860   262144        0             0 git
+Jan 21 06:42:17 localhost kernel: [13589199.228883] Out of memory: Kill process 16035 (git) score 98 or sacrifice child
+Jan 21 06:42:17 localhost kernel: [13589199.232782] Killed process 16035 (git) total-vm:110996kB, anon-rss:99440kB, file-rss:0kB, shmem-rss:0kB
+Jan 21 06:42:17 localhost kernel: [13589199.240447] oom_reaper: reaped process 16035 (git), now anon-rss:0kB, file-rss:0kB, shmem-rss:0kB
+Jan 21 06:42:19 localhost dockerd[8431]: time="2022-01-21T06:42:19.304752739Z" level=info msg="NetworkDB stats plemma(b3be9f6424e0) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+Jan 21 06:42:20 localhost kernel: [13589202.634262] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=45.146.166.116 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=245 ID=64460 PROTO=TCP SPT=58985 DPT=25594 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jan 21 06:42:26 localhost kernel: [13589208.715268] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=79.124.62.82 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=240 ID=10051 PROTO=TCP SPT=44493 DPT=40051 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jan 21 06:42:28 localhost kernel: [13589210.422369] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=209.237.154.63 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=246 ID=54321 PROTO=TCP SPT=54891 DPT=4244 WINDOW=65535 RES=0x00 SYN URGP=0 
+Jan 21 06:42:53 localhost kernel: [13589235.216078] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=185.56.83.100 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=240 ID=54321 PROTO=TCP SPT=39439 DPT=5405 WINDOW=65535 RES=0x00 SYN URGP=0 
+Jan 21 06:43:19 localhost kernel: [13589261.194631] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=192.241.219.174 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=38096 DPT=2049 WINDOW=65535 RES=0x00 SYN URGP=0 
+Jan 21 06:43:32 localhost kernel: [13589274.895092] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=79.124.62.78 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=240 ID=60976 PROTO=TCP SPT=44497 DPT=24341 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jan 21 06:43:37 localhost postfix/smtpd[16162]: connect from unknown[212.192.241.73]
+Jan 21 06:43:40 localhost kernel: [13589282.041773] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=193.201.9.161 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=9469 PROTO=TCP SPT=58326 DPT=44448 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jan 21 06:43:40 localhost postfix/trivial-rewrite[16174]: warning: do not list domain plemma.cc in BOTH mydestination and virtual_alias_domains
+Jan 21 06:43:41 localhost postfix/smtpd[16162]: NOQUEUE: reject: RCPT from unknown[212.192.241.73]: 454 4.7.1 <send.sock25@yandex.com>: Relay access denied; from=<client@plemma.cc> to=<send.sock25@yandex.com> proto=ESMTP helo=<User>
+Jan 21 06:43:41 localhost postfix/smtpd[16162]: lost connection after RCPT from unknown[212.192.241.73]
+Jan 21 06:43:41 localhost postfix/smtpd[16162]: disconnect from unknown[212.192.241.73] ehlo=1 mail=1 rcpt=0/1 rset=1 commands=3/4
+Jan 21 06:44:00 localhost kernel: [13589302.564191] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=209.237.154.133 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=246 ID=54321 PROTO=TCP SPT=48793 DPT=2255 WINDOW=65535 RES=0x00 SYN URGP=0 
+Jan 21 06:44:35 localhost kernel: [13589337.229712] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=79.124.62.82 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=240 ID=55820 PROTO=TCP SPT=44493 DPT=6003 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jan 21 06:44:57 localhost kernel: [13589359.907580] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=115.55.222.109 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=50 ID=59269 PROTO=TCP SPT=43647 DPT=23 WINDOW=9478 RES=0x00 SYN URGP=0 
+Jan 21 06:45:00 localhost kernel: [13589362.317118] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=192.241.219.194 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=60774 DPT=8080 WINDOW=65535 RES=0x00 SYN URGP=0 
+Jan 21 06:45:01 localhost CRON[16285]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 21 06:45:28 localhost systemd[1]: Starting Daily apt upgrade and clean activities...
+Jan 21 06:45:29 localhost kernel: [13589391.750229] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=160.120.160.24 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=45 ID=31180 DF PROTO=TCP SPT=34226 DPT=5555 WINDOW=65535 RES=0x00 SYN URGP=0 
+Jan 21 06:45:34 localhost systemd[1]: apt-daily-upgrade.service: Succeeded.
+Jan 21 06:45:34 localhost systemd[1]: Started Daily apt upgrade and clean activities.
+Jan 21 06:45:51 localhost kernel: [13589413.342174] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=106.14.205.174 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=237 ID=53536 PROTO=TCP SPT=47162 DPT=2375 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jan 21 06:46:01 localhost kernel: [13589423.859924] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=5.188.206.18 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=240 ID=14007 PROTO=TCP SPT=51425 DPT=45888 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jan 21 06:46:04 localhost dockerd[8431]: time="2022-01-21T06:46:04.863560278Z" level=error msg="heartbeat to manager { } failed" error="rpc error: code = DeadlineExceeded desc = context deadline exceeded" method="(*session).heartbeat" module=node/agent node.id=q1i0m3xoyyfgv2k6unxikqkj9 session.id=ez2vato8m479ync2dng58sw2t sessionID=ez2vato8m479ync2dng58sw2t
+Jan 21 06:46:05 localhost dockerd[8431]: time="2022-01-21T06:46:05.357118560Z" level=warning msg="failed to retrieve runc version: exit status 2"
+Jan 21 06:46:19 localhost dockerd[8431]: time="2022-01-21T06:46:18.740336073Z" level=error msg="agent: session failed" backoff=100ms error="rpc error: code = DeadlineExceeded desc = context deadline exceeded" module=node/agent node.id=q1i0m3xoyyfgv2k6unxikqkj9
+Jan 21 06:46:20 localhost dockerd[8431]: time="2022-01-21T06:46:18.742930064Z" level=info msg="manager selected by agent for new session: { }" module=node/agent node.id=q1i0m3xoyyfgv2k6unxikqkj9
+Jan 21 06:46:21 localhost postfix/smtpd[17078]: connect from 89.236.253.42.ip.tps.uz[89.236.253.42]
+Jan 21 06:46:22 localhost dockerd[8431]: time="2022-01-21T06:46:19.754910334Z" level=info msg="waiting 55.347025ms before registering session" module=node/agent node.id=q1i0m3xoyyfgv2k6unxikqkj9
+Jan 21 06:46:27 localhost postfix/trivial-rewrite[17091]: warning: do not list domain emplifyhr.com in BOTH mydestination and virtual_alias_domains
+Jan 21 06:46:27 localhost dockerd[8431]: time="2022-01-21T06:46:27.293520309Z" level=error msg="agent: session failed" backoff=300ms error="session initiation timed out" module=node/agent node.id=q1i0m3xoyyfgv2k6unxikqkj9
+Jan 21 06:46:27 localhost dockerd[8431]: time="2022-01-21T06:46:27.304089402Z" level=info msg="manager selected by agent for new session: { }" module=node/agent node.id=q1i0m3xoyyfgv2k6unxikqkj9
+Jan 21 06:46:31 localhost dockerd[8431]: time="2022-01-21T06:46:27.813639801Z" level=info msg="waiting 145.169127ms before registering session" module=node/agent node.id=q1i0m3xoyyfgv2k6unxikqkj9
+Jan 21 06:46:46 localhost kernel: [13589468.906851] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=79.124.62.78 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=240 ID=62074 PROTO=TCP SPT=44497 DPT=27798 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jan 21 06:46:56 localhost dockerd[8431]: time="2022-01-21T06:46:44.682599893Z" level=error msg="agent: session failed" backoff=700ms error="session initiation timed out" module=node/agent node.id=q1i0m3xoyyfgv2k6unxikqkj9
+Jan 21 06:46:59 localhost kernel: [13589481.069558] cleanup invoked oom-killer: gfp_mask=0x6200ca(GFP_HIGHUSER_MOVABLE), nodemask=(null), order=0, oom_score_adj=0
+Jan 21 06:46:59 localhost kernel: [13589481.069564] cleanup cpuset=/ mems_allowed=0
+Jan 21 06:46:59 localhost kernel: [13589481.069600] CPU: 0 PID: 17095 Comm: cleanup Not tainted 4.19.0-16-amd64 #1 Debian 4.19.181-1
+Jan 21 06:46:59 localhost kernel: [13589481.069601] Hardware name: Vultr VC2, BIOS  
+Jan 21 06:46:59 localhost kernel: [13589481.069606] Call Trace:
+Jan 21 06:46:59 localhost kernel: [13589481.069681]  dump_stack+0x66/0x81
+Jan 21 06:46:59 localhost kernel: [13589481.069705]  dump_header+0x6b/0x283
+Jan 21 06:46:59 localhost kernel: [13589481.069712]  oom_kill_process.cold.30+0xb/0x1cf
+Jan 21 06:46:59 localhost kernel: [13589481.069735]  ? oom_badness+0x23/0x140
+Jan 21 06:46:59 localhost kernel: [13589481.069736]  out_of_memory+0x1a5/0x450
+Jan 21 06:46:59 localhost kernel: [13589481.069748]  __alloc_pages_slowpath+0xbd8/0xcb0
+Jan 21 06:46:59 localhost kernel: [13589481.069753]  __alloc_pages_nodemask+0x28b/0x2b0
+Jan 21 06:46:59 localhost kernel: [13589481.069756]  filemap_fault+0x333/0x780
+Jan 21 06:46:59 localhost kernel: [13589481.069769]  ? alloc_set_pte+0x49e/0x560
+Jan 21 06:46:59 localhost kernel: [13589481.069770]  ? filemap_map_pages+0x139/0x3a0
+Jan 21 06:46:59 localhost kernel: [13589481.069870]  ext4_filemap_fault+0x2c/0x40 [ext4]
+Jan 21 06:46:59 localhost kernel: [13589481.069880]  __do_fault+0x36/0x130
+Jan 21 06:46:59 localhost kernel: [13589481.069888]  __handle_mm_fault+0xdf9/0x11f0
+Jan 21 06:46:59 localhost kernel: [13589481.069891]  handle_mm_fault+0xd6/0x200
+Jan 21 06:46:59 localhost kernel: [13589481.069901]  __do_page_fault+0x249/0x4f0
+Jan 21 06:46:59 localhost kernel: [13589481.069910]  ? async_page_fault+0x8/0x30
+Jan 21 06:46:59 localhost kernel: [13589481.069911]  async_page_fault+0x1e/0x30
+Jan 21 06:46:59 localhost kernel: [13589481.069926] RIP: 0033:0x7fd7e4ccf680
+Jan 21 06:46:59 localhost kernel: [13589481.069935] Code: Bad RIP value.
+Jan 21 06:46:59 localhost kernel: [13589481.069936] RSP: 002b:00007fff0e8cf168 EFLAGS: 00010202
+Jan 21 06:46:59 localhost kernel: [13589481.069939] RAX: 0000000000000008 RBX: 0000000000000008 RCX: 0000000000000000
+Jan 21 06:46:59 localhost kernel: [13589481.069940] RDX: 0000000000000000 RSI: 0000000000000000 RDI: 0000000000000148
+Jan 21 06:46:59 localhost kernel: [13589481.069940] RBP: 0000000000000000 R08: 00005613f97ff270 R09: 00007fd7e2857350
+Jan 21 06:46:59 localhost kernel: [13589481.069941] R10: 0000000000000000 R11: 0000000000000246 R12: 0000000000000000
+Jan 21 06:46:59 localhost kernel: [13589481.069941] R13: 0000000000000000 R14: 00007fd7e4cf4514 R15: 00007fd7e4d480a8
+Jan 21 06:46:59 localhost kernel: [13589481.069942] Mem-Info:
+Jan 21 06:46:59 localhost kernel: [13589481.069945] active_anon:191944 inactive_anon:7348 isolated_anon:0
+Jan 21 06:46:59 localhost kernel: [13589481.069945]  active_file:265 inactive_file:291 isolated_file:17
+Jan 21 06:46:59 localhost kernel: [13589481.069945]  unevictable:0 dirty:0 writeback:0 unstable:0
+Jan 21 06:46:59 localhost kernel: [13589481.069945]  slab_reclaimable:8746 slab_unreclaimable:16057
+Jan 21 06:46:59 localhost kernel: [13589481.069945]  mapped:3935 shmem:9401 pagetables:2608 bounce:0
+Jan 21 06:46:59 localhost kernel: [13589481.069945]  free:12154 free_pcp:360 free_cma:0
+Jan 21 06:46:59 localhost kernel: [13589481.069950] Node 0 active_anon:767776kB inactive_anon:29392kB active_file:1060kB inactive_file:1164kB unevictable:0kB isolated(anon):0kB isolated(file):68kB mapped:15740kB dirty:0kB writeback:0kB shmem:37604kB shmem_thp: 0kB shmem_pmdmapped: 0kB anon_thp: 163840kB writeback_tmp:0kB unstable:0kB all_unreclaimable? no
+Jan 21 06:46:59 localhost kernel: [13589481.069951] Node 0 DMA free:4484kB min:728kB low:908kB high:1088kB active_anon:8824kB inactive_anon:4kB active_file:4kB inactive_file:8kB unevictable:0kB writepending:0kB present:15992kB managed:15908kB mlocked:0kB kernel_stack:112kB pagetables:168kB bounce:0kB free_pcp:0kB local_pcp:0kB free_cma:0kB
+Jan 21 06:46:59 localhost kernel: [13589481.069953] lowmem_reserve[]: 0 941 941 941 941
+Jan 21 06:46:59 localhost kernel: [13589481.069954] Node 0 DMA32 free:44132kB min:44324kB low:55404kB high:66484kB active_anon:758928kB inactive_anon:29388kB active_file:1060kB inactive_file:1164kB unevictable:0kB writepending:0kB present:1032048kB managed:994988kB mlocked:0kB kernel_stack:6756kB pagetables:10264kB bounce:0kB free_pcp:1440kB local_pcp:1440kB free_cma:0kB
+Jan 21 06:46:59 localhost kernel: [13589481.069956] lowmem_reserve[]: 0 0 0 0 0
+Jan 21 06:46:59 localhost kernel: [13589481.069957] Node 0 DMA: 17*4kB (UME) 30*8kB (UE) 31*16kB (UME) 21*32kB (UE) 13*64kB (ME) 7*128kB (ME) 3*256kB (E) 1*512kB (M) 0*1024kB 0*2048kB 0*4096kB = 4484kB
+Jan 21 06:46:59 localhost kernel: [13589481.069964] Node 0 DMA32: 369*4kB (UME) 578*8kB (UE) 471*16kB (UME) 285*32kB (UME) 152*64kB (UME) 83*128kB (UME) 4*256kB (ME) 0*512kB 0*1024kB 0*2048kB 0*4096kB = 44132kB
+Jan 21 06:46:59 localhost kernel: [13589481.069972] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=1048576kB
+Jan 21 06:46:59 localhost kernel: [13589481.069973] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=2048kB
+Jan 21 06:46:59 localhost kernel: [13589481.069973] 9977 total pagecache pages
+Jan 21 06:46:59 localhost kernel: [13589481.069976] 0 pages in swap cache
+Jan 21 06:46:59 localhost kernel: [13589481.069977] Swap cache stats: add 0, delete 0, find 0/0
+Jan 21 06:46:59 localhost kernel: [13589481.069977] Free swap  = 0kB
+Jan 21 06:46:59 localhost kernel: [13589481.069978] Total swap = 0kB
+Jan 21 06:46:59 localhost kernel: [13589481.069978] 262010 pages RAM
+Jan 21 06:46:59 localhost kernel: [13589481.069978] 0 pages HighMem/MovableOnly
+Jan 21 06:46:59 localhost kernel: [13589481.069979] 9286 pages reserved
+Jan 21 06:46:59 localhost kernel: [13589481.069979] 0 pages hwpoisoned
+Jan 21 06:46:59 localhost kernel: [13589481.069980] Tasks state (memory values in pages):
+Jan 21 06:46:59 localhost kernel: [13589481.069980] [  pid  ]   uid  tgid total_vm      rss pgtables_bytes swapents oom_score_adj name
+Jan 21 06:46:59 localhost kernel: [13589481.069997] [    394]     0   394     2557       68    61440        0             0 cron
+Jan 21 06:46:59 localhost kernel: [13589481.070000] [    478]     0   478     1403       28    49152        0             0 agetty
+Jan 21 06:46:59 localhost kernel: [13589481.070004] [    631]     0   631     2372      330    61440        0             0 dhclient
+Jan 21 06:46:59 localhost kernel: [13589481.070012] [  27896]     0 27896     2372      325    53248        0             0 dhclient
+Jan 21 06:46:59 localhost kernel: [13589481.070017] [  24255]  1001 24255     5317      385    73728        0             0 systemd
+Jan 21 06:46:59 localhost kernel: [13589481.070018] [  24256]  1001 24256    42985      675   102400        0             0 (sd-pam)
+Jan 21 06:46:59 localhost kernel: [13589481.070022] [  28118]     0 28118     1323       16    45056        0             0 tail
+Jan 21 06:46:59 localhost kernel: [13589481.070027] [  31730]     0 31730    56456      595    81920        0             0 rsyslogd
+Jan 21 06:46:59 localhost kernel: [13589481.070031] [  10752]     0 10752     1049       92    45056        0             0 dovecot
+Jan 21 06:46:59 localhost kernel: [13589481.070032] [  10762]   111 10762      978       57    40960        0             0 anvil
+Jan 21 06:46:59 localhost kernel: [13589481.070033] [  10763]     0 10763     1012       91    45056        0             0 log
+Jan 21 06:46:59 localhost kernel: [13589481.070034] [  10765]     0 10765     1322      319    49152        0             0 config
+Jan 21 06:46:59 localhost kernel: [13589481.070035] [  10774]   111 10774     1043       94    45056        0             0 stats
+Jan 21 06:46:59 localhost kernel: [13589481.070039] [   8431]     0  8431   222444    14102   495616        0          -500 dockerd
+Jan 21 06:46:59 localhost kernel: [13589481.070044] [   8436]     0  8436   188923     1970   237568        0          -500 docker-containe
+Jan 21 06:46:59 localhost kernel: [13589481.070045] [  10504]     0 10504   100107      101   102400        0          -500 docker-proxy
+Jan 21 06:46:59 localhost kernel: [13589481.070046] [  10519]     0 10519   118540      109   102400        0          -500 docker-proxy
+Jan 21 06:46:59 localhost kernel: [13589481.070047] [  10544]     0 10544   177324      347   155648        0          -999 docker-containe
+Jan 21 06:46:59 localhost kernel: [13589481.070048] [  10600]   100 10600      402       35    45056        0             0 rabbitmq-server
+Jan 21 06:46:59 localhost kernel: [13589481.070050] [  10867]   100 10867      722      535    49152        0             0 epmd
+Jan 21 06:46:59 localhost kernel: [13589481.070051] [  11090]   100 11090   425072    19362   323584        0             0 beam.smp
+Jan 21 06:46:59 localhost kernel: [13589481.070052] [  11195]   100 11195      189        8    40960        0             0 erl_child_setup
+Jan 21 06:46:59 localhost kernel: [13589481.070056] [  11217]   100 11217      194        7    45056        0             0 inet_gethost
+Jan 21 06:46:59 localhost kernel: [13589481.070058] [  11218]   100 11218      194        9    45056        0             0 inet_gethost
+Jan 21 06:46:59 localhost kernel: [13589481.070062] [   6243]     0  6243     5450      197    65536        0         -1000 systemd-udevd
+Jan 21 06:46:59 localhost kernel: [13589481.070065] [   6251]     0  6251     1796       30    40960        0             0 rdnssd
+Jan 21 06:46:59 localhost kernel: [13589481.070067] [   6252]   107  6252     1888       40    45056        0             0 rdnssd
+Jan 21 06:46:59 localhost kernel: [13589481.070071] [  12545]     0 12545   309546     2496   217088        0             0 gcsfuse
+Jan 21 06:46:59 localhost kernel: [13589481.070072] [  21378]     0 21378   309546     1871   208896        0             0 gcsfuse
+Jan 21 06:46:59 localhost kernel: [13589481.070076] [  24595]     0 24595   309546     1889   196608        0             0 gcsfuse
+Jan 21 06:46:59 localhost kernel: [13589481.070077] [  31986]     0 31986   309546     1882   200704        0             0 gcsfuse
+Jan 21 06:46:59 localhost kernel: [13589481.070081] [   7969]     0  7969   326763    11405   348160        0             0 gcsfuse
+Jan 21 06:46:59 localhost kernel: [13589481.070084] [  11384]     0 11384   326763     9561   348160        0             0 gcsfuse
+Jan 21 06:46:59 localhost kernel: [13589481.070085] [   5566]     0  5566   343788    17781   532480        0             0 gcsfuse
+Jan 21 06:46:59 localhost kernel: [13589481.070090] [   6640]   104  6640     2314      195    57344        0          -900 dbus-daemon
+Jan 21 06:46:59 localhost kernel: [13589481.070094] [   6664]     0  6664    13778     4758   131072        0             0 systemd-journal
+Jan 21 06:46:59 localhost kernel: [13589481.070097] [   6665]     0  6665     4975      368    77824        0             0 systemd-logind
+Jan 21 06:46:59 localhost kernel: [13589481.070101] [   6667]     0  6667    28022     1915   110592        0             0 unattended-upgr
+Jan 21 06:46:59 localhost kernel: [13589481.070104] [  12398]   110 12398   313799    16991   405504        0             0 mysqld
+Jan 21 06:46:59 localhost kernel: [13589481.070106] [  12984]   105 12984    19198      152    65536        0             0 ntpd
+Jan 21 06:46:59 localhost kernel: [13589481.070110] [  12594]     0 12594    54229     2210   176128        0             0 apache2
+Jan 21 06:46:59 localhost kernel: [13589481.070120] [   5986]     0  5986   309482     1639   196608        0             0 gcsfuse
+Jan 21 06:46:59 localhost kernel: [13589481.070121] [   6206]     0  6206     6033     2993    90112        0             0 ssh
+Jan 21 06:46:59 localhost kernel: [13589481.070122] [   6207]     0  6207   111869      586    94208        0             0 sshfs
+Jan 21 06:46:59 localhost kernel: [13589481.070125] [   8086]     0  8086   326779    10995   380928        0             0 gcsfuse
+Jan 21 06:46:59 localhost kernel: [13589481.070131] [  30247]     0 30247   309482     1513   204800        0             0 gcsfuse
+Jan 21 06:46:59 localhost kernel: [13589481.070132] [  31861]     0 31861     3963      217    69632        0         -1000 sshd
+Jan 21 06:46:59 localhost kernel: [13589481.070136] [  31943]   114 31943    53809     3126   159744        0          -900 postgres
+Jan 21 06:46:59 localhost kernel: [13589481.070137] [  31951]   114 31951    53840      895   139264        0             0 postgres
+Jan 21 06:46:59 localhost kernel: [13589481.070138] [  31952]   114 31952    53809      870   139264        0             0 postgres
+Jan 21 06:46:59 localhost kernel: [13589481.070139] [  31953]   114 31953    53809     1558   135168        0             0 postgres
+Jan 21 06:46:59 localhost kernel: [13589481.070140] [  31954]   114 31954    53909      794   147456        0             0 postgres
+Jan 21 06:46:59 localhost kernel: [13589481.070141] [  31955]   114 31955    17570      499   118784        0             0 postgres
+Jan 21 06:46:59 localhost kernel: [13589481.070142] [  31956]   114 31956    53910      672   135168        0             0 postgres
+Jan 21 06:46:59 localhost kernel: [13589481.070146] [  32064]     0 32064    10868      213    81920        0             0 master
+Jan 21 06:46:59 localhost kernel: [13589481.070146] [  32066]   109 32066    10995      244    77824        0             0 qmgr
+Jan 21 06:46:59 localhost kernel: [13589481.070150] [  32222]   109 32222    11070      309    90112        0             0 tlsmgr
+Jan 21 06:46:59 localhost kernel: [13589481.070153] [  30448]     0 30448   326699     9922   339968        0             0 gcsfuse
+Jan 21 06:46:59 localhost kernel: [13589481.070155] [  16604]    33 16604    54383     1645   163840        0             0 apache2
+Jan 21 06:46:59 localhost kernel: [13589481.070156] [  16605]    33 16605    54318     1596   163840        0             0 apache2
+Jan 21 06:46:59 localhost kernel: [13589481.070157] [  16606]    33 16606    54383     1645   163840        0             0 apache2
+Jan 21 06:46:59 localhost kernel: [13589481.070158] [  16607]    33 16607    54383     1645   163840        0             0 apache2
+Jan 21 06:46:59 localhost kernel: [13589481.070159] [  16608]    33 16608    54383     1636   163840        0             0 apache2
+Jan 21 06:46:59 localhost kernel: [13589481.070160] [  22315]    33 22315    54383     1636   163840        0             0 apache2
+Jan 21 06:46:59 localhost kernel: [13589481.070161] [   8727]   109  8727    10958      214    86016        0             0 pickup
+Jan 21 06:46:59 localhost kernel: [13589481.070164] [  12995]     0 12995     4172      273    65536        0             0 sshd
+Jan 21 06:46:59 localhost kernel: [13589481.070165] [  13062]  1001 13062     4243      284    65536        0             0 sshd
+Jan 21 06:46:59 localhost kernel: [13589481.070169] [  13063]  1001 13063     1979      368    61440        0             0 bash
+Jan 21 06:46:59 localhost kernel: [13589481.070170] [  13658]     0 13658     2571      107    61440        0             0 sudo
+Jan 21 06:46:59 localhost kernel: [13589481.070172] [  13659]     0 13659     2672     1056    57344        0             0 bash
+Jan 21 06:46:59 localhost kernel: [13589481.070175] [  14277]     0 14277   309482     1429   196608        0             0 gcsfuse
+Jan 21 06:46:59 localhost kernel: [13589481.070177] [  15848]     0 15848   214582    15726  2170880        0             0 npm install ans
+Jan 21 06:46:59 localhost kernel: [13589481.070180] [  15920]     0 15920     4172      274    65536        0             0 sshd
+Jan 21 06:46:59 localhost kernel: [13589481.070182] [  15935]  1001 15935     4243      282    65536        0             0 sshd
+Jan 21 06:46:59 localhost kernel: [13589481.070183] [  15936]  1001 15936     1979      363    53248        0             0 bash
+Jan 21 06:46:59 localhost kernel: [13589481.070184] [  15983]     0 15983     2629      107    53248        0             0 sudo
+Jan 21 06:46:59 localhost kernel: [13589481.070185] [  15990]     0 15990     2672     1055    57344        0             0 bash
+Jan 21 06:46:59 localhost kernel: [13589481.070186] [  16164]   109 16164    10958      217    90112        0             0 anvil
+Jan 21 06:46:59 localhost kernel: [13589481.070186] [  16722]     0 16722   309418     1513   192512        0             0 gcsfuse
+Jan 21 06:46:59 localhost kernel: [13589481.070190] [  17050]     0 17050   150715     6270   811008        0             0 node
+Jan 21 06:46:59 localhost kernel: [13589481.070191] [  17069]     0 17069    88353    10395   667648        0             0 node
+Jan 21 06:46:59 localhost kernel: [13589481.070192] [  17078]   109 17078    11130      300    77824        0             0 smtpd
+Jan 21 06:46:59 localhost kernel: [13589481.070193] [  17082]   109 17082    10958      216    86016        0             0 proxymap
+Jan 21 06:46:59 localhost kernel: [13589481.070194] [  17091]   109 17091    10961      218    86016        0             0 trivial-rewrite
+Jan 21 06:46:59 localhost kernel: [13589481.070195] [  17095]     0 17095    10903      207    81920        0             0 cleanup
+Jan 21 06:46:59 localhost kernel: [13589481.070196] [  17096]     0 17096     3963      210    73728        0             0 sshd
+Jan 21 06:46:59 localhost kernel: [13589481.070197] [  17097]     0 17097     3963      235    73728        0             0 sshd
+Jan 21 06:46:59 localhost kernel: [13589481.070198] [  17098]   100 17098   403887     4422   126976        0             0 beam.smp
+Jan 21 06:46:59 localhost kernel: [13589481.070202] [  17109]     0 17109     1078       19    40960        0             0 sshd
+Jan 21 06:46:59 localhost kernel: [13589481.070203] Out of memory: Kill process 11090 (beam.smp) score 76 or sacrifice child
+Jan 21 06:46:59 localhost kernel: [13589481.074479] Killed process 11195 (erl_child_setup) total-vm:756kB, anon-rss:32kB, file-rss:0kB, shmem-rss:0kB
+Jan 21 06:46:59 localhost kernel: [13589481.076807] oom_reaper: reaped process 11195 (erl_child_setup), now anon-rss:0kB, file-rss:0kB, shmem-rss:0kB
+Jan 21 06:46:59 localhost kernel: [13589481.099025] systemd-journal invoked oom-killer: gfp_mask=0x6200ca(GFP_HIGHUSER_MOVABLE), nodemask=(null), order=0, oom_score_adj=0
+Jan 21 06:46:59 localhost kernel: [13589481.099027] systemd-journal cpuset=/ mems_allowed=0
+Jan 21 06:46:59 localhost kernel: [13589481.099032] CPU: 0 PID: 6664 Comm: systemd-journal Not tainted 4.19.0-16-amd64 #1 Debian 4.19.181-1
+Jan 21 06:46:59 localhost kernel: [13589481.099032] Hardware name: Vultr VC2, BIOS  
+Jan 21 06:46:59 localhost kernel: [13589481.099033] Call Trace:
+Jan 21 06:46:59 localhost kernel: [13589481.099040]  dump_stack+0x66/0x81
+Jan 21 06:46:59 localhost kernel: [13589481.099043]  dump_header+0x6b/0x283
+Jan 21 06:46:59 localhost kernel: [13589481.099047]  ? do_try_to_free_pages+0x2ec/0x370
+Jan 21 06:46:59 localhost kernel: [13589481.099048]  oom_kill_process.cold.30+0xb/0x1cf
+Jan 21 06:46:59 localhost kernel: [13589481.099051]  ? oom_badness+0x23/0x140
+Jan 21 06:46:59 localhost kernel: [13589481.099052]  out_of_memory+0x1a5/0x450
+Jan 21 06:46:59 localhost kernel: [13589481.099055]  __alloc_pages_slowpath+0xbd8/0xcb0
+Jan 21 06:46:59 localhost kernel: [13589481.099057]  __alloc_pages_nodemask+0x28b/0x2b0
+Jan 21 06:46:59 localhost kernel: [13589481.099059]  filemap_fault+0x333/0x780
+Jan 21 06:46:59 localhost kernel: [13589481.099064]  ? alloc_set_pte+0xf2/0x560
+Jan 21 06:46:59 localhost kernel: [13589481.099067]  ? __schedule+0x2a7/0x840
+Jan 21 06:46:59 localhost kernel: [13589481.099069]  ? filemap_map_pages+0x1ed/0x3a0
+Jan 21 06:46:59 localhost kernel: [13589481.099092]  ext4_filemap_fault+0x2c/0x40 [ext4]
+Jan 21 06:46:59 localhost kernel: [13589481.099095]  __do_fault+0x36/0x130
+Jan 21 06:46:59 localhost kernel: [13589481.099097]  __handle_mm_fault+0xdf9/0x11f0
+Jan 21 06:46:59 localhost kernel: [13589481.099099]  handle_mm_fault+0xd6/0x200
+Jan 21 06:46:59 localhost kernel: [13589481.099102]  __do_page_fault+0x249/0x4f0
+Jan 21 06:46:59 localhost kernel: [13589481.099105]  ? async_page_fault+0x8/0x30
+Jan 21 06:46:59 localhost kernel: [13589481.099107]  async_page_fault+0x1e/0x30
+Jan 21 06:46:59 localhost kernel: [13589481.099110] RIP: 0033:0x7fa5ccf45470
+Jan 21 06:46:59 localhost kernel: [13589481.099115] Code: Bad RIP value.
+Jan 21 06:46:59 localhost kernel: [13589481.099116] RSP: 002b:00007ffc54d386d8 EFLAGS: 00010202
+Jan 21 06:46:59 localhost kernel: [13589481.099117] RAX: 000055f32b7ebf40 RBX: 000055f32b7ee300 RCX: 00000000004b91ee
+Jan 21 06:46:59 localhost kernel: [13589481.099118] RDX: 000055f32b7ee338 RSI: 000055f32b7ee300 RDI: 000055f32b7eac80
+Jan 21 06:46:59 localhost kernel: [13589481.099119] RBP: 0000000000000001 R08: 00000c5c07fcd211 R09: 003e9dc5b3353e0e
+Jan 21 06:46:59 localhost kernel: [13589481.099120] R10: 000fe8e0519bfc12 R11: 0000000000000202 R12: 000055f32b7ee300
+Jan 21 06:46:59 localhost kernel: [13589481.099121] R13: 0000000000000001 R14: 00007ffc54d3870c R15: 00007ffc54d38700
+Jan 21 06:46:59 localhost kernel: [13589481.099122] Mem-Info:
+Jan 21 06:46:59 localhost kernel: [13589481.099126] active_anon:191944 inactive_anon:7348 isolated_anon:0
+Jan 21 06:46:59 localhost kernel: [13589481.099126]  active_file:243 inactive_file:270 isolated_file:26
+Jan 21 06:46:59 localhost kernel: [13589481.099126]  unevictable:0 dirty:0 writeback:0 unstable:0
+Jan 21 06:46:59 localhost kernel: [13589481.099126]  slab_reclaimable:8746 slab_unreclaimable:16057
+Jan 21 06:46:59 localhost kernel: [13589481.099126]  mapped:3953 shmem:9401 pagetables:2608 bounce:0
+Jan 21 06:46:59 localhost kernel: [13589481.099126]  free:12199 free_pcp:359 free_cma:0
+Jan 21 06:46:59 localhost kernel: [13589481.099129] Node 0 active_anon:767776kB inactive_anon:29392kB active_file:972kB inactive_file:1080kB unevictable:0kB isolated(anon):0kB isolated(file):104kB mapped:15812kB dirty:0kB writeback:0kB shmem:37604kB shmem_thp: 0kB shmem_pmdmapped: 0kB anon_thp: 163840kB writeback_tmp:0kB unstable:0kB all_unreclaimable? no
+Jan 21 06:46:59 localhost kernel: [13589481.099130] Node 0 DMA free:4484kB min:728kB low:908kB high:1088kB active_anon:8824kB inactive_anon:4kB active_file:4kB inactive_file:8kB unevictable:0kB writepending:0kB present:15992kB managed:15908kB mlocked:0kB kernel_stack:112kB pagetables:168kB bounce:0kB free_pcp:0kB local_pcp:0kB free_cma:0kB
+Jan 21 06:46:59 localhost kernel: [13589481.099133] lowmem_reserve[]: 0 941 941 941 941
+Jan 21 06:46:59 localhost kernel: [13589481.099135] Node 0 DMA32 free:44312kB min:44324kB low:55404kB high:66484kB active_anon:758964kB inactive_anon:29388kB active_file:972kB inactive_file:1080kB unevictable:0kB writepending:0kB present:1032048kB managed:994988kB mlocked:0kB kernel_stack:6744kB pagetables:10264kB bounce:0kB free_pcp:1436kB local_pcp:1436kB free_cma:0kB
+Jan 21 06:46:59 localhost kernel: [13589481.099139] lowmem_reserve[]: 0 0 0 0 0
+Jan 21 06:46:59 localhost kernel: [13589481.099140] Node 0 DMA: 17*4kB (UME) 30*8kB (UE) 31*16kB (UME) 21*32kB (UE) 13*64kB (ME) 7*128kB (ME) 3*256kB (E) 1*512kB (M) 0*1024kB 0*2048kB 0*4096kB = 4484kB
+Jan 21 06:46:59 localhost kernel: [13589481.099147] Node 0 DMA32: 432*4kB (UME) 579*8kB (UME) 466*16kB (UME) 285*32kB (UME) 152*64kB (UME) 83*128kB (UME) 4*256kB (ME) 0*512kB 0*1024kB 0*2048kB 0*4096kB = 44312kB
+Jan 21 06:46:59 localhost kernel: [13589481.099154] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=1048576kB
+Jan 21 06:46:59 localhost kernel: [13589481.099155] Node 0 hugepages_total=0 hugepages_free=0 hugepages_surp=0 hugepages_size=2048kB
+Jan 21 06:46:59 localhost kernel: [13589481.099156] 9933 total pagecache pages
+Jan 21 06:46:59 localhost kernel: [13589481.099157] 0 pages in swap cache
+Jan 21 06:46:59 localhost kernel: [13589481.099158] Swap cache stats: add 0, delete 0, find 0/0
+Jan 21 06:46:59 localhost kernel: [13589481.099158] Free swap  = 0kB
+Jan 21 06:46:59 localhost kernel: [13589481.099159] Total swap = 0kB
+Jan 21 06:46:59 localhost kernel: [13589481.099159] 262010 pages RAM
+Jan 21 06:46:59 localhost kernel: [13589481.099159] 0 pages HighMem/MovableOnly
+Jan 21 06:46:59 localhost kernel: [13589481.099160] 9286 pages reserved
+Jan 21 06:46:59 localhost kernel: [13589481.099161] 0 pages hwpoisoned
+Jan 21 06:46:59 localhost kernel: [13589481.099161] Tasks state (memory values in pages):
+Jan 21 06:46:59 localhost kernel: [13589481.099161] [  pid  ]   uid  tgid total_vm      rss pgtables_bytes swapents oom_score_adj name
+Jan 21 06:46:59 localhost kernel: [13589481.099168] [    394]     0   394     2557       68    61440        0             0 cron
+Jan 21 06:46:59 localhost kernel: [13589481.099170] [    478]     0   478     1403       28    49152        0             0 agetty
+Jan 21 06:46:59 localhost kernel: [13589481.099172] [    631]     0   631     2372      330    61440        0             0 dhclient
+Jan 21 06:46:59 localhost kernel: [13589481.099175] [  27896]     0 27896     2372      325    53248        0             0 dhclient
+Jan 21 06:46:59 localhost kernel: [13589481.099177] [  24255]  1001 24255     5317      385    73728        0             0 systemd
+Jan 21 06:46:59 localhost kernel: [13589481.099178] [  24256]  1001 24256    42985      675   102400        0             0 (sd-pam)
+Jan 21 06:46:59 localhost kernel: [13589481.099180] [  28118]     0 28118     1323       16    45056        0             0 tail
+Jan 21 06:46:59 localhost kernel: [13589481.099182] [  31730]     0 31730    56456      595    81920        0             0 rsyslogd
+Jan 21 06:46:59 localhost kernel: [13589481.099183] [  10752]     0 10752     1049       92    45056        0             0 dovecot
+Jan 21 06:46:59 localhost kernel: [13589481.099185] [  10762]   111 10762      978       57    40960        0             0 anvil
+Jan 21 06:46:59 localhost kernel: [13589481.099186] [  10763]     0 10763     1012       91    45056        0             0 log
+Jan 21 06:46:59 localhost kernel: [13589481.099188] [  10765]     0 10765     1322      319    49152        0             0 config
+Jan 21 06:46:59 localhost kernel: [13589481.099190] [  10774]   111 10774     1043       94    45056        0             0 stats
+Jan 21 06:46:59 localhost kernel: [13589481.099191] [   8431]     0  8431   222444    14102   495616        0          -500 dockerd
+Jan 21 06:46:59 localhost kernel: [13589481.099193] [   8436]     0  8436   188923     1970   237568        0          -500 docker-containe
+Jan 21 06:46:59 localhost kernel: [13589481.099195] [  10504]     0 10504   100107      101   102400        0          -500 docker-proxy
+Jan 21 06:46:59 localhost kernel: [13589481.099196] [  10519]     0 10519   118540      109   102400        0          -500 docker-proxy
+Jan 21 06:46:59 localhost kernel: [13589481.099198] [  10544]     0 10544   177324      347   155648        0          -999 docker-containe
+Jan 21 06:46:59 localhost kernel: [13589481.099200] [  10600]   100 10600      402       35    45056        0             0 rabbitmq-server
+Jan 21 06:46:59 localhost kernel: [13589481.099201] [  10867]   100 10867      722      535    49152        0             0 epmd
+Jan 21 06:46:59 localhost kernel: [13589481.099203] [  11090]   100 11090   425072    19362   323584        0             0 beam.smp
+Jan 21 06:46:59 localhost kernel: [13589481.099205] [  11217]   100 11217      194        7    45056        0             0 inet_gethost
+Jan 21 06:46:59 localhost kernel: [13589481.099206] [  11218]   100 11218      194        9    45056        0             0 inet_gethost
+Jan 21 06:46:59 localhost kernel: [13589481.099208] [   6243]     0  6243     5450      197    65536        0         -1000 systemd-udevd
+Jan 21 06:46:59 localhost kernel: [13589481.099209] [   6251]     0  6251     1796       30    40960        0             0 rdnssd
+Jan 21 06:46:59 localhost kernel: [13589481.099211] [   6252]   107  6252     1888       40    45056        0             0 rdnssd
+Jan 21 06:46:59 localhost kernel: [13589481.099213] [  12545]     0 12545   309546     2496   217088        0             0 gcsfuse
+Jan 21 06:46:59 localhost kernel: [13589481.099214] [  21378]     0 21378   309546     1871   208896        0             0 gcsfuse
+Jan 21 06:46:59 localhost kernel: [13589481.099216] [  24595]     0 24595   309546     1889   196608        0             0 gcsfuse
+Jan 21 06:46:59 localhost kernel: [13589481.099217] [  31986]     0 31986   309546     1882   200704        0             0 gcsfuse
+Jan 21 06:46:59 localhost kernel: [13589481.099219] [   7969]     0  7969   326763    11405   348160        0             0 gcsfuse
+Jan 21 06:46:59 localhost kernel: [13589481.099221] [  11384]     0 11384   326763     9561   348160        0             0 gcsfuse
+Jan 21 06:46:59 localhost kernel: [13589481.099222] [   5566]     0  5566   343788    17781   532480        0             0 gcsfuse
+Jan 21 06:46:59 localhost kernel: [13589481.099224] [   6640]   104  6640     2314      195    57344        0          -900 dbus-daemon
+Jan 21 06:46:59 localhost kernel: [13589481.099225] [   6664]     0  6664    13778     4758   131072        0             0 systemd-journal
+Jan 21 06:46:59 localhost kernel: [13589481.099227] [   6665]     0  6665     4975      368    77824        0             0 systemd-logind
+Jan 21 06:46:59 localhost kernel: [13589481.099238] [   6667]     0  6667    28022     1915   110592        0             0 unattended-upgr
+Jan 21 06:46:59 localhost kernel: [13589481.099240] [  12398]   110 12398   313799    16991   405504        0             0 mysqld
+Jan 21 06:46:59 localhost kernel: [13589481.099241] [  12984]   105 12984    19198      152    65536        0             0 ntpd
+Jan 21 06:46:59 localhost kernel: [13589481.099244] [  12594]     0 12594    54229     2210   176128        0             0 apache2
+Jan 21 06:46:59 localhost kernel: [13589481.099246] [   5986]     0  5986   309482     1639   196608        0             0 gcsfuse
+Jan 21 06:46:59 localhost kernel: [13589481.099247] [   6206]     0  6206     6033     2993    90112        0             0 ssh
+Jan 21 06:46:59 localhost kernel: [13589481.099249] [   6207]     0  6207   111869      586    94208        0             0 sshfs
+Jan 21 06:46:59 localhost kernel: [13589481.099251] [   8086]     0  8086   326779    10995   380928        0             0 gcsfuse
+Jan 21 06:46:59 localhost kernel: [13589481.099253] [  30247]     0 30247   309482     1513   204800        0             0 gcsfuse
+Jan 21 06:46:59 localhost kernel: [13589481.099254] [  31861]     0 31861     3963      217    69632        0         -1000 sshd
+Jan 21 06:46:59 localhost kernel: [13589481.099255] [  31943]   114 31943    53809     3126   159744        0          -900 postgres
+Jan 21 06:46:59 localhost kernel: [13589481.099256] [  31951]   114 31951    53840      895   139264        0             0 postgres
+Jan 21 06:46:59 localhost kernel: [13589481.099257] [  31952]   114 31952    53809      870   139264        0             0 postgres
+Jan 21 06:46:59 localhost kernel: [13589481.099259] [  31953]   114 31953    53809     1558   135168        0             0 postgres
+Jan 21 06:46:59 localhost kernel: [13589481.099260] [  31954]   114 31954    53909      794   147456        0             0 postgres
+Jan 21 06:46:59 localhost kernel: [13589481.099261] [  31955]   114 31955    17570      499   118784        0             0 postgres
+Jan 21 06:46:59 localhost kernel: [13589481.099262] [  31956]   114 31956    53910      672   135168        0             0 postgres
+Jan 21 06:46:59 localhost kernel: [13589481.099263] [  32064]     0 32064    10868      213    81920        0             0 master
+Jan 21 06:46:59 localhost kernel: [13589481.099264] [  32066]   109 32066    10995      244    77824        0             0 qmgr
+Jan 21 06:46:59 localhost kernel: [13589481.099265] [  32222]   109 32222    11070      309    90112        0             0 tlsmgr
+Jan 21 06:46:59 localhost kernel: [13589481.099267] [  30448]     0 30448   326699     9922   339968        0             0 gcsfuse
+Jan 21 06:46:59 localhost kernel: [13589481.099269] [  16604]    33 16604    54383     1645   163840        0             0 apache2
+Jan 21 06:46:59 localhost kernel: [13589481.099270] [  16605]    33 16605    54318     1596   163840        0             0 apache2
+Jan 21 06:46:59 localhost kernel: [13589481.099271] [  16606]    33 16606    54383     1645   163840        0             0 apache2
+Jan 21 06:46:59 localhost kernel: [13589481.099272] [  16607]    33 16607    54383     1645   163840        0             0 apache2
+Jan 21 06:46:59 localhost kernel: [13589481.099273] [  16608]    33 16608    54383     1636   163840        0             0 apache2
+Jan 21 06:46:59 localhost kernel: [13589481.099274] [  22315]    33 22315    54383     1636   163840        0             0 apache2
+Jan 21 06:46:59 localhost kernel: [13589481.099275] [   8727]   109  8727    10958      214    86016        0             0 pickup
+Jan 21 06:46:59 localhost kernel: [13589481.099276] [  12995]     0 12995     4172      273    65536        0             0 sshd
+Jan 21 06:46:59 localhost kernel: [13589481.099278] [  13062]  1001 13062     4243      284    65536        0             0 sshd
+Jan 21 06:46:59 localhost kernel: [13589481.099279] [  13063]  1001 13063     1979      368    61440        0             0 bash
+Jan 21 06:46:59 localhost kernel: [13589481.099280] [  13658]     0 13658     2571      107    61440        0             0 sudo
+Jan 21 06:46:59 localhost kernel: [13589481.099281] [  13659]     0 13659     2672     1056    57344        0             0 bash
+Jan 21 06:46:59 localhost kernel: [13589481.099283] [  14277]     0 14277   309482     1429   196608        0             0 gcsfuse
+Jan 21 06:46:59 localhost kernel: [13589481.099284] [  15848]     0 15848   214582    15726  2170880        0             0 npm install ans
+Jan 21 06:46:59 localhost kernel: [13589481.099285] [  15920]     0 15920     4172      274    65536        0             0 sshd
+Jan 21 06:46:59 localhost kernel: [13589481.099287] [  15935]  1001 15935     4243      282    65536        0             0 sshd
+Jan 21 06:46:59 localhost kernel: [13589481.099288] [  15936]  1001 15936     1979      363    53248        0             0 bash
+Jan 21 06:46:59 localhost kernel: [13589481.099289] [  15983]     0 15983     2629      107    53248        0             0 sudo
+Jan 21 06:46:59 localhost kernel: [13589481.099291] [  15990]     0 15990     2672     1055    57344        0             0 bash
+Jan 21 06:46:59 localhost kernel: [13589481.099292] [  16164]   109 16164    10958      217    90112        0             0 anvil
+Jan 21 06:46:59 localhost kernel: [13589481.099293] [  16722]     0 16722   309418     1513   192512        0             0 gcsfuse
+Jan 21 06:46:59 localhost kernel: [13589481.099294] [  17050]     0 17050   150715     6270   811008        0             0 node
+Jan 21 06:46:59 localhost kernel: [13589481.099298] [  17069]     0 17069    88353    10395   667648        0             0 node
+Jan 21 06:46:59 localhost kernel: [13589481.099299] [  17078]   109 17078    11130      300    77824        0             0 smtpd
+Jan 21 06:46:59 localhost kernel: [13589481.099300] [  17082]   109 17082    10958      216    86016        0             0 proxymap
+Jan 21 06:46:59 localhost kernel: [13589481.099301] [  17091]   109 17091    10961      218    86016        0             0 trivial-rewrite
+Jan 21 06:46:59 localhost kernel: [13589481.099302] [  17095]     0 17095    10903      207    81920        0             0 cleanup
+Jan 21 06:46:59 localhost kernel: [13589481.099303] [  17096]     0 17096     3963      210    73728        0             0 sshd
+Jan 21 06:46:59 localhost kernel: [13589481.099304] [  17097]     0 17097     3963      211    73728        0             0 sshd
+Jan 21 06:46:59 localhost kernel: [13589481.099305] [  17098]   100 17098   403887     4424   126976        0             0 beam.smp
+Jan 21 06:46:59 localhost kernel: [13589481.099306] [  17109]     0 17109     1078       19    40960        0             0 sshd
+Jan 21 06:46:59 localhost kernel: [13589481.099307] Out of memory: Kill process 11090 (beam.smp) score 76 or sacrifice child
+Jan 21 06:46:59 localhost kernel: [13589481.101545] Killed process 11090 (beam.smp) total-vm:1700288kB, anon-rss:77448kB, file-rss:0kB, shmem-rss:0kB
+Jan 21 06:46:59 localhost kernel: [13589481.108324] oom_reaper: reaped process 11090 (beam.smp), now anon-rss:0kB, file-rss:0kB, shmem-rss:0kB
+Jan 21 06:46:59 localhost postfix/smtpd[17078]: 343C4F017: client=89.236.253.42.ip.tps.uz[89.236.253.42]
+Jan 21 06:46:59 localhost postfix/smtpd[17078]: lost connection after RCPT from 89.236.253.42.ip.tps.uz[89.236.253.42]
+Jan 21 06:46:59 localhost postfix/smtpd[17078]: disconnect from 89.236.253.42.ip.tps.uz[89.236.253.42] ehlo=1 mail=1 rcpt=0/1 commands=2/3
+Jan 21 06:46:59 localhost dockerd[8431]: time="2022-01-21T06:46:59.376305369Z" level=info msg="worker q1i0m3xoyyfgv2k6unxikqkj9 was successfully registered" method="(*Dispatcher).register"
+Jan 21 06:46:59 localhost dockerd[8431]: time="2022-01-21T06:46:59.584457546Z" level=info msg="manager selected by agent for new session: { }" module=node/agent node.id=q1i0m3xoyyfgv2k6unxikqkj9
+Jan 21 06:46:59 localhost dockerd[8431]: time="2022-01-21T06:46:59.587868714Z" level=info msg="waiting 522.841218ms before registering session" module=node/agent node.id=q1i0m3xoyyfgv2k6unxikqkj9
+Jan 21 06:46:59 localhost dockerd[8431]: time="2022-01-21T06:46:59.760818495Z" level=info msg="shim reaped" id=1920a29c17471d9fe114e68b7a85d4b1d5e200343fb96b7f9b0eacaeeef8b579
+Jan 21 06:46:59 localhost dockerd[8431]: time="2022-01-21T06:46:59.768828955Z" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Jan 21 06:46:59 localhost kernel: [13589481.901429] br-ae25a847f7d8: port 1(vethf169d03) entered disabled state
+Jan 21 06:46:59 localhost kernel: [13589481.901691] veth4e69c6c: renamed from eth0
+Jan 21 06:46:59 localhost kernel: [13589481.916612] br-ae25a847f7d8: port 1(vethf169d03) entered disabled state
+Jan 21 06:46:59 localhost kernel: [13589481.921106] device vethf169d03 left promiscuous mode
+Jan 21 06:46:59 localhost kernel: [13589481.921111] br-ae25a847f7d8: port 1(vethf169d03) entered disabled state
+Jan 21 06:46:59 localhost systemd-udevd[17243]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Jan 21 06:46:59 localhost systemd[24255]: run-docker-netns-f7ec5168d720.mount: Succeeded.
+Jan 21 06:46:59 localhost systemd[1]: run-docker-netns-f7ec5168d720.mount: Succeeded.
+Jan 21 06:46:59 localhost systemd[24255]: var-lib-docker-containers-1920a29c17471d9fe114e68b7a85d4b1d5e200343fb96b7f9b0eacaeeef8b579-mounts-shm.mount: Succeeded.
+Jan 21 06:46:59 localhost systemd[1]: var-lib-docker-containers-1920a29c17471d9fe114e68b7a85d4b1d5e200343fb96b7f9b0eacaeeef8b579-mounts-shm.mount: Succeeded.
+Jan 21 06:46:59 localhost systemd-udevd[17243]: link_config: could not get ethtool features for veth4e69c6c
+Jan 21 06:46:59 localhost systemd-udevd[17243]: Could not set offload features of veth4e69c6c: No such device
+Jan 21 06:46:59 localhost systemd-udevd[17243]: Using default interface naming scheme 'v240'.
+Jan 21 06:46:59 localhost systemd[1]: var-lib-docker-overlay2-dcc70cb65b432d88bef093f80eb407ba61dadd478c38899b21df007082a4fc9f-merged.mount: Succeeded.
+Jan 21 06:46:59 localhost systemd[24255]: var-lib-docker-overlay2-dcc70cb65b432d88bef093f80eb407ba61dadd478c38899b21df007082a4fc9f-merged.mount: Succeeded.
+Jan 21 06:47:00 localhost dockerd[8431]: time="2022-01-21T06:47:00.210889694Z" level=info msg="worker q1i0m3xoyyfgv2k6unxikqkj9 was successfully registered" method="(*Dispatcher).register"
+Jan 21 06:47:02 localhost ntpd[12984]: Deleting interface #5 br-ae25a847f7d8, 172.18.0.1#123, interface stats: received=0, sent=0, dropped=0, active_time=8899779 secs
+Jan 21 06:47:02 localhost ntpd[12984]: Deleting interface #9 br-ae25a847f7d8, fe80::42:56ff:fed9:d12a%4#123, interface stats: received=0, sent=0, dropped=0, active_time=8899779 secs
+Jan 21 06:47:02 localhost ntpd[12984]: Deleting interface #10 vethf169d03, fe80::2449:7ff:fed1:c228%6#123, interface stats: received=0, sent=0, dropped=0, active_time=8899779 secs
+Jan 21 06:47:07 localhost kernel: [13589489.187692] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=222.186.59.201 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=237 ID=54321 PROTO=TCP SPT=34544 DPT=999 WINDOW=65535 RES=0x00 SYN URGP=0 
+Jan 21 06:47:19 localhost dockerd[8431]: time="2022-01-21T06:47:19.503197973Z" level=info msg="NetworkDB stats plemma(b3be9f6424e0) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+Jan 21 06:47:39 localhost kernel: [13589521.974319] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=8.142.41.32 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=46 ID=49495 PROTO=TCP SPT=44638 DPT=23 WINDOW=29375 RES=0x00 SYN URGP=0 
+Jan 21 06:47:43 localhost kernel: [13589525.135613] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=51.12.87.186 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=231 ID=13065 PROTO=TCP SPT=41115 DPT=24558 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jan 21 06:47:48 localhost kernel: [13589530.852042] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=51.12.87.186 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=231 ID=42508 PROTO=TCP SPT=41115 DPT=24872 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jan 21 06:48:00 localhost systemd[1]: Started Session 31136 of user adam.
+Jan 21 06:48:06 localhost s3fs[17768]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
+Jan 21 06:48:07 localhost s3fs[17768]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
+Jan 21 06:48:07 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
+Jan 21 06:48:07 localhost systemd[24255]: mnt-amzn2.mount: Succeeded.
