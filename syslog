@@ -1871,3 +1871,96 @@ Jan 21 06:27:24 localhost s3fs[13662]: init v1.84(commit:unknown) with GnuTLS(gc
 Jan 21 06:27:25 localhost s3fs[13662]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
 Jan 21 06:27:25 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
 Jan 21 06:27:25 localhost systemd[24255]: mnt-amzn2.mount: Succeeded.
+Jan 21 06:27:41 localhost kernel: [13588323.557679] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=192.241.217.178 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=47160 DPT=8181 WINDOW=65535 RES=0x00 SYN URGP=0 
+Jan 21 06:28:16 localhost kernel: [13588358.412870] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=193.3.19.132 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=30416 PROTO=TCP SPT=48579 DPT=52290 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jan 21 06:28:16 localhost kernel: [13588358.416462] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=89.248.165.60 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=238 ID=54321 PROTO=TCP SPT=44611 DPT=1191 WINDOW=65535 RES=0x00 SYN URGP=0 
+Jan 21 06:28:20 localhost kernel: [13588362.600331] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=174.138.61.44 DST=158.247.223.84 LEN=44 TOS=0x00 PREC=0x00 TTL=240 ID=15212 PROTO=TCP SPT=57549 DPT=3000 WINDOW=65535 RES=0x00 SYN URGP=0 
+Jan 21 06:28:44 localhost kernel: [13588386.224906] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=79.124.62.34 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=240 ID=21061 PROTO=TCP SPT=43361 DPT=13934 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jan 21 06:29:25 localhost postfix/anvil[13334]: statistics: max connection rate 1/60s for (smtp:185.232.164.62) at Jan 21 06:24:42
+Jan 21 06:29:25 localhost postfix/anvil[13334]: statistics: max connection count 1 for (smtp:185.232.164.62) at Jan 21 06:24:42
+Jan 21 06:29:25 localhost postfix/anvil[13334]: statistics: max cache size 1 at Jan 21 06:24:42
+Jan 21 06:29:27 localhost kernel: [13588429.256527] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=178.128.88.244 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=18761 PROTO=TCP SPT=42266 DPT=7822 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jan 21 06:29:36 localhost kernel: [13588438.399771] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=175.211.200.222 DST=158.247.223.84 LEN=52 TOS=0x00 PREC=0x00 TTL=115 ID=29937 DF PROTO=TCP SPT=61626 DPT=25 WINDOW=8192 RES=0x00 SYN URGP=0 
+Jan 21 06:29:36 localhost postfix/smtpd[13861]: connect from unknown[175.211.200.222]
+Jan 21 06:29:36 localhost postfix/trivial-rewrite[13864]: warning: do not list domain emplifyhr.com in BOTH mydestination and virtual_alias_domains
+Jan 21 06:29:36 localhost postfix/trivial-rewrite[13864]: warning: do not list domain emplifyhr.com in BOTH mydestination and virtual_alias_domains
+Jan 21 06:29:36 localhost postfix/smtpd[13861]: 95898512: client=unknown[175.211.200.222]
+Jan 21 06:29:36 localhost postfix/cleanup[13865]: 95898512: message-id=<A840B956CF51AF20C831DE47D927A840@4ODYGEQ>
+Jan 21 06:29:36 localhost postfix/qmgr[32066]: 95898512: from=<6090401@emplifyhr.com>, size=5552, nrcpt=3 (queue active)
+Jan 21 06:29:36 localhost postfix/trivial-rewrite[13864]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Jan 21 06:29:36 localhost postfix/local[13867]: 95898512: to=<adam@localhost>, orig_to=<6090401@emplifyhr.com>, relay=local, delay=0.1, delays=0.08/0.02/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Jan 21 06:29:36 localhost postfix/local[13867]: 95898512: to=<ftm@fromthemachine.org>, orig_to=<6090401@emplifyhr.com>, relay=local, delay=0.12, delays=0.08/0.02/0/0.02, dsn=5.1.1, status=bounced (unknown user: "ftm")
+Jan 21 06:29:36 localhost postfix/smtpd[13861]: disconnect from unknown[175.211.200.222] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+Jan 21 06:29:38 localhost postfix/smtp[13866]: 95898512: to=<0xc514f094370cfc5ee45a1dd9b72bb9675efe266f@ethmail.cc>, orig_to=<6090401@emplifyhr.com>, relay=smtp-relay.gmail.com[74.125.204.28]:587, delay=1.6, delays=0.08/0.03/0.94/0.57, dsn=2.0.0, status=sent (250 2.0.0 OK  1642746578 d16sm380391ote.4 - gsmtp)
+Jan 21 06:29:38 localhost postfix/cleanup[13865]: 362BBF019: message-id=<20220121062938.362BBF019@plemma.cc>
+Jan 21 06:29:38 localhost postfix/qmgr[32066]: 362BBF019: from=<>, size=7403, nrcpt=3 (queue active)
+Jan 21 06:29:38 localhost postfix/trivial-rewrite[13864]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Jan 21 06:29:38 localhost postfix/bounce[13869]: 95898512: sender non-delivery notification: 362BBF019
+Jan 21 06:29:38 localhost postfix/local[13868]: 362BBF019: to=<adam@localhost>, orig_to=<6090401@emplifyhr.com>, relay=local, delay=0.01, delays=0/0/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Jan 21 06:29:38 localhost postfix/qmgr[32066]: 95898512: removed
+Jan 21 06:29:38 localhost postfix/smtp[13866]: connect to smtp-relay.gmail.com[2404:6800:4008:c04::1c]:587: Network is unreachable
+Jan 21 06:29:38 localhost postfix/local[13867]: 362BBF019: to=<ftm@fromthemachine.org>, orig_to=<6090401@emplifyhr.com>, relay=local, delay=0.01, delays=0/0/0/0.01, dsn=5.1.1, status=bounced (unknown user: "ftm")
+Jan 21 06:29:40 localhost kernel: [13588442.146542] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=79.124.62.130 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=240 ID=58051 PROTO=TCP SPT=44498 DPT=34866 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jan 21 06:29:40 localhost postfix/smtp[13866]: 362BBF019: to=<0xc514f094370cfc5ee45a1dd9b72bb9675efe266f@ethmail.cc>, orig_to=<6090401@emplifyhr.com>, relay=smtp-relay.gmail.com[74.125.204.28]:587, delay=2.2, delays=0/0/1.5/0.63, dsn=2.0.0, status=sent (250 2.0.0 OK  1642746580 bm21sm1498231qkb.3 - gsmtp)
+Jan 21 06:29:40 localhost postfix/qmgr[32066]: 362BBF019: removed
+Jan 21 06:30:48 localhost kernel: [13588510.144201] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=85.105.147.146 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=44 ID=46337 PROTO=TCP SPT=42693 DPT=23 WINDOW=52896 RES=0x00 SYN URGP=0 
+Jan 21 06:30:56 localhost kernel: [13588518.131889] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=93.177.217.190 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=43 ID=19476 DF PROTO=TCP SPT=45363 DPT=5555 WINDOW=65535 RES=0x00 SYN URGP=0 
+Jan 21 06:30:57 localhost kernel: [13588519.127830] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=93.177.217.190 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=43 ID=19477 DF PROTO=TCP SPT=45363 DPT=5555 WINDOW=65535 RES=0x00 SYN URGP=0 
+Jan 21 06:30:59 localhost kernel: [13588521.128043] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=93.177.217.190 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=43 ID=19478 DF PROTO=TCP SPT=45363 DPT=5555 WINDOW=65535 RES=0x00 SYN URGP=0 
+Jan 21 06:31:24 localhost kernel: [13588546.873005] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=45.146.166.115 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=245 ID=11280 PROTO=TCP SPT=58971 DPT=20734 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jan 21 06:31:47 localhost kernel: [13588569.218477] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=79.124.62.130 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=240 ID=8072 PROTO=TCP SPT=44498 DPT=37994 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jan 21 06:32:19 localhost dockerd[8431]: time="2022-01-21T06:32:19.104249208Z" level=info msg="NetworkDB stats plemma(b3be9f6424e0) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+Jan 21 06:32:19 localhost kernel: [13588601.282575] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=167.248.133.71 DST=158.247.223.84 LEN=44 TOS=0x00 PREC=0x00 TTL=39 ID=20647 PROTO=TCP SPT=1365 DPT=3083 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jan 21 06:32:53 localhost kernel: [13588635.486117] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=54.38.71.123 DST=158.247.223.84 LEN=82 TOS=0x00 PREC=0x00 TTL=46 ID=47511 DF PROTO=UDP SPT=5060 DPT=5353 LEN=62 
+Jan 21 06:32:57 localhost kernel: [13588639.047380] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=143.244.138.190 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=40027 PROTO=TCP SPT=46428 DPT=80 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jan 21 06:32:57 localhost postfix/anvil[13863]: statistics: max connection rate 1/60s for (smtp:175.211.200.222) at Jan 21 06:29:36
+Jan 21 06:32:57 localhost postfix/anvil[13863]: statistics: max connection count 1 for (smtp:175.211.200.222) at Jan 21 06:29:36
+Jan 21 06:32:57 localhost postfix/anvil[13863]: statistics: max cache size 1 at Jan 21 06:29:36
+Jan 21 06:32:59 localhost kernel: [13588641.652543] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=167.94.145.18 DST=158.247.223.84 LEN=44 TOS=0x00 PREC=0x00 TTL=35 ID=14754 PROTO=TCP SPT=18211 DPT=11841 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jan 21 06:33:49 localhost kernel: [13588691.296083] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=185.222.57.195 DST=158.247.223.84 LEN=52 TOS=0x02 PREC=0x00 TTL=114 ID=5097 DF PROTO=TCP SPT=62288 DPT=25 WINDOW=8192 RES=0x00 CWR ECE SYN URGP=0 
+Jan 21 06:33:49 localhost postfix/smtpd[14429]: warning: hostname hosted-by.rootlayer.net does not resolve to address 185.222.57.195
+Jan 21 06:33:49 localhost postfix/smtpd[14429]: connect from unknown[185.222.57.195]
+Jan 21 06:33:52 localhost postfix/smtpd[14429]: disconnect from unknown[185.222.57.195] ehlo=1 auth=0/1 rset=1 quit=1 commands=3/4
+Jan 21 06:33:58 localhost kernel: [13588700.325515] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=45.134.26.232 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=245 ID=40797 PROTO=TCP SPT=58842 DPT=50222 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jan 21 06:34:38 localhost kernel: [13588740.210363] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=162.142.125.160 DST=158.247.223.84 LEN=44 TOS=0x00 PREC=0x00 TTL=40 ID=25344 PROTO=TCP SPT=7532 DPT=5953 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jan 21 06:34:41 localhost kernel: [13588743.380678] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=209.85.219.200 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=57 ID=52265 PROTO=TCP SPT=48001 DPT=25 WINDOW=65535 RES=0x00 SYN URGP=0 
+Jan 21 06:34:41 localhost postfix/smtpd[14429]: connect from mail-yb1-f200.google.com[209.85.219.200]
+Jan 21 06:34:42 localhost postfix/smtpd[14429]: NOQUEUE: reject: RCPT from mail-yb1-f200.google.com[209.85.219.200]: 454 4.7.1 <unsubscribe@liber-t.xyz>: Relay access denied; from=<bril@maddrhythms.com> to=<unsubscribe@liber-t.xyz> proto=ESMTP helo=<mail-yb1-f200.google.com>
+Jan 21 06:34:43 localhost postfix/smtpd[14429]: disconnect from mail-yb1-f200.google.com[209.85.219.200] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 21 06:34:44 localhost kernel: [13588746.851053] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=5.134.192.89 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=46 ID=9381 DF PROTO=TCP SPT=35333 DPT=8080 WINDOW=14600 RES=0x00 SYN URGP=0 
+Jan 21 06:35:01 localhost CRON[14516]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 21 06:35:10 localhost kernel: [13588772.843659] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=146.88.240.4 DST=158.247.223.84 LEN=53 TOS=0x00 PREC=0x00 TTL=243 ID=54321 PROTO=UDP SPT=57141 DPT=27015 LEN=33 
+Jan 21 06:35:41 localhost kernel: [13588803.589983] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=161.35.199.104 DST=158.247.223.84 LEN=48 TOS=0x00 PREC=0x00 TTL=112 ID=23386 PROTO=TCP SPT=47102 DPT=3322 WINDOW=65535 RES=0x00 SYN URGP=0 
+Jan 21 06:35:52 localhost kernel: [13588814.789756] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=42.194.209.188 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=237 ID=54084 PROTO=TCP SPT=45803 DPT=2376 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jan 21 06:36:11 localhost kernel: [13588833.309123] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=79.124.62.34 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=240 ID=63840 PROTO=TCP SPT=43361 DPT=15779 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jan 21 06:36:19 localhost kernel: [13588841.312970] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=159.223.145.92 DST=158.247.223.84 LEN=106 TOS=0x00 PREC=0x00 TTL=49 ID=44513 DF PROTO=UDP SPT=30301 DPT=8083 LEN=86 
+Jan 21 06:37:01 localhost dockerd[8431]: time="2022-01-21T06:37:01.140045263Z" level=warning msg="failed to retrieve runc version: exit status 2"
+Jan 21 06:37:19 localhost dockerd[8431]: time="2022-01-21T06:37:19.123470799Z" level=info msg="NetworkDB stats plemma(b3be9f6424e0) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+Jan 21 06:37:20 localhost dockerd[8431]: time="2022-01-21T06:37:20.157638621Z" level=warning msg="failed to retrieve runc version: exit status 2"
+Jan 21 06:37:52 localhost kernel: [13588934.388446] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=54.39.207.213 DST=158.247.223.84 LEN=101 TOS=0x00 PREC=0x00 TTL=48 ID=3607 DF PROTO=UDP SPT=30301 DPT=8000 LEN=81 
+Jan 21 06:38:03 localhost postfix/anvil[14431]: statistics: max connection rate 1/60s for (smtp:185.222.57.195) at Jan 21 06:33:49
+Jan 21 06:38:03 localhost postfix/anvil[14431]: statistics: max connection count 1 for (smtp:185.222.57.195) at Jan 21 06:33:49
+Jan 21 06:38:03 localhost postfix/anvil[14431]: statistics: max cache size 2 at Jan 21 06:34:41
+Jan 21 06:38:17 localhost kernel: [13588959.189683] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=167.99.67.83 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=51902 PROTO=TCP SPT=47007 DPT=6285 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jan 21 06:38:19 localhost kernel: [13588961.390519] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=45.143.203.2 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=238 ID=31552 PROTO=TCP SPT=40321 DPT=3362 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jan 21 06:38:20 localhost kernel: [13588962.231424] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=211.59.68.16 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=105 ID=256 PROTO=TCP SPT=6000 DPT=64333 WINDOW=16384 RES=0x00 SYN URGP=0 
+Jan 21 06:38:20 localhost kernel: [13588962.349916] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=167.94.145.24 DST=158.247.223.84 LEN=44 TOS=0x00 PREC=0x00 TTL=35 ID=53384 PROTO=TCP SPT=37366 DPT=47840 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jan 21 06:38:22 localhost kernel: [13588964.091572] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=79.124.62.78 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=240 ID=2887 PROTO=TCP SPT=44497 DPT=23840 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jan 21 06:38:45 localhost kernel: [13588987.792745] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=79.124.62.130 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=240 ID=457 PROTO=TCP SPT=44498 DPT=38360 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jan 21 06:39:00 localhost kernel: [13589002.871850] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=79.124.62.130 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=240 ID=22962 PROTO=TCP SPT=44498 DPT=39320 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jan 21 06:39:01 localhost CRON[15679]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Jan 21 06:39:01 localhost systemd[1]: Starting Clean php session files...
+Jan 21 06:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 21 06:39:01 localhost systemd[1]: Started Clean php session files.
+Jan 21 06:39:40 localhost kernel: [13589042.535700] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=79.124.62.82 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=240 ID=46575 PROTO=TCP SPT=44493 DPT=12006 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jan 21 06:40:08 localhost kernel: [13589070.942090] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=89.248.165.248 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=54321 PROTO=TCP SPT=56369 DPT=8443 WINDOW=65535 RES=0x00 SYN URGP=0 
+Jan 21 06:40:26 localhost kernel: [13589088.079742] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=89.248.165.248 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=238 ID=54321 PROTO=TCP SPT=56664 DPT=8080 WINDOW=65535 RES=0x00 SYN URGP=0 
+Jan 21 06:40:48 localhost kernel: [13589110.087212] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=185.156.73.91 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=50955 PROTO=TCP SPT=50792 DPT=20889 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jan 21 06:41:03 localhost kernel: [13589126.014557] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=206.189.86.209 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=242 ID=11672 PROTO=TCP SPT=47159 DPT=1148 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jan 21 06:41:22 localhost systemd[1]: Started Session 31134 of user adam.
+Jan 21 06:41:42 localhost s3fs[15994]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
+Jan 21 06:41:43 localhost s3fs[15994]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
+Jan 21 06:41:43 localhost systemd[24255]: mnt-amzn2.mount: Succeeded.
+Jan 21 06:41:43 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
+Jan 21 06:42:10 localhost kernel: [13589192.471979] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=31.202.43.47 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=47 ID=10845 DF PROTO=TCP SPT=39526 DPT=5555 WINDOW=65535 RES=0x00 SYN URGP=0 
+Jan 21 06:42:11 localhost kernel: [13589193.495131] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=31.202.43.47 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=47 ID=10846 DF PROTO=TCP SPT=39526 DPT=5555 WINDOW=65535 RES=0x00 SYN URGP=0 

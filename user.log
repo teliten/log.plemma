@@ -14177,3 +14177,9 @@ Jan 21 06:22:18 localhost dockerd[8431]: time="2022-01-21T06:22:18.705451755Z" l
 Jan 21 06:27:18 localhost dockerd[8431]: time="2022-01-21T06:27:18.903480173Z" level=info msg="NetworkDB stats plemma(b3be9f6424e0) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
 Jan 21 06:27:24 localhost s3fs[13662]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
 Jan 21 06:27:25 localhost s3fs[13662]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
+Jan 21 06:32:19 localhost dockerd[8431]: time="2022-01-21T06:32:19.104249208Z" level=info msg="NetworkDB stats plemma(b3be9f6424e0) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+Jan 21 06:37:01 localhost dockerd[8431]: time="2022-01-21T06:37:01.140045263Z" level=warning msg="failed to retrieve runc version: exit status 2"
+Jan 21 06:37:19 localhost dockerd[8431]: time="2022-01-21T06:37:19.123470799Z" level=info msg="NetworkDB stats plemma(b3be9f6424e0) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+Jan 21 06:37:20 localhost dockerd[8431]: time="2022-01-21T06:37:20.157638621Z" level=warning msg="failed to retrieve runc version: exit status 2"
+Jan 21 06:41:42 localhost s3fs[15994]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
+Jan 21 06:41:43 localhost s3fs[15994]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.

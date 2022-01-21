@@ -1011,3 +1011,9 @@ Jan 21 06:22:01 localhost systemd[24255]: mnt-amzn2.mount: Succeeded.
 Jan 21 06:22:01 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
 Jan 21 06:27:25 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
 Jan 21 06:27:25 localhost systemd[24255]: mnt-amzn2.mount: Succeeded.
+Jan 21 06:39:01 localhost systemd[1]: Starting Clean php session files...
+Jan 21 06:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 21 06:39:01 localhost systemd[1]: Started Clean php session files.
+Jan 21 06:41:22 localhost systemd[1]: Started Session 31134 of user adam.
+Jan 21 06:41:43 localhost systemd[24255]: mnt-amzn2.mount: Succeeded.
+Jan 21 06:41:43 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
