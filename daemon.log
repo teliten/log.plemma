@@ -1036,3 +1036,12 @@ Jan 21 06:47:02 localhost ntpd[12984]: Deleting interface #10 vethf169d03, fe80:
 Jan 21 06:48:00 localhost systemd[1]: Started Session 31136 of user adam.
 Jan 21 06:48:07 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
 Jan 21 06:48:07 localhost systemd[24255]: mnt-amzn2.mount: Succeeded.
+Jan 21 07:09:18 localhost systemd[1]: Starting Clean php session files...
+Jan 21 07:19:14 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 21 07:19:18 localhost systemd[1]: Started Clean php session files.
+Jan 21 07:39:15 localhost systemd[1]: Starting Clean php session files...
+Jan 21 07:41:36 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 21 07:41:36 localhost systemd[1]: Started Clean php session files.
+Jan 21 07:43:31 localhost systemd[1]: Started Session 31145 of user adam.
+Jan 21 07:43:37 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
+Jan 21 07:43:37 localhost systemd[24255]: mnt-amzn2.mount: Succeeded.

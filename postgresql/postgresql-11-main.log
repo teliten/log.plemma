@@ -346,3 +346,5 @@
 2022-01-21 03:20:30.611 UTC [31617] [unknown]@[unknown] LOG:  incomplete startup packet
 2022-01-21 03:20:33.985 UTC [31618] [unknown]@[unknown] LOG:  invalid length of startup packet
 2022-01-21 03:20:54.111 UTC [31621] [unknown]@[unknown] LOG:  incomplete startup packet
+2022-01-21 06:54:23.967 UTC [19175] [unknown]@[unknown] LOG:  could not receive data from client: Connection reset by peer
+2022-01-21 06:54:24.913 UTC [19175] [unknown]@[unknown] LOG:  incomplete startup packet
