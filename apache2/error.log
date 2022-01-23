@@ -1,2 +1,4 @@
-[Fri Jan 21 00:00:22.518854 2022] [mpm_prefork:notice] [pid 12594] AH00163: Apache/2.4.38 (Debian) configured -- resuming normal operations
-[Fri Jan 21 00:00:22.518896 2022] [core:notice] [pid 12594] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Jan 23 00:00:31.985856 2022] [mpm_prefork:notice] [pid 12594] AH00163: Apache/2.4.38 (Debian) configured -- resuming normal operations
+[Sun Jan 23 00:00:31.985909 2022] [core:notice] [pid 12594] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Jan 23 03:46:16.258642 2022] [php7:error] [pid 32451] [client 92.205.14.164:51214] script '/var/www/html/wp-login.php' not found or unable to stat
+[Sun Jan 23 05:02:00.051539 2022] [php7:error] [pid 30312] [client 8.141.58.239:49524] script '/var/www/html/wp-login.php' not found or unable to stat

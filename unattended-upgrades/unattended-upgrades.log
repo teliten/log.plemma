@@ -187,3 +187,25 @@
 2022-01-21 06:45:29,879 INFO Starting unattended upgrades script
 2022-01-21 06:45:29,880 INFO Allowed origins are: origin=Debian,codename=buster,label=Debian, origin=Debian,codename=buster,label=Debian-Security
 2022-01-21 06:45:34,694 INFO No packages found that can be upgraded unattended and no pending auto-removals
+2022-01-21 13:26:47,141 INFO Initial blacklist : 
+2022-01-21 13:26:47,142 INFO Initial whitelist: 
+2022-01-21 13:26:47,142 INFO Starting unattended upgrades script
+2022-01-21 13:26:47,142 INFO Allowed origins are: origin=Debian,codename=buster,label=Debian, origin=Debian,codename=buster,label=Debian-Security
+2022-01-22 03:15:24,092 INFO Initial blacklist : 
+2022-01-22 03:15:24,093 INFO Initial whitelist: 
+2022-01-22 03:15:24,093 INFO Starting unattended upgrades script
+2022-01-22 03:15:24,093 INFO Allowed origins are: origin=Debian,codename=buster,label=Debian, origin=Debian,codename=buster,label=Debian-Security
+2022-01-22 06:50:23,863 INFO Initial blacklist : 
+2022-01-22 06:50:23,864 INFO Initial whitelist: 
+2022-01-22 06:50:23,864 INFO Starting unattended upgrades script
+2022-01-22 06:50:23,864 INFO Allowed origins are: origin=Debian,codename=buster,label=Debian, origin=Debian,codename=buster,label=Debian-Security
+2022-01-22 06:50:24,823 INFO No packages found that can be upgraded unattended and no pending auto-removals
+2022-01-23 03:05:35,653 INFO Initial blacklist : 
+2022-01-23 03:05:35,658 INFO Initial whitelist: 
+2022-01-23 03:05:35,658 INFO Starting unattended upgrades script
+2022-01-23 03:05:35,658 INFO Allowed origins are: origin=Debian,codename=buster,label=Debian, origin=Debian,codename=buster,label=Debian-Security
+2022-01-23 06:01:46,419 INFO Initial blacklist : 
+2022-01-23 06:01:46,421 INFO Initial whitelist: 
+2022-01-23 06:01:46,421 INFO Starting unattended upgrades script
+2022-01-23 06:01:46,421 INFO Allowed origins are: origin=Debian,codename=buster,label=Debian, origin=Debian,codename=buster,label=Debian-Security
+2022-01-23 06:01:47,269 INFO No packages found that can be upgraded unattended and no pending auto-removals
