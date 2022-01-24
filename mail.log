@@ -5565,3 +5565,387 @@ Jan 24 12:08:48 localhost postfix/qmgr[32066]: 6C627EADE: removed
 Jan 24 12:12:08 localhost postfix/anvil[29120]: statistics: max connection rate 1/60s for (smtp:121.32.198.222) at Jan 24 12:08:26
 Jan 24 12:12:08 localhost postfix/anvil[29120]: statistics: max connection count 1 for (smtp:121.32.198.222) at Jan 24 12:08:26
 Jan 24 12:12:08 localhost postfix/anvil[29120]: statistics: max cache size 2 at Jan 24 12:08:44
+Jan 24 12:16:26 localhost postfix/smtpd[29454]: connect from mail-yb1-f197.google.com[209.85.219.197]
+Jan 24 12:16:27 localhost postfix/smtpd[29454]: NOQUEUE: reject: RCPT from mail-yb1-f197.google.com[209.85.219.197]: 454 4.7.1 <prvs=014ed5826=arwaxm+bncBCC7XN6N3YMBBOUFWGHQMGQELKC6SUQ@liber-t.xyz>: Relay access denied; from=<> to=<prvs=014ed5826=arwaxm+bncBCC7XN6N3YMBBOUFWGHQMGQELKC6SUQ@liber-t.xyz> proto=ESMTP helo=<mail-yb1-f197.google.com>
+Jan 24 12:16:28 localhost postfix/smtpd[29454]: disconnect from mail-yb1-f197.google.com[209.85.219.197] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 12:19:48 localhost postfix/anvil[29456]: statistics: max connection rate 1/60s for (smtp:209.85.219.197) at Jan 24 12:16:26
+Jan 24 12:19:48 localhost postfix/anvil[29456]: statistics: max connection count 1 for (smtp:209.85.219.197) at Jan 24 12:16:26
+Jan 24 12:19:48 localhost postfix/anvil[29456]: statistics: max cache size 1 at Jan 24 12:16:26
+Jan 24 12:21:35 localhost postfix/smtpd[29599]: connect from mail-ot1-f69.google.com[209.85.210.69]
+Jan 24 12:21:36 localhost postfix/smtpd[29599]: NOQUEUE: reject: RCPT from mail-ot1-f69.google.com[209.85.210.69]: 454 4.7.1 <prvs=014ee2e65=arwaxm+bncBCZPRMXX2ULBBXWHV6HQMGQEQDDHY5Y@liber-t.xyz>: Relay access denied; from=<> to=<prvs=014ee2e65=arwaxm+bncBCZPRMXX2ULBBXWHV6HQMGQEQDDHY5Y@liber-t.xyz> proto=ESMTP helo=<mail-ot1-f69.google.com>
+Jan 24 12:21:37 localhost postfix/smtpd[29599]: disconnect from mail-ot1-f69.google.com[209.85.210.69] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 12:24:57 localhost postfix/anvil[29601]: statistics: max connection rate 1/60s for (smtp:209.85.210.69) at Jan 24 12:21:35
+Jan 24 12:24:57 localhost postfix/anvil[29601]: statistics: max connection count 1 for (smtp:209.85.210.69) at Jan 24 12:21:35
+Jan 24 12:24:57 localhost postfix/anvil[29601]: statistics: max cache size 1 at Jan 24 12:21:35
+Jan 24 12:47:22 localhost postfix/smtpd[30652]: connect from static.217.69.243.136.clients.your-server.de[136.243.69.217]
+Jan 24 12:47:22 localhost postfix/trivial-rewrite[30655]: warning: do not list domain ermccorp.com in BOTH mydestination and virtual_alias_domains
+Jan 24 12:47:22 localhost postfix/smtpd[30652]: E88A6EADE: client=static.217.69.243.136.clients.your-server.de[136.243.69.217]
+Jan 24 12:47:23 localhost postfix/trivial-rewrite[30655]: warning: do not list domain ermccorp.com in BOTH mydestination and virtual_alias_domains
+Jan 24 12:47:23 localhost postfix/smtpd[30652]: lost connection after RCPT from static.217.69.243.136.clients.your-server.de[136.243.69.217]
+Jan 24 12:47:23 localhost postfix/smtpd[30652]: disconnect from static.217.69.243.136.clients.your-server.de[136.243.69.217] helo=1 mail=1 rcpt=2 commands=4
+Jan 24 12:50:43 localhost postfix/anvil[30654]: statistics: max connection rate 1/60s for (smtp:136.243.69.217) at Jan 24 12:47:22
+Jan 24 12:50:43 localhost postfix/anvil[30654]: statistics: max connection count 1 for (smtp:136.243.69.217) at Jan 24 12:47:22
+Jan 24 12:50:43 localhost postfix/anvil[30654]: statistics: max cache size 1 at Jan 24 12:47:22
+Jan 24 12:52:51 localhost dovecot: imap-login: Disconnected (no auth attempts in 0 secs): user=<>, rip=169.197.142.69, lip=158.247.223.84, session=<FZZGclPWcKypxY5F>
+Jan 24 12:52:52 localhost dovecot: imap-login: Disconnected (no auth attempts in 1 secs): user=<>, rip=169.197.142.69, lip=158.247.223.84, TLS, session=<YVJTclPW1qypxY5F>
+Jan 24 13:02:48 localhost postfix/smtpd[31076]: connect from mail-yb1-f200.google.com[209.85.219.200]
+Jan 24 13:02:49 localhost postfix/smtpd[31076]: NOQUEUE: reject: RCPT from mail-yb1-f200.google.com[209.85.219.200]: 454 4.7.1 <prvs=012297aab=arwaxm+bncBCC7XN6N3YMBBIP4UWHQMGQEW6TWIBQ@liber-t.xyz>: Relay access denied; from=<> to=<prvs=012297aab=arwaxm+bncBCC7XN6N3YMBBIP4UWHQMGQEW6TWIBQ@liber-t.xyz> proto=ESMTP helo=<mail-yb1-f200.google.com>
+Jan 24 13:02:50 localhost postfix/smtpd[31076]: disconnect from mail-yb1-f200.google.com[209.85.219.200] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:06:10 localhost postfix/anvil[31078]: statistics: max connection rate 1/60s for (smtp:209.85.219.200) at Jan 24 13:02:48
+Jan 24 13:06:10 localhost postfix/anvil[31078]: statistics: max connection count 1 for (smtp:209.85.219.200) at Jan 24 13:02:48
+Jan 24 13:06:10 localhost postfix/anvil[31078]: statistics: max cache size 1 at Jan 24 13:02:48
+Jan 24 13:14:54 localhost postfix/smtpd[31456]: connect from ppsw-32.csi.cam.ac.uk[131.111.8.132]
+Jan 24 13:14:56 localhost postfix/trivial-rewrite[31461]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 13:14:56 localhost postfix/smtpd[31456]: NOQUEUE: reject: RCPT from ppsw-32.csi.cam.ac.uk[131.111.8.132]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-32.csi.cam.ac.uk>
+Jan 24 13:14:56 localhost postfix/smtpd[31456]: disconnect from ppsw-32.csi.cam.ac.uk[131.111.8.132] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:16:56 localhost postfix/smtpd[31517]: connect from ppsw-43.csi.cam.ac.uk[131.111.8.143]
+Jan 24 13:16:58 localhost postfix/trivial-rewrite[31519]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 13:16:58 localhost postfix/smtpd[31517]: NOQUEUE: reject: RCPT from ppsw-43.csi.cam.ac.uk[131.111.8.143]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-43.csi.cam.ac.uk>
+Jan 24 13:16:58 localhost postfix/smtpd[31517]: disconnect from ppsw-43.csi.cam.ac.uk[131.111.8.143] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:16:58 localhost postfix/smtpd[31517]: connect from ppsw-43.csi.cam.ac.uk[131.111.8.143]
+Jan 24 13:17:00 localhost postfix/smtpd[31517]: NOQUEUE: reject: RCPT from ppsw-43.csi.cam.ac.uk[131.111.8.143]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-43.csi.cam.ac.uk>
+Jan 24 13:17:00 localhost postfix/smtpd[31517]: disconnect from ppsw-43.csi.cam.ac.uk[131.111.8.143] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:17:05 localhost postfix/smtpd[31517]: connect from ppsw-32.csi.cam.ac.uk[131.111.8.132]
+Jan 24 13:17:07 localhost postfix/smtpd[31517]: NOQUEUE: reject: RCPT from ppsw-32.csi.cam.ac.uk[131.111.8.132]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-32.csi.cam.ac.uk>
+Jan 24 13:17:07 localhost postfix/smtpd[31517]: disconnect from ppsw-32.csi.cam.ac.uk[131.111.8.132] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:17:18 localhost postfix/smtpd[31517]: connect from ppsw-32.csi.cam.ac.uk[131.111.8.132]
+Jan 24 13:17:20 localhost postfix/smtpd[31517]: NOQUEUE: reject: RCPT from ppsw-32.csi.cam.ac.uk[131.111.8.132]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-32.csi.cam.ac.uk>
+Jan 24 13:17:20 localhost postfix/smtpd[31517]: disconnect from ppsw-32.csi.cam.ac.uk[131.111.8.132] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:17:32 localhost postfix/smtpd[31517]: connect from ppsw-32.csi.cam.ac.uk[131.111.8.132]
+Jan 24 13:17:33 localhost postfix/smtpd[31517]: NOQUEUE: reject: RCPT from ppsw-32.csi.cam.ac.uk[131.111.8.132]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-32.csi.cam.ac.uk>
+Jan 24 13:17:34 localhost postfix/smtpd[31517]: disconnect from ppsw-32.csi.cam.ac.uk[131.111.8.132] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:17:34 localhost postfix/smtpd[31517]: connect from ppsw-32.csi.cam.ac.uk[131.111.8.132]
+Jan 24 13:17:36 localhost postfix/smtpd[31517]: NOQUEUE: reject: RCPT from ppsw-32.csi.cam.ac.uk[131.111.8.132]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-32.csi.cam.ac.uk>
+Jan 24 13:17:36 localhost postfix/smtpd[31517]: disconnect from ppsw-32.csi.cam.ac.uk[131.111.8.132] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:17:50 localhost postfix/smtpd[31517]: connect from ppsw-43.csi.cam.ac.uk[131.111.8.143]
+Jan 24 13:17:52 localhost postfix/smtpd[31517]: NOQUEUE: reject: RCPT from ppsw-43.csi.cam.ac.uk[131.111.8.143]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-43.csi.cam.ac.uk>
+Jan 24 13:17:52 localhost postfix/smtpd[31517]: disconnect from ppsw-43.csi.cam.ac.uk[131.111.8.143] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:17:53 localhost postfix/smtpd[31517]: connect from ppsw-43.csi.cam.ac.uk[131.111.8.143]
+Jan 24 13:17:55 localhost postfix/smtpd[31517]: NOQUEUE: reject: RCPT from ppsw-43.csi.cam.ac.uk[131.111.8.143]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-43.csi.cam.ac.uk>
+Jan 24 13:17:55 localhost postfix/smtpd[31517]: disconnect from ppsw-43.csi.cam.ac.uk[131.111.8.143] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:18:27 localhost postfix/smtpd[31517]: connect from ppsw-33.csi.cam.ac.uk[131.111.8.133]
+Jan 24 13:18:29 localhost postfix/smtpd[31517]: NOQUEUE: reject: RCPT from ppsw-33.csi.cam.ac.uk[131.111.8.133]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-33.csi.cam.ac.uk>
+Jan 24 13:18:29 localhost postfix/smtpd[31517]: disconnect from ppsw-33.csi.cam.ac.uk[131.111.8.133] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:18:53 localhost postfix/smtpd[31517]: connect from ppsw-42.csi.cam.ac.uk[131.111.8.142]
+Jan 24 13:18:54 localhost postfix/smtpd[31517]: NOQUEUE: reject: RCPT from ppsw-42.csi.cam.ac.uk[131.111.8.142]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-42.csi.cam.ac.uk>
+Jan 24 13:18:54 localhost postfix/smtpd[31517]: disconnect from ppsw-42.csi.cam.ac.uk[131.111.8.142] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:18:56 localhost postfix/smtpd[31517]: connect from ppsw-42.csi.cam.ac.uk[131.111.8.142]
+Jan 24 13:18:57 localhost postfix/smtpd[31572]: connect from hosting6.cc.kyushu-u.ac.jp[133.5.12.212]
+Jan 24 13:18:57 localhost postfix/trivial-rewrite[31573]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 13:18:57 localhost postfix/smtpd[31572]: NOQUEUE: reject: RCPT from hosting6.cc.kyushu-u.ac.jp[133.5.12.212]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<hosting6.cc.kyushu-u.ac.jp>
+Jan 24 13:18:58 localhost postfix/smtpd[31572]: disconnect from hosting6.cc.kyushu-u.ac.jp[133.5.12.212] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 quit=1 commands=5/7
+Jan 24 13:18:58 localhost postfix/smtpd[31517]: NOQUEUE: reject: RCPT from ppsw-42.csi.cam.ac.uk[131.111.8.142]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-42.csi.cam.ac.uk>
+Jan 24 13:18:58 localhost postfix/smtpd[31517]: disconnect from ppsw-42.csi.cam.ac.uk[131.111.8.142] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:19:00 localhost postfix/smtpd[31572]: connect from ppsw-42.csi.cam.ac.uk[131.111.8.142]
+Jan 24 13:19:02 localhost postfix/smtpd[31572]: NOQUEUE: reject: RCPT from ppsw-42.csi.cam.ac.uk[131.111.8.142]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-42.csi.cam.ac.uk>
+Jan 24 13:19:02 localhost postfix/smtpd[31572]: disconnect from ppsw-42.csi.cam.ac.uk[131.111.8.142] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:19:15 localhost postfix/smtpd[31517]: connect from ppsw-43.csi.cam.ac.uk[131.111.8.143]
+Jan 24 13:19:17 localhost postfix/smtpd[31517]: NOQUEUE: reject: RCPT from ppsw-43.csi.cam.ac.uk[131.111.8.143]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-43.csi.cam.ac.uk>
+Jan 24 13:19:17 localhost postfix/smtpd[31517]: disconnect from ppsw-43.csi.cam.ac.uk[131.111.8.143] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:19:18 localhost postfix/smtpd[31572]: connect from ppsw-43.csi.cam.ac.uk[131.111.8.143]
+Jan 24 13:19:20 localhost postfix/smtpd[31572]: NOQUEUE: reject: RCPT from ppsw-43.csi.cam.ac.uk[131.111.8.143]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-43.csi.cam.ac.uk>
+Jan 24 13:19:20 localhost postfix/smtpd[31572]: disconnect from ppsw-43.csi.cam.ac.uk[131.111.8.143] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:19:25 localhost postfix/smtpd[31517]: connect from ppsw-43.csi.cam.ac.uk[131.111.8.143]
+Jan 24 13:19:27 localhost postfix/smtpd[31517]: NOQUEUE: reject: RCPT from ppsw-43.csi.cam.ac.uk[131.111.8.143]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-43.csi.cam.ac.uk>
+Jan 24 13:19:27 localhost postfix/smtpd[31517]: disconnect from ppsw-43.csi.cam.ac.uk[131.111.8.143] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:19:30 localhost postfix/smtpd[31572]: connect from ppsw-43.csi.cam.ac.uk[131.111.8.143]
+Jan 24 13:19:31 localhost postfix/smtpd[31572]: NOQUEUE: reject: RCPT from ppsw-43.csi.cam.ac.uk[131.111.8.143]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-43.csi.cam.ac.uk>
+Jan 24 13:19:32 localhost postfix/smtpd[31572]: disconnect from ppsw-43.csi.cam.ac.uk[131.111.8.143] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:19:57 localhost postfix/smtpd[31517]: connect from ppsw-43.csi.cam.ac.uk[131.111.8.143]
+Jan 24 13:19:59 localhost postfix/smtpd[31517]: NOQUEUE: reject: RCPT from ppsw-43.csi.cam.ac.uk[131.111.8.143]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-43.csi.cam.ac.uk>
+Jan 24 13:19:59 localhost postfix/smtpd[31517]: disconnect from ppsw-43.csi.cam.ac.uk[131.111.8.143] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:20:23 localhost postfix/smtpd[31572]: connect from unknown[103.138.109.15]
+Jan 24 13:20:24 localhost postfix/trivial-rewrite[31573]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 13:20:24 localhost postfix/smtpd[31572]: 19C3DEADE: client=unknown[103.138.109.15]
+Jan 24 13:20:24 localhost postfix/cleanup[31616]: 19C3DEADE: message-id=<20220124052014.C5A59BD8A8AD5DD0@rcs-asia.com>
+Jan 24 13:20:25 localhost postfix/qmgr[32066]: 19C3DEADE: from=<chetan.bom@rcs-asia.com>, size=553302, nrcpt=1 (queue active)
+Jan 24 13:20:25 localhost postfix/trivial-rewrite[31573]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 13:20:25 localhost postfix/local[31617]: 19C3DEADE: to=<adam@lamc.la>, relay=local, delay=1.8, delays=1.7/0.03/0/0.01, dsn=2.0.0, status=sent (delivered to maildir)
+Jan 24 13:20:25 localhost postfix/qmgr[32066]: 19C3DEADE: removed
+Jan 24 13:20:25 localhost postfix/smtpd[31572]: disconnect from unknown[103.138.109.15] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+Jan 24 13:20:37 localhost postfix/smtpd[31517]: connect from ppsw-33.csi.cam.ac.uk[131.111.8.133]
+Jan 24 13:20:39 localhost postfix/smtpd[31517]: NOQUEUE: reject: RCPT from ppsw-33.csi.cam.ac.uk[131.111.8.133]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-33.csi.cam.ac.uk>
+Jan 24 13:20:39 localhost postfix/smtpd[31517]: disconnect from ppsw-33.csi.cam.ac.uk[131.111.8.133] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:22:08 localhost postfix/smtpd[31517]: connect from ppsw-43.csi.cam.ac.uk[131.111.8.143]
+Jan 24 13:22:10 localhost postfix/smtpd[31517]: NOQUEUE: reject: RCPT from ppsw-43.csi.cam.ac.uk[131.111.8.143]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-43.csi.cam.ac.uk>
+Jan 24 13:22:10 localhost postfix/smtpd[31517]: disconnect from ppsw-43.csi.cam.ac.uk[131.111.8.143] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:22:10 localhost postfix/smtpd[31517]: connect from ppsw-43.csi.cam.ac.uk[131.111.8.143]
+Jan 24 13:22:12 localhost postfix/smtpd[31517]: NOQUEUE: reject: RCPT from ppsw-43.csi.cam.ac.uk[131.111.8.143]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-43.csi.cam.ac.uk>
+Jan 24 13:22:13 localhost postfix/smtpd[31517]: disconnect from ppsw-43.csi.cam.ac.uk[131.111.8.143] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:22:27 localhost postfix/smtpd[31517]: connect from ppsw-33.csi.cam.ac.uk[131.111.8.133]
+Jan 24 13:22:28 localhost postfix/smtpd[31517]: NOQUEUE: reject: RCPT from ppsw-33.csi.cam.ac.uk[131.111.8.133]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-33.csi.cam.ac.uk>
+Jan 24 13:22:29 localhost postfix/smtpd[31517]: disconnect from ppsw-33.csi.cam.ac.uk[131.111.8.133] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:23:20 localhost postfix/smtpd[31517]: connect from ppsw-43.csi.cam.ac.uk[131.111.8.143]
+Jan 24 13:23:22 localhost postfix/smtpd[31517]: NOQUEUE: reject: RCPT from ppsw-43.csi.cam.ac.uk[131.111.8.143]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-43.csi.cam.ac.uk>
+Jan 24 13:23:22 localhost postfix/smtpd[31517]: disconnect from ppsw-43.csi.cam.ac.uk[131.111.8.143] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:23:23 localhost postfix/smtpd[31517]: connect from ppsw-43.csi.cam.ac.uk[131.111.8.143]
+Jan 24 13:23:25 localhost postfix/smtpd[31517]: NOQUEUE: reject: RCPT from ppsw-43.csi.cam.ac.uk[131.111.8.143]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-43.csi.cam.ac.uk>
+Jan 24 13:23:25 localhost postfix/smtpd[31517]: disconnect from ppsw-43.csi.cam.ac.uk[131.111.8.143] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:24:17 localhost postfix/smtpd[31517]: connect from ppsw-43.csi.cam.ac.uk[131.111.8.143]
+Jan 24 13:24:19 localhost postfix/smtpd[31517]: NOQUEUE: reject: RCPT from ppsw-43.csi.cam.ac.uk[131.111.8.143]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-43.csi.cam.ac.uk>
+Jan 24 13:24:19 localhost postfix/smtpd[31517]: disconnect from ppsw-43.csi.cam.ac.uk[131.111.8.143] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:24:20 localhost postfix/smtpd[31517]: connect from ppsw-43.csi.cam.ac.uk[131.111.8.143]
+Jan 24 13:24:21 localhost postfix/smtpd[31517]: NOQUEUE: reject: RCPT from ppsw-43.csi.cam.ac.uk[131.111.8.143]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-43.csi.cam.ac.uk>
+Jan 24 13:24:22 localhost postfix/smtpd[31517]: disconnect from ppsw-43.csi.cam.ac.uk[131.111.8.143] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:24:49 localhost postfix/smtpd[31517]: connect from ppsw-43.csi.cam.ac.uk[131.111.8.143]
+Jan 24 13:24:51 localhost postfix/smtpd[31517]: NOQUEUE: reject: RCPT from ppsw-43.csi.cam.ac.uk[131.111.8.143]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-43.csi.cam.ac.uk>
+Jan 24 13:24:51 localhost postfix/smtpd[31517]: disconnect from ppsw-43.csi.cam.ac.uk[131.111.8.143] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:24:52 localhost postfix/smtpd[31517]: connect from ppsw-43.csi.cam.ac.uk[131.111.8.143]
+Jan 24 13:24:53 localhost postfix/smtpd[31517]: NOQUEUE: reject: RCPT from ppsw-43.csi.cam.ac.uk[131.111.8.143]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-43.csi.cam.ac.uk>
+Jan 24 13:24:54 localhost postfix/anvil[31458]: statistics: max connection rate 5/60s for (smtp:131.111.8.143) at Jan 24 13:19:57
+Jan 24 13:24:54 localhost postfix/anvil[31458]: statistics: max connection count 1 for (smtp:131.111.8.132) at Jan 24 13:14:54
+Jan 24 13:24:54 localhost postfix/anvil[31458]: statistics: max cache size 4 at Jan 24 13:19:15
+Jan 24 13:24:54 localhost postfix/smtpd[31517]: disconnect from ppsw-43.csi.cam.ac.uk[131.111.8.143] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:24:54 localhost postfix/smtpd[31517]: connect from ppsw-43.csi.cam.ac.uk[131.111.8.143]
+Jan 24 13:24:56 localhost postfix/smtpd[31517]: NOQUEUE: reject: RCPT from ppsw-43.csi.cam.ac.uk[131.111.8.143]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-43.csi.cam.ac.uk>
+Jan 24 13:24:56 localhost postfix/smtpd[31517]: disconnect from ppsw-43.csi.cam.ac.uk[131.111.8.143] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:24:57 localhost postfix/smtpd[31517]: connect from ppsw-43.csi.cam.ac.uk[131.111.8.143]
+Jan 24 13:24:58 localhost postfix/smtpd[31517]: NOQUEUE: reject: RCPT from ppsw-43.csi.cam.ac.uk[131.111.8.143]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-43.csi.cam.ac.uk>
+Jan 24 13:24:59 localhost postfix/smtpd[31517]: disconnect from ppsw-43.csi.cam.ac.uk[131.111.8.143] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:25:01 localhost postfix/smtpd[31517]: connect from ppsw-43.csi.cam.ac.uk[131.111.8.143]
+Jan 24 13:25:03 localhost postfix/smtpd[31517]: NOQUEUE: reject: RCPT from ppsw-43.csi.cam.ac.uk[131.111.8.143]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-43.csi.cam.ac.uk>
+Jan 24 13:25:03 localhost postfix/smtpd[31517]: disconnect from ppsw-43.csi.cam.ac.uk[131.111.8.143] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:26:20 localhost postfix/smtpd[31517]: warning: hostname hosted-by.rootlayer.net does not resolve to address 185.222.57.195
+Jan 24 13:26:20 localhost postfix/smtpd[31517]: connect from unknown[185.222.57.195]
+Jan 24 13:26:21 localhost postfix/smtpd[31517]: disconnect from unknown[185.222.57.195] ehlo=1 auth=0/1 rset=1 quit=1 commands=3/4
+Jan 24 13:29:41 localhost postfix/anvil[31458]: statistics: max connection rate 5/60s for (smtp:131.111.8.143) at Jan 24 13:25:01
+Jan 24 13:29:41 localhost postfix/anvil[31458]: statistics: max connection count 1 for (smtp:131.111.8.143) at Jan 24 13:24:54
+Jan 24 13:29:41 localhost postfix/anvil[31458]: statistics: max cache size 1 at Jan 24 13:26:20
+Jan 24 13:32:13 localhost postfix/smtpd[31936]: connect from ppsw-43.csi.cam.ac.uk[131.111.8.143]
+Jan 24 13:32:15 localhost postfix/trivial-rewrite[31939]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 13:32:15 localhost postfix/smtpd[31936]: NOQUEUE: reject: RCPT from ppsw-43.csi.cam.ac.uk[131.111.8.143]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-43.csi.cam.ac.uk>
+Jan 24 13:32:15 localhost postfix/smtpd[31936]: disconnect from ppsw-43.csi.cam.ac.uk[131.111.8.143] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:32:20 localhost postfix/smtpd[31936]: connect from ppsw-43.csi.cam.ac.uk[131.111.8.143]
+Jan 24 13:32:22 localhost postfix/smtpd[31936]: NOQUEUE: reject: RCPT from ppsw-43.csi.cam.ac.uk[131.111.8.143]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-43.csi.cam.ac.uk>
+Jan 24 13:32:22 localhost postfix/smtpd[31936]: disconnect from ppsw-43.csi.cam.ac.uk[131.111.8.143] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:33:24 localhost postfix/smtpd[31936]: connect from ppsw-43.csi.cam.ac.uk[131.111.8.143]
+Jan 24 13:33:26 localhost postfix/smtpd[31936]: NOQUEUE: reject: RCPT from ppsw-43.csi.cam.ac.uk[131.111.8.143]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-43.csi.cam.ac.uk>
+Jan 24 13:33:26 localhost postfix/smtpd[31936]: disconnect from ppsw-43.csi.cam.ac.uk[131.111.8.143] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:33:53 localhost postfix/smtpd[31936]: connect from ppsw-42.csi.cam.ac.uk[131.111.8.142]
+Jan 24 13:33:55 localhost postfix/smtpd[31936]: NOQUEUE: reject: RCPT from ppsw-42.csi.cam.ac.uk[131.111.8.142]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-42.csi.cam.ac.uk>
+Jan 24 13:33:55 localhost postfix/smtpd[31936]: disconnect from ppsw-42.csi.cam.ac.uk[131.111.8.142] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:34:17 localhost postfix/smtpd[31936]: connect from mail.imsva.uoeh-u.ac.jp[160.198.22.24]
+Jan 24 13:34:17 localhost postfix/smtpd[31936]: NOQUEUE: reject: RCPT from mail.imsva.uoeh-u.ac.jp[160.198.22.24]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<mvwall.med.uoeh-u.ac.jp>
+Jan 24 13:34:17 localhost postfix/smtpd[31936]: disconnect from mail.imsva.uoeh-u.ac.jp[160.198.22.24] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 rset=1 quit=1 commands=6/8
+Jan 24 13:34:24 localhost postfix/smtpd[31936]: connect from ppsw-43.csi.cam.ac.uk[131.111.8.143]
+Jan 24 13:34:26 localhost postfix/smtpd[31936]: NOQUEUE: reject: RCPT from ppsw-43.csi.cam.ac.uk[131.111.8.143]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-43.csi.cam.ac.uk>
+Jan 24 13:34:26 localhost postfix/smtpd[31936]: disconnect from ppsw-43.csi.cam.ac.uk[131.111.8.143] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:34:29 localhost postfix/smtpd[31936]: connect from ppsw-43.csi.cam.ac.uk[131.111.8.143]
+Jan 24 13:34:31 localhost postfix/smtpd[31936]: NOQUEUE: reject: RCPT from ppsw-43.csi.cam.ac.uk[131.111.8.143]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-43.csi.cam.ac.uk>
+Jan 24 13:34:31 localhost postfix/smtpd[31936]: disconnect from ppsw-43.csi.cam.ac.uk[131.111.8.143] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:34:54 localhost postfix/smtpd[31936]: connect from ppsw-32.csi.cam.ac.uk[131.111.8.132]
+Jan 24 13:34:55 localhost postfix/smtpd[31936]: NOQUEUE: reject: RCPT from ppsw-32.csi.cam.ac.uk[131.111.8.132]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-32.csi.cam.ac.uk>
+Jan 24 13:34:55 localhost postfix/smtpd[31936]: disconnect from ppsw-32.csi.cam.ac.uk[131.111.8.132] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:35:12 localhost postfix/smtpd[31936]: connect from ppsw-42.csi.cam.ac.uk[131.111.8.142]
+Jan 24 13:35:14 localhost postfix/smtpd[31936]: NOQUEUE: reject: RCPT from ppsw-42.csi.cam.ac.uk[131.111.8.142]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-42.csi.cam.ac.uk>
+Jan 24 13:35:14 localhost postfix/smtpd[31936]: disconnect from ppsw-42.csi.cam.ac.uk[131.111.8.142] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:35:15 localhost postfix/smtpd[31936]: connect from ppsw-42.csi.cam.ac.uk[131.111.8.142]
+Jan 24 13:35:17 localhost postfix/smtpd[31936]: NOQUEUE: reject: RCPT from ppsw-42.csi.cam.ac.uk[131.111.8.142]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-42.csi.cam.ac.uk>
+Jan 24 13:35:17 localhost postfix/smtpd[31936]: disconnect from ppsw-42.csi.cam.ac.uk[131.111.8.142] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:35:18 localhost postfix/smtpd[31936]: connect from ppsw-42.csi.cam.ac.uk[131.111.8.142]
+Jan 24 13:35:19 localhost postfix/smtpd[31936]: NOQUEUE: reject: RCPT from ppsw-42.csi.cam.ac.uk[131.111.8.142]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-42.csi.cam.ac.uk>
+Jan 24 13:35:20 localhost postfix/smtpd[31936]: disconnect from ppsw-42.csi.cam.ac.uk[131.111.8.142] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:36:44 localhost postfix/smtpd[31936]: connect from ppsw-32.csi.cam.ac.uk[131.111.8.132]
+Jan 24 13:36:46 localhost postfix/smtpd[31936]: NOQUEUE: reject: RCPT from ppsw-32.csi.cam.ac.uk[131.111.8.132]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-32.csi.cam.ac.uk>
+Jan 24 13:36:46 localhost postfix/smtpd[31936]: disconnect from ppsw-32.csi.cam.ac.uk[131.111.8.132] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:36:47 localhost postfix/smtpd[31936]: connect from ppsw-32.csi.cam.ac.uk[131.111.8.132]
+Jan 24 13:36:48 localhost postfix/smtpd[31936]: NOQUEUE: reject: RCPT from ppsw-32.csi.cam.ac.uk[131.111.8.132]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-32.csi.cam.ac.uk>
+Jan 24 13:36:49 localhost postfix/smtpd[31936]: disconnect from ppsw-32.csi.cam.ac.uk[131.111.8.132] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:38:15 localhost postfix/smtpd[31936]: connect from ppsw-42.csi.cam.ac.uk[131.111.8.142]
+Jan 24 13:38:16 localhost postfix/smtpd[32111]: connect from ppsw-33.csi.cam.ac.uk[131.111.8.133]
+Jan 24 13:38:17 localhost postfix/smtpd[31936]: NOQUEUE: reject: RCPT from ppsw-42.csi.cam.ac.uk[131.111.8.142]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-42.csi.cam.ac.uk>
+Jan 24 13:38:17 localhost postfix/smtpd[31936]: disconnect from ppsw-42.csi.cam.ac.uk[131.111.8.142] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:38:17 localhost postfix/trivial-rewrite[32112]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 13:38:17 localhost postfix/smtpd[32111]: NOQUEUE: reject: RCPT from ppsw-33.csi.cam.ac.uk[131.111.8.133]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-33.csi.cam.ac.uk>
+Jan 24 13:38:18 localhost postfix/smtpd[32111]: disconnect from ppsw-33.csi.cam.ac.uk[131.111.8.133] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:38:51 localhost postfix/smtpd[31936]: connect from ppsw-42.csi.cam.ac.uk[131.111.8.142]
+Jan 24 13:38:53 localhost postfix/smtpd[31936]: NOQUEUE: reject: RCPT from ppsw-42.csi.cam.ac.uk[131.111.8.142]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-42.csi.cam.ac.uk>
+Jan 24 13:38:53 localhost postfix/smtpd[31936]: disconnect from ppsw-42.csi.cam.ac.uk[131.111.8.142] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:39:17 localhost postfix/smtpd[32111]: connect from ppsw-43.csi.cam.ac.uk[131.111.8.143]
+Jan 24 13:39:19 localhost postfix/smtpd[32111]: NOQUEUE: reject: RCPT from ppsw-43.csi.cam.ac.uk[131.111.8.143]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-43.csi.cam.ac.uk>
+Jan 24 13:39:19 localhost postfix/smtpd[32111]: disconnect from ppsw-43.csi.cam.ac.uk[131.111.8.143] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:39:20 localhost postfix/smtpd[31936]: connect from ppsw-32.csi.cam.ac.uk[131.111.8.132]
+Jan 24 13:39:22 localhost postfix/smtpd[31936]: NOQUEUE: reject: RCPT from ppsw-32.csi.cam.ac.uk[131.111.8.132]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-32.csi.cam.ac.uk>
+Jan 24 13:39:22 localhost postfix/smtpd[32111]: connect from ppsw-43.csi.cam.ac.uk[131.111.8.143]
+Jan 24 13:39:22 localhost postfix/smtpd[31936]: disconnect from ppsw-32.csi.cam.ac.uk[131.111.8.132] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:39:23 localhost postfix/smtpd[31936]: connect from ppsw-32.csi.cam.ac.uk[131.111.8.132]
+Jan 24 13:39:24 localhost postfix/smtpd[32111]: NOQUEUE: reject: RCPT from ppsw-43.csi.cam.ac.uk[131.111.8.143]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-43.csi.cam.ac.uk>
+Jan 24 13:39:24 localhost postfix/smtpd[32111]: disconnect from ppsw-43.csi.cam.ac.uk[131.111.8.143] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:39:25 localhost postfix/smtpd[31936]: NOQUEUE: reject: RCPT from ppsw-32.csi.cam.ac.uk[131.111.8.132]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-32.csi.cam.ac.uk>
+Jan 24 13:39:25 localhost postfix/smtpd[31936]: disconnect from ppsw-32.csi.cam.ac.uk[131.111.8.132] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:41:04 localhost postfix/smtpd[32111]: connect from mail-pl1-f198.google.com[209.85.214.198]
+Jan 24 13:41:05 localhost postfix/trivial-rewrite[32236]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Jan 24 13:41:05 localhost postfix/smtpd[32111]: 057B1EADE: client=mail-pl1-f198.google.com[209.85.214.198]
+Jan 24 13:41:05 localhost postfix/cleanup[32237]: 057B1EADE: message-id=<4F.FF.04784.E6CAEE16@twitter.com>
+Jan 24 13:41:05 localhost postfix/qmgr[32066]: 057B1EADE: from=<n0016dd76b2-8b85448798664fb3-anneb===fromthemachine.org@bounce.twitter.com>, size=110646, nrcpt=3 (queue active)
+Jan 24 13:41:05 localhost postfix/trivial-rewrite[32236]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Jan 24 13:41:05 localhost postfix/local[32239]: 057B1EADE: to=<adam@localhost>, orig_to=<anneb@fromthemachine.org>, relay=local, delay=0.55, delays=0.53/0.02/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Jan 24 13:41:05 localhost postfix/local[32239]: 057B1EADE: to=<ftm@fromthemachine.org>, orig_to=<anneb@fromthemachine.org>, relay=local, delay=0.57, delays=0.53/0.02/0/0.02, dsn=5.1.1, status=bounced (unknown user: "ftm")
+Jan 24 13:41:05 localhost postfix/smtpd[32111]: disconnect from mail-pl1-f198.google.com[209.85.214.198] ehlo=2 starttls=1 mail=1 rcpt=1 bdat=2 quit=1 commands=8
+Jan 24 13:41:07 localhost postfix/smtpd[32111]: connect from ppsw-32.csi.cam.ac.uk[131.111.8.132]
+Jan 24 13:41:08 localhost postfix/smtp[32238]: 057B1EADE: to=<0xc514f094370cfc5ee45a1dd9b72bb9675efe266f@ethmail.cc>, orig_to=<anneb@fromthemachine.org>, relay=smtp-relay.gmail.com[64.233.189.28]:587, delay=3.2, delays=0.53/0.04/1.7/0.97, dsn=2.0.0, status=sent (250 2.0.0 OK  1643031668 iu4sm3161862pjb.8 - gsmtp)
+Jan 24 13:41:08 localhost postfix/cleanup[32237]: 33D05F6C9: message-id=<20220124134108.33D05F6C9@plemma.cc>
+Jan 24 13:41:08 localhost postfix/qmgr[32066]: 33D05F6C9: from=<>, size=8171, nrcpt=1 (queue active)
+Jan 24 13:41:08 localhost postfix/bounce[32241]: 057B1EADE: sender non-delivery notification: 33D05F6C9
+Jan 24 13:41:08 localhost postfix/qmgr[32066]: 057B1EADE: removed
+Jan 24 13:41:08 localhost postfix/smtp[32238]: connect to smtp-relay.gmail.com[2404:6800:4008:c07::1c]:587: Network is unreachable
+Jan 24 13:41:08 localhost postfix/smtpd[32111]: NOQUEUE: reject: RCPT from ppsw-32.csi.cam.ac.uk[131.111.8.132]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-32.csi.cam.ac.uk>
+Jan 24 13:41:09 localhost postfix/smtpd[32111]: disconnect from ppsw-32.csi.cam.ac.uk[131.111.8.132] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:41:09 localhost postfix/smtpd[32111]: connect from ppsw-32.csi.cam.ac.uk[131.111.8.132]
+Jan 24 13:41:09 localhost postfix/smtp[32238]: 33D05F6C9: to=<n0016dd76b2-8b85448798664fb3-anneb===fromthemachine.org@bounce.twitter.com>, relay=smtp-relay.gmail.com[64.233.189.28]:587, delay=1.4, delays=0/0/0.89/0.54, dsn=2.0.0, status=sent (250 2.0.0 OK  1643031669 gb24sm3442471pjb.6 - gsmtp)
+Jan 24 13:41:09 localhost postfix/qmgr[32066]: 33D05F6C9: removed
+Jan 24 13:41:11 localhost postfix/smtpd[32111]: NOQUEUE: reject: RCPT from ppsw-32.csi.cam.ac.uk[131.111.8.132]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-32.csi.cam.ac.uk>
+Jan 24 13:41:11 localhost postfix/smtpd[32111]: disconnect from ppsw-32.csi.cam.ac.uk[131.111.8.132] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:41:41 localhost postfix/smtpd[32111]: connect from ppsw-32.csi.cam.ac.uk[131.111.8.132]
+Jan 24 13:41:43 localhost postfix/smtpd[32111]: NOQUEUE: reject: RCPT from ppsw-32.csi.cam.ac.uk[131.111.8.132]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-32.csi.cam.ac.uk>
+Jan 24 13:41:43 localhost postfix/smtpd[32111]: disconnect from ppsw-32.csi.cam.ac.uk[131.111.8.132] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:41:59 localhost postfix/smtpd[32111]: connect from ppsw-32.csi.cam.ac.uk[131.111.8.132]
+Jan 24 13:42:00 localhost postfix/smtpd[32111]: NOQUEUE: reject: RCPT from ppsw-32.csi.cam.ac.uk[131.111.8.132]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-32.csi.cam.ac.uk>
+Jan 24 13:42:01 localhost postfix/smtpd[32111]: disconnect from ppsw-32.csi.cam.ac.uk[131.111.8.132] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:42:13 localhost postfix/anvil[31938]: statistics: max connection rate 4/60s for (smtp:131.111.8.132) at Jan 24 13:41:59
+Jan 24 13:42:13 localhost postfix/anvil[31938]: statistics: max connection count 1 for (smtp:131.111.8.143) at Jan 24 13:32:13
+Jan 24 13:42:13 localhost postfix/anvil[31938]: statistics: max cache size 4 at Jan 24 13:34:54
+Jan 24 13:44:11 localhost postfix/smtpd[32335]: connect from ppsw-32.csi.cam.ac.uk[131.111.8.132]
+Jan 24 13:44:13 localhost postfix/trivial-rewrite[32337]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 13:44:13 localhost postfix/smtpd[32335]: NOQUEUE: reject: RCPT from ppsw-32.csi.cam.ac.uk[131.111.8.132]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-32.csi.cam.ac.uk>
+Jan 24 13:44:13 localhost postfix/smtpd[32335]: disconnect from ppsw-32.csi.cam.ac.uk[131.111.8.132] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:44:14 localhost postfix/smtpd[32335]: connect from ppsw-32.csi.cam.ac.uk[131.111.8.132]
+Jan 24 13:44:15 localhost postfix/smtpd[32335]: NOQUEUE: reject: RCPT from ppsw-32.csi.cam.ac.uk[131.111.8.132]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-32.csi.cam.ac.uk>
+Jan 24 13:44:16 localhost postfix/smtpd[32335]: disconnect from ppsw-32.csi.cam.ac.uk[131.111.8.132] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:44:21 localhost postfix/smtpd[32335]: connect from ppsw-32.csi.cam.ac.uk[131.111.8.132]
+Jan 24 13:44:22 localhost postfix/smtpd[32335]: NOQUEUE: reject: RCPT from ppsw-32.csi.cam.ac.uk[131.111.8.132]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-32.csi.cam.ac.uk>
+Jan 24 13:44:23 localhost postfix/smtpd[32335]: disconnect from ppsw-32.csi.cam.ac.uk[131.111.8.132] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:44:23 localhost postfix/smtpd[32335]: connect from ppsw-32.csi.cam.ac.uk[131.111.8.132]
+Jan 24 13:44:25 localhost postfix/smtpd[32335]: NOQUEUE: reject: RCPT from ppsw-32.csi.cam.ac.uk[131.111.8.132]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-32.csi.cam.ac.uk>
+Jan 24 13:44:25 localhost postfix/smtpd[32335]: disconnect from ppsw-32.csi.cam.ac.uk[131.111.8.132] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:44:43 localhost postfix/smtpd[32335]: connect from ppsw-33.csi.cam.ac.uk[131.111.8.133]
+Jan 24 13:44:44 localhost postfix/smtpd[32335]: NOQUEUE: reject: RCPT from ppsw-33.csi.cam.ac.uk[131.111.8.133]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-33.csi.cam.ac.uk>
+Jan 24 13:44:45 localhost postfix/smtpd[32335]: disconnect from ppsw-33.csi.cam.ac.uk[131.111.8.133] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:44:46 localhost postfix/smtpd[32335]: connect from ppsw-33.csi.cam.ac.uk[131.111.8.133]
+Jan 24 13:44:47 localhost postfix/smtpd[32335]: NOQUEUE: reject: RCPT from ppsw-33.csi.cam.ac.uk[131.111.8.133]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-33.csi.cam.ac.uk>
+Jan 24 13:44:48 localhost postfix/smtpd[32335]: disconnect from ppsw-33.csi.cam.ac.uk[131.111.8.133] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:44:48 localhost postfix/smtpd[32358]: connect from mail.shahed.ac.ir[77.104.80.9]
+Jan 24 13:44:49 localhost postfix/trivial-rewrite[32337]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 13:44:49 localhost postfix/smtpd[32358]: NOQUEUE: reject: RCPT from mail.shahed.ac.ir[77.104.80.9]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=SMTP helo=<mail.shahed.ac.ir>
+Jan 24 13:44:50 localhost postfix/smtpd[32358]: disconnect from mail.shahed.ac.ir[77.104.80.9] helo=1 mail=1 rcpt=0/1 rset=1 quit=1 commands=4/5
+Jan 24 13:45:17 localhost postfix/smtpd[32335]: connect from ppsw-42.csi.cam.ac.uk[131.111.8.142]
+Jan 24 13:45:19 localhost postfix/smtpd[32335]: NOQUEUE: reject: RCPT from ppsw-42.csi.cam.ac.uk[131.111.8.142]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-42.csi.cam.ac.uk>
+Jan 24 13:45:19 localhost postfix/smtpd[32335]: disconnect from ppsw-42.csi.cam.ac.uk[131.111.8.142] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:45:59 localhost postfix/smtpd[32358]: connect from ppsw-43.csi.cam.ac.uk[131.111.8.143]
+Jan 24 13:46:00 localhost postfix/smtpd[32358]: NOQUEUE: reject: RCPT from ppsw-43.csi.cam.ac.uk[131.111.8.143]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-43.csi.cam.ac.uk>
+Jan 24 13:46:01 localhost postfix/smtpd[32358]: disconnect from ppsw-43.csi.cam.ac.uk[131.111.8.143] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:46:18 localhost postfix/smtpd[32335]: connect from mail-yb1-f199.google.com[209.85.219.199]
+Jan 24 13:46:20 localhost postfix/trivial-rewrite[32337]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Jan 24 13:46:20 localhost postfix/smtpd[32335]: 1C0C5EADE: client=mail-yb1-f199.google.com[209.85.219.199]
+Jan 24 13:46:20 localhost postfix/cleanup[32407]: 1C0C5EADE: message-id=<E5.F7.03885.8ADAEE16@twitter.com>
+Jan 24 13:46:20 localhost postfix/qmgr[32066]: 1C0C5EADE: from=<n0016394f12-dc6ee55139654463-anod===fromthemachine.org@bounce.twitter.com>, size=114132, nrcpt=3 (queue active)
+Jan 24 13:46:20 localhost postfix/trivial-rewrite[32337]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Jan 24 13:46:20 localhost postfix/local[32408]: 1C0C5EADE: to=<adam@localhost>, orig_to=<anod@fromthemachine.org>, relay=local, delay=0.67, delays=0.64/0.02/0/0.01, dsn=2.0.0, status=sent (delivered to maildir)
+Jan 24 13:46:20 localhost postfix/local[32408]: 1C0C5EADE: to=<ftm@fromthemachine.org>, orig_to=<anod@fromthemachine.org>, relay=local, delay=0.68, delays=0.64/0.03/0/0.02, dsn=5.1.1, status=bounced (unknown user: "ftm")
+Jan 24 13:46:20 localhost postfix/smtpd[32335]: disconnect from mail-yb1-f199.google.com[209.85.219.199] ehlo=2 starttls=1 mail=1 rcpt=1 bdat=2 quit=1 commands=8
+Jan 24 13:46:21 localhost postfix/smtp[32409]: connect to smtp-relay.gmail.com[2404:6800:4008:c07::1c]:587: Network is unreachable
+Jan 24 13:46:23 localhost postfix/smtp[32409]: 1C0C5EADE: to=<0xc514f094370cfc5ee45a1dd9b72bb9675efe266f@ethmail.cc>, orig_to=<anod@fromthemachine.org>, relay=smtp-relay.gmail.com[64.233.189.28]:587, delay=3.7, delays=0.64/0.03/1.8/1.2, dsn=2.0.0, status=sent (250 2.0.0 OK  1643031983 c9sm1018890oog.3 - gsmtp)
+Jan 24 13:46:23 localhost postfix/cleanup[32407]: B7AD5F6C9: message-id=<20220124134623.B7AD5F6C9@plemma.cc>
+Jan 24 13:46:23 localhost postfix/qmgr[32066]: B7AD5F6C9: from=<>, size=8064, nrcpt=1 (queue active)
+Jan 24 13:46:23 localhost postfix/bounce[32411]: 1C0C5EADE: sender non-delivery notification: B7AD5F6C9
+Jan 24 13:46:23 localhost postfix/qmgr[32066]: 1C0C5EADE: removed
+Jan 24 13:46:25 localhost postfix/smtp[32409]: B7AD5F6C9: to=<n0016394f12-dc6ee55139654463-anod===fromthemachine.org@bounce.twitter.com>, relay=smtp-relay.gmail.com[64.233.189.28]:587, delay=2, delays=0.01/0/1.4/0.66, dsn=2.0.0, status=sent (250 2.0.0 OK  1643031985 d16sm2508504ote.4 - gsmtp)
+Jan 24 13:46:25 localhost postfix/qmgr[32066]: B7AD5F6C9: removed
+Jan 24 13:46:33 localhost postfix/smtpd[32358]: connect from ppsw-32.csi.cam.ac.uk[131.111.8.132]
+Jan 24 13:46:35 localhost postfix/smtpd[32358]: NOQUEUE: reject: RCPT from ppsw-32.csi.cam.ac.uk[131.111.8.132]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-32.csi.cam.ac.uk>
+Jan 24 13:46:35 localhost postfix/smtpd[32358]: disconnect from ppsw-32.csi.cam.ac.uk[131.111.8.132] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:46:37 localhost postfix/smtpd[32335]: connect from ppsw-43.csi.cam.ac.uk[131.111.8.143]
+Jan 24 13:46:39 localhost postfix/smtpd[32335]: NOQUEUE: reject: RCPT from ppsw-43.csi.cam.ac.uk[131.111.8.143]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-43.csi.cam.ac.uk>
+Jan 24 13:46:39 localhost postfix/smtpd[32335]: disconnect from ppsw-43.csi.cam.ac.uk[131.111.8.143] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:48:44 localhost postfix/smtpd[32481]: connect from ppsw-32.csi.cam.ac.uk[131.111.8.132]
+Jan 24 13:48:46 localhost postfix/trivial-rewrite[32482]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 13:48:46 localhost postfix/smtpd[32481]: NOQUEUE: reject: RCPT from ppsw-32.csi.cam.ac.uk[131.111.8.132]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<ppsw-32.csi.cam.ac.uk>
+Jan 24 13:48:46 localhost postfix/smtpd[32481]: disconnect from ppsw-32.csi.cam.ac.uk[131.111.8.132] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:49:04 localhost postfix/smtpd[32481]: connect from mvwall.med.uoeh-u.ac.jp[160.198.22.24]
+Jan 24 13:49:05 localhost postfix/smtpd[32481]: NOQUEUE: reject: RCPT from mvwall.med.uoeh-u.ac.jp[160.198.22.24]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<mvwall.med.uoeh-u.ac.jp>
+Jan 24 13:49:05 localhost postfix/smtpd[32481]: disconnect from mvwall.med.uoeh-u.ac.jp[160.198.22.24] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 rset=1 quit=1 commands=6/8
+Jan 24 13:50:11 localhost postfix/smtpd[32481]: connect from 4.r1.unverified-forwarding.1e100.net[108.177.16.4]
+Jan 24 13:50:12 localhost postfix/smtpd[32481]: NOQUEUE: reject: RCPT from 4.r1.unverified-forwarding.1e100.net[108.177.16.4]: 454 4.7.1 <adamvideos@carpent.us>: Relay access denied; from=<0100017e83189972-263f1e1e-e38f-48b5-8ea9-7ecf1feccc6f-000000@bounce.imgur.com> to=<adamvideos@carpent.us> proto=ESMTP helo=<4.r1.unverified-forwarding.1e100.net>
+Jan 24 13:50:12 localhost postfix/smtpd[32481]: disconnect from 4.r1.unverified-forwarding.1e100.net[108.177.16.4] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:52:13 localhost postfix/anvil[31938]: statistics: max connection rate 4/60s for (smtp:131.111.8.132) at Jan 24 13:44:23
+Jan 24 13:52:13 localhost postfix/anvil[31938]: statistics: max connection count 1 for (smtp:131.111.8.132) at Jan 24 13:44:11
+Jan 24 13:52:13 localhost postfix/anvil[31938]: statistics: max cache size 4 at Jan 24 13:45:17
+Jan 24 13:53:28 localhost postfix/smtpd[32595]: connect from mail-yb1-f198.google.com[209.85.219.198]
+Jan 24 13:53:29 localhost postfix/smtpd[32595]: NOQUEUE: reject: RCPT from mail-yb1-f198.google.com[209.85.219.198]: 454 4.7.1 <prvs=014b97598=arwaxm+bncBCC7XN6N3YMBB54JV6HQMGQE3GQP3NI@liber-t.xyz>: Relay access denied; from=<> to=<prvs=014b97598=arwaxm+bncBCC7XN6N3YMBB54JV6HQMGQE3GQP3NI@liber-t.xyz> proto=ESMTP helo=<mail-yb1-f198.google.com>
+Jan 24 13:53:30 localhost postfix/smtpd[32595]: disconnect from mail-yb1-f198.google.com[209.85.219.198] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 13:56:50 localhost postfix/anvil[31938]: statistics: max connection rate 1/60s for (smtp:209.85.219.198) at Jan 24 13:53:28
+Jan 24 13:56:50 localhost postfix/anvil[31938]: statistics: max connection count 1 for (smtp:209.85.219.198) at Jan 24 13:53:28
+Jan 24 13:56:50 localhost postfix/anvil[31938]: statistics: max cache size 1 at Jan 24 13:53:28
+Jan 24 14:00:28 localhost postfix/smtpd[326]: connect from mail-vi1eur05on2117.outbound.protection.outlook.com[40.107.21.117]
+Jan 24 14:00:29 localhost postfix/trivial-rewrite[329]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 14:00:29 localhost postfix/smtpd[326]: NOQUEUE: reject: RCPT from mail-vi1eur05on2117.outbound.protection.outlook.com[40.107.21.117]: 550 5.1.1 <unsubscribe@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<shiri.zemahshamir@idc.ac.il> to=<unsubscribe@lamc.la> proto=ESMTP helo=<EUR05-VI1-obe.outbound.protection.outlook.com>
+Jan 24 14:00:30 localhost postfix/smtpd[326]: disconnect from mail-vi1eur05on2117.outbound.protection.outlook.com[40.107.21.117] ehlo=2 starttls=1 mail=1 rcpt=0/1 quit=1 commands=5/6
+Jan 24 14:00:45 localhost postfix/smtpd[326]: connect from mail-pg1-f199.google.com[209.85.215.199]
+Jan 24 14:00:46 localhost postfix/trivial-rewrite[329]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Jan 24 14:00:46 localhost postfix/smtpd[326]: BFAA0EADE: client=mail-pg1-f199.google.com[209.85.215.199]
+Jan 24 14:00:46 localhost postfix/cleanup[337]: BFAA0EADE: message-id=<78.85.04050.A01BEE16@twitter.com>
+Jan 24 14:00:47 localhost postfix/qmgr[32066]: BFAA0EADE: from=<n0016200c52-038791b21a014878-notmymessiah===fromthemachine.org@bounce.twitter.com>, size=105071, nrcpt=3 (queue active)
+Jan 24 14:00:47 localhost postfix/trivial-rewrite[329]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Jan 24 14:00:47 localhost postfix/local[338]: BFAA0EADE: to=<adam@localhost>, orig_to=<notmymessiah@fromthemachine.org>, relay=local, delay=0.51, delays=0.48/0.02/0/0.01, dsn=2.0.0, status=sent (delivered to maildir)
+Jan 24 14:00:47 localhost postfix/local[338]: BFAA0EADE: to=<ftm@fromthemachine.org>, orig_to=<notmymessiah@fromthemachine.org>, relay=local, delay=0.53, delays=0.48/0.03/0/0.02, dsn=5.1.1, status=bounced (unknown user: "ftm")
+Jan 24 14:00:47 localhost postfix/smtpd[326]: disconnect from mail-pg1-f199.google.com[209.85.215.199] ehlo=2 starttls=1 mail=1 rcpt=1 bdat=2 quit=1 commands=8
+Jan 24 14:00:47 localhost postfix/smtp[339]: connect to smtp-relay.gmail.com[2404:6800:4008:c07::1c]:587: Network is unreachable
+Jan 24 14:00:50 localhost postfix/smtp[339]: BFAA0EADE: to=<0xc514f094370cfc5ee45a1dd9b72bb9675efe266f@ethmail.cc>, orig_to=<notmymessiah@fromthemachine.org>, relay=smtp-relay.gmail.com[64.233.189.28]:587, delay=3.7, delays=0.48/0.03/2/1.2, dsn=2.0.0, status=sent (250 2.0.0 OK  1643032850 g8sm97924oos.15 - gsmtp)
+Jan 24 14:00:50 localhost postfix/cleanup[337]: 78CF0F6C9: message-id=<20220124140050.78CF0F6C9@plemma.cc>
+Jan 24 14:00:50 localhost postfix/qmgr[32066]: 78CF0F6C9: from=<>, size=8206, nrcpt=1 (queue active)
+Jan 24 14:00:50 localhost postfix/bounce[341]: BFAA0EADE: sender non-delivery notification: 78CF0F6C9
+Jan 24 14:00:50 localhost postfix/qmgr[32066]: BFAA0EADE: removed
+Jan 24 14:00:52 localhost postfix/smtp[339]: 78CF0F6C9: to=<n0016200c52-038791b21a014878-notmymessiah===fromthemachine.org@bounce.twitter.com>, relay=smtp-relay.gmail.com[64.233.189.28]:587, delay=2.1, delays=0/0/1.4/0.72, dsn=2.0.0, status=sent (250 2.0.0 OK  1643032852 w21sm3268882qkp.6 - gsmtp)
+Jan 24 14:00:52 localhost postfix/qmgr[32066]: 78CF0F6C9: removed
+Jan 24 14:03:42 localhost postfix/smtpd[412]: connect from unknown[159.65.173.133]
+Jan 24 14:03:43 localhost postfix/trivial-rewrite[414]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 14:03:43 localhost postfix/smtpd[412]: AE0F3EADE: client=unknown[159.65.173.133]
+Jan 24 14:03:44 localhost postfix/cleanup[415]: AE0F3EADE: message-id=<20220124140339.8A99907D8A8EE33A@bxpxmno.sbs>
+Jan 24 14:03:44 localhost postfix/qmgr[32066]: AE0F3EADE: from=<cng@bxpxmno.sbs>, size=13620, nrcpt=1 (queue active)
+Jan 24 14:03:44 localhost postfix/trivial-rewrite[414]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 14:03:44 localhost postfix/local[416]: AE0F3EADE: to=<adam@lamc.la>, relay=local, delay=0.58, delays=0.56/0.01/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Jan 24 14:03:44 localhost postfix/qmgr[32066]: AE0F3EADE: removed
+Jan 24 14:03:44 localhost postfix/smtpd[412]: disconnect from unknown[159.65.173.133] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Jan 24 14:06:23 localhost postfix/smtpd[484]: connect from mhostcl2ap01pwdu.prod.oclc.org[132.174.100.127]
+Jan 24 14:06:26 localhost postfix/trivial-rewrite[487]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 14:06:26 localhost postfix/smtpd[484]: NOQUEUE: reject: RCPT from mhostcl2ap01pwdu.prod.oclc.org[132.174.100.127]: 550 5.1.1 <shield@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<owner-wired-mt-l@oclclists.org> to=<shield@lamc.la> proto=ESMTP helo=<mhostcl2ap01pwdu.prod.oclc.org>
+Jan 24 14:06:26 localhost postfix/smtpd[484]: disconnect from mhostcl2ap01pwdu.prod.oclc.org[132.174.100.127] ehlo=2 starttls=1 mail=1 rcpt=0/1 quit=1 commands=5/6
+Jan 24 14:07:07 localhost postfix/smtpd[484]: connect from mail-pg1-f198.google.com[209.85.215.198]
+Jan 24 14:07:08 localhost postfix/trivial-rewrite[487]: warning: do not list domain reallyhim.com in BOTH mydestination and virtual_alias_domains
+Jan 24 14:07:08 localhost postfix/smtpd[484]: B2D3FEADE: client=mail-pg1-f198.google.com[209.85.215.198]
+Jan 24 14:07:08 localhost postfix/cleanup[500]: B2D3FEADE: message-id=<1502025157.1490621.1643033080457@mail.yahoo.com>
+Jan 24 14:07:08 localhost postfix/qmgr[32066]: B2D3FEADE: from=<owner-wired-mt-l@oclclists.org>, size=40798, nrcpt=3 (queue active)
+Jan 24 14:07:08 localhost postfix/trivial-rewrite[487]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Jan 24 14:07:08 localhost postfix/local[502]: B2D3FEADE: to=<adam@localhost>, orig_to=<adam5@reallyhim.com>, relay=local, delay=0.25, delays=0.23/0.02/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Jan 24 14:07:08 localhost postfix/local[502]: B2D3FEADE: to=<ftm@fromthemachine.org>, orig_to=<adam5@reallyhim.com>, relay=local, delay=0.28, delays=0.23/0.03/0/0.02, dsn=5.1.1, status=bounced (unknown user: "ftm")
+Jan 24 14:07:09 localhost postfix/smtpd[484]: disconnect from mail-pg1-f198.google.com[209.85.215.198] ehlo=2 starttls=1 mail=1 rcpt=1 bdat=1 quit=1 commands=7
+Jan 24 14:07:11 localhost postfix/smtp[501]: B2D3FEADE: to=<0xc514f094370cfc5ee45a1dd9b72bb9675efe266f@ethmail.cc>, orig_to=<adam5@reallyhim.com>, relay=smtp-relay.gmail.com[64.233.189.28]:587, delay=2.6, delays=0.23/0.03/1.6/0.77, dsn=2.0.0, status=sent (250 2.0.0 OK  1643033231 y2sm2835411ooh.16 - gsmtp)
+Jan 24 14:07:11 localhost postfix/cleanup[500]: 55A2EF6C9: message-id=<20220124140711.55A2EF6C9@plemma.cc>
+Jan 24 14:07:11 localhost postfix/qmgr[32066]: 55A2EF6C9: from=<>, size=42678, nrcpt=1 (queue active)
+Jan 24 14:07:11 localhost postfix/bounce[504]: B2D3FEADE: sender non-delivery notification: 55A2EF6C9
+Jan 24 14:07:11 localhost postfix/qmgr[32066]: B2D3FEADE: removed
+Jan 24 14:07:12 localhost postfix/smtp[501]: 55A2EF6C9: to=<owner-wired-mt-l@oclclists.org>, relay=smtp-relay.gmail.com[64.233.189.28]:587, delay=1.6, delays=0/0/0.9/0.71, dsn=2.0.0, status=sent (250 2.0.0 OK  1643033232 mu10sm3481152pjb.2 - gsmtp)
+Jan 24 14:07:12 localhost postfix/qmgr[32066]: 55A2EF6C9: removed
+Jan 24 14:10:21 localhost postfix/smtpd[625]: connect from slot0.fc-pro.net[193.3.168.169]
+Jan 24 14:10:23 localhost postfix/trivial-rewrite[633]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 14:10:23 localhost postfix/smtpd[625]: 334EFEADE: client=slot0.fc-pro.net[193.3.168.169]
+Jan 24 14:10:23 localhost postfix/cleanup[634]: 334EFEADE: message-id=<20220124021749.53765C71EBDCC209@outlook.com>
+Jan 24 14:10:23 localhost postfix/qmgr[32066]: 334EFEADE: from=<hsc-parklingshade@outlook.com>, size=1109, nrcpt=1 (queue active)
+Jan 24 14:10:23 localhost postfix/trivial-rewrite[633]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 14:10:23 localhost postfix/local[635]: 334EFEADE: to=<adam@lamc.la>, relay=local, delay=0.89, delays=0.87/0.01/0/0.01, dsn=2.0.0, status=sent (delivered to maildir)
+Jan 24 14:10:23 localhost postfix/qmgr[32066]: 334EFEADE: removed
+Jan 24 14:10:24 localhost postfix/smtpd[625]: disconnect from slot0.fc-pro.net[193.3.168.169] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Jan 24 14:10:28 localhost postfix/anvil[328]: statistics: max connection rate 1/60s for (smtp:40.107.21.117) at Jan 24 14:00:28
+Jan 24 14:10:28 localhost postfix/anvil[328]: statistics: max connection count 1 for (smtp:40.107.21.117) at Jan 24 14:00:28
+Jan 24 14:10:28 localhost postfix/anvil[328]: statistics: max cache size 2 at Jan 24 14:00:45
+Jan 24 14:12:08 localhost postfix/smtpd[693]: warning: hostname irsrv.mihanmizban.com does not resolve to address 185.105.185.156
+Jan 24 14:12:08 localhost postfix/smtpd[693]: connect from unknown[185.105.185.156]
+Jan 24 14:12:10 localhost postfix/trivial-rewrite[696]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 14:12:10 localhost postfix/smtpd[693]: NOQUEUE: reject: RCPT from unknown[185.105.185.156]: 550 5.1.1 <suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncBCC7XN6N3YMBBMFGWWHQMGQER7SEXCQ@lamc.la> proto=ESMTP helo=<server.farhangnovin.com>
+Jan 24 14:12:10 localhost postfix/smtpd[693]: disconnect from unknown[185.105.185.156] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 quit=1 commands=5/7
+Jan 24 14:15:31 localhost postfix/anvil[328]: statistics: max connection rate 1/60s for (smtp:185.105.185.156) at Jan 24 14:12:08
+Jan 24 14:15:31 localhost postfix/anvil[328]: statistics: max connection count 1 for (smtp:185.105.185.156) at Jan 24 14:12:08
+Jan 24 14:15:31 localhost postfix/anvil[328]: statistics: max cache size 1 at Jan 24 14:12:08
+Jan 24 14:21:01 localhost postfix/smtpd[918]: connect from mail-wm1-f69.google.com[209.85.128.69]
+Jan 24 14:21:03 localhost postfix/smtpd[918]: NOQUEUE: reject: RCPT from mail-wm1-f69.google.com[209.85.128.69]: 454 4.7.1 <unsubscribe@liber-t.xyz>: Relay access denied; from=<rbuel@wesleyan.edu> to=<unsubscribe@liber-t.xyz> proto=ESMTP helo=<mail-wm1-f69.google.com>
+Jan 24 14:21:04 localhost postfix/smtpd[918]: disconnect from mail-wm1-f69.google.com[209.85.128.69] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
