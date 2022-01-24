@@ -4168,3 +4168,859 @@ Jan 23 21:28:52 localhost postfix/smtpd[3321]: disconnect from mail-yb1-f200.goo
 Jan 23 21:32:12 localhost postfix/anvil[3323]: statistics: max connection rate 1/60s for (smtp:59.63.204.76) at Jan 23 21:27:31
 Jan 23 21:32:12 localhost postfix/anvil[3323]: statistics: max connection count 1 for (smtp:59.63.204.76) at Jan 23 21:27:31
 Jan 23 21:32:12 localhost postfix/anvil[3323]: statistics: max cache size 1 at Jan 23 21:27:31
+Jan 23 21:36:49 localhost postfix/smtpd[3668]: connect from mail-ot1-f70.google.com[209.85.210.70]
+Jan 23 21:36:50 localhost postfix/smtpd[3668]: NOQUEUE: reject: RCPT from mail-ot1-f70.google.com[209.85.210.70]: 454 4.7.1 <prvs=014b97598=arwaxm+bncBCC7XN6N3YMBB54JV6HQMGQE3GQP3NI@liber-t.xyz>: Relay access denied; from=<> to=<prvs=014b97598=arwaxm+bncBCC7XN6N3YMBB54JV6HQMGQE3GQP3NI@liber-t.xyz> proto=ESMTP helo=<mail-ot1-f70.google.com>
+Jan 23 21:36:51 localhost postfix/smtpd[3668]: disconnect from mail-ot1-f70.google.com[209.85.210.70] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 23 21:40:11 localhost postfix/anvil[3670]: statistics: max connection rate 1/60s for (smtp:209.85.210.70) at Jan 23 21:36:49
+Jan 23 21:40:11 localhost postfix/anvil[3670]: statistics: max connection count 1 for (smtp:209.85.210.70) at Jan 23 21:36:49
+Jan 23 21:40:11 localhost postfix/anvil[3670]: statistics: max cache size 1 at Jan 23 21:36:49
+Jan 23 21:50:38 localhost postfix/smtpd[4830]: connect from unknown[unknown]
+Jan 23 21:50:38 localhost postfix/smtpd[4830]: lost connection after CONNECT from unknown[unknown]
+Jan 23 21:50:38 localhost postfix/smtpd[4830]: disconnect from unknown[unknown] commands=0/0
+Jan 23 21:53:12 localhost postfix/smtpd[4887]: connect from 13.r1.unverified-forwarding.1e100.net[108.177.16.13]
+Jan 23 21:53:13 localhost postfix/smtpd[4887]: NOQUEUE: reject: RCPT from 13.r1.unverified-forwarding.1e100.net[108.177.16.13]: 454 4.7.1 <adamvideos@carpent.us>: Relay access denied; from=<0100017e83189972-263f1e1e-e38f-48b5-8ea9-7ecf1feccc6f-000000@bounce.imgur.com> to=<adamvideos@carpent.us> proto=ESMTP helo=<13.r1.unverified-forwarding.1e100.net>
+Jan 23 21:53:13 localhost postfix/smtpd[4887]: disconnect from 13.r1.unverified-forwarding.1e100.net[108.177.16.13] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 23 21:53:50 localhost postfix/smtpd[4887]: connect from unknown[183.154.95.97]
+Jan 23 21:53:56 localhost postfix/trivial-rewrite[4895]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 23 21:54:01 localhost postfix/smtpd[4887]: ADBBDEADE: client=unknown[183.154.95.97]
+Jan 23 21:54:02 localhost postfix/cleanup[4904]: ADBBDEADE: message-id=<627321934.869495.1642974825945@kontserdimaja-ee.mail.protection.outlook.com>
+Jan 23 21:54:02 localhost postfix/qmgr[32066]: ADBBDEADE: from=<tcnenvaund@elsiglo.com.pa>, size=1195, nrcpt=1 (queue active)
+Jan 23 21:54:02 localhost postfix/trivial-rewrite[4895]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 23 21:54:04 localhost postfix/smtpd[4887]: disconnect from unknown[183.154.95.97] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+Jan 23 21:54:17 localhost postfix/local[4906]: ADBBDEADE: to=<adam@lamc.la>, relay=local, delay=26, delays=11/14/0/0.25, dsn=2.0.0, status=sent (delivered to maildir)
+Jan 23 21:54:17 localhost postfix/qmgr[32066]: ADBBDEADE: removed
+Jan 23 21:58:02 localhost postfix/anvil[4864]: statistics: max connection rate 1/60s for (smtp:unknown) at Jan 23 21:50:38
+Jan 23 21:58:02 localhost postfix/anvil[4864]: statistics: max connection count 1 for (smtp:unknown) at Jan 23 21:50:38
+Jan 23 21:58:02 localhost postfix/anvil[4864]: statistics: max cache size 2 at Jan 23 21:53:47
+Jan 23 22:11:17 localhost postfix/smtpd[5047]: connect from mail-pj1-f45.google.com[209.85.216.45]
+Jan 23 22:12:37 localhost postfix/trivial-rewrite[5074]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 23 22:16:30 localhost postfix/smtpd[5063]: connect from mail-pf1-f199.google.com[209.85.210.199]
+Jan 23 22:16:30 localhost postfix/smtpd[5047]: NOQUEUE: reject: RCPT from mail-pj1-f45.google.com[209.85.216.45]: 550 5.1.1 <suac+unsubscribe@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<xxte24xx@gmail.com> to=<suac+unsubscribe@lamc.la> proto=ESMTP helo=<mail-pj1-f45.google.com>
+Jan 23 22:16:30 localhost postfix/smtpd[5047]: disconnect from mail-pj1-f45.google.com[209.85.216.45] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 23 22:16:30 localhost postfix/smtpd[5047]: connect from mail-yb1-f199.google.com[209.85.219.199]
+Jan 23 22:16:30 localhost postfix/trivial-rewrite[5074]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Jan 23 22:16:30 localhost postfix/smtpd[5047]: NOQUEUE: reject: RCPT from mail-yb1-f199.google.com[209.85.219.199]: 454 4.7.1 <prvs=014ed5826=arwaxm+bncBCC7XN6N3YMBBOUFWGHQMGQELKC6SUQ@liber-t.xyz>: Relay access denied; from=<> to=<prvs=014ed5826=arwaxm+bncBCC7XN6N3YMBBOUFWGHQMGQELKC6SUQ@liber-t.xyz> proto=ESMTP helo=<mail-yb1-f199.google.com>
+Jan 23 22:16:30 localhost postfix/smtpd[5047]: disconnect from mail-yb1-f199.google.com[209.85.219.199] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 23 22:16:30 localhost postfix/smtpd[5047]: connect from unknown[117.92.202.41]
+Jan 23 22:16:30 localhost postfix/smtpd[5047]: lost connection after CONNECT from unknown[117.92.202.41]
+Jan 23 22:16:30 localhost postfix/smtpd[5047]: disconnect from unknown[117.92.202.41] commands=0/0
+Jan 23 22:16:30 localhost postfix/smtpd[5063]: 82D1EEADE: client=mail-pf1-f199.google.com[209.85.210.199]
+Jan 23 22:16:30 localhost postfix/cleanup[5090]: 82D1EEADE: message-id=<97bfc151-59c5-39cd-ba91-608244c4888e@mail.uber.com>
+Jan 23 22:16:30 localhost postfix/qmgr[32066]: 82D1EEADE: from=<bounce@spmail.uber.com>, size=53992, nrcpt=3 (queue active)
+Jan 23 22:16:30 localhost postfix/trivial-rewrite[5074]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Jan 23 22:16:30 localhost postfix/smtpd[5063]: disconnect from mail-pf1-f199.google.com[209.85.210.199] ehlo=2 starttls=1 mail=1 rcpt=1 bdat=1 quit=1 commands=7
+Jan 23 22:16:31 localhost postfix/local[5113]: 82D1EEADE: to=<adam@localhost>, orig_to=<adamuber@fromthemachine.org>, relay=local, delay=179, delays=178/1.2/0/0.18, dsn=2.0.0, status=sent (delivered to maildir)
+Jan 23 22:16:32 localhost postfix/smtp[5112]: connect to smtp-relay.gmail.com[2404:6800:4008:c07::1c]:587: Network is unreachable
+Jan 23 22:16:32 localhost postfix/local[5113]: 82D1EEADE: to=<ftm@fromthemachine.org>, orig_to=<adamuber@fromthemachine.org>, relay=local, delay=180, delays=178/1.4/0/0.83, dsn=5.1.1, status=bounced (unknown user: "ftm")
+Jan 23 22:16:34 localhost postfix/smtp[5112]: 82D1EEADE: to=<0xc514f094370cfc5ee45a1dd9b72bb9675efe266f@ethmail.cc>, orig_to=<adamuber@fromthemachine.org>, relay=smtp-relay.gmail.com[64.233.189.28]:587, delay=182, delays=178/1.8/1.6/0.84, dsn=2.0.0, status=sent (250 2.0.0 OK  1642976194 m1sm2958218pjs.12 - gsmtp)
+Jan 23 22:16:34 localhost postfix/cleanup[5090]: 713C5EAE2: message-id=<20220123221634.713C5EAE2@plemma.cc>
+Jan 23 22:16:34 localhost postfix/bounce[5123]: 82D1EEADE: sender non-delivery notification: 713C5EAE2
+Jan 23 22:16:34 localhost postfix/qmgr[32066]: 713C5EAE2: from=<>, size=7411, nrcpt=1 (queue active)
+Jan 23 22:16:34 localhost postfix/qmgr[32066]: 82D1EEADE: removed
+Jan 23 22:16:44 localhost postfix/smtp[5112]: 713C5EAE2: to=<bounce@spmail.uber.com>, relay=smtp-relay.gmail.com[64.233.189.28]:587, delay=3.4, delays=0.02/0.01/1.7/1.7, dsn=2.0.0, status=sent (250 2.0.0 OK  1642976197 g21sm4259434qko.7 - gsmtp)
+Jan 23 22:16:52 localhost postfix/qmgr[32066]: 713C5EAE2: removed
+Jan 23 22:20:00 localhost postfix/anvil[5059]: statistics: max connection rate 1/60s for (smtp:209.85.216.45) at Jan 23 22:11:47
+Jan 23 22:20:01 localhost postfix/anvil[5059]: statistics: max connection count 1 for (smtp:209.85.216.45) at Jan 23 22:11:47
+Jan 23 22:20:01 localhost postfix/anvil[5059]: statistics: max cache size 3 at Jan 23 22:13:24
+Jan 23 22:29:36 localhost postfix/smtpd[5206]: warning: hostname hosted-by.rootlayer.net does not resolve to address 185.222.57.195
+Jan 23 22:29:36 localhost postfix/smtpd[5206]: connect from unknown[185.222.57.195]
+Jan 23 22:30:18 localhost postfix/smtpd[5206]: lost connection after CONNECT from unknown[185.222.57.195]
+Jan 23 22:30:18 localhost postfix/smtpd[5206]: disconnect from unknown[185.222.57.195] commands=0/0
+Jan 23 22:33:32 localhost postfix/anvil[5243]: statistics: max connection rate 1/60s for (smtp:185.222.57.195) at Jan 23 22:30:04
+Jan 23 22:33:32 localhost postfix/anvil[5243]: statistics: max connection count 1 for (smtp:185.222.57.195) at Jan 23 22:30:04
+Jan 23 22:33:32 localhost postfix/anvil[5243]: statistics: max cache size 1 at Jan 23 22:30:04
+Jan 23 22:41:43 localhost postfix/smtpd[5291]: connect from mail-wr1-f48.google.com[209.85.221.48]
+Jan 23 22:47:34 localhost postfix/smtpd[5291]: lost connection after CONNECT from mail-wr1-f48.google.com[209.85.221.48]
+Jan 23 22:47:34 localhost postfix/smtpd[5291]: disconnect from mail-wr1-f48.google.com[209.85.221.48] commands=0/0
+Jan 23 22:47:34 localhost postfix/smtpd[5291]: connect from mail-wr1-f48.google.com[209.85.221.48]
+Jan 23 22:47:34 localhost postfix/smtpd[5291]: lost connection after CONNECT from mail-wr1-f48.google.com[209.85.221.48]
+Jan 23 22:47:34 localhost postfix/smtpd[5291]: disconnect from mail-wr1-f48.google.com[209.85.221.48] commands=0/0
+Jan 23 22:48:51 localhost postfix/smtpd[5291]: connect from mail-ed1-f65.google.com[209.85.208.65]
+Jan 23 22:49:21 localhost postfix/trivial-rewrite[5395]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 23 22:49:34 localhost postfix/smtpd[5291]: 61E8C2929: client=mail-ed1-f65.google.com[209.85.208.65]
+Jan 23 22:49:34 localhost postfix/cleanup[5400]: 61E8C2929: message-id=<61eddb4b.1c69fb81.512e3.2a80@mx.google.com>
+Jan 23 22:49:34 localhost postfix/qmgr[32066]: 61E8C2929: from=<strattonoffers2@gmail.com>, size=4050, nrcpt=1 (queue active)
+Jan 23 22:49:34 localhost postfix/trivial-rewrite[5395]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 23 22:49:36 localhost postfix/smtpd[5291]: disconnect from mail-ed1-f65.google.com[209.85.208.65] ehlo=2 starttls=1 mail=1 rcpt=1 bdat=1 quit=1 commands=7
+Jan 23 22:50:10 localhost postfix/local[5413]: 61E8C2929: to=<adam@lamc.la>, relay=local, delay=47, delays=13/33/0/0.22, dsn=2.0.0, status=sent (delivered to maildir)
+Jan 23 22:50:10 localhost postfix/qmgr[32066]: 61E8C2929: removed
+Jan 23 22:52:38 localhost postfix/smtpd[5427]: connect from mail-ed1-f47.google.com[209.85.208.47]
+Jan 23 22:53:18 localhost postfix/trivial-rewrite[5445]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 23 22:53:41 localhost postfix/smtpd[5427]: NOQUEUE: reject: RCPT from mail-ed1-f47.google.com[209.85.208.47]: 550 5.1.1 <suac+unsubscribe@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<tamar.flash@gmail.com> to=<suac+unsubscribe@lamc.la> proto=ESMTP helo=<mail-ed1-f47.google.com>
+Jan 23 22:53:47 localhost postfix/smtpd[5427]: disconnect from mail-ed1-f47.google.com[209.85.208.47] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 23 22:57:17 localhost postfix/anvil[5346]: statistics: max connection rate 2/60s for (smtp:209.85.221.48) at Jan 23 22:47:34
+Jan 23 22:57:17 localhost postfix/anvil[5346]: statistics: max connection count 1 for (smtp:209.85.221.48) at Jan 23 22:47:34
+Jan 23 22:57:17 localhost postfix/anvil[5346]: statistics: max cache size 1 at Jan 23 22:47:34
+Jan 23 22:58:14 localhost postfix/smtpd[5518]: connect from unknown[117.92.165.81]
+Jan 23 22:58:15 localhost postfix/trivial-rewrite[5521]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 23 22:58:15 localhost postfix/smtpd[5518]: NOQUEUE: reject: RCPT from unknown[117.92.165.81]: 550 5.1.1 <mayer@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<uygpfgahj@cjnh.com> to=<mayer@lamc.la> proto=ESMTP helo=<cjnh.com>
+Jan 23 22:58:15 localhost postfix/smtpd[5518]: disconnect from unknown[117.92.165.81] ehlo=1 mail=1 rcpt=0/1 quit=1 commands=3/4
+Jan 23 23:01:37 localhost postfix/anvil[5520]: statistics: max connection rate 1/60s for (smtp:117.92.165.81) at Jan 23 22:58:14
+Jan 23 23:01:37 localhost postfix/anvil[5520]: statistics: max connection count 1 for (smtp:117.92.165.81) at Jan 23 22:58:14
+Jan 23 23:01:37 localhost postfix/anvil[5520]: statistics: max cache size 1 at Jan 23 22:58:14
+Jan 23 23:08:17 localhost postfix/smtpd[6308]: connect from mail-ej1-f71.google.com[209.85.218.71]
+Jan 23 23:09:14 localhost postfix/smtpd[6308]: NOQUEUE: reject: RCPT from mail-ej1-f71.google.com[209.85.218.71]: 454 4.7.1 <unsubscribe@liber-t.xyz>: Relay access denied; from=<rlibertus@oru.edu> to=<unsubscribe@liber-t.xyz> proto=ESMTP helo=<mail-ej1-f71.google.com>
+Jan 23 23:09:15 localhost postfix/smtpd[6308]: disconnect from mail-ej1-f71.google.com[209.85.218.71] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 23 23:12:44 localhost postfix/anvil[6314]: statistics: max connection rate 1/60s for (smtp:209.85.218.71) at Jan 23 23:08:21
+Jan 23 23:12:44 localhost postfix/anvil[6314]: statistics: max connection count 1 for (smtp:209.85.218.71) at Jan 23 23:08:21
+Jan 23 23:12:44 localhost postfix/anvil[6314]: statistics: max cache size 1 at Jan 23 23:08:21
+Jan 23 23:21:08 localhost postfix/smtpd[6438]: connect from unknown[39.91.92.145]
+Jan 23 23:21:34 localhost postfix/smtpd[6438]: lost connection after CONNECT from unknown[39.91.92.145]
+Jan 23 23:21:34 localhost postfix/smtpd[6438]: disconnect from unknown[39.91.92.145] commands=0/0
+Jan 23 23:24:56 localhost postfix/anvil[6465]: statistics: max connection rate 1/60s for (smtp:39.91.92.145) at Jan 23 23:21:31
+Jan 23 23:24:59 localhost postfix/anvil[6465]: statistics: max connection count 1 for (smtp:39.91.92.145) at Jan 23 23:21:31
+Jan 23 23:25:01 localhost postfix/anvil[6465]: statistics: max cache size 1 at Jan 23 23:21:31
+Jan 23 23:25:13 localhost postfix/smtpd[6506]: connect from mail-oi1-f197.google.com[209.85.167.197]
+Jan 23 23:26:36 localhost postfix/smtpd[6538]: connect from unknown[45.87.62.139]
+Jan 23 23:27:02 localhost postfix/smtpd[6506]: NOQUEUE: reject: RCPT from mail-oi1-f197.google.com[209.85.167.197]: 454 4.7.1 <prvs=014ee2e65=arwaxm+bncBCZPRMXX2ULBBXWHV6HQMGQEQDDHY5Y@liber-t.xyz>: Relay access denied; from=<> to=<prvs=014ee2e65=arwaxm+bncBCZPRMXX2ULBBXWHV6HQMGQEQDDHY5Y@liber-t.xyz> proto=ESMTP helo=<mail-oi1-f197.google.com>
+Jan 23 23:27:21 localhost postfix/trivial-rewrite[6541]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 23 23:27:27 localhost postfix/smtpd[6506]: disconnect from mail-oi1-f197.google.com[209.85.167.197] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 23 23:28:04 localhost postfix/smtpd[6538]: 5F5AEEAE1: client=unknown[45.87.62.139]
+Jan 23 23:28:13 localhost postfix/cleanup[6547]: 5F5AEEAE1: message-id=<20220124002610.4903A47BDA70D726@linkedin.com>
+Jan 23 23:28:18 localhost postfix/qmgr[32066]: 5F5AEEAE1: from=<mailing@linkedin.com>, size=116256, nrcpt=1 (queue active)
+Jan 23 23:28:18 localhost postfix/smtpd[6538]: disconnect from unknown[45.87.62.139] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+Jan 23 23:28:18 localhost postfix/trivial-rewrite[6541]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 23 23:29:31 localhost postfix/local[6555]: 5F5AEEAE1: to=<adam@lamc.la>, relay=local, delay=149, delays=72/78/0/0.08, dsn=2.0.0, status=sent (delivered to maildir)
+Jan 23 23:29:31 localhost postfix/qmgr[32066]: 5F5AEEAE1: removed
+Jan 23 23:30:55 localhost postfix/smtpd[6575]: connect from mail-yb1-f200.google.com[209.85.219.200]
+Jan 23 23:33:08 localhost postfix/smtpd[6575]: NOQUEUE: reject: RCPT from mail-yb1-f200.google.com[209.85.219.200]: 454 4.7.1 <prvs=010952b62=arwaxm+bncBCC7XN6N3YMBB667TKHQMGQER6TXOKI@liber-t.xyz>: Relay access denied; from=<> to=<prvs=010952b62=arwaxm+bncBCC7XN6N3YMBB667TKHQMGQER6TXOKI@liber-t.xyz> proto=ESMTP helo=<mail-yb1-f200.google.com>
+Jan 23 23:33:10 localhost postfix/smtpd[6575]: disconnect from mail-yb1-f200.google.com[209.85.219.200] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 23 23:34:17 localhost postfix/smtpd[6575]: connect from mail-yb1-f197.google.com[209.85.219.197]
+Jan 23 23:34:43 localhost postfix/smtpd[6575]: NOQUEUE: reject: RCPT from mail-yb1-f197.google.com[209.85.219.197]: 454 4.7.1 <prvs=0136a63dc=arwaxm+bncBCC7XN6N3YMBBXW6VOHQMGQE4IN3IXQ@liber-t.xyz>: Relay access denied; from=<> to=<prvs=0136a63dc=arwaxm+bncBCC7XN6N3YMBBXW6VOHQMGQE4IN3IXQ@liber-t.xyz> proto=ESMTP helo=<mail-yb1-f197.google.com>
+Jan 23 23:35:03 localhost postfix/smtpd[6575]: disconnect from mail-yb1-f197.google.com[209.85.219.197] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 23 23:35:13 localhost postfix/smtpd[6575]: connect from mail-oi1-f198.google.com[209.85.167.198]
+Jan 23 23:35:18 localhost postfix/smtpd[6575]: NOQUEUE: reject: RCPT from mail-oi1-f198.google.com[209.85.167.198]: 454 4.7.1 <unsubscribe@liber-t.xyz>: Relay access denied; from=<ulippi@tin.it> to=<unsubscribe@liber-t.xyz> proto=ESMTP helo=<mail-oi1-f198.google.com>
+Jan 23 23:35:23 localhost postfix/smtpd[6575]: disconnect from mail-oi1-f198.google.com[209.85.167.198] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 23 23:36:06 localhost postfix/anvil[6530]: statistics: max connection rate 1/60s for (smtp:209.85.167.197) at Jan 23 23:26:06
+Jan 23 23:36:08 localhost postfix/anvil[6530]: statistics: max connection count 1 for (smtp:209.85.167.197) at Jan 23 23:26:06
+Jan 23 23:36:08 localhost postfix/anvil[6530]: statistics: max cache size 2 at Jan 23 23:26:33
+Jan 23 23:41:08 localhost postfix/smtpd[6639]: connect from mail-pj1-f69.google.com[209.85.216.69]
+Jan 23 23:41:20 localhost postfix/smtpd[6676]: connect from unknown[46.101.9.8]
+Jan 23 23:41:27 localhost postfix/smtpd[6639]: NOQUEUE: reject: RCPT from mail-pj1-f69.google.com[209.85.216.69]: 454 4.7.1 <unsubscribe@liber-t.xyz>: Relay access denied; from=<yuhailin_79@cslg.edu.cn> to=<unsubscribe@liber-t.xyz> proto=ESMTP helo=<mail-pj1-f69.google.com>
+Jan 23 23:41:27 localhost postfix/trivial-rewrite[6684]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 23 23:41:27 localhost postfix/smtpd[6639]: disconnect from mail-pj1-f69.google.com[209.85.216.69] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 23 23:41:28 localhost postfix/smtpd[6639]: connect from unknown[106.75.79.172]
+Jan 23 23:41:29 localhost postfix/smtpd[6639]: lost connection after CONNECT from unknown[106.75.79.172]
+Jan 23 23:41:29 localhost postfix/smtpd[6639]: disconnect from unknown[106.75.79.172] commands=0/0
+Jan 23 23:41:29 localhost postfix/smtpd[6639]: connect from unknown[106.75.79.172]
+Jan 23 23:41:29 localhost postfix/smtpd[6639]: lost connection after UNKNOWN from unknown[106.75.79.172]
+Jan 23 23:41:29 localhost postfix/smtpd[6639]: disconnect from unknown[106.75.79.172] unknown=0/1 commands=0/1
+Jan 23 23:41:29 localhost postfix/smtpd[6639]: connect from unknown[106.75.79.172]
+Jan 23 23:41:29 localhost postfix/smtpd[6676]: NOQUEUE: reject: RCPT from unknown[46.101.9.8]: 550 5.1.1 <car@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<mailing@linkedin.com> to=<car@lamc.la> proto=ESMTP helo=<hp0.bxpxmno.sbs>
+Jan 23 23:41:30 localhost postfix/smtpd[6639]: warning: non-SMTP command from unknown[106.75.79.172]: GET / HTTP/1.0
+Jan 23 23:41:31 localhost postfix/smtpd[6639]: disconnect from unknown[106.75.79.172] unknown=0/1 commands=0/1
+Jan 23 23:41:31 localhost postfix/smtpd[6639]: connect from unknown[106.75.79.172]
+Jan 23 23:41:31 localhost postfix/smtpd[6639]: lost connection after CONNECT from unknown[106.75.79.172]
+Jan 23 23:41:31 localhost postfix/smtpd[6639]: disconnect from unknown[106.75.79.172] commands=0/0
+Jan 23 23:41:31 localhost postfix/smtpd[6639]: connect from unknown[106.75.79.172]
+Jan 23 23:41:31 localhost postfix/smtpd[6639]: lost connection after UNKNOWN from unknown[106.75.79.172]
+Jan 23 23:41:31 localhost postfix/smtpd[6639]: disconnect from unknown[106.75.79.172] unknown=0/1 commands=0/1
+Jan 23 23:41:31 localhost postfix/smtpd[6676]: disconnect from unknown[46.101.9.8] ehlo=2 starttls=1 mail=1 rcpt=0/1 quit=1 commands=5/6
+Jan 23 23:41:41 localhost postfix/smtpd[6639]: connect from gw0.mx.kanazawa-u.ac.jp[133.28.17.30]
+Jan 23 23:41:53 localhost postfix/trivial-rewrite[6684]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 23 23:41:53 localhost postfix/smtpd[6639]: NOQUEUE: reject: RCPT from gw0.mx.kanazawa-u.ac.jp[133.28.17.30]: 550 5.1.1 <suac+unsubscribe@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<prvs=1025d463ba=nakanaka@p.kanazawa-u.ac.jp> to=<suac+unsubscribe@lamc.la> proto=ESMTP helo=<gateway.mx.kanazawa-u.ac.jp>
+Jan 23 23:41:55 localhost postfix/smtpd[6639]: disconnect from gw0.mx.kanazawa-u.ac.jp[133.28.17.30] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 rset=1 quit=1 commands=6/8
+Jan 23 23:45:18 localhost postfix/anvil[6678]: statistics: max connection rate 5/60s for (smtp:106.75.79.172) at Jan 23 23:41:29
+Jan 23 23:45:18 localhost postfix/anvil[6678]: statistics: max connection count 1 for (smtp:209.85.216.69) at Jan 23 23:41:12
+Jan 23 23:45:18 localhost postfix/anvil[6678]: statistics: max cache size 4 at Jan 23 23:41:39
+Jan 23 23:54:13 localhost postfix/smtpd[6767]: connect from mail-oo1-f70.google.com[209.85.161.70]
+Jan 23 23:54:19 localhost postfix/smtpd[6767]: NOQUEUE: reject: RCPT from mail-oo1-f70.google.com[209.85.161.70]: 454 4.7.1 <prvs=01017a278=arwaxm+bncBCC7XN6N3YMBBFFPTSHQMGQEQ4HGFEA@liber-t.xyz>: Relay access denied; from=<> to=<prvs=01017a278=arwaxm+bncBCC7XN6N3YMBBFFPTSHQMGQEQ4HGFEA@liber-t.xyz> proto=ESMTP helo=<mail-oo1-f70.google.com>
+Jan 23 23:54:22 localhost postfix/smtpd[6767]: disconnect from mail-oo1-f70.google.com[209.85.161.70] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 23 23:57:42 localhost postfix/anvil[6813]: statistics: max connection rate 1/60s for (smtp:209.85.161.70) at Jan 23 23:54:13
+Jan 23 23:57:42 localhost postfix/anvil[6813]: statistics: max connection count 1 for (smtp:209.85.161.70) at Jan 23 23:54:13
+Jan 23 23:57:42 localhost postfix/anvil[6813]: statistics: max cache size 1 at Jan 23 23:54:13
+Jan 23 23:57:53 localhost postfix/smtpd[6856]: connect from unknown[39.164.225.154]
+Jan 23 23:59:13 localhost postfix/smtpd[6856]: lost connection after CONNECT from unknown[39.164.225.154]
+Jan 23 23:59:13 localhost postfix/smtpd[6856]: disconnect from unknown[39.164.225.154] commands=0/0
+Jan 24 00:02:37 localhost postfix/anvil[6859]: statistics: max connection rate 1/60s for (smtp:39.164.225.154) at Jan 23 23:59:13
+Jan 24 00:02:38 localhost postfix/anvil[6859]: statistics: max connection count 1 for (smtp:39.164.225.154) at Jan 23 23:59:13
+Jan 24 00:02:41 localhost postfix/anvil[6859]: statistics: max cache size 1 at Jan 23 23:59:13
+Jan 24 00:04:01 localhost postfix/smtpd[6901]: connect from unknown[117.92.45.91]
+Jan 24 00:06:43 localhost postfix/smtpd[6923]: connect from unknown[114.237.155.129]
+Jan 24 00:06:43 localhost postfix/smtpd[6923]: disconnect from unknown[114.237.155.129] quit=1 commands=1
+Jan 24 00:06:43 localhost postfix/smtpd[6923]: connect from unknown[114.237.155.129]
+Jan 24 00:06:43 localhost postfix/smtpd[6923]: disconnect from unknown[114.237.155.129] quit=1 commands=1
+Jan 24 00:06:43 localhost postfix/smtpd[6923]: connect from unknown[114.237.155.129]
+Jan 24 00:10:59 localhost postfix/master[32064]: warning: unix_trigger_event: read timeout for service public/pickup
+Jan 24 00:11:00 localhost postfix/smtpd[6901]: timeout after CONNECT from unknown[117.92.45.91]
+Jan 24 00:11:00 localhost postfix/smtpd[6901]: disconnect from unknown[117.92.45.91] commands=0/0
+Jan 24 00:11:06 localhost postfix/smtpd[6901]: warning: hostname hosted-by.rootlayer.net does not resolve to address 185.222.57.195
+Jan 24 00:11:07 localhost postfix/smtpd[6901]: connect from unknown[185.222.57.195]
+Jan 24 00:11:07 localhost postfix/smtpd[6901]: lost connection after CONNECT from unknown[185.222.57.195]
+Jan 24 00:11:07 localhost postfix/smtpd[6901]: disconnect from unknown[185.222.57.195] commands=0/0
+Jan 24 00:11:09 localhost postfix/smtpd[6901]: warning: hostname server1.fuopen.xyz does not resolve to address 66.29.135.200: Temporary failure in name resolution
+Jan 24 00:11:10 localhost postfix/smtpd[6901]: connect from unknown[66.29.135.200]
+Jan 24 00:11:34 localhost postfix/trivial-rewrite[6965]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 00:12:42 localhost postfix/smtpd[6901]: 39ED3E2F: client=unknown[66.29.135.200]
+Jan 24 00:13:04 localhost postfix/smtpd[6901]: lost connection after DATA (0 bytes) from unknown[66.29.135.200]
+Jan 24 00:13:04 localhost postfix/smtpd[6901]: disconnect from unknown[66.29.135.200] ehlo=2 starttls=1 mail=1 rcpt=1 data=0/1 commands=5/6
+Jan 24 00:14:10 localhost postfix/smtpd[6923]: timeout after MAIL from unknown[114.237.155.129]
+Jan 24 00:14:10 localhost postfix/smtpd[6923]: disconnect from unknown[114.237.155.129] ehlo=1 mail=1 commands=2
+Jan 24 00:15:55 localhost postfix/anvil[6925]: statistics: max connection rate 3/60s for (smtp:114.237.155.129) at Jan 24 00:06:43
+Jan 24 00:15:55 localhost postfix/anvil[6925]: statistics: max connection count 1 for (smtp:117.92.45.91) at Jan 24 00:05:56
+Jan 24 00:15:55 localhost postfix/anvil[6925]: statistics: max cache size 4 at Jan 24 00:11:09
+Jan 24 00:22:42 localhost postfix/smtpd[8517]: connect from mail-oi1-f200.google.com[209.85.167.200]
+Jan 24 00:22:43 localhost postfix/smtpd[8517]: NOQUEUE: reject: RCPT from mail-oi1-f200.google.com[209.85.167.200]: 454 4.7.1 <unsubscribe@liber-t.xyz>: Relay access denied; from=<ulippi@tin.it> to=<unsubscribe@liber-t.xyz> proto=ESMTP helo=<mail-oi1-f200.google.com>
+Jan 24 00:22:44 localhost postfix/smtpd[8517]: disconnect from mail-oi1-f200.google.com[209.85.167.200] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 00:23:53 localhost postfix/smtpd[8517]: connect from mail-wm1-f69.google.com[209.85.128.69]
+Jan 24 00:23:55 localhost postfix/smtpd[8517]: NOQUEUE: reject: RCPT from mail-wm1-f69.google.com[209.85.128.69]: 454 4.7.1 <unsubscribe@liber-t.xyz>: Relay access denied; from=<rbuel@wesleyan.edu> to=<unsubscribe@liber-t.xyz> proto=ESMTP helo=<mail-wm1-f69.google.com>
+Jan 24 00:23:56 localhost postfix/smtpd[8517]: disconnect from mail-wm1-f69.google.com[209.85.128.69] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 00:27:16 localhost postfix/anvil[8519]: statistics: max connection rate 1/60s for (smtp:209.85.167.200) at Jan 24 00:22:42
+Jan 24 00:27:16 localhost postfix/anvil[8519]: statistics: max connection count 1 for (smtp:209.85.167.200) at Jan 24 00:22:42
+Jan 24 00:27:16 localhost postfix/anvil[8519]: statistics: max cache size 1 at Jan 24 00:22:42
+Jan 24 00:47:08 localhost postfix/smtpd[9292]: connect from unknown[220.179.211.109]
+Jan 24 00:47:09 localhost postfix/trivial-rewrite[9295]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 00:47:09 localhost postfix/smtpd[9292]: 8195DEADE: client=unknown[220.179.211.109]
+Jan 24 00:47:10 localhost postfix/cleanup[9296]: 8195DEADE: message-id=<>
+Jan 24 00:47:10 localhost postfix/qmgr[32066]: 8195DEADE: from=<tnokspled@diugccgnv.com>, size=1421, nrcpt=1 (queue active)
+Jan 24 00:47:10 localhost postfix/trivial-rewrite[9295]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 00:47:10 localhost postfix/local[9298]: 8195DEADE: to=<adam@lamc.la>, relay=local, delay=0.97, delays=0.95/0.01/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Jan 24 00:47:10 localhost postfix/qmgr[32066]: 8195DEADE: removed
+Jan 24 00:47:10 localhost postfix/smtpd[9292]: disconnect from unknown[220.179.211.109] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+Jan 24 00:50:30 localhost postfix/anvil[9294]: statistics: max connection rate 1/60s for (smtp:220.179.211.109) at Jan 24 00:47:08
+Jan 24 00:50:30 localhost postfix/anvil[9294]: statistics: max connection count 1 for (smtp:220.179.211.109) at Jan 24 00:47:08
+Jan 24 00:50:30 localhost postfix/anvil[9294]: statistics: max cache size 1 at Jan 24 00:47:08
+Jan 24 00:51:21 localhost postfix/smtpd[9433]: connect from mail-yb1-f197.google.com[209.85.219.197]
+Jan 24 00:51:22 localhost postfix/trivial-rewrite[9438]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Jan 24 00:51:22 localhost postfix/smtpd[9433]: D51DDEADE: client=mail-yb1-f197.google.com[209.85.219.197]
+Jan 24 00:51:22 localhost postfix/cleanup[9439]: D51DDEADE: message-id=<F7.09.03940.808FDE16@twitter.com>
+Jan 24 00:51:23 localhost postfix/qmgr[32066]: D51DDEADE: from=<n00161f8c4c-03e0772660fe42ee-adam_flash===fromthemachine.org@bounce.twitter.com>, size=116496, nrcpt=3 (queue active)
+Jan 24 00:51:23 localhost postfix/trivial-rewrite[9438]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Jan 24 00:51:23 localhost postfix/local[9441]: D51DDEADE: to=<adam@localhost>, orig_to=<adam_flash@fromthemachine.org>, relay=local, delay=0.68, delays=0.65/0.02/0/0.01, dsn=2.0.0, status=sent (delivered to maildir)
+Jan 24 00:51:23 localhost postfix/local[9442]: D51DDEADE: to=<ftm@fromthemachine.org>, orig_to=<adam_flash@fromthemachine.org>, relay=local, delay=0.7, delays=0.65/0.02/0/0.02, dsn=5.1.1, status=bounced (unknown user: "ftm")
+Jan 24 00:51:23 localhost postfix/smtpd[9433]: disconnect from mail-yb1-f197.google.com[209.85.219.197] ehlo=2 starttls=1 mail=1 rcpt=1 bdat=2 quit=1 commands=8
+Jan 24 00:51:25 localhost postfix/smtp[9440]: D51DDEADE: to=<0xc514f094370cfc5ee45a1dd9b72bb9675efe266f@ethmail.cc>, orig_to=<adam_flash@fromthemachine.org>, relay=smtp-relay.gmail.com[64.233.189.28]:587, delay=2.9, delays=0.65/0.06/1.2/0.98, dsn=2.0.0, status=sent (250 2.0.0 OK  1642985485 a17sm4626547pjq.13 - gsmtp)
+Jan 24 00:51:25 localhost postfix/cleanup[9439]: C0AB7EAED: message-id=<20220124005125.C0AB7EAED@plemma.cc>
+Jan 24 00:51:25 localhost postfix/qmgr[32066]: C0AB7EAED: from=<>, size=8146, nrcpt=1 (queue active)
+Jan 24 00:51:25 localhost postfix/bounce[9443]: D51DDEADE: sender non-delivery notification: C0AB7EAED
+Jan 24 00:51:25 localhost postfix/qmgr[32066]: D51DDEADE: removed
+Jan 24 00:51:25 localhost postfix/smtp[9440]: connect to smtp-relay.gmail.com[2404:6800:4008:c07::1c]:587: Network is unreachable
+Jan 24 00:51:27 localhost postfix/smtp[9440]: C0AB7EAED: to=<n00161f8c4c-03e0772660fe42ee-adam_flash===fromthemachine.org@bounce.twitter.com>, relay=smtp-relay.gmail.com[64.233.189.28]:587, delay=1.3, delays=0.01/0/0.69/0.64, dsn=2.0.0, status=sent (250 2.0.0 OK  1642985486 i17sm1074884ooe.23 - gsmtp)
+Jan 24 00:51:27 localhost postfix/qmgr[32066]: C0AB7EAED: removed
+Jan 24 00:52:38 localhost postfix/smtpd[9433]: connect from unknown[45.143.144.130]
+Jan 24 00:52:39 localhost postfix/trivial-rewrite[9438]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 00:52:39 localhost postfix/smtpd[9433]: 86AF8EADE: client=unknown[45.143.144.130]
+Jan 24 00:52:39 localhost postfix/smtpd[9433]: disconnect from unknown[45.143.144.130] ehlo=1 mail=1 rcpt=1 quit=1 commands=4
+Jan 24 00:54:11 localhost postfix/smtpd[9433]: connect from mail-il1-f200.google.com[209.85.166.200]
+Jan 24 00:54:12 localhost postfix/smtpd[9433]: NOQUEUE: reject: RCPT from mail-il1-f200.google.com[209.85.166.200]: 454 4.7.1 <unsubscribe@carpent.us>: Relay access denied; from=<coppi@psfc.mit.edu> to=<unsubscribe@carpent.us> proto=ESMTP helo=<mail-il1-f200.google.com>
+Jan 24 00:54:12 localhost postfix/smtpd[9433]: disconnect from mail-il1-f200.google.com[209.85.166.200] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 00:56:47 localhost postfix/smtpd[9600]: connect from dmail-sp02.cc.miyazaki-u.ac.jp[133.54.190.73]
+Jan 24 00:56:47 localhost postfix/trivial-rewrite[9602]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 00:56:47 localhost postfix/smtpd[9600]: NOQUEUE: reject: RCPT from dmail-sp02.cc.miyazaki-u.ac.jp[133.54.190.73]: 550 5.1.1 <suac+unsubscribe@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<tinaba@cc.miyazaki-u.ac.jp> to=<suac+unsubscribe@lamc.la> proto=ESMTP helo=<dmail-sp02.cc.miyazaki-u.ac.jp>
+Jan 24 00:56:47 localhost postfix/smtpd[9600]: disconnect from dmail-sp02.cc.miyazaki-u.ac.jp[133.54.190.73] ehlo=2 starttls=1 mail=1 rcpt=0/1 quit=1 commands=5/6
+Jan 24 01:00:07 localhost postfix/anvil[9435]: statistics: max connection rate 1/60s for (smtp:209.85.219.197) at Jan 24 00:51:21
+Jan 24 01:00:07 localhost postfix/anvil[9435]: statistics: max connection count 1 for (smtp:209.85.219.197) at Jan 24 00:51:21
+Jan 24 01:00:07 localhost postfix/anvil[9435]: statistics: max cache size 1 at Jan 24 00:51:21
+Jan 24 01:08:32 localhost dovecot: imap-login: Aborted login (no auth attempts in 7 secs): user=<>, rip=23.129.64.217, lip=158.247.223.84, TLS, session=<T/Ztm0nW6zkXgUDZ>
+Jan 24 01:12:32 localhost postfix/smtpd[10116]: connect from mail-qv1-f69.google.com[209.85.219.69]
+Jan 24 01:12:33 localhost postfix/smtpd[10116]: NOQUEUE: reject: RCPT from mail-qv1-f69.google.com[209.85.219.69]: 454 4.7.1 <unsubscribe@carpent.us>: Relay access denied; from=<coppi@psfc.mit.edu> to=<unsubscribe@carpent.us> proto=ESMTP helo=<mail-qv1-f69.google.com>
+Jan 24 01:12:33 localhost postfix/smtpd[10116]: disconnect from mail-qv1-f69.google.com[209.85.219.69] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 01:15:53 localhost postfix/anvil[10118]: statistics: max connection rate 1/60s for (smtp:209.85.219.69) at Jan 24 01:12:32
+Jan 24 01:15:53 localhost postfix/anvil[10118]: statistics: max connection count 1 for (smtp:209.85.219.69) at Jan 24 01:12:32
+Jan 24 01:15:53 localhost postfix/anvil[10118]: statistics: max cache size 1 at Jan 24 01:12:32
+Jan 24 01:20:28 localhost postfix/smtpd[10367]: connect from mail-ua1-f71.google.com[209.85.222.71]
+Jan 24 01:20:29 localhost postfix/smtpd[10367]: NOQUEUE: reject: RCPT from mail-ua1-f71.google.com[209.85.222.71]: 454 4.7.1 <a@carpent.us>: Relay access denied; from=<bounces+15899167-bd1b-a=carpent.us@em.vtm.varsitytutors.com> to=<a@carpent.us> proto=ESMTP helo=<mail-ua1-f71.google.com>
+Jan 24 01:20:30 localhost postfix/smtpd[10367]: disconnect from mail-ua1-f71.google.com[209.85.222.71] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 01:23:50 localhost postfix/anvil[10369]: statistics: max connection rate 1/60s for (smtp:209.85.222.71) at Jan 24 01:20:28
+Jan 24 01:23:50 localhost postfix/anvil[10369]: statistics: max connection count 1 for (smtp:209.85.222.71) at Jan 24 01:20:28
+Jan 24 01:23:50 localhost postfix/anvil[10369]: statistics: max cache size 1 at Jan 24 01:20:28
+Jan 24 01:31:15 localhost postfix/smtpd[10699]: connect from unknown[212.192.241.73]
+Jan 24 01:31:16 localhost postfix/trivial-rewrite[10702]: warning: do not list domain plemma.cc in BOTH mydestination and virtual_alias_domains
+Jan 24 01:31:20 localhost postfix/smtpd[10699]: NOQUEUE: reject: RCPT from unknown[212.192.241.73]: 454 4.7.1 <send.sock25@yandex.com>: Relay access denied; from=<subscription@plemma.cc> to=<send.sock25@yandex.com> proto=ESMTP helo=<User>
+Jan 24 01:31:20 localhost postfix/smtpd[10699]: lost connection after RCPT from unknown[212.192.241.73]
+Jan 24 01:31:20 localhost postfix/smtpd[10699]: disconnect from unknown[212.192.241.73] ehlo=1 mail=1 rcpt=0/1 rset=1 commands=3/4
+Jan 24 01:34:40 localhost postfix/anvil[10701]: statistics: max connection rate 1/60s for (smtp:212.192.241.73) at Jan 24 01:31:15
+Jan 24 01:34:40 localhost postfix/anvil[10701]: statistics: max connection count 1 for (smtp:212.192.241.73) at Jan 24 01:31:15
+Jan 24 01:34:40 localhost postfix/anvil[10701]: statistics: max cache size 1 at Jan 24 01:31:15
+Jan 24 01:48:11 localhost postfix/smtpd[11259]: warning: hostname hosted-by.rootlayer.net does not resolve to address 185.222.57.195
+Jan 24 01:48:11 localhost postfix/smtpd[11259]: connect from unknown[185.222.57.195]
+Jan 24 01:48:12 localhost postfix/smtpd[11259]: disconnect from unknown[185.222.57.195] ehlo=1 auth=0/1 rset=1 quit=1 commands=3/4
+Jan 24 01:51:32 localhost postfix/anvil[11261]: statistics: max connection rate 1/60s for (smtp:185.222.57.195) at Jan 24 01:48:11
+Jan 24 01:51:32 localhost postfix/anvil[11261]: statistics: max connection count 1 for (smtp:185.222.57.195) at Jan 24 01:48:11
+Jan 24 01:51:32 localhost postfix/anvil[11261]: statistics: max cache size 1 at Jan 24 01:48:11
+Jan 24 01:51:58 localhost postfix/smtpd[11390]: connect from lsvmail01.ua.edu[130.160.0.25]
+Jan 24 01:51:59 localhost postfix/trivial-rewrite[11396]: warning: do not list domain LAMC.LA in BOTH mydestination and virtual_alias_domains
+Jan 24 01:51:59 localhost postfix/smtpd[11390]: NOQUEUE: reject: RCPT from lsvmail01.ua.edu[130.160.0.25]: 550 5.1.1 <shield@LAMC.LA>: Recipient address rejected: User unknown in local recipient table; from=<owner-seelangs@LISTSERV.UA.EDU> to=<shield@LAMC.LA> proto=ESMTP helo=<lsvmail01.ua.edu>
+Jan 24 01:51:59 localhost postfix/smtpd[11390]: disconnect from lsvmail01.ua.edu[130.160.0.25] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 rset=1 quit=1 commands=6/8
+Jan 24 01:55:19 localhost postfix/anvil[11394]: statistics: max connection rate 1/60s for (smtp:130.160.0.25) at Jan 24 01:51:58
+Jan 24 01:55:19 localhost postfix/anvil[11394]: statistics: max connection count 1 for (smtp:130.160.0.25) at Jan 24 01:51:58
+Jan 24 01:55:19 localhost postfix/anvil[11394]: statistics: max cache size 1 at Jan 24 01:51:58
+Jan 24 02:01:27 localhost postfix/smtpd[11663]: connect from 5.r1.unverified-forwarding.1e100.net[108.177.16.5]
+Jan 24 02:01:28 localhost postfix/smtpd[11663]: NOQUEUE: reject: RCPT from 5.r1.unverified-forwarding.1e100.net[108.177.16.5]: 454 4.7.1 <adamvideos@carpent.us>: Relay access denied; from=<0100017e83189972-263f1e1e-e38f-48b5-8ea9-7ecf1feccc6f-000000@bounce.imgur.com> to=<adamvideos@carpent.us> proto=ESMTP helo=<5.r1.unverified-forwarding.1e100.net>
+Jan 24 02:01:28 localhost postfix/smtpd[11663]: disconnect from 5.r1.unverified-forwarding.1e100.net[108.177.16.5] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 02:04:49 localhost postfix/anvil[11665]: statistics: max connection rate 1/60s for (smtp:108.177.16.5) at Jan 24 02:01:27
+Jan 24 02:04:49 localhost postfix/anvil[11665]: statistics: max connection count 1 for (smtp:108.177.16.5) at Jan 24 02:01:27
+Jan 24 02:04:49 localhost postfix/anvil[11665]: statistics: max cache size 1 at Jan 24 02:01:27
+Jan 24 02:15:03 localhost postfix/smtpd[12114]: connect from mail-ua1-f70.google.com[209.85.222.70]
+Jan 24 02:15:04 localhost postfix/smtpd[12114]: NOQUEUE: reject: RCPT from mail-ua1-f70.google.com[209.85.222.70]: 454 4.7.1 <unsubscribe@liber-t.xyz>: Relay access denied; from=<bril@maddrhythms.com> to=<unsubscribe@liber-t.xyz> proto=ESMTP helo=<mail-ua1-f70.google.com>
+Jan 24 02:15:04 localhost postfix/smtpd[12114]: disconnect from mail-ua1-f70.google.com[209.85.222.70] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 02:15:32 localhost postfix/smtpd[12114]: connect from mail-oi1-f199.google.com[209.85.167.199]
+Jan 24 02:15:34 localhost postfix/smtpd[12114]: NOQUEUE: reject: RCPT from mail-oi1-f199.google.com[209.85.167.199]: 454 4.7.1 <prvs=014b97598=arwaxm+bncBCC7XN6N3YMBB54JV6HQMGQE3GQP3NI@liber-t.xyz>: Relay access denied; from=<> to=<prvs=014b97598=arwaxm+bncBCC7XN6N3YMBB54JV6HQMGQE3GQP3NI@liber-t.xyz> proto=ESMTP helo=<mail-oi1-f199.google.com>
+Jan 24 02:15:34 localhost postfix/smtpd[12114]: disconnect from mail-oi1-f199.google.com[209.85.167.199] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 02:18:54 localhost postfix/anvil[12119]: statistics: max connection rate 1/60s for (smtp:209.85.222.70) at Jan 24 02:15:03
+Jan 24 02:18:54 localhost postfix/anvil[12119]: statistics: max connection count 1 for (smtp:209.85.222.70) at Jan 24 02:15:03
+Jan 24 02:18:54 localhost postfix/anvil[12119]: statistics: max cache size 2 at Jan 24 02:15:32
+Jan 24 02:20:37 localhost postfix/smtpd[12274]: connect from mail-yb1-f199.google.com[209.85.219.199]
+Jan 24 02:20:38 localhost postfix/smtpd[12274]: NOQUEUE: reject: RCPT from mail-yb1-f199.google.com[209.85.219.199]: 454 4.7.1 <prvs=012297aab=arwaxm+bncBCC7XN6N3YMBBIP4UWHQMGQEW6TWIBQ@liber-t.xyz>: Relay access denied; from=<> to=<prvs=012297aab=arwaxm+bncBCC7XN6N3YMBBIP4UWHQMGQEW6TWIBQ@liber-t.xyz> proto=ESMTP helo=<mail-yb1-f199.google.com>
+Jan 24 02:20:39 localhost postfix/smtpd[12274]: disconnect from mail-yb1-f199.google.com[209.85.219.199] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 02:23:59 localhost postfix/anvil[12276]: statistics: max connection rate 1/60s for (smtp:209.85.219.199) at Jan 24 02:20:37
+Jan 24 02:23:59 localhost postfix/anvil[12276]: statistics: max connection count 1 for (smtp:209.85.219.199) at Jan 24 02:20:37
+Jan 24 02:23:59 localhost postfix/anvil[12276]: statistics: max cache size 1 at Jan 24 02:20:37
+Jan 24 02:26:20 localhost postfix/smtpd[12478]: connect from lsvmail01.ua.edu[130.160.0.25]
+Jan 24 02:26:21 localhost postfix/trivial-rewrite[12487]: warning: do not list domain LAMC.LA in BOTH mydestination and virtual_alias_domains
+Jan 24 02:26:21 localhost postfix/smtpd[12478]: NOQUEUE: reject: RCPT from lsvmail01.ua.edu[130.160.0.25]: 550 5.1.1 <shield@LAMC.LA>: Recipient address rejected: User unknown in local recipient table; from=<owner-seelangs@LISTSERV.UA.EDU> to=<shield@LAMC.LA> proto=ESMTP helo=<lsvmail01.ua.edu>
+Jan 24 02:26:22 localhost postfix/smtpd[12478]: disconnect from lsvmail01.ua.edu[130.160.0.25] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 rset=1 quit=1 commands=6/8
+Jan 24 02:29:41 localhost postfix/anvil[12486]: statistics: max connection rate 1/60s for (smtp:130.160.0.25) at Jan 24 02:26:20
+Jan 24 02:29:41 localhost postfix/anvil[12486]: statistics: max connection count 1 for (smtp:130.160.0.25) at Jan 24 02:26:20
+Jan 24 02:29:41 localhost postfix/anvil[12486]: statistics: max cache size 1 at Jan 24 02:26:20
+Jan 24 02:39:44 localhost postfix/smtpd[12935]: connect from 12.r1.unverified-forwarding.1e100.net[108.177.16.12]
+Jan 24 02:39:45 localhost postfix/trivial-rewrite[12938]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Jan 24 02:39:45 localhost postfix/smtpd[12935]: 41A77EAEB: client=12.r1.unverified-forwarding.1e100.net[108.177.16.12]
+Jan 24 02:39:45 localhost postfix/cleanup[12939]: 41A77EAEB: message-id=<0100017e89f412a9-75f355d8-3430-4f3e-9e9a-2f846389d27b-000000@email.amazonses.com>
+Jan 24 02:39:45 localhost postfix/qmgr[32066]: 41A77EAEB: from=<0100017e89f412a9-75f355d8-3430-4f3e-9e9a-2f846389d27b-000000@amazonses.com>, size=101355, nrcpt=3 (queue active)
+Jan 24 02:39:45 localhost postfix/trivial-rewrite[12938]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Jan 24 02:39:45 localhost postfix/local[12940]: 41A77EAEB: to=<adam@localhost>, orig_to=<flazrael@fromthemachine.org>, relay=local, delay=0.66, delays=0.64/0.02/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Jan 24 02:39:45 localhost postfix/local[12940]: 41A77EAEB: to=<ftm@fromthemachine.org>, orig_to=<flazrael@fromthemachine.org>, relay=local, delay=0.68, delays=0.64/0.02/0/0.02, dsn=5.1.1, status=bounced (unknown user: "ftm")
+Jan 24 02:39:46 localhost postfix/smtpd[12935]: disconnect from 12.r1.unverified-forwarding.1e100.net[108.177.16.12] ehlo=2 starttls=1 mail=1 rcpt=1 bdat=2 quit=1 commands=8
+Jan 24 02:39:48 localhost postfix/smtp[12941]: 41A77EAEB: to=<0xc514f094370cfc5ee45a1dd9b72bb9675efe266f@ethmail.cc>, orig_to=<flazrael@fromthemachine.org>, relay=smtp-relay.gmail.com[64.233.189.28]:587, delay=3.7, delays=0.64/0.02/1.7/1.3, dsn=2.0.0, status=sent (250 2.0.0 OK  1642991988 n206sm2648268vkn.7 - gsmtp)
+Jan 24 02:39:48 localhost postfix/cleanup[12939]: EA2B5EAED: message-id=<20220124023948.EA2B5EAED@plemma.cc>
+Jan 24 02:39:48 localhost postfix/qmgr[32066]: EA2B5EAED: from=<>, size=8151, nrcpt=1 (queue active)
+Jan 24 02:39:48 localhost postfix/bounce[12943]: 41A77EAEB: sender non-delivery notification: EA2B5EAED
+Jan 24 02:39:48 localhost postfix/qmgr[32066]: 41A77EAEB: removed
+Jan 24 02:39:48 localhost postfix/smtp[12941]: connect to smtp-relay.gmail.com[2404:6800:4008:c07::1c]:587: Network is unreachable
+Jan 24 02:39:50 localhost postfix/smtp[12941]: EA2B5EAED: to=<0100017e89f412a9-75f355d8-3430-4f3e-9e9a-2f846389d27b-000000@amazonses.com>, relay=smtp-relay.gmail.com[64.233.189.28]:587, delay=2, delays=0/0/1.4/0.66, dsn=2.0.0, status=sent (250 2.0.0 OK  1642991990 h18sm2539065otk.1 - gsmtp)
+Jan 24 02:39:50 localhost postfix/qmgr[32066]: EA2B5EAED: removed
+Jan 24 02:43:06 localhost postfix/anvil[12937]: statistics: max connection rate 1/60s for (smtp:108.177.16.12) at Jan 24 02:39:44
+Jan 24 02:43:06 localhost postfix/anvil[12937]: statistics: max connection count 1 for (smtp:108.177.16.12) at Jan 24 02:39:44
+Jan 24 02:43:06 localhost postfix/anvil[12937]: statistics: max cache size 1 at Jan 24 02:39:44
+Jan 24 02:48:28 localhost postfix/smtpd[13212]: connect from mail-ot1-f71.google.com[209.85.210.71]
+Jan 24 02:48:29 localhost postfix/smtpd[13212]: NOQUEUE: reject: RCPT from mail-ot1-f71.google.com[209.85.210.71]: 454 4.7.1 <prvs=014ed5826=arwaxm+bncBCC7XN6N3YMBBOUFWGHQMGQELKC6SUQ@liber-t.xyz>: Relay access denied; from=<> to=<prvs=014ed5826=arwaxm+bncBCC7XN6N3YMBBOUFWGHQMGQELKC6SUQ@liber-t.xyz> proto=ESMTP helo=<mail-ot1-f71.google.com>
+Jan 24 02:48:30 localhost postfix/smtpd[13212]: disconnect from mail-ot1-f71.google.com[209.85.210.71] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 02:51:50 localhost postfix/anvil[13214]: statistics: max connection rate 1/60s for (smtp:209.85.210.71) at Jan 24 02:48:28
+Jan 24 02:51:50 localhost postfix/anvil[13214]: statistics: max connection count 1 for (smtp:209.85.210.71) at Jan 24 02:48:28
+Jan 24 02:51:50 localhost postfix/anvil[13214]: statistics: max cache size 1 at Jan 24 02:48:28
+Jan 24 03:01:09 localhost postfix/smtpd[13577]: connect from unknown[39.89.118.147]
+Jan 24 03:01:09 localhost postfix/trivial-rewrite[13580]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 03:01:09 localhost postfix/smtpd[13577]: DE01EEAEB: client=unknown[39.89.118.147]
+Jan 24 03:01:10 localhost postfix/cleanup[13581]: DE01EEAEB: message-id=<1097453969.593177.1642993267693@mx30.stefna.is>
+Jan 24 03:01:10 localhost postfix/qmgr[32066]: DE01EEAEB: from=<lgtycrefie@hup.hr>, size=2643, nrcpt=1 (queue active)
+Jan 24 03:01:10 localhost postfix/trivial-rewrite[13580]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 03:01:10 localhost postfix/local[13582]: DE01EEAEB: to=<adam@lamc.la>, relay=local, delay=0.31, delays=0.3/0.01/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Jan 24 03:01:10 localhost postfix/qmgr[32066]: DE01EEAEB: removed
+Jan 24 03:01:10 localhost postfix/smtpd[13577]: disconnect from unknown[39.89.118.147] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+Jan 24 03:01:12 localhost postfix/smtpd[13577]: connect from unknown[113.118.102.160]
+Jan 24 03:01:14 localhost postfix/trivial-rewrite[13580]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 03:01:14 localhost postfix/smtpd[13577]: NOQUEUE: reject: RCPT from unknown[113.118.102.160]: 550 5.1.1 <arxm@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<huouke@rccgoc.com> to=<arxm@lamc.la> proto=ESMTP helo=<filter1.cobsbr-1.mailguard.com.au>
+Jan 24 03:01:15 localhost postfix/smtpd[13577]: disconnect from unknown[113.118.102.160] ehlo=1 mail=1 rcpt=0/1 rset=1 quit=1 commands=4/5
+Jan 24 03:04:35 localhost postfix/anvil[13579]: statistics: max connection rate 1/60s for (smtp:39.89.118.147) at Jan 24 03:01:09
+Jan 24 03:04:35 localhost postfix/anvil[13579]: statistics: max connection count 1 for (smtp:39.89.118.147) at Jan 24 03:01:09
+Jan 24 03:04:35 localhost postfix/anvil[13579]: statistics: max cache size 2 at Jan 24 03:01:12
+Jan 24 03:25:23 localhost postfix/smtpd[14366]: connect from unknown[102.32.108.172]
+Jan 24 03:25:24 localhost postfix/trivial-rewrite[14370]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 03:25:24 localhost postfix/smtpd[14366]: 3DE4FEAEB: client=unknown[102.32.108.172]
+Jan 24 03:25:24 localhost postfix/cleanup[14371]: 3DE4FEAEB: message-id=<20220124112522.22E3327C6492A70F@pfdfoods.com.au>
+Jan 24 03:25:24 localhost postfix/qmgr[32066]: 3DE4FEAEB: from=<no-reply@pfdfoods.com.au>, size=1103, nrcpt=1 (queue active)
+Jan 24 03:25:24 localhost postfix/trivial-rewrite[14370]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 03:25:24 localhost postfix/local[14372]: 3DE4FEAEB: to=<adam@lamc.la>, relay=local, delay=0.93, delays=0.91/0.01/0/0.01, dsn=2.0.0, status=sent (delivered to maildir)
+Jan 24 03:25:24 localhost postfix/cleanup[14371]: E5535EAED: message-id=<20220124032524.E5535EAED@plemma.cc>
+Jan 24 03:25:24 localhost postfix/qmgr[32066]: E5535EAED: from=<>, size=2284, nrcpt=1 (queue active)
+Jan 24 03:25:24 localhost postfix/bounce[14373]: 3DE4FEAEB: sender delivery status notification: E5535EAED
+Jan 24 03:25:24 localhost postfix/qmgr[32066]: 3DE4FEAEB: removed
+Jan 24 03:25:25 localhost postfix/smtpd[14366]: disconnect from unknown[102.32.108.172] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+Jan 24 03:25:25 localhost postfix/smtp[14375]: connect to smtp-relay.gmail.com[2404:6800:4008:c07::1c]:587: Network is unreachable
+Jan 24 03:25:26 localhost postfix/smtp[14375]: E5535EAED: to=<no-reply@pfdfoods.com.au>, relay=smtp-relay.gmail.com[64.233.189.28]:587, delay=1.9, delays=0/0.02/1.4/0.47, dsn=2.0.0, status=sent (250 2.0.0 OK  1642994726 p18sm4981183pjo.1 - gsmtp)
+Jan 24 03:25:26 localhost postfix/qmgr[32066]: E5535EAED: removed
+Jan 24 03:26:06 localhost postfix/smtpd[14366]: connect from mail-yb1-f198.google.com[209.85.219.198]
+Jan 24 03:26:07 localhost postfix/smtpd[14366]: NOQUEUE: reject: RCPT from mail-yb1-f198.google.com[209.85.219.198]: 454 4.7.1 <prvs=014ee2e65=arwaxm+bncBCZPRMXX2ULBBXWHV6HQMGQEQDDHY5Y@liber-t.xyz>: Relay access denied; from=<> to=<prvs=014ee2e65=arwaxm+bncBCZPRMXX2ULBBXWHV6HQMGQEQDDHY5Y@liber-t.xyz> proto=ESMTP helo=<mail-yb1-f198.google.com>
+Jan 24 03:26:08 localhost postfix/smtpd[14366]: disconnect from mail-yb1-f198.google.com[209.85.219.198] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 03:27:21 localhost postfix/smtpd[14366]: connect from mail-il1-f199.google.com[209.85.166.199]
+Jan 24 03:27:22 localhost postfix/smtpd[14366]: NOQUEUE: reject: RCPT from mail-il1-f199.google.com[209.85.166.199]: 454 4.7.1 <unsubscribe@liber-t.xyz>: Relay access denied; from=<yuhailin_79@cslg.edu.cn> to=<unsubscribe@liber-t.xyz> proto=ESMTP helo=<mail-il1-f199.google.com>
+Jan 24 03:27:23 localhost postfix/smtpd[14366]: disconnect from mail-il1-f199.google.com[209.85.166.199] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 03:27:56 localhost postfix/smtpd[14366]: warning: hostname hosted-by.rootlayer.net does not resolve to address 185.222.57.195
+Jan 24 03:27:56 localhost postfix/smtpd[14366]: connect from unknown[185.222.57.195]
+Jan 24 03:27:57 localhost postfix/smtpd[14366]: disconnect from unknown[185.222.57.195] ehlo=1 auth=0/1 rset=1 quit=1 commands=3/4
+Jan 24 03:28:02 localhost postfix/smtpd[14366]: connect from unknown[121.34.32.192]
+Jan 24 03:28:05 localhost postfix/trivial-rewrite[14370]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 03:28:05 localhost postfix/smtpd[14366]: 8BD1EEAEB: client=unknown[121.34.32.192]
+Jan 24 03:28:09 localhost postfix/cleanup[14447]: 8BD1EEAEB: message-id=<1104955829.1378475.1642994880652@dc-c767942cd2f7.aren.ie>
+Jan 24 03:28:09 localhost postfix/qmgr[32066]: 8BD1EEAEB: from=<yslrhozka@906.pt>, size=4696, nrcpt=1 (queue active)
+Jan 24 03:28:09 localhost postfix/trivial-rewrite[14370]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 03:28:09 localhost postfix/local[14449]: 8BD1EEAEB: to=<adam@lamc.la>, relay=local, delay=6.4, delays=6.4/0.01/0/0.01, dsn=2.0.0, status=sent (delivered to maildir)
+Jan 24 03:28:09 localhost postfix/qmgr[32066]: 8BD1EEAEB: removed
+Jan 24 03:28:09 localhost postfix/smtpd[14366]: disconnect from unknown[121.34.32.192] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+Jan 24 03:31:29 localhost postfix/anvil[14368]: statistics: max connection rate 1/60s for (smtp:102.32.108.172) at Jan 24 03:25:23
+Jan 24 03:31:29 localhost postfix/anvil[14368]: statistics: max connection count 1 for (smtp:102.32.108.172) at Jan 24 03:25:23
+Jan 24 03:31:29 localhost postfix/anvil[14368]: statistics: max cache size 3 at Jan 24 03:28:02
+Jan 24 03:31:59 localhost postfix/smtpd[14560]: connect from lsvmail01.ua.edu[130.160.0.25]
+Jan 24 03:32:01 localhost postfix/trivial-rewrite[14569]: warning: do not list domain LAMC.LA in BOTH mydestination and virtual_alias_domains
+Jan 24 03:32:01 localhost postfix/smtpd[14560]: NOQUEUE: reject: RCPT from lsvmail01.ua.edu[130.160.0.25]: 550 5.1.1 <shield@LAMC.LA>: Recipient address rejected: User unknown in local recipient table; from=<owner-seelangs@LISTSERV.UA.EDU> to=<shield@LAMC.LA> proto=ESMTP helo=<lsvmail01.ua.edu>
+Jan 24 03:32:01 localhost postfix/smtpd[14560]: disconnect from lsvmail01.ua.edu[130.160.0.25] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 rset=1 quit=1 commands=6/8
+Jan 24 03:32:43 localhost postfix/smtpd[14560]: connect from lsvmail01.ua.edu[130.160.0.25]
+Jan 24 03:32:45 localhost postfix/smtpd[14560]: NOQUEUE: reject: RCPT from lsvmail01.ua.edu[130.160.0.25]: 550 5.1.1 <shield@LAMC.LA>: Recipient address rejected: User unknown in local recipient table; from=<owner-seelangs@LISTSERV.UA.EDU> to=<shield@LAMC.LA> proto=ESMTP helo=<lsvmail01.ua.edu>
+Jan 24 03:32:45 localhost postfix/smtpd[14560]: disconnect from lsvmail01.ua.edu[130.160.0.25] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 rset=1 quit=1 commands=6/8
+Jan 24 03:33:48 localhost postfix/smtpd[14560]: connect from unknown[154.16.67.243]
+Jan 24 03:33:49 localhost postfix/trivial-rewrite[14621]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 03:33:49 localhost postfix/smtpd[14560]: 56DEBEAEB: client=unknown[154.16.67.243]
+Jan 24 03:33:49 localhost postfix/cleanup[14622]: 56DEBEAEB: message-id=<e8f1c975740c01ed10d9ca65a840309e@chinafoamglass.cam>
+Jan 24 03:33:50 localhost postfix/qmgr[32066]: 56DEBEAEB: from=<information@chinafoamglass.cam>, size=395865, nrcpt=1 (queue active)
+Jan 24 03:33:50 localhost postfix/trivial-rewrite[14621]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 03:33:50 localhost postfix/smtpd[14560]: disconnect from unknown[154.16.67.243] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Jan 24 03:33:50 localhost postfix/local[14623]: 56DEBEAEB: to=<adam@lamc.la>, relay=local, delay=1.1, delays=1.1/0.01/0/0.01, dsn=2.0.0, status=sent (delivered to maildir)
+Jan 24 03:33:50 localhost postfix/qmgr[32066]: 56DEBEAEB: removed
+Jan 24 03:37:10 localhost postfix/anvil[14562]: statistics: max connection rate 2/60s for (smtp:130.160.0.25) at Jan 24 03:32:43
+Jan 24 03:37:10 localhost postfix/anvil[14562]: statistics: max connection count 1 for (smtp:130.160.0.25) at Jan 24 03:31:59
+Jan 24 03:37:10 localhost postfix/anvil[14562]: statistics: max cache size 1 at Jan 24 03:31:59
+Jan 24 03:43:07 localhost postfix/smtpd[14930]: connect from mail-pl1-f199.google.com[209.85.214.199]
+Jan 24 03:43:07 localhost postfix/smtpd[14930]: NOQUEUE: reject: RCPT from mail-pl1-f199.google.com[209.85.214.199]: 454 4.7.1 <unsubscribe@liber-t.xyz>: Relay access denied; from=<stn20@dds.nl> to=<unsubscribe@liber-t.xyz> proto=ESMTP helo=<mail-pl1-f199.google.com>
+Jan 24 03:43:08 localhost postfix/smtpd[14930]: disconnect from mail-pl1-f199.google.com[209.85.214.199] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 03:43:23 localhost postfix/smtpd[14930]: connect from 118-232-25-189.dynamic.kbronet.com.tw[118.232.25.189]
+Jan 24 03:43:23 localhost postfix/trivial-rewrite[14934]: warning: do not list domain ermccorp.com in BOTH mydestination and virtual_alias_domains
+Jan 24 03:43:23 localhost postfix/smtpd[14930]: E62671A56: client=118-232-25-189.dynamic.kbronet.com.tw[118.232.25.189]
+Jan 24 03:43:24 localhost postfix/cleanup[14943]: E62671A56: message-id=<06E9905A.12297879@kbronet.com.tw>
+Jan 24 03:43:24 localhost postfix/qmgr[32066]: E62671A56: from=<tiptaste@gkicon.com>, size=14871, nrcpt=4 (queue active)
+Jan 24 03:43:24 localhost postfix/trivial-rewrite[14934]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Jan 24 03:43:24 localhost postfix/local[14945]: E62671A56: to=<adam@localhost>, orig_to=<adam@ermccorp.com>, relay=local, delay=0.33, delays=0.3/0.03/0/0.01, dsn=2.0.0, status=sent (delivered to maildir)
+Jan 24 03:43:24 localhost postfix/local[14945]: E62671A56: to=<ftm@fromthemachine.org>, orig_to=<adam@ermccorp.com>, relay=local, delay=0.36, delays=0.3/0.04/0/0.02, dsn=5.1.1, status=bounced (unknown user: "ftm")
+Jan 24 03:43:24 localhost postfix/smtpd[14930]: disconnect from 118-232-25-189.dynamic.kbronet.com.tw[118.232.25.189] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+Jan 24 03:43:25 localhost postfix/smtpd[14930]: connect from 118-232-25-189.dynamic.kbronet.com.tw[118.232.25.189]
+Jan 24 03:43:25 localhost postfix/trivial-rewrite[14934]: warning: do not list domain ermccorp.com in BOTH mydestination and virtual_alias_domains
+Jan 24 03:43:25 localhost postfix/smtpd[14930]: 98784EAED: client=118-232-25-189.dynamic.kbronet.com.tw[118.232.25.189]
+Jan 24 03:43:25 localhost postfix/cleanup[14943]: 98784EAED: message-id=<2FB35F10.81503@kbronet.com.tw>
+Jan 24 03:43:25 localhost postfix/qmgr[32066]: 98784EAED: from=<sxyqsighted@eventageous.com>, size=11854, nrcpt=4 (queue active)
+Jan 24 03:43:25 localhost postfix/trivial-rewrite[14934]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Jan 24 03:43:25 localhost postfix/local[14946]: 98784EAED: to=<adam@localhost>, orig_to=<adam@ermccorp.com>, relay=local, delay=0.3, delays=0.28/0/0/0.01, dsn=2.0.0, status=sent (delivered to maildir)
+Jan 24 03:43:25 localhost postfix/local[14945]: 98784EAED: to=<ftm@fromthemachine.org>, orig_to=<adam@ermccorp.com>, relay=local, delay=0.3, delays=0.28/0/0/0.02, dsn=5.1.1, status=bounced (unknown user: "ftm")
+Jan 24 03:43:25 localhost postfix/smtpd[14930]: disconnect from 118-232-25-189.dynamic.kbronet.com.tw[118.232.25.189] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+Jan 24 03:43:26 localhost postfix/smtp[14944]: E62671A56: to=<0xc514f094370cfc5ee45a1dd9b72bb9675efe266f@ethmail.cc>, orig_to=<adam@ermccorp.com>, relay=smtp-relay.gmail.com[64.233.189.28]:587, delay=2.5, delays=0.3/0.03/1.5/0.65, dsn=2.0.0, status=sent (250 2.0.0 OK  1642995806 l26sm2363928otn.12 - gsmtp)
+Jan 24 03:43:26 localhost postfix/smtp[14944]: E62671A56: to=<adam.e@localhsot>, orig_to=<adam@ermccorp.com>, relay=smtp-relay.gmail.com[64.233.189.28]:587, delay=2.5, delays=0.3/0.03/1.5/0.65, dsn=2.0.0, status=sent (250 2.0.0 OK  1642995806 l26sm2363928otn.12 - gsmtp)
+Jan 24 03:43:26 localhost postfix/cleanup[14943]: 59BC5EAEF: message-id=<20220124034326.59BC5EAEF@plemma.cc>
+Jan 24 03:43:26 localhost postfix/qmgr[32066]: 59BC5EAEF: from=<>, size=16714, nrcpt=1 (queue active)
+Jan 24 03:43:26 localhost postfix/bounce[14947]: E62671A56: sender non-delivery notification: 59BC5EAEF
+Jan 24 03:43:26 localhost postfix/qmgr[32066]: E62671A56: removed
+Jan 24 03:43:26 localhost postfix/smtp[14944]: connect to smtp-relay.gmail.com[2404:6800:4008:c07::1c]:587: Network is unreachable
+Jan 24 03:43:27 localhost postfix/smtp[14948]: 98784EAED: to=<0xc514f094370cfc5ee45a1dd9b72bb9675efe266f@ethmail.cc>, orig_to=<adam@ermccorp.com>, relay=smtp-relay.gmail.com[64.233.189.28]:587, delay=2.4, delays=0.28/0.02/1.4/0.71, dsn=2.0.0, status=sent (250 2.0.0 OK  1642995807 y16sm4003653qkp.9 - gsmtp)
+Jan 24 03:43:27 localhost postfix/smtp[14948]: 98784EAED: to=<adam.e@localhsot>, orig_to=<adam@ermccorp.com>, relay=smtp-relay.gmail.com[64.233.189.28]:587, delay=2.4, delays=0.28/0.02/1.4/0.71, dsn=2.0.0, status=sent (250 2.0.0 OK  1642995807 y16sm4003653qkp.9 - gsmtp)
+Jan 24 03:43:27 localhost postfix/cleanup[14943]: E2CF81A56: message-id=<20220124034327.E2CF81A56@plemma.cc>
+Jan 24 03:43:27 localhost postfix/qmgr[32066]: E2CF81A56: from=<>, size=13721, nrcpt=1 (queue active)
+Jan 24 03:43:27 localhost postfix/bounce[14947]: 98784EAED: sender non-delivery notification: E2CF81A56
+Jan 24 03:43:27 localhost postfix/qmgr[32066]: 98784EAED: removed
+Jan 24 03:43:28 localhost postfix/smtp[14944]: 59BC5EAEF: to=<tiptaste@gkicon.com>, relay=smtp-relay.gmail.com[64.233.189.28]:587, delay=2, delays=0.01/0.01/1.3/0.69, dsn=2.0.0, status=sent (250 2.0.0 OK  1642995808 j13sm4430770qko.2 - gsmtp)
+Jan 24 03:43:28 localhost postfix/qmgr[32066]: 59BC5EAEF: removed
+Jan 24 03:43:30 localhost postfix/smtp[14948]: E2CF81A56: to=<sxyqsighted@eventageous.com>, relay=smtp-relay.gmail.com[64.233.189.28]:587, delay=2.1, delays=0.01/0/1.4/0.7, dsn=2.0.0, status=sent (250 2.0.0 OK  1642995809 c8sm2160086ooi.18 - gsmtp)
+Jan 24 03:43:30 localhost postfix/qmgr[32066]: E2CF81A56: removed
+Jan 24 03:46:46 localhost postfix/anvil[14932]: statistics: max connection rate 2/60s for (smtp:118.232.25.189) at Jan 24 03:43:25
+Jan 24 03:46:46 localhost postfix/anvil[14932]: statistics: max connection count 1 for (smtp:209.85.214.199) at Jan 24 03:43:07
+Jan 24 03:46:46 localhost postfix/anvil[14932]: statistics: max cache size 2 at Jan 24 03:43:23
+Jan 24 03:46:48 localhost postfix/scache[14949]: statistics: start interval Jan 24 03:43:26
+Jan 24 03:46:48 localhost postfix/scache[14949]: statistics: domain lookup hits=0 miss=2 success=0%
+Jan 24 03:46:48 localhost postfix/scache[14949]: statistics: address lookup hits=0 miss=4 success=0%
+Jan 24 03:46:48 localhost postfix/scache[14949]: statistics: max simultaneous domains=1 addresses=1 connection=1
+Jan 24 03:47:07 localhost postfix/smtpd[15066]: connect from mx1.nonric.com[43.240.15.234]
+Jan 24 03:47:07 localhost postfix/trivial-rewrite[15069]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 03:47:07 localhost postfix/smtpd[15066]: NOQUEUE: reject: RCPT from mx1.nonric.com[43.240.15.234]: 550 5.1.1 <arxm@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<bounce-628771@mx1.nonric.com> to=<arxm@lamc.la> proto=ESMTP helo=<mx1.nonric.com>
+Jan 24 03:47:07 localhost postfix/smtpd[15066]: disconnect from mx1.nonric.com[43.240.15.234] ehlo=1 mail=1 rcpt=0/1 quit=1 commands=3/4
+Jan 24 03:50:27 localhost postfix/anvil[15068]: statistics: max connection rate 1/60s for (smtp:43.240.15.234) at Jan 24 03:47:07
+Jan 24 03:50:27 localhost postfix/anvil[15068]: statistics: max connection count 1 for (smtp:43.240.15.234) at Jan 24 03:47:07
+Jan 24 03:50:27 localhost postfix/anvil[15068]: statistics: max cache size 1 at Jan 24 03:47:07
+Jan 24 04:04:24 localhost postfix/smtpd[15545]: warning: hostname 214.203.36.120.broad.xm.fj.dynamic.163data.com.cn does not resolve to address 120.36.203.214: Name or service not known
+Jan 24 04:04:24 localhost postfix/smtpd[15545]: connect from unknown[120.36.203.214]
+Jan 24 04:04:25 localhost postfix/trivial-rewrite[15548]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 04:04:25 localhost postfix/smtpd[15545]: A4A881A56: client=unknown[120.36.203.214]
+Jan 24 04:04:26 localhost postfix/cleanup[15549]: A4A881A56: message-id=<1266323577.500687.1642997066830@cycleops-com.mail.protection.outlook.com>
+Jan 24 04:04:26 localhost postfix/qmgr[32066]: A4A881A56: from=<ooexiu@agrotradesystem.ru>, size=3371, nrcpt=1 (queue active)
+Jan 24 04:04:26 localhost postfix/trivial-rewrite[15548]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 04:04:26 localhost postfix/local[15550]: A4A881A56: to=<adam@lamc.la>, relay=local, delay=0.78, delays=0.76/0.01/0/0.01, dsn=2.0.0, status=sent (delivered to maildir)
+Jan 24 04:04:26 localhost postfix/qmgr[32066]: A4A881A56: removed
+Jan 24 04:04:26 localhost postfix/smtpd[15545]: disconnect from unknown[120.36.203.214] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+Jan 24 04:07:46 localhost postfix/anvil[15547]: statistics: max connection rate 1/60s for (smtp:120.36.203.214) at Jan 24 04:04:24
+Jan 24 04:07:46 localhost postfix/anvil[15547]: statistics: max connection count 1 for (smtp:120.36.203.214) at Jan 24 04:04:24
+Jan 24 04:07:46 localhost postfix/anvil[15547]: statistics: max cache size 1 at Jan 24 04:04:24
+Jan 24 04:08:07 localhost postfix/smtpd[15653]: connect from unknown[134.209.41.92]
+Jan 24 04:08:08 localhost postfix/trivial-rewrite[15656]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 04:08:08 localhost postfix/smtpd[15653]: 91D411A56: client=unknown[134.209.41.92]
+Jan 24 04:08:08 localhost postfix/cleanup[15657]: 91D411A56: message-id=<20220124050805.13665FCBB8F48D3B@dxpxmno.sbs>
+Jan 24 04:08:08 localhost postfix/qmgr[32066]: 91D411A56: from=<support@dxpxmno.sbs>, size=6522, nrcpt=1 (queue active)
+Jan 24 04:08:08 localhost postfix/trivial-rewrite[15656]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 04:08:08 localhost postfix/local[15658]: 91D411A56: to=<adam@lamc.la>, relay=local, delay=0.55, delays=0.54/0.01/0/0.01, dsn=2.0.0, status=sent (delivered to maildir)
+Jan 24 04:08:08 localhost postfix/qmgr[32066]: 91D411A56: removed
+Jan 24 04:08:09 localhost postfix/smtpd[15653]: disconnect from unknown[134.209.41.92] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Jan 24 04:11:29 localhost postfix/anvil[15655]: statistics: max connection rate 1/60s for (smtp:134.209.41.92) at Jan 24 04:08:07
+Jan 24 04:11:29 localhost postfix/anvil[15655]: statistics: max connection count 1 for (smtp:134.209.41.92) at Jan 24 04:08:07
+Jan 24 04:11:29 localhost postfix/anvil[15655]: statistics: max cache size 1 at Jan 24 04:08:07
+Jan 24 04:14:31 localhost postfix/smtpd[15880]: connect from mail-ot1-f72.google.com[209.85.210.72]
+Jan 24 04:14:32 localhost postfix/smtpd[15880]: NOQUEUE: reject: RCPT from mail-ot1-f72.google.com[209.85.210.72]: 454 4.7.1 <prvs=0136a63dc=arwaxm+bncBCC7XN6N3YMBBXW6VOHQMGQE4IN3IXQ@liber-t.xyz>: Relay access denied; from=<> to=<prvs=0136a63dc=arwaxm+bncBCC7XN6N3YMBBXW6VOHQMGQE4IN3IXQ@liber-t.xyz> proto=ESMTP helo=<mail-ot1-f72.google.com>
+Jan 24 04:14:32 localhost postfix/smtpd[15880]: disconnect from mail-ot1-f72.google.com[209.85.210.72] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 04:15:57 localhost postfix/smtpd[15880]: connect from unknown[114.237.155.102]
+Jan 24 04:15:58 localhost postfix/trivial-rewrite[15884]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 04:15:58 localhost postfix/smtpd[15880]: 494261A56: client=unknown[114.237.155.102]
+Jan 24 04:15:58 localhost postfix/cleanup[15932]: 494261A56: message-id=<>
+Jan 24 04:15:58 localhost postfix/qmgr[32066]: 494261A56: from=<xgylcrog@yqjx.com>, size=1842, nrcpt=1 (queue active)
+Jan 24 04:15:58 localhost postfix/trivial-rewrite[15884]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 04:15:58 localhost postfix/local[15933]: 494261A56: to=<adam@lamc.la>, relay=local, delay=0.65, delays=0.64/0.01/0/0.01, dsn=2.0.0, status=sent (delivered to maildir)
+Jan 24 04:15:58 localhost postfix/qmgr[32066]: 494261A56: removed
+Jan 24 04:15:58 localhost postfix/smtpd[15880]: disconnect from unknown[114.237.155.102] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+Jan 24 04:17:38 localhost postfix/smtpd[15880]: connect from monet.med.kyushu-u.ac.jp[133.5.208.57]
+Jan 24 04:17:38 localhost postfix/trivial-rewrite[15884]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 04:17:38 localhost postfix/smtpd[15880]: NOQUEUE: reject: RCPT from monet.med.kyushu-u.ac.jp[133.5.208.57]: 550 5.1.1 <suac+bncbcc7xn6n3ymbbmfgwwhqmgqer7sexcq@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncbcc7xn6n3ymbbmfgwwhqmgqer7sexcq@lamc.la> proto=ESMTP helo=<monet.med.kyushu-u.ac.jp>
+Jan 24 04:17:39 localhost postfix/smtpd[15978]: connect from monet.med.kyushu-u.ac.jp[133.5.208.57]
+Jan 24 04:17:39 localhost postfix/trivial-rewrite[15884]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 04:17:39 localhost postfix/smtpd[15978]: NOQUEUE: reject: RCPT from monet.med.kyushu-u.ac.jp[133.5.208.57]: 550 5.1.1 <suac+bncbcc7xn6n3ymbbmfgwwhqmgqer7sexcq@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncbcc7xn6n3ymbbmfgwwhqmgqer7sexcq@lamc.la> proto=ESMTP helo=<monet.med.kyushu-u.ac.jp>
+Jan 24 04:17:40 localhost postfix/trivial-rewrite[15884]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 04:17:40 localhost postfix/smtpd[15978]: NOQUEUE: reject: RCPT from monet.med.kyushu-u.ac.jp[133.5.208.57]: 550 5.1.1 <suac+bncbcc7xn6n3ymbboufwghqmgqeo4cdkqi@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncbcc7xn6n3ymbboufwghqmgqeo4cdkqi@lamc.la> proto=ESMTP helo=<monet.med.kyushu-u.ac.jp>
+Jan 24 04:17:40 localhost postfix/smtpd[15978]: disconnect from monet.med.kyushu-u.ac.jp[133.5.208.57] ehlo=2 starttls=1 mail=2 rcpt=0/2 data=0/2 rset=3 quit=1 commands=9/13
+Jan 24 04:17:51 localhost postfix/smtpd[15978]: connect from monet.med.kyushu-u.ac.jp[133.5.208.57]
+Jan 24 04:17:52 localhost postfix/smtpd[15978]: NOQUEUE: reject: RCPT from monet.med.kyushu-u.ac.jp[133.5.208.57]: 550 5.1.1 <suac+bncbcc7xn6n3ymbbmfgwwhqmgqer7sexcq@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncbcc7xn6n3ymbbmfgwwhqmgqer7sexcq@lamc.la> proto=ESMTP helo=<monet.med.kyushu-u.ac.jp>
+Jan 24 04:17:53 localhost postfix/smtpd[15978]: disconnect from monet.med.kyushu-u.ac.jp[133.5.208.57] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 rset=1 quit=1 commands=6/8
+Jan 24 04:22:09 localhost postfix/smtpd[16105]: connect from monet.med.kyushu-u.ac.jp[133.5.208.57]
+Jan 24 04:22:09 localhost postfix/trivial-rewrite[15884]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 04:22:09 localhost postfix/smtpd[16105]: NOQUEUE: reject: RCPT from monet.med.kyushu-u.ac.jp[133.5.208.57]: 550 5.1.1 <suac+bncbcc7xn6n3ymbbmfgwwhqmgqer7sexcq@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncbcc7xn6n3ymbbmfgwwhqmgqer7sexcq@lamc.la> proto=ESMTP helo=<monet.med.kyushu-u.ac.jp>
+Jan 24 04:22:09 localhost postfix/smtpd[16105]: disconnect from monet.med.kyushu-u.ac.jp[133.5.208.57] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 rset=1 quit=1 commands=6/8
+Jan 24 04:22:38 localhost postfix/smtpd[15880]: timeout after RSET from monet.med.kyushu-u.ac.jp[133.5.208.57]
+Jan 24 04:22:38 localhost postfix/smtpd[15880]: disconnect from monet.med.kyushu-u.ac.jp[133.5.208.57] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 rset=1 commands=5/7
+Jan 24 04:24:26 localhost postfix/smtpd[16168]: connect from monet.med.kyushu-u.ac.jp[133.5.208.57]
+Jan 24 04:24:27 localhost postfix/trivial-rewrite[15884]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 04:24:27 localhost postfix/smtpd[16168]: NOQUEUE: reject: RCPT from monet.med.kyushu-u.ac.jp[133.5.208.57]: 550 5.1.1 <suac+bncbcc7xn6n3ymbbmfgwwhqmgqer7sexcq@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncbcc7xn6n3ymbbmfgwwhqmgqer7sexcq@lamc.la> proto=ESMTP helo=<monet.med.kyushu-u.ac.jp>
+Jan 24 04:24:31 localhost postfix/anvil[15882]: statistics: max connection rate 3/60s for (smtp:133.5.208.57) at Jan 24 04:17:51
+Jan 24 04:24:31 localhost postfix/anvil[15882]: statistics: max connection count 2 for (smtp:133.5.208.57) at Jan 24 04:17:39
+Jan 24 04:24:31 localhost postfix/anvil[15882]: statistics: max cache size 1 at Jan 24 04:14:31
+Jan 24 04:28:58 localhost postfix/smtpd[16302]: connect from monet.med.kyushu-u.ac.jp[133.5.208.57]
+Jan 24 04:28:59 localhost postfix/trivial-rewrite[15884]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 04:28:59 localhost postfix/smtpd[16302]: NOQUEUE: reject: RCPT from monet.med.kyushu-u.ac.jp[133.5.208.57]: 550 5.1.1 <suac+bncbcc7xn6n3ymbbmfgwwhqmgqer7sexcq@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncbcc7xn6n3ymbbmfgwwhqmgqer7sexcq@lamc.la> proto=ESMTP helo=<monet.med.kyushu-u.ac.jp>
+Jan 24 04:28:59 localhost postfix/smtpd[16302]: disconnect from monet.med.kyushu-u.ac.jp[133.5.208.57] ehlo=1 mail=1 rcpt=0/1 data=0/1 rset=1 quit=1 commands=4/6
+Jan 24 04:29:07 localhost postfix/smtpd[16302]: connect from monet.med.kyushu-u.ac.jp[133.5.208.57]
+Jan 24 04:29:07 localhost postfix/smtpd[16302]: NOQUEUE: reject: RCPT from monet.med.kyushu-u.ac.jp[133.5.208.57]: 550 5.1.1 <suac+bncbcc7xn6n3ymbbmfgwwhqmgqer7sexcq@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncbcc7xn6n3ymbbmfgwwhqmgqer7sexcq@lamc.la> proto=ESMTP helo=<monet.med.kyushu-u.ac.jp>
+Jan 24 04:29:08 localhost postfix/smtpd[16302]: disconnect from monet.med.kyushu-u.ac.jp[133.5.208.57] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 rset=1 quit=1 commands=6/8
+Jan 24 04:29:27 localhost postfix/smtpd[16168]: timeout after RSET from monet.med.kyushu-u.ac.jp[133.5.208.57]
+Jan 24 04:29:27 localhost postfix/smtpd[16168]: disconnect from monet.med.kyushu-u.ac.jp[133.5.208.57] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 rset=1 commands=5/7
+Jan 24 04:32:47 localhost postfix/anvil[15882]: statistics: max connection rate 2/60s for (smtp:133.5.208.57) at Jan 24 04:29:07
+Jan 24 04:32:47 localhost postfix/anvil[15882]: statistics: max connection count 2 for (smtp:133.5.208.57) at Jan 24 04:28:58
+Jan 24 04:36:21 localhost postfix/smtpd[16548]: connect from monet.med.kyushu-u.ac.jp[133.5.208.57]
+Jan 24 04:36:22 localhost postfix/trivial-rewrite[16551]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 04:36:22 localhost postfix/smtpd[16548]: NOQUEUE: reject: RCPT from monet.med.kyushu-u.ac.jp[133.5.208.57]: 550 5.1.1 <suac+bncbcc7xn6n3ymbbmfgwwhqmgqer7sexcq@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncbcc7xn6n3ymbbmfgwwhqmgqer7sexcq@lamc.la> proto=ESMTP helo=<monet.med.kyushu-u.ac.jp>
+Jan 24 04:36:22 localhost postfix/smtpd[16548]: disconnect from monet.med.kyushu-u.ac.jp[133.5.208.57] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 rset=1 quit=1 commands=6/8
+Jan 24 04:36:25 localhost postfix/smtpd[16548]: connect from monet.med.kyushu-u.ac.jp[133.5.208.57]
+Jan 24 04:36:25 localhost postfix/smtpd[16548]: NOQUEUE: reject: RCPT from monet.med.kyushu-u.ac.jp[133.5.208.57]: 550 5.1.1 <suac+bncbcc7xn6n3ymbbmfgwwhqmgqer7sexcq@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncbcc7xn6n3ymbbmfgwwhqmgqer7sexcq@lamc.la> proto=ESMTP helo=<monet.med.kyushu-u.ac.jp>
+Jan 24 04:36:26 localhost postfix/smtpd[16548]: NOQUEUE: reject: RCPT from monet.med.kyushu-u.ac.jp[133.5.208.57]: 550 5.1.1 <suac+bncbcc7xn6n3ymbbmfgwwhqmgqer7sexcq@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncbcc7xn6n3ymbbmfgwwhqmgqer7sexcq@lamc.la> proto=ESMTP helo=<monet.med.kyushu-u.ac.jp>
+Jan 24 04:36:29 localhost postfix/smtpd[16548]: disconnect from monet.med.kyushu-u.ac.jp[133.5.208.57] ehlo=1 mail=2 rcpt=0/2 data=0/2 rset=3 quit=1 commands=7/11
+Jan 24 04:39:49 localhost postfix/anvil[16550]: statistics: max connection rate 2/60s for (smtp:133.5.208.57) at Jan 24 04:36:25
+Jan 24 04:39:49 localhost postfix/anvil[16550]: statistics: max connection count 1 for (smtp:133.5.208.57) at Jan 24 04:36:21
+Jan 24 04:39:49 localhost postfix/anvil[16550]: statistics: max cache size 1 at Jan 24 04:36:21
+Jan 24 04:48:24 localhost postfix/smtpd[16997]: connect from monet.med.kyushu-u.ac.jp[133.5.208.57]
+Jan 24 04:48:25 localhost postfix/trivial-rewrite[17000]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 04:48:25 localhost postfix/smtpd[16997]: NOQUEUE: reject: RCPT from monet.med.kyushu-u.ac.jp[133.5.208.57]: 550 5.1.1 <suac+bncbcc7xn6n3ymbboufwghqmgqeo4cdkqi@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncbcc7xn6n3ymbboufwghqmgqeo4cdkqi@lamc.la> proto=ESMTP helo=<monet.med.kyushu-u.ac.jp>
+Jan 24 04:48:25 localhost postfix/smtpd[16997]: disconnect from monet.med.kyushu-u.ac.jp[133.5.208.57] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 rset=1 quit=1 commands=6/8
+Jan 24 04:48:34 localhost postfix/smtpd[16997]: connect from 13.r1.unverified-forwarding.1e100.net[108.177.16.13]
+Jan 24 04:48:35 localhost postfix/smtpd[17007]: connect from monet.med.kyushu-u.ac.jp[133.5.208.57]
+Jan 24 04:48:36 localhost postfix/trivial-rewrite[17000]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Jan 24 04:48:36 localhost postfix/smtpd[16997]: 11F20EAEB: client=13.r1.unverified-forwarding.1e100.net[108.177.16.13]
+Jan 24 04:48:36 localhost postfix/cleanup[17008]: 11F20EAEB: message-id=<KbQAFmpfRrobzPxH5rI3vYeAaHXtcOuhFfzfWtxhu0@dalfi.ltd>
+Jan 24 04:48:36 localhost postfix/qmgr[32066]: 11F20EAEB: from=<simh-bounces@mailman.yale.edu>, size=13247, nrcpt=3 (queue active)
+Jan 24 04:48:36 localhost postfix/trivial-rewrite[17000]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Jan 24 04:48:36 localhost postfix/local[17010]: 11F20EAEB: to=<adam@localhost>, orig_to=<raelitwhy@fromthemachine.org>, relay=local, delay=0.07, delays=0.06/0.02/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Jan 24 04:48:36 localhost postfix/local[17010]: 11F20EAEB: to=<ftm@fromthemachine.org>, orig_to=<raelitwhy@fromthemachine.org>, relay=local, delay=0.09, delays=0.06/0.02/0/0.02, dsn=5.1.1, status=bounced (unknown user: "ftm")
+Jan 24 04:48:36 localhost postfix/trivial-rewrite[17000]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 04:48:36 localhost postfix/smtpd[17007]: NOQUEUE: reject: RCPT from monet.med.kyushu-u.ac.jp[133.5.208.57]: 550 5.1.1 <suac+bncbcc7xn6n3ymbboufwghqmgqeo4cdkqi@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncbcc7xn6n3ymbboufwghqmgqeo4cdkqi@lamc.la> proto=ESMTP helo=<monet.med.kyushu-u.ac.jp>
+Jan 24 04:48:36 localhost postfix/smtpd[16997]: disconnect from 13.r1.unverified-forwarding.1e100.net[108.177.16.13] ehlo=2 starttls=1 mail=1 rcpt=1 bdat=1 quit=1 commands=7
+Jan 24 04:48:36 localhost postfix/smtpd[17007]: disconnect from monet.med.kyushu-u.ac.jp[133.5.208.57] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 rset=1 quit=1 commands=6/8
+Jan 24 04:48:37 localhost postfix/smtp[17009]: 11F20EAEB: to=<0xc514f094370cfc5ee45a1dd9b72bb9675efe266f@ethmail.cc>, orig_to=<raelitwhy@fromthemachine.org>, relay=smtp-relay.gmail.com[64.233.189.28]:587, delay=1.9, delays=0.06/0.02/1.3/0.51, dsn=2.0.0, status=sent (250 2.0.0 OK  1642999717 a17sm4727659pjq.13 - gsmtp)
+Jan 24 04:48:37 localhost postfix/cleanup[17008]: EC98FEAED: message-id=<20220124044837.EC98FEAED@plemma.cc>
+Jan 24 04:48:37 localhost postfix/qmgr[32066]: EC98FEAED: from=<>, size=15142, nrcpt=1 (queue active)
+Jan 24 04:48:37 localhost postfix/bounce[17012]: 11F20EAEB: sender non-delivery notification: EC98FEAED
+Jan 24 04:48:37 localhost postfix/qmgr[32066]: 11F20EAEB: removed
+Jan 24 04:48:40 localhost postfix/smtp[17009]: EC98FEAED: to=<simh-bounces@mailman.yale.edu>, relay=smtp-relay.gmail.com[64.233.189.28]:587, delay=2.1, delays=0/0/1.4/0.74, dsn=2.0.0, status=sent (250 2.0.0 OK  1642999719 g21sm3757532vkd.14 - gsmtp)
+Jan 24 04:48:40 localhost postfix/qmgr[32066]: EC98FEAED: removed
+Jan 24 04:50:08 localhost postfix/smtpd[16997]: connect from mail-wr1-f71.google.com[209.85.221.71]
+Jan 24 04:50:10 localhost postfix/smtpd[16997]: NOQUEUE: reject: RCPT from mail-wr1-f71.google.com[209.85.221.71]: 454 4.7.1 <unsubscribe@liber-t.xyz>: Relay access denied; from=<rbuel@wesleyan.edu> to=<unsubscribe@liber-t.xyz> proto=ESMTP helo=<mail-wr1-f71.google.com>
+Jan 24 04:50:10 localhost postfix/smtpd[16997]: disconnect from mail-wr1-f71.google.com[209.85.221.71] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 04:52:40 localhost postfix/smtpd[17139]: connect from central.jrtelecom.psi.br[177.71.92.23]
+Jan 24 04:52:42 localhost postfix/trivial-rewrite[17147]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 04:52:42 localhost postfix/smtpd[17139]: 49E35EAEB: client=central.jrtelecom.psi.br[177.71.92.23]
+Jan 24 04:52:42 localhost postfix/cleanup[17148]: 49E35EAEB: message-id=<20220124145426.26D8CC3CBB57054C@juniornet.psi.br>
+Jan 24 04:52:43 localhost postfix/qmgr[32066]: 49E35EAEB: from=<maria@juniornet.psi.br>, size=16062, nrcpt=1 (queue active)
+Jan 24 04:52:43 localhost postfix/trivial-rewrite[17147]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 04:52:43 localhost postfix/local[17149]: 49E35EAEB: to=<adam@lamc.la>, relay=local, delay=0.95, delays=0.93/0.01/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Jan 24 04:52:43 localhost postfix/qmgr[32066]: 49E35EAEB: removed
+Jan 24 04:52:43 localhost postfix/smtpd[17139]: disconnect from central.jrtelecom.psi.br[177.71.92.23] ehlo=2 starttls=1 mail=1 rcpt=1 bdat=2 quit=1 commands=8
+Jan 24 04:54:05 localhost dovecot: imap-login: Disconnected (no auth attempts in 1 secs): user=<>, rip=162.142.125.60, lip=158.247.223.84, TLS: Connection closed, session=<C0oUwkzWUs6ijn08>
+Jan 24 04:56:03 localhost postfix/anvil[16999]: statistics: max connection rate 2/60s for (smtp:133.5.208.57) at Jan 24 04:48:35
+Jan 24 04:56:03 localhost postfix/anvil[16999]: statistics: max connection count 1 for (smtp:133.5.208.57) at Jan 24 04:48:24
+Jan 24 04:56:03 localhost postfix/anvil[16999]: statistics: max cache size 2 at Jan 24 04:48:34
+Jan 24 04:57:50 localhost postfix/smtpd[17307]: connect from monet.med.kyushu-u.ac.jp[133.5.208.57]
+Jan 24 04:57:50 localhost postfix/trivial-rewrite[17310]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 04:57:50 localhost postfix/smtpd[17307]: NOQUEUE: reject: RCPT from monet.med.kyushu-u.ac.jp[133.5.208.57]: 550 5.1.1 <suac+bncbcc7xn6n3ymbboufwghqmgqeo4cdkqi@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncbcc7xn6n3ymbboufwghqmgqeo4cdkqi@lamc.la> proto=ESMTP helo=<monet.med.kyushu-u.ac.jp>
+Jan 24 04:57:50 localhost postfix/smtpd[17307]: disconnect from monet.med.kyushu-u.ac.jp[133.5.208.57] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 rset=1 quit=1 commands=6/8
+Jan 24 05:01:10 localhost postfix/anvil[17309]: statistics: max connection rate 1/60s for (smtp:133.5.208.57) at Jan 24 04:57:50
+Jan 24 05:01:10 localhost postfix/anvil[17309]: statistics: max connection count 1 for (smtp:133.5.208.57) at Jan 24 04:57:50
+Jan 24 05:01:10 localhost postfix/anvil[17309]: statistics: max cache size 1 at Jan 24 04:57:50
+Jan 24 05:03:40 localhost postfix/smtpd[17492]: connect from monet.med.kyushu-u.ac.jp[133.5.208.57]
+Jan 24 05:03:40 localhost postfix/trivial-rewrite[17495]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 05:03:40 localhost postfix/smtpd[17492]: NOQUEUE: reject: RCPT from monet.med.kyushu-u.ac.jp[133.5.208.57]: 550 5.1.1 <suac+bncbcc7xn6n3ymbboufwghqmgqeo4cdkqi@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncbcc7xn6n3ymbboufwghqmgqeo4cdkqi@lamc.la> proto=ESMTP helo=<monet.med.kyushu-u.ac.jp>
+Jan 24 05:03:41 localhost postfix/smtpd[17492]: disconnect from monet.med.kyushu-u.ac.jp[133.5.208.57] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 rset=1 quit=1 commands=6/8
+Jan 24 05:05:24 localhost postfix/smtpd[17578]: connect from monet.med.kyushu-u.ac.jp[133.5.208.57]
+Jan 24 05:05:25 localhost postfix/trivial-rewrite[17581]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 05:05:25 localhost postfix/smtpd[17578]: NOQUEUE: reject: RCPT from monet.med.kyushu-u.ac.jp[133.5.208.57]: 550 5.1.1 <suac+bncbcc7xn6n3ymbboufwghqmgqeo4cdkqi@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncbcc7xn6n3ymbboufwghqmgqeo4cdkqi@lamc.la> proto=ESMTP helo=<monet.med.kyushu-u.ac.jp>
+Jan 24 05:05:25 localhost postfix/smtpd[17578]: disconnect from monet.med.kyushu-u.ac.jp[133.5.208.57] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 rset=1 quit=1 commands=6/8
+Jan 24 05:06:48 localhost postfix/smtpd[17578]: warning: hostname hosted-by.rootlayer.net does not resolve to address 185.222.57.195
+Jan 24 05:06:48 localhost postfix/smtpd[17578]: connect from unknown[185.222.57.195]
+Jan 24 05:06:49 localhost postfix/smtpd[17578]: disconnect from unknown[185.222.57.195] ehlo=1 auth=0/1 rset=1 quit=1 commands=3/4
+Jan 24 05:10:09 localhost postfix/anvil[17494]: statistics: max connection rate 1/60s for (smtp:133.5.208.57) at Jan 24 05:03:40
+Jan 24 05:10:09 localhost postfix/anvil[17494]: statistics: max connection count 1 for (smtp:133.5.208.57) at Jan 24 05:03:40
+Jan 24 05:10:09 localhost postfix/anvil[17494]: statistics: max cache size 1 at Jan 24 05:03:40
+Jan 24 05:26:11 localhost postfix/smtpd[18249]: connect from Mail.siancoeg.com[41.65.212.110]
+Jan 24 05:26:14 localhost postfix/trivial-rewrite[18255]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 05:26:14 localhost postfix/smtpd[18249]: 0F66BEAEB: client=Mail.siancoeg.com[41.65.212.110]
+Jan 24 05:26:14 localhost postfix/cleanup[18256]: 0F66BEAEB: message-id=<202201240525.20O5POdF000931-20O5POdH000931@fortimail.siancoeg.local>
+Jan 24 05:26:14 localhost postfix/qmgr[32066]: 0F66BEAEB: from=<info@usa.org>, size=2209, nrcpt=1 (queue active)
+Jan 24 05:26:14 localhost postfix/trivial-rewrite[18255]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 05:26:14 localhost postfix/local[18257]: 0F66BEAEB: to=<adam@lamc.la>, relay=local, delay=1.2, delays=1.2/0.01/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Jan 24 05:26:14 localhost postfix/qmgr[32066]: 0F66BEAEB: removed
+Jan 24 05:26:17 localhost postfix/smtpd[18249]: disconnect from Mail.siancoeg.com[41.65.212.110] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Jan 24 05:28:20 localhost postfix/smtpd[18332]: connect from unknown[103.138.109.221]
+Jan 24 05:28:21 localhost postfix/trivial-rewrite[18334]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 05:28:21 localhost postfix/smtpd[18332]: 47FF8EAEB: client=unknown[103.138.109.221]
+Jan 24 05:28:21 localhost postfix/cleanup[18335]: 47FF8EAEB: message-id=<20220123212826.BAA1AFE5329B8FCC@paramountship.com>
+Jan 24 05:28:22 localhost postfix/qmgr[32066]: 47FF8EAEB: from=<davidtf@paramountship.com>, size=319547, nrcpt=1 (queue active)
+Jan 24 05:28:22 localhost postfix/trivial-rewrite[18334]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 05:28:22 localhost postfix/local[18336]: 47FF8EAEB: to=<adam@lamc.la>, relay=local, delay=1.1, delays=1.1/0.01/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Jan 24 05:28:22 localhost postfix/qmgr[32066]: 47FF8EAEB: removed
+Jan 24 05:28:22 localhost postfix/smtpd[18332]: disconnect from unknown[103.138.109.221] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+Jan 24 05:29:06 localhost postfix/smtpd[18332]: connect from monet.med.kyushu-u.ac.jp[133.5.208.57]
+Jan 24 05:29:06 localhost postfix/trivial-rewrite[18334]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 05:29:06 localhost postfix/smtpd[18332]: NOQUEUE: reject: RCPT from monet.med.kyushu-u.ac.jp[133.5.208.57]: 550 5.1.1 <suac+bncbcc7xn6n3ymbboufwghqmgqeo4cdkqi@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncbcc7xn6n3ymbboufwghqmgqeo4cdkqi@lamc.la> proto=ESMTP helo=<monet.med.kyushu-u.ac.jp>
+Jan 24 05:29:07 localhost postfix/smtpd[18332]: disconnect from monet.med.kyushu-u.ac.jp[133.5.208.57] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 rset=1 quit=1 commands=6/8
+Jan 24 05:32:27 localhost postfix/anvil[18251]: statistics: max connection rate 1/60s for (smtp:41.65.212.110) at Jan 24 05:26:11
+Jan 24 05:32:27 localhost postfix/anvil[18251]: statistics: max connection count 1 for (smtp:41.65.212.110) at Jan 24 05:26:11
+Jan 24 05:32:27 localhost postfix/anvil[18251]: statistics: max cache size 2 at Jan 24 05:29:06
+Jan 24 05:39:59 localhost postfix/smtpd[18695]: connect from 5.r1.unverified-forwarding.1e100.net[108.177.16.5]
+Jan 24 05:40:00 localhost postfix/smtpd[18695]: NOQUEUE: reject: RCPT from 5.r1.unverified-forwarding.1e100.net[108.177.16.5]: 454 4.7.1 <adamvideos@carpent.us>: Relay access denied; from=<0100017e83189972-263f1e1e-e38f-48b5-8ea9-7ecf1feccc6f-000000@bounce.imgur.com> to=<adamvideos@carpent.us> proto=ESMTP helo=<5.r1.unverified-forwarding.1e100.net>
+Jan 24 05:40:01 localhost postfix/smtpd[18695]: disconnect from 5.r1.unverified-forwarding.1e100.net[108.177.16.5] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 05:40:40 localhost postfix/smtpd[18695]: connect from monet.med.kyushu-u.ac.jp[133.5.208.57]
+Jan 24 05:40:41 localhost postfix/trivial-rewrite[18704]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 05:40:41 localhost postfix/smtpd[18695]: NOQUEUE: reject: RCPT from monet.med.kyushu-u.ac.jp[133.5.208.57]: 550 5.1.1 <suac+bncbcc7xn6n3ymbboufwghqmgqeo4cdkqi@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncbcc7xn6n3ymbboufwghqmgqeo4cdkqi@lamc.la> proto=ESMTP helo=<monet.med.kyushu-u.ac.jp>
+Jan 24 05:40:41 localhost postfix/smtpd[18695]: disconnect from monet.med.kyushu-u.ac.jp[133.5.208.57] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 rset=1 quit=1 commands=6/8
+Jan 24 05:44:01 localhost postfix/anvil[18697]: statistics: max connection rate 1/60s for (smtp:108.177.16.5) at Jan 24 05:39:59
+Jan 24 05:44:01 localhost postfix/anvil[18697]: statistics: max connection count 1 for (smtp:108.177.16.5) at Jan 24 05:39:59
+Jan 24 05:44:01 localhost postfix/anvil[18697]: statistics: max cache size 2 at Jan 24 05:40:40
+Jan 24 05:45:36 localhost postfix/smtpd[18859]: connect from mail.ut.ac.ir[80.66.177.10]
+Jan 24 05:45:38 localhost postfix/trivial-rewrite[18862]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 05:45:38 localhost postfix/smtpd[18859]: NOQUEUE: reject: RCPT from mail.ut.ac.ir[80.66.177.10]: 550 5.1.1 <suac+unsubscribe@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<ataleei@ut.ac.ir> to=<suac+unsubscribe@lamc.la> proto=ESMTP helo=<mail.ut.ac.ir>
+Jan 24 05:45:38 localhost postfix/smtpd[18859]: disconnect from mail.ut.ac.ir[80.66.177.10] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 rset=1 quit=1 commands=6/8
+Jan 24 05:46:19 localhost postfix/smtpd[18859]: connect from monet.med.kyushu-u.ac.jp[133.5.208.57]
+Jan 24 05:46:20 localhost postfix/trivial-rewrite[18862]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 05:46:20 localhost postfix/smtpd[18859]: NOQUEUE: reject: RCPT from monet.med.kyushu-u.ac.jp[133.5.208.57]: 550 5.1.1 <suac+bncbcc7xn6n3ymbboufwghqmgqeo4cdkqi@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncbcc7xn6n3ymbboufwghqmgqeo4cdkqi@lamc.la> proto=ESMTP helo=<monet.med.kyushu-u.ac.jp>
+Jan 24 05:46:21 localhost postfix/smtpd[18859]: disconnect from monet.med.kyushu-u.ac.jp[133.5.208.57] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 rset=1 quit=1 commands=6/8
+Jan 24 05:49:41 localhost postfix/anvil[18861]: statistics: max connection rate 1/60s for (smtp:80.66.177.10) at Jan 24 05:45:36
+Jan 24 05:49:41 localhost postfix/anvil[18861]: statistics: max connection count 1 for (smtp:80.66.177.10) at Jan 24 05:45:36
+Jan 24 05:49:41 localhost postfix/anvil[18861]: statistics: max cache size 2 at Jan 24 05:46:19
+Jan 24 05:53:31 localhost postfix/smtpd[19083]: connect from mail-yb1-f200.google.com[209.85.219.200]
+Jan 24 05:53:32 localhost postfix/smtpd[19083]: NOQUEUE: reject: RCPT from mail-yb1-f200.google.com[209.85.219.200]: 454 4.7.1 <prvs=014b97598=arwaxm+bncBCC7XN6N3YMBB54JV6HQMGQE3GQP3NI@liber-t.xyz>: Relay access denied; from=<> to=<prvs=014b97598=arwaxm+bncBCC7XN6N3YMBB54JV6HQMGQE3GQP3NI@liber-t.xyz> proto=ESMTP helo=<mail-yb1-f200.google.com>
+Jan 24 05:53:32 localhost postfix/smtpd[19083]: disconnect from mail-yb1-f200.google.com[209.85.219.200] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 05:56:53 localhost postfix/anvil[19085]: statistics: max connection rate 1/60s for (smtp:209.85.219.200) at Jan 24 05:53:31
+Jan 24 05:56:53 localhost postfix/anvil[19085]: statistics: max connection count 1 for (smtp:209.85.219.200) at Jan 24 05:53:31
+Jan 24 05:56:53 localhost postfix/anvil[19085]: statistics: max cache size 1 at Jan 24 05:53:31
+Jan 24 06:00:33 localhost postfix/smtpd[19288]: connect from unknown[103.133.107.188]
+Jan 24 06:00:33 localhost postfix/trivial-rewrite[19291]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 06:00:33 localhost postfix/smtpd[19288]: 7E2CC1A56: client=unknown[103.133.107.188]
+Jan 24 06:00:33 localhost postfix/cleanup[19292]: 7E2CC1A56: message-id=<20220123220033.AFC4D545F895BD93@qlqcompany.com>
+Jan 24 06:00:34 localhost postfix/qmgr[32066]: 7E2CC1A56: from=<qlq-sale-09@qlqcompany.com>, size=969733, nrcpt=1 (queue active)
+Jan 24 06:00:34 localhost postfix/trivial-rewrite[19291]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 06:00:34 localhost postfix/local[19293]: 7E2CC1A56: to=<adam@lamc.la>, relay=local, delay=0.98, delays=0.96/0.01/0/0.01, dsn=2.0.0, status=sent (delivered to maildir)
+Jan 24 06:00:34 localhost postfix/qmgr[32066]: 7E2CC1A56: removed
+Jan 24 06:00:34 localhost postfix/smtpd[19288]: disconnect from unknown[103.133.107.188] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+Jan 24 06:00:52 localhost postfix/smtpd[19288]: connect from mail-yb1-f197.google.com[209.85.219.197]
+Jan 24 06:00:53 localhost postfix/trivial-rewrite[19291]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Jan 24 06:00:53 localhost postfix/smtpd[19288]: 893151A56: client=mail-yb1-f197.google.com[209.85.219.197]
+Jan 24 06:00:53 localhost postfix/cleanup[19292]: 893151A56: message-id=<CA.5D.03857.2904EE16@twitter.com>
+Jan 24 06:00:54 localhost postfix/qmgr[32066]: 893151A56: from=<n0016f11948-300515dba2124ffb-adam_flash===fromthemachine.org@bounce.twitter.com>, size=113664, nrcpt=3 (queue active)
+Jan 24 06:00:54 localhost postfix/trivial-rewrite[19291]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Jan 24 06:00:54 localhost postfix/local[19293]: 893151A56: to=<adam@localhost>, orig_to=<adam_flash@fromthemachine.org>, relay=local, delay=0.64, delays=0.63/0/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Jan 24 06:00:54 localhost postfix/local[19293]: 893151A56: to=<ftm@fromthemachine.org>, orig_to=<adam_flash@fromthemachine.org>, relay=local, delay=0.67, delays=0.63/0.01/0/0.03, dsn=5.1.1, status=bounced (unknown user: "ftm")
+Jan 24 06:00:54 localhost postfix/smtpd[19288]: disconnect from mail-yb1-f197.google.com[209.85.219.197] ehlo=2 starttls=1 mail=1 rcpt=1 bdat=2 quit=1 commands=8
+Jan 24 06:00:54 localhost postfix/smtp[19305]: connect to smtp-relay.gmail.com[2404:6800:4008:c07::1c]:587: Network is unreachable
+Jan 24 06:00:56 localhost postfix/smtp[19305]: 893151A56: to=<0xc514f094370cfc5ee45a1dd9b72bb9675efe266f@ethmail.cc>, orig_to=<adam_flash@fromthemachine.org>, relay=smtp-relay.gmail.com[64.233.189.28]:587, delay=3, delays=0.63/0.04/1.4/0.97, dsn=2.0.0, status=sent (250 2.0.0 OK  1643004056 j5sm2902127pjs.13 - gsmtp)
+Jan 24 06:00:56 localhost postfix/cleanup[19292]: 874DAEAED: message-id=<20220124060056.874DAEAED@plemma.cc>
+Jan 24 06:00:56 localhost postfix/qmgr[32066]: 874DAEAED: from=<>, size=8107, nrcpt=1 (queue active)
+Jan 24 06:00:56 localhost postfix/bounce[19307]: 893151A56: sender non-delivery notification: 874DAEAED
+Jan 24 06:00:56 localhost postfix/qmgr[32066]: 893151A56: removed
+Jan 24 06:00:57 localhost postfix/smtp[19305]: 874DAEAED: to=<n0016f11948-300515dba2124ffb-adam_flash===fromthemachine.org@bounce.twitter.com>, relay=smtp-relay.gmail.com[64.233.189.28]:587, delay=1.4, delays=0/0/0.89/0.5, dsn=2.0.0, status=sent (250 2.0.0 OK  1643004057 lr2sm4587433pjb.6 - gsmtp)
+Jan 24 06:00:57 localhost postfix/qmgr[32066]: 874DAEAED: removed
+Jan 24 06:04:14 localhost postfix/anvil[19290]: statistics: max connection rate 1/60s for (smtp:103.133.107.188) at Jan 24 06:00:33
+Jan 24 06:04:14 localhost postfix/anvil[19290]: statistics: max connection count 1 for (smtp:103.133.107.188) at Jan 24 06:00:33
+Jan 24 06:04:14 localhost postfix/anvil[19290]: statistics: max cache size 2 at Jan 24 06:00:52
+Jan 24 06:22:46 localhost postfix/smtpd[19961]: connect from monet.med.kyushu-u.ac.jp[133.5.208.57]
+Jan 24 06:22:47 localhost postfix/trivial-rewrite[19964]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 06:22:47 localhost postfix/smtpd[19961]: NOQUEUE: reject: RCPT from monet.med.kyushu-u.ac.jp[133.5.208.57]: 550 5.1.1 <suac+bncbcc7xn6n3ymbboufwghqmgqeo4cdkqi@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncbcc7xn6n3ymbboufwghqmgqeo4cdkqi@lamc.la> proto=ESMTP helo=<monet.med.kyushu-u.ac.jp>
+Jan 24 06:22:57 localhost postfix/smtpd[19961]: disconnect from monet.med.kyushu-u.ac.jp[133.5.208.57] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 rset=1 quit=1 commands=6/8
+Jan 24 06:26:17 localhost postfix/anvil[19963]: statistics: max connection rate 1/60s for (smtp:133.5.208.57) at Jan 24 06:22:46
+Jan 24 06:26:17 localhost postfix/anvil[19963]: statistics: max connection count 1 for (smtp:133.5.208.57) at Jan 24 06:22:46
+Jan 24 06:26:17 localhost postfix/anvil[19963]: statistics: max cache size 1 at Jan 24 06:22:46
+Jan 24 06:27:35 localhost postfix/smtpd[20220]: connect from unknown[141.98.10.110]
+Jan 24 06:27:36 localhost postfix/trivial-rewrite[20223]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 06:27:36 localhost postfix/smtpd[20220]: 044A0EAEE: client=unknown[141.98.10.110]
+Jan 24 06:27:36 localhost postfix/cleanup[20224]: 044A0EAEE: message-id=<20220124072733.D51972BA0538B9C1@incasaravenna.it>
+Jan 24 06:27:36 localhost postfix/qmgr[32066]: 044A0EAEE: from=<info@incasaravenna.it>, size=2753, nrcpt=1 (queue active)
+Jan 24 06:27:36 localhost postfix/trivial-rewrite[20223]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 06:27:36 localhost postfix/local[20225]: 044A0EAEE: to=<adam@lamc.la>, relay=local, delay=1.1, delays=1.1/0.01/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Jan 24 06:27:36 localhost postfix/qmgr[32066]: 044A0EAEE: removed
+Jan 24 06:27:37 localhost postfix/smtpd[20220]: disconnect from unknown[141.98.10.110] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+Jan 24 06:29:44 localhost postfix/smtpd[20285]: connect from unknown[27.219.63.19]
+Jan 24 06:29:45 localhost postfix/trivial-rewrite[20287]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 06:29:45 localhost postfix/smtpd[20285]: 53C92EAEE: client=unknown[27.219.63.19]
+Jan 24 06:29:45 localhost postfix/cleanup[20288]: 53C92EAEE: message-id=<786158240.523099.1643005963171@mxa-00168a01.gslb.pphosted.com>
+Jan 24 06:29:45 localhost postfix/qmgr[32066]: 53C92EAEE: from=<iabaos@diometuchen.org>, size=1225, nrcpt=1 (queue active)
+Jan 24 06:29:45 localhost postfix/trivial-rewrite[20287]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 06:29:45 localhost postfix/local[20289]: 53C92EAEE: to=<adam@lamc.la>, relay=local, delay=0.51, delays=0.5/0.01/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Jan 24 06:29:45 localhost postfix/qmgr[32066]: 53C92EAEE: removed
+Jan 24 06:29:46 localhost postfix/smtpd[20285]: disconnect from unknown[27.219.63.19] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+Jan 24 06:33:05 localhost postfix/smtpd[20370]: warning: numeric hostname: 37.49.229.102
+Jan 24 06:33:05 localhost postfix/smtpd[20370]: connect from unknown[37.49.225.16]
+Jan 24 06:33:05 localhost postfix/trivial-rewrite[20372]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 06:33:05 localhost postfix/trivial-rewrite[20372]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 06:33:05 localhost postfix/smtpd[20370]: EC3B9EAEE: client=unknown[37.49.225.16]
+Jan 24 06:33:06 localhost postfix/cleanup[20375]: EC3B9EAEE: message-id=<20220124073304.33A8CD1E14A03530@lamc.la>
+Jan 24 06:33:07 localhost postfix/qmgr[32066]: EC3B9EAEE: from=<adam@lamc.la>, size=24354, nrcpt=1 (queue active)
+Jan 24 06:33:07 localhost postfix/trivial-rewrite[20372]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 06:33:07 localhost postfix/local[20376]: EC3B9EAEE: to=<adam@lamc.la>, relay=local, delay=1.5, delays=1.5/0.01/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Jan 24 06:33:07 localhost postfix/qmgr[32066]: EC3B9EAEE: removed
+Jan 24 06:33:07 localhost postfix/smtpd[20370]: disconnect from unknown[37.49.225.16] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+Jan 24 06:36:27 localhost postfix/anvil[20222]: statistics: max connection rate 1/60s for (smtp:141.98.10.110) at Jan 24 06:27:35
+Jan 24 06:36:27 localhost postfix/anvil[20222]: statistics: max connection count 1 for (smtp:141.98.10.110) at Jan 24 06:27:35
+Jan 24 06:36:27 localhost postfix/anvil[20222]: statistics: max cache size 1 at Jan 24 06:27:35
+Jan 24 06:39:32 localhost postfix/smtpd[20703]: connect from monet.med.kyushu-u.ac.jp[133.5.208.57]
+Jan 24 06:39:32 localhost postfix/trivial-rewrite[20706]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 06:39:32 localhost postfix/smtpd[20703]: NOQUEUE: reject: RCPT from monet.med.kyushu-u.ac.jp[133.5.208.57]: 550 5.1.1 <suac+bncbcc7xn6n3ymbboufwghqmgqeo4cdkqi@lamc.la>: Recipient address rejected: User unknown in local recipient table; from=<> to=<suac+bncbcc7xn6n3ymbboufwghqmgqeo4cdkqi@lamc.la> proto=ESMTP helo=<monet.med.kyushu-u.ac.jp>
+Jan 24 06:39:33 localhost postfix/smtpd[20703]: disconnect from monet.med.kyushu-u.ac.jp[133.5.208.57] ehlo=2 starttls=1 mail=1 rcpt=0/1 data=0/1 rset=1 quit=1 commands=6/8
+Jan 24 06:42:53 localhost postfix/anvil[20705]: statistics: max connection rate 1/60s for (smtp:133.5.208.57) at Jan 24 06:39:32
+Jan 24 06:42:53 localhost postfix/anvil[20705]: statistics: max connection count 1 for (smtp:133.5.208.57) at Jan 24 06:39:32
+Jan 24 06:42:53 localhost postfix/anvil[20705]: statistics: max cache size 1 at Jan 24 06:39:32
+Jan 24 06:46:40 localhost postfix/smtpd[20901]: warning: hostname hosted-by.rootlayer.net does not resolve to address 185.222.57.195
+Jan 24 06:46:40 localhost postfix/smtpd[20901]: connect from unknown[185.222.57.195]
+Jan 24 06:46:41 localhost postfix/smtpd[20901]: disconnect from unknown[185.222.57.195] ehlo=1 auth=0/1 rset=1 quit=1 commands=3/4
+Jan 24 06:50:02 localhost postfix/anvil[20903]: statistics: max connection rate 1/60s for (smtp:185.222.57.195) at Jan 24 06:46:40
+Jan 24 06:50:02 localhost postfix/anvil[20903]: statistics: max connection count 1 for (smtp:185.222.57.195) at Jan 24 06:46:40
+Jan 24 06:50:02 localhost postfix/anvil[20903]: statistics: max cache size 1 at Jan 24 06:46:40
+Jan 24 06:53:28 localhost postfix/smtpd[21084]: connect from mail-io1-f71.google.com[209.85.166.71]
+Jan 24 06:53:29 localhost postfix/smtpd[21084]: NOQUEUE: reject: RCPT from mail-io1-f71.google.com[209.85.166.71]: 454 4.7.1 <unsubscribe@liber-t.xyz>: Relay access denied; from=<yuhailin_79@cslg.edu.cn> to=<unsubscribe@liber-t.xyz> proto=ESMTP helo=<mail-io1-f71.google.com>
+Jan 24 06:53:29 localhost postfix/smtpd[21084]: disconnect from mail-io1-f71.google.com[209.85.166.71] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 06:56:49 localhost postfix/anvil[21086]: statistics: max connection rate 1/60s for (smtp:209.85.166.71) at Jan 24 06:53:28
+Jan 24 06:56:49 localhost postfix/anvil[21086]: statistics: max connection count 1 for (smtp:209.85.166.71) at Jan 24 06:53:28
+Jan 24 06:56:49 localhost postfix/anvil[21086]: statistics: max cache size 1 at Jan 24 06:53:28
+Jan 24 07:04:43 localhost postfix/smtpd[21390]: connect from unknown[165.22.43.131]
+Jan 24 07:04:44 localhost postfix/trivial-rewrite[21393]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 07:04:45 localhost postfix/smtpd[21390]: 028EDEAEA: client=unknown[165.22.43.131]
+Jan 24 07:04:45 localhost postfix/cleanup[21394]: 028EDEAEA: message-id=<>
+Jan 24 07:04:46 localhost postfix/qmgr[32066]: 028EDEAEA: from=<tnt@delivery.com>, size=370271, nrcpt=1 (queue active)
+Jan 24 07:04:46 localhost postfix/trivial-rewrite[21393]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 07:04:46 localhost postfix/local[21395]: 028EDEAEA: to=<adam@lamc.la>, relay=local, delay=1.5, delays=1.5/0.01/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Jan 24 07:04:46 localhost postfix/qmgr[32066]: 028EDEAEA: removed
+Jan 24 07:04:46 localhost postfix/smtpd[21390]: disconnect from unknown[165.22.43.131] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Jan 24 07:08:06 localhost postfix/anvil[21392]: statistics: max connection rate 1/60s for (smtp:165.22.43.131) at Jan 24 07:04:43
+Jan 24 07:08:06 localhost postfix/anvil[21392]: statistics: max connection count 1 for (smtp:165.22.43.131) at Jan 24 07:04:43
+Jan 24 07:08:06 localhost postfix/anvil[21392]: statistics: max cache size 1 at Jan 24 07:04:43
+Jan 24 07:10:56 localhost postfix/smtpd[21631]: warning: hostname mia.hamamail.tk does not resolve to address 147.182.184.61
+Jan 24 07:10:56 localhost postfix/smtpd[21631]: connect from unknown[147.182.184.61]
+Jan 24 07:10:57 localhost postfix/trivial-rewrite[21634]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 07:10:57 localhost postfix/smtpd[21631]: 8B5C1EAEA: client=unknown[147.182.184.61]
+Jan 24 07:10:57 localhost postfix/cleanup[21635]: 8B5C1EAEA: message-id=<fad3a37d0445ce1329dbb9e0d5e28a68.squirrel@amia.tk>
+Jan 24 07:10:57 localhost postfix/qmgr[32066]: 8B5C1EAEA: from=<user2134@amia.tk>, size=3673, nrcpt=1 (queue active)
+Jan 24 07:10:57 localhost postfix/smtpd[21631]: disconnect from unknown[147.182.184.61] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Jan 24 07:10:57 localhost postfix/trivial-rewrite[21634]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 07:10:57 localhost postfix/local[21636]: 8B5C1EAEA: to=<adam@lamc.la>, relay=local, delay=0.21, delays=0.2/0.01/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Jan 24 07:10:57 localhost postfix/qmgr[32066]: 8B5C1EAEA: removed
+Jan 24 07:14:17 localhost postfix/anvil[21633]: statistics: max connection rate 1/60s for (smtp:147.182.184.61) at Jan 24 07:10:56
+Jan 24 07:14:17 localhost postfix/anvil[21633]: statistics: max connection count 1 for (smtp:147.182.184.61) at Jan 24 07:10:56
+Jan 24 07:14:17 localhost postfix/anvil[21633]: statistics: max cache size 1 at Jan 24 07:10:56
+Jan 24 07:17:28 localhost postfix/smtpd[21827]: connect from mail-yb1-f198.google.com[209.85.219.198]
+Jan 24 07:17:29 localhost postfix/trivial-rewrite[21830]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Jan 24 07:17:29 localhost postfix/smtpd[21827]: 5117CEAEA: client=mail-yb1-f198.google.com[209.85.219.198]
+Jan 24 07:17:29 localhost postfix/cleanup[21831]: 5117CEAEA: message-id=<1E.59.03877.6825EE16@twitter.com>
+Jan 24 07:17:29 localhost postfix/qmgr[32066]: 5117CEAEA: from=<n00162928f7-458e151cdeaf4128-dobrim_adan===fromthemachine.org@bounce.twitter.com>, size=107222, nrcpt=3 (queue active)
+Jan 24 07:17:29 localhost postfix/trivial-rewrite[21830]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Jan 24 07:17:29 localhost postfix/local[21833]: 5117CEAEA: to=<adam@localhost>, orig_to=<dobrim_adan@fromthemachine.org>, relay=local, delay=0.65, delays=0.63/0.02/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Jan 24 07:17:29 localhost postfix/local[21833]: 5117CEAEA: to=<ftm@fromthemachine.org>, orig_to=<dobrim_adan@fromthemachine.org>, relay=local, delay=0.68, delays=0.63/0.03/0/0.02, dsn=5.1.1, status=bounced (unknown user: "ftm")
+Jan 24 07:17:30 localhost postfix/smtpd[21827]: disconnect from mail-yb1-f198.google.com[209.85.219.198] ehlo=2 starttls=1 mail=1 rcpt=1 bdat=2 quit=1 commands=8
+Jan 24 07:17:30 localhost postfix/smtp[21832]: connect to smtp-relay.gmail.com[2404:6800:4008:c07::1c]:587: Network is unreachable
+Jan 24 07:17:32 localhost postfix/smtp[21832]: 5117CEAEA: to=<0xc514f094370cfc5ee45a1dd9b72bb9675efe266f@ethmail.cc>, orig_to=<dobrim_adan@fromthemachine.org>, relay=smtp-relay.gmail.com[64.233.189.28]:587, delay=3.3, delays=0.63/0.04/1.5/1.2, dsn=2.0.0, status=sent (250 2.0.0 OK  1643008652 h26sm2330725ooc.11 - gsmtp)
+Jan 24 07:17:32 localhost postfix/cleanup[21831]: A2FA8EAEE: message-id=<20220124071732.A2FA8EAEE@plemma.cc>
+Jan 24 07:17:32 localhost postfix/qmgr[32066]: A2FA8EAEE: from=<>, size=8192, nrcpt=1 (queue active)
+Jan 24 07:17:32 localhost postfix/bounce[21835]: 5117CEAEA: sender non-delivery notification: A2FA8EAEE
+Jan 24 07:17:32 localhost postfix/qmgr[32066]: 5117CEAEA: removed
+Jan 24 07:17:32 localhost postfix/smtp[21832]: connect to smtp-relay.gmail.com[2404:6800:4008:c07::1c]:587: Network is unreachable
+Jan 24 07:17:34 localhost postfix/smtp[21832]: A2FA8EAEE: to=<n00162928f7-458e151cdeaf4128-dobrim_adan===fromthemachine.org@bounce.twitter.com>, relay=smtp-relay.gmail.com[64.233.189.28]:587, delay=1.5, delays=0/0/1/0.51, dsn=2.0.0, status=sent (250 2.0.0 OK  1643008654 ml12sm3524175pjb.5 - gsmtp)
+Jan 24 07:17:34 localhost postfix/qmgr[32066]: A2FA8EAEE: removed
+Jan 24 07:20:50 localhost postfix/anvil[21829]: statistics: max connection rate 1/60s for (smtp:209.85.219.198) at Jan 24 07:17:28
+Jan 24 07:20:50 localhost postfix/anvil[21829]: statistics: max connection count 1 for (smtp:209.85.219.198) at Jan 24 07:17:28
+Jan 24 07:20:50 localhost postfix/anvil[21829]: statistics: max cache size 1 at Jan 24 07:17:28
+Jan 24 07:24:24 localhost postfix/smtpd[22034]: connect from unknown[60.178.225.233]
+Jan 24 07:24:25 localhost postfix/trivial-rewrite[22037]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 07:24:25 localhost postfix/smtpd[22034]: 0927AEAEA: client=unknown[60.178.225.233]
+Jan 24 07:24:25 localhost postfix/cleanup[22038]: 0927AEAEA: message-id=<1479978091.170306.1643008719793@mail.labelprint.ee>
+Jan 24 07:24:25 localhost postfix/qmgr[32066]: 0927AEAEA: from=<vmakjs@mobile88.com>, size=3930, nrcpt=1 (queue active)
+Jan 24 07:24:25 localhost postfix/trivial-rewrite[22037]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 07:24:25 localhost postfix/local[22041]: 0927AEAEA: to=<adam@lamc.la>, relay=local, delay=0.74, delays=0.73/0.01/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Jan 24 07:24:25 localhost postfix/qmgr[32066]: 0927AEAEA: removed
+Jan 24 07:24:25 localhost postfix/smtpd[22034]: disconnect from unknown[60.178.225.233] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+Jan 24 07:24:26 localhost postfix/smtpd[22034]: connect from mail-il1-f174.google.com[209.85.166.174]
+Jan 24 07:24:28 localhost postfix/trivial-rewrite[22037]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 07:24:28 localhost postfix/smtpd[22034]: 238B0EAEA: client=mail-il1-f174.google.com[209.85.166.174]
+Jan 24 07:24:28 localhost postfix/cleanup[22038]: 238B0EAEA: message-id=<CADz=6YNDVsJ2LFh8=GYec06sJuxpKZGjHC9CRxRCfxbutjWF7Q@mail.gmail.com>
+Jan 24 07:24:28 localhost postfix/qmgr[32066]: 238B0EAEA: from=<vannilagarde@gmail.com>, size=2933, nrcpt=1 (queue active)
+Jan 24 07:24:28 localhost postfix/trivial-rewrite[22037]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 07:24:28 localhost postfix/local[22041]: 238B0EAEA: to=<adam@lamc.la>, relay=local, delay=0.01, delays=0/0/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Jan 24 07:24:28 localhost postfix/qmgr[32066]: 238B0EAEA: removed
+Jan 24 07:24:28 localhost postfix/smtpd[22034]: disconnect from mail-il1-f174.google.com[209.85.166.174] ehlo=2 starttls=1 mail=1 rcpt=1 bdat=1 quit=1 commands=7
+Jan 24 07:25:25 localhost postfix/smtpd[22034]: connect from mail-yb1-f200.google.com[209.85.219.200]
+Jan 24 07:25:26 localhost postfix/smtpd[22034]: NOQUEUE: reject: RCPT from mail-yb1-f200.google.com[209.85.219.200]: 454 4.7.1 <prvs=012297aab=arwaxm+bncBCC7XN6N3YMBBIP4UWHQMGQEW6TWIBQ@liber-t.xyz>: Relay access denied; from=<> to=<prvs=012297aab=arwaxm+bncBCC7XN6N3YMBBIP4UWHQMGQEW6TWIBQ@liber-t.xyz> proto=ESMTP helo=<mail-yb1-f200.google.com>
+Jan 24 07:25:27 localhost postfix/smtpd[22034]: disconnect from mail-yb1-f200.google.com[209.85.219.200] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 07:26:38 localhost postfix/smtpd[22034]: connect from mail-yb1-f200.google.com[209.85.219.200]
+Jan 24 07:26:39 localhost postfix/smtpd[22034]: NOQUEUE: reject: RCPT from mail-yb1-f200.google.com[209.85.219.200]: 454 4.7.1 <prvs=014ed5826=arwaxm+bncBCC7XN6N3YMBBOUFWGHQMGQELKC6SUQ@liber-t.xyz>: Relay access denied; from=<> to=<prvs=014ed5826=arwaxm+bncBCC7XN6N3YMBBOUFWGHQMGQELKC6SUQ@liber-t.xyz> proto=ESMTP helo=<mail-yb1-f200.google.com>
+Jan 24 07:26:39 localhost postfix/smtpd[22034]: disconnect from mail-yb1-f200.google.com[209.85.219.200] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 07:27:01 localhost postfix/smtpd[22034]: connect from zimbra.webnets.com.br[200.201.226.20]
+Jan 24 07:27:02 localhost postfix/trivial-rewrite[22037]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 07:27:03 localhost postfix/smtpd[22034]: F3FBCEAEA: client=zimbra.webnets.com.br[200.201.226.20]
+Jan 24 07:27:03 localhost postfix/cleanup[22120]: F3FBCEAEA: message-id=<20220124035311.B8895B8AF7C6@zimbra.webnets.com.br>
+Jan 24 07:27:03 localhost postfix/qmgr[32066]: F3FBCEAEA: from=<>, size=5079, nrcpt=1 (queue active)
+Jan 24 07:27:03 localhost postfix/trivial-rewrite[22037]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 07:27:03 localhost postfix/smtpd[22034]: disconnect from zimbra.webnets.com.br[200.201.226.20] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Jan 24 07:27:03 localhost postfix/local[22121]: F3FBCEAEA: to=<adam@lamc.la>, relay=local, delay=0.63, delays=0.61/0.01/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Jan 24 07:27:03 localhost postfix/qmgr[32066]: F3FBCEAEA: removed
+Jan 24 07:30:23 localhost postfix/anvil[22036]: statistics: max connection rate 1/60s for (smtp:60.178.225.233) at Jan 24 07:24:24
+Jan 24 07:30:23 localhost postfix/anvil[22036]: statistics: max connection count 1 for (smtp:60.178.225.233) at Jan 24 07:24:24
+Jan 24 07:30:23 localhost postfix/anvil[22036]: statistics: max cache size 2 at Jan 24 07:24:26
+Jan 24 07:33:03 localhost postfix/smtpd[22288]: connect from mail-yb1-f200.google.com[209.85.219.200]
+Jan 24 07:33:04 localhost postfix/trivial-rewrite[22291]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Jan 24 07:33:04 localhost postfix/smtpd[22288]: 57F95EAEA: client=mail-yb1-f200.google.com[209.85.219.200]
+Jan 24 07:33:04 localhost postfix/cleanup[22292]: 57F95EAEA: message-id=<F0.0F.03935.D265EE16@twitter.com>
+Jan 24 07:33:04 localhost postfix/qmgr[32066]: 57F95EAEA: from=<n001635ab53-7008f709ffb54966-lookitsjesus===fromthemachine.org@bounce.twitter.com>, size=113906, nrcpt=3 (queue active)
+Jan 24 07:33:04 localhost postfix/trivial-rewrite[22291]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Jan 24 07:33:05 localhost postfix/local[22295]: 57F95EAEA: to=<adam@localhost>, orig_to=<lookitsjesus@fromthemachine.org>, relay=local, delay=0.65, delays=0.63/0.02/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Jan 24 07:33:05 localhost postfix/local[22295]: 57F95EAEA: to=<ftm@fromthemachine.org>, orig_to=<lookitsjesus@fromthemachine.org>, relay=local, delay=0.67, delays=0.63/0.02/0/0.02, dsn=5.1.1, status=bounced (unknown user: "ftm")
+Jan 24 07:33:05 localhost postfix/smtpd[22288]: disconnect from mail-yb1-f200.google.com[209.85.219.200] ehlo=2 starttls=1 mail=1 rcpt=1 bdat=2 quit=1 commands=8
+Jan 24 07:33:07 localhost postfix/smtp[22294]: 57F95EAEA: to=<0xc514f094370cfc5ee45a1dd9b72bb9675efe266f@ethmail.cc>, orig_to=<lookitsjesus@fromthemachine.org>, relay=smtp-relay.gmail.com[64.233.189.28]:587, delay=2.8, delays=0.63/0.02/1.2/0.97, dsn=2.0.0, status=sent (250 2.0.0 OK  1643009587 lr2sm4626146pjb.6 - gsmtp)
+Jan 24 07:33:07 localhost postfix/cleanup[22292]: 233C8EAEE: message-id=<20220124073307.233C8EAEE@plemma.cc>
+Jan 24 07:33:07 localhost postfix/qmgr[32066]: 233C8EAEE: from=<>, size=8198, nrcpt=1 (queue active)
+Jan 24 07:33:07 localhost postfix/bounce[22297]: 57F95EAEA: sender non-delivery notification: 233C8EAEE
+Jan 24 07:33:07 localhost postfix/qmgr[32066]: 57F95EAEA: removed
+Jan 24 07:33:08 localhost postfix/smtp[22294]: 233C8EAEE: to=<n001635ab53-7008f709ffb54966-lookitsjesus===fromthemachine.org@bounce.twitter.com>, relay=smtp-relay.gmail.com[64.233.189.28]:587, delay=1.8, delays=0/0/1.2/0.58, dsn=2.0.0, status=sent (250 2.0.0 OK  1643009588 x17sm2672919ooj.14 - gsmtp)
+Jan 24 07:33:08 localhost postfix/qmgr[32066]: 233C8EAEE: removed
+Jan 24 07:36:25 localhost postfix/anvil[22290]: statistics: max connection rate 1/60s for (smtp:209.85.219.200) at Jan 24 07:33:03
+Jan 24 07:36:25 localhost postfix/anvil[22290]: statistics: max connection count 1 for (smtp:209.85.219.200) at Jan 24 07:33:03
+Jan 24 07:36:25 localhost postfix/anvil[22290]: statistics: max cache size 1 at Jan 24 07:33:03
+Jan 24 07:38:51 localhost postfix/smtpd[22464]: connect from unknown[141.98.10.110]
+Jan 24 07:38:52 localhost postfix/trivial-rewrite[22469]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 07:38:52 localhost postfix/smtpd[22464]: 29289EAEB: client=unknown[141.98.10.110]
+Jan 24 07:38:52 localhost postfix/cleanup[22470]: 29289EAEB: message-id=<20220124083849.C34D99D9E6DF6947@incasaravenna.it>
+Jan 24 07:38:52 localhost postfix/qmgr[32066]: 29289EAEB: from=<info@incasaravenna.it>, size=2753, nrcpt=1 (queue active)
+Jan 24 07:38:52 localhost postfix/trivial-rewrite[22469]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 24 07:38:52 localhost postfix/local[22471]: 29289EAEB: to=<adam@lamc.la>, relay=local, delay=1.1, delays=1.1/0.01/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Jan 24 07:38:52 localhost postfix/qmgr[32066]: 29289EAEB: removed
+Jan 24 07:38:53 localhost postfix/smtpd[22464]: disconnect from unknown[141.98.10.110] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+Jan 24 07:39:42 localhost postfix/smtpd[22464]: connect from mail-pj1-f71.google.com[209.85.216.71]
+Jan 24 07:39:43 localhost postfix/smtpd[22464]: NOQUEUE: reject: RCPT from mail-pj1-f71.google.com[209.85.216.71]: 454 4.7.1 <a@carpent.us>: Relay access denied; from=<bounces+15899167-bd1b-a=carpent.us@em.vtm.varsitytutors.com> to=<a@carpent.us> proto=ESMTP helo=<mail-pj1-f71.google.com>
+Jan 24 07:39:43 localhost postfix/smtpd[22464]: disconnect from mail-pj1-f71.google.com[209.85.216.71] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
+Jan 24 07:43:03 localhost postfix/anvil[22468]: statistics: max connection rate 1/60s for (smtp:141.98.10.110) at Jan 24 07:38:51
+Jan 24 07:43:03 localhost postfix/anvil[22468]: statistics: max connection count 1 for (smtp:141.98.10.110) at Jan 24 07:38:51
+Jan 24 07:43:03 localhost postfix/anvil[22468]: statistics: max cache size 2 at Jan 24 07:39:42
+Jan 24 07:46:01 localhost postfix/smtpd[22737]: connect from mail-qk1-f200.google.com[209.85.222.200]
+Jan 24 07:46:02 localhost postfix/smtpd[22737]: NOQUEUE: reject: RCPT from mail-qk1-f200.google.com[209.85.222.200]: 454 4.7.1 <unsubscribe@carpent.us>: Relay access denied; from=<coppi@psfc.mit.edu> to=<unsubscribe@carpent.us> proto=ESMTP helo=<mail-qk1-f200.google.com>
+Jan 24 07:46:03 localhost postfix/smtpd[22737]: disconnect from mail-qk1-f200.google.com[209.85.222.200] ehlo=2 starttls=1 mail=1 rcpt=0/1 bdat=0/1 quit=1 commands=5/7
