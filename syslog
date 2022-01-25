@@ -25378,3 +25378,16 @@ Jan 25 19:57:23 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
 Jan 25 19:57:23 localhost systemd[27321]: mnt-amzn2.mount: Succeeded.
 Jan 25 19:57:45 localhost kernel: [13982529.715274] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=51.38.162.6 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=43 ID=37369 DF PROTO=TCP SPT=44521 DPT=443 WINDOW=64240 RES=0x00 SYN URGP=0 
 Jan 25 19:58:04 localhost kernel: [13982548.718136] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=61.81.165.26 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=52 ID=34640 DF PROTO=TCP SPT=55018 DPT=5555 WINDOW=65535 RES=0x00 SYN URGP=0 
+Jan 25 19:58:28 localhost kernel: [13982572.617280] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=89.248.165.248 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=238 ID=54321 PROTO=TCP SPT=43910 DPT=8443 WINDOW=65535 RES=0x00 SYN URGP=0 
+Jan 25 19:58:33 localhost postfix/anvil[27074]: statistics: max connection rate 1/60s for (smtp:130.158.74.193) at Jan 25 19:52:19
+Jan 25 19:58:33 localhost postfix/anvil[27074]: statistics: max connection count 1 for (smtp:130.158.74.193) at Jan 25 19:52:19
+Jan 25 19:58:33 localhost postfix/anvil[27074]: statistics: max cache size 2 at Jan 25 19:53:08
+Jan 25 19:58:33 localhost s3fs[27436]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
+Jan 25 19:58:35 localhost s3fs[27436]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
+Jan 25 19:58:35 localhost systemd[24255]: mnt-amzn2.mount: Succeeded.
+Jan 25 19:58:35 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
+Jan 25 19:58:35 localhost systemd[27321]: mnt-amzn2.mount: Succeeded.
+Jan 25 19:58:46 localhost kernel: [13982590.495889] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=89.248.165.65 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=239 ID=7108 PROTO=TCP SPT=40719 DPT=3397 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jan 25 19:59:04 localhost kernel: [13982608.641385] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=144.217.252.98 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=45 ID=50902 DF PROTO=TCP SPT=54777 DPT=4001 WINDOW=64240 RES=0x00 SYN URGP=0 
+Jan 25 19:59:21 localhost kernel: [13982625.677420] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=144.217.252.98 DST=158.247.223.84 LEN=1280 TOS=0x00 PREC=0x00 TTL=44 ID=57738 DF PROTO=UDP SPT=4001 DPT=4001 LEN=1260 
+Jan 25 19:59:42 localhost kernel: [13982646.355316] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=209.141.58.15 DST=158.247.223.84 LEN=36 TOS=0x00 PREC=0x00 TTL=245 ID=54321 PROTO=UDP SPT=40431 DPT=123 LEN=16 
