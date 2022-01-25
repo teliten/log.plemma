@@ -497,3 +497,1219 @@ Jan 25 13:09:03 localhost systemd[1]: Started Clean php session files.
 Jan 25 13:28:53 localhost systemd[1]: Started Session 32085 of user adam.
 Jan 25 13:29:05 localhost systemd[24255]: mnt-amzn2.mount: Succeeded.
 Jan 25 13:29:05 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
+Jan 25 13:39:01 localhost systemd[1]: Starting Clean php session files...
+Jan 25 13:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 25 13:39:01 localhost systemd[1]: Started Clean php session files.
+Jan 25 14:09:01 localhost systemd[1]: Starting Clean php session files...
+Jan 25 14:09:02 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 25 14:09:02 localhost systemd[1]: Started Clean php session files.
+Jan 25 14:19:37 localhost systemd[1]: session-32029.scope: Succeeded.
+Jan 25 14:28:58 localhost systemd[1]: mariadb.service: Main process exited, code=killed, status=9/KILL
+Jan 25 14:28:58 localhost systemd[1]: mariadb.service: Failed with result 'signal'.
+Jan 25 14:29:04 localhost systemd[1]: mariadb.service: Service RestartSec=5s expired, scheduling restart.
+Jan 25 14:29:04 localhost systemd[1]: mariadb.service: Scheduled restart job, restart counter is at 1.
+Jan 25 14:29:04 localhost systemd[1]: Stopped MariaDB 10.3.31 database server.
+Jan 25 14:29:04 localhost systemd[1]: Starting MariaDB 10.3.31 database server...
+Jan 25 14:29:04 localhost mysqld[14602]: 2022-01-25 14:29:04 0 [Note] /usr/sbin/mysqld (mysqld 10.3.31-MariaDB-0+deb10u1) starting as process 14602 ...
+Jan 25 14:29:05 localhost systemd[1]: mariadb.service: Main process exited, code=exited, status=1/FAILURE
+Jan 25 14:29:05 localhost systemd[1]: mariadb.service: Failed with result 'exit-code'.
+Jan 25 14:29:05 localhost systemd[1]: Failed to start MariaDB 10.3.31 database server.
+Jan 25 14:40:08 localhost systemd[1]: Starting Clean php session files...
+Jan 25 14:40:47 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 25 14:40:47 localhost systemd[1]: Started Clean php session files.
+Jan 25 14:51:38 localhost dhclient[27896]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
+Jan 25 14:51:38 localhost dhclient[27896]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Jan 25 14:51:38 localhost dhclient[27896]: bound to 158.247.223.84 -- renewal in 29176 seconds.
+Jan 25 15:09:00 localhost systemd[1]: Starting Clean php session files...
+Jan 25 15:09:00 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 25 15:09:00 localhost systemd[1]: Started Clean php session files.
+Jan 25 15:39:01 localhost systemd[1]: Starting Clean php session files...
+Jan 25 15:44:06 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 25 15:44:06 localhost systemd[1]: Started Clean php session files.
+Jan 25 16:09:13 localhost systemd[1]: Starting Clean php session files...
+Jan 25 16:11:41 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 25 16:11:41 localhost systemd[1]: Started Clean php session files.
+Jan 25 16:39:01 localhost systemd[1]: Starting Clean php session files...
+Jan 25 16:39:02 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 25 16:39:02 localhost systemd[1]: Started Clean php session files.
+Jan 25 17:09:00 localhost systemd[1]: Starting Clean php session files...
+Jan 25 17:09:00 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 25 17:09:00 localhost systemd[1]: Started Clean php session files.
+Jan 25 17:38:24 localhost dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
+Jan 25 17:38:24 localhost dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Jan 25 17:38:24 localhost dhclient[631]: bound to 158.247.223.84 -- renewal in 31298 seconds.
+Jan 25 17:39:01 localhost systemd[1]: Starting Clean php session files...
+Jan 25 17:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 25 17:39:01 localhost systemd[1]: Started Clean php session files.
+Jan 25 17:49:15 localhost systemd[1]: /etc/systemd/system/ipfs.service:1: Assignment outside of section. Ignoring.
+Jan 25 17:49:16 localhost systemd[1]: /etc/systemd/system/ipfs.service:2: Assignment outside of section. Ignoring.
+Jan 25 17:49:18 localhost systemd[1]: /etc/systemd/system/ipfs.service:3: Assignment outside of section. Ignoring.
+Jan 25 17:49:18 localhost systemd[1]: Started ipfs.service.
+Jan 25 17:49:22 localhost ipfs[20593]: fatal error: runtime: out of memory
+Jan 25 17:49:22 localhost ipfs[20593]: runtime stack:
+Jan 25 17:49:22 localhost ipfs[20593]: runtime.throw(0x1f7baf4, 0x16)
+Jan 25 17:49:22 localhost ipfs[20593]: #011runtime/panic.go:1117 +0x72 fp=0x7ffe156a8970 sp=0x7ffe156a8940 pc=0xaf7c52
+Jan 25 17:49:22 localhost ipfs[20593]: runtime.sysMap(0xc000000000, 0x4000000, 0x2f0b810)
+Jan 25 17:49:22 localhost ipfs[20593]: #011runtime/mem_linux.go:169 +0xc6 fp=0x7ffe156a89b0 sp=0x7ffe156a8970 pc=0xad91e6
+Jan 25 17:49:22 localhost ipfs[20593]: runtime.(*mheap).sysAlloc(0x2ef15e0, 0x400000, 0x0, 0x0)
+Jan 25 17:49:22 localhost ipfs[20593]: #011runtime/malloc.go:729 +0x1e5 fp=0x7ffe156a8a58 sp=0x7ffe156a89b0 pc=0xacc4a5
+Jan 25 17:49:22 localhost ipfs[20593]: runtime.(*mheap).grow(0x2ef15e0, 0x1, 0x0)
+Jan 25 17:49:22 localhost ipfs[20593]: #011runtime/mheap.go:1346 +0x85 fp=0x7ffe156a8ac0 sp=0x7ffe156a8a58 pc=0xae8385
+Jan 25 17:49:22 localhost ipfs[20593]: runtime.(*mheap).allocSpan(0x2ef15e0, 0x1, 0x2c00, 0x0)
+Jan 25 17:49:23 localhost ipfs[20593]: #011runtime/mheap.go:1173 +0x609 fp=0x7ffe156a8b40 sp=0x7ffe156a8ac0 pc=0xae8189
+Jan 25 17:49:23 localhost ipfs[20593]: runtime.(*mheap).alloc.func1()
+Jan 25 17:49:23 localhost ipfs[20593]: #011runtime/mheap.go:910 +0x59 fp=0x7ffe156a8b90 sp=0x7ffe156a8b40 pc=0xb28259
+Jan 25 17:49:23 localhost ipfs[20593]: runtime.(*mheap).alloc(0x2ef15e0, 0x1, 0x220000012c, 0xffffffff)
+Jan 25 17:49:23 localhost ipfs[20593]: #011runtime/mheap.go:904 +0x85 fp=0x7ffe156a8be0 sp=0x7ffe156a8b90 pc=0xae7725
+Jan 25 17:49:23 localhost ipfs[20593]: runtime.(*mcentral).grow(0x2f03918, 0x0)
+Jan 25 17:49:23 localhost ipfs[20593]: #011runtime/mcentral.go:232 +0x79 fp=0x7ffe156a8c28 sp=0x7ffe156a8be0 pc=0xad87d9
+Jan 25 17:49:23 localhost ipfs[20593]: runtime.(*mcentral).cacheSpan(0x2f03918, 0x7ffe156a8cd8)
+Jan 25 17:49:23 localhost ipfs[20593]: #011runtime/mcentral.go:158 +0x2ff fp=0x7ffe156a8c80 sp=0x7ffe156a8c28 pc=0xad85bf
+Jan 25 17:49:23 localhost ipfs[20593]: runtime.(*mcache).refill(0x7f35c4b20108, 0x2c)
+Jan 25 17:49:23 localhost ipfs[20593]: #011runtime/mcache.go:162 +0xaa fp=0x7ffe156a8cc8 sp=0x7ffe156a8c80 pc=0xad7aca
+Jan 25 17:49:23 localhost ipfs[20593]: runtime.(*mcache).nextFree(0x7f35c4b20108, 0x7ffe156a8d2c, 0xb26e25, 0x7ffe156a8d68, 0xacdfbe)
+Jan 25 17:49:23 localhost ipfs[20593]: #011runtime/malloc.go:882 +0x8d fp=0x7ffe156a8d00 sp=0x7ffe156a8cc8 pc=0xaccd0d
+Jan 25 17:49:23 localhost ipfs[20593]: runtime.mallocgc(0x178, 0x1e72f40, 0x7ffe156a8d01, 0x7ffe156a8de8)
+Jan 25 17:49:23 localhost ipfs[20593]: #011runtime/malloc.go:1069 +0x850 fp=0x7ffe156a8d88 sp=0x7ffe156a8d00 pc=0xacd710
+Jan 25 17:49:23 localhost ipfs[20593]: runtime.newobject(0x1e72f40, 0xb26de0)
+Jan 25 17:49:23 localhost ipfs[20593]: #011runtime/malloc.go:1177 +0x38 fp=0x7ffe156a8db8 sp=0x7ffe156a8d88 pc=0xacd978
+Jan 25 17:49:23 localhost ipfs[20593]: runtime.malg(0x8000, 0x0)
+Jan 25 17:49:23 localhost ipfs[20593]: #011runtime/proc.go:3988 +0x31 fp=0x7ffe156a8df8 sp=0x7ffe156a8db8 pc=0xb03091
+Jan 25 17:49:23 localhost ipfs[20593]: runtime.mpreinit(0x2ed8d40)
+Jan 25 17:49:23 localhost ipfs[20593]: #011runtime/os_linux.go:355 +0x29 fp=0x7ffe156a8e18 sp=0x7ffe156a8df8 pc=0xaf43a9
+Jan 25 17:49:23 localhost ipfs[20593]: runtime.mcommoninit(0x2ed8d40, 0xffffffffffffffff)
+Jan 25 17:49:23 localhost ipfs[20593]: #011runtime/proc.go:744 +0xf7 fp=0x7ffe156a8e60 sp=0x7ffe156a8e18 pc=0xafbd57
+Jan 25 17:49:23 localhost ipfs[20593]: runtime.schedinit()
+Jan 25 17:49:23 localhost ipfs[20593]: #011runtime/proc.go:637 +0xaf fp=0x7ffe156a8ec0 sp=0x7ffe156a8e60 pc=0xafb8cf
+Jan 25 17:49:23 localhost ipfs[20593]: runtime.rt0_go(0x7ffe156a8fc8, 0x2, 0x7ffe156a8fc8, 0x0, 0x7f35c4b8709b, 0x0, 0x7ffe156a8fc8, 0x200200000, 0xb31180, 0x0, ...)
+Jan 25 17:49:23 localhost ipfs[20593]: #011runtime/asm_amd64.s:220 +0x125 fp=0x7ffe156a8ec8 sp=0x7ffe156a8ec0 pc=0xb312c5
+Jan 25 17:49:23 localhost systemd[1]: ipfs.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Jan 25 17:49:23 localhost systemd[1]: ipfs.service: Failed with result 'exit-code'.
+Jan 25 17:49:24 localhost systemd[1]: ipfs.service: Service RestartSec=100ms expired, scheduling restart.
+Jan 25 17:49:24 localhost systemd[1]: ipfs.service: Scheduled restart job, restart counter is at 1.
+Jan 25 17:49:25 localhost systemd[1]: Stopped ipfs.service.
+Jan 25 17:49:25 localhost ipfs[20596]: fatal error: runtime: out of memory
+Jan 25 17:49:25 localhost ipfs[20596]: runtime stack:
+Jan 25 17:49:25 localhost ipfs[20596]: runtime.throw(0x1f7baf4, 0x16)
+Jan 25 17:49:26 localhost ipfs[20596]: #011runtime/panic.go:1117 +0x72 fp=0x7ffc988cb420 sp=0x7ffc988cb3f0 pc=0xaf7c52
+Jan 25 17:49:26 localhost ipfs[20596]: runtime.sysMap(0xc000000000, 0x4000000, 0x2f0b810)
+Jan 25 17:49:26 localhost ipfs[20596]: #011runtime/mem_linux.go:169 +0xc6 fp=0x7ffc988cb460 sp=0x7ffc988cb420 pc=0xad91e6
+Jan 25 17:49:26 localhost ipfs[20596]: runtime.(*mheap).sysAlloc(0x2ef15e0, 0x400000, 0x0, 0x0)
+Jan 25 17:49:26 localhost ipfs[20596]: #011runtime/malloc.go:729 +0x1e5 fp=0x7ffc988cb508 sp=0x7ffc988cb460 pc=0xacc4a5
+Jan 25 17:49:26 localhost ipfs[20596]: runtime.(*mheap).grow(0x2ef15e0, 0x1, 0x0)
+Jan 25 17:49:27 localhost ipfs[20596]: #011runtime/mheap.go:1346 +0x85 fp=0x7ffc988cb570 sp=0x7ffc988cb508 pc=0xae8385
+Jan 25 17:49:27 localhost ipfs[20596]: runtime.(*mheap).allocSpan(0x2ef15e0, 0x1, 0x2c00, 0x0)
+Jan 25 17:49:27 localhost ipfs[20596]: #011runtime/mheap.go:1173 +0x609 fp=0x7ffc988cb5f0 sp=0x7ffc988cb570 pc=0xae8189
+Jan 25 17:49:28 localhost ipfs[20596]: runtime.(*mheap).alloc.func1()
+Jan 25 17:49:29 localhost ipfs[20596]: #011runtime/mheap.go:910 +0x59 fp=0x7ffc988cb640 sp=0x7ffc988cb5f0 pc=0xb28259
+Jan 25 17:49:30 localhost ipfs[20596]: runtime.(*mheap).alloc(0x2ef15e0, 0x1, 0x220000012c, 0xffffffff)
+Jan 25 17:49:30 localhost ipfs[20596]: #011runtime/mheap.go:904 +0x85 fp=0x7ffc988cb690 sp=0x7ffc988cb640 pc=0xae7725
+Jan 25 17:49:30 localhost ipfs[20596]: runtime.(*mcentral).grow(0x2f03918, 0x0)
+Jan 25 17:49:30 localhost ipfs[20596]: #011runtime/mcentral.go:232 +0x79 fp=0x7ffc988cb6d8 sp=0x7ffc988cb690 pc=0xad87d9
+Jan 25 17:49:31 localhost systemd[1]: Started ipfs.service.
+Jan 25 17:49:31 localhost ipfs[20596]: runtime.(*mcentral).cacheSpan(0x2f03918, 0x7ffc988cb788)
+Jan 25 17:49:31 localhost ipfs[20596]: #011runtime/mcentral.go:158 +0x2ff fp=0x7ffc988cb730 sp=0x7ffc988cb6d8 pc=0xad85bf
+Jan 25 17:49:31 localhost ipfs[20596]: runtime.(*mcache).refill(0x7f6ba7462108, 0x2c)
+Jan 25 17:49:31 localhost ipfs[20596]: #011runtime/mcache.go:162 +0xaa fp=0x7ffc988cb778 sp=0x7ffc988cb730 pc=0xad7aca
+Jan 25 17:49:31 localhost ipfs[20596]: runtime.(*mcache).nextFree(0x7f6ba7462108, 0x7ffc988cb72c, 0xb26e25, 0x7ffc988cb818, 0xacdfbe)
+Jan 25 17:49:31 localhost ipfs[20596]: #011runtime/malloc.go:882 +0x8d fp=0x7ffc988cb7b0 sp=0x7ffc988cb778 pc=0xaccd0d
+Jan 25 17:49:31 localhost ipfs[20596]: runtime.mallocgc(0x178, 0x1e72f40, 0x7ffc988cb801, 0x7ffc988cb898)
+Jan 25 17:49:31 localhost ipfs[20596]: #011runtime/malloc.go:1069 +0x850 fp=0x7ffc988cb838 sp=0x7ffc988cb7b0 pc=0xacd710
+Jan 25 17:49:31 localhost ipfs[20596]: runtime.newobject(0x1e72f40, 0xb26de0)
+Jan 25 17:49:31 localhost ipfs[20596]: #011runtime/malloc.go:1177 +0x38 fp=0x7ffc988cb868 sp=0x7ffc988cb838 pc=0xacd978
+Jan 25 17:49:31 localhost ipfs[20596]: runtime.malg(0x8000, 0x0)
+Jan 25 17:49:31 localhost ipfs[20596]: #011runtime/proc.go:3988 +0x31 fp=0x7ffc988cb8a8 sp=0x7ffc988cb868 pc=0xb03091
+Jan 25 17:49:31 localhost ipfs[20596]: runtime.mpreinit(0x2ed8d40)
+Jan 25 17:49:31 localhost ipfs[20596]: #011runtime/os_linux.go:355 +0x29 fp=0x7ffc988cb8c8 sp=0x7ffc988cb8a8 pc=0xaf43a9
+Jan 25 17:49:31 localhost ipfs[20596]: runtime.mcommoninit(0x2ed8d40, 0xffffffffffffffff)
+Jan 25 17:49:31 localhost ipfs[20596]: #011runtime/proc.go:744 +0xf7 fp=0x7ffc988cb910 sp=0x7ffc988cb8c8 pc=0xafbd57
+Jan 25 17:49:31 localhost ipfs[20596]: runtime.schedinit()
+Jan 25 17:49:31 localhost ipfs[20596]: #011runtime/proc.go:637 +0xaf fp=0x7ffc988cb970 sp=0x7ffc988cb910 pc=0xafb8cf
+Jan 25 17:49:31 localhost ipfs[20596]: runtime.rt0_go(0x7ffc988cba78, 0x2, 0x7ffc988cba78, 0x0, 0x7f6ba74c909b, 0x0, 0x7ffc988cba78, 0x200200000, 0xb31180, 0x0, ...)
+Jan 25 17:49:31 localhost ipfs[20596]: #011runtime/asm_amd64.s:220 +0x125 fp=0x7ffc988cb978 sp=0x7ffc988cb970 pc=0xb312c5
+Jan 25 17:49:32 localhost systemd[1]: ipfs.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Jan 25 17:49:33 localhost ipfs[20598]: fatal error: runtime: out of memory
+Jan 25 17:49:34 localhost ipfs[20598]: runtime stack:
+Jan 25 17:49:36 localhost ipfs[20598]: runtime.throw(0x1f7baf4, 0x16)
+Jan 25 17:49:36 localhost ipfs[20598]: #011runtime/panic.go:1117 +0x72 fp=0x7ffd918e1220 sp=0x7ffd918e11f0 pc=0xaf7c52
+Jan 25 17:49:36 localhost ipfs[20598]: runtime.sysMap(0xc000000000, 0x4000000, 0x2f0b810)
+Jan 25 17:49:37 localhost ipfs[20598]: #011runtime/mem_linux.go:169 +0xc6 fp=0x7ffd918e1260 sp=0x7ffd918e1220 pc=0xad91e6
+Jan 25 17:49:37 localhost ipfs[20598]: runtime.(*mheap).sysAlloc(0x2ef15e0, 0x400000, 0x0, 0x0)
+Jan 25 17:49:38 localhost ipfs[20598]: #011runtime/malloc.go:729 +0x1e5 fp=0x7ffd918e1308 sp=0x7ffd918e1260 pc=0xacc4a5
+Jan 25 17:49:38 localhost ipfs[20598]: runtime.(*mheap).grow(0x2ef15e0, 0x1, 0x0)
+Jan 25 17:49:39 localhost ipfs[20598]: #011runtime/mheap.go:1346 +0x85 fp=0x7ffd918e1370 sp=0x7ffd918e1308 pc=0xae8385
+Jan 25 17:49:39 localhost ipfs[20598]: runtime.(*mheap).allocSpan(0x2ef15e0, 0x1, 0x2c00, 0x0)
+Jan 25 17:49:40 localhost ipfs[20598]: #011runtime/mheap.go:1173 +0x609 fp=0x7ffd918e13f0 sp=0x7ffd918e1370 pc=0xae8189
+Jan 25 17:49:40 localhost ipfs[20598]: runtime.(*mheap).alloc.func1()
+Jan 25 17:49:40 localhost ipfs[20598]: #011runtime/mheap.go:910 +0x59 fp=0x7ffd918e1440 sp=0x7ffd918e13f0 pc=0xb28259
+Jan 25 17:49:40 localhost ipfs[20598]: runtime.(*mheap).alloc(0x2ef15e0, 0x1, 0x220000012c, 0xffffffff)
+Jan 25 17:49:41 localhost ipfs[20598]: #011runtime/mheap.go:904 +0x85 fp=0x7ffd918e1490 sp=0x7ffd918e1440 pc=0xae7725
+Jan 25 17:49:41 localhost ipfs[20598]: runtime.(*mcentral).grow(0x2f03918, 0x0)
+Jan 25 17:49:42 localhost ipfs[20598]: #011runtime/mcentral.go:232 +0x79 fp=0x7ffd918e14d8 sp=0x7ffd918e1490 pc=0xad87d9
+Jan 25 17:49:42 localhost ipfs[20598]: runtime.(*mcentral).cacheSpan(0x2f03918, 0x7ffd918e1588)
+Jan 25 17:49:43 localhost ipfs[20598]: #011runtime/mcentral.go:158 +0x2ff fp=0x7ffd918e1530 sp=0x7ffd918e14d8 pc=0xad85bf
+Jan 25 17:49:43 localhost ipfs[20598]: runtime.(*mcache).refill(0x7f0eca264108, 0x2c)
+Jan 25 17:49:43 localhost ipfs[20598]: #011runtime/mcache.go:162 +0xaa fp=0x7ffd918e1578 sp=0x7ffd918e1530 pc=0xad7aca
+Jan 25 17:49:43 localhost ipfs[20598]: runtime.(*mcache).nextFree(0x7f0eca264108, 0x7ffd918e152c, 0xb26e25, 0x7ffd918e1618, 0xacdfbe)
+Jan 25 17:49:43 localhost ipfs[20598]: #011runtime/malloc.go:882 +0x8d fp=0x7ffd918e15b0 sp=0x7ffd918e1578 pc=0xaccd0d
+Jan 25 17:49:43 localhost ipfs[20598]: runtime.mallocgc(0x178, 0x1e72f40, 0x7ffd918e1601, 0x7ffd918e1698)
+Jan 25 17:49:43 localhost ipfs[20598]: #011runtime/malloc.go:1069 +0x850 fp=0x7ffd918e1638 sp=0x7ffd918e15b0 pc=0xacd710
+Jan 25 17:49:43 localhost ipfs[20598]: runtime.newobject(0x1e72f40, 0xb26de0)
+Jan 25 17:49:43 localhost ipfs[20598]: #011runtime/malloc.go:1177 +0x38 fp=0x7ffd918e1668 sp=0x7ffd918e1638 pc=0xacd978
+Jan 25 17:49:43 localhost ipfs[20598]: runtime.malg(0x8000, 0x0)
+Jan 25 17:49:43 localhost ipfs[20598]: #011runtime/proc.go:3988 +0x31 fp=0x7ffd918e16a8 sp=0x7ffd918e1668 pc=0xb03091
+Jan 25 17:49:43 localhost ipfs[20598]: runtime.mpreinit(0x2ed8d40)
+Jan 25 17:49:43 localhost ipfs[20598]: #011runtime/os_linux.go:355 +0x29 fp=0x7ffd918e16c8 sp=0x7ffd918e16a8 pc=0xaf43a9
+Jan 25 17:49:43 localhost ipfs[20598]: runtime.mcommoninit(0x2ed8d40, 0xffffffffffffffff)
+Jan 25 17:49:43 localhost systemd[1]: ipfs.service: Failed with result 'exit-code'.
+Jan 25 17:49:44 localhost ipfs[20598]: #011runtime/proc.go:744 +0xf7 fp=0x7ffd918e1710 sp=0x7ffd918e16c8 pc=0xafbd57
+Jan 25 17:49:44 localhost ipfs[20598]: runtime.schedinit()
+Jan 25 17:49:44 localhost ipfs[20598]: #011runtime/proc.go:637 +0xaf fp=0x7ffd918e1770 sp=0x7ffd918e1710 pc=0xafb8cf
+Jan 25 17:49:44 localhost ipfs[20598]: runtime.rt0_go(0x7ffd918e1878, 0x2, 0x7ffd918e1878, 0x0, 0x7f0eca2cb09b, 0x0, 0x7ffd918e1878, 0x200200000, 0xb31180, 0x0, ...)
+Jan 25 17:49:44 localhost ipfs[20598]: #011runtime/asm_amd64.s:220 +0x125 fp=0x7ffd918e1778 sp=0x7ffd918e1770 pc=0xb312c5
+Jan 25 17:49:44 localhost ipfs[20599]: fatal error: runtime: out of memory
+Jan 25 17:49:44 localhost ipfs[20599]: runtime stack:
+Jan 25 17:49:45 localhost ipfs[20599]: runtime.throw(0x1f7baf4, 0x16)
+Jan 25 17:49:46 localhost ipfs[20599]: #011runtime/panic.go:1117 +0x72 fp=0x7ffefedf00e0 sp=0x7ffefedf00b0 pc=0xaf7c52
+Jan 25 17:49:46 localhost ipfs[20599]: runtime.sysMap(0xc000000000, 0x4000000, 0x2f0b810)
+Jan 25 17:49:47 localhost ipfs[20599]: #011runtime/mem_linux.go:169 +0xc6 fp=0x7ffefedf0120 sp=0x7ffefedf00e0 pc=0xad91e6
+Jan 25 17:49:48 localhost ipfs[20599]: runtime.(*mheap).sysAlloc(0x2ef15e0, 0x400000, 0x0, 0x0)
+Jan 25 17:49:49 localhost ipfs[20599]: #011runtime/malloc.go:729 +0x1e5 fp=0x7ffefedf01c8 sp=0x7ffefedf0120 pc=0xacc4a5
+Jan 25 17:49:49 localhost ipfs[20599]: runtime.(*mheap).grow(0x2ef15e0, 0x1, 0x0)
+Jan 25 17:49:49 localhost ipfs[20599]: #011runtime/mheap.go:1346 +0x85 fp=0x7ffefedf0230 sp=0x7ffefedf01c8 pc=0xae8385
+Jan 25 17:49:49 localhost ipfs[20599]: runtime.(*mheap).allocSpan(0x2ef15e0, 0x1, 0x2c00, 0x0)
+Jan 25 17:49:49 localhost ipfs[20599]: #011runtime/mheap.go:1173 +0x609 fp=0x7ffefedf02b0 sp=0x7ffefedf0230 pc=0xae8189
+Jan 25 17:49:49 localhost ipfs[20599]: runtime.(*mheap).alloc.func1()
+Jan 25 17:49:49 localhost ipfs[20599]: #011runtime/mheap.go:910 +0x59 fp=0x7ffefedf0300 sp=0x7ffefedf02b0 pc=0xb28259
+Jan 25 17:49:49 localhost ipfs[20599]: runtime.(*mheap).alloc(0x2ef15e0, 0x1, 0x220000012c, 0xffffffff)
+Jan 25 17:49:49 localhost ipfs[20599]: #011runtime/mheap.go:904 +0x85 fp=0x7ffefedf0350 sp=0x7ffefedf0300 pc=0xae7725
+Jan 25 17:49:49 localhost ipfs[20599]: runtime.(*mcentral).grow(0x2f03918, 0x0)
+Jan 25 17:49:49 localhost ipfs[20599]: #011runtime/mcentral.go:232 +0x79 fp=0x7ffefedf0398 sp=0x7ffefedf0350 pc=0xad87d9
+Jan 25 17:49:49 localhost ipfs[20599]: runtime.(*mcentral).cacheSpan(0x2f03918, 0x7ffefedf0448)
+Jan 25 17:49:49 localhost ipfs[20599]: #011runtime/mcentral.go:158 +0x2ff fp=0x7ffefedf03f0 sp=0x7ffefedf0398 pc=0xad85bf
+Jan 25 17:49:49 localhost ipfs[20599]: runtime.(*mcache).refill(0x7f16e3b92108, 0x2c)
+Jan 25 17:49:49 localhost ipfs[20599]: #011runtime/mcache.go:162 +0xaa fp=0x7ffefedf0438 sp=0x7ffefedf03f0 pc=0xad7aca
+Jan 25 17:49:49 localhost ipfs[20599]: runtime.(*mcache).nextFree(0x7f16e3b92108, 0x7ffefedf042c, 0xb26e25, 0x7ffefedf04d8, 0xacdfbe)
+Jan 25 17:49:49 localhost ipfs[20599]: #011runtime/malloc.go:882 +0x8d fp=0x7ffefedf0470 sp=0x7ffefedf0438 pc=0xaccd0d
+Jan 25 17:49:49 localhost ipfs[20599]: runtime.mallocgc(0x178, 0x1e72f40, 0x7ffefedf0501, 0x7ffefedf0558)
+Jan 25 17:49:49 localhost ipfs[20599]: #011runtime/malloc.go:1069 +0x850 fp=0x7ffefedf04f8 sp=0x7ffefedf0470 pc=0xacd710
+Jan 25 17:49:49 localhost ipfs[20599]: runtime.newobject(0x1e72f40, 0xb26de0)
+Jan 25 17:49:49 localhost ipfs[20599]: #011runtime/malloc.go:1177 +0x38 fp=0x7ffefedf0528 sp=0x7ffefedf04f8 pc=0xacd978
+Jan 25 17:49:49 localhost ipfs[20599]: runtime.malg(0x8000, 0x0)
+Jan 25 17:49:49 localhost ipfs[20599]: #011runtime/proc.go:3988 +0x31 fp=0x7ffefedf0568 sp=0x7ffefedf0528 pc=0xb03091
+Jan 25 17:49:49 localhost ipfs[20599]: runtime.mpreinit(0x2ed8d40)
+Jan 25 17:49:49 localhost ipfs[20599]: #011runtime/os_linux.go:355 +0x29 fp=0x7ffefedf0588 sp=0x7ffefedf0568 pc=0xaf43a9
+Jan 25 17:49:49 localhost ipfs[20599]: runtime.mcommoninit(0x2ed8d40, 0xffffffffffffffff)
+Jan 25 17:49:50 localhost systemd[1]: ipfs.service: Service RestartSec=100ms expired, scheduling restart.
+Jan 25 17:49:50 localhost ipfs[20603]: fatal error: runtime: out of memory
+Jan 25 17:49:50 localhost ipfs[20603]: runtime stack:
+Jan 25 17:49:50 localhost ipfs[20603]: runtime.throw(0x1f7baf4, 0x16)
+Jan 25 17:49:50 localhost ipfs[20603]: #011runtime/panic.go:1117 +0x72 fp=0x7ffe0ff64f20 sp=0x7ffe0ff64ef0 pc=0xaf7c52
+Jan 25 17:49:50 localhost ipfs[20603]: runtime.sysMap(0xc000000000, 0x4000000, 0x2f0b810)
+Jan 25 17:49:50 localhost ipfs[20603]: #011runtime/mem_linux.go:169 +0xc6 fp=0x7ffe0ff64f60 sp=0x7ffe0ff64f20 pc=0xad91e6
+Jan 25 17:49:50 localhost ipfs[20603]: runtime.(*mheap).sysAlloc(0x2ef15e0, 0x400000, 0x0, 0x0)
+Jan 25 17:49:50 localhost ipfs[20603]: #011runtime/malloc.go:729 +0x1e5 fp=0x7ffe0ff65008 sp=0x7ffe0ff64f60 pc=0xacc4a5
+Jan 25 17:49:50 localhost ipfs[20603]: runtime.(*mheap).grow(0x2ef15e0, 0x1, 0x0)
+Jan 25 17:49:50 localhost ipfs[20603]: #011runtime/mheap.go:1346 +0x85 fp=0x7ffe0ff65070 sp=0x7ffe0ff65008 pc=0xae8385
+Jan 25 17:49:50 localhost ipfs[20603]: runtime.(*mheap).allocSpan(0x2ef15e0, 0x1, 0x2c00, 0x0)
+Jan 25 17:49:50 localhost ipfs[20603]: #011runtime/mheap.go:1173 +0x609 fp=0x7ffe0ff650f0 sp=0x7ffe0ff65070 pc=0xae8189
+Jan 25 17:49:50 localhost ipfs[20603]: runtime.(*mheap).alloc.func1()
+Jan 25 17:49:50 localhost ipfs[20603]: #011runtime/mheap.go:910 +0x59 fp=0x7ffe0ff65140 sp=0x7ffe0ff650f0 pc=0xb28259
+Jan 25 17:49:50 localhost ipfs[20603]: runtime.(*mheap).alloc(0x2ef15e0, 0x1, 0x220000012c, 0xffffffff)
+Jan 25 17:49:50 localhost ipfs[20603]: #011runtime/mheap.go:904 +0x85 fp=0x7ffe0ff65190 sp=0x7ffe0ff65140 pc=0xae7725
+Jan 25 17:49:50 localhost ipfs[20603]: runtime.(*mcentral).grow(0x2f03918, 0x0)
+Jan 25 17:49:50 localhost ipfs[20603]: #011runtime/mcentral.go:232 +0x79 fp=0x7ffe0ff651d8 sp=0x7ffe0ff65190 pc=0xad87d9
+Jan 25 17:49:50 localhost ipfs[20603]: runtime.(*mcentral).cacheSpan(0x2f03918, 0x7ffe0ff65288)
+Jan 25 17:49:50 localhost ipfs[20603]: #011runtime/mcentral.go:158 +0x2ff fp=0x7ffe0ff65230 sp=0x7ffe0ff651d8 pc=0xad85bf
+Jan 25 17:49:50 localhost ipfs[20603]: runtime.(*mcache).refill(0x7f15b1b9f108, 0x2c)
+Jan 25 17:49:50 localhost ipfs[20603]: #011runtime/mcache.go:162 +0xaa fp=0x7ffe0ff65278 sp=0x7ffe0ff65230 pc=0xad7aca
+Jan 25 17:49:50 localhost ipfs[20603]: runtime.(*mcache).nextFree(0x7f15b1b9f108, 0x7ffe0ff6522c, 0xb26e25, 0x7ffe0ff65318, 0xacdfbe)
+Jan 25 17:49:50 localhost ipfs[20603]: #011runtime/malloc.go:882 +0x8d fp=0x7ffe0ff652b0 sp=0x7ffe0ff65278 pc=0xaccd0d
+Jan 25 17:49:50 localhost ipfs[20603]: runtime.mallocgc(0x178, 0x1e72f40, 0x7ffe0ff65301, 0x7ffe0ff65398)
+Jan 25 17:49:50 localhost ipfs[20603]: #011runtime/malloc.go:1069 +0x850 fp=0x7ffe0ff65338 sp=0x7ffe0ff652b0 pc=0xacd710
+Jan 25 17:49:50 localhost ipfs[20603]: runtime.newobject(0x1e72f40, 0xb26de0)
+Jan 25 17:49:50 localhost ipfs[20603]: #011runtime/malloc.go:1177 +0x38 fp=0x7ffe0ff65368 sp=0x7ffe0ff65338 pc=0xacd978
+Jan 25 17:49:50 localhost ipfs[20603]: runtime.malg(0x8000, 0x0)
+Jan 25 17:49:50 localhost ipfs[20603]: #011runtime/proc.go:3988 +0x31 fp=0x7ffe0ff653a8 sp=0x7ffe0ff65368 pc=0xb03091
+Jan 25 17:49:50 localhost ipfs[20603]: runtime.mpreinit(0x2ed8d40)
+Jan 25 17:49:50 localhost ipfs[20603]: #011runtime/os_linux.go:355 +0x29 fp=0x7ffe0ff653c8 sp=0x7ffe0ff653a8 pc=0xaf43a9
+Jan 25 17:49:50 localhost ipfs[20603]: runtime.mcommoninit(0x2ed8d40, 0xffffffffffffffff)
+Jan 25 17:49:51 localhost ipfs[20599]: #011runtime/proc.go:744 +0xf7 fp=0x7ffefedf05d0 sp=0x7ffefedf0588 pc=0xafbd57
+Jan 25 17:49:51 localhost ipfs[20599]: runtime.schedinit()
+Jan 25 17:49:54 localhost ipfs[20599]: #011runtime/proc.go:637 +0xaf fp=0x7ffefedf0630 sp=0x7ffefedf05d0 pc=0xafb8cf
+Jan 25 17:49:55 localhost ipfs[20599]: runtime.rt0_go(0x7ffefedf0738, 0x2, 0x7ffefedf0738, 0x0, 0x7f16e3bf909b, 0x0, 0x7ffefedf0738, 0x200200000, 0xb31180, 0x0, ...)
+Jan 25 17:49:56 localhost ipfs[20599]: #011runtime/asm_amd64.s:220 +0x125 fp=0x7ffefedf0638 sp=0x7ffefedf0630 pc=0xb312c5
+Jan 25 17:49:57 localhost systemd[1]: ipfs.service: Scheduled restart job, restart counter is at 2.
+Jan 25 17:50:00 localhost ipfs[20603]: #011runtime/proc.go:744 +0xf7 fp=0x7ffe0ff65410 sp=0x7ffe0ff653c8 pc=0xafbd57
+Jan 25 17:50:01 localhost ipfs[20603]: runtime.schedinit()
+Jan 25 17:50:01 localhost ipfs[20603]: #011runtime/proc.go:637 +0xaf fp=0x7ffe0ff65470 sp=0x7ffe0ff65410 pc=0xafb8cf
+Jan 25 17:50:01 localhost ipfs[20603]: runtime.rt0_go(0x7ffe0ff65578, 0x2, 0x7ffe0ff65578, 0x0, 0x7f15b1c0609b, 0x0, 0x7ffe0ff65578, 0x200200000, 0xb31180, 0x0, ...)
+Jan 25 17:50:01 localhost ipfs[20603]: #011runtime/asm_amd64.s:220 +0x125 fp=0x7ffe0ff65478 sp=0x7ffe0ff65470 pc=0xb312c5
+Jan 25 17:50:02 localhost ipfs[20605]: fatal error: runtime: out of memory
+Jan 25 17:50:02 localhost ipfs[20605]: runtime stack:
+Jan 25 17:50:02 localhost ipfs[20605]: runtime.throw(0x1f7baf4, 0x16)
+Jan 25 17:50:02 localhost ipfs[20605]: #011runtime/panic.go:1117 +0x72 fp=0x7fff59697a60 sp=0x7fff59697a30 pc=0xaf7c52
+Jan 25 17:50:02 localhost ipfs[20605]: runtime.sysMap(0xc000000000, 0x4000000, 0x2f0b810)
+Jan 25 17:50:03 localhost ipfs[20605]: #011runtime/mem_linux.go:169 +0xc6 fp=0x7fff59697aa0 sp=0x7fff59697a60 pc=0xad91e6
+Jan 25 17:50:03 localhost ipfs[20605]: runtime.(*mheap).sysAlloc(0x2ef15e0, 0x400000, 0x0, 0x0)
+Jan 25 17:50:03 localhost ipfs[20605]: #011runtime/malloc.go:729 +0x1e5 fp=0x7fff59697b48 sp=0x7fff59697aa0 pc=0xacc4a5
+Jan 25 17:50:03 localhost ipfs[20605]: runtime.(*mheap).grow(0x2ef15e0, 0x1, 0x0)
+Jan 25 17:50:04 localhost ipfs[20605]: #011runtime/mheap.go:1346 +0x85 fp=0x7fff59697bb0 sp=0x7fff59697b48 pc=0xae8385
+Jan 25 17:50:04 localhost ipfs[20605]: runtime.(*mheap).allocSpan(0x2ef15e0, 0x1, 0x2c00, 0x0)
+Jan 25 17:50:04 localhost ipfs[20605]: #011runtime/mheap.go:1173 +0x609 fp=0x7fff59697c30 sp=0x7fff59697bb0 pc=0xae8189
+Jan 25 17:50:04 localhost ipfs[20605]: runtime.(*mheap).alloc.func1()
+Jan 25 17:50:04 localhost ipfs[20605]: #011runtime/mheap.go:910 +0x59 fp=0x7fff59697c80 sp=0x7fff59697c30 pc=0xb28259
+Jan 25 17:50:05 localhost ipfs[20605]: runtime.(*mheap).alloc(0x2ef15e0, 0x1, 0x220000012c, 0xffffffff)
+Jan 25 17:50:05 localhost ipfs[20605]: #011runtime/mheap.go:904 +0x85 fp=0x7fff59697cd0 sp=0x7fff59697c80 pc=0xae7725
+Jan 25 17:50:06 localhost ipfs[20605]: runtime.(*mcentral).grow(0x2f03918, 0x0)
+Jan 25 17:50:07 localhost ipfs[20605]: #011runtime/mcentral.go:232 +0x79 fp=0x7fff59697d18 sp=0x7fff59697cd0 pc=0xad87d9
+Jan 25 17:50:07 localhost ipfs[20605]: runtime.(*mcentral).cacheSpan(0x2f03918, 0x7fff59697dc8)
+Jan 25 17:50:09 localhost ipfs[20605]: #011runtime/mcentral.go:158 +0x2ff fp=0x7fff59697d70 sp=0x7fff59697d18 pc=0xad85bf
+Jan 25 17:50:11 localhost ipfs[20605]: runtime.(*mcache).refill(0x7ff2e3a84108, 0x2c)
+Jan 25 17:50:11 localhost ipfs[20605]: #011runtime/mcache.go:162 +0xaa fp=0x7fff59697db8 sp=0x7fff59697d70 pc=0xad7aca
+Jan 25 17:50:13 localhost ipfs[20605]: runtime.(*mcache).nextFree(0x7ff2e3a84108, 0x7fff59697e2c, 0xb26e25, 0x7fff59697e58, 0xacdfbe)
+Jan 25 17:50:13 localhost ipfs[20605]: #011runtime/malloc.go:882 +0x8d fp=0x7fff59697df0 sp=0x7fff59697db8 pc=0xaccd0d
+Jan 25 17:50:13 localhost ipfs[20605]: runtime.mallocgc(0x178, 0x1e72f40, 0x7fff59697e01, 0x7fff59697ed8)
+Jan 25 17:50:13 localhost ipfs[20605]: #011runtime/malloc.go:1069 +0x850 fp=0x7fff59697e78 sp=0x7fff59697df0 pc=0xacd710
+Jan 25 17:50:14 localhost ipfs[20605]: runtime.newobject(0x1e72f40, 0xb26de0)
+Jan 25 17:50:15 localhost ipfs[20605]: #011runtime/malloc.go:1177 +0x38 fp=0x7fff59697ea8 sp=0x7fff59697e78 pc=0xacd978
+Jan 25 17:50:16 localhost ipfs[20605]: runtime.malg(0x8000, 0x0)
+Jan 25 17:50:17 localhost ipfs[20605]: #011runtime/proc.go:3988 +0x31 fp=0x7fff59697ee8 sp=0x7fff59697ea8 pc=0xb03091
+Jan 25 17:50:17 localhost ipfs[20605]: runtime.mpreinit(0x2ed8d40)
+Jan 25 17:50:17 localhost ipfs[20605]: #011runtime/os_linux.go:355 +0x29 fp=0x7fff59697f08 sp=0x7fff59697ee8 pc=0xaf43a9
+Jan 25 17:50:18 localhost ipfs[20605]: runtime.mcommoninit(0x2ed8d40, 0xffffffffffffffff)
+Jan 25 17:50:20 localhost systemd[1]: Stopped ipfs.service.
+Jan 25 17:50:23 localhost ipfs[20606]: fatal error: runtime: out of memory
+Jan 25 17:50:23 localhost ipfs[20606]: runtime stack:
+Jan 25 17:50:23 localhost ipfs[20606]: runtime.throw(0x1f7baf4, 0x16)
+Jan 25 17:50:23 localhost ipfs[20606]: #011runtime/panic.go:1117 +0x72 fp=0x7ffddf655a60 sp=0x7ffddf655a30 pc=0xaf7c52
+Jan 25 17:50:23 localhost ipfs[20606]: runtime.sysMap(0xc000000000, 0x4000000, 0x2f0b810)
+Jan 25 17:50:24 localhost ipfs[20606]: #011runtime/mem_linux.go:169 +0xc6 fp=0x7ffddf655aa0 sp=0x7ffddf655a60 pc=0xad91e6
+Jan 25 17:50:24 localhost ipfs[20606]: runtime.(*mheap).sysAlloc(0x2ef15e0, 0x400000, 0x0, 0x0)
+Jan 25 17:50:24 localhost ipfs[20606]: #011runtime/malloc.go:729 +0x1e5 fp=0x7ffddf655b48 sp=0x7ffddf655aa0 pc=0xacc4a5
+Jan 25 17:50:24 localhost ipfs[20606]: runtime.(*mheap).grow(0x2ef15e0, 0x1, 0x0)
+Jan 25 17:50:24 localhost ipfs[20606]: #011runtime/mheap.go:1346 +0x85 fp=0x7ffddf655bb0 sp=0x7ffddf655b48 pc=0xae8385
+Jan 25 17:50:24 localhost ipfs[20606]: runtime.(*mheap).allocSpan(0x2ef15e0, 0x1, 0x2c00, 0x0)
+Jan 25 17:50:24 localhost ipfs[20606]: #011runtime/mheap.go:1173 +0x609 fp=0x7ffddf655c30 sp=0x7ffddf655bb0 pc=0xae8189
+Jan 25 17:50:24 localhost ipfs[20606]: runtime.(*mheap).alloc.func1()
+Jan 25 17:50:24 localhost ipfs[20606]: #011runtime/mheap.go:910 +0x59 fp=0x7ffddf655c80 sp=0x7ffddf655c30 pc=0xb28259
+Jan 25 17:50:24 localhost ipfs[20606]: runtime.(*mheap).alloc(0x2ef15e0, 0x1, 0x220000012c, 0xffffffff)
+Jan 25 17:50:24 localhost ipfs[20606]: #011runtime/mheap.go:904 +0x85 fp=0x7ffddf655cd0 sp=0x7ffddf655c80 pc=0xae7725
+Jan 25 17:50:24 localhost ipfs[20606]: runtime.(*mcentral).grow(0x2f03918, 0x0)
+Jan 25 17:50:24 localhost ipfs[20606]: #011runtime/mcentral.go:232 +0x79 fp=0x7ffddf655d18 sp=0x7ffddf655cd0 pc=0xad87d9
+Jan 25 17:50:24 localhost ipfs[20606]: runtime.(*mcentral).cacheSpan(0x2f03918, 0x7ffddf655dc8)
+Jan 25 17:50:24 localhost ipfs[20606]: #011runtime/mcentral.go:158 +0x2ff fp=0x7ffddf655d70 sp=0x7ffddf655d18 pc=0xad85bf
+Jan 25 17:50:24 localhost ipfs[20606]: runtime.(*mcache).refill(0x7fd3b1925108, 0x2c)
+Jan 25 17:50:24 localhost ipfs[20606]: #011runtime/mcache.go:162 +0xaa fp=0x7ffddf655db8 sp=0x7ffddf655d70 pc=0xad7aca
+Jan 25 17:50:24 localhost ipfs[20606]: runtime.(*mcache).nextFree(0x7fd3b1925108, 0x7ffddf655e2c, 0xb26e25, 0x7ffddf655e58, 0xacdfbe)
+Jan 25 17:50:24 localhost ipfs[20606]: #011runtime/malloc.go:882 +0x8d fp=0x7ffddf655df0 sp=0x7ffddf655db8 pc=0xaccd0d
+Jan 25 17:50:24 localhost ipfs[20606]: runtime.mallocgc(0x178, 0x1e72f40, 0x7ffddf655e01, 0x7ffddf655ed8)
+Jan 25 17:50:24 localhost ipfs[20606]: #011runtime/malloc.go:1069 +0x850 fp=0x7ffddf655e78 sp=0x7ffddf655df0 pc=0xacd710
+Jan 25 17:50:24 localhost ipfs[20606]: runtime.newobject(0x1e72f40, 0xb26de0)
+Jan 25 17:50:24 localhost ipfs[20606]: #011runtime/malloc.go:1177 +0x38 fp=0x7ffddf655ea8 sp=0x7ffddf655e78 pc=0xacd978
+Jan 25 17:50:24 localhost ipfs[20606]: runtime.malg(0x8000, 0x0)
+Jan 25 17:50:24 localhost ipfs[20606]: #011runtime/proc.go:3988 +0x31 fp=0x7ffddf655ee8 sp=0x7ffddf655ea8 pc=0xb03091
+Jan 25 17:50:24 localhost ipfs[20606]: runtime.mpreinit(0x2ed8d40)
+Jan 25 17:50:24 localhost ipfs[20606]: #011runtime/os_linux.go:355 +0x29 fp=0x7ffddf655f08 sp=0x7ffddf655ee8 pc=0xaf43a9
+Jan 25 17:50:24 localhost ipfs[20606]: runtime.mcommoninit(0x2ed8d40, 0xffffffffffffffff)
+Jan 25 17:50:25 localhost ipfs[20605]: #011runtime/proc.go:744 +0xf7 fp=0x7fff59697f50 sp=0x7fff59697f08 pc=0xafbd57
+Jan 25 17:50:25 localhost ipfs[20605]: runtime.schedinit()
+Jan 25 17:50:25 localhost ipfs[20605]: #011runtime/proc.go:637 +0xaf fp=0x7fff59697fb0 sp=0x7fff59697f50 pc=0xafb8cf
+Jan 25 17:50:25 localhost ipfs[20605]: runtime.rt0_go(0x7fff596980b8, 0x2, 0x7fff596980b8, 0x0, 0x7ff2e3aeb09b, 0x0, 0x7fff596980b8, 0x200200000, 0xb31180, 0x0, ...)
+Jan 25 17:50:25 localhost ipfs[20605]: #011runtime/asm_amd64.s:220 +0x125 fp=0x7fff59697fb8 sp=0x7fff59697fb0 pc=0xb312c5
+Jan 25 17:50:25 localhost systemd[1]: Started ipfs.service.
+Jan 25 17:50:26 localhost ipfs[20609]: fatal error: runtime: out of memory
+Jan 25 17:50:26 localhost ipfs[20609]: runtime stack:
+Jan 25 17:50:26 localhost ipfs[20609]: runtime.throw(0x1f7baf4, 0x16)
+Jan 25 17:50:27 localhost ipfs[20609]: #011runtime/panic.go:1117 +0x72 fp=0x7ffed9821cb0 sp=0x7ffed9821c80 pc=0xaf7c52
+Jan 25 17:50:27 localhost ipfs[20609]: runtime.sysMap(0xc000000000, 0x4000000, 0x2f0b810)
+Jan 25 17:50:27 localhost ipfs[20609]: #011runtime/mem_linux.go:169 +0xc6 fp=0x7ffed9821cf0 sp=0x7ffed9821cb0 pc=0xad91e6
+Jan 25 17:50:27 localhost ipfs[20609]: runtime.(*mheap).sysAlloc(0x2ef15e0, 0x400000, 0x0, 0x0)
+Jan 25 17:50:27 localhost ipfs[20609]: #011runtime/malloc.go:729 +0x1e5 fp=0x7ffed9821d98 sp=0x7ffed9821cf0 pc=0xacc4a5
+Jan 25 17:50:27 localhost ipfs[20609]: runtime.(*mheap).grow(0x2ef15e0, 0x1, 0x0)
+Jan 25 17:50:27 localhost ipfs[20609]: #011runtime/mheap.go:1346 +0x85 fp=0x7ffed9821e00 sp=0x7ffed9821d98 pc=0xae8385
+Jan 25 17:50:27 localhost ipfs[20609]: runtime.(*mheap).allocSpan(0x2ef15e0, 0x1, 0x2c00, 0x0)
+Jan 25 17:50:27 localhost ipfs[20609]: #011runtime/mheap.go:1173 +0x609 fp=0x7ffed9821e80 sp=0x7ffed9821e00 pc=0xae8189
+Jan 25 17:50:27 localhost ipfs[20609]: runtime.(*mheap).alloc.func1()
+Jan 25 17:50:27 localhost ipfs[20609]: #011runtime/mheap.go:910 +0x59 fp=0x7ffed9821ed0 sp=0x7ffed9821e80 pc=0xb28259
+Jan 25 17:50:27 localhost ipfs[20609]: runtime.(*mheap).alloc(0x2ef15e0, 0x1, 0x220000012c, 0xffffffff)
+Jan 25 17:50:27 localhost ipfs[20609]: #011runtime/mheap.go:904 +0x85 fp=0x7ffed9821f20 sp=0x7ffed9821ed0 pc=0xae7725
+Jan 25 17:50:27 localhost ipfs[20609]: runtime.(*mcentral).grow(0x2f03918, 0x0)
+Jan 25 17:50:27 localhost ipfs[20609]: #011runtime/mcentral.go:232 +0x79 fp=0x7ffed9821f68 sp=0x7ffed9821f20 pc=0xad87d9
+Jan 25 17:50:27 localhost ipfs[20609]: runtime.(*mcentral).cacheSpan(0x2f03918, 0x7ffed9822018)
+Jan 25 17:50:27 localhost ipfs[20609]: #011runtime/mcentral.go:158 +0x2ff fp=0x7ffed9821fc0 sp=0x7ffed9821f68 pc=0xad85bf
+Jan 25 17:50:27 localhost ipfs[20609]: runtime.(*mcache).refill(0x7f9cc115a108, 0x2c)
+Jan 25 17:50:27 localhost ipfs[20609]: #011runtime/mcache.go:162 +0xaa fp=0x7ffed9822008 sp=0x7ffed9821fc0 pc=0xad7aca
+Jan 25 17:50:27 localhost ipfs[20609]: runtime.(*mcache).nextFree(0x7f9cc115a108, 0x7ffed982202c, 0xb26e25, 0x7ffed98220a8, 0xacdfbe)
+Jan 25 17:50:27 localhost ipfs[20609]: #011runtime/malloc.go:882 +0x8d fp=0x7ffed9822040 sp=0x7ffed9822008 pc=0xaccd0d
+Jan 25 17:50:27 localhost ipfs[20609]: runtime.mallocgc(0x178, 0x1e72f40, 0x7ffed9822001, 0x7ffed9822128)
+Jan 25 17:50:27 localhost ipfs[20609]: #011runtime/malloc.go:1069 +0x850 fp=0x7ffed98220c8 sp=0x7ffed9822040 pc=0xacd710
+Jan 25 17:50:27 localhost ipfs[20609]: runtime.newobject(0x1e72f40, 0xb26de0)
+Jan 25 17:50:27 localhost ipfs[20609]: #011runtime/malloc.go:1177 +0x38 fp=0x7ffed98220f8 sp=0x7ffed98220c8 pc=0xacd978
+Jan 25 17:50:27 localhost ipfs[20609]: runtime.malg(0x8000, 0x0)
+Jan 25 17:50:27 localhost ipfs[20609]: #011runtime/proc.go:3988 +0x31 fp=0x7ffed9822138 sp=0x7ffed98220f8 pc=0xb03091
+Jan 25 17:50:27 localhost ipfs[20609]: runtime.mpreinit(0x2ed8d40)
+Jan 25 17:50:27 localhost ipfs[20609]: #011runtime/os_linux.go:355 +0x29 fp=0x7ffed9822158 sp=0x7ffed9822138 pc=0xaf43a9
+Jan 25 17:50:27 localhost ipfs[20609]: runtime.mcommoninit(0x2ed8d40, 0xffffffffffffffff)
+Jan 25 17:50:27 localhost ipfs[20606]: #011runtime/proc.go:744 +0xf7 fp=0x7ffddf655f50 sp=0x7ffddf655f08 pc=0xafbd57
+Jan 25 17:50:27 localhost ipfs[20606]: runtime.schedinit()
+Jan 25 17:50:27 localhost ipfs[20606]: #011runtime/proc.go:637 +0xaf fp=0x7ffddf655fb0 sp=0x7ffddf655f50 pc=0xafb8cf
+Jan 25 17:50:27 localhost ipfs[20606]: runtime.rt0_go(0x7ffddf6560b8, 0x2, 0x7ffddf6560b8, 0x0, 0x7fd3b198c09b, 0x0, 0x7ffddf6560b8, 0x200200000, 0xb31180, 0x0, ...)
+Jan 25 17:50:27 localhost ipfs[20606]: #011runtime/asm_amd64.s:220 +0x125 fp=0x7ffddf655fb8 sp=0x7ffddf655fb0 pc=0xb312c5
+Jan 25 17:50:28 localhost systemd[1]: ipfs.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Jan 25 17:50:28 localhost ipfs[20609]: #011runtime/proc.go:744 +0xf7 fp=0x7ffed98221a0 sp=0x7ffed9822158 pc=0xafbd57
+Jan 25 17:50:28 localhost ipfs[20609]: runtime.schedinit()
+Jan 25 17:50:29 localhost ipfs[20609]: #011runtime/proc.go:637 +0xaf fp=0x7ffed9822200 sp=0x7ffed98221a0 pc=0xafb8cf
+Jan 25 17:50:30 localhost ipfs[20609]: runtime.rt0_go(0x7ffed9822308, 0x2, 0x7ffed9822308, 0x0, 0x7f9cc11c109b, 0x0, 0x7ffed9822308, 0x200200000, 0xb31180, 0x0, ...)
+Jan 25 17:50:31 localhost ipfs[20609]: #011runtime/asm_amd64.s:220 +0x125 fp=0x7ffed9822208 sp=0x7ffed9822200 pc=0xb312c5
+Jan 25 17:50:31 localhost ipfs[20610]: fatal error: runtime: out of memory
+Jan 25 17:50:31 localhost ipfs[20610]: runtime stack:
+Jan 25 17:50:32 localhost ipfs[20610]: runtime.throw(0x1f7baf4, 0x16)
+Jan 25 17:50:32 localhost ipfs[20610]: #011runtime/panic.go:1117 +0x72 fp=0x7ffdf9d62740 sp=0x7ffdf9d62710 pc=0xaf7c52
+Jan 25 17:50:32 localhost ipfs[20610]: runtime.sysMap(0xc000000000, 0x4000000, 0x2f0b810)
+Jan 25 17:50:32 localhost ipfs[20610]: #011runtime/mem_linux.go:169 +0xc6 fp=0x7ffdf9d62780 sp=0x7ffdf9d62740 pc=0xad91e6
+Jan 25 17:50:32 localhost ipfs[20610]: runtime.(*mheap).sysAlloc(0x2ef15e0, 0x400000, 0x0, 0x0)
+Jan 25 17:50:32 localhost ipfs[20610]: #011runtime/malloc.go:729 +0x1e5 fp=0x7ffdf9d62828 sp=0x7ffdf9d62780 pc=0xacc4a5
+Jan 25 17:50:32 localhost ipfs[20610]: runtime.(*mheap).grow(0x2ef15e0, 0x1, 0x0)
+Jan 25 17:50:32 localhost ipfs[20610]: #011runtime/mheap.go:1346 +0x85 fp=0x7ffdf9d62890 sp=0x7ffdf9d62828 pc=0xae8385
+Jan 25 17:50:32 localhost ipfs[20610]: runtime.(*mheap).allocSpan(0x2ef15e0, 0x1, 0x2c00, 0x0)
+Jan 25 17:50:32 localhost ipfs[20610]: #011runtime/mheap.go:1173 +0x609 fp=0x7ffdf9d62910 sp=0x7ffdf9d62890 pc=0xae8189
+Jan 25 17:50:32 localhost ipfs[20610]: runtime.(*mheap).alloc.func1()
+Jan 25 17:50:32 localhost ipfs[20610]: #011runtime/mheap.go:910 +0x59 fp=0x7ffdf9d62960 sp=0x7ffdf9d62910 pc=0xb28259
+Jan 25 17:50:32 localhost ipfs[20610]: runtime.(*mheap).alloc(0x2ef15e0, 0x1, 0x220000012c, 0xffffffff)
+Jan 25 17:50:32 localhost ipfs[20610]: #011runtime/mheap.go:904 +0x85 fp=0x7ffdf9d629b0 sp=0x7ffdf9d62960 pc=0xae7725
+Jan 25 17:50:32 localhost ipfs[20610]: runtime.(*mcentral).grow(0x2f03918, 0x0)
+Jan 25 17:50:32 localhost ipfs[20610]: #011runtime/mcentral.go:232 +0x79 fp=0x7ffdf9d629f8 sp=0x7ffdf9d629b0 pc=0xad87d9
+Jan 25 17:50:32 localhost ipfs[20610]: runtime.(*mcentral).cacheSpan(0x2f03918, 0x7ffdf9d62aa8)
+Jan 25 17:50:32 localhost ipfs[20610]: #011runtime/mcentral.go:158 +0x2ff fp=0x7ffdf9d62a50 sp=0x7ffdf9d629f8 pc=0xad85bf
+Jan 25 17:50:32 localhost ipfs[20610]: runtime.(*mcache).refill(0x7f0972378108, 0x2c)
+Jan 25 17:50:32 localhost ipfs[20610]: #011runtime/mcache.go:162 +0xaa fp=0x7ffdf9d62a98 sp=0x7ffdf9d62a50 pc=0xad7aca
+Jan 25 17:50:32 localhost ipfs[20610]: runtime.(*mcache).nextFree(0x7f0972378108, 0x7ffdf9d62b2c, 0xb26e25, 0x7ffdf9d62b38, 0xacdfbe)
+Jan 25 17:50:32 localhost ipfs[20610]: #011runtime/malloc.go:882 +0x8d fp=0x7ffdf9d62ad0 sp=0x7ffdf9d62a98 pc=0xaccd0d
+Jan 25 17:50:32 localhost ipfs[20610]: runtime.mallocgc(0x178, 0x1e72f40, 0x7ffdf9d62b01, 0x7ffdf9d62bb8)
+Jan 25 17:50:32 localhost ipfs[20610]: #011runtime/malloc.go:1069 +0x850 fp=0x7ffdf9d62b58 sp=0x7ffdf9d62ad0 pc=0xacd710
+Jan 25 17:50:32 localhost ipfs[20610]: runtime.newobject(0x1e72f40, 0xb26de0)
+Jan 25 17:50:32 localhost ipfs[20610]: #011runtime/malloc.go:1177 +0x38 fp=0x7ffdf9d62b88 sp=0x7ffdf9d62b58 pc=0xacd978
+Jan 25 17:50:32 localhost ipfs[20610]: runtime.malg(0x8000, 0x0)
+Jan 25 17:50:32 localhost ipfs[20610]: #011runtime/proc.go:3988 +0x31 fp=0x7ffdf9d62bc8 sp=0x7ffdf9d62b88 pc=0xb03091
+Jan 25 17:50:32 localhost ipfs[20610]: runtime.mpreinit(0x2ed8d40)
+Jan 25 17:50:32 localhost ipfs[20610]: #011runtime/os_linux.go:355 +0x29 fp=0x7ffdf9d62be8 sp=0x7ffdf9d62bc8 pc=0xaf43a9
+Jan 25 17:50:32 localhost ipfs[20610]: runtime.mcommoninit(0x2ed8d40, 0xffffffffffffffff)
+Jan 25 17:50:33 localhost systemd[1]: ipfs.service: Failed with result 'exit-code'.
+Jan 25 17:50:36 localhost ipfs[20610]: #011runtime/proc.go:744 +0xf7 fp=0x7ffdf9d62c30 sp=0x7ffdf9d62be8 pc=0xafbd57
+Jan 25 17:50:36 localhost ipfs[20610]: runtime.schedinit()
+Jan 25 17:50:36 localhost ipfs[20610]: #011runtime/proc.go:637 +0xaf fp=0x7ffdf9d62c90 sp=0x7ffdf9d62c30 pc=0xafb8cf
+Jan 25 17:50:36 localhost ipfs[20610]: runtime.rt0_go(0x7ffdf9d62d98, 0x2, 0x7ffdf9d62d98, 0x0, 0x7f09723df09b, 0x0, 0x7ffdf9d62d98, 0x200200000, 0xb31180, 0x0, ...)
+Jan 25 17:50:36 localhost ipfs[20610]: #011runtime/asm_amd64.s:220 +0x125 fp=0x7ffdf9d62c98 sp=0x7ffdf9d62c90 pc=0xb312c5
+Jan 25 17:50:36 localhost ipfs[20612]: fatal error: runtime: out of memory
+Jan 25 17:50:36 localhost ipfs[20612]: runtime stack:
+Jan 25 17:50:36 localhost ipfs[20612]: runtime.throw(0x1f7baf4, 0x16)
+Jan 25 17:50:36 localhost ipfs[20612]: #011runtime/panic.go:1117 +0x72 fp=0x7ffc80ee5ef0 sp=0x7ffc80ee5ec0 pc=0xaf7c52
+Jan 25 17:50:36 localhost ipfs[20612]: runtime.sysMap(0xc000000000, 0x4000000, 0x2f0b810)
+Jan 25 17:50:36 localhost ipfs[20612]: #011runtime/mem_linux.go:169 +0xc6 fp=0x7ffc80ee5f30 sp=0x7ffc80ee5ef0 pc=0xad91e6
+Jan 25 17:50:36 localhost ipfs[20612]: runtime.(*mheap).sysAlloc(0x2ef15e0, 0x400000, 0x0, 0x0)
+Jan 25 17:50:36 localhost ipfs[20612]: #011runtime/malloc.go:729 +0x1e5 fp=0x7ffc80ee5fd8 sp=0x7ffc80ee5f30 pc=0xacc4a5
+Jan 25 17:50:36 localhost ipfs[20612]: runtime.(*mheap).grow(0x2ef15e0, 0x1, 0x0)
+Jan 25 17:50:36 localhost ipfs[20612]: #011runtime/mheap.go:1346 +0x85 fp=0x7ffc80ee6040 sp=0x7ffc80ee5fd8 pc=0xae8385
+Jan 25 17:50:36 localhost ipfs[20612]: runtime.(*mheap).allocSpan(0x2ef15e0, 0x1, 0x2c00, 0x0)
+Jan 25 17:50:36 localhost ipfs[20612]: #011runtime/mheap.go:1173 +0x609 fp=0x7ffc80ee60c0 sp=0x7ffc80ee6040 pc=0xae8189
+Jan 25 17:50:36 localhost ipfs[20612]: runtime.(*mheap).alloc.func1()
+Jan 25 17:50:36 localhost ipfs[20612]: #011runtime/mheap.go:910 +0x59 fp=0x7ffc80ee6110 sp=0x7ffc80ee60c0 pc=0xb28259
+Jan 25 17:50:36 localhost ipfs[20612]: runtime.(*mheap).alloc(0x2ef15e0, 0x1, 0x220000012c, 0xffffffff)
+Jan 25 17:50:36 localhost ipfs[20612]: #011runtime/mheap.go:904 +0x85 fp=0x7ffc80ee6160 sp=0x7ffc80ee6110 pc=0xae7725
+Jan 25 17:50:36 localhost ipfs[20612]: runtime.(*mcentral).grow(0x2f03918, 0x0)
+Jan 25 17:50:36 localhost ipfs[20612]: #011runtime/mcentral.go:232 +0x79 fp=0x7ffc80ee61a8 sp=0x7ffc80ee6160 pc=0xad87d9
+Jan 25 17:50:36 localhost ipfs[20612]: runtime.(*mcentral).cacheSpan(0x2f03918, 0x7ffc80ee6258)
+Jan 25 17:50:36 localhost ipfs[20612]: #011runtime/mcentral.go:158 +0x2ff fp=0x7ffc80ee6200 sp=0x7ffc80ee61a8 pc=0xad85bf
+Jan 25 17:50:36 localhost ipfs[20612]: runtime.(*mcache).refill(0x7fc728da1108, 0x2c)
+Jan 25 17:50:36 localhost ipfs[20612]: #011runtime/mcache.go:162 +0xaa fp=0x7ffc80ee6248 sp=0x7ffc80ee6200 pc=0xad7aca
+Jan 25 17:50:36 localhost ipfs[20612]: runtime.(*mcache).nextFree(0x7fc728da1108, 0x7ffc80ee622c, 0xb26e25, 0x7ffc80ee62e8, 0xacdfbe)
+Jan 25 17:50:36 localhost ipfs[20612]: #011runtime/malloc.go:882 +0x8d fp=0x7ffc80ee6280 sp=0x7ffc80ee6248 pc=0xaccd0d
+Jan 25 17:50:36 localhost ipfs[20612]: runtime.mallocgc(0x178, 0x1e72f40, 0x7ffc80ee6301, 0x7ffc80ee6368)
+Jan 25 17:50:36 localhost ipfs[20612]: #011runtime/malloc.go:1069 +0x850 fp=0x7ffc80ee6308 sp=0x7ffc80ee6280 pc=0xacd710
+Jan 25 17:50:36 localhost ipfs[20612]: runtime.newobject(0x1e72f40, 0xb26de0)
+Jan 25 17:50:36 localhost ipfs[20612]: #011runtime/malloc.go:1177 +0x38 fp=0x7ffc80ee6338 sp=0x7ffc80ee6308 pc=0xacd978
+Jan 25 17:50:36 localhost ipfs[20612]: runtime.malg(0x8000, 0x0)
+Jan 25 17:50:36 localhost ipfs[20612]: #011runtime/proc.go:3988 +0x31 fp=0x7ffc80ee6378 sp=0x7ffc80ee6338 pc=0xb03091
+Jan 25 17:50:36 localhost ipfs[20612]: runtime.mpreinit(0x2ed8d40)
+Jan 25 17:50:36 localhost ipfs[20612]: #011runtime/os_linux.go:355 +0x29 fp=0x7ffc80ee6398 sp=0x7ffc80ee6378 pc=0xaf43a9
+Jan 25 17:50:36 localhost ipfs[20612]: runtime.mcommoninit(0x2ed8d40, 0xffffffffffffffff)
+Jan 25 17:50:37 localhost systemd[1]: ipfs.service: Service RestartSec=100ms expired, scheduling restart.
+Jan 25 17:50:38 localhost ipfs[20613]: fatal error: runtime: out of memory
+Jan 25 17:50:38 localhost ipfs[20613]: runtime stack:
+Jan 25 17:50:39 localhost ipfs[20613]: runtime.throw(0x1f7baf4, 0x16)
+Jan 25 17:50:39 localhost ipfs[20613]: #011runtime/panic.go:1117 +0x72 fp=0x7ffc86cb2ac0 sp=0x7ffc86cb2a90 pc=0xaf7c52
+Jan 25 17:50:39 localhost ipfs[20613]: runtime.sysMap(0xc000000000, 0x4000000, 0x2f0b810)
+Jan 25 17:50:39 localhost ipfs[20613]: #011runtime/mem_linux.go:169 +0xc6 fp=0x7ffc86cb2b00 sp=0x7ffc86cb2ac0 pc=0xad91e6
+Jan 25 17:50:40 localhost ipfs[20613]: runtime.(*mheap).sysAlloc(0x2ef15e0, 0x400000, 0x0, 0x0)
+Jan 25 17:50:40 localhost ipfs[20613]: #011runtime/malloc.go:729 +0x1e5 fp=0x7ffc86cb2ba8 sp=0x7ffc86cb2b00 pc=0xacc4a5
+Jan 25 17:50:40 localhost ipfs[20613]: runtime.(*mheap).grow(0x2ef15e0, 0x1, 0x0)
+Jan 25 17:50:41 localhost ipfs[20613]: #011runtime/mheap.go:1346 +0x85 fp=0x7ffc86cb2c10 sp=0x7ffc86cb2ba8 pc=0xae8385
+Jan 25 17:50:41 localhost ipfs[20613]: runtime.(*mheap).allocSpan(0x2ef15e0, 0x1, 0x2c00, 0x0)
+Jan 25 17:50:43 localhost ipfs[20613]: #011runtime/mheap.go:1173 +0x609 fp=0x7ffc86cb2c90 sp=0x7ffc86cb2c10 pc=0xae8189
+Jan 25 17:50:44 localhost ipfs[20613]: runtime.(*mheap).alloc.func1()
+Jan 25 17:50:44 localhost ipfs[20613]: #011runtime/mheap.go:910 +0x59 fp=0x7ffc86cb2ce0 sp=0x7ffc86cb2c90 pc=0xb28259
+Jan 25 17:50:44 localhost ipfs[20613]: runtime.(*mheap).alloc(0x2ef15e0, 0x1, 0x220000012c, 0xffffffff)
+Jan 25 17:50:44 localhost ipfs[20613]: #011runtime/mheap.go:904 +0x85 fp=0x7ffc86cb2d30 sp=0x7ffc86cb2ce0 pc=0xae7725
+Jan 25 17:50:44 localhost ipfs[20613]: runtime.(*mcentral).grow(0x2f03918, 0x0)
+Jan 25 17:50:44 localhost ipfs[20613]: #011runtime/mcentral.go:232 +0x79 fp=0x7ffc86cb2d78 sp=0x7ffc86cb2d30 pc=0xad87d9
+Jan 25 17:50:44 localhost ipfs[20613]: runtime.(*mcentral).cacheSpan(0x2f03918, 0x7ffc86cb2e28)
+Jan 25 17:50:44 localhost ipfs[20613]: #011runtime/mcentral.go:158 +0x2ff fp=0x7ffc86cb2dd0 sp=0x7ffc86cb2d78 pc=0xad85bf
+Jan 25 17:50:44 localhost ipfs[20613]: runtime.(*mcache).refill(0x7f4b7434d108, 0x2c)
+Jan 25 17:50:44 localhost ipfs[20613]: #011runtime/mcache.go:162 +0xaa fp=0x7ffc86cb2e18 sp=0x7ffc86cb2dd0 pc=0xad7aca
+Jan 25 17:50:44 localhost ipfs[20613]: runtime.(*mcache).nextFree(0x7f4b7434d108, 0x7ffc86cb2e2c, 0xb26e25, 0x7ffc86cb2eb8, 0xacdfbe)
+Jan 25 17:50:44 localhost ipfs[20613]: #011runtime/malloc.go:882 +0x8d fp=0x7ffc86cb2e50 sp=0x7ffc86cb2e18 pc=0xaccd0d
+Jan 25 17:50:44 localhost ipfs[20613]: runtime.mallocgc(0x178, 0x1e72f40, 0x7ffc86cb2f01, 0x7ffc86cb2f38)
+Jan 25 17:50:44 localhost ipfs[20613]: #011runtime/malloc.go:1069 +0x850 fp=0x7ffc86cb2ed8 sp=0x7ffc86cb2e50 pc=0xacd710
+Jan 25 17:50:44 localhost ipfs[20613]: runtime.newobject(0x1e72f40, 0xb26de0)
+Jan 25 17:50:44 localhost ipfs[20613]: #011runtime/malloc.go:1177 +0x38 fp=0x7ffc86cb2f08 sp=0x7ffc86cb2ed8 pc=0xacd978
+Jan 25 17:50:44 localhost ipfs[20613]: runtime.malg(0x8000, 0x0)
+Jan 25 17:50:44 localhost ipfs[20613]: #011runtime/proc.go:3988 +0x31 fp=0x7ffc86cb2f48 sp=0x7ffc86cb2f08 pc=0xb03091
+Jan 25 17:50:44 localhost ipfs[20613]: runtime.mpreinit(0x2ed8d40)
+Jan 25 17:50:44 localhost ipfs[20613]: #011runtime/os_linux.go:355 +0x29 fp=0x7ffc86cb2f68 sp=0x7ffc86cb2f48 pc=0xaf43a9
+Jan 25 17:50:44 localhost ipfs[20613]: runtime.mcommoninit(0x2ed8d40, 0xffffffffffffffff)
+Jan 25 17:50:44 localhost ipfs[20612]: #011runtime/proc.go:744 +0xf7 fp=0x7ffc80ee63e0 sp=0x7ffc80ee6398 pc=0xafbd57
+Jan 25 17:50:45 localhost ipfs[20612]: runtime.schedinit()
+Jan 25 17:50:45 localhost ipfs[20612]: #011runtime/proc.go:637 +0xaf fp=0x7ffc80ee6440 sp=0x7ffc80ee63e0 pc=0xafb8cf
+Jan 25 17:50:46 localhost ipfs[20612]: runtime.rt0_go(0x7ffc80ee6548, 0x2, 0x7ffc80ee6548, 0x0, 0x7fc728e0809b, 0x0, 0x7ffc80ee6548, 0x200200000, 0xb31180, 0x0, ...)
+Jan 25 17:50:46 localhost ipfs[20612]: #011runtime/asm_amd64.s:220 +0x125 fp=0x7ffc80ee6448 sp=0x7ffc80ee6440 pc=0xb312c5
+Jan 25 17:50:47 localhost systemd[1]: ipfs.service: Scheduled restart job, restart counter is at 3.
+Jan 25 17:50:47 localhost ipfs[20615]: fatal error: runtime: out of memory
+Jan 25 17:50:47 localhost ipfs[20615]: runtime stack:
+Jan 25 17:50:48 localhost ipfs[20615]: runtime.throw(0x1f7baf4, 0x16)
+Jan 25 17:50:49 localhost ipfs[20615]: #011runtime/panic.go:1117 +0x72 fp=0x7ffed530edc0 sp=0x7ffed530ed90 pc=0xaf7c52
+Jan 25 17:50:50 localhost ipfs[20615]: runtime.sysMap(0xc000000000, 0x4000000, 0x2f0b810)
+Jan 25 17:50:50 localhost ipfs[20615]: #011runtime/mem_linux.go:169 +0xc6 fp=0x7ffed530ee00 sp=0x7ffed530edc0 pc=0xad91e6
+Jan 25 17:50:50 localhost ipfs[20615]: runtime.(*mheap).sysAlloc(0x2ef15e0, 0x400000, 0x0, 0x0)
+Jan 25 17:50:50 localhost ipfs[20615]: #011runtime/malloc.go:729 +0x1e5 fp=0x7ffed530eea8 sp=0x7ffed530ee00 pc=0xacc4a5
+Jan 25 17:50:50 localhost ipfs[20615]: runtime.(*mheap).grow(0x2ef15e0, 0x1, 0x0)
+Jan 25 17:50:51 localhost ipfs[20615]: #011runtime/mheap.go:1346 +0x85 fp=0x7ffed530ef10 sp=0x7ffed530eea8 pc=0xae8385
+Jan 25 17:50:51 localhost ipfs[20615]: runtime.(*mheap).allocSpan(0x2ef15e0, 0x1, 0x2c00, 0x0)
+Jan 25 17:50:51 localhost ipfs[20615]: #011runtime/mheap.go:1173 +0x609 fp=0x7ffed530ef90 sp=0x7ffed530ef10 pc=0xae8189
+Jan 25 17:50:51 localhost ipfs[20615]: runtime.(*mheap).alloc.func1()
+Jan 25 17:50:51 localhost ipfs[20615]: #011runtime/mheap.go:910 +0x59 fp=0x7ffed530efe0 sp=0x7ffed530ef90 pc=0xb28259
+Jan 25 17:50:51 localhost ipfs[20615]: runtime.(*mheap).alloc(0x2ef15e0, 0x1, 0x220000012c, 0xffffffff)
+Jan 25 17:50:51 localhost ipfs[20615]: #011runtime/mheap.go:904 +0x85 fp=0x7ffed530f030 sp=0x7ffed530efe0 pc=0xae7725
+Jan 25 17:50:51 localhost ipfs[20615]: runtime.(*mcentral).grow(0x2f03918, 0x0)
+Jan 25 17:50:51 localhost ipfs[20615]: #011runtime/mcentral.go:232 +0x79 fp=0x7ffed530f078 sp=0x7ffed530f030 pc=0xad87d9
+Jan 25 17:50:51 localhost ipfs[20615]: runtime.(*mcentral).cacheSpan(0x2f03918, 0x7ffed530f128)
+Jan 25 17:50:51 localhost ipfs[20615]: #011runtime/mcentral.go:158 +0x2ff fp=0x7ffed530f0d0 sp=0x7ffed530f078 pc=0xad85bf
+Jan 25 17:50:51 localhost ipfs[20615]: runtime.(*mcache).refill(0x7fcf7ebb1108, 0x2c)
+Jan 25 17:50:51 localhost ipfs[20615]: #011runtime/mcache.go:162 +0xaa fp=0x7ffed530f118 sp=0x7ffed530f0d0 pc=0xad7aca
+Jan 25 17:50:51 localhost ipfs[20615]: runtime.(*mcache).nextFree(0x7fcf7ebb1108, 0x7ffed530f12c, 0xb26e25, 0x7ffed530f1b8, 0xacdfbe)
+Jan 25 17:50:51 localhost ipfs[20615]: #011runtime/malloc.go:882 +0x8d fp=0x7ffed530f150 sp=0x7ffed530f118 pc=0xaccd0d
+Jan 25 17:50:51 localhost ipfs[20615]: runtime.mallocgc(0x178, 0x1e72f40, 0x7ffed530f201, 0x7ffed530f238)
+Jan 25 17:50:51 localhost ipfs[20615]: #011runtime/malloc.go:1069 +0x850 fp=0x7ffed530f1d8 sp=0x7ffed530f150 pc=0xacd710
+Jan 25 17:50:51 localhost ipfs[20615]: runtime.newobject(0x1e72f40, 0xb26de0)
+Jan 25 17:50:51 localhost ipfs[20615]: #011runtime/malloc.go:1177 +0x38 fp=0x7ffed530f208 sp=0x7ffed530f1d8 pc=0xacd978
+Jan 25 17:50:51 localhost ipfs[20615]: runtime.malg(0x8000, 0x0)
+Jan 25 17:50:51 localhost ipfs[20615]: #011runtime/proc.go:3988 +0x31 fp=0x7ffed530f248 sp=0x7ffed530f208 pc=0xb03091
+Jan 25 17:50:51 localhost ipfs[20615]: runtime.mpreinit(0x2ed8d40)
+Jan 25 17:50:51 localhost ipfs[20615]: #011runtime/os_linux.go:355 +0x29 fp=0x7ffed530f268 sp=0x7ffed530f248 pc=0xaf43a9
+Jan 25 17:50:51 localhost ipfs[20615]: runtime.mcommoninit(0x2ed8d40, 0xffffffffffffffff)
+Jan 25 17:50:51 localhost ipfs[20613]: #011runtime/proc.go:744 +0xf7 fp=0x7ffc86cb2fb0 sp=0x7ffc86cb2f68 pc=0xafbd57
+Jan 25 17:50:51 localhost ipfs[20613]: runtime.schedinit()
+Jan 25 17:50:51 localhost ipfs[20613]: #011runtime/proc.go:637 +0xaf fp=0x7ffc86cb3010 sp=0x7ffc86cb2fb0 pc=0xafb8cf
+Jan 25 17:50:51 localhost ipfs[20613]: runtime.rt0_go(0x7ffc86cb3118, 0x2, 0x7ffc86cb3118, 0x0, 0x7f4b743b409b, 0x0, 0x7ffc86cb3118, 0x200200000, 0xb31180, 0x0, ...)
+Jan 25 17:50:51 localhost ipfs[20613]: #011runtime/asm_amd64.s:220 +0x125 fp=0x7ffc86cb3018 sp=0x7ffc86cb3010 pc=0xb312c5
+Jan 25 17:50:51 localhost systemd[1]: Stopped ipfs.service.
+Jan 25 17:50:51 localhost ipfs[20615]: #011runtime/proc.go:744 +0xf7 fp=0x7ffed530f2b0 sp=0x7ffed530f268 pc=0xafbd57
+Jan 25 17:50:51 localhost ipfs[20615]: runtime.schedinit()
+Jan 25 17:50:51 localhost ipfs[20615]: #011runtime/proc.go:637 +0xaf fp=0x7ffed530f310 sp=0x7ffed530f2b0 pc=0xafb8cf
+Jan 25 17:50:51 localhost ipfs[20615]: runtime.rt0_go(0x7ffed530f418, 0x2, 0x7ffed530f418, 0x0, 0x7fcf7ec1809b, 0x0, 0x7ffed530f418, 0x200200000, 0xb31180, 0x0, ...)
+Jan 25 17:50:51 localhost ipfs[20615]: #011runtime/asm_amd64.s:220 +0x125 fp=0x7ffed530f318 sp=0x7ffed530f310 pc=0xb312c5
+Jan 25 17:50:51 localhost ipfs[20617]: fatal error: runtime: out of memory
+Jan 25 17:50:52 localhost ipfs[20617]: runtime stack:
+Jan 25 17:50:52 localhost ipfs[20617]: runtime.throw(0x1f7baf4, 0x16)
+Jan 25 17:50:52 localhost ipfs[20617]: #011runtime/panic.go:1117 +0x72 fp=0x7fff49a71fb0 sp=0x7fff49a71f80 pc=0xaf7c52
+Jan 25 17:50:52 localhost ipfs[20617]: runtime.sysMap(0xc000000000, 0x4000000, 0x2f0b810)
+Jan 25 17:50:53 localhost ipfs[20617]: #011runtime/mem_linux.go:169 +0xc6 fp=0x7fff49a71ff0 sp=0x7fff49a71fb0 pc=0xad91e6
+Jan 25 17:50:53 localhost ipfs[20617]: runtime.(*mheap).sysAlloc(0x2ef15e0, 0x400000, 0x0, 0x0)
+Jan 25 17:50:53 localhost ipfs[20617]: #011runtime/malloc.go:729 +0x1e5 fp=0x7fff49a72098 sp=0x7fff49a71ff0 pc=0xacc4a5
+Jan 25 17:50:53 localhost ipfs[20617]: runtime.(*mheap).grow(0x2ef15e0, 0x1, 0x0)
+Jan 25 17:50:53 localhost ipfs[20617]: #011runtime/mheap.go:1346 +0x85 fp=0x7fff49a72100 sp=0x7fff49a72098 pc=0xae8385
+Jan 25 17:50:53 localhost ipfs[20617]: runtime.(*mheap).allocSpan(0x2ef15e0, 0x1, 0x2c00, 0x0)
+Jan 25 17:50:53 localhost ipfs[20617]: #011runtime/mheap.go:1173 +0x609 fp=0x7fff49a72180 sp=0x7fff49a72100 pc=0xae8189
+Jan 25 17:50:53 localhost ipfs[20617]: runtime.(*mheap).alloc.func1()
+Jan 25 17:50:53 localhost ipfs[20617]: #011runtime/mheap.go:910 +0x59 fp=0x7fff49a721d0 sp=0x7fff49a72180 pc=0xb28259
+Jan 25 17:50:53 localhost ipfs[20617]: runtime.(*mheap).alloc(0x2ef15e0, 0x1, 0x220000012c, 0xffffffff)
+Jan 25 17:50:53 localhost ipfs[20617]: #011runtime/mheap.go:904 +0x85 fp=0x7fff49a72220 sp=0x7fff49a721d0 pc=0xae7725
+Jan 25 17:50:53 localhost ipfs[20617]: runtime.(*mcentral).grow(0x2f03918, 0x0)
+Jan 25 17:50:53 localhost ipfs[20617]: #011runtime/mcentral.go:232 +0x79 fp=0x7fff49a72268 sp=0x7fff49a72220 pc=0xad87d9
+Jan 25 17:50:53 localhost ipfs[20617]: runtime.(*mcentral).cacheSpan(0x2f03918, 0x7fff49a72318)
+Jan 25 17:50:53 localhost ipfs[20617]: #011runtime/mcentral.go:158 +0x2ff fp=0x7fff49a722c0 sp=0x7fff49a72268 pc=0xad85bf
+Jan 25 17:50:53 localhost ipfs[20617]: runtime.(*mcache).refill(0x7f16e9136108, 0x2c)
+Jan 25 17:50:53 localhost ipfs[20617]: #011runtime/mcache.go:162 +0xaa fp=0x7fff49a72308 sp=0x7fff49a722c0 pc=0xad7aca
+Jan 25 17:50:53 localhost ipfs[20617]: runtime.(*mcache).nextFree(0x7f16e9136108, 0x7fff49a7232c, 0xb26e25, 0x7fff49a723a8, 0xacdfbe)
+Jan 25 17:50:53 localhost ipfs[20617]: #011runtime/malloc.go:882 +0x8d fp=0x7fff49a72340 sp=0x7fff49a72308 pc=0xaccd0d
+Jan 25 17:50:53 localhost ipfs[20617]: runtime.mallocgc(0x178, 0x1e72f40, 0x7fff49a72301, 0x7fff49a72428)
+Jan 25 17:50:53 localhost ipfs[20617]: #011runtime/malloc.go:1069 +0x850 fp=0x7fff49a723c8 sp=0x7fff49a72340 pc=0xacd710
+Jan 25 17:50:53 localhost ipfs[20617]: runtime.newobject(0x1e72f40, 0xb26de0)
+Jan 25 17:50:53 localhost ipfs[20617]: #011runtime/malloc.go:1177 +0x38 fp=0x7fff49a723f8 sp=0x7fff49a723c8 pc=0xacd978
+Jan 25 17:50:53 localhost ipfs[20617]: runtime.malg(0x8000, 0x0)
+Jan 25 17:50:53 localhost ipfs[20617]: #011runtime/proc.go:3988 +0x31 fp=0x7fff49a72438 sp=0x7fff49a723f8 pc=0xb03091
+Jan 25 17:50:53 localhost ipfs[20617]: runtime.mpreinit(0x2ed8d40)
+Jan 25 17:50:53 localhost ipfs[20617]: #011runtime/os_linux.go:355 +0x29 fp=0x7fff49a72458 sp=0x7fff49a72438 pc=0xaf43a9
+Jan 25 17:50:53 localhost ipfs[20617]: runtime.mcommoninit(0x2ed8d40, 0xffffffffffffffff)
+Jan 25 17:50:53 localhost systemd[1]: Started ipfs.service.
+Jan 25 17:50:54 localhost ipfs[20619]: fatal error: runtime: out of memory
+Jan 25 17:50:54 localhost ipfs[20619]: runtime stack:
+Jan 25 17:50:54 localhost ipfs[20619]: runtime.throw(0x1f7baf4, 0x16)
+Jan 25 17:50:54 localhost ipfs[20619]: #011runtime/panic.go:1117 +0x72 fp=0x7fff4da78600 sp=0x7fff4da785d0 pc=0xaf7c52
+Jan 25 17:50:54 localhost ipfs[20619]: runtime.sysMap(0xc000000000, 0x4000000, 0x2f0b810)
+Jan 25 17:50:54 localhost ipfs[20619]: #011runtime/mem_linux.go:169 +0xc6 fp=0x7fff4da78640 sp=0x7fff4da78600 pc=0xad91e6
+Jan 25 17:50:54 localhost ipfs[20619]: runtime.(*mheap).sysAlloc(0x2ef15e0, 0x400000, 0x0, 0x0)
+Jan 25 17:50:54 localhost ipfs[20619]: #011runtime/malloc.go:729 +0x1e5 fp=0x7fff4da786e8 sp=0x7fff4da78640 pc=0xacc4a5
+Jan 25 17:50:54 localhost ipfs[20619]: runtime.(*mheap).grow(0x2ef15e0, 0x1, 0x0)
+Jan 25 17:50:54 localhost ipfs[20619]: #011runtime/mheap.go:1346 +0x85 fp=0x7fff4da78750 sp=0x7fff4da786e8 pc=0xae8385
+Jan 25 17:50:54 localhost ipfs[20619]: runtime.(*mheap).allocSpan(0x2ef15e0, 0x1, 0x2c00, 0x0)
+Jan 25 17:50:54 localhost ipfs[20619]: #011runtime/mheap.go:1173 +0x609 fp=0x7fff4da787d0 sp=0x7fff4da78750 pc=0xae8189
+Jan 25 17:50:54 localhost ipfs[20619]: runtime.(*mheap).alloc.func1()
+Jan 25 17:50:54 localhost ipfs[20619]: #011runtime/mheap.go:910 +0x59 fp=0x7fff4da78820 sp=0x7fff4da787d0 pc=0xb28259
+Jan 25 17:50:54 localhost ipfs[20619]: runtime.(*mheap).alloc(0x2ef15e0, 0x1, 0x220000012c, 0xffffffff)
+Jan 25 17:50:54 localhost ipfs[20619]: #011runtime/mheap.go:904 +0x85 fp=0x7fff4da78870 sp=0x7fff4da78820 pc=0xae7725
+Jan 25 17:50:54 localhost ipfs[20619]: runtime.(*mcentral).grow(0x2f03918, 0x0)
+Jan 25 17:50:56 localhost ipfs[20619]: #011runtime/mcentral.go:232 +0x79 fp=0x7fff4da788b8 sp=0x7fff4da78870 pc=0xad87d9
+Jan 25 17:50:56 localhost ipfs[20619]: runtime.(*mcentral).cacheSpan(0x2f03918, 0x7fff4da78968)
+Jan 25 17:50:56 localhost ipfs[20619]: #011runtime/mcentral.go:158 +0x2ff fp=0x7fff4da78910 sp=0x7fff4da788b8 pc=0xad85bf
+Jan 25 17:50:56 localhost ipfs[20619]: runtime.(*mcache).refill(0x7f8de955b108, 0x2c)
+Jan 25 17:50:56 localhost ipfs[20619]: #011runtime/mcache.go:162 +0xaa fp=0x7fff4da78958 sp=0x7fff4da78910 pc=0xad7aca
+Jan 25 17:50:57 localhost ipfs[20619]: runtime.(*mcache).nextFree(0x7f8de955b108, 0x7fff4da7892c, 0xb26e25, 0x7fff4da789f8, 0xacdfbe)
+Jan 25 17:50:57 localhost ipfs[20619]: #011runtime/malloc.go:882 +0x8d fp=0x7fff4da78990 sp=0x7fff4da78958 pc=0xaccd0d
+Jan 25 17:50:57 localhost ipfs[20619]: runtime.mallocgc(0x178, 0x1e72f40, 0x7fff4da78a01, 0x7fff4da78a78)
+Jan 25 17:50:57 localhost ipfs[20619]: #011runtime/malloc.go:1069 +0x850 fp=0x7fff4da78a18 sp=0x7fff4da78990 pc=0xacd710
+Jan 25 17:50:57 localhost ipfs[20619]: runtime.newobject(0x1e72f40, 0xb26de0)
+Jan 25 17:50:57 localhost ipfs[20619]: #011runtime/malloc.go:1177 +0x38 fp=0x7fff4da78a48 sp=0x7fff4da78a18 pc=0xacd978
+Jan 25 17:50:58 localhost ipfs[20619]: runtime.malg(0x8000, 0x0)
+Jan 25 17:50:58 localhost ipfs[20619]: #011runtime/proc.go:3988 +0x31 fp=0x7fff4da78a88 sp=0x7fff4da78a48 pc=0xb03091
+Jan 25 17:50:58 localhost ipfs[20619]: runtime.mpreinit(0x2ed8d40)
+Jan 25 17:50:58 localhost ipfs[20619]: #011runtime/os_linux.go:355 +0x29 fp=0x7fff4da78aa8 sp=0x7fff4da78a88 pc=0xaf43a9
+Jan 25 17:50:58 localhost ipfs[20619]: runtime.mcommoninit(0x2ed8d40, 0xffffffffffffffff)
+Jan 25 17:50:58 localhost ipfs[20617]: #011runtime/proc.go:744 +0xf7 fp=0x7fff49a724a0 sp=0x7fff49a72458 pc=0xafbd57
+Jan 25 17:50:59 localhost ipfs[20617]: runtime.schedinit()
+Jan 25 17:50:59 localhost ipfs[20617]: #011runtime/proc.go:637 +0xaf fp=0x7fff49a72500 sp=0x7fff49a724a0 pc=0xafb8cf
+Jan 25 17:50:59 localhost ipfs[20617]: runtime.rt0_go(0x7fff49a72608, 0x2, 0x7fff49a72608, 0x0, 0x7f16e919d09b, 0x0, 0x7fff49a72608, 0x200200000, 0xb31180, 0x0, ...)
+Jan 25 17:51:00 localhost ipfs[20617]: #011runtime/asm_amd64.s:220 +0x125 fp=0x7fff49a72508 sp=0x7fff49a72500 pc=0xb312c5
+Jan 25 17:51:01 localhost systemd[1]: ipfs.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Jan 25 17:51:02 localhost ipfs[20619]: #011runtime/proc.go:744 +0xf7 fp=0x7fff4da78af0 sp=0x7fff4da78aa8 pc=0xafbd57
+Jan 25 17:51:02 localhost ipfs[20619]: runtime.schedinit()
+Jan 25 17:51:02 localhost ipfs[20619]: #011runtime/proc.go:637 +0xaf fp=0x7fff4da78b50 sp=0x7fff4da78af0 pc=0xafb8cf
+Jan 25 17:51:03 localhost ipfs[20619]: runtime.rt0_go(0x7fff4da78c58, 0x2, 0x7fff4da78c58, 0x0, 0x7f8de95c209b, 0x0, 0x7fff4da78c58, 0x200200000, 0xb31180, 0x0, ...)
+Jan 25 17:51:03 localhost ipfs[20619]: #011runtime/asm_amd64.s:220 +0x125 fp=0x7fff4da78b58 sp=0x7fff4da78b50 pc=0xb312c5
+Jan 25 17:51:04 localhost ipfs[20622]: fatal error: runtime: out of memory
+Jan 25 17:51:04 localhost ipfs[20622]: runtime stack:
+Jan 25 17:51:05 localhost ipfs[20622]: runtime.throw(0x1f7baf4, 0x16)
+Jan 25 17:51:06 localhost ipfs[20622]: #011runtime/panic.go:1117 +0x72 fp=0x7ffe7395ef50 sp=0x7ffe7395ef20 pc=0xaf7c52
+Jan 25 17:51:06 localhost ipfs[20622]: runtime.sysMap(0xc000000000, 0x4000000, 0x2f0b810)
+Jan 25 17:51:07 localhost ipfs[20622]: #011runtime/mem_linux.go:169 +0xc6 fp=0x7ffe7395ef90 sp=0x7ffe7395ef50 pc=0xad91e6
+Jan 25 17:51:07 localhost ipfs[20622]: runtime.(*mheap).sysAlloc(0x2ef15e0, 0x400000, 0x0, 0x0)
+Jan 25 17:51:07 localhost ipfs[20622]: #011runtime/malloc.go:729 +0x1e5 fp=0x7ffe7395f038 sp=0x7ffe7395ef90 pc=0xacc4a5
+Jan 25 17:51:08 localhost ipfs[20622]: runtime.(*mheap).grow(0x2ef15e0, 0x1, 0x0)
+Jan 25 17:51:08 localhost ipfs[20622]: #011runtime/mheap.go:1346 +0x85 fp=0x7ffe7395f0a0 sp=0x7ffe7395f038 pc=0xae8385
+Jan 25 17:51:08 localhost ipfs[20622]: runtime.(*mheap).allocSpan(0x2ef15e0, 0x1, 0x2c00, 0x0)
+Jan 25 17:51:09 localhost ipfs[20622]: #011runtime/mheap.go:1173 +0x609 fp=0x7ffe7395f120 sp=0x7ffe7395f0a0 pc=0xae8189
+Jan 25 17:51:09 localhost ipfs[20622]: runtime.(*mheap).alloc.func1()
+Jan 25 17:51:09 localhost ipfs[20622]: #011runtime/mheap.go:910 +0x59 fp=0x7ffe7395f170 sp=0x7ffe7395f120 pc=0xb28259
+Jan 25 17:51:09 localhost ipfs[20622]: runtime.(*mheap).alloc(0x2ef15e0, 0x1, 0x220000012c, 0xffffffff)
+Jan 25 17:51:10 localhost ipfs[20622]: #011runtime/mheap.go:904 +0x85 fp=0x7ffe7395f1c0 sp=0x7ffe7395f170 pc=0xae7725
+Jan 25 17:51:10 localhost ipfs[20622]: runtime.(*mcentral).grow(0x2f03918, 0x0)
+Jan 25 17:51:11 localhost ipfs[20622]: #011runtime/mcentral.go:232 +0x79 fp=0x7ffe7395f208 sp=0x7ffe7395f1c0 pc=0xad87d9
+Jan 25 17:51:11 localhost ipfs[20622]: runtime.(*mcentral).cacheSpan(0x2f03918, 0x7ffe7395f2b8)
+Jan 25 17:51:11 localhost ipfs[20622]: #011runtime/mcentral.go:158 +0x2ff fp=0x7ffe7395f260 sp=0x7ffe7395f208 pc=0xad85bf
+Jan 25 17:51:12 localhost ipfs[20622]: runtime.(*mcache).refill(0x7f7f62074108, 0x2c)
+Jan 25 17:51:13 localhost ipfs[20622]: #011runtime/mcache.go:162 +0xaa fp=0x7ffe7395f2a8 sp=0x7ffe7395f260 pc=0xad7aca
+Jan 25 17:51:14 localhost ipfs[20622]: runtime.(*mcache).nextFree(0x7f7f62074108, 0x7ffe7395f32c, 0xb26e25, 0x7ffe7395f348, 0xacdfbe)
+Jan 25 17:51:14 localhost ipfs[20622]: #011runtime/malloc.go:882 +0x8d fp=0x7ffe7395f2e0 sp=0x7ffe7395f2a8 pc=0xaccd0d
+Jan 25 17:51:14 localhost ipfs[20622]: runtime.mallocgc(0x178, 0x1e72f40, 0x7ffe7395f301, 0x7ffe7395f3c8)
+Jan 25 17:51:14 localhost ipfs[20622]: #011runtime/malloc.go:1069 +0x850 fp=0x7ffe7395f368 sp=0x7ffe7395f2e0 pc=0xacd710
+Jan 25 17:51:14 localhost ipfs[20622]: runtime.newobject(0x1e72f40, 0xb26de0)
+Jan 25 17:51:14 localhost ipfs[20622]: #011runtime/malloc.go:1177 +0x38 fp=0x7ffe7395f398 sp=0x7ffe7395f368 pc=0xacd978
+Jan 25 17:51:14 localhost ipfs[20622]: runtime.malg(0x8000, 0x0)
+Jan 25 17:51:14 localhost ipfs[20622]: #011runtime/proc.go:3988 +0x31 fp=0x7ffe7395f3d8 sp=0x7ffe7395f398 pc=0xb03091
+Jan 25 17:51:14 localhost ipfs[20622]: runtime.mpreinit(0x2ed8d40)
+Jan 25 17:51:14 localhost ipfs[20622]: #011runtime/os_linux.go:355 +0x29 fp=0x7ffe7395f3f8 sp=0x7ffe7395f3d8 pc=0xaf43a9
+Jan 25 17:51:14 localhost ipfs[20622]: runtime.mcommoninit(0x2ed8d40, 0xffffffffffffffff)
+Jan 25 17:51:14 localhost systemd[1]: ipfs.service: Failed with result 'exit-code'.
+Jan 25 17:51:15 localhost ipfs[20622]: #011runtime/proc.go:744 +0xf7 fp=0x7ffe7395f440 sp=0x7ffe7395f3f8 pc=0xafbd57
+Jan 25 17:51:15 localhost ipfs[20622]: runtime.schedinit()
+Jan 25 17:51:16 localhost ipfs[20622]: #011runtime/proc.go:637 +0xaf fp=0x7ffe7395f4a0 sp=0x7ffe7395f440 pc=0xafb8cf
+Jan 25 17:51:16 localhost ipfs[20622]: runtime.rt0_go(0x7ffe7395f5a8, 0x2, 0x7ffe7395f5a8, 0x0, 0x7f7f620db09b, 0x0, 0x7ffe7395f5a8, 0x200200000, 0xb31180, 0x0, ...)
+Jan 25 17:51:16 localhost ipfs[20622]: #011runtime/asm_amd64.s:220 +0x125 fp=0x7ffe7395f4a8 sp=0x7ffe7395f4a0 pc=0xb312c5
+Jan 25 17:51:17 localhost ipfs[20624]: fatal error: runtime: out of memory
+Jan 25 17:51:17 localhost ipfs[20624]: runtime stack:
+Jan 25 17:51:17 localhost ipfs[20624]: runtime.throw(0x1f7baf4, 0x16)
+Jan 25 17:51:18 localhost ipfs[20624]: #011runtime/panic.go:1117 +0x72 fp=0x7ffc19332be0 sp=0x7ffc19332bb0 pc=0xaf7c52
+Jan 25 17:51:18 localhost ipfs[20624]: runtime.sysMap(0xc000000000, 0x4000000, 0x2f0b810)
+Jan 25 17:51:18 localhost ipfs[20624]: #011runtime/mem_linux.go:169 +0xc6 fp=0x7ffc19332c20 sp=0x7ffc19332be0 pc=0xad91e6
+Jan 25 17:51:19 localhost ipfs[20624]: runtime.(*mheap).sysAlloc(0x2ef15e0, 0x400000, 0x0, 0x0)
+Jan 25 17:51:19 localhost ipfs[20624]: #011runtime/malloc.go:729 +0x1e5 fp=0x7ffc19332cc8 sp=0x7ffc19332c20 pc=0xacc4a5
+Jan 25 17:51:19 localhost ipfs[20624]: runtime.(*mheap).grow(0x2ef15e0, 0x1, 0x0)
+Jan 25 17:51:19 localhost ipfs[20624]: #011runtime/mheap.go:1346 +0x85 fp=0x7ffc19332d30 sp=0x7ffc19332cc8 pc=0xae8385
+Jan 25 17:51:19 localhost ipfs[20624]: runtime.(*mheap).allocSpan(0x2ef15e0, 0x1, 0x2c00, 0x0)
+Jan 25 17:51:19 localhost ipfs[20624]: #011runtime/mheap.go:1173 +0x609 fp=0x7ffc19332db0 sp=0x7ffc19332d30 pc=0xae8189
+Jan 25 17:51:19 localhost ipfs[20624]: runtime.(*mheap).alloc.func1()
+Jan 25 17:51:19 localhost ipfs[20624]: #011runtime/mheap.go:910 +0x59 fp=0x7ffc19332e00 sp=0x7ffc19332db0 pc=0xb28259
+Jan 25 17:51:19 localhost ipfs[20624]: runtime.(*mheap).alloc(0x2ef15e0, 0x1, 0x220000012c, 0xffffffff)
+Jan 25 17:51:19 localhost ipfs[20624]: #011runtime/mheap.go:904 +0x85 fp=0x7ffc19332e50 sp=0x7ffc19332e00 pc=0xae7725
+Jan 25 17:51:19 localhost ipfs[20624]: runtime.(*mcentral).grow(0x2f03918, 0x0)
+Jan 25 17:51:19 localhost ipfs[20624]: #011runtime/mcentral.go:232 +0x79 fp=0x7ffc19332e98 sp=0x7ffc19332e50 pc=0xad87d9
+Jan 25 17:51:19 localhost ipfs[20624]: runtime.(*mcentral).cacheSpan(0x2f03918, 0x7ffc19332f48)
+Jan 25 17:51:19 localhost ipfs[20624]: #011runtime/mcentral.go:158 +0x2ff fp=0x7ffc19332ef0 sp=0x7ffc19332e98 pc=0xad85bf
+Jan 25 17:51:19 localhost ipfs[20624]: runtime.(*mcache).refill(0x7f65e6917108, 0x2c)
+Jan 25 17:51:19 localhost ipfs[20624]: #011runtime/mcache.go:162 +0xaa fp=0x7ffc19332f38 sp=0x7ffc19332ef0 pc=0xad7aca
+Jan 25 17:51:19 localhost ipfs[20624]: runtime.(*mcache).nextFree(0x7f65e6917108, 0x7ffc19332f2c, 0xb26e25, 0x7ffc19332fd8, 0xacdfbe)
+Jan 25 17:51:19 localhost ipfs[20624]: #011runtime/malloc.go:882 +0x8d fp=0x7ffc19332f70 sp=0x7ffc19332f38 pc=0xaccd0d
+Jan 25 17:51:19 localhost ipfs[20624]: runtime.mallocgc(0x178, 0x1e72f40, 0x7ffc19333001, 0x7ffc19333058)
+Jan 25 17:51:19 localhost ipfs[20624]: #011runtime/malloc.go:1069 +0x850 fp=0x7ffc19332ff8 sp=0x7ffc19332f70 pc=0xacd710
+Jan 25 17:51:19 localhost ipfs[20624]: runtime.newobject(0x1e72f40, 0xb26de0)
+Jan 25 17:51:19 localhost ipfs[20624]: #011runtime/malloc.go:1177 +0x38 fp=0x7ffc19333028 sp=0x7ffc19332ff8 pc=0xacd978
+Jan 25 17:51:19 localhost ipfs[20624]: runtime.malg(0x8000, 0x0)
+Jan 25 17:51:19 localhost ipfs[20624]: #011runtime/proc.go:3988 +0x31 fp=0x7ffc19333068 sp=0x7ffc19333028 pc=0xb03091
+Jan 25 17:51:19 localhost ipfs[20624]: runtime.mpreinit(0x2ed8d40)
+Jan 25 17:51:19 localhost ipfs[20624]: #011runtime/os_linux.go:355 +0x29 fp=0x7ffc19333088 sp=0x7ffc19333068 pc=0xaf43a9
+Jan 25 17:51:19 localhost ipfs[20624]: runtime.mcommoninit(0x2ed8d40, 0xffffffffffffffff)
+Jan 25 17:51:19 localhost systemd[1]: ipfs.service: Service RestartSec=100ms expired, scheduling restart.
+Jan 25 17:51:20 localhost ipfs[20624]: #011runtime/proc.go:744 +0xf7 fp=0x7ffc193330d0 sp=0x7ffc19333088 pc=0xafbd57
+Jan 25 17:51:20 localhost ipfs[20624]: runtime.schedinit()
+Jan 25 17:51:20 localhost ipfs[20624]: #011runtime/proc.go:637 +0xaf fp=0x7ffc19333130 sp=0x7ffc193330d0 pc=0xafb8cf
+Jan 25 17:51:20 localhost ipfs[20624]: runtime.rt0_go(0x7ffc19333238, 0x2, 0x7ffc19333238, 0x0, 0x7f65e697e09b, 0x0, 0x7ffc19333238, 0x200200000, 0xb31180, 0x0, ...)
+Jan 25 17:51:20 localhost ipfs[20624]: #011runtime/asm_amd64.s:220 +0x125 fp=0x7ffc19333138 sp=0x7ffc19333130 pc=0xb312c5
+Jan 25 17:51:21 localhost ipfs[20625]: fatal error: runtime: out of memory
+Jan 25 17:51:21 localhost ipfs[20625]: runtime stack:
+Jan 25 17:51:22 localhost ipfs[20625]: runtime.throw(0x1f7baf4, 0x16)
+Jan 25 17:51:23 localhost ipfs[20625]: #011runtime/panic.go:1117 +0x72 fp=0x7ffc35ca4a80 sp=0x7ffc35ca4a50 pc=0xaf7c52
+Jan 25 17:51:23 localhost ipfs[20625]: runtime.sysMap(0xc000000000, 0x4000000, 0x2f0b810)
+Jan 25 17:51:23 localhost ipfs[20625]: #011runtime/mem_linux.go:169 +0xc6 fp=0x7ffc35ca4ac0 sp=0x7ffc35ca4a80 pc=0xad91e6
+Jan 25 17:51:24 localhost ipfs[20625]: runtime.(*mheap).sysAlloc(0x2ef15e0, 0x400000, 0x0, 0x0)
+Jan 25 17:51:24 localhost ipfs[20625]: #011runtime/malloc.go:729 +0x1e5 fp=0x7ffc35ca4b68 sp=0x7ffc35ca4ac0 pc=0xacc4a5
+Jan 25 17:51:24 localhost ipfs[20625]: runtime.(*mheap).grow(0x2ef15e0, 0x1, 0x0)
+Jan 25 17:51:25 localhost ipfs[20625]: #011runtime/mheap.go:1346 +0x85 fp=0x7ffc35ca4bd0 sp=0x7ffc35ca4b68 pc=0xae8385
+Jan 25 17:51:25 localhost ipfs[20625]: runtime.(*mheap).allocSpan(0x2ef15e0, 0x1, 0x2c00, 0x0)
+Jan 25 17:51:25 localhost ipfs[20625]: #011runtime/mheap.go:1173 +0x609 fp=0x7ffc35ca4c50 sp=0x7ffc35ca4bd0 pc=0xae8189
+Jan 25 17:51:27 localhost ipfs[20625]: runtime.(*mheap).alloc.func1()
+Jan 25 17:51:27 localhost ipfs[20625]: #011runtime/mheap.go:910 +0x59 fp=0x7ffc35ca4ca0 sp=0x7ffc35ca4c50 pc=0xb28259
+Jan 25 17:51:27 localhost ipfs[20625]: runtime.(*mheap).alloc(0x2ef15e0, 0x1, 0x220000012c, 0xffffffff)
+Jan 25 17:51:27 localhost ipfs[20625]: #011runtime/mheap.go:904 +0x85 fp=0x7ffc35ca4cf0 sp=0x7ffc35ca4ca0 pc=0xae7725
+Jan 25 17:51:27 localhost ipfs[20625]: runtime.(*mcentral).grow(0x2f03918, 0x0)
+Jan 25 17:51:27 localhost ipfs[20625]: #011runtime/mcentral.go:232 +0x79 fp=0x7ffc35ca4d38 sp=0x7ffc35ca4cf0 pc=0xad87d9
+Jan 25 17:51:27 localhost ipfs[20625]: runtime.(*mcentral).cacheSpan(0x2f03918, 0x7ffc35ca4de8)
+Jan 25 17:51:27 localhost ipfs[20625]: #011runtime/mcentral.go:158 +0x2ff fp=0x7ffc35ca4d90 sp=0x7ffc35ca4d38 pc=0xad85bf
+Jan 25 17:51:27 localhost ipfs[20625]: runtime.(*mcache).refill(0x7ff60ebb0108, 0x2c)
+Jan 25 17:51:27 localhost ipfs[20625]: #011runtime/mcache.go:162 +0xaa fp=0x7ffc35ca4dd8 sp=0x7ffc35ca4d90 pc=0xad7aca
+Jan 25 17:51:27 localhost ipfs[20625]: runtime.(*mcache).nextFree(0x7ff60ebb0108, 0x7ffc35ca4e2c, 0xb26e25, 0x7ffc35ca4e78, 0xacdfbe)
+Jan 25 17:51:27 localhost ipfs[20625]: #011runtime/malloc.go:882 +0x8d fp=0x7ffc35ca4e10 sp=0x7ffc35ca4dd8 pc=0xaccd0d
+Jan 25 17:51:27 localhost ipfs[20625]: runtime.mallocgc(0x178, 0x1e72f40, 0x7ffc35ca4e01, 0x7ffc35ca4ef8)
+Jan 25 17:51:27 localhost ipfs[20625]: #011runtime/malloc.go:1069 +0x850 fp=0x7ffc35ca4e98 sp=0x7ffc35ca4e10 pc=0xacd710
+Jan 25 17:51:27 localhost ipfs[20625]: runtime.newobject(0x1e72f40, 0xb26de0)
+Jan 25 17:51:27 localhost ipfs[20625]: #011runtime/malloc.go:1177 +0x38 fp=0x7ffc35ca4ec8 sp=0x7ffc35ca4e98 pc=0xacd978
+Jan 25 17:51:27 localhost ipfs[20625]: runtime.malg(0x8000, 0x0)
+Jan 25 17:51:27 localhost ipfs[20625]: #011runtime/proc.go:3988 +0x31 fp=0x7ffc35ca4f08 sp=0x7ffc35ca4ec8 pc=0xb03091
+Jan 25 17:51:29 localhost ipfs[20625]: runtime.mpreinit(0x2ed8d40)
+Jan 25 17:51:29 localhost ipfs[20625]: #011runtime/os_linux.go:355 +0x29 fp=0x7ffc35ca4f28 sp=0x7ffc35ca4f08 pc=0xaf43a9
+Jan 25 17:51:30 localhost ipfs[20625]: runtime.mcommoninit(0x2ed8d40, 0xffffffffffffffff)
+Jan 25 17:51:32 localhost systemd[1]: ipfs.service: Scheduled restart job, restart counter is at 4.
+Jan 25 17:51:35 localhost ipfs[20628]: fatal error: runtime: out of memory
+Jan 25 17:51:35 localhost ipfs[20628]: runtime stack:
+Jan 25 17:51:35 localhost ipfs[20628]: runtime.throw(0x1f7baf4, 0x16)
+Jan 25 17:51:36 localhost ipfs[20628]: #011runtime/panic.go:1117 +0x72 fp=0x7ffcdb6c5db0 sp=0x7ffcdb6c5d80 pc=0xaf7c52
+Jan 25 17:51:36 localhost ipfs[20628]: runtime.sysMap(0xc000000000, 0x4000000, 0x2f0b810)
+Jan 25 17:51:36 localhost ipfs[20628]: #011runtime/mem_linux.go:169 +0xc6 fp=0x7ffcdb6c5df0 sp=0x7ffcdb6c5db0 pc=0xad91e6
+Jan 25 17:51:37 localhost ipfs[20628]: runtime.(*mheap).sysAlloc(0x2ef15e0, 0x400000, 0x0, 0x0)
+Jan 25 17:51:37 localhost ipfs[20628]: #011runtime/malloc.go:729 +0x1e5 fp=0x7ffcdb6c5e98 sp=0x7ffcdb6c5df0 pc=0xacc4a5
+Jan 25 17:51:39 localhost ipfs[20628]: runtime.(*mheap).grow(0x2ef15e0, 0x1, 0x0)
+Jan 25 17:51:40 localhost ipfs[20628]: #011runtime/mheap.go:1346 +0x85 fp=0x7ffcdb6c5f00 sp=0x7ffcdb6c5e98 pc=0xae8385
+Jan 25 17:51:41 localhost ipfs[20628]: runtime.(*mheap).allocSpan(0x2ef15e0, 0x1, 0x2c00, 0x0)
+Jan 25 17:51:41 localhost ipfs[20628]: #011runtime/mheap.go:1173 +0x609 fp=0x7ffcdb6c5f80 sp=0x7ffcdb6c5f00 pc=0xae8189
+Jan 25 17:51:42 localhost ipfs[20628]: runtime.(*mheap).alloc.func1()
+Jan 25 17:51:43 localhost ipfs[20628]: #011runtime/mheap.go:910 +0x59 fp=0x7ffcdb6c5fd0 sp=0x7ffcdb6c5f80 pc=0xb28259
+Jan 25 17:51:43 localhost ipfs[20628]: runtime.(*mheap).alloc(0x2ef15e0, 0x1, 0x220000012c, 0xffffffff)
+Jan 25 17:51:44 localhost ipfs[20628]: #011runtime/mheap.go:904 +0x85 fp=0x7ffcdb6c6020 sp=0x7ffcdb6c5fd0 pc=0xae7725
+Jan 25 17:51:45 localhost ipfs[20628]: runtime.(*mcentral).grow(0x2f03918, 0x0)
+Jan 25 17:51:45 localhost ipfs[20628]: #011runtime/mcentral.go:232 +0x79 fp=0x7ffcdb6c6068 sp=0x7ffcdb6c6020 pc=0xad87d9
+Jan 25 17:51:45 localhost ipfs[20628]: runtime.(*mcentral).cacheSpan(0x2f03918, 0x7ffcdb6c6118)
+Jan 25 17:51:45 localhost ipfs[20628]: #011runtime/mcentral.go:158 +0x2ff fp=0x7ffcdb6c60c0 sp=0x7ffcdb6c6068 pc=0xad85bf
+Jan 25 17:51:46 localhost ipfs[20628]: runtime.(*mcache).refill(0x7f2a513b4108, 0x2c)
+Jan 25 17:51:47 localhost ipfs[20628]: #011runtime/mcache.go:162 +0xaa fp=0x7ffcdb6c6108 sp=0x7ffcdb6c60c0 pc=0xad7aca
+Jan 25 17:51:47 localhost ipfs[20628]: runtime.(*mcache).nextFree(0x7f2a513b4108, 0x7ffcdb6c612c, 0xb26e25, 0x7ffcdb6c61a8, 0xacdfbe)
+Jan 25 17:51:47 localhost ipfs[20628]: #011runtime/malloc.go:882 +0x8d fp=0x7ffcdb6c6140 sp=0x7ffcdb6c6108 pc=0xaccd0d
+Jan 25 17:51:47 localhost ipfs[20628]: runtime.mallocgc(0x178, 0x1e72f40, 0x7ffcdb6c6101, 0x7ffcdb6c6228)
+Jan 25 17:51:47 localhost ipfs[20628]: #011runtime/malloc.go:1069 +0x850 fp=0x7ffcdb6c61c8 sp=0x7ffcdb6c6140 pc=0xacd710
+Jan 25 17:51:47 localhost ipfs[20628]: runtime.newobject(0x1e72f40, 0xb26de0)
+Jan 25 17:51:47 localhost ipfs[20628]: #011runtime/malloc.go:1177 +0x38 fp=0x7ffcdb6c61f8 sp=0x7ffcdb6c61c8 pc=0xacd978
+Jan 25 17:51:47 localhost ipfs[20628]: runtime.malg(0x8000, 0x0)
+Jan 25 17:51:47 localhost ipfs[20628]: #011runtime/proc.go:3988 +0x31 fp=0x7ffcdb6c6238 sp=0x7ffcdb6c61f8 pc=0xb03091
+Jan 25 17:51:47 localhost ipfs[20628]: runtime.mpreinit(0x2ed8d40)
+Jan 25 17:51:47 localhost ipfs[20628]: #011runtime/os_linux.go:355 +0x29 fp=0x7ffcdb6c6258 sp=0x7ffcdb6c6238 pc=0xaf43a9
+Jan 25 17:51:47 localhost ipfs[20628]: runtime.mcommoninit(0x2ed8d40, 0xffffffffffffffff)
+Jan 25 17:51:47 localhost ipfs[20625]: #011runtime/proc.go:744 +0xf7 fp=0x7ffc35ca4f70 sp=0x7ffc35ca4f28 pc=0xafbd57
+Jan 25 17:51:47 localhost ipfs[20625]: runtime.schedinit()
+Jan 25 17:51:47 localhost ipfs[20625]: #011runtime/proc.go:637 +0xaf fp=0x7ffc35ca4fd0 sp=0x7ffc35ca4f70 pc=0xafb8cf
+Jan 25 17:51:47 localhost ipfs[20625]: runtime.rt0_go(0x7ffc35ca50d8, 0x2, 0x7ffc35ca50d8, 0x0, 0x7ff60ec1709b, 0x0, 0x7ffc35ca50d8, 0x200200000, 0xb31180, 0x0, ...)
+Jan 25 17:51:47 localhost ipfs[20625]: #011runtime/asm_amd64.s:220 +0x125 fp=0x7ffc35ca4fd8 sp=0x7ffc35ca4fd0 pc=0xb312c5
+Jan 25 17:51:47 localhost systemd[1]: Stopped ipfs.service.
+Jan 25 17:51:47 localhost ipfs[20628]: #011runtime/proc.go:744 +0xf7 fp=0x7ffcdb6c62a0 sp=0x7ffcdb6c6258 pc=0xafbd57
+Jan 25 17:51:47 localhost ipfs[20628]: runtime.schedinit()
+Jan 25 17:51:47 localhost ipfs[20628]: #011runtime/proc.go:637 +0xaf fp=0x7ffcdb6c6300 sp=0x7ffcdb6c62a0 pc=0xafb8cf
+Jan 25 17:51:47 localhost ipfs[20628]: runtime.rt0_go(0x7ffcdb6c6408, 0x2, 0x7ffcdb6c6408, 0x0, 0x7f2a5141b09b, 0x0, 0x7ffcdb6c6408, 0x200200000, 0xb31180, 0x0, ...)
+Jan 25 17:51:47 localhost ipfs[20628]: #011runtime/asm_amd64.s:220 +0x125 fp=0x7ffcdb6c6308 sp=0x7ffcdb6c6300 pc=0xb312c5
+Jan 25 17:51:47 localhost ipfs[20631]: fatal error: runtime: out of memory
+Jan 25 17:51:47 localhost ipfs[20631]: runtime stack:
+Jan 25 17:51:47 localhost ipfs[20631]: runtime.throw(0x1f7baf4, 0x16)
+Jan 25 17:51:47 localhost ipfs[20631]: #011runtime/panic.go:1117 +0x72 fp=0x7ffd64cd6d90 sp=0x7ffd64cd6d60 pc=0xaf7c52
+Jan 25 17:51:47 localhost ipfs[20631]: runtime.sysMap(0xc000000000, 0x4000000, 0x2f0b810)
+Jan 25 17:51:47 localhost ipfs[20631]: #011runtime/mem_linux.go:169 +0xc6 fp=0x7ffd64cd6dd0 sp=0x7ffd64cd6d90 pc=0xad91e6
+Jan 25 17:51:47 localhost ipfs[20631]: runtime.(*mheap).sysAlloc(0x2ef15e0, 0x400000, 0x0, 0x0)
+Jan 25 17:51:47 localhost ipfs[20631]: #011runtime/malloc.go:729 +0x1e5 fp=0x7ffd64cd6e78 sp=0x7ffd64cd6dd0 pc=0xacc4a5
+Jan 25 17:51:47 localhost ipfs[20631]: runtime.(*mheap).grow(0x2ef15e0, 0x1, 0x0)
+Jan 25 17:51:47 localhost ipfs[20631]: #011runtime/mheap.go:1346 +0x85 fp=0x7ffd64cd6ee0 sp=0x7ffd64cd6e78 pc=0xae8385
+Jan 25 17:51:47 localhost ipfs[20631]: runtime.(*mheap).allocSpan(0x2ef15e0, 0x1, 0x2c00, 0x0)
+Jan 25 17:51:47 localhost ipfs[20631]: #011runtime/mheap.go:1173 +0x609 fp=0x7ffd64cd6f60 sp=0x7ffd64cd6ee0 pc=0xae8189
+Jan 25 17:51:47 localhost ipfs[20631]: runtime.(*mheap).alloc.func1()
+Jan 25 17:51:47 localhost ipfs[20631]: #011runtime/mheap.go:910 +0x59 fp=0x7ffd64cd6fb0 sp=0x7ffd64cd6f60 pc=0xb28259
+Jan 25 17:51:47 localhost ipfs[20631]: runtime.(*mheap).alloc(0x2ef15e0, 0x1, 0x220000012c, 0xffffffff)
+Jan 25 17:51:47 localhost ipfs[20631]: #011runtime/mheap.go:904 +0x85 fp=0x7ffd64cd7000 sp=0x7ffd64cd6fb0 pc=0xae7725
+Jan 25 17:51:47 localhost ipfs[20631]: runtime.(*mcentral).grow(0x2f03918, 0x0)
+Jan 25 17:51:47 localhost ipfs[20631]: #011runtime/mcentral.go:232 +0x79 fp=0x7ffd64cd7048 sp=0x7ffd64cd7000 pc=0xad87d9
+Jan 25 17:51:47 localhost ipfs[20631]: runtime.(*mcentral).cacheSpan(0x2f03918, 0x7ffd64cd70f8)
+Jan 25 17:51:47 localhost ipfs[20631]: #011runtime/mcentral.go:158 +0x2ff fp=0x7ffd64cd70a0 sp=0x7ffd64cd7048 pc=0xad85bf
+Jan 25 17:51:47 localhost ipfs[20631]: runtime.(*mcache).refill(0x7ff29fff1108, 0x2c)
+Jan 25 17:51:47 localhost ipfs[20631]: #011runtime/mcache.go:162 +0xaa fp=0x7ffd64cd70e8 sp=0x7ffd64cd70a0 pc=0xad7aca
+Jan 25 17:51:47 localhost ipfs[20631]: runtime.(*mcache).nextFree(0x7ff29fff1108, 0x7ffd64cd712c, 0xb26e25, 0x7ffd64cd7188, 0xacdfbe)
+Jan 25 17:51:47 localhost ipfs[20631]: #011runtime/malloc.go:882 +0x8d fp=0x7ffd64cd7120 sp=0x7ffd64cd70e8 pc=0xaccd0d
+Jan 25 17:51:47 localhost ipfs[20631]: runtime.mallocgc(0x178, 0x1e72f40, 0x7ffd64cd7101, 0x7ffd64cd7208)
+Jan 25 17:51:47 localhost ipfs[20631]: #011runtime/malloc.go:1069 +0x850 fp=0x7ffd64cd71a8 sp=0x7ffd64cd7120 pc=0xacd710
+Jan 25 17:51:47 localhost ipfs[20631]: runtime.newobject(0x1e72f40, 0xb26de0)
+Jan 25 17:51:47 localhost ipfs[20631]: #011runtime/malloc.go:1177 +0x38 fp=0x7ffd64cd71d8 sp=0x7ffd64cd71a8 pc=0xacd978
+Jan 25 17:51:47 localhost ipfs[20631]: runtime.malg(0x8000, 0x0)
+Jan 25 17:51:47 localhost ipfs[20631]: #011runtime/proc.go:3988 +0x31 fp=0x7ffd64cd7218 sp=0x7ffd64cd71d8 pc=0xb03091
+Jan 25 17:51:47 localhost ipfs[20631]: runtime.mpreinit(0x2ed8d40)
+Jan 25 17:51:47 localhost ipfs[20631]: #011runtime/os_linux.go:355 +0x29 fp=0x7ffd64cd7238 sp=0x7ffd64cd7218 pc=0xaf43a9
+Jan 25 17:51:47 localhost ipfs[20631]: runtime.mcommoninit(0x2ed8d40, 0xffffffffffffffff)
+Jan 25 17:51:47 localhost systemd[1]: Started ipfs.service.
+Jan 25 17:51:47 localhost ipfs[20631]: #011runtime/proc.go:744 +0xf7 fp=0x7ffd64cd7280 sp=0x7ffd64cd7238 pc=0xafbd57
+Jan 25 17:51:47 localhost ipfs[20631]: runtime.schedinit()
+Jan 25 17:51:47 localhost ipfs[20631]: #011runtime/proc.go:637 +0xaf fp=0x7ffd64cd72e0 sp=0x7ffd64cd7280 pc=0xafb8cf
+Jan 25 17:51:47 localhost ipfs[20631]: runtime.rt0_go(0x7ffd64cd73e8, 0x2, 0x7ffd64cd73e8, 0x0, 0x7ff2a005809b, 0x0, 0x7ffd64cd73e8, 0x200200000, 0xb31180, 0x0, ...)
+Jan 25 17:51:47 localhost ipfs[20631]: #011runtime/asm_amd64.s:220 +0x125 fp=0x7ffd64cd72e8 sp=0x7ffd64cd72e0 pc=0xb312c5
+Jan 25 17:51:47 localhost ipfs[20634]: fatal error: runtime: out of memory
+Jan 25 17:51:47 localhost ipfs[20634]: runtime stack:
+Jan 25 17:51:47 localhost ipfs[20634]: runtime.throw(0x1f7baf4, 0x16)
+Jan 25 17:51:47 localhost ipfs[20634]: #011runtime/panic.go:1117 +0x72 fp=0x7ffcccbb0010 sp=0x7ffcccbaffe0 pc=0xaf7c52
+Jan 25 17:51:47 localhost ipfs[20634]: runtime.sysMap(0xc000000000, 0x4000000, 0x2f0b810)
+Jan 25 17:51:47 localhost ipfs[20634]: #011runtime/mem_linux.go:169 +0xc6 fp=0x7ffcccbb0050 sp=0x7ffcccbb0010 pc=0xad91e6
+Jan 25 17:51:47 localhost ipfs[20634]: runtime.(*mheap).sysAlloc(0x2ef15e0, 0x400000, 0x0, 0x0)
+Jan 25 17:51:47 localhost ipfs[20634]: #011runtime/malloc.go:729 +0x1e5 fp=0x7ffcccbb00f8 sp=0x7ffcccbb0050 pc=0xacc4a5
+Jan 25 17:51:47 localhost ipfs[20634]: runtime.(*mheap).grow(0x2ef15e0, 0x1, 0x0)
+Jan 25 17:51:47 localhost ipfs[20634]: #011runtime/mheap.go:1346 +0x85 fp=0x7ffcccbb0160 sp=0x7ffcccbb00f8 pc=0xae8385
+Jan 25 17:51:47 localhost ipfs[20634]: runtime.(*mheap).allocSpan(0x2ef15e0, 0x1, 0x2c00, 0x0)
+Jan 25 17:51:47 localhost ipfs[20634]: #011runtime/mheap.go:1173 +0x609 fp=0x7ffcccbb01e0 sp=0x7ffcccbb0160 pc=0xae8189
+Jan 25 17:51:47 localhost ipfs[20634]: runtime.(*mheap).alloc.func1()
+Jan 25 17:51:47 localhost ipfs[20634]: #011runtime/mheap.go:910 +0x59 fp=0x7ffcccbb0230 sp=0x7ffcccbb01e0 pc=0xb28259
+Jan 25 17:51:47 localhost ipfs[20634]: runtime.(*mheap).alloc(0x2ef15e0, 0x1, 0x220000012c, 0xffffffff)
+Jan 25 17:51:47 localhost ipfs[20634]: #011runtime/mheap.go:904 +0x85 fp=0x7ffcccbb0280 sp=0x7ffcccbb0230 pc=0xae7725
+Jan 25 17:51:47 localhost ipfs[20634]: runtime.(*mcentral).grow(0x2f03918, 0x0)
+Jan 25 17:51:47 localhost ipfs[20634]: #011runtime/mcentral.go:232 +0x79 fp=0x7ffcccbb02c8 sp=0x7ffcccbb0280 pc=0xad87d9
+Jan 25 17:51:47 localhost ipfs[20634]: runtime.(*mcentral).cacheSpan(0x2f03918, 0x7ffcccbb0378)
+Jan 25 17:51:47 localhost ipfs[20634]: #011runtime/mcentral.go:158 +0x2ff fp=0x7ffcccbb0320 sp=0x7ffcccbb02c8 pc=0xad85bf
+Jan 25 17:51:47 localhost ipfs[20634]: runtime.(*mcache).refill(0x7fde97d02108, 0x2c)
+Jan 25 17:51:47 localhost ipfs[20634]: #011runtime/mcache.go:162 +0xaa fp=0x7ffcccbb0368 sp=0x7ffcccbb0320 pc=0xad7aca
+Jan 25 17:51:47 localhost ipfs[20634]: runtime.(*mcache).nextFree(0x7fde97d02108, 0x7ffcccbb032c, 0xb26e25, 0x7ffcccbb0408, 0xacdfbe)
+Jan 25 17:51:47 localhost ipfs[20634]: #011runtime/malloc.go:882 +0x8d fp=0x7ffcccbb03a0 sp=0x7ffcccbb0368 pc=0xaccd0d
+Jan 25 17:51:47 localhost ipfs[20634]: runtime.mallocgc(0x178, 0x1e72f40, 0x7ffcccbb0401, 0x7ffcccbb0488)
+Jan 25 17:51:47 localhost ipfs[20634]: #011runtime/malloc.go:1069 +0x850 fp=0x7ffcccbb0428 sp=0x7ffcccbb03a0 pc=0xacd710
+Jan 25 17:51:47 localhost ipfs[20634]: runtime.newobject(0x1e72f40, 0xb26de0)
+Jan 25 17:51:47 localhost ipfs[20634]: #011runtime/malloc.go:1177 +0x38 fp=0x7ffcccbb0458 sp=0x7ffcccbb0428 pc=0xacd978
+Jan 25 17:51:47 localhost ipfs[20634]: runtime.malg(0x8000, 0x0)
+Jan 25 17:51:47 localhost ipfs[20634]: #011runtime/proc.go:3988 +0x31 fp=0x7ffcccbb0498 sp=0x7ffcccbb0458 pc=0xb03091
+Jan 25 17:51:47 localhost ipfs[20634]: runtime.mpreinit(0x2ed8d40)
+Jan 25 17:51:47 localhost ipfs[20634]: #011runtime/os_linux.go:355 +0x29 fp=0x7ffcccbb04b8 sp=0x7ffcccbb0498 pc=0xaf43a9
+Jan 25 17:51:47 localhost ipfs[20634]: runtime.mcommoninit(0x2ed8d40, 0xffffffffffffffff)
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Jan 25 17:51:47 localhost ipfs[20635]: fatal error: runtime: out of memory
+Jan 25 17:51:47 localhost ipfs[20635]: runtime stack:
+Jan 25 17:51:47 localhost ipfs[20635]: runtime.throw(0x1f7baf4, 0x16)
+Jan 25 17:51:47 localhost ipfs[20635]: #011runtime/panic.go:1117 +0x72 fp=0x7fff0f5106c0 sp=0x7fff0f510690 pc=0xaf7c52
+Jan 25 17:51:47 localhost ipfs[20635]: runtime.sysMap(0xc000000000, 0x4000000, 0x2f0b810)
+Jan 25 17:51:47 localhost ipfs[20635]: #011runtime/mem_linux.go:169 +0xc6 fp=0x7fff0f510700 sp=0x7fff0f5106c0 pc=0xad91e6
+Jan 25 17:51:47 localhost ipfs[20635]: runtime.(*mheap).sysAlloc(0x2ef15e0, 0x400000, 0x0, 0x0)
+Jan 25 17:51:47 localhost ipfs[20635]: #011runtime/malloc.go:729 +0x1e5 fp=0x7fff0f5107a8 sp=0x7fff0f510700 pc=0xacc4a5
+Jan 25 17:51:47 localhost ipfs[20635]: runtime.(*mheap).grow(0x2ef15e0, 0x1, 0x0)
+Jan 25 17:51:47 localhost ipfs[20635]: #011runtime/mheap.go:1346 +0x85 fp=0x7fff0f510810 sp=0x7fff0f5107a8 pc=0xae8385
+Jan 25 17:51:47 localhost ipfs[20635]: runtime.(*mheap).allocSpan(0x2ef15e0, 0x1, 0x2c00, 0x0)
+Jan 25 17:51:47 localhost ipfs[20635]: #011runtime/mheap.go:1173 +0x609 fp=0x7fff0f510890 sp=0x7fff0f510810 pc=0xae8189
+Jan 25 17:51:47 localhost ipfs[20635]: runtime.(*mheap).alloc.func1()
+Jan 25 17:51:47 localhost ipfs[20635]: #011runtime/mheap.go:910 +0x59 fp=0x7fff0f5108e0 sp=0x7fff0f510890 pc=0xb28259
+Jan 25 17:51:47 localhost ipfs[20635]: runtime.(*mheap).alloc(0x2ef15e0, 0x1, 0x220000012c, 0xffffffff)
+Jan 25 17:51:47 localhost ipfs[20635]: #011runtime/mheap.go:904 +0x85 fp=0x7fff0f510930 sp=0x7fff0f5108e0 pc=0xae7725
+Jan 25 17:51:47 localhost ipfs[20635]: runtime.(*mcentral).grow(0x2f03918, 0x0)
+Jan 25 17:51:47 localhost ipfs[20635]: #011runtime/mcentral.go:232 +0x79 fp=0x7fff0f510978 sp=0x7fff0f510930 pc=0xad87d9
+Jan 25 17:51:47 localhost ipfs[20635]: runtime.(*mcentral).cacheSpan(0x2f03918, 0x7fff0f510a28)
+Jan 25 17:51:47 localhost ipfs[20635]: #011runtime/mcentral.go:158 +0x2ff fp=0x7fff0f5109d0 sp=0x7fff0f510978 pc=0xad85bf
+Jan 25 17:51:47 localhost ipfs[20635]: runtime.(*mcache).refill(0x7f9f03a39108, 0x2c)
+Jan 25 17:51:47 localhost ipfs[20635]: #011runtime/mcache.go:162 +0xaa fp=0x7fff0f510a18 sp=0x7fff0f5109d0 pc=0xad7aca
+Jan 25 17:51:47 localhost ipfs[20635]: runtime.(*mcache).nextFree(0x7f9f03a39108, 0x7fff0f510a2c, 0xb26e25, 0x7fff0f510ab8, 0xacdfbe)
+Jan 25 17:51:47 localhost ipfs[20635]: #011runtime/malloc.go:882 +0x8d fp=0x7fff0f510a50 sp=0x7fff0f510a18 pc=0xaccd0d
+Jan 25 17:51:47 localhost ipfs[20635]: runtime.mallocgc(0x178, 0x1e72f40, 0x7fff0f510b01, 0x7fff0f510b38)
+Jan 25 17:51:47 localhost ipfs[20635]: #011runtime/malloc.go:1069 +0x850 fp=0x7fff0f510ad8 sp=0x7fff0f510a50 pc=0xacd710
+Jan 25 17:51:47 localhost ipfs[20635]: runtime.newobject(0x1e72f40, 0xb26de0)
+Jan 25 17:51:47 localhost ipfs[20635]: #011runtime/malloc.go:1177 +0x38 fp=0x7fff0f510b08 sp=0x7fff0f510ad8 pc=0xacd978
+Jan 25 17:51:47 localhost ipfs[20635]: runtime.malg(0x8000, 0x0)
+Jan 25 17:51:47 localhost ipfs[20635]: #011runtime/proc.go:3988 +0x31 fp=0x7fff0f510b48 sp=0x7fff0f510b08 pc=0xb03091
+Jan 25 17:51:47 localhost ipfs[20635]: runtime.mpreinit(0x2ed8d40)
+Jan 25 17:51:47 localhost ipfs[20635]: #011runtime/os_linux.go:355 +0x29 fp=0x7fff0f510b68 sp=0x7fff0f510b48 pc=0xaf43a9
+Jan 25 17:51:47 localhost ipfs[20635]: runtime.mcommoninit(0x2ed8d40, 0xffffffffffffffff)
+Jan 25 17:51:47 localhost ipfs[20634]: #011runtime/proc.go:744 +0xf7 fp=0x7ffcccbb0500 sp=0x7ffcccbb04b8 pc=0xafbd57
+Jan 25 17:51:47 localhost ipfs[20634]: runtime.schedinit()
+Jan 25 17:51:47 localhost ipfs[20634]: #011runtime/proc.go:637 +0xaf fp=0x7ffcccbb0560 sp=0x7ffcccbb0500 pc=0xafb8cf
+Jan 25 17:51:47 localhost ipfs[20634]: runtime.rt0_go(0x7ffcccbb0668, 0x2, 0x7ffcccbb0668, 0x0, 0x7fde97d6909b, 0x0, 0x7ffcccbb0668, 0x200200000, 0xb31180, 0x0, ...)
+Jan 25 17:51:47 localhost ipfs[20634]: #011runtime/asm_amd64.s:220 +0x125 fp=0x7ffcccbb0568 sp=0x7ffcccbb0560 pc=0xb312c5
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Failed with result 'exit-code'.
+Jan 25 17:51:47 localhost ipfs[20637]: fatal error: runtime: out of memory
+Jan 25 17:51:47 localhost ipfs[20637]: runtime stack:
+Jan 25 17:51:47 localhost ipfs[20637]: runtime.throw(0x1f7baf4, 0x16)
+Jan 25 17:51:47 localhost ipfs[20637]: #011runtime/panic.go:1117 +0x72 fp=0x7fff82630980 sp=0x7fff82630950 pc=0xaf7c52
+Jan 25 17:51:47 localhost ipfs[20637]: runtime.sysMap(0xc000000000, 0x4000000, 0x2f0b810)
+Jan 25 17:51:47 localhost ipfs[20637]: #011runtime/mem_linux.go:169 +0xc6 fp=0x7fff826309c0 sp=0x7fff82630980 pc=0xad91e6
+Jan 25 17:51:47 localhost ipfs[20637]: runtime.(*mheap).sysAlloc(0x2ef15e0, 0x400000, 0x0, 0x0)
+Jan 25 17:51:47 localhost ipfs[20637]: #011runtime/malloc.go:729 +0x1e5 fp=0x7fff82630a68 sp=0x7fff826309c0 pc=0xacc4a5
+Jan 25 17:51:47 localhost ipfs[20637]: runtime.(*mheap).grow(0x2ef15e0, 0x1, 0x0)
+Jan 25 17:51:47 localhost ipfs[20637]: #011runtime/mheap.go:1346 +0x85 fp=0x7fff82630ad0 sp=0x7fff82630a68 pc=0xae8385
+Jan 25 17:51:47 localhost ipfs[20637]: runtime.(*mheap).allocSpan(0x2ef15e0, 0x1, 0x2c00, 0x0)
+Jan 25 17:51:47 localhost ipfs[20637]: #011runtime/mheap.go:1173 +0x609 fp=0x7fff82630b50 sp=0x7fff82630ad0 pc=0xae8189
+Jan 25 17:51:47 localhost ipfs[20637]: runtime.(*mheap).alloc.func1()
+Jan 25 17:51:47 localhost ipfs[20637]: #011runtime/mheap.go:910 +0x59 fp=0x7fff82630ba0 sp=0x7fff82630b50 pc=0xb28259
+Jan 25 17:51:47 localhost ipfs[20637]: runtime.(*mheap).alloc(0x2ef15e0, 0x1, 0x220000012c, 0xffffffff)
+Jan 25 17:51:47 localhost ipfs[20637]: #011runtime/mheap.go:904 +0x85 fp=0x7fff82630bf0 sp=0x7fff82630ba0 pc=0xae7725
+Jan 25 17:51:47 localhost ipfs[20637]: runtime.(*mcentral).grow(0x2f03918, 0x0)
+Jan 25 17:51:47 localhost ipfs[20637]: #011runtime/mcentral.go:232 +0x79 fp=0x7fff82630c38 sp=0x7fff82630bf0 pc=0xad87d9
+Jan 25 17:51:47 localhost ipfs[20637]: runtime.(*mcentral).cacheSpan(0x2f03918, 0x7fff82630ce8)
+Jan 25 17:51:47 localhost ipfs[20637]: #011runtime/mcentral.go:158 +0x2ff fp=0x7fff82630c90 sp=0x7fff82630c38 pc=0xad85bf
+Jan 25 17:51:47 localhost ipfs[20637]: runtime.(*mcache).refill(0x7f8806a03108, 0x2c)
+Jan 25 17:51:47 localhost ipfs[20637]: #011runtime/mcache.go:162 +0xaa fp=0x7fff82630cd8 sp=0x7fff82630c90 pc=0xad7aca
+Jan 25 17:51:47 localhost ipfs[20637]: runtime.(*mcache).nextFree(0x7f8806a03108, 0x7fff82630d2c, 0xb26e25, 0x7fff82630d78, 0xacdfbe)
+Jan 25 17:51:47 localhost ipfs[20637]: #011runtime/malloc.go:882 +0x8d fp=0x7fff82630d10 sp=0x7fff82630cd8 pc=0xaccd0d
+Jan 25 17:51:47 localhost ipfs[20637]: runtime.mallocgc(0x178, 0x1e72f40, 0x7fff82630d01, 0x7fff82630df8)
+Jan 25 17:51:47 localhost ipfs[20637]: #011runtime/malloc.go:1069 +0x850 fp=0x7fff82630d98 sp=0x7fff82630d10 pc=0xacd710
+Jan 25 17:51:47 localhost ipfs[20637]: runtime.newobject(0x1e72f40, 0xb26de0)
+Jan 25 17:51:47 localhost ipfs[20637]: #011runtime/malloc.go:1177 +0x38 fp=0x7fff82630dc8 sp=0x7fff82630d98 pc=0xacd978
+Jan 25 17:51:47 localhost ipfs[20637]: runtime.malg(0x8000, 0x0)
+Jan 25 17:51:47 localhost ipfs[20637]: #011runtime/proc.go:3988 +0x31 fp=0x7fff82630e08 sp=0x7fff82630dc8 pc=0xb03091
+Jan 25 17:51:47 localhost ipfs[20637]: runtime.mpreinit(0x2ed8d40)
+Jan 25 17:51:47 localhost ipfs[20637]: #011runtime/os_linux.go:355 +0x29 fp=0x7fff82630e28 sp=0x7fff82630e08 pc=0xaf43a9
+Jan 25 17:51:47 localhost ipfs[20637]: runtime.mcommoninit(0x2ed8d40, 0xffffffffffffffff)
+Jan 25 17:51:47 localhost ipfs[20635]: #011runtime/proc.go:744 +0xf7 fp=0x7fff0f510bb0 sp=0x7fff0f510b68 pc=0xafbd57
+Jan 25 17:51:47 localhost ipfs[20635]: runtime.schedinit()
+Jan 25 17:51:47 localhost ipfs[20635]: #011runtime/proc.go:637 +0xaf fp=0x7fff0f510c10 sp=0x7fff0f510bb0 pc=0xafb8cf
+Jan 25 17:51:47 localhost ipfs[20635]: runtime.rt0_go(0x7fff0f510d18, 0x2, 0x7fff0f510d18, 0x0, 0x7f9f03aa009b, 0x0, 0x7fff0f510d18, 0x200200000, 0xb31180, 0x0, ...)
+Jan 25 17:51:47 localhost ipfs[20635]: #011runtime/asm_amd64.s:220 +0x125 fp=0x7fff0f510c18 sp=0x7fff0f510c10 pc=0xb312c5
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Service RestartSec=100ms expired, scheduling restart.
+Jan 25 17:51:47 localhost ipfs[20637]: #011runtime/proc.go:744 +0xf7 fp=0x7fff82630e70 sp=0x7fff82630e28 pc=0xafbd57
+Jan 25 17:51:47 localhost ipfs[20637]: runtime.schedinit()
+Jan 25 17:51:47 localhost ipfs[20637]: #011runtime/proc.go:637 +0xaf fp=0x7fff82630ed0 sp=0x7fff82630e70 pc=0xafb8cf
+Jan 25 17:51:47 localhost ipfs[20637]: runtime.rt0_go(0x7fff82630fd8, 0x2, 0x7fff82630fd8, 0x0, 0x7f8806a6a09b, 0x0, 0x7fff82630fd8, 0x200200000, 0xb31180, 0x0, ...)
+Jan 25 17:51:47 localhost ipfs[20637]: #011runtime/asm_amd64.s:220 +0x125 fp=0x7fff82630ed8 sp=0x7fff82630ed0 pc=0xb312c5
+Jan 25 17:51:47 localhost ipfs[20640]: fatal error: runtime: out of memory
+Jan 25 17:51:47 localhost ipfs[20640]: runtime stack:
+Jan 25 17:51:47 localhost ipfs[20640]: runtime.throw(0x1f7baf4, 0x16)
+Jan 25 17:51:47 localhost ipfs[20640]: #011runtime/panic.go:1117 +0x72 fp=0x7ffde05687e0 sp=0x7ffde05687b0 pc=0xaf7c52
+Jan 25 17:51:47 localhost ipfs[20640]: runtime.sysMap(0xc000000000, 0x4000000, 0x2f0b810)
+Jan 25 17:51:47 localhost ipfs[20640]: #011runtime/mem_linux.go:169 +0xc6 fp=0x7ffde0568820 sp=0x7ffde05687e0 pc=0xad91e6
+Jan 25 17:51:47 localhost ipfs[20640]: runtime.(*mheap).sysAlloc(0x2ef15e0, 0x400000, 0x0, 0x0)
+Jan 25 17:51:47 localhost ipfs[20640]: #011runtime/malloc.go:729 +0x1e5 fp=0x7ffde05688c8 sp=0x7ffde0568820 pc=0xacc4a5
+Jan 25 17:51:47 localhost ipfs[20640]: runtime.(*mheap).grow(0x2ef15e0, 0x1, 0x0)
+Jan 25 17:51:47 localhost ipfs[20640]: #011runtime/mheap.go:1346 +0x85 fp=0x7ffde0568930 sp=0x7ffde05688c8 pc=0xae8385
+Jan 25 17:51:47 localhost ipfs[20640]: runtime.(*mheap).allocSpan(0x2ef15e0, 0x1, 0x2c00, 0x0)
+Jan 25 17:51:47 localhost ipfs[20640]: #011runtime/mheap.go:1173 +0x609 fp=0x7ffde05689b0 sp=0x7ffde0568930 pc=0xae8189
+Jan 25 17:51:47 localhost ipfs[20640]: runtime.(*mheap).alloc.func1()
+Jan 25 17:51:47 localhost ipfs[20640]: #011runtime/mheap.go:910 +0x59 fp=0x7ffde0568a00 sp=0x7ffde05689b0 pc=0xb28259
+Jan 25 17:51:47 localhost ipfs[20640]: runtime.(*mheap).alloc(0x2ef15e0, 0x1, 0x220000012c, 0xffffffff)
+Jan 25 17:51:47 localhost ipfs[20640]: #011runtime/mheap.go:904 +0x85 fp=0x7ffde0568a50 sp=0x7ffde0568a00 pc=0xae7725
+Jan 25 17:51:47 localhost ipfs[20640]: runtime.(*mcentral).grow(0x2f03918, 0x0)
+Jan 25 17:51:47 localhost ipfs[20640]: #011runtime/mcentral.go:232 +0x79 fp=0x7ffde0568a98 sp=0x7ffde0568a50 pc=0xad87d9
+Jan 25 17:51:47 localhost ipfs[20640]: runtime.(*mcentral).cacheSpan(0x2f03918, 0x7ffde0568b48)
+Jan 25 17:51:47 localhost ipfs[20640]: #011runtime/mcentral.go:158 +0x2ff fp=0x7ffde0568af0 sp=0x7ffde0568a98 pc=0xad85bf
+Jan 25 17:51:47 localhost ipfs[20640]: runtime.(*mcache).refill(0x7f8ff33eb108, 0x2c)
+Jan 25 17:51:47 localhost ipfs[20640]: #011runtime/mcache.go:162 +0xaa fp=0x7ffde0568b38 sp=0x7ffde0568af0 pc=0xad7aca
+Jan 25 17:51:47 localhost ipfs[20640]: runtime.(*mcache).nextFree(0x7f8ff33eb108, 0x7ffde0568b2c, 0xb26e25, 0x7ffde0568bd8, 0xacdfbe)
+Jan 25 17:51:47 localhost ipfs[20640]: #011runtime/malloc.go:882 +0x8d fp=0x7ffde0568b70 sp=0x7ffde0568b38 pc=0xaccd0d
+Jan 25 17:51:47 localhost ipfs[20640]: runtime.mallocgc(0x178, 0x1e72f40, 0x7ffde0568c01, 0x7ffde0568c58)
+Jan 25 17:51:47 localhost ipfs[20640]: #011runtime/malloc.go:1069 +0x850 fp=0x7ffde0568bf8 sp=0x7ffde0568b70 pc=0xacd710
+Jan 25 17:51:47 localhost ipfs[20640]: runtime.newobject(0x1e72f40, 0xb26de0)
+Jan 25 17:51:47 localhost ipfs[20640]: #011runtime/malloc.go:1177 +0x38 fp=0x7ffde0568c28 sp=0x7ffde0568bf8 pc=0xacd978
+Jan 25 17:51:47 localhost ipfs[20640]: runtime.malg(0x8000, 0x0)
+Jan 25 17:51:47 localhost ipfs[20640]: #011runtime/proc.go:3988 +0x31 fp=0x7ffde0568c68 sp=0x7ffde0568c28 pc=0xb03091
+Jan 25 17:51:47 localhost ipfs[20640]: runtime.mpreinit(0x2ed8d40)
+Jan 25 17:51:47 localhost ipfs[20640]: #011runtime/os_linux.go:355 +0x29 fp=0x7ffde0568c88 sp=0x7ffde0568c68 pc=0xaf43a9
+Jan 25 17:51:47 localhost ipfs[20640]: runtime.mcommoninit(0x2ed8d40, 0xffffffffffffffff)
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Scheduled restart job, restart counter is at 5.
+Jan 25 17:51:47 localhost ipfs[20641]: fatal error: runtime: out of memory
+Jan 25 17:51:47 localhost ipfs[20641]: runtime stack:
+Jan 25 17:51:47 localhost ipfs[20641]: runtime.throw(0x1f7baf4, 0x16)
+Jan 25 17:51:47 localhost ipfs[20641]: #011runtime/panic.go:1117 +0x72 fp=0x7fff45380860 sp=0x7fff45380830 pc=0xaf7c52
+Jan 25 17:51:47 localhost ipfs[20641]: runtime.sysMap(0xc000000000, 0x4000000, 0x2f0b810)
+Jan 25 17:51:47 localhost ipfs[20641]: #011runtime/mem_linux.go:169 +0xc6 fp=0x7fff453808a0 sp=0x7fff45380860 pc=0xad91e6
+Jan 25 17:51:47 localhost ipfs[20641]: runtime.(*mheap).sysAlloc(0x2ef15e0, 0x400000, 0x0, 0x0)
+Jan 25 17:51:47 localhost ipfs[20641]: #011runtime/malloc.go:729 +0x1e5 fp=0x7fff45380948 sp=0x7fff453808a0 pc=0xacc4a5
+Jan 25 17:51:47 localhost ipfs[20641]: runtime.(*mheap).grow(0x2ef15e0, 0x1, 0x0)
+Jan 25 17:51:47 localhost ipfs[20641]: #011runtime/mheap.go:1346 +0x85 fp=0x7fff453809b0 sp=0x7fff45380948 pc=0xae8385
+Jan 25 17:51:47 localhost ipfs[20641]: runtime.(*mheap).allocSpan(0x2ef15e0, 0x1, 0x2c00, 0x0)
+Jan 25 17:51:47 localhost ipfs[20641]: #011runtime/mheap.go:1173 +0x609 fp=0x7fff45380a30 sp=0x7fff453809b0 pc=0xae8189
+Jan 25 17:51:47 localhost ipfs[20641]: runtime.(*mheap).alloc.func1()
+Jan 25 17:51:47 localhost ipfs[20641]: #011runtime/mheap.go:910 +0x59 fp=0x7fff45380a80 sp=0x7fff45380a30 pc=0xb28259
+Jan 25 17:51:47 localhost ipfs[20641]: runtime.(*mheap).alloc(0x2ef15e0, 0x1, 0x220000012c, 0xffffffff)
+Jan 25 17:51:47 localhost ipfs[20641]: #011runtime/mheap.go:904 +0x85 fp=0x7fff45380ad0 sp=0x7fff45380a80 pc=0xae7725
+Jan 25 17:51:47 localhost ipfs[20641]: runtime.(*mcentral).grow(0x2f03918, 0x0)
+Jan 25 17:51:47 localhost ipfs[20641]: #011runtime/mcentral.go:232 +0x79 fp=0x7fff45380b18 sp=0x7fff45380ad0 pc=0xad87d9
+Jan 25 17:51:47 localhost ipfs[20641]: runtime.(*mcentral).cacheSpan(0x2f03918, 0x7fff45380bc8)
+Jan 25 17:51:47 localhost ipfs[20641]: #011runtime/mcentral.go:158 +0x2ff fp=0x7fff45380b70 sp=0x7fff45380b18 pc=0xad85bf
+Jan 25 17:51:47 localhost ipfs[20641]: runtime.(*mcache).refill(0x7f20f22d9108, 0x2c)
+Jan 25 17:51:47 localhost ipfs[20641]: #011runtime/mcache.go:162 +0xaa fp=0x7fff45380bb8 sp=0x7fff45380b70 pc=0xad7aca
+Jan 25 17:51:47 localhost ipfs[20641]: runtime.(*mcache).nextFree(0x7f20f22d9108, 0x7fff45380c2c, 0xb26e25, 0x7fff45380c58, 0xacdfbe)
+Jan 25 17:51:47 localhost ipfs[20641]: #011runtime/malloc.go:882 +0x8d fp=0x7fff45380bf0 sp=0x7fff45380bb8 pc=0xaccd0d
+Jan 25 17:51:47 localhost ipfs[20641]: runtime.mallocgc(0x178, 0x1e72f40, 0x7fff45380c01, 0x7fff45380cd8)
+Jan 25 17:51:47 localhost ipfs[20641]: #011runtime/malloc.go:1069 +0x850 fp=0x7fff45380c78 sp=0x7fff45380bf0 pc=0xacd710
+Jan 25 17:51:47 localhost ipfs[20641]: runtime.newobject(0x1e72f40, 0xb26de0)
+Jan 25 17:51:47 localhost ipfs[20641]: #011runtime/malloc.go:1177 +0x38 fp=0x7fff45380ca8 sp=0x7fff45380c78 pc=0xacd978
+Jan 25 17:51:47 localhost ipfs[20641]: runtime.malg(0x8000, 0x0)
+Jan 25 17:51:47 localhost ipfs[20641]: #011runtime/proc.go:3988 +0x31 fp=0x7fff45380ce8 sp=0x7fff45380ca8 pc=0xb03091
+Jan 25 17:51:47 localhost ipfs[20641]: runtime.mpreinit(0x2ed8d40)
+Jan 25 17:51:47 localhost ipfs[20641]: #011runtime/os_linux.go:355 +0x29 fp=0x7fff45380d08 sp=0x7fff45380ce8 pc=0xaf43a9
+Jan 25 17:51:47 localhost ipfs[20641]: runtime.mcommoninit(0x2ed8d40, 0xffffffffffffffff)
+Jan 25 17:51:47 localhost ipfs[20640]: #011runtime/proc.go:744 +0xf7 fp=0x7ffde0568cd0 sp=0x7ffde0568c88 pc=0xafbd57
+Jan 25 17:51:47 localhost ipfs[20640]: runtime.schedinit()
+Jan 25 17:51:47 localhost ipfs[20640]: #011runtime/proc.go:637 +0xaf fp=0x7ffde0568d30 sp=0x7ffde0568cd0 pc=0xafb8cf
+Jan 25 17:51:47 localhost ipfs[20640]: runtime.rt0_go(0x7ffde0568e38, 0x2, 0x7ffde0568e38, 0x0, 0x7f8ff345209b, 0x0, 0x7ffde0568e38, 0x200200000, 0xb31180, 0x0, ...)
+Jan 25 17:51:47 localhost ipfs[20640]: #011runtime/asm_amd64.s:220 +0x125 fp=0x7ffde0568d38 sp=0x7ffde0568d30 pc=0xb312c5
+Jan 25 17:51:47 localhost systemd[1]: Stopped ipfs.service.
+Jan 25 17:51:47 localhost ipfs[20641]: #011runtime/proc.go:744 +0xf7 fp=0x7fff45380d50 sp=0x7fff45380d08 pc=0xafbd57
+Jan 25 17:51:47 localhost ipfs[20641]: runtime.schedinit()
+Jan 25 17:51:47 localhost ipfs[20641]: #011runtime/proc.go:637 +0xaf fp=0x7fff45380db0 sp=0x7fff45380d50 pc=0xafb8cf
+Jan 25 17:51:47 localhost ipfs[20641]: runtime.rt0_go(0x7fff45380eb8, 0x2, 0x7fff45380eb8, 0x0, 0x7f20f234009b, 0x0, 0x7fff45380eb8, 0x200200000, 0xb31180, 0x0, ...)
+Jan 25 17:51:47 localhost ipfs[20641]: #011runtime/asm_amd64.s:220 +0x125 fp=0x7fff45380db8 sp=0x7fff45380db0 pc=0xb312c5
+Jan 25 17:51:47 localhost systemd[1]: Started ipfs.service.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Failed with result 'exit-code'.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Service RestartSec=100ms expired, scheduling restart.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Scheduled restart job, restart counter is at 6.
+Jan 25 17:51:47 localhost systemd[1]: Stopped ipfs.service.
+Jan 25 17:51:47 localhost systemd[1]: Started ipfs.service.
+Jan 25 17:51:47 localhost systemd[1]: /etc/systemd/system/ipfs.service:1: Missing '='.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Failed with result 'exit-code'.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Service RestartSec=100ms expired, scheduling restart.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Scheduled restart job, restart counter is at 7.
+Jan 25 17:51:47 localhost systemd[1]: Stopped ipfs.service.
+Jan 25 17:51:47 localhost systemd[1]: Started ipfs.service.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Failed with result 'exit-code'.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Service RestartSec=100ms expired, scheduling restart.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Scheduled restart job, restart counter is at 8.
+Jan 25 17:51:47 localhost systemd[1]: Stopped ipfs.service.
+Jan 25 17:51:47 localhost systemd[1]: Started ipfs.service.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Failed with result 'exit-code'.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Service RestartSec=100ms expired, scheduling restart.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Scheduled restart job, restart counter is at 9.
+Jan 25 17:51:47 localhost systemd[1]: Stopped ipfs.service.
+Jan 25 17:51:47 localhost systemd[1]: Started ipfs.service.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Failed with result 'exit-code'.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Service RestartSec=100ms expired, scheduling restart.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Scheduled restart job, restart counter is at 10.
+Jan 25 17:51:47 localhost systemd[1]: Stopped ipfs.service.
+Jan 25 17:51:47 localhost systemd[1]: Started ipfs.service.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Failed with result 'exit-code'.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Service RestartSec=100ms expired, scheduling restart.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Scheduled restart job, restart counter is at 11.
+Jan 25 17:51:47 localhost systemd[1]: Stopped ipfs.service.
+Jan 25 17:51:47 localhost systemd[1]: Started ipfs.service.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Failed with result 'exit-code'.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Service RestartSec=100ms expired, scheduling restart.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Scheduled restart job, restart counter is at 12.
+Jan 25 17:51:47 localhost systemd[1]: Stopped ipfs.service.
+Jan 25 17:51:47 localhost systemd[1]: Started ipfs.service.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Failed with result 'exit-code'.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Service RestartSec=100ms expired, scheduling restart.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Scheduled restart job, restart counter is at 13.
+Jan 25 17:51:47 localhost systemd[1]: Stopped ipfs.service.
+Jan 25 17:51:47 localhost systemd[1]: Started ipfs.service.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Failed with result 'exit-code'.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Service RestartSec=100ms expired, scheduling restart.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Scheduled restart job, restart counter is at 14.
+Jan 25 17:51:47 localhost systemd[1]: Stopped ipfs.service.
+Jan 25 17:51:47 localhost systemd[1]: Started ipfs.service.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Failed with result 'exit-code'.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Service RestartSec=100ms expired, scheduling restart.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Scheduled restart job, restart counter is at 15.
+Jan 25 17:51:47 localhost systemd[1]: Stopped ipfs.service.
+Jan 25 17:51:47 localhost systemd[1]: Started ipfs.service.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Failed with result 'exit-code'.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Service RestartSec=100ms expired, scheduling restart.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Scheduled restart job, restart counter is at 16.
+Jan 25 17:51:47 localhost systemd[1]: Stopped ipfs.service.
+Jan 25 17:51:47 localhost systemd[1]: Started ipfs.service.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Failed with result 'exit-code'.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Service RestartSec=100ms expired, scheduling restart.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Scheduled restart job, restart counter is at 17.
+Jan 25 17:51:47 localhost systemd[1]: Stopped ipfs.service.
+Jan 25 17:51:47 localhost systemd[1]: Started ipfs.service.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Failed with result 'exit-code'.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Service RestartSec=100ms expired, scheduling restart.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Scheduled restart job, restart counter is at 18.
+Jan 25 17:51:47 localhost systemd[1]: Stopped ipfs.service.
+Jan 25 17:51:47 localhost systemd[1]: Started ipfs.service.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Failed with result 'exit-code'.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Service RestartSec=100ms expired, scheduling restart.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Scheduled restart job, restart counter is at 19.
+Jan 25 17:51:47 localhost systemd[1]: Stopped ipfs.service.
+Jan 25 17:51:47 localhost systemd[1]: Started ipfs.service.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Failed with result 'exit-code'.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Service RestartSec=100ms expired, scheduling restart.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Scheduled restart job, restart counter is at 20.
+Jan 25 17:51:47 localhost systemd[1]: Stopped ipfs.service.
+Jan 25 17:51:47 localhost systemd[1]: Started ipfs.service.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Failed with result 'exit-code'.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Service RestartSec=100ms expired, scheduling restart.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Scheduled restart job, restart counter is at 21.
+Jan 25 17:51:47 localhost systemd[1]: Stopped ipfs.service.
+Jan 25 17:51:47 localhost systemd[1]: Started ipfs.service.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Failed with result 'exit-code'.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Service RestartSec=100ms expired, scheduling restart.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Scheduled restart job, restart counter is at 22.
+Jan 25 17:51:47 localhost systemd[1]: Stopped ipfs.service.
+Jan 25 17:51:47 localhost systemd[1]: Started ipfs.service.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Failed with result 'exit-code'.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Service RestartSec=100ms expired, scheduling restart.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Scheduled restart job, restart counter is at 23.
+Jan 25 17:51:47 localhost systemd[1]: Stopped ipfs.service.
+Jan 25 17:51:47 localhost systemd[1]: Started ipfs.service.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Main process exited, code=exited, status=2/INVALIDARGUMENT
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Failed with result 'exit-code'.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Service RestartSec=100ms expired, scheduling restart.
+Jan 25 17:51:47 localhost systemd[1]: ipfs.service: Scheduled restart job, restart counter is at 24.
+Jan 25 17:51:47 localhost systemd[1]: Stopped ipfs.service.
+Jan 25 17:51:47 localhost systemd[1]: Started ipfs.service.
+Jan 25 17:51:47 localhost ipfs[20645]: Initializing daemon...
+Jan 25 17:51:47 localhost ipfs[20645]: go-ipfs version: 0.9.1
+Jan 25 17:51:47 localhost ipfs[20645]: Repo version: 11
+Jan 25 17:51:47 localhost ipfs[20645]: System version: amd64/linux
+Jan 25 17:51:47 localhost ipfs[20645]: Golang version: go1.16.6
+Jan 25 17:51:48 localhost ipfs[20645]: 2022/01/25 17:51:48 failed to sufficiently increase receive buffer size (was: 208 kiB, wanted: 2048 kiB, got: 416 kiB). See https://github.com/lucas-clemente/quic-go/wiki/UDP-Receive-Buffer-Size for details.
+Jan 25 17:51:48 localhost ipfs[20645]: Swarm listening on /ip4/127.0.0.1/tcp/4001
+Jan 25 17:51:48 localhost ipfs[20645]: Swarm listening on /ip4/127.0.0.1/udp/4001/quic
+Jan 25 17:51:48 localhost ipfs[20645]: Swarm listening on /ip4/158.247.200.34/tcp/4001
+Jan 25 17:51:48 localhost ipfs[20645]: Swarm listening on /ip4/158.247.200.34/udp/4001/quic
+Jan 25 17:51:48 localhost ipfs[20645]: Swarm listening on /ip4/158.247.223.84/tcp/4001
+Jan 25 17:51:48 localhost ipfs[20645]: Swarm listening on /ip4/158.247.223.84/udp/4001/quic
+Jan 25 17:51:48 localhost ipfs[20645]: Swarm listening on /ip4/172.17.0.1/tcp/4001
+Jan 25 17:51:48 localhost ipfs[20645]: Swarm listening on /ip4/172.17.0.1/udp/4001/quic
+Jan 25 17:51:48 localhost ipfs[20645]: Swarm listening on /ip4/172.18.0.1/tcp/4001
+Jan 25 17:51:48 localhost ipfs[20645]: Swarm listening on /ip4/172.18.0.1/udp/4001/quic
+Jan 25 17:51:48 localhost ipfs[20645]: Swarm listening on /ip4/172.19.0.1/tcp/4001
+Jan 25 17:51:48 localhost ipfs[20645]: Swarm listening on /ip4/172.19.0.1/udp/4001/quic
+Jan 25 17:51:48 localhost ipfs[20645]: Swarm listening on /ip4/172.20.0.1/tcp/4001
+Jan 25 17:51:48 localhost ipfs[20645]: Swarm listening on /ip4/172.20.0.1/udp/4001/quic
+Jan 25 17:51:48 localhost ipfs[20645]: Swarm listening on /ip6/::1/tcp/4001
+Jan 25 17:51:48 localhost ipfs[20645]: Swarm listening on /ip6/::1/udp/4001/quic
+Jan 25 17:51:48 localhost ipfs[20645]: Swarm listening on /p2p-circuit
+Jan 25 17:51:48 localhost ipfs[20645]: Swarm announcing /ip4/127.0.0.1/tcp/4001
+Jan 25 17:51:48 localhost ipfs[20645]: Swarm announcing /ip4/127.0.0.1/udp/4001/quic
+Jan 25 17:51:48 localhost ipfs[20645]: Swarm announcing /ip4/158.247.223.84/tcp/4001
+Jan 25 17:51:48 localhost ipfs[20645]: Swarm announcing /ip4/158.247.223.84/udp/4001/quic
+Jan 25 17:51:48 localhost ipfs[20645]: Swarm announcing /ip6/::1/tcp/4001
+Jan 25 17:51:48 localhost ipfs[20645]: Swarm announcing /ip6/::1/udp/4001/quic
+Jan 25 17:51:48 localhost ipfs[20645]: API server listening on /ip4/127.0.0.1/tcp/5001
+Jan 25 17:51:48 localhost ipfs[20645]: WebUI: http://127.0.0.1:5001/webui
+Jan 25 17:51:48 localhost ipfs[20645]: Gateway (readonly) server listening on /ip4/127.0.0.1/tcp/8080
+Jan 25 17:51:48 localhost ipfs[20645]: Daemon is ready
+Jan 25 18:09:00 localhost systemd[1]: Starting Clean php session files...
+Jan 25 18:09:02 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 25 18:09:02 localhost systemd[1]: Started Clean php session files.
+Jan 25 18:39:01 localhost systemd[1]: Starting Clean php session files...
+Jan 25 18:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 25 18:39:01 localhost systemd[1]: Started Clean php session files.
+Jan 25 19:09:01 localhost systemd[1]: Starting Clean php session files...
+Jan 25 19:09:02 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 25 19:09:02 localhost systemd[1]: Started Clean php session files.
+Jan 25 19:39:01 localhost systemd[1]: Starting Clean php session files...
+Jan 25 19:39:02 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 25 19:39:02 localhost systemd[1]: Started Clean php session files.
+Jan 25 19:53:52 localhost systemd[1]: Created slice User Slice of UID 1002.
+Jan 25 19:53:52 localhost systemd[1]: Starting User Runtime Directory /run/user/1002...
+Jan 25 19:53:52 localhost systemd[1]: Started User Runtime Directory /run/user/1002.
+Jan 25 19:53:52 localhost systemd[1]: Starting User Manager for UID 1002...
+Jan 25 19:53:52 localhost systemd[27173]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Jan 25 19:53:52 localhost systemd[27173]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jan 25 19:53:52 localhost systemd[27173]: Reached target Paths.
+Jan 25 19:53:52 localhost systemd[27173]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Jan 25 19:53:52 localhost systemd[27173]: Reached target Timers.
+Jan 25 19:53:52 localhost systemd[27173]: Listening on GnuPG cryptographic agent and passphrase cache.
+Jan 25 19:53:52 localhost systemd[27173]: Listening on GnuPG network certificate management daemon.
+Jan 25 19:53:52 localhost systemd[27173]: Reached target Sockets.
+Jan 25 19:53:52 localhost systemd[27173]: Reached target Basic System.
+Jan 25 19:53:52 localhost systemd[1]: Started User Manager for UID 1002.
+Jan 25 19:53:52 localhost systemd[1]: Started Session 32143 of user dave.
+Jan 25 19:53:52 localhost systemd[27173]: Reached target Default.
+Jan 25 19:53:52 localhost systemd[27173]: Startup finished in 178ms.
+Jan 25 19:55:37 localhost systemd[1]: session-32143.scope: Succeeded.
+Jan 25 19:55:48 localhost systemd[1]: Stopping User Manager for UID 1002...
+Jan 25 19:55:48 localhost systemd[27173]: Stopped target Default.
+Jan 25 19:55:48 localhost systemd[27173]: Stopped target Basic System.
+Jan 25 19:55:48 localhost systemd[27173]: Stopped target Sockets.
+Jan 25 19:55:48 localhost systemd[27173]: gpg-agent-browser.socket: Succeeded.
+Jan 25 19:55:48 localhost systemd[27173]: Closed GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jan 25 19:55:48 localhost systemd[27173]: gpg-agent-extra.socket: Succeeded.
+Jan 25 19:55:48 localhost systemd[27173]: Closed GnuPG cryptographic agent and passphrase cache (restricted).
+Jan 25 19:55:48 localhost systemd[27173]: gpg-agent-ssh.socket: Succeeded.
+Jan 25 19:55:48 localhost systemd[27173]: Closed GnuPG cryptographic agent (ssh-agent emulation).
+Jan 25 19:55:48 localhost systemd[27173]: Stopped target Paths.
+Jan 25 19:55:48 localhost systemd[27173]: Stopped target Timers.
+Jan 25 19:55:48 localhost systemd[27173]: dirmngr.socket: Succeeded.
+Jan 25 19:55:48 localhost systemd[27173]: Closed GnuPG network certificate management daemon.
+Jan 25 19:55:48 localhost systemd[27173]: gpg-agent.socket: Succeeded.
+Jan 25 19:55:48 localhost systemd[27173]: Closed GnuPG cryptographic agent and passphrase cache.
+Jan 25 19:55:48 localhost systemd[27173]: Reached target Shutdown.
+Jan 25 19:55:48 localhost systemd[27173]: systemd-exit.service: Succeeded.
+Jan 25 19:55:48 localhost systemd[27173]: Started Exit the Session.
+Jan 25 19:55:48 localhost systemd[27173]: Reached target Exit the Session.
+Jan 25 19:55:48 localhost systemd[1]: user@1002.service: Succeeded.
+Jan 25 19:55:48 localhost systemd[1]: Stopped User Manager for UID 1002.
+Jan 25 19:55:48 localhost systemd[1]: Stopping User Runtime Directory /run/user/1002...
+Jan 25 19:55:48 localhost systemd[1]: run-user-1002.mount: Succeeded.
+Jan 25 19:55:48 localhost systemd[24255]: run-user-1002.mount: Succeeded.
+Jan 25 19:55:48 localhost systemd[1]: user-runtime-dir@1002.service: Succeeded.
+Jan 25 19:55:48 localhost systemd[1]: Stopped User Runtime Directory /run/user/1002.
+Jan 25 19:55:48 localhost systemd[1]: Removed slice User Slice of UID 1002.
+Jan 25 19:56:54 localhost systemd[1]: Created slice User Slice of UID 1002.
+Jan 25 19:56:54 localhost systemd[1]: Starting User Runtime Directory /run/user/1002...
+Jan 25 19:56:54 localhost systemd[1]: Started User Runtime Directory /run/user/1002.
+Jan 25 19:56:54 localhost systemd[1]: Starting User Manager for UID 1002...
+Jan 25 19:56:54 localhost systemd[27321]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Jan 25 19:56:54 localhost systemd[27321]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Jan 25 19:56:54 localhost systemd[27321]: Listening on GnuPG network certificate management daemon.
+Jan 25 19:56:54 localhost systemd[27321]: Reached target Timers.
+Jan 25 19:56:54 localhost systemd[27321]: Listening on GnuPG cryptographic agent and passphrase cache.
+Jan 25 19:56:54 localhost systemd[27321]: Reached target Paths.
+Jan 25 19:56:54 localhost systemd[27321]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Jan 25 19:56:54 localhost systemd[27321]: Reached target Sockets.
+Jan 25 19:56:54 localhost systemd[27321]: Reached target Basic System.
+Jan 25 19:56:54 localhost systemd[1]: Started User Manager for UID 1002.
+Jan 25 19:56:54 localhost systemd[1]: Started Session 32146 of user dave.
+Jan 25 19:56:54 localhost systemd[27321]: Reached target Default.
+Jan 25 19:56:54 localhost systemd[27321]: Startup finished in 84ms.
+Jan 25 19:57:04 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
+Jan 25 19:57:04 localhost systemd[24255]: mnt-amzn2.mount: Succeeded.
+Jan 25 19:57:04 localhost systemd[27321]: mnt-amzn2.mount: Succeeded.

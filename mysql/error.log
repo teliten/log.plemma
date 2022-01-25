@@ -1,0 +1,19 @@
+2022-01-25 14:29:05 0 [ERROR] mysqld: Out of memory (Needed 128663552 bytes)
+2022-01-25 14:29:05 0 [ERROR] mysqld: Out of memory (Needed 96485376 bytes)
+2022-01-25 14:29:05 0 [Note] InnoDB: Using Linux native AIO
+2022-01-25 14:29:05 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2022-01-25 14:29:05 0 [Note] InnoDB: Uses event mutexes
+2022-01-25 14:29:05 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-01-25 14:29:05 0 [Note] InnoDB: Number of pools: 1
+2022-01-25 14:29:05 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-01-25 14:29:05 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-01-25 14:29:05 0 [ERROR] InnoDB: mmap(137035776 bytes) failed; errno 12
+2022-01-25 14:29:05 0 [ERROR] InnoDB: Cannot allocate memory for the buffer pool
+2022-01-25 14:29:05 0 [ERROR] InnoDB: Plugin initialization aborted with error Generic error
+2022-01-25 14:29:05 0 [Note] InnoDB: Starting shutdown...
+2022-01-25 14:29:05 0 [ERROR] Plugin 'InnoDB' init function returned error.
+2022-01-25 14:29:05 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2022-01-25 14:29:05 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-01-25 14:29:05 0 [ERROR] Unknown/unsupported storage engine: InnoDB
+2022-01-25 14:29:05 0 [ERROR] Aborting
+
