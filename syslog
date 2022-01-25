@@ -25370,3 +25370,11 @@ Jan 25 19:57:04 localhost systemd[24255]: mnt-amzn2.mount: Succeeded.
 Jan 25 19:57:04 localhost systemd[27321]: mnt-amzn2.mount: Succeeded.
 Jan 25 19:57:04 localhost kernel: [13982488.774813] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=45.135.232.96 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=245 ID=58739 PROTO=TCP SPT=57207 DPT=7125 WINDOW=1024 RES=0x00 SYN URGP=0 
 Jan 25 19:57:17 localhost dockerd[8431]: time="2022-01-25T19:57:17.304683354Z" level=info msg="NetworkDB stats plemma(b3be9f6424e0) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+Jan 25 19:57:22 localhost s3fs[27377]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
+Jan 25 19:57:22 localhost kernel: [13982506.989031] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=2.57.121.45 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=237 ID=3298 PROTO=TCP SPT=58788 DPT=443 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jan 25 19:57:23 localhost s3fs[27377]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
+Jan 25 19:57:23 localhost systemd[24255]: mnt-amzn2.mount: Succeeded.
+Jan 25 19:57:23 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
+Jan 25 19:57:23 localhost systemd[27321]: mnt-amzn2.mount: Succeeded.
+Jan 25 19:57:45 localhost kernel: [13982529.715274] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=51.38.162.6 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=43 ID=37369 DF PROTO=TCP SPT=44521 DPT=443 WINDOW=64240 RES=0x00 SYN URGP=0 
+Jan 25 19:58:04 localhost kernel: [13982548.718136] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=61.81.165.26 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=52 ID=34640 DF PROTO=TCP SPT=55018 DPT=5555 WINDOW=65535 RES=0x00 SYN URGP=0 
