@@ -25600,3 +25600,9 @@ Jan 25 20:09:38 localhost s3fs[27981]: s3fs.cpp:s3fs_check_service(3780): bucket
 Jan 25 20:09:38 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
 Jan 25 20:09:39 localhost systemd[24255]: mnt-amzn2.mount: Succeeded.
 Jan 25 20:09:39 localhost systemd[27321]: mnt-amzn2.mount: Succeeded.
+Jan 25 20:09:44 localhost kernel: [13983248.294654] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=103.207.38.214 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=239 ID=23263 PROTO=TCP SPT=53427 DPT=3389 WINDOW=1024 RES=0x00 SYN URGP=0 
+Jan 25 20:09:51 localhost s3fs[28018]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
+Jan 25 20:09:52 localhost s3fs[28018]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
+Jan 25 20:09:52 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
+Jan 25 20:09:52 localhost systemd[24255]: mnt-amzn2.mount: Succeeded.
+Jan 25 20:09:52 localhost systemd[27321]: mnt-amzn2.mount: Succeeded.
