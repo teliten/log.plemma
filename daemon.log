@@ -1719,3 +1719,59 @@ Jan 25 19:57:23 localhost systemd[27321]: mnt-amzn2.mount: Succeeded.
 Jan 25 19:58:35 localhost systemd[24255]: mnt-amzn2.mount: Succeeded.
 Jan 25 19:58:35 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
 Jan 25 19:58:35 localhost systemd[27321]: mnt-amzn2.mount: Succeeded.
+Jan 25 20:03:16 localhost systemd[1]: Started Session 32148 of user dave.
+Jan 25 20:07:15 localhost systemd[1]: /etc/systemd/system/ipfs.service:1: Missing '='.
+Jan 25 20:07:38 localhost systemd[1]: Reloading.
+Jan 25 20:07:39 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Jan 25 20:07:39 localhost systemd[1]: /lib/systemd/system/dovecot.service:9: PIDFile= references path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.
+Jan 25 20:07:39 localhost systemd[1]: /etc/systemd/system/ipfs.service:1: Assignment outside of section. Ignoring.
+Jan 25 20:07:39 localhost systemd[1]: /etc/systemd/system/ipfs.service:2: Assignment outside of section. Ignoring.
+Jan 25 20:07:39 localhost systemd[1]: /etc/systemd/system/ipfs.service:3: Assignment outside of section. Ignoring.
+Jan 25 20:08:12 localhost systemd[1]: Reloading.
+Jan 25 20:08:12 localhost systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+Jan 25 20:08:12 localhost systemd[1]: /lib/systemd/system/dovecot.service:9: PIDFile= references path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.
+Jan 25 20:08:19 localhost systemd[1]: Stopping IPFS daemon...
+Jan 25 20:08:19 localhost ipfs[20645]: Received interrupt signal, shutting down...
+Jan 25 20:08:19 localhost ipfs[20645]: (Hit ctrl-c again to force-shutdown the daemon.)
+Jan 25 20:08:19 localhost systemd[1]: ipfs.service: Succeeded.
+Jan 25 20:08:19 localhost systemd[1]: Stopped IPFS daemon.
+Jan 25 20:08:19 localhost systemd[1]: Started IPFS daemon.
+Jan 25 20:08:19 localhost ipfs[27838]: Initializing daemon...
+Jan 25 20:08:19 localhost ipfs[27838]: go-ipfs version: 0.9.1
+Jan 25 20:08:19 localhost ipfs[27838]: Repo version: 11
+Jan 25 20:08:19 localhost ipfs[27838]: System version: amd64/linux
+Jan 25 20:08:19 localhost ipfs[27838]: Golang version: go1.16.6
+Jan 25 20:08:20 localhost ipfs[27838]: 2022/01/25 20:08:20 failed to sufficiently increase receive buffer size (was: 208 kiB, wanted: 2048 kiB, got: 416 kiB). See https://github.com/lucas-clemente/quic-go/wiki/UDP-Receive-Buffer-Size for details.
+Jan 25 20:08:20 localhost ipfs[27838]: Swarm listening on /ip4/127.0.0.1/tcp/4001
+Jan 25 20:08:20 localhost ipfs[27838]: Swarm listening on /ip4/127.0.0.1/udp/4001/quic
+Jan 25 20:08:20 localhost ipfs[27838]: Swarm listening on /ip4/158.247.200.34/tcp/4001
+Jan 25 20:08:20 localhost ipfs[27838]: Swarm listening on /ip4/158.247.200.34/udp/4001/quic
+Jan 25 20:08:20 localhost ipfs[27838]: Swarm listening on /ip4/158.247.223.84/tcp/4001
+Jan 25 20:08:20 localhost ipfs[27838]: Swarm listening on /ip4/158.247.223.84/udp/4001/quic
+Jan 25 20:08:20 localhost ipfs[27838]: Swarm listening on /ip4/172.17.0.1/tcp/4001
+Jan 25 20:08:20 localhost ipfs[27838]: Swarm listening on /ip4/172.17.0.1/udp/4001/quic
+Jan 25 20:08:20 localhost ipfs[27838]: Swarm listening on /ip4/172.18.0.1/tcp/4001
+Jan 25 20:08:20 localhost ipfs[27838]: Swarm listening on /ip4/172.18.0.1/udp/4001/quic
+Jan 25 20:08:20 localhost ipfs[27838]: Swarm listening on /ip4/172.19.0.1/tcp/4001
+Jan 25 20:08:20 localhost ipfs[27838]: Swarm listening on /ip4/172.19.0.1/udp/4001/quic
+Jan 25 20:08:20 localhost ipfs[27838]: Swarm listening on /ip4/172.20.0.1/tcp/4001
+Jan 25 20:08:20 localhost ipfs[27838]: Swarm listening on /ip4/172.20.0.1/udp/4001/quic
+Jan 25 20:08:20 localhost ipfs[27838]: Swarm listening on /ip6/::1/tcp/4001
+Jan 25 20:08:20 localhost ipfs[27838]: Swarm listening on /ip6/::1/udp/4001/quic
+Jan 25 20:08:20 localhost ipfs[27838]: Swarm listening on /p2p-circuit
+Jan 25 20:08:20 localhost ipfs[27838]: Swarm announcing /ip4/127.0.0.1/tcp/4001
+Jan 25 20:08:20 localhost ipfs[27838]: Swarm announcing /ip4/127.0.0.1/udp/4001/quic
+Jan 25 20:08:20 localhost ipfs[27838]: Swarm announcing /ip4/158.247.223.84/tcp/4001
+Jan 25 20:08:20 localhost ipfs[27838]: Swarm announcing /ip4/158.247.223.84/udp/4001/quic
+Jan 25 20:08:20 localhost ipfs[27838]: Swarm announcing /ip6/::1/tcp/4001
+Jan 25 20:08:20 localhost ipfs[27838]: Swarm announcing /ip6/::1/udp/4001/quic
+Jan 25 20:08:20 localhost ipfs[27838]: API server listening on /ip4/127.0.0.1/tcp/5001
+Jan 25 20:08:20 localhost ipfs[27838]: WebUI: http://127.0.0.1:5001/webui
+Jan 25 20:08:20 localhost ipfs[27838]: Gateway (readonly) server listening on /ip4/127.0.0.1/tcp/8080
+Jan 25 20:08:20 localhost ipfs[27838]: Daemon is ready
+Jan 25 20:09:01 localhost systemd[1]: Starting Clean php session files...
+Jan 25 20:09:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 25 20:09:01 localhost systemd[1]: Started Clean php session files.
+Jan 25 20:09:38 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
+Jan 25 20:09:39 localhost systemd[24255]: mnt-amzn2.mount: Succeeded.
+Jan 25 20:09:39 localhost systemd[27321]: mnt-amzn2.mount: Succeeded.

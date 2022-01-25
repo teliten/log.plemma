@@ -1297,3 +1297,12 @@ Jan 25 19:52:20 localhost postfix/trivial-rewrite[27082]: warning: do not list d
 Jan 25 19:54:49 localhost postfix/trivial-rewrite[27223]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
 Jan 25 19:55:12 localhost postfix/trivial-rewrite[27223]: warning: do not list domain reallyhim.com in BOTH mydestination and virtual_alias_domains
 Jan 25 19:55:12 localhost postfix/trivial-rewrite[27223]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Jan 25 20:01:51 localhost postfix/trivial-rewrite[27546]: warning: do not list domain reallyhim.com in BOTH mydestination and virtual_alias_domains
+Jan 25 20:01:51 localhost postfix/trivial-rewrite[27546]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Jan 25 20:04:47 localhost postfix/trivial-rewrite[27686]: warning: do not list domain reallyhim.com in BOTH mydestination and virtual_alias_domains
+Jan 25 20:04:47 localhost postfix/trivial-rewrite[27686]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Jan 25 20:04:47 localhost postfix/trivial-rewrite[27686]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Jan 25 20:05:01 localhost postfix/trivial-rewrite[27686]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Jan 25 20:05:01 localhost postfix/trivial-rewrite[27686]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Jan 25 20:05:03 localhost postfix/trivial-rewrite[27686]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Jan 25 20:05:03 localhost postfix/trivial-rewrite[27686]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
