@@ -314,3 +314,186 @@ Jan 24 14:09:02 localhost systemd[1]: Started Clean php session files.
 Jan 24 14:15:39 localhost systemd[1]: Started Session 31871 of user adam.
 Jan 24 14:22:08 localhost systemd[24255]: mnt-amzn2.mount: Succeeded.
 Jan 24 14:22:08 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
+Jan 24 14:39:00 localhost systemd[1]: Starting Clean php session files...
+Jan 24 14:39:00 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 24 14:39:00 localhost systemd[1]: Started Clean php session files.
+Jan 24 15:05:26 localhost dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
+Jan 24 15:05:26 localhost dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Jan 24 15:05:26 localhost dhclient[631]: bound to 158.247.223.84 -- renewal in 30960 seconds.
+Jan 24 15:09:01 localhost systemd[1]: Starting Clean php session files...
+Jan 24 15:09:02 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 24 15:09:02 localhost systemd[1]: Started Clean php session files.
+Jan 24 15:39:00 localhost systemd[1]: Starting Clean php session files...
+Jan 24 15:39:00 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 24 15:39:00 localhost systemd[1]: Started Clean php session files.
+Jan 24 16:09:01 localhost systemd[1]: Starting Clean php session files...
+Jan 24 16:09:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 24 16:09:01 localhost systemd[1]: Started Clean php session files.
+Jan 24 16:25:42 localhost systemd[1]: Starting Daily apt download activities...
+Jan 24 16:25:48 localhost systemd[1]: apt-daily.service: Succeeded.
+Jan 24 16:25:48 localhost systemd[1]: Started Daily apt download activities.
+Jan 24 16:35:38 localhost dhclient[27896]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
+Jan 24 16:35:38 localhost dhclient[27896]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Jan 24 16:35:38 localhost dhclient[27896]: bound to 158.247.223.84 -- renewal in 41565 seconds.
+Jan 24 16:39:01 localhost systemd[1]: Starting Clean php session files...
+Jan 24 16:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 24 16:39:01 localhost systemd[1]: Started Clean php session files.
+Jan 24 17:09:00 localhost systemd[1]: Starting Clean php session files...
+Jan 24 17:09:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 24 17:09:01 localhost systemd[1]: Started Clean php session files.
+Jan 24 17:39:01 localhost systemd[1]: Starting Clean php session files...
+Jan 24 17:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 24 17:39:01 localhost systemd[1]: Started Clean php session files.
+Jan 24 18:09:01 localhost systemd[1]: Starting Clean php session files...
+Jan 24 18:09:02 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 24 18:09:02 localhost systemd[1]: Started Clean php session files.
+Jan 24 18:39:01 localhost systemd[1]: Starting Clean php session files...
+Jan 24 18:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 24 18:39:01 localhost systemd[1]: Started Clean php session files.
+Jan 24 18:58:19 localhost systemd[1]: session-31871.scope: Succeeded.
+Jan 24 19:09:00 localhost systemd[1]: Starting Clean php session files...
+Jan 24 19:09:00 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 24 19:09:00 localhost systemd[1]: Started Clean php session files.
+Jan 24 19:39:00 localhost systemd[1]: Starting Clean php session files...
+Jan 24 19:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 24 19:39:01 localhost systemd[1]: Started Clean php session files.
+Jan 24 20:09:01 localhost systemd[1]: Starting Clean php session files...
+Jan 24 20:09:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 24 20:09:01 localhost systemd[1]: Started Clean php session files.
+Jan 24 20:13:42 localhost systemd[1]: Starting Daily apt download activities...
+Jan 24 20:13:45 localhost systemd[1]: apt-daily.service: Succeeded.
+Jan 24 20:13:45 localhost systemd[1]: Started Daily apt download activities.
+Jan 24 20:39:01 localhost systemd[1]: Starting Clean php session files...
+Jan 24 20:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 24 20:39:01 localhost systemd[1]: Started Clean php session files.
+Jan 24 21:09:01 localhost systemd[1]: Starting Clean php session files...
+Jan 24 21:09:02 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 24 21:09:02 localhost systemd[1]: Started Clean php session files.
+Jan 24 21:39:01 localhost systemd[1]: Starting Clean php session files...
+Jan 24 21:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 24 21:39:01 localhost systemd[1]: Started Clean php session files.
+Jan 24 22:09:01 localhost systemd[1]: Starting Clean php session files...
+Jan 24 22:09:02 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 24 22:09:02 localhost systemd[1]: Started Clean php session files.
+Jan 24 22:39:01 localhost systemd[1]: Starting Clean php session files...
+Jan 24 22:39:02 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 24 22:39:02 localhost systemd[1]: Started Clean php session files.
+Jan 24 23:09:01 localhost systemd[1]: Starting Clean php session files...
+Jan 24 23:09:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 24 23:09:01 localhost systemd[1]: Started Clean php session files.
+Jan 24 23:39:00 localhost systemd[1]: Starting Clean php session files...
+Jan 24 23:39:00 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 24 23:39:00 localhost systemd[1]: Started Clean php session files.
+Jan 24 23:41:26 localhost dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
+Jan 24 23:41:26 localhost dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Jan 24 23:41:26 localhost dhclient[631]: bound to 158.247.223.84 -- renewal in 29758 seconds.
+Jan 25 00:00:16 localhost systemd[1]: Starting Rotate log files...
+Jan 25 00:00:16 localhost systemd[1]: Starting Daily man-db regeneration...
+Jan 25 00:00:17 localhost systemd[1]: logrotate.service: Succeeded.
+Jan 25 00:00:17 localhost systemd[1]: Started Rotate log files.
+Jan 25 00:00:17 localhost systemd[1]: man-db.service: Succeeded.
+Jan 25 00:00:17 localhost systemd[1]: Started Daily man-db regeneration.
+Jan 25 00:09:01 localhost systemd[1]: Starting Clean php session files...
+Jan 25 00:09:02 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 25 00:09:02 localhost systemd[1]: Started Clean php session files.
+Jan 25 00:39:00 localhost systemd[1]: Starting Clean php session files...
+Jan 25 00:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 25 00:39:01 localhost systemd[1]: Started Clean php session files.
+Jan 25 00:58:30 localhost systemd[1]: Starting Cleanup of Temporary Directories...
+Jan 25 00:58:31 localhost systemd[1]: systemd-tmpfiles-clean.service: Succeeded.
+Jan 25 00:58:31 localhost systemd[1]: Started Cleanup of Temporary Directories.
+Jan 25 01:09:01 localhost systemd[1]: Starting Clean php session files...
+Jan 25 01:09:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 25 01:09:01 localhost systemd[1]: Started Clean php session files.
+Jan 25 01:39:01 localhost systemd[1]: Starting Clean php session files...
+Jan 25 01:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 25 01:39:01 localhost systemd[1]: Started Clean php session files.
+Jan 25 02:09:00 localhost systemd[1]: Starting Clean php session files...
+Jan 25 02:09:00 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 25 02:09:00 localhost systemd[1]: Started Clean php session files.
+Jan 25 02:39:01 localhost systemd[1]: Starting Clean php session files...
+Jan 25 02:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 25 02:39:01 localhost systemd[1]: Started Clean php session files.
+Jan 25 03:09:01 localhost systemd[1]: Starting Clean php session files...
+Jan 25 03:09:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 25 03:09:01 localhost systemd[1]: Started Clean php session files.
+Jan 25 03:39:01 localhost systemd[1]: Starting Clean php session files...
+Jan 25 03:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 25 03:39:01 localhost systemd[1]: Started Clean php session files.
+Jan 25 04:08:23 localhost dhclient[27896]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
+Jan 25 04:08:23 localhost dhclient[27896]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Jan 25 04:08:23 localhost dhclient[27896]: bound to 158.247.223.84 -- renewal in 38595 seconds.
+Jan 25 04:09:01 localhost systemd[1]: Starting Clean php session files...
+Jan 25 04:09:02 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 25 04:09:02 localhost systemd[1]: Started Clean php session files.
+Jan 25 04:39:01 localhost systemd[1]: Starting Clean php session files...
+Jan 25 04:39:02 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 25 04:39:02 localhost systemd[1]: Started Clean php session files.
+Jan 25 05:09:01 localhost systemd[1]: Starting Clean php session files...
+Jan 25 05:09:02 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 25 05:09:02 localhost systemd[1]: Started Clean php session files.
+Jan 25 05:39:01 localhost systemd[1]: Starting Clean php session files...
+Jan 25 05:39:02 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 25 05:39:02 localhost systemd[1]: Started Clean php session files.
+Jan 25 06:09:00 localhost systemd[1]: Starting Clean php session files...
+Jan 25 06:09:00 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 25 06:09:00 localhost systemd[1]: Started Clean php session files.
+Jan 25 06:39:01 localhost systemd[1]: Starting Clean php session files...
+Jan 25 06:39:02 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 25 06:39:02 localhost systemd[1]: Started Clean php session files.
+Jan 25 06:50:42 localhost systemd[1]: Starting Daily apt upgrade and clean activities...
+Jan 25 06:50:44 localhost systemd[1]: apt-daily-upgrade.service: Succeeded.
+Jan 25 06:50:44 localhost systemd[1]: Started Daily apt upgrade and clean activities.
+Jan 25 07:09:01 localhost systemd[1]: Starting Clean php session files...
+Jan 25 07:09:02 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 25 07:09:02 localhost systemd[1]: Started Clean php session files.
+Jan 25 07:19:22 localhost systemd[1]: Started Session 32029 of user adam.
+Jan 25 07:19:30 localhost systemd[24255]: mnt-amzn2.mount: Succeeded.
+Jan 25 07:19:30 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
+Jan 25 07:20:40 localhost systemd[24255]: mnt-amzn2.mount: Succeeded.
+Jan 25 07:20:40 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
+Jan 25 07:39:01 localhost systemd[1]: Starting Clean php session files...
+Jan 25 07:39:02 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 25 07:39:02 localhost systemd[1]: Started Clean php session files.
+Jan 25 07:57:24 localhost dhclient[631]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
+Jan 25 07:57:24 localhost dhclient[631]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Jan 25 07:57:24 localhost dhclient[631]: bound to 158.247.223.84 -- renewal in 34860 seconds.
+Jan 25 08:09:01 localhost systemd[1]: Starting Clean php session files...
+Jan 25 08:09:02 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 25 08:09:02 localhost systemd[1]: Started Clean php session files.
+Jan 25 08:39:01 localhost systemd[1]: Starting Clean php session files...
+Jan 25 08:39:03 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 25 08:39:03 localhost systemd[1]: Started Clean php session files.
+Jan 25 08:40:54 localhost systemd[1]: Starting Daily apt download activities...
+Jan 25 08:41:06 localhost systemd[1]: apt-daily.service: Succeeded.
+Jan 25 08:41:06 localhost systemd[1]: Started Daily apt download activities.
+Jan 25 09:09:01 localhost systemd[1]: Starting Clean php session files...
+Jan 25 09:09:02 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 25 09:09:02 localhost systemd[1]: Started Clean php session files.
+Jan 25 09:39:01 localhost systemd[1]: Starting Clean php session files...
+Jan 25 09:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 25 09:39:01 localhost systemd[1]: Started Clean php session files.
+Jan 25 10:09:01 localhost systemd[1]: Starting Clean php session files...
+Jan 25 10:09:02 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 25 10:09:02 localhost systemd[1]: Started Clean php session files.
+Jan 25 10:39:01 localhost systemd[1]: Starting Clean php session files...
+Jan 25 10:39:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 25 10:39:01 localhost systemd[1]: Started Clean php session files.
+Jan 25 11:09:01 localhost systemd[1]: Starting Clean php session files...
+Jan 25 11:09:02 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 25 11:09:02 localhost systemd[1]: Started Clean php session files.
+Jan 25 11:39:01 localhost systemd[1]: Starting Clean php session files...
+Jan 25 11:39:02 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 25 11:39:02 localhost systemd[1]: Started Clean php session files.
+Jan 25 12:09:00 localhost systemd[1]: Starting Clean php session files...
+Jan 25 12:09:01 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 25 12:09:01 localhost systemd[1]: Started Clean php session files.
+Jan 25 12:39:00 localhost systemd[1]: Starting Clean php session files...
+Jan 25 12:39:00 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 25 12:39:00 localhost systemd[1]: Started Clean php session files.
+Jan 25 13:09:02 localhost systemd[1]: Starting Clean php session files...
+Jan 25 13:09:03 localhost systemd[1]: phpsessionclean.service: Succeeded.
+Jan 25 13:09:03 localhost systemd[1]: Started Clean php session files.
+Jan 25 13:28:53 localhost systemd[1]: Started Session 32085 of user adam.
+Jan 25 13:29:05 localhost systemd[24255]: mnt-amzn2.mount: Succeeded.
+Jan 25 13:29:05 localhost systemd[1]: mnt-amzn2.mount: Succeeded.
