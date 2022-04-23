@@ -4001,3 +4001,99 @@ Apr 23 10:11:28 vultr kernel: [40619.613505] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56
 Apr 23 10:11:28 vultr kernel: [40619.758685] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=81.7.13.186 DST=158.247.223.84 LEN=415 TOS=0x00 PREC=0x00 TTL=48 ID=43627 DF PROTO=UDP SPT=47769 DPT=5060 LEN=395 
 Apr 23 10:11:51 vultr kernel: [40642.867517] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=209.141.37.211 DST=158.247.223.84 LEN=44 TOS=0x00 PREC=0x00 TTL=245 ID=54321 PROTO=TCP SPT=45903 DPT=11211 WINDOW=65535 RES=0x00 SYN URGP=0 
 Apr 23 10:11:54 vultr kernel: [40646.230477] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=194.26.29.169 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=235 ID=8256 PROTO=TCP SPT=57067 DPT=4027 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 10:12:24 vultr kernel: [40675.727354] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=89.248.165.75 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=239 ID=34 PROTO=TCP SPT=48500 DPT=8443 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 10:12:26 vultr kernel: [40678.307222] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=172.104.112.244 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=245 ID=54321 PROTO=TCP SPT=40820 DPT=1080 WINDOW=65535 RES=0x00 SYN URGP=0 
+Apr 23 10:12:28 vultr kernel: [40679.784879] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=104.140.188.46 DST=158.247.200.34 LEN=44 TOS=0x00 PREC=0x00 TTL=236 ID=17640 PROTO=TCP SPT=55248 DPT=5901 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 10:12:58 vultr kernel: [40710.070610] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=130.225.39.237 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=232 ID=22398 PROTO=TCP SPT=57466 DPT=11806 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 10:13:02 vultr kernel: [40714.291526] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=185.212.16.54 DST=158.247.223.84 LEN=44 TOS=0x00 PREC=0x00 TTL=237 ID=45719 PROTO=TCP SPT=44004 DPT=1433 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 10:13:06 vultr kernel: [40717.928080] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=194.26.29.37 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=235 ID=15931 PROTO=TCP SPT=47893 DPT=2286 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 10:13:28 vultr kernel: [40739.649250] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=46.237.62.28 DST=158.247.200.34 LEN=44 TOS=0x00 PREC=0x00 TTL=47 ID=26365 PROTO=TCP SPT=16931 DPT=23 WINDOW=10822 RES=0x00 SYN URGP=0 
+Apr 23 10:13:32 vultr kernel: [40744.193277] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=176.113.115.115 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=234 ID=42197 PROTO=TCP SPT=56378 DPT=5900 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 10:13:33 vultr kernel: [40744.842733] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=171.67.71.32 DST=158.247.223.84 LEN=44 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=52925 DPT=8206 WINDOW=65535 RES=0x00 SYN URGP=0 
+Apr 23 10:13:54 vultr kernel: [40766.055972] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=45.155.204.74 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=234 ID=18699 PROTO=TCP SPT=55966 DPT=7052 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 10:13:57 vultr kernel: [40768.788779] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=174.50.132.235 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=45 ID=34088 PROTO=TCP SPT=41609 DPT=23 WINDOW=47505 RES=0x00 SYN URGP=0 
+Apr 23 10:14:17 vultr kernel: [40789.521713] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=167.94.138.96 DST=158.247.200.34 LEN=44 TOS=0x00 PREC=0x00 TTL=36 ID=31263 PROTO=TCP SPT=3734 DPT=6379 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 10:14:30 vultr kernel: [40801.807239] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=5.188.210.245 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=22795 PROTO=TCP SPT=59609 DPT=8080 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 10:14:53 vultr kernel: [40825.071000] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=193.163.125.211 DST=158.247.200.34 LEN=44 TOS=0x00 PREC=0x00 TTL=236 ID=45779 PROTO=TCP SPT=51409 DPT=50409 WINDOW=14600 RES=0x00 SYN URGP=0 
+Apr 23 10:14:55 vultr kernel: [40826.876574] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=162.142.125.227 DST=158.247.223.84 LEN=44 TOS=0x00 PREC=0x00 TTL=38 ID=50688 PROTO=TCP SPT=59844 DPT=666 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 10:14:56 vultr kernel: [40828.585166] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=180.168.65.182 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=47 ID=29596 PROTO=TCP SPT=23483 DPT=23 WINDOW=55572 RES=0x00 SYN URGP=0 
+Apr 23 10:14:59 vultr kernel: [40831.478364] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=167.248.133.171 DST=158.247.200.34 LEN=44 TOS=0x00 PREC=0x00 TTL=38 ID=53563 PROTO=TCP SPT=28830 DPT=18070 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 10:15:00 vultr kernel: [40832.001783] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=89.248.165.75 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=238 ID=3391 PROTO=TCP SPT=48500 DPT=8443 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 10:15:01 vultr CRON[17019]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Apr 23 10:15:01 vultr kernel: [40833.174821] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=91.240.118.71 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=235 ID=65320 PROTO=TCP SPT=47420 DPT=3103 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 10:15:03 vultr dockerd[447]: time="2022-04-23T10:15:03.655036030Z" level=info msg="NetworkDB stats vultr.guest(795632c3c25c) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+Apr 23 10:15:14 vultr kernel: [40845.711534] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=45.135.232.188 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=235 ID=39802 PROTO=TCP SPT=55387 DPT=2007 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 10:15:18 vultr kernel: [40850.535878] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=209.85.128.200 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=100 ID=21553 PROTO=TCP SPT=46043 DPT=25 WINDOW=65535 RES=0x00 SYN URGP=0 
+Apr 23 10:15:19 vultr kernel: [40851.562201] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=209.85.128.200 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=100 ID=22500 PROTO=TCP SPT=46043 DPT=25 WINDOW=65535 RES=0x00 SYN URGP=0 
+Apr 23 10:15:22 vultr kernel: [40853.610273] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=209.85.128.200 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=100 ID=24497 PROTO=TCP SPT=46043 DPT=25 WINDOW=65535 RES=0x00 SYN URGP=0 
+Apr 23 10:15:26 vultr kernel: [40857.642138] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=209.85.128.200 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=100 ID=26147 PROTO=TCP SPT=46043 DPT=25 WINDOW=65535 RES=0x00 SYN URGP=0 
+Apr 23 10:15:42 vultr systemd[1]: mnt-rsync.mount: Succeeded.
+Apr 23 10:15:42 vultr systemd[16705]: mnt-rsync.mount: Succeeded.
+Apr 23 10:15:50 vultr kernel: [40882.090349] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=209.85.128.200 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=100 ID=36491 PROTO=TCP SPT=46043 DPT=25 WINDOW=65535 RES=0x00 SYN URGP=0 
+Apr 23 10:15:50 vultr postfix/smtpd[17284]: connect from unknown[209.85.128.200]
+Apr 23 10:15:51 vultr postfix/trivial-rewrite[17288]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Apr 23 10:15:51 vultr postfix/smtpd[17284]: E29385A4: client=unknown[209.85.128.200]
+Apr 23 10:15:52 vultr postfix/cleanup[17289]: E29385A4: message-id=<35.C2.04059.5B1D3626@twitter.com>
+Apr 23 10:15:52 vultr postfix/qmgr[1123]: E29385A4: from=<n01058c54b9-2496146e47c94744-adam_flash===fromthemachine.org@bounce.twitter.com>, size=109455, nrcpt=3 (queue active)
+Apr 23 10:15:52 vultr postfix/trivial-rewrite[17288]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Apr 23 10:15:52 vultr postfix/local[17290]: E29385A4: to=<adam@localhost>, orig_to=<adam_flash@fromthemachine.org>, relay=local, delay=0.98, delays=0.96/0.02/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Apr 23 10:15:52 vultr postfix/local[17290]: E29385A4: to=<ftm@fromthemachine.org>, orig_to=<adam_flash@fromthemachine.org>, relay=local, delay=1, delays=0.96/0.02/0/0.02, dsn=5.1.1, status=bounced (unknown user: "ftm")
+Apr 23 10:15:52 vultr postfix/smtp[17291]: E29385A4: to=<0xc514f094370cfc5ee45a1dd9b72bb9675efe266f@ethmail.cc>, orig_to=<adam_flash@fromthemachine.org>, relay=none, delay=0.98, delays=0.96/0.02/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=smtp-relay.gmail.com type=MX: Host not found, try again)
+Apr 23 10:15:52 vultr postfix/cleanup[17289]: E12FC1A5B: message-id=<20220423101552.E12FC1A5B@plemma.cc>
+Apr 23 10:15:52 vultr postfix/qmgr[1123]: E12FC1A5B: from=<>, size=8279, nrcpt=1 (queue active)
+Apr 23 10:15:52 vultr postfix/bounce[17294]: E29385A4: sender non-delivery notification: E12FC1A5B
+Apr 23 10:15:52 vultr postfix/smtp[17291]: E12FC1A5B: to=<n01058c54b9-2496146e47c94744-adam_flash===fromthemachine.org@bounce.twitter.com>, relay=none, delay=0, delays=0/0/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=smtp-relay.gmail.com type=MX: Host not found, try again)
+Apr 23 10:15:53 vultr postfix/smtpd[17284]: disconnect from unknown[209.85.128.200] ehlo=2 starttls=1 mail=1 rcpt=1 bdat=2 quit=1 commands=8
+Apr 23 10:16:27 vultr kernel: [40919.274085] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=64.62.197.172 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=38900 DPT=4117 WINDOW=65535 RES=0x00 SYN URGP=0 
+Apr 23 10:16:34 vultr kernel: [40926.152044] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=171.67.70.80 DST=158.247.223.84 LEN=44 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=59685 DPT=33060 WINDOW=65535 RES=0x00 SYN URGP=0 
+Apr 23 10:16:35 vultr kernel: [40926.732815] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=167.248.133.167 DST=158.247.200.34 LEN=44 TOS=0x00 PREC=0x00 TTL=38 ID=23383 PROTO=TCP SPT=54961 DPT=12157 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 10:16:42 vultr kernel: [40934.069876] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.51.127.124 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=42286 DPT=23 WINDOW=65535 RES=0x00 SYN URGP=0 
+Apr 23 10:16:57 vultr kernel: [40948.992679] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=45.143.203.12 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=238 ID=25409 PROTO=TCP SPT=47366 DPT=50014 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 10:17:00 vultr kernel: [40952.099875] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=184.105.247.247 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=243 ID=54321 PROTO=TCP SPT=54197 DPT=4117 WINDOW=65535 RES=0x00 SYN URGP=0 
+Apr 23 10:17:01 vultr CRON[17338]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Apr 23 10:17:08 vultr kernel: [40960.381995] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=170.130.187.22 DST=158.247.200.34 LEN=44 TOS=0x00 PREC=0x00 TTL=232 ID=54321 PROTO=TCP SPT=59734 DPT=8999 WINDOW=65535 RES=0x00 SYN URGP=0 
+Apr 23 10:17:17 vultr kernel: [40969.485011] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=45.137.21.208 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=225 ID=11157 PROTO=TCP SPT=27269 DPT=80 WINDOW=65535 RES=0x00 SYN URGP=0 
+Apr 23 10:17:17 vultr kernel: [40969.492219] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=45.137.21.208 DST=158.247.200.34 LEN=86 TOS=0x00 PREC=0x00 TTL=225 ID=11158 PROTO=TCP SPT=27269 DPT=80 WINDOW=65535 RES=0x00 ACK PSH URGP=0 
+Apr 23 10:17:22 vultr kernel: [40974.109420] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=193.57.40.49 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=61237 PROTO=TCP SPT=47276 DPT=4066 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 10:17:25 vultr kernel: [40977.022049] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=167.94.138.146 DST=158.247.200.34 LEN=44 TOS=0x00 PREC=0x00 TTL=36 ID=43202 PROTO=TCP SPT=45055 DPT=48018 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 10:17:30 vultr kernel: [40982.185031] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=64.190.196.105 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=48 ID=21923 DF PROTO=TCP SPT=40144 DPT=25 WINDOW=29200 RES=0x00 SYN URGP=0 
+Apr 23 10:17:30 vultr postfix/smtpd[17284]: connect from unknown[64.190.196.105]
+Apr 23 10:17:31 vultr s3fs[17358]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
+Apr 23 10:17:31 vultr postfix/trivial-rewrite[17288]: warning: do not list domain emplifyhr.com in BOTH mydestination and virtual_alias_domains
+Apr 23 10:17:31 vultr postfix/smtpd[17284]: E9EA01B: client=unknown[64.190.196.105]
+Apr 23 10:17:32 vultr postfix/cleanup[17289]: E9EA01B: message-id=<API.1650473419999.16504734199920644.JavaMail.csprod@ny5ibop1>
+Apr 23 10:17:32 vultr postfix/qmgr[1123]: E9EA01B: from=<ibbounce@interactivebrokers.com>, size=16438, nrcpt=3 (queue active)
+Apr 23 10:17:32 vultr postfix/trivial-rewrite[17288]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Apr 23 10:17:32 vultr postfix/smtpd[17284]: disconnect from unknown[64.190.196.105] ehlo=2 starttls=1 mail=1 rcpt=1 data=1 quit=1 commands=7
+Apr 23 10:17:32 vultr postfix/local[17366]: E9EA01B: to=<adam@localhost>, orig_to=<adam@emplifyhr.com>, relay=local, delay=0.42, delays=0.39/0.03/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Apr 23 10:17:32 vultr s3fs[17358]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
+Apr 23 10:17:32 vultr systemd[1]: mnt-amzn2.mount: Succeeded.
+Apr 23 10:17:32 vultr systemd[16705]: mnt-amzn2.mount: Succeeded.
+Apr 23 10:17:32 vultr postfix/local[17366]: E9EA01B: to=<ftm@fromthemachine.org>, orig_to=<adam@emplifyhr.com>, relay=local, delay=0.49, delays=0.39/0.04/0/0.07, dsn=5.1.1, status=bounced (unknown user: "ftm")
+Apr 23 10:17:32 vultr postfix/smtp[17365]: E9EA01B: to=<0xc514f094370cfc5ee45a1dd9b72bb9675efe266f@ethmail.cc>, orig_to=<adam@emplifyhr.com>, relay=none, delay=0.43, delays=0.39/0.05/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=smtp-relay.gmail.com type=MX: Host not found, try again)
+Apr 23 10:17:32 vultr postfix/cleanup[17289]: 6E0C324: message-id=<20220423101732.6E0C324@plemma.cc>
+Apr 23 10:17:32 vultr postfix/qmgr[1123]: 6E0C324: from=<>, size=18303, nrcpt=1 (queue active)
+Apr 23 10:17:32 vultr postfix/bounce[17368]: E9EA01B: sender non-delivery notification: 6E0C324
+Apr 23 10:17:32 vultr postfix/smtp[17365]: 6E0C324: to=<ibbounce@interactivebrokers.com>, relay=none, delay=0, delays=0/0/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=smtp-relay.gmail.com type=MX: Host not found, try again)
+Apr 23 10:17:42 vultr kernel: [40993.991593] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=66.94.118.246 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=51 ID=55175 DF PROTO=TCP SPT=39200 DPT=4001 WINDOW=64240 RES=0x00 SYN URGP=0 
+Apr 23 10:17:45 vultr kernel: [40996.606415] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=172.104.138.223 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=240 ID=16919 PROTO=TCP SPT=7148 DPT=57497 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 10:17:48 vultr s3fs[17392]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
+Apr 23 10:17:49 vultr s3fs[17392]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
+Apr 23 10:17:49 vultr systemd[1]: mnt-amzn2.mount: Succeeded.
+Apr 23 10:17:49 vultr systemd[16705]: mnt-amzn2.mount: Succeeded.
+Apr 23 10:17:55 vultr postfix/pickup[15108]: D46F726: uid=1001 from=<adam>
+Apr 23 10:17:55 vultr postfix/cleanup[17289]: D46F726: message-id=<20220423101755.D46F726@plemma.cc>
+Apr 23 10:17:55 vultr postfix/qmgr[1123]: D46F726: from=<adam@adam.relay@carpent.us>, size=472, nrcpt=1 (queue active)
+Apr 23 10:17:55 vultr postfix/smtp[17365]: D46F726: to=<root@adam.relay@carpent.us>, orig_to=<root>, relay=none, delay=0.02, delays=0.01/0.01/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=smtp-relay.gmail.com type=MX: Host not found, try again)
+Apr 23 10:17:55 vultr postfix/pickup[15108]: D7E0B27: uid=1001 from=<adam>
+Apr 23 10:17:55 vultr postfix/cleanup[17289]: D7E0B27: message-id=<20220423101755.D7E0B27@plemma.cc>
+Apr 23 10:17:55 vultr postfix/qmgr[1123]: D7E0B27: from=<adam@adam.relay@carpent.us>, size=433, nrcpt=1 (queue active)
+Apr 23 10:17:55 vultr postfix/smtp[17365]: D7E0B27: to=<root@adam.relay@carpent.us>, orig_to=<root>, relay=none, delay=0.01, delays=0.01/0/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=smtp-relay.gmail.com type=MX: Host not found, try again)
+Apr 23 10:17:58 vultr kernel: [41010.433227] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=185.156.73.57 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=239 ID=56481 PROTO=TCP SPT=42476 DPT=9511 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 10:18:02 vultr s3fs[17418]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
+Apr 23 10:18:03 vultr kernel: [41014.736132] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=103.27.63.37 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=239 ID=30023 PROTO=TCP SPT=46234 DPT=445 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 10:18:03 vultr s3fs[17418]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
+Apr 23 10:18:03 vultr systemd[1]: mnt-amzn2.mount: Succeeded.
+Apr 23 10:18:03 vultr systemd[16705]: mnt-amzn2.mount: Succeeded.
+Apr 23 10:18:04 vultr kernel: [41016.270330] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=47.106.199.57 DST=158.247.223.84 LEN=72 TOS=0x00 PREC=0x00 TTL=46 ID=47760 DF PROTO=UDP SPT=8082 DPT=8081 LEN=52 
+Apr 23 10:18:23 vultr kernel: [41035.158498] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=166.205.178.128 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=49 ID=0 DF PROTO=TCP SPT=46431 DPT=80 WINDOW=65535 RES=0x00 CWR ECE SYN URGP=0 
