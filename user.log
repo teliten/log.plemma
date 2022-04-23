@@ -474,3 +474,7 @@ Apr 23 20:23:07 vultr s3fs[31506]: s3fs: There is no enough disk space for used 
 Apr 23 20:44:18 vultr s3fs[32030]: s3fs: There is no enough disk space for used as cache(or temporary) directory by s3fs.
 Apr 23 23:25:39 vultr s3fs[3431]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
 Apr 23 23:25:41 vultr s3fs[3431]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
+Apr 23 23:27:43 vultr s3fs[1422]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
+Apr 23 23:27:45 vultr s3fs[1422]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
+Apr 23 23:27:53 vultr s3fs[1685]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
+Apr 23 23:27:53 vultr s3fs[1685]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.

@@ -1,0 +1,10 @@
+2022-04-23 23:26:14.933 UTC [547] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-04-23 23:26:14.933 UTC [547] LOG:  listening on IPv6 address "::", port 5432
+2022-04-23 23:26:14.938 UTC [547] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+2022-04-23 23:26:15.141 UTC [597] LOG:  database system was interrupted; last known up at 2022-01-19 16:50:24 UTC
+2022-04-23 23:26:15.345 UTC [597] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-04-23 23:26:15.350 UTC [597] LOG:  redo starts at 0/1788900
+2022-04-23 23:26:15.350 UTC [597] LOG:  invalid record length at 0/17889E0: wanted 24, got 0
+2022-04-23 23:26:15.350 UTC [597] LOG:  redo done at 0/17889A8
+2022-04-23 23:26:15.378 UTC [547] LOG:  database system is ready to accept connections
+2022-04-23 23:26:15.924 UTC [741] [unknown]@[unknown] LOG:  incomplete startup packet

@@ -11,4 +11,6 @@
 [Sat Apr 23 15:14:20.917273 2022] [log_config:warn] [pid 3062] (28)No space left on device: [client 184.105.247.196:41410] AH00646: Error writing to /var/log/apache2/access.log
 [Sat Apr 23 15:32:33.943024 2022] [log_config:warn] [pid 3060] (28)No space left on device: [client 185.27.99.132:37581] AH00646: Error writing to /var/log/apache2/access.log
 [Sat Apr 23 15:32:34.568154 2022] [log_config:warn] [pid 17435] (28)No space left on device: [client 185.27.99.134:34475] AH00646: Error writing to /var/log/apache2/access.log
-[Sat Apr 23 15:32:35.183037 2022] [log_config:warn] [pid 17436] (28)No space left on device: [client 185.27.
+[Sat Apr 23 15:32:35.183037 2022] [log_config:warn] [pid 17436] (28)No space left on device: [client 185.27.[Sat Apr 23 23:25:59.410080 2022] [mpm_prefork:notice] [pid 580] AH00169: caught SIGTERM, shutting down
+[Sat Apr 23 23:26:15.067053 2022] [mpm_prefork:notice] [pid 522] AH00163: Apache/2.4.38 (Debian) configured -- resuming normal operations
+[Sat Apr 23 23:26:15.138521 2022] [core:notice] [pid 522] AH00094: Command line: '/usr/sbin/apache2'

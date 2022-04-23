@@ -1,0 +1,22 @@
+Apr 23 23:26:14 vultr dovecot: master: Dovecot v2.3.4.1 (f79e8e7e4) starting up for imap (core dumps disabled)
+Apr 23 23:26:14 vultr cyrus/ctl_cyrusdb[480]: skiplist: clean shutdown file missing, updating recovery stamp
+Apr 23 23:26:14 vultr cyrus/ctl_cyrusdb[480]: recovering cyrus databases
+Apr 23 23:26:14 vultr cyrus/ctl_cyrusdb[480]: done recovering cyrus databases
+Apr 23 23:26:14 vultr cyrus/cyr_expire[513]: Expired 0 and expunged 0 out of 0 messages from 0 mailboxes
+Apr 23 23:26:14 vultr cyrus/cyr_expire[513]: duplicate_prune: pruning back 3.00 days
+Apr 23 23:26:14 vultr cyrus/cyr_expire[513]: duplicate_prune: purged 0 out of 0 entries
+Apr 23 23:26:14 vultr cyrus/tls_prune[524]: tls_prune: /var/lib/cyrus/tls_sessions.db not found, nothing to do
+Apr 23 23:26:14 vultr cyrus/master[437]: cannot find executable for service 'imap'
+Apr 23 23:26:14 vultr cyrus/master[437]: exiting
+Apr 23 23:26:16 vultr postfix/postfix-script[856]: warning: symlink leaves directory: /etc/postfix/./makedefs.out
+Apr 23 23:26:17 vultr postfix/postfix-script[929]: warning: /var/spool/postfix/etc/resolv.conf and /etc/resolv.conf differ
+Apr 23 23:26:17 vultr postfix/postfix-script[1005]: starting the Postfix mail system
+Apr 23 23:26:17 vultr postfix/master[1023]: daemon started -- version 3.4.14, configuration /etc/postfix
+Apr 23 23:27:37 vultr postfix/pickup[1032]: 747442F38: uid=1001 from=<adam>
+Apr 23 23:27:37 vultr postfix/cleanup[1395]: 747442F38: message-id=<20220423232737.747442F38@plemma.cc>
+Apr 23 23:27:37 vultr postfix/qmgr[1033]: 747442F38: from=<adam@adam.relay@carpent.us>, size=437, nrcpt=1 (queue active)
+Apr 23 23:27:37 vultr postfix/pickup[1032]: 777302F36: uid=1001 from=<adam>
+Apr 23 23:27:37 vultr postfix/cleanup[1395]: 777302F36: message-id=<20220423232737.777302F36@plemma.cc>
+Apr 23 23:27:37 vultr postfix/qmgr[1033]: 777302F36: from=<adam@adam.relay@carpent.us>, size=476, nrcpt=1 (queue active)
+Apr 23 23:27:37 vultr postfix/smtp[1398]: 747442F38: to=<root@adam.relay@carpent.us>, orig_to=<root>, relay=none, delay=0.06, delays=0.04/0.02/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=smtp-relay.gmail.com type=MX: Host not found, try again)
+Apr 23 23:27:37 vultr postfix/smtp[1399]: 777302F36: to=<root@adam.relay@carpent.us>, orig_to=<root>, relay=none, delay=0.07, delays=0.04/0.04/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=smtp-relay.gmail.com type=MX: Host not found, try again)

@@ -1178,3 +1178,376 @@ Apr 23 23:25:30 vultr systemd[1]: Started Session 234 of user adam.
 Apr 23 23:25:34 vultr dockerd[447]: time="2022-04-23T23:25:34.853889650Z" level=info msg="NetworkDB stats vultr.guest(795632c3c25c) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
 Apr 23 23:25:41 vultr systemd[1]: mnt-amzn2.mount: Succeeded.
 Apr 23 23:25:41 vultr systemd[16705]: mnt-amzn2.mount: Succeeded.
+Apr 23 23:25:57 vultr systemd[1]: session-108.scope: Killing process 16724 (screen) with signal SIGTERM.
+Apr 23 23:25:57 vultr systemd[1]: session-108.scope: Killing process 16725 (bash) with signal SIGTERM.
+Apr 23 23:25:57 vultr systemd[1]: session-108.scope: Killing process 16886 (sudo) with signal SIGTERM.
+Apr 23 23:25:57 vultr systemd[1]: session-108.scope: Killing process 16893 (bash) with signal SIGTERM.
+Apr 23 23:25:57 vultr systemd[1]: session-108.scope: Killing process 17270 (gcsfuse) with signal SIGTERM.
+Apr 23 23:25:57 vultr systemd[1]: session-108.scope: Killing process 17321 (ssh) with signal SIGTERM.
+Apr 23 23:25:57 vultr systemd[1]: session-108.scope: Killing process 17324 (sshfs) with signal SIGTERM.
+Apr 23 23:25:57 vultr systemd[1]: session-108.scope: Killing process 17352 (screen) with signal SIGTERM.
+Apr 23 23:25:57 vultr systemd[1]: session-108.scope: Killing process 17353 (screen) with signal SIGTERM.
+Apr 23 23:25:57 vultr systemd[1]: session-108.scope: Killing process 17354 (bash) with signal SIGTERM.
+Apr 23 23:25:57 vultr systemd[1]: session-108.scope: Killing process 17379 (ipfs) with signal SIGTERM.
+Apr 23 23:25:57 vultr systemd[1]: session-108.scope: Killing process 19211 (gcsfuse) with signal SIGTERM.
+Apr 23 23:25:57 vultr systemd[1]: Stopping Session 108 of user adam.
+Apr 23 23:25:57 vultr systemd[1]: Stopped target Graphical Interface.
+Apr 23 23:25:57 vultr systemd[1]: Stopping Session 234 of user adam.
+Apr 23 23:25:57 vultr systemd[1]: Stopped target Timers.
+Apr 23 23:25:57 vultr systemd[1]: apt-daily-upgrade.timer: Succeeded.
+Apr 23 23:25:57 vultr systemd[1]: Stopped Daily apt upgrade and clean activities.
+Apr 23 23:25:57 vultr systemd[1]: logrotate.timer: Succeeded.
+Apr 23 23:25:57 vultr systemd[1]: Stopped Daily rotation of log files.
+Apr 23 23:25:57 vultr systemd[1]: phpsessionclean.timer: Succeeded.
+Apr 23 23:25:57 vultr systemd[1]: Stopped Clean PHP session files every 30 mins.
+Apr 23 23:25:57 vultr systemd[1]: apt-daily.timer: Succeeded.
+Apr 23 23:25:57 vultr systemd[1]: Stopped Daily apt download activities.
+Apr 23 23:25:57 vultr systemd[1]: systemd-tmpfiles-clean.timer: Succeeded.
+Apr 23 23:25:57 vultr systemd[1]: Stopped Daily Cleanup of Temporary Directories.
+Apr 23 23:25:57 vultr systemd[1]: man-db.timer: Succeeded.
+Apr 23 23:25:57 vultr systemd[1]: Stopped Daily man-db regeneration.
+Apr 23 23:25:57 vultr systemd[16705]: mnt-rsync.mount: Succeeded.
+Apr 23 23:25:57 vultr systemd[1]: Stopped target System Time Synchronized.
+Apr 23 23:25:57 vultr systemd[1]: Removed slice system-postgresql.slice.
+Apr 23 23:25:57 vultr systemd[1]: Stopped target Multi-User System.
+Apr 23 23:25:57 vultr systemd[1]: postfix.service: Succeeded.
+Apr 23 23:25:57 vultr systemd[1]: Stopped Postfix Mail Transport Agent.
+Apr 23 23:25:57 vultr systemd[1]: postgresql.service: Succeeded.
+Apr 23 23:25:57 vultr systemd[1]: Stopped PostgreSQL RDBMS.
+Apr 23 23:25:57 vultr systemd[1]: Stopping Network Time Service...
+Apr 23 23:25:57 vultr ntpd[486]: ntpd exiting on signal 15 (Terminated)
+Apr 23 23:25:57 vultr ntpd[486]: 108.61.73.243 local addr 158.247.223.84 -> <null>
+Apr 23 23:25:57 vultr ntpd[486]: 108.61.73.244 local addr 158.247.223.84 -> <null>
+Apr 23 23:25:57 vultr ntpd[486]: 108.61.56.35 local addr 158.247.223.84 -> <null>
+Apr 23 23:25:57 vultr systemd[1]: Stopping OpenBSD Secure Shell server...
+Apr 23 23:26:13 vultr systemd[1]: Starting Flush Journal to Persistent Storage...
+Apr 23 23:26:13 vultr systemd[1]: Started Flush Journal to Persistent Storage.
+Apr 23 23:26:13 vultr systemd[1]: Started Set the console keyboard layout.
+Apr 23 23:26:13 vultr systemd[1]: Reached target Local File Systems (Pre).
+Apr 23 23:26:13 vultr systemd[1]: Reached target Local File Systems.
+Apr 23 23:26:13 vultr systemd[1]: Starting Enable support for additional executable binary formats...
+Apr 23 23:26:13 vultr systemd[1]: Starting Create Volatile Files and Directories...
+Apr 23 23:26:13 vultr systemd[1]: Starting Load AppArmor profiles...
+Apr 23 23:26:13 vultr systemd[1]: Starting Set console font and keymap...
+Apr 23 23:26:13 vultr systemd[1]: Condition check resulted in Commit a transient machine-id on disk being skipped.
+Apr 23 23:26:13 vultr systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 346 (update-binfmts)
+Apr 23 23:26:13 vultr systemd[1]: Mounting Arbitrary Executable File Formats File System...
+Apr 23 23:26:13 vultr systemd[1]: Mounted Arbitrary Executable File Formats File System.
+Apr 23 23:26:13 vultr systemd[1]: Started Set console font and keymap.
+Apr 23 23:26:13 vultr systemd[1]: Started Enable support for additional executable binary formats.
+Apr 23 23:26:13 vultr apparmor.systemd[349]: Restarting AppArmor
+Apr 23 23:26:13 vultr apparmor.systemd[349]: Reloading AppArmor profiles
+Apr 23 23:26:13 vultr systemd[1]: Started Create Volatile Files and Directories.
+Apr 23 23:26:13 vultr systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Apr 23 23:26:13 vultr systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Apr 23 23:26:13 vultr systemd[1]: Started Load AppArmor profiles.
+Apr 23 23:26:13 vultr systemd[1]: Reached target System Initialization.
+Apr 23 23:26:13 vultr systemd[1]: Started Clean PHP session files every 30 mins.
+Apr 23 23:26:13 vultr systemd[1]: Started Daily rotation of log files.
+Apr 23 23:26:13 vultr systemd[1]: Started Daily Cleanup of Temporary Directories.
+Apr 23 23:26:13 vultr systemd[1]: Started Daily man-db regeneration.
+Apr 23 23:26:13 vultr systemd[1]: Listening on D-Bus System Message Bus Socket.
+Apr 23 23:26:13 vultr systemd[1]: Starting Docker Socket for the API.
+Apr 23 23:26:13 vultr systemd[1]: Started Daily apt download activities.
+Apr 23 23:26:13 vultr systemd[1]: Started Daily apt upgrade and clean activities.
+Apr 23 23:26:13 vultr systemd[1]: Reached target Timers.
+Apr 23 23:26:13 vultr systemd[1]: Starting Raise network interfaces...
+Apr 23 23:26:13 vultr systemd[1]: Listening on Docker Socket for the API.
+Apr 23 23:26:13 vultr systemd[1]: Reached target Sockets.
+Apr 23 23:26:13 vultr systemd[1]: Reached target Basic System.
+Apr 23 23:26:13 vultr systemd[1]: Condition check resulted in getty on tty2-tty6 if dbus and logind are not available being skipped.
+Apr 23 23:26:13 vultr systemd[1]: Starting Login Service...
+Apr 23 23:26:13 vultr systemd[1]: Started Regular background program processing daemon.
+Apr 23 23:26:13 vultr systemd[1]: Started D-Bus System Message Bus.
+Apr 23 23:26:13 vultr systemd[1]: Starting IPv6 Recursive DNS Server discovery Daemon...
+Apr 23 23:26:13 vultr systemd[1]: Starting Resets System Activity Data Collector...
+Apr 23 23:26:13 vultr systemd[1]: Starting System Logging Service...
+Apr 23 23:26:13 vultr systemd[1]: Started System Logging Service.
+Apr 23 23:26:13 vultr systemd[1]: Started Uncomplicated firewall.
+Apr 23 23:26:13 vultr systemd[1]: Started Resets System Activity Data Collector.
+Apr 23 23:26:13 vultr systemd[1]: Started IPv6 Recursive DNS Server discovery Daemon.
+Apr 23 23:26:13 vultr systemd[1]: Started Login Service.
+Apr 23 23:26:13 vultr systemd[1]: Started Raise network interfaces.
+Apr 23 23:26:13 vultr systemd[1]: Reached target Network.
+Apr 23 23:26:13 vultr systemd[1]: Starting Permit User Sessions...
+Apr 23 23:26:13 vultr systemd[1]: Starting Network Time Service...
+Apr 23 23:26:13 vultr systemd[1]: Starting MariaDB 10.3.31 database server...
+Apr 23 23:26:13 vultr systemd[1]: Starting PostgreSQL Cluster 11-main...
+Apr 23 23:26:13 vultr systemd[1]: Starting The Apache HTTP Server...
+Apr 23 23:26:13 vultr systemd[1]: Condition check resulted in fast remote file copy program daemon being skipped.
+Apr 23 23:26:13 vultr systemd[1]: Reached target Network is Online.
+Apr 23 23:26:13 vultr systemd[1]: Starting Postfix Mail Transport Agent (instance -)...
+Apr 23 23:26:13 vultr systemd[1]: Starting Docker Application Container Engine...
+Apr 23 23:26:13 vultr systemd[1]: Started Dovecot IMAP/POP3 email server.
+Apr 23 23:26:13 vultr systemd[1]: Started Unattended Upgrades Shutdown.
+Apr 23 23:26:13 vultr systemd[1]: Starting OpenBSD Secure Shell server...
+Apr 23 23:26:13 vultr systemd[1]: Started Cyrus IMAP/POP3 daemons.
+Apr 23 23:26:14 vultr systemd[1]: Started Permit User Sessions.
+Apr 23 23:26:14 vultr systemd[1]: Started Getty on tty1.
+Apr 23 23:26:14 vultr systemd[1]: Reached target Login Prompts.
+Apr 23 23:26:14 vultr ntpd[422]: ntpd 4.2.8p12@1.3728-o (1): Starting
+Apr 23 23:26:14 vultr ntpd[422]: Command line: /usr/sbin/ntpd -p /var/run/ntpd.pid -g -u 105:112
+Apr 23 23:26:14 vultr systemd[1]: Started Network Time Service.
+Apr 23 23:26:14 vultr configure-instance.sh[426]: postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Apr 23 23:26:14 vultr ntpd[454]: proto: precision = 0.053 usec (-24)
+Apr 23 23:26:14 vultr ntpd[454]: leapsecond file ('/usr/share/zoneinfo/leap-seconds.list'): good hash signature
+Apr 23 23:26:14 vultr ntpd[454]: leapsecond file ('/usr/share/zoneinfo/leap-seconds.list'): loaded, expire=2022-06-28T00:00:00Z last=2017-01-01T00:00:00Z ofs=37
+Apr 23 23:26:14 vultr ntpd[454]: Listen and drop on 0 v6wildcard [::]:123
+Apr 23 23:26:14 vultr ntpd[454]: Listen and drop on 1 v4wildcard 0.0.0.0:123
+Apr 23 23:26:14 vultr ntpd[454]: Listen normally on 2 lo 127.0.0.1:123
+Apr 23 23:26:14 vultr ntpd[454]: Listen normally on 3 lo [::1]:123
+Apr 23 23:26:14 vultr ntpd[454]: Listening on routing socket on fd #20 for interface updates
+Apr 23 23:26:14 vultr ntpd[454]: kernel reports TIME_ERROR: 0x41: Clock Unsynchronized
+Apr 23 23:26:14 vultr ntpd[454]: kernel reports TIME_ERROR: 0x41: Clock Unsynchronized
+Apr 23 23:26:14 vultr systemd[1]: Started OpenBSD Secure Shell server.
+Apr 23 23:26:14 vultr configure-instance.sh[426]: postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Apr 23 23:26:14 vultr configure-instance.sh[426]: postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Apr 23 23:26:14 vultr configure-instance.sh[426]: postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Apr 23 23:26:14 vultr configure-instance.sh[426]: postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Apr 23 23:26:14 vultr apachectl[425]: AH00557: apache2: apr_sockaddr_info_get() failed for vultr.guest
+Apr 23 23:26:14 vultr apachectl[425]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.0.1. Set the 'ServerName' directive globally to suppress this message
+Apr 23 23:26:14 vultr systemd-udevd[309]: Using default interface naming scheme 'v240'.
+Apr 23 23:26:14 vultr systemd[1]: Started The Apache HTTP Server.
+Apr 23 23:26:14 vultr configure-instance.sh[426]: postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Apr 23 23:26:14 vultr systemd-udevd[309]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Apr 23 23:26:14 vultr mysqld[519]: 2022-04-23 23:26:14 0 [Note] /usr/sbin/mysqld (mysqld 10.3.31-MariaDB-0+deb10u1) starting as process 519 ...
+Apr 23 23:26:14 vultr systemd[1]: cyrus-imapd.service: Main process exited, code=exited, status=78/CONFIG
+Apr 23 23:26:14 vultr systemd[1]: cyrus-imapd.service: Failed with result 'exit-code'.
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.256356949Z" level=info msg="libcontainerd: started new docker-containerd process" pid=602
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.291236344Z" level=info msg="parsed scheme: \"unix\"" module=grpc
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.291447328Z" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.291864673Z" level=info msg="ccResolverWrapper: sending new addresses to cc: [{unix:///var/run/docker/containerd/containerd.sock 0  <nil>}]" module=grpc
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.292102023Z" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.292539717Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc0008f7710, CONNECTING" module=grpc
+Apr 23 23:26:15 vultr postmulti[600]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Apr 23 23:26:15 vultr postmulti[600]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.552472160Z" level=info msg="starting containerd" revision=9754871865f7fe2f4e74d43e2fc7ccd237edcbce version=18.09.1
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.552771273Z" level=info msg="loading plugin \"io.containerd.content.v1.content\"..." type=io.containerd.content.v1
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.553210093Z" level=info msg="loading plugin \"io.containerd.snapshotter.v1.btrfs\"..." type=io.containerd.snapshotter.v1
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.554499905Z" level=warning msg="failed to load plugin io.containerd.snapshotter.v1.btrfs" error="path /var/lib/docker/containerd/daemon/io.containerd.snapshotter.v1.btrfs must be a btrfs filesystem to be used with the btrfs snapshotter"
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.554709228Z" level=info msg="loading plugin \"io.containerd.snapshotter.v1.aufs\"..." type=io.containerd.snapshotter.v1
+Apr 23 23:26:15 vultr systemd[1]: Found device Virtio network device.
+Apr 23 23:26:15 vultr systemd[1]: Started ifup for ens3.
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.582130957Z" level=warning msg="failed to load plugin io.containerd.snapshotter.v1.aufs" error="modprobe aufs failed: \"modprobe: FATAL: Module aufs not found in directory /lib/modules/4.19.0-18-amd64\\n\": exit status 1"
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.583931629Z" level=info msg="loading plugin \"io.containerd.snapshotter.v1.native\"..." type=io.containerd.snapshotter.v1
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.584708455Z" level=info msg="loading plugin \"io.containerd.snapshotter.v1.overlayfs\"..." type=io.containerd.snapshotter.v1
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.586811035Z" level=info msg="loading plugin \"io.containerd.snapshotter.v1.zfs\"..." type=io.containerd.snapshotter.v1
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.590739711Z" level=warning msg="failed to load plugin io.containerd.snapshotter.v1.zfs" error="path /var/lib/docker/containerd/daemon/io.containerd.snapshotter.v1.zfs must be a zfs filesystem to be used with the zfs snapshotter"
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.591491109Z" level=info msg="loading plugin \"io.containerd.metadata.v1.bolt\"..." type=io.containerd.metadata.v1
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.591851492Z" level=warning msg="could not use snapshotter btrfs in metadata plugin" error="path /var/lib/docker/containerd/daemon/io.containerd.snapshotter.v1.btrfs must be a btrfs filesystem to be used with the btrfs snapshotter"
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.592116153Z" level=warning msg="could not use snapshotter aufs in metadata plugin" error="modprobe aufs failed: \"modprobe: FATAL: Module aufs not found in directory /lib/modules/4.19.0-18-amd64\\n\": exit status 1"
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.592348607Z" level=warning msg="could not use snapshotter zfs in metadata plugin" error="path /var/lib/docker/containerd/daemon/io.containerd.snapshotter.v1.zfs must be a zfs filesystem to be used with the zfs snapshotter"
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.599277321Z" level=info msg="loading plugin \"io.containerd.differ.v1.walking\"..." type=io.containerd.differ.v1
+Apr 23 23:26:15 vultr postmulti[600]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.600209114Z" level=info msg="loading plugin \"io.containerd.gc.v1.scheduler\"..." type=io.containerd.gc.v1
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.600693850Z" level=info msg="loading plugin \"io.containerd.service.v1.containers-service\"..." type=io.containerd.service.v1
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.602221599Z" level=info msg="loading plugin \"io.containerd.service.v1.content-service\"..." type=io.containerd.service.v1
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.602563251Z" level=info msg="loading plugin \"io.containerd.service.v1.diff-service\"..." type=io.containerd.service.v1
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.602949949Z" level=info msg="loading plugin \"io.containerd.service.v1.images-service\"..." type=io.containerd.service.v1
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.603191107Z" level=info msg="loading plugin \"io.containerd.service.v1.leases-service\"..." type=io.containerd.service.v1
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.603422813Z" level=info msg="loading plugin \"io.containerd.service.v1.namespaces-service\"..." type=io.containerd.service.v1
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.603658158Z" level=info msg="loading plugin \"io.containerd.service.v1.snapshots-service\"..." type=io.containerd.service.v1
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.604448938Z" level=info msg="loading plugin \"io.containerd.runtime.v1.linux\"..." type=io.containerd.runtime.v1
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.604887685Z" level=info msg="loading plugin \"io.containerd.runtime.v2.task\"..." type=io.containerd.runtime.v2
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.612441398Z" level=info msg="loading plugin \"io.containerd.monitor.v1.cgroups\"..." type=io.containerd.monitor.v1
+Apr 23 23:26:15 vultr dhclient[666]: Internet Systems Consortium DHCP Client 4.4.1
+Apr 23 23:26:15 vultr sh[650]: Internet Systems Consortium DHCP Client 4.4.1
+Apr 23 23:26:15 vultr dhclient[666]: Copyright 2004-2018 Internet Systems Consortium.
+Apr 23 23:26:15 vultr sh[650]: Copyright 2004-2018 Internet Systems Consortium.
+Apr 23 23:26:15 vultr dhclient[666]: All rights reserved.
+Apr 23 23:26:15 vultr sh[650]: All rights reserved.
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.653078780Z" level=info msg="loading plugin \"io.containerd.service.v1.tasks-service\"..." type=io.containerd.service.v1
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.653182107Z" level=info msg="loading plugin \"io.containerd.internal.v1.restart\"..." type=io.containerd.internal.v1
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.653275477Z" level=info msg="loading plugin \"io.containerd.grpc.v1.containers\"..." type=io.containerd.grpc.v1
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.653292145Z" level=info msg="loading plugin \"io.containerd.grpc.v1.content\"..." type=io.containerd.grpc.v1
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.653306183Z" level=info msg="loading plugin \"io.containerd.grpc.v1.diff\"..." type=io.containerd.grpc.v1
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.653318146Z" level=info msg="loading plugin \"io.containerd.grpc.v1.events\"..." type=io.containerd.grpc.v1
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.653331497Z" level=info msg="loading plugin \"io.containerd.grpc.v1.healthcheck\"..." type=io.containerd.grpc.v1
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.653345558Z" level=info msg="loading plugin \"io.containerd.grpc.v1.images\"..." type=io.containerd.grpc.v1
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.653358339Z" level=info msg="loading plugin \"io.containerd.grpc.v1.leases\"..." type=io.containerd.grpc.v1
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.653374489Z" level=info msg="loading plugin \"io.containerd.grpc.v1.namespaces\"..." type=io.containerd.grpc.v1
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.653387006Z" level=info msg="loading plugin \"io.containerd.internal.v1.opt\"..." type=io.containerd.internal.v1
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.655364006Z" level=info msg="loading plugin \"io.containerd.grpc.v1.snapshots\"..." type=io.containerd.grpc.v1
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.655423558Z" level=info msg="loading plugin \"io.containerd.grpc.v1.tasks\"..." type=io.containerd.grpc.v1
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.655438761Z" level=info msg="loading plugin \"io.containerd.grpc.v1.version\"..." type=io.containerd.grpc.v1
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.655462708Z" level=info msg="loading plugin \"io.containerd.grpc.v1.introspection\"..." type=io.containerd.grpc.v1
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.655914434Z" level=info msg=serving... address=/var/run/docker/containerd/containerd-debug.sock
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.655978346Z" level=info msg=serving... address=/var/run/docker/containerd/containerd.sock
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.655991703Z" level=info msg="containerd successfully booted in 0.104620s"
+Apr 23 23:26:15 vultr sh[650]: For info, please visit https://www.isc.org/software/dhcp/
+Apr 23 23:26:15 vultr dhclient[666]: For info, please visit https://www.isc.org/software/dhcp/
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.658519325Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc0008f7710, READY" module=grpc
+Apr 23 23:26:15 vultr dhclient[666]: 
+Apr 23 23:26:15 vultr dhclient[666]: Listening on LPF/ens3/56:00:03:85:82:df
+Apr 23 23:26:15 vultr sh[650]: Listening on LPF/ens3/56:00:03:85:82:df
+Apr 23 23:26:15 vultr dhclient[666]: Sending on   LPF/ens3/56:00:03:85:82:df
+Apr 23 23:26:15 vultr sh[650]: Sending on   LPF/ens3/56:00:03:85:82:df
+Apr 23 23:26:15 vultr dhclient[666]: Sending on   Socket/fallback
+Apr 23 23:26:15 vultr sh[650]: Sending on   Socket/fallback
+Apr 23 23:26:15 vultr dhclient[666]: DHCPDISCOVER on ens3 to 255.255.255.255 port 67 interval 3
+Apr 23 23:26:15 vultr sh[650]: DHCPDISCOVER on ens3 to 255.255.255.255 port 67 interval 3
+Apr 23 23:26:15 vultr dhclient[666]: DHCPOFFER of 158.247.223.84 from 169.254.169.254
+Apr 23 23:26:15 vultr sh[650]: DHCPOFFER of 158.247.223.84 from 169.254.169.254
+Apr 23 23:26:15 vultr dhclient[666]: DHCPREQUEST for 158.247.223.84 on ens3 to 255.255.255.255 port 67
+Apr 23 23:26:15 vultr sh[650]: DHCPREQUEST for 158.247.223.84 on ens3 to 255.255.255.255 port 67
+Apr 23 23:26:15 vultr dhclient[666]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Apr 23 23:26:15 vultr sh[650]: DHCPACK of 158.247.223.84 from 169.254.169.254
+Apr 23 23:26:15 vultr postmulti[600]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Apr 23 23:26:15 vultr systemd[1]: Started MariaDB 10.3.31 database server.
+Apr 23 23:26:15 vultr /etc/mysql/debian-start[731]: Upgrading MySQL tables if necessary.
+Apr 23 23:26:15 vultr postmulti[600]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Apr 23 23:26:15 vultr systemd-udevd[330]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.936290139Z" level=info msg="parsed scheme: \"unix\"" module=grpc
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.936597122Z" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.939567181Z" level=info msg="parsed scheme: \"unix\"" module=grpc
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.939888796Z" level=info msg="scheme \"unix\" not registered, fallback to default scheme" module=grpc
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.941686151Z" level=info msg="ccResolverWrapper: sending new addresses to cc: [{unix:///var/run/docker/containerd/containerd.sock 0  <nil>}]" module=grpc
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.941938147Z" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.942129467Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc0005e5990, CONNECTING" module=grpc
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.942494048Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc0005e5990, READY" module=grpc
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.942903377Z" level=info msg="ccResolverWrapper: sending new addresses to cc: [{unix:///var/run/docker/containerd/containerd.sock 0  <nil>}]" module=grpc
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.943169480Z" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.943729244Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc0005e5c50, CONNECTING" module=grpc
+Apr 23 23:26:15 vultr dockerd[427]: time="2022-04-23T23:26:15.950125731Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc0005e5c50, READY" module=grpc
+Apr 23 23:26:15 vultr postmulti[600]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Apr 23 23:26:15 vultr postmulti[600]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Apr 23 23:26:16 vultr dockerd[427]: time="2022-04-23T23:26:16.021598582Z" level=info msg="[graphdriver] using prior storage driver: overlay2"
+Apr 23 23:26:16 vultr postmulti[600]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Apr 23 23:26:16 vultr postmulti[600]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Apr 23 23:26:16 vultr /etc/mysql/debian-start[735]: /usr/bin/mysql_upgrade: the '--basedir' option is always ignored
+Apr 23 23:26:16 vultr /etc/mysql/debian-start[735]: Looking for 'mysql' as: /usr/bin/mysql
+Apr 23 23:26:16 vultr /etc/mysql/debian-start[735]: Looking for 'mysqlcheck' as: /usr/bin/mysqlcheck
+Apr 23 23:26:16 vultr /etc/mysql/debian-start[735]: This installation of MySQL is already upgraded to 10.3.31-MariaDB, use --force if you still need to run mysql_upgrade
+Apr 23 23:26:16 vultr /etc/mysql/debian-start[756]: Checking for insecure root accounts.
+Apr 23 23:26:16 vultr postmulti[600]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Apr 23 23:26:16 vultr postmulti[600]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Apr 23 23:26:16 vultr /etc/mysql/debian-start[762]: Triggering myisam-recover for all MyISAM tables and aria-recover for all Aria tables
+Apr 23 23:26:16 vultr postmulti[600]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Apr 23 23:26:16 vultr postmulti[600]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Apr 23 23:26:16 vultr postmulti[600]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Apr 23 23:26:16 vultr dockerd[427]: time="2022-04-23T23:26:16.300651713Z" level=info msg="Graph migration to content-addressability took 0.00 seconds"
+Apr 23 23:26:16 vultr dockerd[427]: time="2022-04-23T23:26:16.302132281Z" level=warning msg="Your kernel does not support swap memory limit"
+Apr 23 23:26:16 vultr dockerd[427]: time="2022-04-23T23:26:16.302523395Z" level=warning msg="Your kernel does not support cgroup rt period"
+Apr 23 23:26:16 vultr dockerd[427]: time="2022-04-23T23:26:16.307897816Z" level=warning msg="Your kernel does not support cgroup rt runtime"
+Apr 23 23:26:16 vultr dockerd[427]: time="2022-04-23T23:26:16.312201606Z" level=info msg="Loading containers: start."
+Apr 23 23:26:16 vultr postmulti[600]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Apr 23 23:26:16 vultr postmulti[600]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Apr 23 23:26:16 vultr postmulti[600]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Apr 23 23:26:16 vultr postmulti[600]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Apr 23 23:26:16 vultr postmulti[600]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Apr 23 23:26:16 vultr postmulti[600]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Apr 23 23:26:16 vultr postmulti[600]: /usr/sbin/postconf: warning: /etc/postfix/main.cf: unused parameter: mail_location=maildir:~/Maildir
+Apr 23 23:26:16 vultr dhclient[666]: bound to 158.247.223.84 -- renewal in 34467 seconds.
+Apr 23 23:26:16 vultr sh[650]: bound to 158.247.223.84 -- renewal in 34467 seconds.
+Apr 23 23:26:17 vultr sh[650]: ens3=ens3
+Apr 23 23:26:17 vultr systemd-udevd[313]: Using default interface naming scheme 'v240'.
+Apr 23 23:26:17 vultr systemd-udevd[313]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Apr 23 23:26:17 vultr systemd[1]: Started Postfix Mail Transport Agent (instance -).
+Apr 23 23:26:17 vultr systemd[1]: Starting Postfix Mail Transport Agent...
+Apr 23 23:26:17 vultr systemd[1]: Started Postfix Mail Transport Agent.
+Apr 23 23:26:17 vultr systemd-udevd[309]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Apr 23 23:26:17 vultr systemd-udevd[313]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Apr 23 23:26:17 vultr systemd-udevd[313]: Could not generate persistent MAC address for br-03f369579b76: No such file or directory
+Apr 23 23:26:17 vultr systemd-udevd[313]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Apr 23 23:26:17 vultr systemd-udevd[313]: Could not generate persistent MAC address for docker_gwbridge: No such file or directory
+Apr 23 23:26:17 vultr systemd[1]: Started PostgreSQL Cluster 11-main.
+Apr 23 23:26:17 vultr systemd[1]: Starting PostgreSQL RDBMS...
+Apr 23 23:26:17 vultr systemd[1]: Started PostgreSQL RDBMS.
+Apr 23 23:26:17 vultr dockerd[427]: time="2022-04-23T23:26:17.794077361Z" level=info msg="Removing stale sandbox ingress_sbox (ingress-sbox)"
+Apr 23 23:26:17 vultr dockerd[427]: time="2022-04-23T23:26:17.797172299Z" level=warning msg="Error (Unable to complete atomic operation, key modified) deleting object [endpoint 238d254665f602c3a7444e45603a108dd9a1f8264520f9e3d4495c77eb6ad0a5 5f8eedf8d556a686d61e2013b6d57ebdb24ee82f65fe0ebe222e1c797c65af47], retrying...."
+Apr 23 23:26:17 vultr systemd[1]: run-docker-netns-ingress_sbox.mount: Succeeded.
+Apr 23 23:26:17 vultr dockerd[427]: time="2022-04-23T23:26:17.836213854Z" level=info msg="Default bridge (docker0) is assigned with an IP address 172.17.0.0/16. Daemon option --bip can be used to set a preferred IP address"
+Apr 23 23:26:17 vultr dockerd[427]: time="2022-04-23T23:26:17.886813735Z" level=info msg="Loading containers: done."
+Apr 23 23:26:17 vultr systemd[1]: var-lib-docker-overlay2-opaque\x2dbug\x2dcheck048057542-merged.mount: Succeeded.
+Apr 23 23:26:17 vultr dockerd[427]: time="2022-04-23T23:26:17.961765603Z" level=info msg="Docker daemon" commit=4c52b90 graphdriver(s)=overlay2 version=18.09.1
+Apr 23 23:26:17 vultr dockerd[427]: time="2022-04-23T23:26:17.981185023Z" level=info msg="parsed scheme: \"\"" module=grpc
+Apr 23 23:26:17 vultr dockerd[427]: time="2022-04-23T23:26:17.981520987Z" level=info msg="scheme \"\" not registered, fallback to default scheme" module=grpc
+Apr 23 23:26:17 vultr dockerd[427]: time="2022-04-23T23:26:17.981738302Z" level=info msg="ccResolverWrapper: sending new addresses to cc: [{/var/run/docker/swarm/control.sock 0  <nil>}]" module=grpc
+Apr 23 23:26:17 vultr dockerd[427]: time="2022-04-23T23:26:17.981898614Z" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+Apr 23 23:26:17 vultr dockerd[427]: time="2022-04-23T23:26:17.982066106Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc000c31530, CONNECTING" module=grpc
+Apr 23 23:26:18 vultr dockerd[427]: time="2022-04-23T23:26:18.002547694Z" level=info msg="Listening for connections" addr="[::]:2377" module=node node.id=q1i0m3xoyyfgv2k6unxikqkj9 proto=tcp
+Apr 23 23:26:18 vultr dockerd[427]: time="2022-04-23T23:26:18.002956117Z" level=info msg="Listening for local connections" addr=/var/run/docker/swarm/control.sock module=node node.id=q1i0m3xoyyfgv2k6unxikqkj9 proto=unix
+Apr 23 23:26:18 vultr dockerd[427]: time="2022-04-23T23:26:18.035812098Z" level=info msg="6c772450cbf35890 became follower at term 3" module=raft node.id=q1i0m3xoyyfgv2k6unxikqkj9
+Apr 23 23:26:18 vultr dockerd[427]: time="2022-04-23T23:26:18.036273267Z" level=info msg="newRaft 6c772450cbf35890 [peers: [], term: 3, commit: 1062, applied: 0, lastindex: 1062, lastterm: 3]" module=raft node.id=q1i0m3xoyyfgv2k6unxikqkj9
+Apr 23 23:26:18 vultr dockerd[427]: time="2022-04-23T23:26:18.120853204Z" level=info msg="6c772450cbf35890 is starting a new election at term 3" module=raft node.id=q1i0m3xoyyfgv2k6unxikqkj9
+Apr 23 23:26:18 vultr dockerd[427]: time="2022-04-23T23:26:18.121334835Z" level=info msg="6c772450cbf35890 became candidate at term 4" module=raft node.id=q1i0m3xoyyfgv2k6unxikqkj9
+Apr 23 23:26:18 vultr dockerd[427]: time="2022-04-23T23:26:18.121593200Z" level=info msg="6c772450cbf35890 received MsgVoteResp from 6c772450cbf35890 at term 4" module=raft node.id=q1i0m3xoyyfgv2k6unxikqkj9
+Apr 23 23:26:18 vultr dockerd[427]: time="2022-04-23T23:26:18.121781416Z" level=info msg="6c772450cbf35890 became leader at term 4" module=raft node.id=q1i0m3xoyyfgv2k6unxikqkj9
+Apr 23 23:26:18 vultr dockerd[427]: time="2022-04-23T23:26:18.121925991Z" level=info msg="raft.node: 6c772450cbf35890 elected leader 6c772450cbf35890 at term 4" module=raft node.id=q1i0m3xoyyfgv2k6unxikqkj9
+Apr 23 23:26:18 vultr dockerd[427]: time="2022-04-23T23:26:18.128140011Z" level=error msg="error creating cluster object" error="name conflicts with an existing object" module=node node.id=q1i0m3xoyyfgv2k6unxikqkj9
+Apr 23 23:26:18 vultr dockerd[427]: time="2022-04-23T23:26:18.128583789Z" level=info msg="leadership changed from not yet part of a raft cluster to q1i0m3xoyyfgv2k6unxikqkj9" module=node node.id=q1i0m3xoyyfgv2k6unxikqkj9
+Apr 23 23:26:18 vultr dockerd[427]: time="2022-04-23T23:26:18.128980829Z" level=info msg="dispatcher starting" module=dispatcher node.id=q1i0m3xoyyfgv2k6unxikqkj9
+Apr 23 23:26:18 vultr dockerd[427]: time="2022-04-23T23:26:18.147283852Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc000c31530, READY" module=grpc
+Apr 23 23:26:18 vultr dockerd[427]: time="2022-04-23T23:26:18.148014201Z" level=info msg="parsed scheme: \"\"" module=grpc
+Apr 23 23:26:18 vultr dockerd[427]: time="2022-04-23T23:26:18.148222435Z" level=info msg="scheme \"\" not registered, fallback to default scheme" module=grpc
+Apr 23 23:26:18 vultr dockerd[427]: time="2022-04-23T23:26:18.148619860Z" level=info msg="manager selected by agent for new session: {q1i0m3xoyyfgv2k6unxikqkj9 158.247.223.84:2377}" module=node/agent node.id=q1i0m3xoyyfgv2k6unxikqkj9
+Apr 23 23:26:18 vultr dockerd[427]: time="2022-04-23T23:26:18.149402608Z" level=info msg="ccResolverWrapper: sending new addresses to cc: [{158.247.223.84:2377 0  <nil>}]" module=grpc
+Apr 23 23:26:18 vultr dockerd[427]: time="2022-04-23T23:26:18.149599742Z" level=info msg="ClientConn switching balancer to \"pick_first\"" module=grpc
+Apr 23 23:26:18 vultr dockerd[427]: time="2022-04-23T23:26:18.149783785Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc0011145b0, CONNECTING" module=grpc
+Apr 23 23:26:18 vultr dockerd[427]: time="2022-04-23T23:26:18.150355633Z" level=info msg="waiting 0s before registering session" module=node/agent node.id=q1i0m3xoyyfgv2k6unxikqkj9
+Apr 23 23:26:18 vultr dockerd[427]: time="2022-04-23T23:26:18.154223506Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc0011145b0, READY" module=grpc
+Apr 23 23:26:18 vultr dockerd[427]: time="2022-04-23T23:26:18.245386844Z" level=info msg="worker q1i0m3xoyyfgv2k6unxikqkj9 was successfully registered" method="(*Dispatcher).register"
+Apr 23 23:26:18 vultr dockerd[427]: time="2022-04-23T23:26:18.250153995Z" level=info msg="Initializing Libnetwork Agent Listen-Addr=0.0.0.0 Local-addr=158.247.223.84 Adv-addr=158.247.223.84 Data-addr= Remote-addr-list=[] MTU=1500"
+Apr 23 23:26:18 vultr dockerd[427]: time="2022-04-23T23:26:18.250807981Z" level=info msg="New memberlist node - Node:vultr.guest will use memberlist nodeID:8faeaca9a776 with config:&{NodeID:8faeaca9a776 Hostname:vultr.guest BindAddr:0.0.0.0 AdvertiseAddr:158.247.223.84 BindPort:0 Keys:[[114 24 187 135 203 28 164 195 131 221 100 74 59 165 94 162] [85 149 34 19 33 86 118 189 55 84 203 184 20 214 232 227] [189 168 147 223 26 205 207 46 82 181 26 170 242 219 84 43]] PacketBufferSize:1400 reapEntryInterval:1800000000000 reapNetworkInterval:1825000000000 StatsPrintPeriod:5m0s HealthPrintPeriod:1m0s}"
+Apr 23 23:26:18 vultr dockerd[427]: time="2022-04-23T23:26:18.252970570Z" level=info msg="Node 8faeaca9a776/158.247.223.84, joined gossip cluster"
+Apr 23 23:26:18 vultr dockerd[427]: time="2022-04-23T23:26:18.253378954Z" level=info msg="Node 8faeaca9a776/158.247.223.84, added to nodes list"
+Apr 23 23:26:18 vultr dockerd[427]: time="2022-04-23T23:26:18.256274577Z" level=info msg="Daemon has completed initialization"
+Apr 23 23:26:18 vultr systemd[1]: Started Docker Application Container Engine.
+Apr 23 23:26:18 vultr systemd[1]: Reached target Multi-User System.
+Apr 23 23:26:18 vultr dockerd[427]: time="2022-04-23T23:26:18.280083454Z" level=info msg="API listen on /var/run/docker.sock"
+Apr 23 23:26:18 vultr systemd[1]: Reached target Graphical Interface.
+Apr 23 23:26:18 vultr systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Apr 23 23:26:18 vultr systemd[1]: systemd-update-utmp-runlevel.service: Succeeded.
+Apr 23 23:26:18 vultr systemd[1]: Started Update UTMP about System Runlevel Changes.
+Apr 23 23:26:18 vultr systemd[1]: Startup finished in 3.073s (kernel) + 5.735s (userspace) = 8.808s.
+Apr 23 23:26:18 vultr dockerd[427]: time="2022-04-23T23:26:18.486835968Z" level=error msg="error reading the kernel parameter net.ipv4.vs.expire_nodest_conn" error="open /proc/sys/net/ipv4/vs/expire_nodest_conn: no such file or directory"
+Apr 23 23:26:18 vultr systemd-udevd[313]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Apr 23 23:26:18 vultr systemd-udevd[313]: link_config: could not get ethtool features for testvxlan
+Apr 23 23:26:18 vultr systemd-udevd[313]: Could not set offload features of testvxlan: No such device
+Apr 23 23:26:18 vultr systemd-udevd[313]: Could not generate persistent MAC address for testvxlan: No such file or directory
+Apr 23 23:26:18 vultr systemd-udevd[313]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Apr 23 23:26:18 vultr systemd-udevd[313]: link_config: could not get ethtool features for vx-001000-0rz6h
+Apr 23 23:26:18 vultr systemd-udevd[313]: Could not set offload features of vx-001000-0rz6h: No such device
+Apr 23 23:26:18 vultr systemd-udevd[313]: Could not generate persistent MAC address for vx-001000-0rz6h: No such file or directory
+Apr 23 23:26:18 vultr systemd-udevd[315]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Apr 23 23:26:18 vultr systemd-udevd[313]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Apr 23 23:26:18 vultr systemd-udevd[313]: Could not generate persistent MAC address for veth830617d: No such file or directory
+Apr 23 23:26:18 vultr systemd-udevd[315]: link_config: could not get ethtool features for veth1edd921
+Apr 23 23:26:18 vultr systemd-udevd[315]: Could not set offload features of veth1edd921: No such device
+Apr 23 23:26:18 vultr systemd-udevd[315]: Using default interface naming scheme 'v240'.
+Apr 23 23:26:19 vultr systemd-udevd[315]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Apr 23 23:26:19 vultr systemd-udevd[315]: Could not generate persistent MAC address for veth52601c1: No such file or directory
+Apr 23 23:26:19 vultr systemd-udevd[313]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Apr 23 23:26:19 vultr systemd-udevd[313]: link_config: could not get ethtool features for veth02822c5
+Apr 23 23:26:19 vultr systemd-udevd[313]: Could not set offload features of veth02822c5: No such device
+Apr 23 23:26:22 vultr ntpd[454]: Listen normally on 4 ens3 158.247.223.84:123
+Apr 23 23:26:22 vultr ntpd[454]: Listen normally on 5 docker_gwbridge 172.19.0.1:123
+Apr 23 23:26:22 vultr ntpd[454]: Listen normally on 6 ens3 [fe80::5400:3ff:fe85:82df%2]:123
+Apr 23 23:26:22 vultr ntpd[454]: Listen normally on 7 docker_gwbridge [fe80::42:1dff:fe0a:a9e2%6]:123
+Apr 23 23:26:22 vultr ntpd[454]: Listen normally on 8 veth52601c1 [fe80::c4e3:8cff:fead:943f%12]:123
+Apr 23 23:26:22 vultr ntpd[454]: new interface(s) found: waking up resolver
+Apr 23 23:27:29 vultr systemd[1]: Created slice User Slice of UID 1001.
+Apr 23 23:27:29 vultr systemd[1]: Starting User Runtime Directory /run/user/1001...
+Apr 23 23:27:29 vultr systemd[1]: Started User Runtime Directory /run/user/1001.
+Apr 23 23:27:29 vultr systemd[1]: Starting User Manager for UID 1001...
+Apr 23 23:27:29 vultr systemd[1368]: Reached target Paths.
+Apr 23 23:27:29 vultr systemd[1368]: Reached target Timers.
+Apr 23 23:27:29 vultr systemd[1368]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+Apr 23 23:27:29 vultr systemd[1368]: Listening on GnuPG network certificate management daemon.
+Apr 23 23:27:29 vultr systemd[1368]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+Apr 23 23:27:29 vultr systemd[1368]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+Apr 23 23:27:29 vultr systemd[1368]: Listening on GnuPG cryptographic agent and passphrase cache.
+Apr 23 23:27:29 vultr systemd[1368]: Reached target Sockets.
+Apr 23 23:27:29 vultr systemd[1368]: Reached target Basic System.
+Apr 23 23:27:29 vultr systemd[1]: Started User Manager for UID 1001.
+Apr 23 23:27:29 vultr systemd[1]: Started Session 1 of user adam.
+Apr 23 23:27:29 vultr systemd[1368]: Reached target Default.
+Apr 23 23:27:29 vultr systemd[1368]: Startup finished in 46ms.
+Apr 23 23:27:39 vultr systemd[1]: Mounting FUSE Control File System...
+Apr 23 23:27:39 vultr systemd[1]: Mounted FUSE Control File System.
+Apr 23 23:27:45 vultr systemd[1]: mnt-amzn2.mount: Succeeded.
+Apr 23 23:27:45 vultr systemd[1368]: mnt-amzn2.mount: Succeeded.
+Apr 23 23:27:46 vultr systemd[1]: mnt-rsync.mount: Succeeded.
+Apr 23 23:27:46 vultr systemd[1368]: mnt-rsync.mount: Succeeded.
+Apr 23 23:27:53 vultr systemd[1]: mnt-amzn2.mount: Succeeded.
+Apr 23 23:27:53 vultr systemd[1368]: mnt-amzn2.mount: Succeeded.
