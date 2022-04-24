@@ -1,0 +1,97 @@
+Apr 23 23:26:14 vultr dovecot: master: Dovecot v2.3.4.1 (f79e8e7e4) starting up for imap (core dumps disabled)
+Apr 23 23:26:14 vultr cyrus/ctl_cyrusdb[480]: skiplist: clean shutdown file missing, updating recovery stamp
+Apr 23 23:26:14 vultr cyrus/ctl_cyrusdb[480]: recovering cyrus databases
+Apr 23 23:26:14 vultr cyrus/ctl_cyrusdb[480]: done recovering cyrus databases
+Apr 23 23:26:14 vultr cyrus/cyr_expire[513]: Expired 0 and expunged 0 out of 0 messages from 0 mailboxes
+Apr 23 23:26:14 vultr cyrus/cyr_expire[513]: duplicate_prune: pruning back 3.00 days
+Apr 23 23:26:14 vultr cyrus/cyr_expire[513]: duplicate_prune: purged 0 out of 0 entries
+Apr 23 23:26:14 vultr cyrus/tls_prune[524]: tls_prune: /var/lib/cyrus/tls_sessions.db not found, nothing to do
+Apr 23 23:26:14 vultr cyrus/master[437]: cannot find executable for service 'imap'
+Apr 23 23:26:14 vultr cyrus/master[437]: exiting
+Apr 23 23:26:16 vultr postfix/postfix-script[856]: warning: symlink leaves directory: /etc/postfix/./makedefs.out
+Apr 23 23:26:17 vultr postfix/postfix-script[929]: warning: /var/spool/postfix/etc/resolv.conf and /etc/resolv.conf differ
+Apr 23 23:26:17 vultr postfix/postfix-script[1005]: starting the Postfix mail system
+Apr 23 23:26:17 vultr postfix/master[1023]: daemon started -- version 3.4.14, configuration /etc/postfix
+Apr 23 23:27:37 vultr postfix/pickup[1032]: 747442F38: uid=1001 from=<adam>
+Apr 23 23:27:37 vultr postfix/cleanup[1395]: 747442F38: message-id=<20220423232737.747442F38@plemma.cc>
+Apr 23 23:27:37 vultr postfix/qmgr[1033]: 747442F38: from=<adam@adam.relay@carpent.us>, size=437, nrcpt=1 (queue active)
+Apr 23 23:27:37 vultr postfix/pickup[1032]: 777302F36: uid=1001 from=<adam>
+Apr 23 23:27:37 vultr postfix/cleanup[1395]: 777302F36: message-id=<20220423232737.777302F36@plemma.cc>
+Apr 23 23:27:37 vultr postfix/qmgr[1033]: 777302F36: from=<adam@adam.relay@carpent.us>, size=476, nrcpt=1 (queue active)
+Apr 23 23:27:37 vultr postfix/smtp[1398]: 747442F38: to=<root@adam.relay@carpent.us>, orig_to=<root>, relay=none, delay=0.06, delays=0.04/0.02/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=smtp-relay.gmail.com type=MX: Host not found, try again)
+Apr 23 23:27:37 vultr postfix/smtp[1399]: 777302F36: to=<root@adam.relay@carpent.us>, orig_to=<root>, relay=none, delay=0.07, delays=0.04/0.04/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=smtp-relay.gmail.com type=MX: Host not found, try again)
+Apr 23 23:31:17 vultr postfix/qmgr[1033]: 384232C3D: from=<>, size=18998, nrcpt=1 (queue active)
+Apr 23 23:31:17 vultr postfix/qmgr[1033]: B49AE2F27: from=<adam@adam.relay@carpent.us>, size=437, nrcpt=1 (queue active)
+Apr 23 23:31:17 vultr postfix/qmgr[1033]: B755F2F22: from=<adam@adam.relay@carpent.us>, size=476, nrcpt=1 (queue active)
+Apr 23 23:31:17 vultr postfix/qmgr[1033]: BBD3D1D21: from=<ibbounce@interactivebrokers.com>, size=17117, nrcpt=3 (queue active)
+Apr 23 23:31:17 vultr postfix/smtp[1795]: 384232C3D: to=<ibbounce@interactivebrokers.com>, relay=none, delay=8807, delays=8807/0.06/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=smtp-relay.gmail.com type=MX: Host not found, try again)
+Apr 23 23:31:17 vultr postfix/smtp[1796]: B49AE2F27: to=<root@adam.relay@carpent.us>, orig_to=<root>, relay=none, delay=341, delays=341/0.06/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=smtp-relay.gmail.com type=MX: Host not found, try again)
+Apr 23 23:31:17 vultr postfix/smtp[1795]: B755F2F22: to=<root@adam.relay@carpent.us>, orig_to=<root>, relay=none, delay=341, delays=341/0.06/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=smtp-relay.gmail.com type=MX: Host not found, try again)
+Apr 23 23:31:17 vultr postfix/smtp[1796]: BBD3D1D21: to=<0xc514f094370cfc5ee45a1dd9b72bb9675efe266f@ethmail.cc>, orig_to=<adam@emplifyhr.com>, relay=none, delay=8808, delays=8808/0.07/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=smtp-relay.gmail.com type=MX: Host not found, try again)
+Apr 23 23:36:17 vultr postfix/qmgr[1033]: C9E792C3B: from=<carlosalbarto11@gmail.com>, size=10521, nrcpt=3 (queue active)
+Apr 23 23:36:17 vultr postfix/qmgr[1033]: 777302F36: from=<adam@adam.relay@carpent.us>, size=476, nrcpt=1 (queue active)
+Apr 23 23:36:17 vultr postfix/qmgr[1033]: 747442F38: from=<adam@adam.relay@carpent.us>, size=437, nrcpt=1 (queue active)
+Apr 23 23:36:17 vultr postfix/qmgr[1033]: DFF9F2C7B: from=<>, size=12386, nrcpt=1 (queue active)
+Apr 23 23:36:17 vultr postfix/smtp[1917]: C9E792C3B: to=<0xc514f094370cfc5ee45a1dd9b72bb9675efe266f@ethmail.cc>, orig_to=<adam5@reallyhim.com>, relay=none, delay=9052, delays=9052/0.04/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=smtp-relay.gmail.com type=MX: Host not found, try again)
+Apr 23 23:36:17 vultr postfix/smtp[1917]: 777302F36: to=<root@adam.relay@carpent.us>, orig_to=<root>, relay=none, delay=520, delays=520/0.04/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=smtp-relay.gmail.com type=MX: Host not found, try again)
+Apr 23 23:36:17 vultr postfix/smtp[1918]: 747442F38: to=<root@adam.relay@carpent.us>, orig_to=<root>, relay=none, delay=520, delays=520/0.04/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=smtp-relay.gmail.com type=MX: Host not found, try again)
+Apr 23 23:36:17 vultr postfix/smtp[1917]: DFF9F2C7B: to=<carlosalbarto11@gmail.com>, relay=none, delay=9052, delays=9052/0.04/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=smtp-relay.gmail.com type=MX: Host not found, try again)
+Apr 23 23:41:17 vultr postfix/qmgr[1033]: B49AE2F27: from=<adam@adam.relay@carpent.us>, size=437, nrcpt=1 (queue active)
+Apr 23 23:41:17 vultr postfix/qmgr[1033]: B755F2F22: from=<adam@adam.relay@carpent.us>, size=476, nrcpt=1 (queue active)
+Apr 23 23:41:17 vultr postfix/qmgr[1033]: 9B1E62C8C: from=<>, size=32211, nrcpt=1 (queue active)
+Apr 23 23:41:17 vultr postfix/qmgr[1033]: 239612C3E: from=<owner-ageing@JISCMAIL.AC.UK>, size=30342, nrcpt=3 (queue active)
+Apr 23 23:41:17 vultr postfix/smtp[2094]: B49AE2F27: to=<root@adam.relay@carpent.us>, orig_to=<root>, relay=none, delay=940, delays=940/0.04/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=smtp-relay.gmail.com type=MX: Host not found, try again)
+Apr 23 23:41:17 vultr postfix/smtp[2094]: B755F2F22: to=<root@adam.relay@carpent.us>, orig_to=<root>, relay=none, delay=940, delays=940/0.04/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=smtp-relay.gmail.com type=MX: Host not found, try again)
+Apr 23 23:41:17 vultr postfix/smtp[2094]: 9B1E62C8C: to=<owner-ageing@JISCMAIL.AC.UK>, relay=none, delay=9088, delays=9088/0.04/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=smtp-relay.gmail.com type=MX: Host not found, try again)
+Apr 23 23:41:17 vultr postfix/smtp[2095]: 239612C3E: to=<0xc514f094370cfc5ee45a1dd9b72bb9675efe266f@ethmail.cc>, orig_to=<adam@EMPLIFYHR.COM>, relay=none, delay=9088, delays=9088/0.04/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=smtp-relay.gmail.com type=MX: Host not found, try again)
+Apr 23 23:46:17 vultr postfix/qmgr[1033]: 777302F36: from=<adam@adam.relay@carpent.us>, size=476, nrcpt=1 (queue active)
+Apr 23 23:46:17 vultr postfix/qmgr[1033]: 747442F38: from=<adam@adam.relay@carpent.us>, size=437, nrcpt=1 (queue active)
+Apr 23 23:46:17 vultr postfix/qmgr[1033]: 278B62CEA: from=<>, size=8298, nrcpt=1 (queue active)
+Apr 23 23:46:17 vultr postfix/qmgr[1033]: 80C732C87: from=<n01051dd2a2-3294e00d987f4db0-adam_flash===fromthemachine.org@bounce.twitter.com>, size=105337, nrcpt=3 (queue active)
+Apr 23 23:46:17 vultr postfix/smtp[2246]: 777302F36: to=<root@adam.relay@carpent.us>, orig_to=<root>, relay=none, delay=1120, delays=1120/0.03/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=smtp-relay.gmail.com type=MX: Host not found, try again)
+Apr 23 23:46:17 vultr postfix/smtp[2246]: 747442F38: to=<root@adam.relay@carpent.us>, orig_to=<root>, relay=none, delay=1120, delays=1120/0.04/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=smtp-relay.gmail.com type=MX: Host not found, try again)
+Apr 23 23:46:17 vultr postfix/smtp[2246]: 278B62CEA: to=<n01051dd2a2-3294e00d987f4db0-adam_flash===fromthemachine.org@bounce.twitter.com>, relay=none, delay=9086, delays=9086/0.04/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=smtp-relay.gmail.com type=MX: Host not found, try again)
+Apr 23 23:46:17 vultr postfix/error[2250]: 80C732C87: to=<0xc514f094370cfc5ee45a1dd9b72bb9675efe266f@ethmail.cc>, orig_to=<adam_flash@fromthemachine.org>, relay=none, delay=9087, delays=9087/0.07/0/0, dsn=4.4.3, status=deferred (delivery temporarily suspended: Host or domain name not found. Name service error for name=smtp-relay.gmail.com type=MX: Host not found, try again)
+Apr 23 23:46:17 vultr postfix/smtpd[2251]: connect from unknown[194.226.211.13]
+Apr 23 23:46:19 vultr postfix/trivial-rewrite[2245]: warning: do not list domain ermccorp.com in BOTH mydestination and virtual_alias_domains
+Apr 23 23:46:19 vultr postfix/smtpd[2251]: 894A12F29: client=unknown[194.226.211.13]
+Apr 23 23:46:19 vultr postfix/cleanup[2255]: 894A12F29: message-id=<13698890732162.S0I0X979Z4@herzen.spb.ru>
+Apr 23 23:46:19 vultr postfix/qmgr[1033]: 894A12F29: from=<natalia.vereshchagina@herzen.spb.ru>, size=4320, nrcpt=4 (queue active)
+Apr 23 23:46:19 vultr postfix/trivial-rewrite[2245]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Apr 23 23:46:19 vultr postfix/error[2250]: 894A12F29: to=<0xc514f094370cfc5ee45a1dd9b72bb9675efe266f@ethmail.cc>, orig_to=<janet@ermccorp.com>, relay=none, delay=0.02, delays=0.02/0/0/0, dsn=4.4.3, status=deferred (delivery temporarily suspended: Host or domain name not found. Name service error for name=smtp-relay.gmail.com type=MX: Host not found, try again)
+Apr 23 23:46:19 vultr postfix/error[2250]: 894A12F29: to=<adam.e@localhsot>, orig_to=<janet@ermccorp.com>, relay=none, delay=0.03, delays=0.02/0/0/0, dsn=4.4.3, status=deferred (delivery temporarily suspended: Host or domain name not found. Name service error for name=smtp-relay.gmail.com type=MX: Host not found, try again)
+Apr 23 23:46:19 vultr postfix/local[2256]: 894A12F29: to=<adam@localhost>, orig_to=<janet@ermccorp.com>, relay=local, delay=0.04, delays=0.02/0.02/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Apr 23 23:46:19 vultr postfix/local[2256]: 894A12F29: to=<ftm@fromthemachine.org>, orig_to=<janet@ermccorp.com>, relay=local, delay=0.06, delays=0.02/0.02/0/0.02, dsn=5.1.1, status=bounced (unknown user: "ftm")
+Apr 23 23:46:19 vultr postfix/cleanup[2255]: 93AD92F3C: message-id=<20220423234619.93AD92F3C@plemma.cc>
+Apr 23 23:46:19 vultr postfix/qmgr[1033]: 93AD92F3C: from=<>, size=6213, nrcpt=1 (queue active)
+Apr 23 23:46:19 vultr postfix/bounce[2258]: 894A12F29: sender non-delivery notification: 93AD92F3C
+Apr 23 23:46:19 vultr postfix/error[2250]: 93AD92F3C: to=<natalia.vereshchagina@herzen.spb.ru>, relay=none, delay=0, delays=0/0/0/0, dsn=4.4.3, status=deferred (delivery temporarily suspended: Host or domain name not found. Name service error for name=smtp-relay.gmail.com type=MX: Host not found, try again)
+Apr 23 23:46:20 vultr postfix/smtpd[2251]: disconnect from unknown[194.226.211.13] ehlo=2 starttls=1 mail=1 rcpt=1 bdat=1 quit=1 commands=7
+Apr 23 23:49:40 vultr postfix/anvil[2254]: statistics: max connection rate 1/60s for (smtp:194.226.211.13) at Apr 23 23:46:17
+Apr 23 23:49:40 vultr postfix/anvil[2254]: statistics: max connection count 1 for (smtp:194.226.211.13) at Apr 23 23:46:17
+Apr 23 23:49:40 vultr postfix/anvil[2254]: statistics: max cache size 1 at Apr 23 23:46:17
+Apr 23 23:54:09 vultr postfix/smtpd[2466]: connect from unknown[112.47.190.135]
+Apr 23 23:54:37 vultr postfix/smtpd[2466]: lost connection after CONNECT from unknown[112.47.190.135]
+Apr 23 23:54:37 vultr postfix/smtpd[2466]: disconnect from unknown[112.47.190.135] commands=0/0
+Apr 23 23:56:17 vultr postfix/qmgr[1033]: 93AD92F3C: from=<>, size=6213, nrcpt=1 (queue active)
+Apr 23 23:56:17 vultr postfix/qmgr[1033]: 894A12F29: from=<natalia.vereshchagina@herzen.spb.ru>, size=4320, nrcpt=4 (queue active)
+Apr 23 23:56:17 vultr postfix/smtp[2523]: 93AD92F3C: to=<natalia.vereshchagina@herzen.spb.ru>, relay=none, delay=598, delays=598/0.03/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=smtp-relay.gmail.com type=MX: Host not found, try again)
+Apr 23 23:56:17 vultr postfix/smtp[2523]: 894A12F29: to=<0xc514f094370cfc5ee45a1dd9b72bb9675efe266f@ethmail.cc>, orig_to=<janet@ermccorp.com>, relay=none, delay=598, delays=598/0.04/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=smtp-relay.gmail.com type=MX: Host not found, try again)
+Apr 23 23:56:17 vultr postfix/smtp[2523]: 894A12F29: to=<adam.e@localhsot>, orig_to=<janet@ermccorp.com>, relay=none, delay=598, delays=598/0.04/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=smtp-relay.gmail.com type=MX: Host not found, try again)
+Apr 23 23:57:57 vultr postfix/anvil[2468]: statistics: max connection rate 1/60s for (smtp:112.47.190.135) at Apr 23 23:54:09
+Apr 23 23:57:57 vultr postfix/anvil[2468]: statistics: max connection count 1 for (smtp:112.47.190.135) at Apr 23 23:54:09
+Apr 23 23:57:57 vultr postfix/anvil[2468]: statistics: max cache size 1 at Apr 23 23:54:09
+Apr 23 23:58:00 vultr postfix/smtpd[2565]: connect from unknown[108.177.16.13]
+Apr 23 23:58:01 vultr postfix/trivial-rewrite[2522]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Apr 23 23:58:01 vultr postfix/smtpd[2565]: 4761D2F37: client=unknown[108.177.16.13]
+Apr 23 23:58:01 vultr postfix/cleanup[2568]: 4761D2F37: message-id=<000000000000d1201f05dd5b1c11@google.com>
+Apr 23 23:58:01 vultr postfix/qmgr[1033]: 4761D2F37: from=<3hpJkYgsJB1c8DH3E7C3E675Bz7A.1DBHzAJ2zH4GDBI63Bz167C3.DG5@doclist.bounces.google.com>, size=13052, nrcpt=3 (queue active)
+Apr 23 23:58:01 vultr postfix/trivial-rewrite[2522]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Apr 23 23:58:01 vultr postfix/local[2569]: 4761D2F37: to=<adam@localhost>, orig_to=<saludas@fromthemachine.org>, relay=local, delay=0.08, delays=0.06/0.02/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Apr 23 23:58:01 vultr postfix/smtp[2570]: 4761D2F37: to=<0xc514f094370cfc5ee45a1dd9b72bb9675efe266f@ethmail.cc>, orig_to=<saludas@fromthemachine.org>, relay=none, delay=0.09, delays=0.06/0.03/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=smtp-relay.gmail.com type=MX: Host not found, try again)
+Apr 23 23:58:01 vultr postfix/local[2569]: 4761D2F37: to=<ftm@fromthemachine.org>, orig_to=<saludas@fromthemachine.org>, relay=local, delay=0.11, delays=0.06/0.02/0/0.03, dsn=5.1.1, status=bounced (unknown user: "ftm")
+Apr 23 23:58:01 vultr postfix/cleanup[2568]: 5F6332F3E: message-id=<20220423235801.5F6332F3E@plemma.cc>
+Apr 23 23:58:01 vultr postfix/qmgr[1033]: 5F6332F3E: from=<>, size=15108, nrcpt=1 (queue active)
+Apr 23 23:58:01 vultr postfix/bounce[2572]: 4761D2F37: sender non-delivery notification: 5F6332F3E
+Apr 23 23:58:01 vultr postfix/smtp[2570]: 5F6332F3E: to=<3hpJkYgsJB1c8DH3E7C3E675Bz7A.1DBHzAJ2zH4GDBI63Bz167C3.DG5@doclist.bounces.google.com>, relay=none, delay=0, delays=0/0/0/0, dsn=4.4.3, status=deferred (Host or domain name not found. Name service error for name=smtp-relay.gmail.com type=MX: Host not found, try again)
+Apr 23 23:58:01 vultr postfix/smtpd[2565]: disconnect from unknown[108.177.16.13] ehlo=2 starttls=1 mail=1 rcpt=1 bdat=1 quit=1 commands=7

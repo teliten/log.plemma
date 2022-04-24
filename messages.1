@@ -1,0 +1,662 @@
+Apr 23 23:26:13 vultr kernel: [    0.000000] Linux version 4.19.0-18-amd64 (debian-kernel@lists.debian.org) (gcc version 8.3.0 (Debian 8.3.0-6)) #1 SMP Debian 4.19.208-1 (2021-09-29)
+Apr 23 23:26:13 vultr kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-4.19.0-18-amd64 root=UUID=8ef39735-8cd7-44b2-995e-da53dbb9b91a ro consoleblank=0 vultrquiet
+Apr 23 23:26:13 vultr kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+Apr 23 23:26:13 vultr kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+Apr 23 23:26:13 vultr kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+Apr 23 23:26:13 vultr kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x020: 'AVX-512 opmask'
+Apr 23 23:26:13 vultr kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x040: 'AVX-512 Hi256'
+Apr 23 23:26:13 vultr kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x080: 'AVX-512 ZMM_Hi256'
+Apr 23 23:26:13 vultr kernel: [    0.000000] x86/fpu: Supporting XSAVE feature 0x200: 'Protection Keys User registers'
+Apr 23 23:26:13 vultr kernel: [    0.000000] x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+Apr 23 23:26:13 vultr kernel: [    0.000000] x86/fpu: xstate_offset[5]: 1088, xstate_sizes[5]:   64
+Apr 23 23:26:13 vultr kernel: [    0.000000] x86/fpu: xstate_offset[6]: 1152, xstate_sizes[6]:  512
+Apr 23 23:26:13 vultr kernel: [    0.000000] x86/fpu: xstate_offset[7]: 1664, xstate_sizes[7]: 1024
+Apr 23 23:26:13 vultr kernel: [    0.000000] x86/fpu: xstate_offset[9]: 2688, xstate_sizes[9]:    8
+Apr 23 23:26:13 vultr kernel: [    0.000000] x86/fpu: Enabled xstate features 0x2e7, context size is 2696 bytes, using 'standard' format.
+Apr 23 23:26:13 vultr kernel: [    0.000000] BIOS-provided physical RAM map:
+Apr 23 23:26:13 vultr kernel: [    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009fbff] usable
+Apr 23 23:26:13 vultr kernel: [    0.000000] BIOS-e820: [mem 0x000000000009fc00-0x000000000009ffff] reserved
+Apr 23 23:26:13 vultr kernel: [    0.000000] BIOS-e820: [mem 0x00000000000f0000-0x00000000000fffff] reserved
+Apr 23 23:26:13 vultr kernel: [    0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000003ffdbfff] usable
+Apr 23 23:26:13 vultr kernel: [    0.000000] BIOS-e820: [mem 0x000000003ffdc000-0x000000003fffffff] reserved
+Apr 23 23:26:13 vultr kernel: [    0.000000] BIOS-e820: [mem 0x00000000feffc000-0x00000000feffffff] reserved
+Apr 23 23:26:13 vultr kernel: [    0.000000] BIOS-e820: [mem 0x00000000fffc0000-0x00000000ffffffff] reserved
+Apr 23 23:26:13 vultr kernel: [    0.000000] NX (Execute Disable) protection: active
+Apr 23 23:26:13 vultr kernel: [    0.000000] SMBIOS 2.8 present.
+Apr 23 23:26:13 vultr kernel: [    0.000000] DMI: Vultr VC2, BIOS  
+Apr 23 23:26:13 vultr kernel: [    0.000000] Hypervisor detected: KVM
+Apr 23 23:26:13 vultr kernel: [    0.000000] kvm-clock: Using msrs 4b564d01 and 4b564d00
+Apr 23 23:26:13 vultr kernel: [    0.000000] kvm-clock: cpu 0, msr 119ec001, primary cpu clock
+Apr 23 23:26:13 vultr kernel: [    0.000000] kvm-clock: using sched offset of 88307786374745 cycles
+Apr 23 23:26:13 vultr kernel: [    0.000011] clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+Apr 23 23:26:13 vultr kernel: [    0.000028] tsc: Detected 2593.904 MHz processor
+Apr 23 23:26:13 vultr kernel: [    0.001674] last_pfn = 0x3ffdc max_arch_pfn = 0x400000000
+Apr 23 23:26:13 vultr kernel: [    0.001754] x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+Apr 23 23:26:13 vultr kernel: [    0.008957] found SMP MP-table at [mem 0x000f5a80-0x000f5a8f]
+Apr 23 23:26:13 vultr kernel: [    0.009202] Using GB pages for direct mapping
+Apr 23 23:26:13 vultr kernel: [    0.009303] RAMDISK: [mem 0x34cd5000-0x36661fff]
+Apr 23 23:26:13 vultr kernel: [    0.009333] ACPI: Early table checksum verification disabled
+Apr 23 23:26:13 vultr kernel: [    0.009416] ACPI: RSDP 0x00000000000F58F0 000014 (v00 BOCHS )
+Apr 23 23:26:13 vultr kernel: [    0.009424] ACPI: RSDT 0x000000003FFE14B5 000034 (v01 BOCHS  BXPCRSDT 00000001 BXPC 00000001)
+Apr 23 23:26:13 vultr kernel: [    0.009438] ACPI: FACP 0x000000003FFE1369 000074 (v01 BOCHS  BXPCFACP 00000001 BXPC 00000001)
+Apr 23 23:26:13 vultr kernel: [    0.009447] ACPI: DSDT 0x000000003FFE0040 001329 (v01 BOCHS  BXPCDSDT 00000001 BXPC 00000001)
+Apr 23 23:26:13 vultr kernel: [    0.009450] ACPI: FACS 0x000000003FFE0000 000040
+Apr 23 23:26:13 vultr kernel: [    0.009453] ACPI: APIC 0x000000003FFE13DD 000078 (v01 BOCHS  BXPCAPIC 00000001 BXPC 00000001)
+Apr 23 23:26:13 vultr kernel: [    0.009456] ACPI: HPET 0x000000003FFE1455 000038 (v01 BOCHS  BXPCHPET 00000001 BXPC 00000001)
+Apr 23 23:26:13 vultr kernel: [    0.009460] ACPI: WAET 0x000000003FFE148D 000028 (v01 BOCHS  BXPCWAET 00000001 BXPC 00000001)
+Apr 23 23:26:13 vultr kernel: [    0.009462] ACPI: Reserving FACP table memory at [mem 0x3ffe1369-0x3ffe13dc]
+Apr 23 23:26:13 vultr kernel: [    0.009463] ACPI: Reserving DSDT table memory at [mem 0x3ffe0040-0x3ffe1368]
+Apr 23 23:26:13 vultr kernel: [    0.009464] ACPI: Reserving FACS table memory at [mem 0x3ffe0000-0x3ffe003f]
+Apr 23 23:26:13 vultr kernel: [    0.009465] ACPI: Reserving APIC table memory at [mem 0x3ffe13dd-0x3ffe1454]
+Apr 23 23:26:13 vultr kernel: [    0.009466] ACPI: Reserving HPET table memory at [mem 0x3ffe1455-0x3ffe148c]
+Apr 23 23:26:13 vultr kernel: [    0.009466] ACPI: Reserving WAET table memory at [mem 0x3ffe148d-0x3ffe14b4]
+Apr 23 23:26:13 vultr kernel: [    0.009967] No NUMA configuration found
+Apr 23 23:26:13 vultr kernel: [    0.009969] Faking a node at [mem 0x0000000000000000-0x000000003ffdbfff]
+Apr 23 23:26:13 vultr kernel: [    0.009983] NODE_DATA(0) allocated [mem 0x3ffd7000-0x3ffdbfff]
+Apr 23 23:26:13 vultr kernel: [    0.010078] Zone ranges:
+Apr 23 23:26:13 vultr kernel: [    0.010085]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Apr 23 23:26:13 vultr kernel: [    0.010087]   DMA32    [mem 0x0000000001000000-0x000000003ffdbfff]
+Apr 23 23:26:13 vultr kernel: [    0.010088]   Normal   empty
+Apr 23 23:26:13 vultr kernel: [    0.010089]   Device   empty
+Apr 23 23:26:13 vultr kernel: [    0.010090] Movable zone start for each node
+Apr 23 23:26:13 vultr kernel: [    0.010091] Early memory node ranges
+Apr 23 23:26:13 vultr kernel: [    0.010092]   node   0: [mem 0x0000000000001000-0x000000000009efff]
+Apr 23 23:26:13 vultr kernel: [    0.010093]   node   0: [mem 0x0000000000100000-0x000000003ffdbfff]
+Apr 23 23:26:13 vultr kernel: [    0.010117] Zeroed struct page in unavailable ranges: 134 pages
+Apr 23 23:26:13 vultr kernel: [    0.010118] Initmem setup node 0 [mem 0x0000000000001000-0x000000003ffdbfff]
+Apr 23 23:26:13 vultr kernel: [    0.024580] ACPI: PM-Timer IO Port: 0x608
+Apr 23 23:26:13 vultr kernel: [    0.024610] ACPI: LAPIC_NMI (acpi_id[0xff] dfl dfl lint[0x1])
+Apr 23 23:26:13 vultr kernel: [    0.024680] IOAPIC[0]: apic_id 0, version 17, address 0xfec00000, GSI 0-23
+Apr 23 23:26:13 vultr kernel: [    0.024688] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Apr 23 23:26:13 vultr kernel: [    0.024699] ACPI: INT_SRC_OVR (bus 0 bus_irq 5 global_irq 5 high level)
+Apr 23 23:26:13 vultr kernel: [    0.024700] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Apr 23 23:26:13 vultr kernel: [    0.024706] ACPI: INT_SRC_OVR (bus 0 bus_irq 10 global_irq 10 high level)
+Apr 23 23:26:13 vultr kernel: [    0.024708] ACPI: INT_SRC_OVR (bus 0 bus_irq 11 global_irq 11 high level)
+Apr 23 23:26:13 vultr kernel: [    0.024715] Using ACPI (MADT) for SMP configuration information
+Apr 23 23:26:13 vultr kernel: [    0.024717] ACPI: HPET id: 0x8086a201 base: 0xfed00000
+Apr 23 23:26:13 vultr kernel: [    0.024730] TSC deadline timer available
+Apr 23 23:26:13 vultr kernel: [    0.024736] smpboot: Allowing 1 CPUs, 0 hotplug CPUs
+Apr 23 23:26:13 vultr kernel: [    0.024765] PM: Registered nosave memory: [mem 0x00000000-0x00000fff]
+Apr 23 23:26:13 vultr kernel: [    0.024767] PM: Registered nosave memory: [mem 0x0009f000-0x0009ffff]
+Apr 23 23:26:13 vultr kernel: [    0.024768] PM: Registered nosave memory: [mem 0x000a0000-0x000effff]
+Apr 23 23:26:13 vultr kernel: [    0.024769] PM: Registered nosave memory: [mem 0x000f0000-0x000fffff]
+Apr 23 23:26:13 vultr kernel: [    0.024773] [mem 0x40000000-0xfeffbfff] available for PCI devices
+Apr 23 23:26:13 vultr kernel: [    0.024774] Booting paravirtualized kernel on KVM
+Apr 23 23:26:13 vultr kernel: [    0.024784] clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+Apr 23 23:26:13 vultr kernel: [    0.110361] random: get_random_bytes called from start_kernel+0x93/0x52a with crng_init=0
+Apr 23 23:26:13 vultr kernel: [    0.110375] setup_percpu: NR_CPUS:512 nr_cpumask_bits:512 nr_cpu_ids:1 nr_node_ids:1
+Apr 23 23:26:13 vultr kernel: [    0.110772] percpu: Embedded 45 pages/cpu s144536 r8192 d31592 u2097152
+Apr 23 23:26:13 vultr kernel: [    0.110810] KVM setup async PF for cpu 0
+Apr 23 23:26:13 vultr kernel: [    0.110818] kvm-stealtime: cpu 0, msr 3ea161c0
+Apr 23 23:26:13 vultr kernel: [    0.110830] Built 1 zonelists, mobility grouping on.  Total pages: 257893
+Apr 23 23:26:13 vultr kernel: [    0.110832] Policy zone: DMA32
+Apr 23 23:26:13 vultr kernel: [    0.110835] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-4.19.0-18-amd64 root=UUID=8ef39735-8cd7-44b2-995e-da53dbb9b91a ro consoleblank=0 vultrquiet
+Apr 23 23:26:13 vultr kernel: [    0.114619] Memory: 980312K/1048040K available (10252K kernel code, 1242K rwdata, 3332K rodata, 1596K init, 2260K bss, 67728K reserved, 0K cma-reserved)
+Apr 23 23:26:13 vultr kernel: [    0.114825] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Apr 23 23:26:13 vultr kernel: [    0.114843] Kernel/User page tables isolation: enabled
+Apr 23 23:26:13 vultr kernel: [    0.115145] ftrace: allocating 32002 entries in 126 pages
+Apr 23 23:26:13 vultr kernel: [    0.132866] rcu: Hierarchical RCU implementation.
+Apr 23 23:26:13 vultr kernel: [    0.132878] rcu: 	RCU restricting CPUs from NR_CPUS=512 to nr_cpu_ids=1.
+Apr 23 23:26:13 vultr kernel: [    0.132884] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=1
+Apr 23 23:26:13 vultr kernel: [    0.135682] NR_IRQS: 33024, nr_irqs: 256, preallocated irqs: 16
+Apr 23 23:26:13 vultr kernel: [    0.152211] Console: colour VGA+ 80x25
+Apr 23 23:26:13 vultr kernel: [    0.188248] console [tty0] enabled
+Apr 23 23:26:13 vultr kernel: [    0.188539] ACPI: Core revision 20180810
+Apr 23 23:26:13 vultr kernel: [    0.189222] clocksource: hpet: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604467 ns
+Apr 23 23:26:13 vultr kernel: [    0.189895] APIC: Switch to symmetric I/O mode setup
+Apr 23 23:26:13 vultr kernel: [    0.190498] x2apic enabled
+Apr 23 23:26:13 vultr kernel: [    0.191061] Switched APIC routing to physical x2apic.
+Apr 23 23:26:13 vultr kernel: [    0.192891] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Apr 23 23:26:13 vultr kernel: [    0.193252] clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x2563bd843df, max_idle_ns: 440795257314 ns
+Apr 23 23:26:13 vultr kernel: [    0.193967] Calibrating delay loop (skipped) preset value.. 5187.80 BogoMIPS (lpj=10375616)
+Apr 23 23:26:13 vultr kernel: [    0.194496] pid_max: default: 32768 minimum: 301
+Apr 23 23:26:13 vultr kernel: [    0.194848] Security Framework initialized
+Apr 23 23:26:13 vultr kernel: [    0.195143] Yama: disabled by default; enable with sysctl kernel.yama.*
+Apr 23 23:26:13 vultr kernel: [    0.195548] AppArmor: AppArmor initialized
+Apr 23 23:26:13 vultr kernel: [    0.196519] Dentry cache hash table entries: 131072 (order: 8, 1048576 bytes)
+Apr 23 23:26:13 vultr kernel: [    0.197262] Inode-cache hash table entries: 65536 (order: 7, 524288 bytes)
+Apr 23 23:26:13 vultr kernel: [    0.197638] Mount-cache hash table entries: 2048 (order: 2, 16384 bytes)
+Apr 23 23:26:13 vultr kernel: [    0.197964] Mountpoint-cache hash table entries: 2048 (order: 2, 16384 bytes)
+Apr 23 23:26:13 vultr kernel: [    0.198719] Last level iTLB entries: 4KB 0, 2MB 0, 4MB 0
+Apr 23 23:26:13 vultr kernel: [    0.199031] Last level dTLB entries: 4KB 0, 2MB 0, 4MB 0, 1GB 0
+Apr 23 23:26:13 vultr kernel: [    0.199358] Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+Apr 23 23:26:13 vultr kernel: [    0.199853] Spectre V2 : Mitigation: Full generic retpoline
+Apr 23 23:26:13 vultr kernel: [    0.200163] Spectre V2 : Spectre v2 / SpectreRSB mitigation: Filling RSB on context switch
+Apr 23 23:26:13 vultr kernel: [    0.200634] Spectre V2 : Enabling Restricted Speculation for firmware calls
+Apr 23 23:26:13 vultr kernel: [    0.200996] Spectre V2 : mitigation: Enabling conditional Indirect Branch Prediction Barrier
+Apr 23 23:26:13 vultr kernel: [    0.201462] Speculative Store Bypass: Mitigation: Speculative Store Bypass disabled via prctl and seccomp
+Apr 23 23:26:13 vultr kernel: [    0.201986] TAA: Vulnerable: Clear CPU buffers attempted, no microcode
+Apr 23 23:26:13 vultr kernel: [    0.202328] MDS: Vulnerable: Clear CPU buffers attempted, no microcode
+Apr 23 23:26:13 vultr kernel: [    0.211923] Freeing SMP alternatives memory: 24K
+Apr 23 23:26:13 vultr kernel: [    0.215770] smpboot: CPU0: Intel Xeon Processor (Skylake, IBRS) (family: 0x6, model: 0x55, stepping: 0x4)
+Apr 23 23:26:13 vultr kernel: [    0.216471] Performance Events: unsupported p6 CPU model 85 no PMU driver, software events only.
+Apr 23 23:26:13 vultr kernel: [    0.217055] rcu: Hierarchical SRCU implementation.
+Apr 23 23:26:13 vultr kernel: [    0.217949] random: crng done (trusting CPU's manufacturer)
+Apr 23 23:26:13 vultr kernel: [    0.217949] NMI watchdog: Perf NMI watchdog permanently disabled
+Apr 23 23:26:13 vultr kernel: [    0.217949] smp: Bringing up secondary CPUs ...
+Apr 23 23:26:13 vultr kernel: [    0.217949] smp: Brought up 1 node, 1 CPU
+Apr 23 23:26:13 vultr kernel: [    0.217949] smpboot: Max logical packages: 1
+Apr 23 23:26:13 vultr kernel: [    0.217949] smpboot: Total of 1 processors activated (5187.80 BogoMIPS)
+Apr 23 23:26:13 vultr kernel: [    0.218197] devtmpfs: initialized
+Apr 23 23:26:13 vultr kernel: [    0.218537] x86/mm: Memory block size: 128MB
+Apr 23 23:26:13 vultr kernel: [    0.219154] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Apr 23 23:26:13 vultr kernel: [    0.219777] futex hash table entries: 256 (order: 2, 16384 bytes)
+Apr 23 23:26:13 vultr kernel: [    0.220174] pinctrl core: initialized pinctrl subsystem
+Apr 23 23:26:13 vultr kernel: [    0.220726] NET: Registered protocol family 16
+Apr 23 23:26:13 vultr kernel: [    0.221135] audit: initializing netlink subsys (disabled)
+Apr 23 23:26:13 vultr kernel: [    0.221603] cpuidle: using governor ladder
+Apr 23 23:26:13 vultr kernel: [    0.221904] cpuidle: using governor menu
+Apr 23 23:26:13 vultr kernel: [    0.222006] ACPI: bus type PCI registered
+Apr 23 23:26:13 vultr kernel: [    0.222270] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Apr 23 23:26:13 vultr kernel: [    0.222782] PCI: Using configuration type 1 for base access
+Apr 23 23:26:13 vultr kernel: [    0.223766] audit: type=2000 audit(1650756368.609:1): state=initialized audit_enabled=0 res=1
+Apr 23 23:26:13 vultr kernel: [    0.224380] HugeTLB registered 1.00 GiB page size, pre-allocated 0 pages
+Apr 23 23:26:13 vultr kernel: [    0.224746] HugeTLB registered 2.00 MiB page size, pre-allocated 0 pages
+Apr 23 23:26:13 vultr kernel: [    0.225362] ACPI: Added _OSI(Module Device)
+Apr 23 23:26:13 vultr kernel: [    0.225662] ACPI: Added _OSI(Processor Device)
+Apr 23 23:26:13 vultr kernel: [    0.225959] ACPI: Added _OSI(3.0 _SCP Extensions)
+Apr 23 23:26:13 vultr kernel: [    0.226298] ACPI: Added _OSI(Processor Aggregator Device)
+Apr 23 23:26:13 vultr kernel: [    0.226648] ACPI: Added _OSI(Linux-Dell-Video)
+Apr 23 23:26:13 vultr kernel: [    0.226936] ACPI: Added _OSI(Linux-Lenovo-NV-HDMI-Audio)
+Apr 23 23:26:13 vultr kernel: [    0.227642] ACPI: 1 ACPI AML tables successfully acquired and loaded
+Apr 23 23:26:13 vultr kernel: [    0.228408] ACPI: Interpreter enabled
+Apr 23 23:26:13 vultr kernel: [    0.228687] ACPI: (supports S0 S3 S4 S5)
+Apr 23 23:26:13 vultr kernel: [    0.228958] ACPI: Using IOAPIC for interrupt routing
+Apr 23 23:26:13 vultr kernel: [    0.229262] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+Apr 23 23:26:13 vultr kernel: [    0.229859] ACPI: Enabled 2 GPEs in block 00 to 0F
+Apr 23 23:26:13 vultr kernel: [    0.231585] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Apr 23 23:26:13 vultr kernel: [    0.231972] acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI]
+Apr 23 23:26:13 vultr kernel: [    0.232337] acpi PNP0A03:00: _OSC failed (AE_NOT_FOUND); disabling ASPM
+Apr 23 23:26:13 vultr kernel: [    0.232711] acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended PCI configuration space under this bridge.
+Apr 23 23:26:13 vultr kernel: [    0.233547] acpiphp: Slot [3] registered
+Apr 23 23:26:13 vultr kernel: [    0.233856] acpiphp: Slot [4] registered
+Apr 23 23:26:13 vultr kernel: [    0.234016] acpiphp: Slot [5] registered
+Apr 23 23:26:13 vultr kernel: [    0.234352] acpiphp: Slot [6] registered
+Apr 23 23:26:13 vultr kernel: [    0.238064] acpiphp: Slot [7] registered
+Apr 23 23:26:13 vultr kernel: [    0.238404] acpiphp: Slot [8] registered
+Apr 23 23:26:13 vultr kernel: [    0.238711] acpiphp: Slot [9] registered
+Apr 23 23:26:13 vultr kernel: [    0.239046] acpiphp: Slot [10] registered
+Apr 23 23:26:13 vultr kernel: [    0.239368] acpiphp: Slot [11] registered
+Apr 23 23:26:13 vultr kernel: [    0.239702] acpiphp: Slot [12] registered
+Apr 23 23:26:13 vultr kernel: [    0.240017] acpiphp: Slot [13] registered
+Apr 23 23:26:13 vultr kernel: [    0.240331] acpiphp: Slot [14] registered
+Apr 23 23:26:13 vultr kernel: [    0.240635] acpiphp: Slot [15] registered
+Apr 23 23:26:13 vultr kernel: [    0.240944] acpiphp: Slot [16] registered
+Apr 23 23:26:13 vultr kernel: [    0.241246] acpiphp: Slot [17] registered
+Apr 23 23:26:13 vultr kernel: [    0.241536] acpiphp: Slot [18] registered
+Apr 23 23:26:13 vultr kernel: [    0.241848] acpiphp: Slot [19] registered
+Apr 23 23:26:13 vultr kernel: [    0.241991] acpiphp: Slot [20] registered
+Apr 23 23:26:13 vultr kernel: [    0.242283] acpiphp: Slot [21] registered
+Apr 23 23:26:13 vultr kernel: [    0.242585] acpiphp: Slot [22] registered
+Apr 23 23:26:13 vultr kernel: [    0.242891] acpiphp: Slot [23] registered
+Apr 23 23:26:13 vultr kernel: [    0.243201] acpiphp: Slot [24] registered
+Apr 23 23:26:13 vultr kernel: [    0.243521] acpiphp: Slot [25] registered
+Apr 23 23:26:13 vultr kernel: [    0.243832] acpiphp: Slot [26] registered
+Apr 23 23:26:13 vultr kernel: [    0.244141] acpiphp: Slot [27] registered
+Apr 23 23:26:13 vultr kernel: [    0.244435] acpiphp: Slot [28] registered
+Apr 23 23:26:13 vultr kernel: [    0.244745] acpiphp: Slot [29] registered
+Apr 23 23:26:13 vultr kernel: [    0.245043] acpiphp: Slot [30] registered
+Apr 23 23:26:13 vultr kernel: [    0.245337] acpiphp: Slot [31] registered
+Apr 23 23:26:13 vultr kernel: [    0.245622] PCI host bridge to bus 0000:00
+Apr 23 23:26:13 vultr kernel: [    0.245899] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+Apr 23 23:26:13 vultr kernel: [    0.245956] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+Apr 23 23:26:13 vultr kernel: [    0.246321] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+Apr 23 23:26:13 vultr kernel: [    0.246782] pci_bus 0000:00: root bus resource [mem 0x40000000-0xfebfffff window]
+Apr 23 23:26:13 vultr kernel: [    0.247250] pci_bus 0000:00: root bus resource [mem 0x100000000-0x17fffffff window]
+Apr 23 23:26:13 vultr kernel: [    0.247733] pci_bus 0000:00: root bus resource [bus 00-ff]
+Apr 23 23:26:13 vultr kernel: [    0.251840] pci 0000:00:01.1: legacy IDE quirk: reg 0x10: [io  0x01f0-0x01f7]
+Apr 23 23:26:13 vultr kernel: [    0.252219] pci 0000:00:01.1: legacy IDE quirk: reg 0x14: [io  0x03f6]
+Apr 23 23:26:13 vultr kernel: [    0.252579] pci 0000:00:01.1: legacy IDE quirk: reg 0x18: [io  0x0170-0x0177]
+Apr 23 23:26:13 vultr kernel: [    0.252941] pci 0000:00:01.1: legacy IDE quirk: reg 0x1c: [io  0x0376]
+Apr 23 23:26:13 vultr kernel: [    0.257025] pci 0000:00:01.3: quirk: [io  0x0600-0x063f] claimed by PIIX4 ACPI
+Apr 23 23:26:13 vultr kernel: [    0.257495] pci 0000:00:01.3: quirk: [io  0x0700-0x070f] claimed by PIIX4 SMB
+Apr 23 23:26:13 vultr kernel: [    0.294217] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 *10 11)
+Apr 23 23:26:13 vultr kernel: [    0.294723] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+Apr 23 23:26:13 vultr kernel: [    0.297108] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+Apr 23 23:26:13 vultr kernel: [    0.297569] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 10 *11)
+Apr 23 23:26:13 vultr kernel: [    0.297969] ACPI: PCI Interrupt Link [LNKS] (IRQs *9)
+Apr 23 23:26:13 vultr kernel: [    0.298912] pci 0000:00:02.0: vgaarb: setting as boot VGA device
+Apr 23 23:26:13 vultr kernel: [    0.299260] pci 0000:00:02.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+Apr 23 23:26:13 vultr kernel: [    0.299836] pci 0000:00:02.0: vgaarb: bridge control possible
+Apr 23 23:26:13 vultr kernel: [    0.300195] vgaarb: loaded
+Apr 23 23:26:13 vultr kernel: [    0.300677] pps_core: LinuxPPS API ver. 1 registered
+Apr 23 23:26:13 vultr kernel: [    0.301039] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+Apr 23 23:26:13 vultr kernel: [    0.301589] PTP clock support registered
+Apr 23 23:26:13 vultr kernel: [    0.301984] EDAC MC: Ver: 3.0.0
+Apr 23 23:26:13 vultr kernel: [    0.303122] PCI: Using ACPI for IRQ routing
+Apr 23 23:26:13 vultr kernel: [    0.304527] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0
+Apr 23 23:26:13 vultr kernel: [    0.304988] hpet0: 3 comparators, 64-bit 100.000000 MHz counter
+Apr 23 23:26:13 vultr kernel: [    0.311052] clocksource: Switched to clocksource kvm-clock
+Apr 23 23:26:13 vultr kernel: [    0.320620] VFS: Disk quotas dquot_6.6.0
+Apr 23 23:26:13 vultr kernel: [    0.320948] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Apr 23 23:26:13 vultr kernel: [    0.321494] AppArmor: AppArmor Filesystem Enabled
+Apr 23 23:26:13 vultr kernel: [    0.321818] pnp: PnP ACPI init
+Apr 23 23:26:13 vultr kernel: [    0.322360] pnp: PnP ACPI: found 4 devices
+Apr 23 23:26:13 vultr kernel: [    0.328342] clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+Apr 23 23:26:13 vultr kernel: [    0.328972] NET: Registered protocol family 2
+Apr 23 23:26:13 vultr kernel: [    0.329533] IP idents hash table entries: 16384 (order: 5, 131072 bytes)
+Apr 23 23:26:13 vultr kernel: [    0.330292] tcp_listen_portaddr_hash hash table entries: 512 (order: 1, 8192 bytes)
+Apr 23 23:26:13 vultr kernel: [    0.330767] TCP established hash table entries: 8192 (order: 4, 65536 bytes)
+Apr 23 23:26:13 vultr kernel: [    0.331164] TCP bind hash table entries: 8192 (order: 5, 131072 bytes)
+Apr 23 23:26:13 vultr kernel: [    0.331661] TCP: Hash tables configured (established 8192 bind 8192)
+Apr 23 23:26:13 vultr kernel: [    0.332145] UDP hash table entries: 512 (order: 2, 16384 bytes)
+Apr 23 23:26:13 vultr kernel: [    0.332489] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+Apr 23 23:26:13 vultr kernel: [    0.332917] NET: Registered protocol family 1
+Apr 23 23:26:13 vultr kernel: [    0.333209] NET: Registered protocol family 44
+Apr 23 23:26:13 vultr kernel: [    0.333508] pci 0000:00:01.0: PIIX3: Enabling Passive Release
+Apr 23 23:26:13 vultr kernel: [    0.333838] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Apr 23 23:26:13 vultr kernel: [    0.334195] pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Apr 23 23:26:13 vultr kernel: [    0.347886] PCI Interrupt Link [LNKD] enabled at IRQ 11
+Apr 23 23:26:13 vultr kernel: [    0.363918] pci 0000:00:01.2: quirk_usb_early_handoff+0x0/0x6d0 took 28535 usecs
+Apr 23 23:26:13 vultr kernel: [    0.364525] pci 0000:00:02.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+Apr 23 23:26:13 vultr kernel: [    0.365109] Unpacking initramfs...
+Apr 23 23:26:13 vultr kernel: [    0.861217] Freeing initrd memory: 26164K
+Apr 23 23:26:13 vultr kernel: [    0.862365] clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x2563bd843df, max_idle_ns: 440795257314 ns
+Apr 23 23:26:13 vultr kernel: [    0.864636] Initialise system trusted keyrings
+Apr 23 23:26:13 vultr kernel: [    0.865004] Key type blacklist registered
+Apr 23 23:26:13 vultr kernel: [    0.865545] workingset: timestamp_bits=40 max_order=18 bucket_order=0
+Apr 23 23:26:13 vultr kernel: [    0.867296] zbud: loaded
+Apr 23 23:26:13 vultr kernel: [    0.985838] Key type asymmetric registered
+Apr 23 23:26:13 vultr kernel: [    0.986150] Asymmetric key parser 'x509' registered
+Apr 23 23:26:13 vultr kernel: [    0.986474] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 247)
+Apr 23 23:26:13 vultr kernel: [    0.986986] io scheduler noop registered
+Apr 23 23:26:13 vultr kernel: [    0.987245] io scheduler deadline registered
+Apr 23 23:26:13 vultr kernel: [    0.987574] io scheduler cfq registered (default)
+Apr 23 23:26:13 vultr kernel: [    0.987870] io scheduler mq-deadline registered
+Apr 23 23:26:13 vultr kernel: [    0.988442] shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+Apr 23 23:26:13 vultr kernel: [    0.989310] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+Apr 23 23:26:13 vultr kernel: [    0.990224] Linux agpgart interface v0.103
+Apr 23 23:26:13 vultr kernel: [    0.990672] AMD IOMMUv2 driver by Joerg Roedel <jroedel@suse.de>
+Apr 23 23:26:13 vultr kernel: [    0.991052] AMD IOMMUv2 functionality not available on this system
+Apr 23 23:26:13 vultr kernel: [    0.991774] i8042: PNP: PS/2 Controller [PNP0303:KBD,PNP0f13:MOU] at 0x60,0x64 irq 1,12
+Apr 23 23:26:13 vultr kernel: [    0.993546] serio: i8042 KBD port at 0x60,0x64 irq 1
+Apr 23 23:26:13 vultr kernel: [    0.994012] serio: i8042 AUX port at 0x60,0x64 irq 12
+Apr 23 23:26:13 vultr kernel: [    0.994548] mousedev: PS/2 mouse device common for all mice
+Apr 23 23:26:13 vultr kernel: [    0.995382] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input0
+Apr 23 23:26:13 vultr kernel: [    0.996515] rtc_cmos 00:03: RTC can wake from S4
+Apr 23 23:26:13 vultr kernel: [    0.997426] rtc_cmos 00:03: registered as rtc0
+Apr 23 23:26:13 vultr kernel: [    0.997981] rtc_cmos 00:03: alarms up to one day, y3k, 242 bytes nvram, hpet irqs
+Apr 23 23:26:13 vultr kernel: [    0.998657] ledtrig-cpu: registered to indicate activity on CPUs
+Apr 23 23:26:13 vultr kernel: [    0.999612] NET: Registered protocol family 10
+Apr 23 23:26:13 vultr kernel: [    1.010725] Segment Routing with IPv6
+Apr 23 23:26:13 vultr kernel: [    1.011143] mip6: Mobile IPv6
+Apr 23 23:26:13 vultr kernel: [    1.011472] NET: Registered protocol family 17
+Apr 23 23:26:13 vultr kernel: [    1.011935] mpls_gso: MPLS GSO support
+Apr 23 23:26:13 vultr kernel: [    1.012448] mce: Using 10 MCE banks
+Apr 23 23:26:13 vultr kernel: [    1.012961] sched_clock: Marking stable (959870084, 50087585)->(1028199848, -18242179)
+Apr 23 23:26:13 vultr kernel: [    1.013807] registered taskstats version 1
+Apr 23 23:26:13 vultr kernel: [    1.014198] Loading compiled-in X.509 certificates
+Apr 23 23:26:13 vultr kernel: [    1.040003] Loaded X.509 cert 'Debian Secure Boot CA: 6ccece7e4c6c0d1f6149f3dd27dfcc5cbb419ea1'
+Apr 23 23:26:13 vultr kernel: [    1.040529] Loaded X.509 cert 'Debian Secure Boot Signer 2021 - linux: 4b6ef5abca669825178e052c84667ccbc0531f8c'
+Apr 23 23:26:13 vultr kernel: [    1.041107] zswap: loaded using pool lzo/zbud
+Apr 23 23:26:13 vultr kernel: [    1.041481] AppArmor: AppArmor sha1 policy hashing enabled
+Apr 23 23:26:13 vultr kernel: [    1.042219] rtc_cmos 00:03: setting system clock to 2022-04-23 23:26:10 UTC (1650756370)
+Apr 23 23:26:13 vultr kernel: [    1.045249] Freeing unused kernel image memory: 1596K
+Apr 23 23:26:13 vultr kernel: [    1.054030] Write protecting the kernel read-only data: 16384k
+Apr 23 23:26:13 vultr kernel: [    1.057856] Freeing unused kernel image memory: 2028K
+Apr 23 23:26:13 vultr kernel: [    1.059193] Freeing unused kernel image memory: 764K
+Apr 23 23:26:13 vultr kernel: [    1.065624] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Apr 23 23:26:13 vultr kernel: [    1.066101] x86/mm: Checking user space page tables
+Apr 23 23:26:13 vultr kernel: [    1.072625] x86/mm: Checked W+X mappings: passed, no W+X pages found.
+Apr 23 23:26:13 vultr kernel: [    1.072998] Run /init as init process
+Apr 23 23:26:13 vultr kernel: [    1.151472] piix4_smbus 0000:00:01.3: SMBus Host Controller at 0x700, revision 0
+Apr 23 23:26:13 vultr kernel: [    1.172299] cryptd: max_cpu_qlen set to 1000
+Apr 23 23:26:13 vultr kernel: [    1.186367] FDC 0 is a S82078B
+Apr 23 23:26:13 vultr kernel: [    1.189214] input: VirtualPS/2 VMware VMMouse as /devices/platform/i8042/serio1/input/input3
+Apr 23 23:26:13 vultr kernel: [    1.189969] input: VirtualPS/2 VMware VMMouse as /devices/platform/i8042/serio1/input/input2
+Apr 23 23:26:13 vultr kernel: [    1.201494] AVX2 version of gcm_enc/dec engaged.
+Apr 23 23:26:13 vultr kernel: [    1.201835] AES CTR mode by8 optimization enabled
+Apr 23 23:26:13 vultr kernel: [    1.205460] SCSI subsystem initialized
+Apr 23 23:26:13 vultr kernel: [    1.213209] ACPI: bus type USB registered
+Apr 23 23:26:13 vultr kernel: [    1.213545] usbcore: registered new interface driver usbfs
+Apr 23 23:26:13 vultr kernel: [    1.213897] usbcore: registered new interface driver hub
+Apr 23 23:26:13 vultr kernel: [    1.230864] usbcore: registered new device driver usb
+Apr 23 23:26:13 vultr kernel: [    1.243815] PCI Interrupt Link [LNKC] enabled at IRQ 10
+Apr 23 23:26:13 vultr kernel: [    1.245397] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Apr 23 23:26:13 vultr kernel: [    1.249581] uhci_hcd: USB Universal Host Controller Interface driver
+Apr 23 23:26:13 vultr kernel: [    1.258586] scsi host0: ata_piix
+Apr 23 23:26:13 vultr kernel: [    1.263694] scsi host1: ata_piix
+Apr 23 23:26:13 vultr kernel: [    1.264010] ata1: PATA max MWDMA2 cmd 0x1f0 ctl 0x3f6 bmdma 0xc140 irq 14
+Apr 23 23:26:13 vultr kernel: [    1.264358] ata2: PATA max MWDMA2 cmd 0x170 ctl 0x376 bmdma 0xc148 irq 15
+Apr 23 23:26:13 vultr kernel: [    1.300677] uhci_hcd 0000:00:01.2: UHCI Host Controller
+Apr 23 23:26:13 vultr kernel: [    1.301269] uhci_hcd 0000:00:01.2: new USB bus registered, assigned bus number 1
+Apr 23 23:26:13 vultr kernel: [    1.301941] uhci_hcd 0000:00:01.2: detected 2 ports
+Apr 23 23:26:13 vultr kernel: [    1.302640] uhci_hcd 0000:00:01.2: irq 11, io base 0x0000c100
+Apr 23 23:26:13 vultr kernel: [    1.307987] usb usb1: New USB device found, idVendor=1d6b, idProduct=0001, bcdDevice= 4.19
+Apr 23 23:26:13 vultr kernel: [    1.308638] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Apr 23 23:26:13 vultr kernel: [    1.309225] usb usb1: Product: UHCI Host Controller
+Apr 23 23:26:13 vultr kernel: [    1.322470] usb usb1: Manufacturer: Linux 4.19.0-18-amd64 uhci_hcd
+Apr 23 23:26:13 vultr kernel: [    1.322886] usb usb1: SerialNumber: 0000:00:01.2
+Apr 23 23:26:13 vultr kernel: [    1.340423] PCI Interrupt Link [LNKA] enabled at IRQ 10
+Apr 23 23:26:13 vultr kernel: [    1.342330] hub 1-0:1.0: USB hub found
+Apr 23 23:26:13 vultr kernel: [    1.344308] hub 1-0:1.0: 2 ports detected
+Apr 23 23:26:13 vultr kernel: [    1.364058] PCI Interrupt Link [LNKB] enabled at IRQ 11
+Apr 23 23:26:13 vultr kernel: [    1.382577] virtio_blk virtio1: [vda] 52428800 512-byte logical blocks (26.8 GB/25.0 GiB)
+Apr 23 23:26:13 vultr kernel: [    1.387789]  vda: vda1
+Apr 23 23:26:13 vultr kernel: [    1.395375] virtio_net virtio0 ens3: renamed from eth0
+Apr 23 23:26:13 vultr kernel: [    1.430875] ata2.00: ATAPI: QEMU DVD-ROM, 2.5+, max UDMA/100
+Apr 23 23:26:13 vultr kernel: [    1.433009] scsi 1:0:0:0: CD-ROM            QEMU     QEMU DVD-ROM     2.5+ PQ: 0 ANSI: 5
+Apr 23 23:26:13 vultr kernel: [    1.462646] sr 1:0:0:0: [sr0] scsi3-mmc drive: 4x/4x cd/rw xa/form2 tray
+Apr 23 23:26:13 vultr kernel: [    1.463085] cdrom: Uniform CD-ROM driver Revision: 3.20
+Apr 23 23:26:13 vultr kernel: [    1.582023] usb 1-1: new full-speed USB device number 2 using uhci_hcd
+Apr 23 23:26:13 vultr kernel: [    1.622781] megasas: 07.706.03.00-rc1
+Apr 23 23:26:13 vultr kernel: [    1.713970] raid6: sse2x1   gen() 10434 MB/s
+Apr 23 23:26:13 vultr kernel: [    1.781964] raid6: sse2x1   xor()  7849 MB/s
+Apr 23 23:26:13 vultr kernel: [    1.849967] raid6: sse2x2   gen() 12230 MB/s
+Apr 23 23:26:13 vultr kernel: [    1.917970] raid6: sse2x2   xor()  9074 MB/s
+Apr 23 23:26:13 vultr kernel: [    1.985965] raid6: sse2x4   gen() 15448 MB/s
+Apr 23 23:26:13 vultr kernel: [    2.053977] raid6: sse2x4   xor()  8280 MB/s
+Apr 23 23:26:13 vultr kernel: [    2.121966] raid6: avx2x1   gen() 20436 MB/s
+Apr 23 23:26:13 vultr kernel: [    2.189960] raid6: avx2x1   xor() 15608 MB/s
+Apr 23 23:26:13 vultr kernel: [    2.257957] raid6: avx2x2   gen() 25913 MB/s
+Apr 23 23:26:13 vultr kernel: [    2.325962] raid6: avx2x2   xor() 15583 MB/s
+Apr 23 23:26:13 vultr kernel: [    2.393966] raid6: avx2x4   gen() 27271 MB/s
+Apr 23 23:26:13 vultr kernel: [    2.461964] raid6: avx2x4   xor() 15990 MB/s
+Apr 23 23:26:13 vultr kernel: [    2.529965] raid6: avx512x1 gen() 26245 MB/s
+Apr 23 23:26:13 vultr kernel: [    2.597963] raid6: avx512x1 xor() 14482 MB/s
+Apr 23 23:26:13 vultr kernel: [    2.665964] raid6: avx512x2 gen() 30197 MB/s
+Apr 23 23:26:13 vultr kernel: [    2.733963] raid6: avx512x2 xor() 17937 MB/s
+Apr 23 23:26:13 vultr kernel: [    2.801965] raid6: avx512x4 gen() 35059 MB/s
+Apr 23 23:26:13 vultr kernel: [    2.870006] raid6: avx512x4 xor() 15466 MB/s
+Apr 23 23:26:13 vultr kernel: [    2.870434] raid6: using algorithm avx512x4 gen() 35059 MB/s
+Apr 23 23:26:13 vultr kernel: [    2.870800] raid6: .... xor() 15466 MB/s, rmw enabled
+Apr 23 23:26:13 vultr kernel: [    2.871157] raid6: using avx512x2 recovery algorithm
+Apr 23 23:26:13 vultr kernel: [    2.875518] xor: automatically using best checksumming function   avx       
+Apr 23 23:26:13 vultr kernel: [    2.876902] async_tx: api initialized (async)
+Apr 23 23:26:13 vultr kernel: [    2.998373] usb 1-1: New USB device found, idVendor=0627, idProduct=0001, bcdDevice= 0.00
+Apr 23 23:26:13 vultr kernel: [    2.998921] usb 1-1: New USB device strings: Mfr=1, Product=3, SerialNumber=10
+Apr 23 23:26:13 vultr kernel: [    2.999409] usb 1-1: Product: QEMU USB Tablet
+Apr 23 23:26:13 vultr kernel: [    2.999711] usb 1-1: Manufacturer: QEMU
+Apr 23 23:26:13 vultr kernel: [    3.000020] usb 1-1: SerialNumber: 28754-0000:00:01.2-1
+Apr 23 23:26:13 vultr kernel: [    3.009754] hidraw: raw HID events driver (C) Jiri Kosina
+Apr 23 23:26:13 vultr kernel: [    3.013239] EXT4-fs (vda1): mounted filesystem with ordered data mode. Opts: (null)
+Apr 23 23:26:13 vultr kernel: [    3.017229] usbcore: registered new interface driver usbhid
+Apr 23 23:26:13 vultr kernel: [    3.017662] usbhid: USB HID core driver
+Apr 23 23:26:13 vultr kernel: [    3.019776] input: QEMU QEMU USB Tablet as /devices/pci0000:00/0000:00:01.2/usb1/1-1/1-1:1.0/0003:0627:0001.0001/input/input4
+Apr 23 23:26:13 vultr kernel: [    3.020648] hid-generic 0003:0627:0001.0001: input,hidraw0: USB HID v0.01 Mouse [QEMU QEMU USB Tablet] on usb-0000:00:01.2-1/input0
+Apr 23 23:26:13 vultr kernel: [    3.543302] EXT4-fs (vda1): re-mounted. Opts: errors=remount-ro
+Apr 23 23:26:13 vultr kernel: [    3.828688] Adding 1048572k swap on /swapfile.  Priority:-2 extents:2466 across:25082624k FS
+Apr 23 23:26:13 vultr kernel: [    4.131303] audit: type=1400 audit(1650756373.584:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/bin/man" pid=367 comm="apparmor_parser"
+Apr 23 23:26:13 vultr kernel: [    4.132163] audit: type=1400 audit(1650756373.584:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_filter" pid=367 comm="apparmor_parser"
+Apr 23 23:26:13 vultr kernel: [    4.133003] audit: type=1400 audit(1650756373.584:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="man_groff" pid=367 comm="apparmor_parser"
+Apr 23 23:26:13 vultr kernel: [    4.150228] audit: type=1400 audit(1650756373.604:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/ntpd" pid=370 comm="apparmor_parser"
+Apr 23 23:26:13 vultr kernel: [    4.156143] audit: type=1400 audit(1650756373.608:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/sbin/tcpdump" pid=374 comm="apparmor_parser"
+Apr 23 23:26:13 vultr kernel: [    4.208325] audit: type=1400 audit(1650756373.632:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe" pid=375 comm="apparmor_parser"
+Apr 23 23:26:13 vultr kernel: [    4.209233] audit: type=1400 audit(1650756373.632:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="nvidia_modprobe//kmod" pid=375 comm="apparmor_parser"
+Apr 23 23:26:13 vultr rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.1901.0]
+Apr 23 23:26:13 vultr rsyslogd:  [origin software="rsyslogd" swVersion="8.1901.0" x-pid="394" x-info="https://www.rsyslog.com"] start
+Apr 23 23:26:13 vultr kernel: [    4.331078] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input5
+Apr 23 23:26:13 vultr kernel: [    4.520142] ACPI: Power Button [PWRF]
+Apr 23 23:26:14 vultr kernel: [    5.161002] sr 1:0:0:0: Attached scsi generic sg0 type 5
+Apr 23 23:26:14 vultr kernel: [    5.347759] input: PC Speaker as /devices/platform/pcspkr/input/input6
+Apr 23 23:26:15 vultr kernel: [    6.087541] [TTM] Zone  kernel: Available graphics memory: 505444 kiB
+Apr 23 23:26:15 vultr kernel: [    6.087948] [TTM] Initializing pool allocator
+Apr 23 23:26:15 vultr kernel: [    6.156364] [TTM] Initializing DMA pool allocator
+Apr 23 23:26:15 vultr kernel: [    6.157445] [drm] fb mappable at 0xFC000000
+Apr 23 23:26:15 vultr kernel: [    6.157823] [drm] vram aper at 0xFC000000
+Apr 23 23:26:15 vultr kernel: [    6.158259] [drm] size 33554432
+Apr 23 23:26:15 vultr kernel: [    6.158729] [drm] fb depth is 24
+Apr 23 23:26:15 vultr kernel: [    6.159097] [drm]    pitch is 3072
+Apr 23 23:26:15 vultr kernel: [    6.256050] RAPL PMU: API unit is 2^-32 Joules, 3 fixed counters, 10737418240 ms ovfl timer
+Apr 23 23:26:15 vultr kernel: [    6.256684] RAPL PMU: hw unit of domain pp0-core 2^-0 Joules
+Apr 23 23:26:15 vultr kernel: [    6.257037] RAPL PMU: hw unit of domain package 2^-0 Joules
+Apr 23 23:26:15 vultr kernel: [    6.257362] RAPL PMU: hw unit of domain dram 2^-16 Joules
+Apr 23 23:26:15 vultr kernel: [    6.266817] fbcon: cirrusdrmfb (fb0) is primary device
+Apr 23 23:26:15 vultr kernel: [    6.294785] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=147.75.81.125 DST=158.247.223.84 LEN=100 TOS=0x00 PREC=0x00 TTL=45 ID=18971 DF PROTO=UDP SPT=4001 DPT=4001 LEN=80 
+Apr 23 23:26:15 vultr kernel: [    6.295826] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=198.50.218.30 DST=158.247.223.84 LEN=53 TOS=0x00 PREC=0x00 TTL=39 ID=34026 DF PROTO=UDP SPT=4001 DPT=4001 LEN=33 
+Apr 23 23:26:15 vultr kernel: [    6.295835] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=198.50.218.30 DST=158.247.223.84 LEN=53 TOS=0x00 PREC=0x00 TTL=39 ID=34027 DF PROTO=UDP SPT=4001 DPT=4001 LEN=33 
+Apr 23 23:26:15 vultr kernel: [    6.299035] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=96.8.113.66 DST=158.247.223.84 LEN=53 TOS=0x00 PREC=0x00 TTL=48 ID=50439 DF PROTO=UDP SPT=4001 DPT=4001 LEN=33 
+Apr 23 23:26:15 vultr kernel: [    6.299060] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=96.8.113.66 DST=158.247.223.84 LEN=53 TOS=0x00 PREC=0x00 TTL=48 ID=50440 DF PROTO=UDP SPT=4001 DPT=4001 LEN=33 
+Apr 23 23:26:15 vultr kernel: [    6.300571] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=194.135.88.153 DST=158.247.223.84 LEN=53 TOS=0x00 PREC=0x00 TTL=45 ID=64027 DF PROTO=UDP SPT=4001 DPT=4001 LEN=33 
+Apr 23 23:26:15 vultr kernel: [    6.300581] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=194.135.88.153 DST=158.247.223.84 LEN=53 TOS=0x00 PREC=0x00 TTL=45 ID=64028 DF PROTO=UDP SPT=4001 DPT=4001 LEN=33 
+Apr 23 23:26:15 vultr kernel: [    6.302738] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=147.75.71.245 DST=158.247.223.84 LEN=106 TOS=0x00 PREC=0x00 TTL=48 ID=20364 DF PROTO=UDP SPT=4001 DPT=4001 LEN=86 
+Apr 23 23:26:15 vultr kernel: [    6.302819] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=147.75.63.161 DST=158.247.223.84 LEN=100 TOS=0x00 PREC=0x00 TTL=49 ID=16931 DF PROTO=UDP SPT=4001 DPT=4001 LEN=80 
+Apr 23 23:26:15 vultr kernel: [    6.309499] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=65.21.132.147 DST=158.247.223.84 LEN=100 TOS=0x00 PREC=0x00 TTL=47 ID=38457 DF PROTO=UDP SPT=4001 DPT=4001 LEN=80 
+Apr 23 23:26:15 vultr kernel: [    6.457253] audit: type=1400 audit(1650756375.907:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="docker-default" pid=702 comm="apparmor_parser"
+Apr 23 23:26:16 vultr kernel: [    7.166496] Console: switching to colour frame buffer device 128x48
+Apr 23 23:26:16 vultr kernel: [    7.206196] bridge: filtering via arp/ip/ip6tables is no longer available by default. Update your scripts to load br_netfilter if you need this.
+Apr 23 23:26:16 vultr kernel: [    7.211464] Bridge firewalling registered
+Apr 23 23:26:16 vultr kernel: [    7.359410] cirrus 0000:00:02.0: fb0: cirrusdrmfb frame buffer device
+Apr 23 23:26:16 vultr kernel: [    7.364172] [drm] Initialized cirrus 1.0.0 20110418 for 0000:00:02.0 on minor 0
+Apr 23 23:26:17 vultr kernel: [    7.548182] Initializing XFRM netlink socket
+Apr 23 23:26:17 vultr kernel: [    7.662125] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=172.245.104.116 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=237 ID=51025 PROTO=TCP SPT=46598 DPT=34444 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:26:17 vultr kernel: [    7.828233] IPv6: ADDRCONF(NETDEV_UP): docker0: link is not ready
+Apr 23 23:26:17 vultr kernel: [    7.940081] IPv6: ADDRCONF(NETDEV_UP): br-ae25a847f7d8: link is not ready
+Apr 23 23:26:17 vultr kernel: [    8.020667] IPv6: ADDRCONF(NETDEV_UP): br-03f369579b76: link is not ready
+Apr 23 23:26:17 vultr kernel: [    8.100955] IPv6: ADDRCONF(NETDEV_UP): docker_gwbridge: link is not ready
+Apr 23 23:26:18 vultr kernel: [    9.196932] br0: renamed from ov-001000-0rz6h
+Apr 23 23:26:18 vultr kernel: [    9.207086] vxlan0: renamed from vx-001000-0rz6h
+Apr 23 23:26:18 vultr kernel: [    9.207415] br0: port 1(vxlan0) entered blocking state
+Apr 23 23:26:18 vultr kernel: [    9.207474] br0: port 1(vxlan0) entered disabled state
+Apr 23 23:26:18 vultr kernel: [    9.207551] device vxlan0 entered promiscuous mode
+Apr 23 23:26:18 vultr kernel: [    9.207780] br0: port 1(vxlan0) entered blocking state
+Apr 23 23:26:18 vultr kernel: [    9.207809] br0: port 1(vxlan0) entered forwarding state
+Apr 23 23:26:18 vultr kernel: [    9.314974] veth0: renamed from veth1edd921
+Apr 23 23:26:18 vultr kernel: [    9.315167] br0: port 2(veth0) entered blocking state
+Apr 23 23:26:18 vultr kernel: [    9.315193] br0: port 2(veth0) entered disabled state
+Apr 23 23:26:18 vultr kernel: [    9.316759] device veth0 entered promiscuous mode
+Apr 23 23:26:18 vultr kernel: [    9.316897] br0: port 2(veth0) entered blocking state
+Apr 23 23:26:18 vultr kernel: [    9.316930] br0: port 2(veth0) entered forwarding state
+Apr 23 23:26:18 vultr kernel: [    9.458356] eth0: renamed from veth830617d
+Apr 23 23:26:18 vultr kernel: [    9.533423] docker_gwbridge: port 1(veth52601c1) entered blocking state
+Apr 23 23:26:18 vultr kernel: [    9.533493] docker_gwbridge: port 1(veth52601c1) entered disabled state
+Apr 23 23:26:18 vultr kernel: [    9.533587] device veth52601c1 entered promiscuous mode
+Apr 23 23:26:18 vultr kernel: [    9.533740] IPv6: ADDRCONF(NETDEV_UP): veth52601c1: link is not ready
+Apr 23 23:26:18 vultr kernel: [    9.533778] docker_gwbridge: port 1(veth52601c1) entered blocking state
+Apr 23 23:26:18 vultr kernel: [    9.533833] docker_gwbridge: port 1(veth52601c1) entered forwarding state
+Apr 23 23:26:18 vultr kernel: [    9.533907] docker_gwbridge: port 1(veth52601c1) entered disabled state
+Apr 23 23:26:19 vultr kernel: [    9.555924] eth1: renamed from veth02822c5
+Apr 23 23:26:19 vultr kernel: [    9.556244] IPv6: ADDRCONF(NETDEV_CHANGE): veth52601c1: link becomes ready
+Apr 23 23:26:19 vultr kernel: [    9.556309] docker_gwbridge: port 1(veth52601c1) entered blocking state
+Apr 23 23:26:19 vultr kernel: [    9.556338] docker_gwbridge: port 1(veth52601c1) entered forwarding state
+Apr 23 23:26:19 vultr kernel: [    9.556388] IPv6: ADDRCONF(NETDEV_CHANGE): docker_gwbridge: link becomes ready
+Apr 23 23:26:34 vultr kernel: [   24.905819] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=193.57.40.49 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=239 ID=38295 PROTO=TCP SPT=55391 DPT=4001 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:26:35 vultr kernel: [   26.296653] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=120.226.39.191 DST=158.247.223.84 LEN=53 TOS=0x00 PREC=0x00 TTL=38 ID=51172 DF PROTO=UDP SPT=4001 DPT=4001 LEN=33 
+Apr 23 23:26:58 vultr kernel: [   48.689831] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=121.120.41.20 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=47 ID=43046 DF PROTO=TCP SPT=55238 DPT=4001 WINDOW=65535 RES=0x00 SYN URGP=0 
+Apr 23 23:27:19 vultr kernel: [   70.449996] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=162.142.125.83 DST=158.247.200.34 LEN=44 TOS=0x00 PREC=0x00 TTL=37 ID=20147 PROTO=TCP SPT=55055 DPT=21232 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:27:24 vultr kernel: [   75.093742] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=23.88.40.184 DST=158.247.200.34 LEN=44 TOS=0x00 PREC=0x00 TTL=49 ID=4024 PROTO=TCP SPT=443 DPT=9602 WINDOW=16384 RES=0x00 ACK SYN URGP=0 
+Apr 23 23:27:36 vultr kernel: [   86.938194] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=23.228.164.232 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=49 ID=42581 PROTO=TCP SPT=4417 DPT=23 WINDOW=60833 RES=0x00 SYN URGP=0 
+Apr 23 23:27:39 vultr kernel: [   90.261594] fuse init (API version 7.27)
+Apr 23 23:27:43 vultr s3fs[1422]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
+Apr 23 23:27:53 vultr s3fs[1685]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
+Apr 23 23:27:54 vultr kernel: [  104.933252] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=167.94.146.18 DST=158.247.223.84 LEN=44 TOS=0x00 PREC=0x00 TTL=34 ID=62866 PROTO=TCP SPT=57868 DPT=36505 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:27:58 vultr kernel: [  108.590457] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.222.23 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=59 ID=3592 DF PROTO=TCP SPT=4001 DPT=4001 WINDOW=42340 RES=0x00 SYN URGP=0 
+Apr 23 23:28:16 vultr kernel: [  127.357737] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.223.7 DST=158.247.223.84 LEN=1280 TOS=0x00 PREC=0x00 TTL=59 ID=22218 DF PROTO=UDP SPT=4001 DPT=4001 LEN=1260 
+Apr 23 23:28:37 vultr kernel: [  147.864914] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.222.142 DST=158.247.223.84 LEN=1280 TOS=0x00 PREC=0x00 TTL=59 ID=62194 DF PROTO=UDP SPT=4001 DPT=4001 LEN=1260 
+Apr 23 23:28:55 vultr kernel: [  165.731277] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=162.191.131.34 DST=158.247.200.34 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=19706 PROTO=TCP SPT=22280 DPT=2323 WINDOW=17688 RES=0x00 SYN URGP=0 
+Apr 23 23:28:55 vultr kernel: [  166.494756] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.223.54 DST=158.247.223.84 LEN=52 TOS=0x02 PREC=0x00 TTL=123 ID=25546 DF PROTO=TCP SPT=4001 DPT=4001 WINDOW=64240 RES=0x00 CWR ECE SYN URGP=0 
+Apr 23 23:29:15 vultr kernel: [  186.326979] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=223.108.48.245 DST=158.247.223.84 LEN=199 TOS=0x00 PREC=0x00 TTL=39 ID=7830 DF PROTO=TCP SPT=37349 DPT=4001 WINDOW=509 RES=0x00 ACK PSH URGP=0 
+Apr 23 23:29:21 vultr kernel: [  192.038191] conntrack: generic helper won't handle protocol 47. Please consider loading the specific helper module.
+Apr 23 23:29:25 vultr kernel: [  196.197965] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=194.26.29.152 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=234 ID=37247 PROTO=TCP SPT=55809 DPT=33397 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:29:36 vultr kernel: [  206.630369] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.223.54 DST=158.247.223.84 LEN=52 TOS=0x02 PREC=0x00 TTL=123 ID=25575 DF PROTO=TCP SPT=4001 DPT=4001 WINDOW=64240 RES=0x00 CWR ECE SYN URGP=0 
+Apr 23 23:29:57 vultr kernel: [  228.580200] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.223.150 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=59 ID=9608 DF PROTO=TCP SPT=4001 DPT=4001 WINDOW=42340 RES=0x00 SYN URGP=0 
+Apr 23 23:30:00 vultr kernel: [  232.420131] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=45.9.20.65 DST=158.247.200.34 LEN=44 TOS=0x00 PREC=0x00 TTL=234 ID=54321 PROTO=TCP SPT=50695 DPT=443 WINDOW=65535 RES=0x00 SYN URGP=0 
+Apr 23 23:30:15 vultr kernel: [  246.570297] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=167.94.145.22 DST=158.247.200.34 LEN=44 TOS=0x00 PREC=0x00 TTL=34 ID=45958 PROTO=TCP SPT=40960 DPT=33909 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:30:17 vultr kernel: [  248.968256] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.223.187 DST=158.247.223.84 LEN=52 TOS=0x02 PREC=0x00 TTL=123 ID=54364 DF PROTO=TCP SPT=4001 DPT=4001 WINDOW=64240 RES=0x00 CWR ECE SYN URGP=0 
+Apr 23 23:30:35 vultr kernel: [  266.823569] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=103.136.40.72 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=54321 PROTO=TCP SPT=56040 DPT=23 WINDOW=65535 RES=0x00 SYN URGP=0 
+Apr 23 23:30:38 vultr kernel: [  269.781897] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=43.129.40.155 DST=158.247.200.34 LEN=52 TOS=0x00 PREC=0x00 TTL=47 ID=17975 DF PROTO=TCP SPT=18999 DPT=8182 WINDOW=65535 RES=0x00 SYN URGP=0 
+Apr 23 23:31:15 vultr kernel: [  307.159611] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=223.108.48.245 DST=158.247.223.84 LEN=199 TOS=0x00 PREC=0x00 TTL=39 ID=7831 DF PROTO=TCP SPT=37349 DPT=4001 WINDOW=509 RES=0x00 ACK PSH URGP=0 
+Apr 23 23:31:17 vultr kernel: [  309.182830] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=89.248.167.131 DST=158.247.200.34 LEN=44 TOS=0x00 PREC=0x00 TTL=110 ID=50978 PROTO=TCP SPT=11748 DPT=111 WINDOW=50157 RES=0x00 SYN URGP=0 
+Apr 23 23:31:19 vultr kernel: [  310.948891] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.222.134 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=59 ID=10306 DF PROTO=TCP SPT=4001 DPT=4001 WINDOW=42340 RES=0x00 SYN URGP=0 
+Apr 23 23:31:34 vultr kernel: [  326.299771] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=193.163.125.243 DST=158.247.200.34 LEN=44 TOS=0x00 PREC=0x00 TTL=235 ID=23361 PROTO=TCP SPT=51334 DPT=56994 WINDOW=14600 RES=0x00 SYN URGP=0 
+Apr 23 23:31:35 vultr kernel: [  327.275956] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.222.134 DST=158.247.223.84 LEN=1280 TOS=0x00 PREC=0x00 TTL=59 ID=21649 DF PROTO=UDP SPT=4001 DPT=4001 LEN=1260 
+Apr 23 23:31:54 vultr kernel: [  346.342698] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.223.200 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=59 ID=37907 DF PROTO=TCP SPT=4001 DPT=4001 WINDOW=42340 RES=0x00 SYN URGP=0 
+Apr 23 23:32:04 vultr kernel: [  356.327885] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=2.57.122.169 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=235 ID=37581 PROTO=TCP SPT=51152 DPT=4200 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:32:05 vultr kernel: [  357.249507] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=193.3.19.33 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=234 ID=57995 PROTO=TCP SPT=43192 DPT=8810 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:32:15 vultr kernel: [  366.627532] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.222.218 DST=158.247.223.84 LEN=1280 TOS=0x00 PREC=0x00 TTL=59 ID=43055 DF PROTO=UDP SPT=4001 DPT=4001 LEN=1260 
+Apr 23 23:32:15 vultr kernel: [  366.638197] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=42.240.129.58 DST=158.247.200.34 LEN=44 TOS=0x00 PREC=0x00 TTL=236 ID=16115 PROTO=TCP SPT=58914 DPT=1241 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:32:19 vultr kernel: [  371.414996] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=167.94.138.159 DST=158.247.200.34 LEN=44 TOS=0x00 PREC=0x00 TTL=36 ID=29734 PROTO=TCP SPT=6730 DPT=20440 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:32:37 vultr kernel: [  388.695099] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.223.172 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=59 ID=32609 DF PROTO=TCP SPT=4001 DPT=4001 WINDOW=42340 RES=0x00 SYN URGP=0 
+Apr 23 23:32:49 vultr kernel: [  401.331862] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=180.168.65.182 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=47 ID=29596 PROTO=TCP SPT=23483 DPT=23 WINDOW=55572 RES=0x00 SYN URGP=0 
+Apr 23 23:32:58 vultr kernel: [  410.083659] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.223.53 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=59 ID=25969 DF PROTO=TCP SPT=4001 DPT=4001 WINDOW=42340 RES=0x00 SYN URGP=0 
+Apr 23 23:33:04 vultr kernel: [  416.532011] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=45.40.57.56 DST=158.247.200.34 LEN=44 TOS=0x00 PREC=0x00 TTL=47 ID=0 DF PROTO=TCP SPT=36108 DPT=1311 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:33:14 vultr kernel: [  426.534977] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.222.234 DST=158.247.223.84 LEN=1280 TOS=0x00 PREC=0x00 TTL=59 ID=23045 DF PROTO=UDP SPT=4001 DPT=4001 LEN=1260 
+Apr 23 23:33:34 vultr kernel: [  446.336740] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.223.53 DST=158.247.223.84 LEN=1280 TOS=0x00 PREC=0x00 TTL=59 ID=28799 DF PROTO=UDP SPT=4001 DPT=4001 LEN=1260 
+Apr 23 23:33:36 vultr kernel: [  448.401444] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=45.155.204.147 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=234 ID=22135 PROTO=TCP SPT=55456 DPT=8983 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:33:54 vultr kernel: [  466.340784] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.223.53 DST=158.247.223.84 LEN=1280 TOS=0x00 PREC=0x00 TTL=59 ID=32362 DF PROTO=UDP SPT=4001 DPT=4001 LEN=1260 
+Apr 23 23:34:18 vultr kernel: [  489.651865] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.223.21 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=61 ID=393 DF PROTO=TCP SPT=4001 DPT=4001 WINDOW=42340 RES=0x00 SYN URGP=0 
+Apr 23 23:34:18 vultr kernel: [  490.142321] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=20.223.131.162 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=233 ID=26239 PROTO=TCP SPT=46120 DPT=3389 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:34:26 vultr kernel: [  498.482101] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=45.146.164.88 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=235 ID=6617 PROTO=TCP SPT=58018 DPT=3327 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:34:36 vultr kernel: [  507.972778] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.222.173 DST=158.247.223.84 LEN=1280 TOS=0x00 PREC=0x00 TTL=59 ID=44166 DF PROTO=UDP SPT=4001 DPT=4001 LEN=1260 
+Apr 23 23:34:56 vultr kernel: [  527.989405] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.222.173 DST=158.247.223.84 LEN=1280 TOS=0x00 PREC=0x00 TTL=59 ID=46656 DF PROTO=UDP SPT=4001 DPT=4001 LEN=1260 
+Apr 23 23:35:15 vultr kernel: [  546.791895] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.222.173 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=59 ID=36818 DF PROTO=TCP SPT=4001 DPT=4001 WINDOW=42340 RES=0x00 SYN URGP=0 
+Apr 23 23:35:36 vultr kernel: [  567.743745] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.222.141 DST=158.247.223.84 LEN=1280 TOS=0x00 PREC=0x00 TTL=59 ID=27486 DF PROTO=UDP SPT=4001 DPT=4001 LEN=1260 
+Apr 23 23:35:38 vultr kernel: [  569.628678] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=222.85.140.63 DST=158.247.200.34 LEN=60 TOS=0x00 PREC=0x00 TTL=49 ID=9435 DF PROTO=TCP SPT=52857 DPT=47251 WINDOW=0 RES=0x00 SYN URGP=0 
+Apr 23 23:35:40 vultr kernel: [  571.902721] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=45.143.203.12 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=236 ID=60956 PROTO=TCP SPT=55045 DPT=12576 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:35:55 vultr kernel: [  587.188157] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=45.155.204.159 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=235 ID=3496 PROTO=TCP SPT=54517 DPT=22654 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:35:56 vultr kernel: [  587.818705] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.222.141 DST=158.247.223.84 LEN=1280 TOS=0x00 PREC=0x00 TTL=59 ID=30657 DF PROTO=UDP SPT=4001 DPT=4001 LEN=1260 
+Apr 23 23:36:04 vultr kernel: [  596.318826] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=45.135.232.96 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=234 ID=28467 PROTO=TCP SPT=43698 DPT=7212 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:36:13 vultr kernel: [  604.558383] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=167.248.133.152 DST=158.247.200.34 LEN=44 TOS=0x00 PREC=0x00 TTL=38 ID=64328 PROTO=TCP SPT=18582 DPT=6588 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:36:18 vultr kernel: [  609.719506] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.223.115 DST=158.247.223.84 LEN=1280 TOS=0x00 PREC=0x00 TTL=123 ID=62291 PROTO=UDP SPT=4001 DPT=4001 LEN=1260 
+Apr 23 23:36:26 vultr kernel: [  617.601698] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=64.251.75.115 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=49 ID=33124 PROTO=TCP SPT=25933 DPT=23 WINDOW=34225 RES=0x00 SYN URGP=0 
+Apr 23 23:36:34 vultr kernel: [  626.352562] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.223.62 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=59 ID=9805 DF PROTO=TCP SPT=4001 DPT=4001 WINDOW=42340 RES=0x00 SYN URGP=0 
+Apr 23 23:36:58 vultr kernel: [  649.816931] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.223.115 DST=158.247.223.84 LEN=52 TOS=0x00 PREC=0x00 TTL=123 ID=62323 DF PROTO=TCP SPT=4001 DPT=4001 WINDOW=64240 RES=0x00 SYN URGP=0 
+Apr 23 23:36:58 vultr kernel: [  650.452932] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=45.93.16.33 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=16314 PROTO=TCP SPT=56254 DPT=5038 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:37:18 vultr kernel: [  669.656991] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=223.108.48.245 DST=158.247.223.84 LEN=199 TOS=0x00 PREC=0x00 TTL=39 ID=7834 DF PROTO=TCP SPT=37349 DPT=4001 WINDOW=509 RES=0x00 ACK PSH URGP=0 
+Apr 23 23:37:29 vultr kernel: [  681.026179] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=130.93.147.89 DST=158.247.200.34 LEN=44 TOS=0x00 PREC=0x00 TTL=237 ID=16441 DF PROTO=TCP SPT=39045 DPT=23 WINDOW=14600 RES=0x00 SYN URGP=0 
+Apr 23 23:37:31 vultr kernel: [  683.108728] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=121.185.20.94 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=51 ID=62437 PROTO=TCP SPT=43035 DPT=23 WINDOW=54891 RES=0x00 SYN URGP=0 
+Apr 23 23:37:36 vultr kernel: [  687.666534] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=178.73.215.171 DST=158.247.200.34 LEN=44 TOS=0x00 PREC=0x00 TTL=236 ID=54321 PROTO=TCP SPT=45767 DPT=23 WINDOW=65535 RES=0x00 SYN URGP=0 
+Apr 23 23:37:52 vultr kernel: [  703.781069] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=180.168.65.182 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=47 ID=29596 PROTO=TCP SPT=23483 DPT=23 WINDOW=55572 RES=0x00 SYN URGP=0 
+Apr 23 23:38:09 vultr kernel: [  721.238876] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=143.110.242.173 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=48 ID=23502 DF PROTO=TCP SPT=59287 DPT=4001 WINDOW=64240 RES=0x00 SYN URGP=0 
+Apr 23 23:38:09 vultr kernel: [  721.250381] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=143.110.242.173 DST=158.247.223.84 LEN=1280 TOS=0x00 PREC=0x00 TTL=48 ID=32217 DF PROTO=UDP SPT=7307 DPT=4001 LEN=1260 
+Apr 23 23:38:10 vultr kernel: [  722.224389] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=208.115.245.238 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=243 ID=54321 PROTO=TCP SPT=53790 DPT=81 WINDOW=65535 RES=0x00 SYN URGP=0 
+Apr 23 23:38:15 vultr kernel: [  727.347254] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.223.7 DST=158.247.223.84 LEN=1280 TOS=0x00 PREC=0x00 TTL=59 ID=42549 DF PROTO=UDP SPT=4001 DPT=4001 LEN=1260 
+Apr 23 23:38:17 vultr kernel: [  729.328651] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=194.26.29.86 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=234 ID=35512 PROTO=TCP SPT=55940 DPT=9221 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:38:36 vultr kernel: [  747.866295] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.222.142 DST=158.247.223.84 LEN=1280 TOS=0x00 PREC=0x00 TTL=59 ID=35714 DF PROTO=UDP SPT=4001 DPT=4001 LEN=1260 
+Apr 23 23:38:55 vultr kernel: [  766.818828] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.223.195 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=59 ID=42391 DF PROTO=TCP SPT=4001 DPT=4001 WINDOW=42340 RES=0x00 SYN URGP=0 
+Apr 23 23:39:13 vultr kernel: [  785.243996] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=92.63.197.94 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=239 ID=40950 PROTO=TCP SPT=49879 DPT=9999 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:39:15 vultr kernel: [  786.686522] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.222.12 DST=158.247.223.84 LEN=1280 TOS=0x00 PREC=0x00 TTL=59 ID=55531 DF PROTO=UDP SPT=4001 DPT=4001 LEN=1260 
+Apr 23 23:39:18 vultr kernel: [  790.473516] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=45.135.232.96 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=234 ID=30487 PROTO=TCP SPT=43698 DPT=5906 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:39:30 vultr kernel: [  802.501804] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=61.177.172.107 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=239 ID=54321 PROTO=TCP SPT=52372 DPT=22 WINDOW=65535 RES=0x00 SYN URGP=0 
+Apr 23 23:39:32 vultr kernel: [  803.562564] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=143.198.107.38 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=240 ID=13784 PROTO=TCP SPT=50258 DPT=19762 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:39:37 vultr kernel: [  808.584267] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.223.150 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=59 ID=38276 DF PROTO=TCP SPT=4001 DPT=4001 WINDOW=42340 RES=0x00 SYN URGP=0 
+Apr 23 23:40:00 vultr kernel: [  832.259400] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.222.55 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=59 ID=13331 DF PROTO=TCP SPT=4001 DPT=4001 WINDOW=42340 RES=0x00 SYN URGP=0 
+Apr 23 23:40:17 vultr kernel: [  848.874612] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.223.187 DST=158.247.223.84 LEN=52 TOS=0x02 PREC=0x00 TTL=123 ID=54380 DF PROTO=TCP SPT=4001 DPT=4001 WINDOW=64240 RES=0x00 CWR ECE SYN URGP=0 
+Apr 23 23:40:18 vultr kernel: [  850.251401] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=137.184.108.251 DST=158.247.200.34 LEN=69 TOS=0x00 PREC=0x00 TTL=48 ID=6481 DF PROTO=UDP SPT=58379 DPT=8081 LEN=49 
+Apr 23 23:40:35 vultr kernel: [  866.605313] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=162.142.125.240 DST=158.247.223.84 LEN=44 TOS=0x00 PREC=0x00 TTL=38 ID=38205 PROTO=TCP SPT=32946 DPT=3562 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:40:40 vultr kernel: [  872.063706] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=45.143.203.3 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=236 ID=10322 PROTO=TCP SPT=40676 DPT=28892 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:40:57 vultr kernel: [  888.568759] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.222.55 DST=158.247.223.84 LEN=1280 TOS=0x00 PREC=0x00 TTL=59 ID=62742 DF PROTO=UDP SPT=4001 DPT=4001 LEN=1260 
+Apr 23 23:41:17 vultr kernel: [  908.585221] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.222.55 DST=158.247.223.84 LEN=1280 TOS=0x00 PREC=0x00 TTL=59 ID=65076 DF PROTO=UDP SPT=4001 DPT=4001 LEN=1260 
+Apr 23 23:41:20 vultr kernel: [  912.356384] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=112.31.191.28 DST=158.247.200.34 LEN=60 TOS=0x00 PREC=0x00 TTL=40 ID=48150 DF PROTO=TCP SPT=27826 DPT=49880 WINDOW=0 RES=0x00 SYN URGP=0 
+Apr 23 23:41:35 vultr kernel: [  927.477058] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=45.93.201.123 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=234 ID=33510 PROTO=TCP SPT=55635 DPT=16469 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:41:39 vultr kernel: [  930.695104] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=149.248.58.100 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=238 ID=30220 PROTO=TCP SPT=43173 DPT=1433 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:41:44 vultr kernel: [  936.012559] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.222.218 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=59 ID=13785 DF PROTO=TCP SPT=4001 DPT=4001 WINDOW=42340 RES=0x00 SYN URGP=0 
+Apr 23 23:41:54 vultr kernel: [  946.377305] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.223.200 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=59 ID=32967 DF PROTO=TCP SPT=4001 DPT=4001 WINDOW=42340 RES=0x00 SYN URGP=0 
+Apr 23 23:42:14 vultr kernel: [  966.409413] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.223.200 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=59 ID=5447 DF PROTO=TCP SPT=4001 DPT=4001 WINDOW=42340 RES=0x00 SYN URGP=0 
+Apr 23 23:42:34 vultr kernel: [  986.473506] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.223.200 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=59 ID=21560 DF PROTO=TCP SPT=4001 DPT=4001 WINDOW=42340 RES=0x00 SYN URGP=0 
+Apr 23 23:42:35 vultr kernel: [  986.645159] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=72.167.32.184 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=233 ID=9686 PROTO=TCP SPT=56427 DPT=3389 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:42:57 vultr kernel: [ 1008.746711] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.223.172 DST=158.247.223.84 LEN=1280 TOS=0x00 PREC=0x00 TTL=59 ID=54569 DF PROTO=UDP SPT=4001 DPT=4001 LEN=1260 
+Apr 23 23:43:02 vultr kernel: [ 1014.061583] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=193.57.40.49 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=240 ID=33785 PROTO=TCP SPT=55391 DPT=3940 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:43:07 vultr kernel: [ 1018.971265] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=193.163.125.217 DST=158.247.200.34 LEN=44 TOS=0x00 PREC=0x00 TTL=236 ID=28525 PROTO=TCP SPT=48807 DPT=32768 WINDOW=14600 RES=0x00 SYN URGP=0 
+Apr 23 23:43:10 vultr kernel: [ 1021.582098] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=45.148.10.59 DST=158.247.200.34 LEN=89 TOS=0x00 PREC=0x00 TTL=239 ID=64285 PROTO=TCP SPT=18791 DPT=80 WINDOW=65535 RES=0x00 ACK SYN URGP=0 
+Apr 23 23:43:14 vultr kernel: [ 1026.519601] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.222.234 DST=158.247.223.84 LEN=1280 TOS=0x00 PREC=0x00 TTL=59 ID=30456 DF PROTO=UDP SPT=4001 DPT=4001 LEN=1260 
+Apr 23 23:43:17 vultr kernel: [ 1028.774263] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=167.94.138.146 DST=158.247.200.34 LEN=44 TOS=0x00 PREC=0x00 TTL=36 ID=38944 PROTO=TCP SPT=11904 DPT=18004 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:43:20 vultr kernel: [ 1031.961832] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=31.14.188.177 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=231 ID=42372 PROTO=TCP SPT=45339 DPT=445 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:43:37 vultr kernel: [ 1048.624500] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.222.45 DST=158.247.223.84 LEN=1280 TOS=0x00 PREC=0x00 TTL=59 ID=6296 DF PROTO=UDP SPT=4001 DPT=4001 LEN=1260 
+Apr 23 23:43:55 vultr kernel: [ 1067.396672] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.222.63 DST=158.247.223.84 LEN=1280 TOS=0x00 PREC=0x00 TTL=59 ID=45215 DF PROTO=UDP SPT=4001 DPT=4001 LEN=1260 
+Apr 23 23:44:02 vultr kernel: [ 1073.780448] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=45.134.26.47 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=234 ID=43245 PROTO=TCP SPT=55471 DPT=3942 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:44:06 vultr kernel: [ 1077.727197] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=59.83.229.31 DST=158.247.200.34 LEN=63 TOS=0x00 PREC=0x00 TTL=236 ID=54321 PROTO=UDP SPT=10749 DPT=53 LEN=43 
+Apr 23 23:44:17 vultr kernel: [ 1088.750854] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.222.47 DST=158.247.223.84 LEN=1280 TOS=0x00 PREC=0x00 TTL=123 ID=55773 PROTO=UDP SPT=4001 DPT=4001 LEN=1260 
+Apr 23 23:44:19 vultr kernel: [ 1090.928051] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=45.143.203.12 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=238 ID=54903 PROTO=TCP SPT=55045 DPT=24289 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:44:20 vultr kernel: [ 1092.047982] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=45.155.204.74 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=234 ID=47952 PROTO=TCP SPT=55966 DPT=7098 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:44:36 vultr kernel: [ 1107.912333] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.222.173 DST=158.247.223.84 LEN=1280 TOS=0x00 PREC=0x00 TTL=59 ID=18870 DF PROTO=UDP SPT=4001 DPT=4001 LEN=1260 
+Apr 23 23:45:01 vultr kernel: [ 1133.006056] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.222.109 DST=158.247.223.84 LEN=52 TOS=0x00 PREC=0x00 TTL=123 ID=40084 DF PROTO=TCP SPT=4001 DPT=4001 WINDOW=64240 RES=0x00 SYN URGP=0 
+Apr 23 23:45:06 vultr kernel: [ 1137.907516] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=45.143.203.12 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=238 ID=20782 PROTO=TCP SPT=55045 DPT=20247 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:45:15 vultr kernel: [ 1146.712969] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=183.81.12.243 DST=158.247.223.84 LEN=44 TOS=0x00 PREC=0x00 TTL=48 ID=41486 PROTO=TCP SPT=41131 DPT=23 WINDOW=55251 RES=0x00 SYN URGP=0 
+Apr 23 23:45:36 vultr kernel: [ 1168.201477] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=207.154.193.124 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=238 ID=54321 PROTO=TCP SPT=58532 DPT=22 WINDOW=65535 RES=0x00 SYN URGP=0 
+Apr 23 23:46:02 vultr kernel: [ 1193.967971] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.223.45 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=59 ID=38245 DF PROTO=TCP SPT=4001 DPT=4001 WINDOW=42340 RES=0x00 SYN URGP=0 
+Apr 23 23:46:02 vultr kernel: [ 1193.973969] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.223.45 DST=158.247.223.84 LEN=1280 TOS=0x00 PREC=0x00 TTL=59 ID=28447 DF PROTO=UDP SPT=4001 DPT=4001 LEN=1260 
+Apr 23 23:46:15 vultr kernel: [ 1206.991703] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.223.45 DST=158.247.223.84 LEN=1280 TOS=0x00 PREC=0x00 TTL=59 ID=29460 DF PROTO=UDP SPT=4001 DPT=4001 LEN=1260 
+Apr 23 23:46:20 vultr kernel: [ 1212.052721] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=162.142.125.140 DST=158.247.200.34 LEN=44 TOS=0x00 PREC=0x00 TTL=37 ID=44252 PROTO=TCP SPT=28054 DPT=8888 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:46:51 vultr kernel: [ 1242.636323] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=194.26.29.86 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=236 ID=58759 PROTO=TCP SPT=55940 DPT=9456 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:46:55 vultr kernel: [ 1246.680418] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=154.53.53.44 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=226 ID=50531 PROTO=TCP SPT=57712 DPT=8291 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:47:07 vultr kernel: [ 1259.234462] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=157.255.153.180 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=48 ID=60558 PROTO=TCP SPT=11113 DPT=23 WINDOW=55177 RES=0x00 SYN URGP=0 
+Apr 23 23:47:10 vultr kernel: [ 1262.027467] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=2.57.121.51 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=236 ID=23458 PROTO=TCP SPT=57178 DPT=443 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:47:27 vultr kernel: [ 1279.314375] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=167.94.146.16 DST=158.247.223.84 LEN=44 TOS=0x00 PREC=0x00 TTL=34 ID=20848 PROTO=TCP SPT=16875 DPT=51317 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:47:35 vultr kernel: [ 1286.655059] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=61.4.105.249 DST=158.247.223.84 LEN=1280 TOS=0x00 PREC=0x00 TTL=53 ID=64611 DF PROTO=UDP SPT=4001 DPT=4001 LEN=1260 
+Apr 23 23:47:42 vultr kernel: [ 1293.921014] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=43.131.94.145 DST=158.247.200.34 LEN=52 TOS=0x00 PREC=0x00 TTL=40 ID=22916 DF PROTO=TCP SPT=23940 DPT=10002 WINDOW=65535 RES=0x00 SYN URGP=0 
+Apr 23 23:47:57 vultr kernel: [ 1308.614287] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.222.23 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=59 ID=53559 DF PROTO=TCP SPT=4001 DPT=4001 WINDOW=42340 RES=0x00 SYN URGP=0 
+Apr 23 23:48:07 vultr kernel: [ 1318.976507] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=193.57.40.49 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=239 ID=45287 PROTO=TCP SPT=55391 DPT=8521 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:48:15 vultr kernel: [ 1327.331263] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.223.7 DST=158.247.223.84 LEN=1280 TOS=0x00 PREC=0x00 TTL=59 ID=28635 DF PROTO=UDP SPT=4001 DPT=4001 LEN=1260 
+Apr 23 23:48:18 vultr kernel: [ 1329.553228] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=45.155.204.74 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=235 ID=57957 PROTO=TCP SPT=55966 DPT=7039 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:48:36 vultr kernel: [ 1347.880695] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.222.142 DST=158.247.223.84 LEN=1280 TOS=0x00 PREC=0x00 TTL=59 ID=64233 DF PROTO=UDP SPT=4001 DPT=4001 LEN=1260 
+Apr 23 23:48:49 vultr kernel: [ 1360.753912] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=45.93.201.123 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=235 ID=28391 PROTO=TCP SPT=55635 DPT=15085 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:48:50 vultr kernel: [ 1362.141396] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=185.156.73.91 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=239 ID=26797 PROTO=TCP SPT=40778 DPT=47889 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:48:53 vultr kernel: [ 1364.993215] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=167.94.145.27 DST=158.247.200.34 LEN=44 TOS=0x00 PREC=0x00 TTL=34 ID=24475 PROTO=TCP SPT=19477 DPT=60972 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:48:55 vultr kernel: [ 1366.832692] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.223.195 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=59 ID=48711 DF PROTO=TCP SPT=4001 DPT=4001 WINDOW=42340 RES=0x00 SYN URGP=0 
+Apr 23 23:49:07 vultr kernel: [ 1379.403510] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=93.174.95.106 DST=158.247.200.34 LEN=44 TOS=0x00 PREC=0x00 TTL=112 ID=52283 PROTO=TCP SPT=19291 DPT=1883 WINDOW=17724 RES=0x00 SYN URGP=0 
+Apr 23 23:49:15 vultr kernel: [ 1386.562668] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.223.54 DST=158.247.223.84 LEN=52 TOS=0x02 PREC=0x00 TTL=123 ID=25620 DF PROTO=TCP SPT=4001 DPT=4001 WINDOW=64240 RES=0x00 CWR ECE SYN URGP=0 
+Apr 23 23:49:16 vultr kernel: [ 1387.983111] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=164.92.112.138 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=240 ID=54321 PROTO=TCP SPT=41155 DPT=6897 WINDOW=65535 RES=0x00 SYN URGP=0 
+Apr 23 23:49:29 vultr kernel: [ 1400.562927] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=162.142.125.91 DST=158.247.200.34 LEN=44 TOS=0x00 PREC=0x00 TTL=37 ID=19355 PROTO=TCP SPT=14352 DPT=21286 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:49:31 vultr kernel: [ 1403.275786] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=45.93.16.33 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=39170 PROTO=TCP SPT=56254 DPT=50802 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:49:35 vultr kernel: [ 1406.562562] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=193.57.40.49 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=240 ID=45620 PROTO=TCP SPT=55391 DPT=40007 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:49:57 vultr kernel: [ 1428.665081] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.223.150 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=59 ID=29629 DF PROTO=TCP SPT=4001 DPT=4001 WINDOW=42340 RES=0x00 SYN URGP=0 
+Apr 23 23:50:17 vultr kernel: [ 1448.799066] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.223.187 DST=158.247.223.84 LEN=52 TOS=0x02 PREC=0x00 TTL=123 ID=54440 DF PROTO=TCP SPT=4001 DPT=4001 WINDOW=64240 RES=0x00 CWR ECE SYN URGP=0 
+Apr 23 23:50:27 vultr kernel: [ 1459.330806] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=220.77.145.213 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=243 ID=28246 PROTO=TCP SPT=57813 DPT=4200 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:50:43 vultr kernel: [ 1475.290206] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=185.94.111.1 DST=158.247.200.34 LEN=49 TOS=0x00 PREC=0x00 TTL=236 ID=54321 PROTO=UDP SPT=51973 DPT=5683 LEN=29 
+Apr 23 23:50:49 vultr kernel: [ 1480.990579] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=89.248.165.104 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=236 ID=53806 PROTO=TCP SPT=47467 DPT=33396 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:50:51 vultr kernel: [ 1482.940142] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=45.155.204.159 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=235 ID=61266 PROTO=TCP SPT=54517 DPT=22644 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:51:04 vultr kernel: [ 1496.008111] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=193.57.40.49 DST=158.247.223.84 LEN=40 TOS=0x00 PREC=0x00 TTL=241 ID=34611 PROTO=TCP SPT=55391 DPT=6920 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:51:05 vultr kernel: [ 1497.513048] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=167.94.146.24 DST=158.247.200.34 LEN=44 TOS=0x00 PREC=0x00 TTL=33 ID=28376 PROTO=TCP SPT=25428 DPT=9215 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:51:19 vultr kernel: [ 1510.950297] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.222.134 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=59 ID=14534 DF PROTO=TCP SPT=4001 DPT=4001 WINDOW=42340 RES=0x00 SYN URGP=0 
+Apr 23 23:51:35 vultr kernel: [ 1527.199928] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.222.134 DST=158.247.223.84 LEN=1280 TOS=0x00 PREC=0x00 TTL=59 ID=53622 DF PROTO=UDP SPT=4001 DPT=4001 LEN=1260 
+Apr 23 23:51:54 vultr kernel: [ 1546.347732] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.223.200 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=59 ID=33352 DF PROTO=TCP SPT=4001 DPT=4001 WINDOW=42340 RES=0x00 SYN URGP=0 
+Apr 23 23:51:58 vultr kernel: [ 1549.661526] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=45.134.144.153 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=236 ID=11292 PROTO=TCP SPT=57513 DPT=5060 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:52:15 vultr kernel: [ 1566.637152] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.222.218 DST=158.247.223.84 LEN=1280 TOS=0x00 PREC=0x00 TTL=59 ID=46238 DF PROTO=UDP SPT=4001 DPT=4001 LEN=1260 
+Apr 23 23:52:38 vultr kernel: [ 1590.062037] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.223.53 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=59 ID=62305 DF PROTO=TCP SPT=4001 DPT=4001 WINDOW=42340 RES=0x00 SYN URGP=0 
+Apr 23 23:52:51 vultr kernel: [ 1602.629883] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=201.14.211.9 DST=158.247.200.34 LEN=60 TOS=0x00 PREC=0x00 TTL=41 ID=49084 DF PROTO=TCP SPT=45569 DPT=5555 WINDOW=14600 RES=0x00 SYN URGP=0 
+Apr 23 23:52:51 vultr kernel: [ 1603.017775] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=201.14.211.9 DST=158.247.200.34 LEN=60 TOS=0x00 PREC=0x00 TTL=41 ID=49085 DF PROTO=TCP SPT=45569 DPT=5555 WINDOW=14600 RES=0x00 SYN URGP=0 
+Apr 23 23:52:51 vultr kernel: [ 1603.529780] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=201.14.211.9 DST=158.247.200.34 LEN=60 TOS=0x00 PREC=0x00 TTL=41 ID=49086 DF PROTO=TCP SPT=45569 DPT=5555 WINDOW=14600 RES=0x00 SYN URGP=0 
+Apr 23 23:52:52 vultr kernel: [ 1603.864138] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=89.248.165.59 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=238 ID=43735 PROTO=TCP SPT=48213 DPT=16000 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:52:58 vultr kernel: [ 1610.089133] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.223.53 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=59 ID=60780 DF PROTO=TCP SPT=4001 DPT=4001 WINDOW=42340 RES=0x00 SYN URGP=0 
+Apr 23 23:53:09 vultr kernel: [ 1621.126964] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=46.101.185.44 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=238 ID=38329 PROTO=TCP SPT=40101 DPT=357 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:53:13 vultr kernel: [ 1625.162049] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=45.155.204.74 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=235 ID=50173 PROTO=TCP SPT=55966 DPT=7074 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:53:14 vultr kernel: [ 1626.323986] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.223.53 DST=158.247.223.84 LEN=1280 TOS=0x00 PREC=0x00 TTL=59 ID=16500 DF PROTO=UDP SPT=4001 DPT=4001 LEN=1260 
+Apr 23 23:53:27 vultr kernel: [ 1638.934875] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=193.3.53.11 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=244 ID=54321 PROTO=TCP SPT=39580 DPT=3386 WINDOW=65535 RES=0x00 SYN URGP=0 
+Apr 23 23:53:34 vultr kernel: [ 1646.401245] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.222.234 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=59 ID=48400 DF PROTO=TCP SPT=4001 DPT=4001 WINDOW=42340 RES=0x00 SYN URGP=0 
+Apr 23 23:53:41 vultr kernel: [ 1652.582408] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=45.143.203.12 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=238 ID=27437 PROTO=TCP SPT=55045 DPT=30622 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:53:55 vultr kernel: [ 1667.272091] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.222.63 DST=158.247.223.84 LEN=1280 TOS=0x00 PREC=0x00 TTL=59 ID=53661 DF PROTO=UDP SPT=4001 DPT=4001 LEN=1260 
+Apr 23 23:54:05 vultr kernel: [ 1676.686074] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=75.152.47.153 DST=158.247.200.34 LEN=44 TOS=0x00 PREC=0x00 TTL=50 ID=19432 PROTO=TCP SPT=14908 DPT=23 WINDOW=37103 RES=0x00 SYN URGP=0 
+Apr 23 23:54:15 vultr kernel: [ 1687.429672] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.222.63 DST=158.247.223.84 LEN=1280 TOS=0x00 PREC=0x00 TTL=59 ID=55798 DF PROTO=UDP SPT=4001 DPT=4001 LEN=1260 
+Apr 23 23:54:26 vultr kernel: [ 1698.033992] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=162.142.125.236 DST=158.247.200.34 LEN=44 TOS=0x00 PREC=0x00 TTL=37 ID=38137 PROTO=TCP SPT=51264 DPT=1557 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:54:36 vultr kernel: [ 1707.968284] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.222.173 DST=158.247.223.84 LEN=1280 TOS=0x00 PREC=0x00 TTL=59 ID=15684 DF PROTO=UDP SPT=4001 DPT=4001 LEN=1260 
+Apr 23 23:54:47 vultr kernel: [ 1718.969950] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=84.118.96.247 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=234 ID=54321 PROTO=TCP SPT=42123 DPT=22 WINDOW=65535 RES=0x00 SYN URGP=0 
+Apr 23 23:54:48 vultr kernel: [ 1720.238713] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=8.210.248.222 DST=158.247.200.34 LEN=46 TOS=0x00 PREC=0x00 TTL=50 ID=60857 DF PROTO=UDP SPT=48007 DPT=1434 LEN=26 
+Apr 23 23:54:49 vultr kernel: [ 1721.466564] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=180.168.65.182 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=47 ID=29596 PROTO=TCP SPT=23483 DPT=23 WINDOW=55572 RES=0x00 SYN URGP=0 
+Apr 23 23:54:54 vultr kernel: [ 1725.603527] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=45.143.203.12 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=238 ID=50586 PROTO=TCP SPT=55045 DPT=47337 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:54:56 vultr kernel: [ 1727.776523] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=146.19.213.10 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=235 ID=54321 PROTO=TCP SPT=33078 DPT=22 WINDOW=65535 RES=0x00 SYN URGP=0 
+Apr 23 23:54:56 vultr kernel: [ 1727.986903] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.222.173 DST=158.247.223.84 LEN=1280 TOS=0x00 PREC=0x00 TTL=59 ID=17220 DF PROTO=UDP SPT=4001 DPT=4001 LEN=1260 
+Apr 23 23:54:59 vultr kernel: [ 1730.771349] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=91.240.118.73 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=236 ID=6489 PROTO=TCP SPT=55577 DPT=1210 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:55:23 vultr kernel: [ 1754.743038] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.222.141 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=59 ID=57615 DF PROTO=TCP SPT=4001 DPT=4001 WINDOW=42340 RES=0x00 SYN URGP=0 
+Apr 23 23:55:49 vultr kernel: [ 1781.514335] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=167.94.138.105 DST=158.247.223.84 LEN=44 TOS=0x00 PREC=0x00 TTL=37 ID=13941 PROTO=TCP SPT=44895 DPT=990 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:55:55 vultr kernel: [ 1786.924095] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=167.94.145.83 DST=158.247.200.34 LEN=44 TOS=0x00 PREC=0x00 TTL=34 ID=6643 PROTO=TCP SPT=14889 DPT=1883 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:56:08 vultr kernel: [ 1799.711055] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.223.115 DST=158.247.223.84 LEN=52 TOS=0x00 PREC=0x00 TTL=123 ID=62338 DF PROTO=TCP SPT=4001 DPT=4001 WINDOW=64240 RES=0x00 SYN URGP=0 
+Apr 23 23:56:08 vultr kernel: [ 1800.071170] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=45.143.203.12 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=238 ID=230 PROTO=TCP SPT=55045 DPT=19329 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:56:14 vultr kernel: [ 1806.426441] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=167.94.138.131 DST=158.247.223.84 LEN=44 TOS=0x00 PREC=0x00 TTL=37 ID=58699 PROTO=TCP SPT=23139 DPT=8999 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:56:24 vultr kernel: [ 1816.484616] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=117.158.62.74 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=230 ID=53035 PROTO=TCP SPT=57731 DPT=9000 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:56:34 vultr kernel: [ 1826.357547] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.223.62 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=59 ID=12276 DF PROTO=TCP SPT=4001 DPT=4001 WINDOW=42340 RES=0x00 SYN URGP=0 
+Apr 23 23:56:43 vultr kernel: [ 1835.450139] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=193.57.40.49 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=239 ID=19643 PROTO=TCP SPT=55391 DPT=23388 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:56:56 vultr kernel: [ 1847.583518] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.223.213 DST=158.247.223.84 LEN=1280 TOS=0x00 PREC=0x00 TTL=59 ID=28173 DF PROTO=UDP SPT=4001 DPT=4001 LEN=1260 
+Apr 23 23:56:56 vultr kernel: [ 1848.259134] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=185.156.73.91 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=239 ID=56122 PROTO=TCP SPT=40778 DPT=28990 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:57:02 vultr kernel: [ 1853.901765] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=174.138.180.126 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=222 ID=40140 PROTO=TCP SPT=57817 DPT=4200 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:57:18 vultr kernel: [ 1869.804042] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=71.6.147.254 DST=158.247.223.84 LEN=44 TOS=0x00 PREC=0x00 TTL=105 ID=4082 PROTO=TCP SPT=26200 DPT=8989 WINDOW=35366 RES=0x00 SYN URGP=0 
+Apr 23 23:57:59 vultr kernel: [ 1911.367850] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=108.177.16.13 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=99 ID=10297 PROTO=TCP SPT=36902 DPT=25 WINDOW=65535 RES=0x00 SYN URGP=0 
+Apr 23 23:58:01 vultr kernel: [ 1913.015153] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=167.248.133.163 DST=158.247.223.84 LEN=44 TOS=0x00 PREC=0x00 TTL=39 ID=41491 PROTO=TCP SPT=20665 DPT=12509 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:58:11 vultr kernel: [ 1922.552951] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=24.38.207.138 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=44 ID=3488 PROTO=TCP SPT=8932 DPT=23 WINDOW=12532 RES=0x00 SYN URGP=0 
+Apr 23 23:58:15 vultr kernel: [ 1927.353688] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.223.7 DST=158.247.223.84 LEN=1280 TOS=0x00 PREC=0x00 TTL=59 ID=29364 DF PROTO=UDP SPT=4001 DPT=4001 LEN=1260 
+Apr 23 23:58:28 vultr kernel: [ 1939.815429] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=185.156.73.91 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=237 ID=2365 PROTO=TCP SPT=40778 DPT=48960 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:58:29 vultr kernel: [ 1940.559764] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=162.142.125.247 DST=158.247.200.34 LEN=44 TOS=0x00 PREC=0x00 TTL=37 ID=11220 PROTO=TCP SPT=1097 DPT=31119 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:58:35 vultr kernel: [ 1947.373351] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.223.7 DST=158.247.223.84 LEN=1280 TOS=0x00 PREC=0x00 TTL=59 ID=32572 DF PROTO=UDP SPT=4001 DPT=4001 LEN=1260 
+Apr 23 23:58:44 vultr kernel: [ 1956.013909] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=45.93.201.123 DST=158.247.200.34 LEN=40 TOS=0x00 PREC=0x00 TTL=234 ID=63743 PROTO=TCP SPT=55635 DPT=18125 WINDOW=1024 RES=0x00 SYN URGP=0 
+Apr 23 23:58:52 vultr kernel: [ 1964.140504] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=75.152.47.153 DST=158.247.200.34 LEN=44 TOS=0x00 PREC=0x00 TTL=50 ID=19432 PROTO=TCP SPT=14908 DPT=23 WINDOW=37103 RES=0x00 SYN URGP=0 
+Apr 23 23:58:55 vultr kernel: [ 1967.409917] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.223.7 DST=158.247.223.84 LEN=1280 TOS=0x00 PREC=0x00 TTL=59 ID=34624 DF PROTO=UDP SPT=4001 DPT=4001 LEN=1260 
+Apr 23 23:59:01 vultr kernel: [ 1972.666742] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=75.152.47.153 DST=158.247.200.34 LEN=44 TOS=0x00 PREC=0x00 TTL=50 ID=19432 PROTO=TCP SPT=14908 DPT=23 WINDOW=37103 RES=0x00 SYN URGP=0 
+Apr 23 23:59:14 vultr kernel: [ 1986.395994] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.222.142 DST=158.247.223.84 LEN=1280 TOS=0x00 PREC=0x00 TTL=59 ID=42142 DF PROTO=UDP SPT=4001 DPT=4001 LEN=1260 
+Apr 23 23:59:32 vultr kernel: [ 2004.462834] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=75.152.47.153 DST=158.247.200.34 LEN=44 TOS=0x00 PREC=0x00 TTL=50 ID=19432 PROTO=TCP SPT=14908 DPT=23 WINDOW=37103 RES=0x00 SYN URGP=0 
+Apr 23 23:59:35 vultr kernel: [ 2006.714829] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.222.12 DST=158.247.223.84 LEN=1280 TOS=0x00 PREC=0x00 TTL=59 ID=18063 DF PROTO=UDP SPT=4001 DPT=4001 LEN=1260 
+Apr 23 23:59:52 vultr kernel: [ 2024.101866] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=193.163.125.199 DST=158.247.200.34 LEN=44 TOS=0x00 PREC=0x00 TTL=235 ID=39768 PROTO=TCP SPT=54076 DPT=1419 WINDOW=14600 RES=0x00 SYN URGP=0 
+Apr 24 00:00:01 vultr kernel: [ 2033.519495] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=193.111.61.133 DST=158.247.200.34 LEN=44 TOS=0x00 PREC=0x00 TTL=115 ID=0 DF PROTO=TCP SPT=443 DPT=22018 WINDOW=32767 RES=0x00 ACK SYN URGP=0 
+Apr 24 00:00:10 vultr kernel: [ 2042.288632] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.222.55 DST=158.247.223.84 LEN=60 TOS=0x00 PREC=0x00 TTL=59 ID=55079 DF PROTO=TCP SPT=4001 DPT=4001 WINDOW=42340 RES=0x00 SYN URGP=0 
+Apr 24 00:00:16 vultr kernel: [ 2048.491735] [UFW BLOCK] IN=ens3 OUT= MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=158.247.222.55 DST=158.247.223.84 LEN=1280 TOS=0x00 PREC=0x00 TTL=59 ID=52711 DF PROTO=UDP SPT=4001 DPT=4001 LEN=1260 
+Apr 24 00:00:23 vultr kernel: [ 2054.859937] [UFW BLOCK] IN=ens3 OUT=ens3 MAC=56:00:03:85:82:df:fe:00:03:85:82:df:08:00 SRC=75.152.47.153 DST=158.247.200.34 LEN=44 TOS=0x00 PREC=0x00 TTL=50 ID=19432 PROTO=TCP SPT=14908 DPT=23 WINDOW=37103 RES=0x00 SYN URGP=0 
+Apr 24 00:00:31 vultr rsyslogd:  [origin software="rsyslogd" swVersion="8.1901.0" x-pid="394" x-info="https://www.rsyslog.com"] rsyslogd was HUPed
