@@ -1,0 +1,3 @@
+update-alternatives 2022-04-24 23:10:56: run with --quiet --install /usr/bin/www-browser www-browser /usr/bin/links 68 --slave /usr/share/man/man1/www-browser.1.gz www-browser.1.gz /usr/share/man/man1/links.1.gz
+update-alternatives 2022-04-24 23:10:56: link group www-browser updated to point to /usr/bin/links
+update-alternatives 2022-04-24 23:10:56: run with --install /usr/bin/www-browser www-browser /usr/bin/lynx 40 --slave /usr/share/man/man1/www-browser.1.gz www-browser.1.gz /usr/share/man/man1/lynx.1.gz
