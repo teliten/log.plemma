@@ -419,3 +419,7 @@ Apr 24 21:52:10 vultr dockerd[427]: time="2022-04-24T21:52:10.857565198Z" level=
 Apr 24 21:54:00 vultr systemd[1]: Started Session 211 of user adam.
 Apr 24 21:54:08 vultr systemd[1]: mnt-amzn2.mount: Succeeded.
 Apr 24 21:54:08 vultr systemd[1368]: mnt-amzn2.mount: Succeeded.
+Apr 24 21:57:11 vultr dockerd[427]: time="2022-04-24T21:57:11.058988383Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+Apr 24 21:59:29 vultr systemd[1]: mnt-amzn2.mount: Succeeded.
+Apr 24 21:59:29 vultr systemd[1368]: mnt-amzn2.mount: Succeeded.
+Apr 24 22:02:11 vultr dockerd[427]: time="2022-04-24T22:02:11.257743125Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"

@@ -4,3 +4,7 @@ Apr 24 15:21:43 vultr s3fs[2276]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
 Apr 24 15:21:44 vultr s3fs[2276]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
 Apr 24 21:54:07 vultr s3fs[15674]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
 Apr 24 21:54:08 vultr s3fs[15674]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
+Apr 24 21:56:34 vultr s3fs[16042]: s3fs: missing BUCKET argument.
+Apr 24 21:59:28 vultr s3fs[16132]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
+Apr 24 21:59:29 vultr s3fs[16132]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
+Apr 24 22:06:00 vultr s3fs[16371]: s3fs: MOUNTPOINT directory /mnt/amzn2 is not empty. if you are sure this is safe, can use the 'nonempty' mount option.
