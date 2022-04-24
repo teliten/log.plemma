@@ -130,3 +130,6 @@ Apr 24 21:46:45 vultr postfix/trivial-rewrite[15361]: warning: do not list domai
 Apr 24 21:46:45 vultr postfix/trivial-rewrite[15361]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
 Apr 24 21:57:41 vultr postfix/trivial-rewrite[15788]: warning: do not list domain ermccorp.com in BOTH mydestination and virtual_alias_domains
 Apr 24 21:57:41 vultr postfix/trivial-rewrite[15788]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains
+Apr 24 22:47:17 vultr postfix/trivial-rewrite[18850]: warning: do not list domain lamc.la in BOTH mydestination and virtual_alias_domains
+Apr 24 23:09:55 vultr postfix/trivial-rewrite[20283]: warning: do not list domain reallyhim.com in BOTH mydestination and virtual_alias_domains
+Apr 24 23:09:55 vultr postfix/trivial-rewrite[20283]: warning: do not list domain fromthemachine.org in BOTH mydestination and virtual_alias_domains

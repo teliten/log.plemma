@@ -423,3 +423,189 @@ Apr 24 21:57:11 vultr dockerd[427]: time="2022-04-24T21:57:11.058988383Z" level=
 Apr 24 21:59:29 vultr systemd[1]: mnt-amzn2.mount: Succeeded.
 Apr 24 21:59:29 vultr systemd[1368]: mnt-amzn2.mount: Succeeded.
 Apr 24 22:02:11 vultr dockerd[427]: time="2022-04-24T22:02:11.257743125Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+Apr 24 22:07:11 vultr dockerd[427]: time="2022-04-24T22:07:11.467331230Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+Apr 24 22:09:01 vultr systemd[1]: Starting Clean php session files...
+Apr 24 22:09:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
+Apr 24 22:09:01 vultr systemd[1]: Started Clean php session files.
+Apr 24 22:12:11 vultr dockerd[427]: time="2022-04-24T22:12:11.657568169Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+Apr 24 22:17:11 vultr dockerd[427]: time="2022-04-24T22:17:11.857591869Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+Apr 24 22:22:12 vultr dockerd[427]: time="2022-04-24T22:22:12.057560348Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+Apr 24 22:27:12 vultr dockerd[427]: time="2022-04-24T22:27:12.258569112Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+Apr 24 22:28:06 vultr systemd-udevd[17961]: Using default interface naming scheme 'v240'.
+Apr 24 22:28:06 vultr systemd-udevd[17961]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Apr 24 22:28:07 vultr dockerd[427]: time="2022-04-24T22:28:07.428222009Z" level=warning msg="Error getting v2 registry: Get https://registry-1.docker.io/v2/: dial tcp: lookup registry-1.docker.io on [::1]:53: read udp [::1]:52449->[::1]:53: read: connection refused"
+Apr 24 22:28:07 vultr dockerd[427]: time="2022-04-24T22:28:07.430592783Z" level=info msg="Attempting next endpoint for pull after error: Get https://registry-1.docker.io/v2/: dial tcp: lookup registry-1.docker.io on [::1]:53: read udp [::1]:52449->[::1]:53: read: connection refused"
+Apr 24 22:28:07 vultr dockerd[427]: time="2022-04-24T22:28:07.432089809Z" level=error msg="Handler for POST /v1.39/images/create returned error: Get https://registry-1.docker.io/v2/: dial tcp: lookup registry-1.docker.io on [::1]:53: read udp [::1]:52449->[::1]:53: read: connection refused"
+Apr 24 22:28:11 vultr dockerd[427]: time="2022-04-24T22:28:11.779552700Z" level=warning msg="Error getting v2 registry: Get https://registry-1.docker.io/v2/: dial tcp: lookup registry-1.docker.io on [::1]:53: read udp [::1]:47358->[::1]:53: read: connection refused"
+Apr 24 22:28:11 vultr dockerd[427]: time="2022-04-24T22:28:11.781526749Z" level=info msg="Attempting next endpoint for pull after error: Get https://registry-1.docker.io/v2/: dial tcp: lookup registry-1.docker.io on [::1]:53: read udp [::1]:47358->[::1]:53: read: connection refused"
+Apr 24 22:28:11 vultr dockerd[427]: time="2022-04-24T22:28:11.781848182Z" level=error msg="Handler for POST /v1.39/images/create returned error: Get https://registry-1.docker.io/v2/: dial tcp: lookup registry-1.docker.io on [::1]:53: read udp [::1]:47358->[::1]:53: read: connection refused"
+Apr 24 22:28:21 vultr systemd[1368]: var-lib-docker-overlay2-8a768d63b20c2779f07f79236b7cc5d3aaad262d3bd4fdeb6ca2eece73336aeb\x2dinit-merged.mount: Succeeded.
+Apr 24 22:28:21 vultr systemd[1]: var-lib-docker-overlay2-8a768d63b20c2779f07f79236b7cc5d3aaad262d3bd4fdeb6ca2eece73336aeb\x2dinit-merged.mount: Succeeded.
+Apr 24 22:28:21 vultr systemd[1]: var-lib-docker-overlay2-8a768d63b20c2779f07f79236b7cc5d3aaad262d3bd4fdeb6ca2eece73336aeb-merged.mount: Succeeded.
+Apr 24 22:28:21 vultr systemd[1368]: var-lib-docker-overlay2-8a768d63b20c2779f07f79236b7cc5d3aaad262d3bd4fdeb6ca2eece73336aeb-merged.mount: Succeeded.
+Apr 24 22:28:21 vultr systemd-udevd[18032]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Apr 24 22:28:21 vultr systemd-udevd[18033]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Apr 24 22:28:21 vultr systemd-udevd[18033]: Using default interface naming scheme 'v240'.
+Apr 24 22:28:21 vultr systemd-udevd[18032]: Using default interface naming scheme 'v240'.
+Apr 24 22:28:21 vultr systemd-udevd[18033]: Could not generate persistent MAC address for veth5bf3751: No such file or directory
+Apr 24 22:28:21 vultr systemd-udevd[18032]: Could not generate persistent MAC address for veth73ad5a2: No such file or directory
+Apr 24 22:28:22 vultr dockerd[427]: time="2022-04-24T22:28:22.204861719Z" level=info msg="shim docker-containerd-shim started" address="unix:///run/containerd/s/f93145a98aaaefd0f6ede8f27a127d77ca0742d16d07d2d2d72e957eb0dd5404" debug=false pid=18055
+Apr 24 22:28:22 vultr systemd[1]: tmp-runc.nWHlDG.mount: Succeeded.
+Apr 24 22:28:25 vultr ntpd[454]: Listen normally on 9 br-e93431e2a48d 172.21.0.1:123
+Apr 24 22:28:25 vultr ntpd[454]: bind(29) AF_INET6 fe80::42:a5ff:fe09:987f%13#123 flags 0x11 failed: Cannot assign requested address
+Apr 24 22:28:25 vultr ntpd[454]: unable to create socket on br-e93431e2a48d (10) for fe80::42:a5ff:fe09:987f%13#123
+Apr 24 22:28:25 vultr ntpd[454]: failed to init interface for address fe80::42:a5ff:fe09:987f%13
+Apr 24 22:28:25 vultr ntpd[454]: bind(29) AF_INET6 fe80::3cba:32ff:fe0e:1c36%15#123 flags 0x11 failed: Cannot assign requested address
+Apr 24 22:28:25 vultr ntpd[454]: unable to create socket on veth5bf3751 (11) for fe80::3cba:32ff:fe0e:1c36%15#123
+Apr 24 22:28:25 vultr ntpd[454]: failed to init interface for address fe80::3cba:32ff:fe0e:1c36%15
+Apr 24 22:28:25 vultr ntpd[454]: new interface(s) found: waking up resolver
+Apr 24 22:28:27 vultr ntpd[454]: Listen normally on 12 br-e93431e2a48d [fe80::42:a5ff:fe09:987f%13]:123
+Apr 24 22:28:27 vultr ntpd[454]: Listen normally on 13 veth5bf3751 [fe80::3cba:32ff:fe0e:1c36%15]:123
+Apr 24 22:28:27 vultr ntpd[454]: new interface(s) found: waking up resolver
+Apr 24 22:32:12 vultr dockerd[427]: time="2022-04-24T22:32:12.458328525Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+Apr 24 22:37:12 vultr dockerd[427]: time="2022-04-24T22:37:12.657589588Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+Apr 24 22:39:01 vultr systemd[1]: Starting Clean php session files...
+Apr 24 22:39:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
+Apr 24 22:39:01 vultr systemd[1]: Started Clean php session files.
+Apr 24 22:42:12 vultr dockerd[427]: time="2022-04-24T22:42:12.857923387Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+Apr 24 22:47:13 vultr dockerd[427]: time="2022-04-24T22:47:13.057559958Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+Apr 24 22:52:13 vultr dockerd[427]: time="2022-04-24T22:52:13.257598148Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+Apr 24 22:57:13 vultr dockerd[427]: time="2022-04-24T22:57:13.457673032Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+Apr 24 23:02:13 vultr dockerd[427]: time="2022-04-24T23:02:13.657474183Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+Apr 24 23:07:13 vultr dockerd[427]: time="2022-04-24T23:07:13.857589353Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+Apr 24 23:08:00 vultr dockerd[427]: time="2022-04-24T23:08:00.508482576Z" level=info msg="shim reaped" id=93850d24d5712dfd69a6bba69243bb17088e8082c7cb5485f0e0c22687173317
+Apr 24 23:08:00 vultr dockerd[427]: time="2022-04-24T23:08:00.524900871Z" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 24 23:08:00 vultr systemd-udevd[19511]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Apr 24 23:08:00 vultr systemd-udevd[19511]: Using default interface naming scheme 'v240'.
+Apr 24 23:08:00 vultr systemd[1368]: run-docker-netns-ba2d025d7d9d.mount: Succeeded.
+Apr 24 23:08:00 vultr systemd[1]: run-docker-netns-ba2d025d7d9d.mount: Succeeded.
+Apr 24 23:08:00 vultr systemd[1368]: var-lib-docker-containers-93850d24d5712dfd69a6bba69243bb17088e8082c7cb5485f0e0c22687173317-mounts-shm.mount: Succeeded.
+Apr 24 23:08:00 vultr systemd[1]: var-lib-docker-containers-93850d24d5712dfd69a6bba69243bb17088e8082c7cb5485f0e0c22687173317-mounts-shm.mount: Succeeded.
+Apr 24 23:08:00 vultr systemd[1368]: var-lib-docker-overlay2-8a768d63b20c2779f07f79236b7cc5d3aaad262d3bd4fdeb6ca2eece73336aeb-merged.mount: Succeeded.
+Apr 24 23:08:00 vultr systemd[1]: var-lib-docker-overlay2-8a768d63b20c2779f07f79236b7cc5d3aaad262d3bd4fdeb6ca2eece73336aeb-merged.mount: Succeeded.
+Apr 24 23:08:03 vultr ntpd[454]: Deleting interface #9 br-e93431e2a48d, 172.21.0.1#123, interface stats: received=0, sent=0, dropped=0, active_time=2378 secs
+Apr 24 23:08:03 vultr ntpd[454]: Deleting interface #12 br-e93431e2a48d, fe80::42:a5ff:fe09:987f%13#123, interface stats: received=0, sent=0, dropped=0, active_time=2376 secs
+Apr 24 23:08:03 vultr ntpd[454]: Deleting interface #13 veth5bf3751, fe80::3cba:32ff:fe0e:1c36%15#123, interface stats: received=0, sent=0, dropped=0, active_time=2376 secs
+Apr 24 23:09:01 vultr systemd[1]: Starting Clean php session files...
+Apr 24 23:09:02 vultr systemd[1]: phpsessionclean.service: Succeeded.
+Apr 24 23:09:02 vultr systemd[1]: Started Clean php session files.
+Apr 24 23:09:06 vultr systemd[1368]: var-lib-docker-overlay2-0d4bff003029220195d06f1394631bd7bf4eaab80e41b415b6dbb54a6aa81554\x2dinit-merged.mount: Succeeded.
+Apr 24 23:09:06 vultr systemd[1]: var-lib-docker-overlay2-0d4bff003029220195d06f1394631bd7bf4eaab80e41b415b6dbb54a6aa81554\x2dinit-merged.mount: Succeeded.
+Apr 24 23:09:06 vultr systemd[1368]: var-lib-docker-overlay2-0d4bff003029220195d06f1394631bd7bf4eaab80e41b415b6dbb54a6aa81554-merged.mount: Succeeded.
+Apr 24 23:09:06 vultr systemd[1]: var-lib-docker-overlay2-0d4bff003029220195d06f1394631bd7bf4eaab80e41b415b6dbb54a6aa81554-merged.mount: Succeeded.
+Apr 24 23:09:06 vultr systemd-udevd[19779]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Apr 24 23:09:06 vultr systemd-udevd[19779]: Using default interface naming scheme 'v240'.
+Apr 24 23:09:06 vultr systemd-udevd[19779]: Could not generate persistent MAC address for veth26a8382: No such file or directory
+Apr 24 23:09:06 vultr systemd-udevd[19777]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Apr 24 23:09:06 vultr systemd-udevd[19777]: Using default interface naming scheme 'v240'.
+Apr 24 23:09:06 vultr systemd-udevd[19777]: Could not generate persistent MAC address for veth6371462: No such file or directory
+Apr 24 23:09:07 vultr dockerd[427]: time="2022-04-24T23:09:07.008963617Z" level=info msg="shim docker-containerd-shim started" address="unix:///run/containerd/s/ec047896b82d2abb52161fb4eb769bf6aaddff72e9dd9f3c71aa3c4f041fc14d" debug=false pid=19789
+Apr 24 23:09:07 vultr systemd[1368]: tmp-runc.6aZfo4.mount: Succeeded.
+Apr 24 23:09:07 vultr systemd[1]: tmp-runc.6aZfo4.mount: Succeeded.
+Apr 24 23:09:10 vultr dockerd[427]: time="2022-04-24T23:09:10.012809336Z" level=info msg="shim reaped" id=4bc6794b9d55be14f726374714c007ad9611fbec80f5220a25339d1ce4f07cb1
+Apr 24 23:09:10 vultr dockerd[427]: time="2022-04-24T23:09:10.022506434Z" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 24 23:09:10 vultr systemd-udevd[19779]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Apr 24 23:09:10 vultr systemd[1368]: run-docker-netns-7f4b676420a1.mount: Succeeded.
+Apr 24 23:09:10 vultr systemd[1]: run-docker-netns-7f4b676420a1.mount: Succeeded.
+Apr 24 23:09:10 vultr systemd[1368]: var-lib-docker-containers-4bc6794b9d55be14f726374714c007ad9611fbec80f5220a25339d1ce4f07cb1-mounts-shm.mount: Succeeded.
+Apr 24 23:09:10 vultr systemd[1]: var-lib-docker-containers-4bc6794b9d55be14f726374714c007ad9611fbec80f5220a25339d1ce4f07cb1-mounts-shm.mount: Succeeded.
+Apr 24 23:09:10 vultr systemd[1368]: var-lib-docker-overlay2-0d4bff003029220195d06f1394631bd7bf4eaab80e41b415b6dbb54a6aa81554-merged.mount: Succeeded.
+Apr 24 23:09:10 vultr systemd[1]: var-lib-docker-overlay2-0d4bff003029220195d06f1394631bd7bf4eaab80e41b415b6dbb54a6aa81554-merged.mount: Succeeded.
+Apr 24 23:09:10 vultr systemd-udevd[19779]: link_config: could not get ethtool features for veth6371462
+Apr 24 23:09:10 vultr systemd-udevd[19779]: Could not set offload features of veth6371462: No such device
+Apr 24 23:09:12 vultr systemd[1368]: var-lib-docker-overlay2-0d4bff003029220195d06f1394631bd7bf4eaab80e41b415b6dbb54a6aa81554-merged.mount: Succeeded.
+Apr 24 23:09:12 vultr systemd[1]: var-lib-docker-overlay2-0d4bff003029220195d06f1394631bd7bf4eaab80e41b415b6dbb54a6aa81554-merged.mount: Succeeded.
+Apr 24 23:09:13 vultr systemd[1368]: var-lib-docker-overlay2-8a48575b101468bc631f525d4139f8721fd6de5e1ae23309a0ec4e65f66f1877\x2dinit-merged.mount: Succeeded.
+Apr 24 23:09:13 vultr systemd[1]: var-lib-docker-overlay2-8a48575b101468bc631f525d4139f8721fd6de5e1ae23309a0ec4e65f66f1877\x2dinit-merged.mount: Succeeded.
+Apr 24 23:09:13 vultr systemd[1368]: var-lib-docker-overlay2-8a48575b101468bc631f525d4139f8721fd6de5e1ae23309a0ec4e65f66f1877-merged.mount: Succeeded.
+Apr 24 23:09:13 vultr systemd[1]: var-lib-docker-overlay2-8a48575b101468bc631f525d4139f8721fd6de5e1ae23309a0ec4e65f66f1877-merged.mount: Succeeded.
+Apr 24 23:09:13 vultr systemd-udevd[19779]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Apr 24 23:09:13 vultr systemd-udevd[19790]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Apr 24 23:09:13 vultr systemd-udevd[19790]: Using default interface naming scheme 'v240'.
+Apr 24 23:09:13 vultr systemd-udevd[19790]: Could not generate persistent MAC address for vetha5f49b8: No such file or directory
+Apr 24 23:09:13 vultr systemd-udevd[19779]: Could not generate persistent MAC address for veth001bfca: No such file or directory
+Apr 24 23:09:13 vultr dockerd[427]: time="2022-04-24T23:09:13.290546823Z" level=info msg="shim docker-containerd-shim started" address="unix:///run/containerd/s/766303ec2b975c530a0fb5b4e9eb86cc1a9f71d739476bdf18cdff409903f204" debug=false pid=19901
+Apr 24 23:09:13 vultr systemd[1368]: tmp-runc.CbB1yJ.mount: Succeeded.
+Apr 24 23:09:13 vultr systemd[1]: tmp-runc.CbB1yJ.mount: Succeeded.
+Apr 24 23:09:13 vultr dockerd[427]: time="2022-04-24T23:09:13.905238426Z" level=info msg="shim reaped" id=56b69af23b56771b135a69868e5d93bd8680999d6d996fbb03c518bda166a72c
+Apr 24 23:09:13 vultr dockerd[427]: time="2022-04-24T23:09:13.914725629Z" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 24 23:09:13 vultr systemd-udevd[19779]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Apr 24 23:09:13 vultr systemd-udevd[19779]: link_config: could not get ethtool features for veth001bfca
+Apr 24 23:09:13 vultr systemd-udevd[19779]: Could not set offload features of veth001bfca: No such device
+Apr 24 23:09:13 vultr systemd[1368]: run-docker-netns-3c566f73ed2b.mount: Succeeded.
+Apr 24 23:09:13 vultr systemd[1]: run-docker-netns-3c566f73ed2b.mount: Succeeded.
+Apr 24 23:09:13 vultr systemd[1368]: var-lib-docker-containers-56b69af23b56771b135a69868e5d93bd8680999d6d996fbb03c518bda166a72c-mounts-shm.mount: Succeeded.
+Apr 24 23:09:13 vultr systemd[1]: var-lib-docker-containers-56b69af23b56771b135a69868e5d93bd8680999d6d996fbb03c518bda166a72c-mounts-shm.mount: Succeeded.
+Apr 24 23:09:13 vultr systemd[1368]: var-lib-docker-overlay2-8a48575b101468bc631f525d4139f8721fd6de5e1ae23309a0ec4e65f66f1877-merged.mount: Succeeded.
+Apr 24 23:09:13 vultr systemd[1]: var-lib-docker-overlay2-8a48575b101468bc631f525d4139f8721fd6de5e1ae23309a0ec4e65f66f1877-merged.mount: Succeeded.
+Apr 24 23:09:14 vultr systemd[1368]: var-lib-docker-overlay2-8a48575b101468bc631f525d4139f8721fd6de5e1ae23309a0ec4e65f66f1877-merged.mount: Succeeded.
+Apr 24 23:09:14 vultr systemd[1]: var-lib-docker-overlay2-8a48575b101468bc631f525d4139f8721fd6de5e1ae23309a0ec4e65f66f1877-merged.mount: Succeeded.
+Apr 24 23:09:14 vultr systemd[1368]: var-lib-docker-overlay2-4eef2981d3ee2463273fe7fde9aa2df20a66da244c4adfb81a3e8319f207dcf5\x2dinit-merged.mount: Succeeded.
+Apr 24 23:09:14 vultr systemd[1]: var-lib-docker-overlay2-4eef2981d3ee2463273fe7fde9aa2df20a66da244c4adfb81a3e8319f207dcf5\x2dinit-merged.mount: Succeeded.
+Apr 24 23:09:14 vultr systemd[1]: var-lib-docker-overlay2-4eef2981d3ee2463273fe7fde9aa2df20a66da244c4adfb81a3e8319f207dcf5-merged.mount: Succeeded.
+Apr 24 23:09:14 vultr systemd[1368]: var-lib-docker-overlay2-4eef2981d3ee2463273fe7fde9aa2df20a66da244c4adfb81a3e8319f207dcf5-merged.mount: Succeeded.
+Apr 24 23:09:14 vultr systemd[1368]: var-lib-docker-overlay2-4eef2981d3ee2463273fe7fde9aa2df20a66da244c4adfb81a3e8319f207dcf5-merged.mount: Succeeded.
+Apr 24 23:09:14 vultr systemd[1]: var-lib-docker-overlay2-4eef2981d3ee2463273fe7fde9aa2df20a66da244c4adfb81a3e8319f207dcf5-merged.mount: Succeeded.
+Apr 24 23:09:14 vultr dockerd[427]: time="2022-04-24T23:09:14.311829114Z" level=info msg="Layer sha256:01479e31d765bdb4254fff0833fd814eb3946fb19679405bedef9ab2a8ba4446 cleaned up"
+Apr 24 23:09:14 vultr systemd[1368]: var-lib-docker-overlay2-4eef2981d3ee2463273fe7fde9aa2df20a66da244c4adfb81a3e8319f207dcf5-merged.mount: Succeeded.
+Apr 24 23:09:14 vultr systemd[1]: var-lib-docker-overlay2-4eef2981d3ee2463273fe7fde9aa2df20a66da244c4adfb81a3e8319f207dcf5-merged.mount: Succeeded.
+Apr 24 23:09:14 vultr systemd[1368]: var-lib-docker-overlay2-e74221f170e9da9ec784e48a831dd083da8b2982462a2ef34f85a5b95b447793\x2dinit-merged.mount: Succeeded.
+Apr 24 23:09:14 vultr systemd[1]: var-lib-docker-overlay2-e74221f170e9da9ec784e48a831dd083da8b2982462a2ef34f85a5b95b447793\x2dinit-merged.mount: Succeeded.
+Apr 24 23:09:14 vultr systemd[1]: var-lib-docker-overlay2-e74221f170e9da9ec784e48a831dd083da8b2982462a2ef34f85a5b95b447793-merged.mount: Succeeded.
+Apr 24 23:09:14 vultr systemd[1368]: var-lib-docker-overlay2-e74221f170e9da9ec784e48a831dd083da8b2982462a2ef34f85a5b95b447793-merged.mount: Succeeded.
+Apr 24 23:09:14 vultr systemd-udevd[19779]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Apr 24 23:09:14 vultr systemd-udevd[19779]: Could not generate persistent MAC address for veth357f5d3: No such file or directory
+Apr 24 23:09:14 vultr systemd-udevd[19790]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Apr 24 23:09:14 vultr systemd-udevd[19790]: Could not generate persistent MAC address for veth0eb5c53: No such file or directory
+Apr 24 23:09:14 vultr dockerd[427]: time="2022-04-24T23:09:14.424491092Z" level=info msg="shim docker-containerd-shim started" address="unix:///run/containerd/s/d5e25c67312caee5b667a52f3cd8aa06028f568658448f1daa68a29636f85770" debug=false pid=20010
+Apr 24 23:09:14 vultr dockerd[427]: time="2022-04-24T23:09:14.836509549Z" level=info msg="shim reaped" id=d242d13f49fa60bf7d8b2df4a677fe6d4180fa98b20f5de244f2f19a3e441e09
+Apr 24 23:09:14 vultr dockerd[427]: time="2022-04-24T23:09:14.847947548Z" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 24 23:09:14 vultr systemd-udevd[19779]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Apr 24 23:09:14 vultr systemd[1368]: run-docker-netns-28247aa403c2.mount: Succeeded.
+Apr 24 23:09:14 vultr systemd[1]: run-docker-netns-28247aa403c2.mount: Succeeded.
+Apr 24 23:09:14 vultr systemd[1368]: var-lib-docker-containers-d242d13f49fa60bf7d8b2df4a677fe6d4180fa98b20f5de244f2f19a3e441e09-mounts-shm.mount: Succeeded.
+Apr 24 23:09:14 vultr systemd[1]: var-lib-docker-containers-d242d13f49fa60bf7d8b2df4a677fe6d4180fa98b20f5de244f2f19a3e441e09-mounts-shm.mount: Succeeded.
+Apr 24 23:09:14 vultr systemd[1368]: var-lib-docker-overlay2-e74221f170e9da9ec784e48a831dd083da8b2982462a2ef34f85a5b95b447793-merged.mount: Succeeded.
+Apr 24 23:09:14 vultr systemd[1]: var-lib-docker-overlay2-e74221f170e9da9ec784e48a831dd083da8b2982462a2ef34f85a5b95b447793-merged.mount: Succeeded.
+Apr 24 23:09:14 vultr systemd-udevd[19779]: link_config: could not get ethtool features for veth357f5d3
+Apr 24 23:09:14 vultr systemd-udevd[19779]: Could not set offload features of veth357f5d3: No such device
+Apr 24 23:09:15 vultr systemd[1368]: var-lib-docker-overlay2-e74221f170e9da9ec784e48a831dd083da8b2982462a2ef34f85a5b95b447793-merged.mount: Succeeded.
+Apr 24 23:09:15 vultr systemd[1]: var-lib-docker-overlay2-e74221f170e9da9ec784e48a831dd083da8b2982462a2ef34f85a5b95b447793-merged.mount: Succeeded.
+Apr 24 23:09:15 vultr systemd[1368]: var-lib-docker-overlay2-1521c80ed3d5eaed921507631592c6261786cefdcb57a50e33170619d017e1bf-merged.mount: Succeeded.
+Apr 24 23:09:15 vultr systemd[1]: var-lib-docker-overlay2-1521c80ed3d5eaed921507631592c6261786cefdcb57a50e33170619d017e1bf-merged.mount: Succeeded.
+Apr 24 23:09:15 vultr systemd[1]: var-lib-docker-overlay2-2593370a270dfd25514419fe4af970c313bdab5c7f7ce69f00835b033ab72cd3\x2dinit-merged.mount: Succeeded.
+Apr 24 23:09:15 vultr systemd[1368]: var-lib-docker-overlay2-2593370a270dfd25514419fe4af970c313bdab5c7f7ce69f00835b033ab72cd3\x2dinit-merged.mount: Succeeded.
+Apr 24 23:09:15 vultr systemd[1]: var-lib-docker-overlay2-2593370a270dfd25514419fe4af970c313bdab5c7f7ce69f00835b033ab72cd3-merged.mount: Succeeded.
+Apr 24 23:09:15 vultr systemd-udevd[19779]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Apr 24 23:09:15 vultr systemd-udevd[19779]: Could not generate persistent MAC address for veth609eb1c: No such file or directory
+Apr 24 23:09:15 vultr systemd-udevd[19790]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Apr 24 23:09:15 vultr systemd-udevd[19790]: Could not generate persistent MAC address for vethe9b0e94: No such file or directory
+Apr 24 23:09:15 vultr dockerd[427]: time="2022-04-24T23:09:15.387891476Z" level=info msg="shim docker-containerd-shim started" address="unix:///run/containerd/s/bfbde91df8306bf8e2125b446874dcf80f93c05098623146f942eb93f42c0a64" debug=false pid=20124
+Apr 24 23:09:17 vultr ntpd[454]: Listen normally on 14 docker0 172.17.0.1:123
+Apr 24 23:09:17 vultr ntpd[454]: Listen normally on 15 docker0 [fe80::42:94ff:fe84:1837%3]:123
+Apr 24 23:09:17 vultr ntpd[454]: bind(30) AF_INET6 fe80::7cc8:d0ff:fea6:3d8a%23#123 flags 0x11 failed: Cannot assign requested address
+Apr 24 23:09:17 vultr ntpd[454]: unable to create socket on vethe9b0e94 (16) for fe80::7cc8:d0ff:fea6:3d8a%23#123
+Apr 24 23:09:17 vultr ntpd[454]: failed to init interface for address fe80::7cc8:d0ff:fea6:3d8a%23
+Apr 24 23:09:17 vultr ntpd[454]: new interface(s) found: waking up resolver
+Apr 24 23:09:19 vultr ntpd[454]: Listen normally on 17 vethe9b0e94 [fe80::7cc8:d0ff:fea6:3d8a%23]:123
+Apr 24 23:09:19 vultr ntpd[454]: new interface(s) found: waking up resolver
+Apr 24 23:09:44 vultr systemd[1]: Started Session 224 of user adam.
+Apr 24 23:09:55 vultr dockerd[427]: time="2022-04-24T23:09:55.398322501Z" level=info msg="shim reaped" id=a6431254df103dc52fce1acd085d5429f8c0f5cffc2e96130fddd76ed422d873
+Apr 24 23:09:55 vultr dockerd[427]: time="2022-04-24T23:09:55.420150235Z" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
+Apr 24 23:09:55 vultr systemd-udevd[20323]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
+Apr 24 23:09:55 vultr systemd-udevd[20323]: Using default interface naming scheme 'v240'.
+Apr 24 23:09:55 vultr systemd[1]: run-docker-netns-2849fc82e8d4.mount: Succeeded.
+Apr 24 23:09:55 vultr systemd[1368]: run-docker-netns-2849fc82e8d4.mount: Succeeded.
+Apr 24 23:09:55 vultr systemd[1368]: var-lib-docker-containers-a6431254df103dc52fce1acd085d5429f8c0f5cffc2e96130fddd76ed422d873-mounts-shm.mount: Succeeded.
+Apr 24 23:09:55 vultr systemd[1]: var-lib-docker-containers-a6431254df103dc52fce1acd085d5429f8c0f5cffc2e96130fddd76ed422d873-mounts-shm.mount: Succeeded.
+Apr 24 23:09:55 vultr systemd[1368]: var-lib-docker-overlay2-2593370a270dfd25514419fe4af970c313bdab5c7f7ce69f00835b033ab72cd3-merged.mount: Succeeded.
+Apr 24 23:09:55 vultr systemd[1]: var-lib-docker-overlay2-2593370a270dfd25514419fe4af970c313bdab5c7f7ce69f00835b033ab72cd3-merged.mount: Succeeded.
+Apr 24 23:09:58 vultr ntpd[454]: Deleting interface #14 docker0, 172.17.0.1#123, interface stats: received=0, sent=0, dropped=0, active_time=41 secs
+Apr 24 23:09:58 vultr ntpd[454]: Deleting interface #15 docker0, fe80::42:94ff:fe84:1837%3#123, interface stats: received=0, sent=0, dropped=0, active_time=41 secs
+Apr 24 23:09:58 vultr ntpd[454]: Deleting interface #17 vethe9b0e94, fe80::7cc8:d0ff:fea6:3d8a%23#123, interface stats: received=0, sent=0, dropped=0, active_time=39 secs
+Apr 24 23:10:00 vultr systemd[1]: var-lib-docker-overlay2-2593370a270dfd25514419fe4af970c313bdab5c7f7ce69f00835b033ab72cd3-merged.mount: Succeeded.
+Apr 24 23:10:00 vultr systemd[1368]: var-lib-docker-overlay2-2593370a270dfd25514419fe4af970c313bdab5c7f7ce69f00835b033ab72cd3-merged.mount: Succeeded.
+Apr 24 23:10:00 vultr systemd[1368]: var-lib-docker-overlay2-3fba33573e5dfb695344aa66c54a801ca1d6fe0f62b7fb52e0e691f26e402047-merged.mount: Succeeded.
+Apr 24 23:10:00 vultr systemd[1]: var-lib-docker-overlay2-3fba33573e5dfb695344aa66c54a801ca1d6fe0f62b7fb52e0e691f26e402047-merged.mount: Succeeded.
+Apr 24 23:10:01 vultr systemd[1]: var-lib-docker-overlay2-ae548000f2d75e453d6c31e6b81bb67692ee990b24d2e66248b8a5491e6c6b2d-merged.mount: Succeeded.
+Apr 24 23:10:01 vultr systemd[1368]: var-lib-docker-overlay2-ae548000f2d75e453d6c31e6b81bb67692ee990b24d2e66248b8a5491e6c6b2d-merged.mount: Succeeded.
