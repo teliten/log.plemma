@@ -1,2 +1,4 @@
 Apr 24 12:21:51 vultr s3fs[29050]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
 Apr 24 12:21:52 vultr s3fs[29050]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
+Apr 24 15:21:43 vultr s3fs[2276]: init v1.84(commit:unknown) with GnuTLS(gcrypt)
+Apr 24 15:21:44 vultr s3fs[2276]: s3fs.cpp:s3fs_check_service(3780): bucket not found(host=https://s3.amazonaws.com) - result of checking service.
