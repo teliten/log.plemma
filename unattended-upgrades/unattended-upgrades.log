@@ -183,3 +183,7 @@
 2022-04-24 06:58:39,384 INFO Starting unattended upgrades script
 2022-04-24 06:58:39,384 INFO Allowed origins are: origin=Debian,codename=buster,label=Debian, origin=Debian,codename=buster,label=Debian-Security
 2022-04-24 06:58:40,435 INFO No packages found that can be upgraded unattended and no pending auto-removals
+2022-04-24 17:44:49,488 INFO Initial blacklist : 
+2022-04-24 17:44:49,489 INFO Initial whitelist: 
+2022-04-24 17:44:49,489 INFO Starting unattended upgrades script
+2022-04-24 17:44:49,489 INFO Allowed origins are: origin=Debian,codename=buster,label=Debian, origin=Debian,codename=buster,label=Debian-Security
