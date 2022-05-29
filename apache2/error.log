@@ -1,6 +1,2 @@
-[Sun Apr 24 00:00:31.708776 2022] [mpm_prefork:notice] [pid 522] AH00163: Apache/2.4.38 (Debian) configured -- resuming normal operations
-[Sun Apr 24 00:00:31.708817 2022] [core:notice] [pid 522] AH00094: Command line: '/usr/sbin/apache2'
-[Sun Apr 24 00:39:48.601962 2022] [php7:error] [pid 8107] [client 210.16.189.15:51672] script '/var/www/html/wp-login.php' not found or unable to stat
-[Sun Apr 24 18:19:10.807335 2022] [php7:error] [pid 15665] [client 45.155.204.146:39960] script '/var/www/html/index.php' not found or unable to stat
-[Sun Apr 24 20:16:04.763978 2022] [php7:error] [pid 2728] [client 159.223.53.127:52125] script '/var/www/html/xmlrpc.php' not found or unable to stat
-[Sun Apr 24 20:25:19.059121 2022] [core:error] [pid 2729] [client 45.155.204.146:42270] AH00126: Invalid URI in request POST /cgi-bin/.%2e/.%2e/.%2e/.%2e/bin/sh HTTP/1.1
+[Sun May 29 00:00:49.495231 2022] [mpm_prefork:notice] [pid 523] AH00163: Apache/2.4.38 (Debian) configured -- resuming normal operations
+[Sun May 29 00:00:49.495249 2022] [core:notice] [pid 523] AH00094: Command line: '/usr/sbin/apache2'

@@ -1,635 +1,272 @@
-Apr 24 00:00:33 vultr systemd[1]: logrotate.service: Succeeded.
-Apr 24 00:00:33 vultr systemd[1]: Started Rotate log files.
-Apr 24 00:00:47 vultr systemd[1]: man-db.service: Succeeded.
-Apr 24 00:00:47 vultr systemd[1]: Started Daily man-db regeneration.
-Apr 24 00:01:18 vultr dockerd[427]: time="2022-04-24T00:01:18.457574247Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 00:06:18 vultr dockerd[427]: time="2022-04-24T00:06:18.657598922Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 00:09:01 vultr systemd[1]: Starting Clean php session files...
-Apr 24 00:09:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
-Apr 24 00:09:01 vultr systemd[1]: Started Clean php session files.
-Apr 24 00:11:18 vultr dockerd[427]: time="2022-04-24T00:11:18.857547250Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 00:16:19 vultr dockerd[427]: time="2022-04-24T00:16:19.057536307Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 00:21:19 vultr dockerd[427]: time="2022-04-24T00:21:19.257557186Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 00:26:19 vultr dockerd[427]: time="2022-04-24T00:26:19.457559126Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 00:31:19 vultr dockerd[427]: time="2022-04-24T00:31:19.657636785Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 00:36:19 vultr dockerd[427]: time="2022-04-24T00:36:19.857570361Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 00:39:01 vultr systemd[1]: Starting Clean php session files...
-Apr 24 00:39:02 vultr systemd[1]: phpsessionclean.service: Succeeded.
-Apr 24 00:39:02 vultr systemd[1]: Started Clean php session files.
-Apr 24 00:41:20 vultr dockerd[427]: time="2022-04-24T00:41:20.058172189Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 00:46:20 vultr dockerd[427]: time="2022-04-24T00:46:20.257553213Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 00:51:20 vultr dockerd[427]: time="2022-04-24T00:51:20.457694995Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 00:56:20 vultr dockerd[427]: time="2022-04-24T00:56:20.657522681Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 01:01:20 vultr dockerd[427]: time="2022-04-24T01:01:20.857565390Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 01:06:21 vultr dockerd[427]: time="2022-04-24T01:06:21.057652446Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 01:09:01 vultr systemd[1]: Starting Clean php session files...
-Apr 24 01:09:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
-Apr 24 01:09:01 vultr systemd[1]: Started Clean php session files.
-Apr 24 01:11:21 vultr dockerd[427]: time="2022-04-24T01:11:21.257545321Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 01:16:21 vultr dockerd[427]: time="2022-04-24T01:16:21.457539010Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 01:21:21 vultr dockerd[427]: time="2022-04-24T01:21:21.657609630Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 01:26:21 vultr dockerd[427]: time="2022-04-24T01:26:21.857608157Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 01:31:22 vultr dockerd[427]: time="2022-04-24T01:31:22.057578923Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 01:36:22 vultr dockerd[427]: time="2022-04-24T01:36:22.257672922Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 01:39:01 vultr systemd[1]: Starting Clean php session files...
-Apr 24 01:39:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
-Apr 24 01:39:01 vultr systemd[1]: Started Clean php session files.
-Apr 24 01:41:22 vultr dockerd[427]: time="2022-04-24T01:41:22.457999671Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 01:46:22 vultr dockerd[427]: time="2022-04-24T01:46:22.657927261Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 01:51:22 vultr dockerd[427]: time="2022-04-24T01:51:22.858295316Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 01:56:23 vultr dockerd[427]: time="2022-04-24T01:56:23.057528252Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 02:01:23 vultr dockerd[427]: time="2022-04-24T02:01:23.257807456Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 02:06:23 vultr dockerd[427]: time="2022-04-24T02:06:23.457542937Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 02:09:01 vultr systemd[1]: Starting Clean php session files...
-Apr 24 02:09:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
-Apr 24 02:09:01 vultr systemd[1]: Started Clean php session files.
-Apr 24 02:11:23 vultr dockerd[427]: time="2022-04-24T02:11:23.658881553Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 02:16:23 vultr dockerd[427]: time="2022-04-24T02:16:23.857513571Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 02:21:24 vultr dockerd[427]: time="2022-04-24T02:21:24.057596456Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 02:26:24 vultr dockerd[427]: time="2022-04-24T02:26:24.257665083Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 02:31:24 vultr dockerd[427]: time="2022-04-24T02:31:24.457528134Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 02:36:24 vultr dockerd[427]: time="2022-04-24T02:36:24.658256319Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 02:39:01 vultr systemd[1]: Starting Clean php session files...
-Apr 24 02:39:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
-Apr 24 02:39:01 vultr systemd[1]: Started Clean php session files.
-Apr 24 02:41:24 vultr dockerd[427]: time="2022-04-24T02:41:24.857479311Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 02:46:25 vultr dockerd[427]: time="2022-04-24T02:46:25.057559091Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 02:51:25 vultr dockerd[427]: time="2022-04-24T02:51:25.257637290Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 02:56:25 vultr dockerd[427]: time="2022-04-24T02:56:25.457652407Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 03:01:25 vultr dockerd[427]: time="2022-04-24T03:01:25.657580935Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 03:06:25 vultr dockerd[427]: time="2022-04-24T03:06:25.857601970Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 03:09:01 vultr systemd[1]: Starting Clean php session files...
-Apr 24 03:09:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
-Apr 24 03:09:01 vultr systemd[1]: Started Clean php session files.
-Apr 24 03:11:26 vultr dockerd[427]: time="2022-04-24T03:11:26.057588905Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 03:16:26 vultr dockerd[427]: time="2022-04-24T03:16:26.257533798Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 03:21:26 vultr dockerd[427]: time="2022-04-24T03:21:26.461288827Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 03:26:26 vultr dockerd[427]: time="2022-04-24T03:26:26.657531531Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 03:31:26 vultr dockerd[427]: time="2022-04-24T03:31:26.857672453Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 03:36:27 vultr dockerd[427]: time="2022-04-24T03:36:27.057618071Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 03:39:01 vultr systemd[1]: Starting Clean php session files...
-Apr 24 03:39:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
-Apr 24 03:39:01 vultr systemd[1]: Started Clean php session files.
-Apr 24 03:41:27 vultr dockerd[427]: time="2022-04-24T03:41:27.257777155Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 03:46:27 vultr dockerd[427]: time="2022-04-24T03:46:27.457631898Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 03:51:27 vultr dockerd[427]: time="2022-04-24T03:51:27.658054652Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 03:56:27 vultr dockerd[427]: time="2022-04-24T03:56:27.857562690Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 04:01:28 vultr dockerd[427]: time="2022-04-24T04:01:28.057536466Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 04:06:28 vultr dockerd[427]: time="2022-04-24T04:06:28.257592250Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 04:09:01 vultr systemd[1]: Starting Clean php session files...
-Apr 24 04:09:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
-Apr 24 04:09:01 vultr systemd[1]: Started Clean php session files.
-Apr 24 04:11:28 vultr dockerd[427]: time="2022-04-24T04:11:28.457671507Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 04:16:28 vultr dockerd[427]: time="2022-04-24T04:16:28.657795198Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 04:21:28 vultr dockerd[427]: time="2022-04-24T04:21:28.857613268Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 04:26:29 vultr dockerd[427]: time="2022-04-24T04:26:29.057618771Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 04:31:29 vultr dockerd[427]: time="2022-04-24T04:31:29.257534674Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 04:36:29 vultr dockerd[427]: time="2022-04-24T04:36:29.457513785Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 04:39:01 vultr systemd[1]: Starting Clean php session files...
-Apr 24 04:39:02 vultr systemd[1]: phpsessionclean.service: Succeeded.
-Apr 24 04:39:02 vultr systemd[1]: Started Clean php session files.
-Apr 24 04:41:29 vultr dockerd[427]: time="2022-04-24T04:41:29.657864103Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 04:46:29 vultr dockerd[427]: time="2022-04-24T04:46:29.857578402Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 04:51:30 vultr dockerd[427]: time="2022-04-24T04:51:30.057526435Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 04:56:30 vultr dockerd[427]: time="2022-04-24T04:56:30.257594178Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 05:01:30 vultr dockerd[427]: time="2022-04-24T05:01:30.457538670Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 05:06:30 vultr dockerd[427]: time="2022-04-24T05:06:30.658161504Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 05:09:01 vultr systemd[1]: Starting Clean php session files...
-Apr 24 05:09:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
-Apr 24 05:09:01 vultr systemd[1]: Started Clean php session files.
-Apr 24 05:11:30 vultr dockerd[427]: time="2022-04-24T05:11:30.857569707Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 05:16:31 vultr dockerd[427]: time="2022-04-24T05:16:31.057540270Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 05:21:31 vultr dockerd[427]: time="2022-04-24T05:21:31.257548331Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 05:26:31 vultr dockerd[427]: time="2022-04-24T05:26:31.457557485Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 05:31:31 vultr dockerd[427]: time="2022-04-24T05:31:31.657542487Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 05:36:31 vultr dockerd[427]: time="2022-04-24T05:36:31.857598335Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 05:39:01 vultr systemd[1]: Starting Clean php session files...
-Apr 24 05:39:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
-Apr 24 05:39:01 vultr systemd[1]: Started Clean php session files.
-Apr 24 05:41:32 vultr dockerd[427]: time="2022-04-24T05:41:32.057486993Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 05:46:32 vultr dockerd[427]: time="2022-04-24T05:46:32.257686515Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 05:51:32 vultr dockerd[427]: time="2022-04-24T05:51:32.457493059Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 05:56:32 vultr dockerd[427]: time="2022-04-24T05:56:32.657557106Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 06:01:32 vultr dockerd[427]: time="2022-04-24T06:01:32.857566129Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 06:06:33 vultr dockerd[427]: time="2022-04-24T06:06:33.057935420Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 06:09:00 vultr systemd[1]: Starting Clean php session files...
-Apr 24 06:09:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
-Apr 24 06:09:01 vultr systemd[1]: Started Clean php session files.
-Apr 24 06:11:33 vultr dockerd[427]: time="2022-04-24T06:11:33.257594133Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 06:16:33 vultr dockerd[427]: time="2022-04-24T06:16:33.457579095Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 06:21:33 vultr dockerd[427]: time="2022-04-24T06:21:33.657558200Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 06:26:33 vultr dockerd[427]: time="2022-04-24T06:26:33.857537716Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 06:31:34 vultr dockerd[427]: time="2022-04-24T06:31:34.057542340Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 06:36:34 vultr dockerd[427]: time="2022-04-24T06:36:34.257604619Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 06:39:01 vultr systemd[1]: Starting Clean php session files...
-Apr 24 06:39:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
-Apr 24 06:39:01 vultr systemd[1]: Started Clean php session files.
-Apr 24 06:41:34 vultr dockerd[427]: time="2022-04-24T06:41:34.457544019Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 06:46:34 vultr dockerd[427]: time="2022-04-24T06:46:34.657564157Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 06:51:34 vultr dockerd[427]: time="2022-04-24T06:51:34.857572810Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 06:56:35 vultr dockerd[427]: time="2022-04-24T06:56:35.057562361Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 06:58:38 vultr systemd[1]: Starting Daily apt upgrade and clean activities...
-Apr 24 06:58:40 vultr systemd[1]: apt-daily-upgrade.service: Succeeded.
-Apr 24 06:58:40 vultr systemd[1]: Started Daily apt upgrade and clean activities.
-Apr 24 07:01:35 vultr dockerd[427]: time="2022-04-24T07:01:35.257876131Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 07:06:35 vultr dockerd[427]: time="2022-04-24T07:06:35.457528054Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 07:09:01 vultr systemd[1]: Starting Clean php session files...
-Apr 24 07:09:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
-Apr 24 07:09:01 vultr systemd[1]: Started Clean php session files.
-Apr 24 07:11:35 vultr dockerd[427]: time="2022-04-24T07:11:35.657594040Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 07:16:35 vultr dockerd[427]: time="2022-04-24T07:16:35.857455506Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 07:21:36 vultr dockerd[427]: time="2022-04-24T07:21:36.057636893Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 07:26:36 vultr dockerd[427]: time="2022-04-24T07:26:36.257575332Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 07:31:36 vultr dockerd[427]: time="2022-04-24T07:31:36.457726854Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 07:36:36 vultr dockerd[427]: time="2022-04-24T07:36:36.657555511Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 07:39:01 vultr systemd[1]: Starting Clean php session files...
-Apr 24 07:39:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
-Apr 24 07:39:01 vultr systemd[1]: Started Clean php session files.
-Apr 24 07:41:36 vultr dockerd[427]: time="2022-04-24T07:41:36.857523653Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 07:46:37 vultr dockerd[427]: time="2022-04-24T07:46:37.057978022Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 07:51:37 vultr dockerd[427]: time="2022-04-24T07:51:37.257480551Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 07:56:37 vultr dockerd[427]: time="2022-04-24T07:56:37.457534311Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 08:01:37 vultr dockerd[427]: time="2022-04-24T08:01:37.657550915Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 08:06:37 vultr dockerd[427]: time="2022-04-24T08:06:37.857531371Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 08:09:01 vultr systemd[1]: Starting Clean php session files...
-Apr 24 08:09:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
-Apr 24 08:09:01 vultr systemd[1]: Started Clean php session files.
-Apr 24 08:11:38 vultr dockerd[427]: time="2022-04-24T08:11:38.057491948Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 08:16:38 vultr dockerd[427]: time="2022-04-24T08:16:38.257540648Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 08:21:38 vultr dockerd[427]: time="2022-04-24T08:21:38.457589211Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 08:26:38 vultr dockerd[427]: time="2022-04-24T08:26:38.657523955Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 08:31:38 vultr dockerd[427]: time="2022-04-24T08:31:38.857545357Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 08:36:39 vultr dockerd[427]: time="2022-04-24T08:36:39.057605070Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 08:39:01 vultr systemd[1]: Starting Clean php session files...
-Apr 24 08:39:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
-Apr 24 08:39:01 vultr systemd[1]: Started Clean php session files.
-Apr 24 08:41:39 vultr dockerd[427]: time="2022-04-24T08:41:39.257511818Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 08:46:39 vultr dockerd[427]: time="2022-04-24T08:46:39.457567598Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 08:51:39 vultr dockerd[427]: time="2022-04-24T08:51:39.657509917Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 08:56:39 vultr dockerd[427]: time="2022-04-24T08:56:39.857696782Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 09:00:43 vultr dhclient[666]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
-Apr 24 09:00:43 vultr dhclient[666]: DHCPACK of 158.247.223.84 from 169.254.169.254
-Apr 24 09:00:43 vultr dhclient[666]: bound to 158.247.223.84 -- renewal in 31619 seconds.
-Apr 24 09:01:40 vultr dockerd[427]: time="2022-04-24T09:01:40.057996306Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 09:06:40 vultr dockerd[427]: time="2022-04-24T09:06:40.257506100Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 09:09:01 vultr systemd[1]: Starting Clean php session files...
-Apr 24 09:09:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
-Apr 24 09:09:01 vultr systemd[1]: Started Clean php session files.
-Apr 24 09:11:40 vultr dockerd[427]: time="2022-04-24T09:11:40.457472065Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 09:16:40 vultr dockerd[427]: time="2022-04-24T09:16:40.658175467Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 09:21:40 vultr dockerd[427]: time="2022-04-24T09:21:40.857582536Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 09:26:41 vultr dockerd[427]: time="2022-04-24T09:26:41.057620349Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 09:31:41 vultr dockerd[427]: time="2022-04-24T09:31:41.257481980Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 09:36:41 vultr dockerd[427]: time="2022-04-24T09:36:41.457496307Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 09:39:01 vultr systemd[1]: Starting Clean php session files...
-Apr 24 09:39:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
-Apr 24 09:39:01 vultr systemd[1]: Started Clean php session files.
-Apr 24 09:41:41 vultr dockerd[427]: time="2022-04-24T09:41:41.657489291Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 09:46:41 vultr dockerd[427]: time="2022-04-24T09:46:41.857511044Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 09:51:42 vultr dockerd[427]: time="2022-04-24T09:51:42.057578239Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 09:56:42 vultr dockerd[427]: time="2022-04-24T09:56:42.257520989Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 10:01:42 vultr dockerd[427]: time="2022-04-24T10:01:42.457508038Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 10:06:42 vultr dockerd[427]: time="2022-04-24T10:06:42.657525318Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 10:09:01 vultr systemd[1]: Starting Clean php session files...
-Apr 24 10:09:02 vultr systemd[1]: phpsessionclean.service: Succeeded.
-Apr 24 10:09:02 vultr systemd[1]: Started Clean php session files.
-Apr 24 10:11:42 vultr dockerd[427]: time="2022-04-24T10:11:42.858023841Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 10:16:43 vultr dockerd[427]: time="2022-04-24T10:16:43.057488108Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 10:21:43 vultr dockerd[427]: time="2022-04-24T10:21:43.257558575Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 10:26:43 vultr dockerd[427]: time="2022-04-24T10:26:43.457543911Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 10:31:43 vultr dockerd[427]: time="2022-04-24T10:31:43.657520424Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 10:36:43 vultr dockerd[427]: time="2022-04-24T10:36:43.857541404Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 10:39:01 vultr systemd[1]: Starting Clean php session files...
-Apr 24 10:39:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
-Apr 24 10:39:01 vultr systemd[1]: Started Clean php session files.
-Apr 24 10:41:44 vultr dockerd[427]: time="2022-04-24T10:41:44.057515890Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 10:46:44 vultr dockerd[427]: time="2022-04-24T10:46:44.257660703Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 10:51:44 vultr dockerd[427]: time="2022-04-24T10:51:44.457574395Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 10:56:44 vultr dockerd[427]: time="2022-04-24T10:56:44.657536260Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 11:01:44 vultr dockerd[427]: time="2022-04-24T11:01:44.857511257Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 11:06:45 vultr dockerd[427]: time="2022-04-24T11:06:45.057553607Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 11:09:01 vultr systemd[1]: Starting Clean php session files...
-Apr 24 11:09:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
-Apr 24 11:09:01 vultr systemd[1]: Started Clean php session files.
-Apr 24 11:11:45 vultr dockerd[427]: time="2022-04-24T11:11:45.257601446Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 11:16:45 vultr dockerd[427]: time="2022-04-24T11:16:45.457537020Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 11:21:45 vultr dockerd[427]: time="2022-04-24T11:21:45.657580624Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 11:26:45 vultr dockerd[427]: time="2022-04-24T11:26:45.857521751Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 11:31:46 vultr dockerd[427]: time="2022-04-24T11:31:46.057494224Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 11:36:46 vultr dockerd[427]: time="2022-04-24T11:36:46.257617448Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 11:39:01 vultr systemd[1]: Starting Clean php session files...
-Apr 24 11:39:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
-Apr 24 11:39:01 vultr systemd[1]: Started Clean php session files.
-Apr 24 11:41:46 vultr dockerd[427]: time="2022-04-24T11:41:46.457654381Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 11:46:46 vultr dockerd[427]: time="2022-04-24T11:46:46.657567934Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 11:51:46 vultr dockerd[427]: time="2022-04-24T11:51:46.857640231Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 11:56:47 vultr dockerd[427]: time="2022-04-24T11:56:47.057574445Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 12:01:47 vultr dockerd[427]: time="2022-04-24T12:01:47.257613459Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 12:06:47 vultr dockerd[427]: time="2022-04-24T12:06:47.457499182Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 12:09:00 vultr systemd[1]: Starting Clean php session files...
-Apr 24 12:09:00 vultr systemd[1]: phpsessionclean.service: Succeeded.
-Apr 24 12:09:00 vultr systemd[1]: Started Clean php session files.
-Apr 24 12:11:47 vultr dockerd[427]: time="2022-04-24T12:11:47.657824865Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 12:16:47 vultr dockerd[427]: time="2022-04-24T12:16:47.857567652Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 12:18:40 vultr systemd[1]: Started Session 124 of user adam.
-Apr 24 12:21:48 vultr dockerd[427]: time="2022-04-24T12:21:48.057565903Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 12:21:52 vultr systemd[1]: mnt-amzn2.mount: Succeeded.
-Apr 24 12:21:52 vultr systemd[1368]: mnt-amzn2.mount: Succeeded.
-Apr 24 12:26:48 vultr dockerd[427]: time="2022-04-24T12:26:48.259139498Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 12:31:48 vultr dockerd[427]: time="2022-04-24T12:31:48.457569015Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 12:36:48 vultr dockerd[427]: time="2022-04-24T12:36:48.657620552Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 12:39:01 vultr systemd[1]: Starting Clean php session files...
-Apr 24 12:39:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
-Apr 24 12:39:01 vultr systemd[1]: Started Clean php session files.
-Apr 24 12:41:48 vultr dockerd[427]: time="2022-04-24T12:41:48.857484118Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 12:46:49 vultr dockerd[427]: time="2022-04-24T12:46:49.057570595Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 12:51:49 vultr dockerd[427]: time="2022-04-24T12:51:49.257480756Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 12:56:49 vultr dockerd[427]: time="2022-04-24T12:56:49.457509537Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 13:01:49 vultr dockerd[427]: time="2022-04-24T13:01:49.657584915Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 13:06:49 vultr dockerd[427]: time="2022-04-24T13:06:49.857630387Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 13:09:01 vultr systemd[1]: Starting Clean php session files...
-Apr 24 13:09:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
-Apr 24 13:09:01 vultr systemd[1]: Started Clean php session files.
-Apr 24 13:11:50 vultr dockerd[427]: time="2022-04-24T13:11:50.057481393Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 13:16:50 vultr dockerd[427]: time="2022-04-24T13:16:50.257542053Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 13:21:50 vultr dockerd[427]: time="2022-04-24T13:21:50.457696193Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 13:26:50 vultr dockerd[427]: time="2022-04-24T13:26:50.657506797Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 13:31:50 vultr dockerd[427]: time="2022-04-24T13:31:50.857537840Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 13:36:51 vultr dockerd[427]: time="2022-04-24T13:36:51.057554877Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 13:39:01 vultr systemd[1]: Starting Clean php session files...
-Apr 24 13:39:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
-Apr 24 13:39:01 vultr systemd[1]: Started Clean php session files.
-Apr 24 13:41:51 vultr dockerd[427]: time="2022-04-24T13:41:51.257557917Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 13:46:51 vultr dockerd[427]: time="2022-04-24T13:46:51.457505830Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 13:51:18 vultr systemd[1]: session-124.scope: Succeeded.
-Apr 24 13:51:51 vultr dockerd[427]: time="2022-04-24T13:51:51.657586344Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 13:56:51 vultr dockerd[427]: time="2022-04-24T13:56:51.857549281Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 14:01:52 vultr dockerd[427]: time="2022-04-24T14:01:52.057550757Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 14:06:52 vultr dockerd[427]: time="2022-04-24T14:06:52.257743263Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 14:09:01 vultr systemd[1]: Starting Clean php session files...
-Apr 24 14:09:02 vultr systemd[1]: phpsessionclean.service: Succeeded.
-Apr 24 14:09:02 vultr systemd[1]: Started Clean php session files.
-Apr 24 14:11:52 vultr dockerd[427]: time="2022-04-24T14:11:52.457567201Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 14:16:52 vultr dockerd[427]: time="2022-04-24T14:16:52.657574462Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 14:21:52 vultr dockerd[427]: time="2022-04-24T14:21:52.857924625Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 14:26:53 vultr dockerd[427]: time="2022-04-24T14:26:53.057478609Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 14:31:53 vultr dockerd[427]: time="2022-04-24T14:31:53.257609025Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 14:36:53 vultr dockerd[427]: time="2022-04-24T14:36:53.457688058Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 14:39:01 vultr systemd[1]: Starting Clean php session files...
-Apr 24 14:39:02 vultr systemd[1]: phpsessionclean.service: Succeeded.
-Apr 24 14:39:02 vultr systemd[1]: Started Clean php session files.
-Apr 24 14:41:53 vultr dockerd[427]: time="2022-04-24T14:41:53.657490539Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 14:46:53 vultr dockerd[427]: time="2022-04-24T14:46:53.857537388Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 14:51:54 vultr dockerd[427]: time="2022-04-24T14:51:54.058052810Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 14:56:54 vultr dockerd[427]: time="2022-04-24T14:56:54.257578517Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 15:01:54 vultr dockerd[427]: time="2022-04-24T15:01:54.457554930Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 15:06:54 vultr dockerd[427]: time="2022-04-24T15:06:54.658235362Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 15:09:01 vultr systemd[1]: Starting Clean php session files...
-Apr 24 15:09:02 vultr systemd[1]: phpsessionclean.service: Succeeded.
-Apr 24 15:09:02 vultr systemd[1]: Started Clean php session files.
-Apr 24 15:11:54 vultr dockerd[427]: time="2022-04-24T15:11:54.857774526Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 15:16:55 vultr dockerd[427]: time="2022-04-24T15:16:55.057628934Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 15:21:28 vultr systemd[1]: Started Session 152 of user adam.
-Apr 24 15:21:44 vultr systemd[1]: mnt-amzn2.mount: Succeeded.
-Apr 24 15:21:44 vultr systemd[1368]: mnt-amzn2.mount: Succeeded.
-Apr 24 15:21:55 vultr dockerd[427]: time="2022-04-24T15:21:55.258511108Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 15:26:55 vultr dockerd[427]: time="2022-04-24T15:26:55.459103192Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 15:31:55 vultr dockerd[427]: time="2022-04-24T15:31:55.657594765Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 15:36:55 vultr dockerd[427]: time="2022-04-24T15:36:55.859212250Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 15:39:01 vultr systemd[1]: Starting Clean php session files...
-Apr 24 15:39:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
-Apr 24 15:39:01 vultr systemd[1]: Started Clean php session files.
-Apr 24 15:41:56 vultr dockerd[427]: time="2022-04-24T15:41:56.057580432Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 15:46:56 vultr dockerd[427]: time="2022-04-24T15:46:56.257554223Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 15:51:56 vultr dockerd[427]: time="2022-04-24T15:51:56.457633069Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 15:56:56 vultr dockerd[427]: time="2022-04-24T15:56:56.657544867Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 16:01:56 vultr dockerd[427]: time="2022-04-24T16:01:56.857583876Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 16:06:57 vultr dockerd[427]: time="2022-04-24T16:06:57.057689358Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 16:09:01 vultr systemd[1]: Starting Clean php session files...
-Apr 24 16:09:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
-Apr 24 16:09:01 vultr systemd[1]: Started Clean php session files.
-Apr 24 16:11:57 vultr dockerd[427]: time="2022-04-24T16:11:57.257766747Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 16:16:57 vultr dockerd[427]: time="2022-04-24T16:16:57.458036290Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 16:21:57 vultr dockerd[427]: time="2022-04-24T16:21:57.657662687Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 16:26:57 vultr dockerd[427]: time="2022-04-24T16:26:57.857469844Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 16:31:58 vultr dockerd[427]: time="2022-04-24T16:31:58.057567657Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 16:36:58 vultr dockerd[427]: time="2022-04-24T16:36:58.257501218Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 16:39:01 vultr systemd[1]: Starting Clean php session files...
-Apr 24 16:39:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
-Apr 24 16:39:01 vultr systemd[1]: Started Clean php session files.
-Apr 24 16:41:58 vultr dockerd[427]: time="2022-04-24T16:41:58.457526886Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 16:46:58 vultr dockerd[427]: time="2022-04-24T16:46:58.657496880Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 16:51:58 vultr dockerd[427]: time="2022-04-24T16:51:58.857568143Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 16:56:59 vultr dockerd[427]: time="2022-04-24T16:56:59.058103356Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 17:01:59 vultr dockerd[427]: time="2022-04-24T17:01:59.257578214Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 17:06:59 vultr dockerd[427]: time="2022-04-24T17:06:59.457567203Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 17:09:01 vultr systemd[1]: Starting Clean php session files...
-Apr 24 17:09:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
-Apr 24 17:09:01 vultr systemd[1]: Started Clean php session files.
-Apr 24 17:11:59 vultr dockerd[427]: time="2022-04-24T17:11:59.657479010Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 17:16:59 vultr dockerd[427]: time="2022-04-24T17:16:59.857501060Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 17:22:00 vultr dockerd[427]: time="2022-04-24T17:22:00.057460751Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 17:27:00 vultr dockerd[427]: time="2022-04-24T17:27:00.257883300Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 17:32:00 vultr dockerd[427]: time="2022-04-24T17:32:00.457695276Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 17:37:00 vultr dockerd[427]: time="2022-04-24T17:37:00.657558260Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 17:39:01 vultr systemd[1]: Starting Clean php session files...
-Apr 24 17:39:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
-Apr 24 17:39:01 vultr systemd[1]: Started Clean php session files.
-Apr 24 17:42:00 vultr dockerd[427]: time="2022-04-24T17:42:00.857483757Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 17:44:38 vultr systemd[1]: Starting Daily apt download activities...
-Apr 24 17:45:03 vultr systemd[1]: apt-daily.service: Succeeded.
-Apr 24 17:45:03 vultr systemd[1]: Started Daily apt download activities.
-Apr 24 17:47:01 vultr dockerd[427]: time="2022-04-24T17:47:01.057605326Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 17:47:42 vultr dhclient[666]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
-Apr 24 17:47:42 vultr dhclient[666]: DHCPACK of 158.247.223.84 from 169.254.169.254
-Apr 24 17:47:42 vultr dhclient[666]: bound to 158.247.223.84 -- renewal in 39434 seconds.
-Apr 24 17:52:01 vultr dockerd[427]: time="2022-04-24T17:52:01.257603027Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 17:57:01 vultr dockerd[427]: time="2022-04-24T17:57:01.457542014Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 18:02:01 vultr dockerd[427]: time="2022-04-24T18:02:01.657595415Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 18:07:01 vultr dockerd[427]: time="2022-04-24T18:07:01.857568067Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 18:09:01 vultr systemd[1]: Starting Clean php session files...
-Apr 24 18:09:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
-Apr 24 18:09:01 vultr systemd[1]: Started Clean php session files.
-Apr 24 18:12:02 vultr dockerd[427]: time="2022-04-24T18:12:02.057679112Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 18:17:02 vultr dockerd[427]: time="2022-04-24T18:17:02.257792148Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 18:22:02 vultr dockerd[427]: time="2022-04-24T18:22:02.457552574Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 18:27:02 vultr dockerd[427]: time="2022-04-24T18:27:02.657670683Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 18:32:02 vultr dockerd[427]: time="2022-04-24T18:32:02.857498529Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 18:37:03 vultr dockerd[427]: time="2022-04-24T18:37:03.057748404Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 18:39:01 vultr systemd[1]: Starting Clean php session files...
-Apr 24 18:39:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
-Apr 24 18:39:01 vultr systemd[1]: Started Clean php session files.
-Apr 24 18:42:03 vultr dockerd[427]: time="2022-04-24T18:42:03.257556482Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 18:47:03 vultr dockerd[427]: time="2022-04-24T18:47:03.457591867Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 18:52:03 vultr dockerd[427]: time="2022-04-24T18:52:03.657527548Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 18:57:03 vultr dockerd[427]: time="2022-04-24T18:57:03.857498393Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 19:02:04 vultr dockerd[427]: time="2022-04-24T19:02:04.057585203Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 19:07:04 vultr dockerd[427]: time="2022-04-24T19:07:04.257717708Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 19:09:01 vultr systemd[1]: Starting Clean php session files...
-Apr 24 19:09:02 vultr systemd[1]: phpsessionclean.service: Succeeded.
-Apr 24 19:09:02 vultr systemd[1]: Started Clean php session files.
-Apr 24 19:12:04 vultr dockerd[427]: time="2022-04-24T19:12:04.457591040Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 19:17:04 vultr dockerd[427]: time="2022-04-24T19:17:04.657632146Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 19:22:04 vultr dockerd[427]: time="2022-04-24T19:22:04.858401553Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 19:27:05 vultr dockerd[427]: time="2022-04-24T19:27:05.057643645Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 19:32:05 vultr dockerd[427]: time="2022-04-24T19:32:05.257795126Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 19:37:05 vultr dockerd[427]: time="2022-04-24T19:37:05.457591672Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 19:39:01 vultr systemd[1]: Starting Clean php session files...
-Apr 24 19:39:02 vultr systemd[1]: phpsessionclean.service: Succeeded.
-Apr 24 19:39:02 vultr systemd[1]: Started Clean php session files.
-Apr 24 19:42:05 vultr dockerd[427]: time="2022-04-24T19:42:05.657621238Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 19:47:05 vultr dockerd[427]: time="2022-04-24T19:47:05.857668355Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 19:52:06 vultr dockerd[427]: time="2022-04-24T19:52:06.057589034Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 19:57:06 vultr dockerd[427]: time="2022-04-24T19:57:06.257798661Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 20:02:06 vultr dockerd[427]: time="2022-04-24T20:02:06.457587915Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 20:07:06 vultr dockerd[427]: time="2022-04-24T20:07:06.657637453Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 20:09:02 vultr systemd[1]: Starting Clean php session files...
-Apr 24 20:09:02 vultr systemd[1]: phpsessionclean.service: Succeeded.
-Apr 24 20:09:02 vultr systemd[1]: Started Clean php session files.
-Apr 24 20:12:06 vultr dockerd[427]: time="2022-04-24T20:12:06.857505482Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 20:17:07 vultr dockerd[427]: time="2022-04-24T20:17:07.057624489Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 20:22:07 vultr dockerd[427]: time="2022-04-24T20:22:07.264368146Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 20:27:07 vultr dockerd[427]: time="2022-04-24T20:27:07.457628834Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 20:32:07 vultr dockerd[427]: time="2022-04-24T20:32:07.657525727Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 20:37:07 vultr dockerd[427]: time="2022-04-24T20:37:07.857583228Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 20:39:01 vultr systemd[1]: Starting Clean php session files...
-Apr 24 20:39:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
-Apr 24 20:39:01 vultr systemd[1]: Started Clean php session files.
-Apr 24 20:42:08 vultr dockerd[427]: time="2022-04-24T20:42:08.057676551Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 20:47:08 vultr dockerd[427]: time="2022-04-24T20:47:08.257606229Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 20:52:08 vultr dockerd[427]: time="2022-04-24T20:52:08.457566933Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 20:57:08 vultr dockerd[427]: time="2022-04-24T20:57:08.657563360Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 21:02:08 vultr dockerd[427]: time="2022-04-24T21:02:08.857660378Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 21:07:09 vultr dockerd[427]: time="2022-04-24T21:07:09.057572955Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 21:09:01 vultr systemd[1]: Starting Clean php session files...
-Apr 24 21:09:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
-Apr 24 21:09:01 vultr systemd[1]: Started Clean php session files.
-Apr 24 21:12:09 vultr dockerd[427]: time="2022-04-24T21:12:09.257551322Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 21:17:09 vultr dockerd[427]: time="2022-04-24T21:17:09.457620093Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 21:22:09 vultr dockerd[427]: time="2022-04-24T21:22:09.657537499Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 21:27:09 vultr dockerd[427]: time="2022-04-24T21:27:09.857619830Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 21:32:10 vultr dockerd[427]: time="2022-04-24T21:32:10.057625810Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 21:37:10 vultr dockerd[427]: time="2022-04-24T21:37:10.257973899Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 21:39:00 vultr systemd[1]: Starting Clean php session files...
-Apr 24 21:39:00 vultr systemd[1]: phpsessionclean.service: Succeeded.
-Apr 24 21:39:00 vultr systemd[1]: Started Clean php session files.
-Apr 24 21:42:10 vultr dockerd[427]: time="2022-04-24T21:42:10.457507409Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 21:47:10 vultr dockerd[427]: time="2022-04-24T21:47:10.657575162Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 21:52:10 vultr dockerd[427]: time="2022-04-24T21:52:10.857565198Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 21:54:00 vultr systemd[1]: Started Session 211 of user adam.
-Apr 24 21:54:08 vultr systemd[1]: mnt-amzn2.mount: Succeeded.
-Apr 24 21:54:08 vultr systemd[1368]: mnt-amzn2.mount: Succeeded.
-Apr 24 21:57:11 vultr dockerd[427]: time="2022-04-24T21:57:11.058988383Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 21:59:29 vultr systemd[1]: mnt-amzn2.mount: Succeeded.
-Apr 24 21:59:29 vultr systemd[1368]: mnt-amzn2.mount: Succeeded.
-Apr 24 22:02:11 vultr dockerd[427]: time="2022-04-24T22:02:11.257743125Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 22:07:11 vultr dockerd[427]: time="2022-04-24T22:07:11.467331230Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 22:09:01 vultr systemd[1]: Starting Clean php session files...
-Apr 24 22:09:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
-Apr 24 22:09:01 vultr systemd[1]: Started Clean php session files.
-Apr 24 22:12:11 vultr dockerd[427]: time="2022-04-24T22:12:11.657568169Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 22:17:11 vultr dockerd[427]: time="2022-04-24T22:17:11.857591869Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 22:22:12 vultr dockerd[427]: time="2022-04-24T22:22:12.057560348Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 22:27:12 vultr dockerd[427]: time="2022-04-24T22:27:12.258569112Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 22:28:06 vultr systemd-udevd[17961]: Using default interface naming scheme 'v240'.
-Apr 24 22:28:06 vultr systemd-udevd[17961]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
-Apr 24 22:28:07 vultr dockerd[427]: time="2022-04-24T22:28:07.428222009Z" level=warning msg="Error getting v2 registry: Get https://registry-1.docker.io/v2/: dial tcp: lookup registry-1.docker.io on [::1]:53: read udp [::1]:52449->[::1]:53: read: connection refused"
-Apr 24 22:28:07 vultr dockerd[427]: time="2022-04-24T22:28:07.430592783Z" level=info msg="Attempting next endpoint for pull after error: Get https://registry-1.docker.io/v2/: dial tcp: lookup registry-1.docker.io on [::1]:53: read udp [::1]:52449->[::1]:53: read: connection refused"
-Apr 24 22:28:07 vultr dockerd[427]: time="2022-04-24T22:28:07.432089809Z" level=error msg="Handler for POST /v1.39/images/create returned error: Get https://registry-1.docker.io/v2/: dial tcp: lookup registry-1.docker.io on [::1]:53: read udp [::1]:52449->[::1]:53: read: connection refused"
-Apr 24 22:28:11 vultr dockerd[427]: time="2022-04-24T22:28:11.779552700Z" level=warning msg="Error getting v2 registry: Get https://registry-1.docker.io/v2/: dial tcp: lookup registry-1.docker.io on [::1]:53: read udp [::1]:47358->[::1]:53: read: connection refused"
-Apr 24 22:28:11 vultr dockerd[427]: time="2022-04-24T22:28:11.781526749Z" level=info msg="Attempting next endpoint for pull after error: Get https://registry-1.docker.io/v2/: dial tcp: lookup registry-1.docker.io on [::1]:53: read udp [::1]:47358->[::1]:53: read: connection refused"
-Apr 24 22:28:11 vultr dockerd[427]: time="2022-04-24T22:28:11.781848182Z" level=error msg="Handler for POST /v1.39/images/create returned error: Get https://registry-1.docker.io/v2/: dial tcp: lookup registry-1.docker.io on [::1]:53: read udp [::1]:47358->[::1]:53: read: connection refused"
-Apr 24 22:28:21 vultr systemd[1368]: var-lib-docker-overlay2-8a768d63b20c2779f07f79236b7cc5d3aaad262d3bd4fdeb6ca2eece73336aeb\x2dinit-merged.mount: Succeeded.
-Apr 24 22:28:21 vultr systemd[1]: var-lib-docker-overlay2-8a768d63b20c2779f07f79236b7cc5d3aaad262d3bd4fdeb6ca2eece73336aeb\x2dinit-merged.mount: Succeeded.
-Apr 24 22:28:21 vultr systemd[1]: var-lib-docker-overlay2-8a768d63b20c2779f07f79236b7cc5d3aaad262d3bd4fdeb6ca2eece73336aeb-merged.mount: Succeeded.
-Apr 24 22:28:21 vultr systemd[1368]: var-lib-docker-overlay2-8a768d63b20c2779f07f79236b7cc5d3aaad262d3bd4fdeb6ca2eece73336aeb-merged.mount: Succeeded.
-Apr 24 22:28:21 vultr systemd-udevd[18032]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
-Apr 24 22:28:21 vultr systemd-udevd[18033]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
-Apr 24 22:28:21 vultr systemd-udevd[18033]: Using default interface naming scheme 'v240'.
-Apr 24 22:28:21 vultr systemd-udevd[18032]: Using default interface naming scheme 'v240'.
-Apr 24 22:28:21 vultr systemd-udevd[18033]: Could not generate persistent MAC address for veth5bf3751: No such file or directory
-Apr 24 22:28:21 vultr systemd-udevd[18032]: Could not generate persistent MAC address for veth73ad5a2: No such file or directory
-Apr 24 22:28:22 vultr dockerd[427]: time="2022-04-24T22:28:22.204861719Z" level=info msg="shim docker-containerd-shim started" address="unix:///run/containerd/s/f93145a98aaaefd0f6ede8f27a127d77ca0742d16d07d2d2d72e957eb0dd5404" debug=false pid=18055
-Apr 24 22:28:22 vultr systemd[1]: tmp-runc.nWHlDG.mount: Succeeded.
-Apr 24 22:28:25 vultr ntpd[454]: Listen normally on 9 br-e93431e2a48d 172.21.0.1:123
-Apr 24 22:28:25 vultr ntpd[454]: bind(29) AF_INET6 fe80::42:a5ff:fe09:987f%13#123 flags 0x11 failed: Cannot assign requested address
-Apr 24 22:28:25 vultr ntpd[454]: unable to create socket on br-e93431e2a48d (10) for fe80::42:a5ff:fe09:987f%13#123
-Apr 24 22:28:25 vultr ntpd[454]: failed to init interface for address fe80::42:a5ff:fe09:987f%13
-Apr 24 22:28:25 vultr ntpd[454]: bind(29) AF_INET6 fe80::3cba:32ff:fe0e:1c36%15#123 flags 0x11 failed: Cannot assign requested address
-Apr 24 22:28:25 vultr ntpd[454]: unable to create socket on veth5bf3751 (11) for fe80::3cba:32ff:fe0e:1c36%15#123
-Apr 24 22:28:25 vultr ntpd[454]: failed to init interface for address fe80::3cba:32ff:fe0e:1c36%15
-Apr 24 22:28:25 vultr ntpd[454]: new interface(s) found: waking up resolver
-Apr 24 22:28:27 vultr ntpd[454]: Listen normally on 12 br-e93431e2a48d [fe80::42:a5ff:fe09:987f%13]:123
-Apr 24 22:28:27 vultr ntpd[454]: Listen normally on 13 veth5bf3751 [fe80::3cba:32ff:fe0e:1c36%15]:123
-Apr 24 22:28:27 vultr ntpd[454]: new interface(s) found: waking up resolver
-Apr 24 22:32:12 vultr dockerd[427]: time="2022-04-24T22:32:12.458328525Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 22:37:12 vultr dockerd[427]: time="2022-04-24T22:37:12.657589588Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 22:39:01 vultr systemd[1]: Starting Clean php session files...
-Apr 24 22:39:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
-Apr 24 22:39:01 vultr systemd[1]: Started Clean php session files.
-Apr 24 22:42:12 vultr dockerd[427]: time="2022-04-24T22:42:12.857923387Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 22:47:13 vultr dockerd[427]: time="2022-04-24T22:47:13.057559958Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 22:52:13 vultr dockerd[427]: time="2022-04-24T22:52:13.257598148Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 22:57:13 vultr dockerd[427]: time="2022-04-24T22:57:13.457673032Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 23:02:13 vultr dockerd[427]: time="2022-04-24T23:02:13.657474183Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 23:07:13 vultr dockerd[427]: time="2022-04-24T23:07:13.857589353Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 23:08:00 vultr dockerd[427]: time="2022-04-24T23:08:00.508482576Z" level=info msg="shim reaped" id=93850d24d5712dfd69a6bba69243bb17088e8082c7cb5485f0e0c22687173317
-Apr 24 23:08:00 vultr dockerd[427]: time="2022-04-24T23:08:00.524900871Z" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
-Apr 24 23:08:00 vultr systemd-udevd[19511]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
-Apr 24 23:08:00 vultr systemd-udevd[19511]: Using default interface naming scheme 'v240'.
-Apr 24 23:08:00 vultr systemd[1368]: run-docker-netns-ba2d025d7d9d.mount: Succeeded.
-Apr 24 23:08:00 vultr systemd[1]: run-docker-netns-ba2d025d7d9d.mount: Succeeded.
-Apr 24 23:08:00 vultr systemd[1368]: var-lib-docker-containers-93850d24d5712dfd69a6bba69243bb17088e8082c7cb5485f0e0c22687173317-mounts-shm.mount: Succeeded.
-Apr 24 23:08:00 vultr systemd[1]: var-lib-docker-containers-93850d24d5712dfd69a6bba69243bb17088e8082c7cb5485f0e0c22687173317-mounts-shm.mount: Succeeded.
-Apr 24 23:08:00 vultr systemd[1368]: var-lib-docker-overlay2-8a768d63b20c2779f07f79236b7cc5d3aaad262d3bd4fdeb6ca2eece73336aeb-merged.mount: Succeeded.
-Apr 24 23:08:00 vultr systemd[1]: var-lib-docker-overlay2-8a768d63b20c2779f07f79236b7cc5d3aaad262d3bd4fdeb6ca2eece73336aeb-merged.mount: Succeeded.
-Apr 24 23:08:03 vultr ntpd[454]: Deleting interface #9 br-e93431e2a48d, 172.21.0.1#123, interface stats: received=0, sent=0, dropped=0, active_time=2378 secs
-Apr 24 23:08:03 vultr ntpd[454]: Deleting interface #12 br-e93431e2a48d, fe80::42:a5ff:fe09:987f%13#123, interface stats: received=0, sent=0, dropped=0, active_time=2376 secs
-Apr 24 23:08:03 vultr ntpd[454]: Deleting interface #13 veth5bf3751, fe80::3cba:32ff:fe0e:1c36%15#123, interface stats: received=0, sent=0, dropped=0, active_time=2376 secs
-Apr 24 23:09:01 vultr systemd[1]: Starting Clean php session files...
-Apr 24 23:09:02 vultr systemd[1]: phpsessionclean.service: Succeeded.
-Apr 24 23:09:02 vultr systemd[1]: Started Clean php session files.
-Apr 24 23:09:06 vultr systemd[1368]: var-lib-docker-overlay2-0d4bff003029220195d06f1394631bd7bf4eaab80e41b415b6dbb54a6aa81554\x2dinit-merged.mount: Succeeded.
-Apr 24 23:09:06 vultr systemd[1]: var-lib-docker-overlay2-0d4bff003029220195d06f1394631bd7bf4eaab80e41b415b6dbb54a6aa81554\x2dinit-merged.mount: Succeeded.
-Apr 24 23:09:06 vultr systemd[1368]: var-lib-docker-overlay2-0d4bff003029220195d06f1394631bd7bf4eaab80e41b415b6dbb54a6aa81554-merged.mount: Succeeded.
-Apr 24 23:09:06 vultr systemd[1]: var-lib-docker-overlay2-0d4bff003029220195d06f1394631bd7bf4eaab80e41b415b6dbb54a6aa81554-merged.mount: Succeeded.
-Apr 24 23:09:06 vultr systemd-udevd[19779]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
-Apr 24 23:09:06 vultr systemd-udevd[19779]: Using default interface naming scheme 'v240'.
-Apr 24 23:09:06 vultr systemd-udevd[19779]: Could not generate persistent MAC address for veth26a8382: No such file or directory
-Apr 24 23:09:06 vultr systemd-udevd[19777]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
-Apr 24 23:09:06 vultr systemd-udevd[19777]: Using default interface naming scheme 'v240'.
-Apr 24 23:09:06 vultr systemd-udevd[19777]: Could not generate persistent MAC address for veth6371462: No such file or directory
-Apr 24 23:09:07 vultr dockerd[427]: time="2022-04-24T23:09:07.008963617Z" level=info msg="shim docker-containerd-shim started" address="unix:///run/containerd/s/ec047896b82d2abb52161fb4eb769bf6aaddff72e9dd9f3c71aa3c4f041fc14d" debug=false pid=19789
-Apr 24 23:09:07 vultr systemd[1368]: tmp-runc.6aZfo4.mount: Succeeded.
-Apr 24 23:09:07 vultr systemd[1]: tmp-runc.6aZfo4.mount: Succeeded.
-Apr 24 23:09:10 vultr dockerd[427]: time="2022-04-24T23:09:10.012809336Z" level=info msg="shim reaped" id=4bc6794b9d55be14f726374714c007ad9611fbec80f5220a25339d1ce4f07cb1
-Apr 24 23:09:10 vultr dockerd[427]: time="2022-04-24T23:09:10.022506434Z" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
-Apr 24 23:09:10 vultr systemd-udevd[19779]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
-Apr 24 23:09:10 vultr systemd[1368]: run-docker-netns-7f4b676420a1.mount: Succeeded.
-Apr 24 23:09:10 vultr systemd[1]: run-docker-netns-7f4b676420a1.mount: Succeeded.
-Apr 24 23:09:10 vultr systemd[1368]: var-lib-docker-containers-4bc6794b9d55be14f726374714c007ad9611fbec80f5220a25339d1ce4f07cb1-mounts-shm.mount: Succeeded.
-Apr 24 23:09:10 vultr systemd[1]: var-lib-docker-containers-4bc6794b9d55be14f726374714c007ad9611fbec80f5220a25339d1ce4f07cb1-mounts-shm.mount: Succeeded.
-Apr 24 23:09:10 vultr systemd[1368]: var-lib-docker-overlay2-0d4bff003029220195d06f1394631bd7bf4eaab80e41b415b6dbb54a6aa81554-merged.mount: Succeeded.
-Apr 24 23:09:10 vultr systemd[1]: var-lib-docker-overlay2-0d4bff003029220195d06f1394631bd7bf4eaab80e41b415b6dbb54a6aa81554-merged.mount: Succeeded.
-Apr 24 23:09:10 vultr systemd-udevd[19779]: link_config: could not get ethtool features for veth6371462
-Apr 24 23:09:10 vultr systemd-udevd[19779]: Could not set offload features of veth6371462: No such device
-Apr 24 23:09:12 vultr systemd[1368]: var-lib-docker-overlay2-0d4bff003029220195d06f1394631bd7bf4eaab80e41b415b6dbb54a6aa81554-merged.mount: Succeeded.
-Apr 24 23:09:12 vultr systemd[1]: var-lib-docker-overlay2-0d4bff003029220195d06f1394631bd7bf4eaab80e41b415b6dbb54a6aa81554-merged.mount: Succeeded.
-Apr 24 23:09:13 vultr systemd[1368]: var-lib-docker-overlay2-8a48575b101468bc631f525d4139f8721fd6de5e1ae23309a0ec4e65f66f1877\x2dinit-merged.mount: Succeeded.
-Apr 24 23:09:13 vultr systemd[1]: var-lib-docker-overlay2-8a48575b101468bc631f525d4139f8721fd6de5e1ae23309a0ec4e65f66f1877\x2dinit-merged.mount: Succeeded.
-Apr 24 23:09:13 vultr systemd[1368]: var-lib-docker-overlay2-8a48575b101468bc631f525d4139f8721fd6de5e1ae23309a0ec4e65f66f1877-merged.mount: Succeeded.
-Apr 24 23:09:13 vultr systemd[1]: var-lib-docker-overlay2-8a48575b101468bc631f525d4139f8721fd6de5e1ae23309a0ec4e65f66f1877-merged.mount: Succeeded.
-Apr 24 23:09:13 vultr systemd-udevd[19779]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
-Apr 24 23:09:13 vultr systemd-udevd[19790]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
-Apr 24 23:09:13 vultr systemd-udevd[19790]: Using default interface naming scheme 'v240'.
-Apr 24 23:09:13 vultr systemd-udevd[19790]: Could not generate persistent MAC address for vetha5f49b8: No such file or directory
-Apr 24 23:09:13 vultr systemd-udevd[19779]: Could not generate persistent MAC address for veth001bfca: No such file or directory
-Apr 24 23:09:13 vultr dockerd[427]: time="2022-04-24T23:09:13.290546823Z" level=info msg="shim docker-containerd-shim started" address="unix:///run/containerd/s/766303ec2b975c530a0fb5b4e9eb86cc1a9f71d739476bdf18cdff409903f204" debug=false pid=19901
-Apr 24 23:09:13 vultr systemd[1368]: tmp-runc.CbB1yJ.mount: Succeeded.
-Apr 24 23:09:13 vultr systemd[1]: tmp-runc.CbB1yJ.mount: Succeeded.
-Apr 24 23:09:13 vultr dockerd[427]: time="2022-04-24T23:09:13.905238426Z" level=info msg="shim reaped" id=56b69af23b56771b135a69868e5d93bd8680999d6d996fbb03c518bda166a72c
-Apr 24 23:09:13 vultr dockerd[427]: time="2022-04-24T23:09:13.914725629Z" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
-Apr 24 23:09:13 vultr systemd-udevd[19779]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
-Apr 24 23:09:13 vultr systemd-udevd[19779]: link_config: could not get ethtool features for veth001bfca
-Apr 24 23:09:13 vultr systemd-udevd[19779]: Could not set offload features of veth001bfca: No such device
-Apr 24 23:09:13 vultr systemd[1368]: run-docker-netns-3c566f73ed2b.mount: Succeeded.
-Apr 24 23:09:13 vultr systemd[1]: run-docker-netns-3c566f73ed2b.mount: Succeeded.
-Apr 24 23:09:13 vultr systemd[1368]: var-lib-docker-containers-56b69af23b56771b135a69868e5d93bd8680999d6d996fbb03c518bda166a72c-mounts-shm.mount: Succeeded.
-Apr 24 23:09:13 vultr systemd[1]: var-lib-docker-containers-56b69af23b56771b135a69868e5d93bd8680999d6d996fbb03c518bda166a72c-mounts-shm.mount: Succeeded.
-Apr 24 23:09:13 vultr systemd[1368]: var-lib-docker-overlay2-8a48575b101468bc631f525d4139f8721fd6de5e1ae23309a0ec4e65f66f1877-merged.mount: Succeeded.
-Apr 24 23:09:13 vultr systemd[1]: var-lib-docker-overlay2-8a48575b101468bc631f525d4139f8721fd6de5e1ae23309a0ec4e65f66f1877-merged.mount: Succeeded.
-Apr 24 23:09:14 vultr systemd[1368]: var-lib-docker-overlay2-8a48575b101468bc631f525d4139f8721fd6de5e1ae23309a0ec4e65f66f1877-merged.mount: Succeeded.
-Apr 24 23:09:14 vultr systemd[1]: var-lib-docker-overlay2-8a48575b101468bc631f525d4139f8721fd6de5e1ae23309a0ec4e65f66f1877-merged.mount: Succeeded.
-Apr 24 23:09:14 vultr systemd[1368]: var-lib-docker-overlay2-4eef2981d3ee2463273fe7fde9aa2df20a66da244c4adfb81a3e8319f207dcf5\x2dinit-merged.mount: Succeeded.
-Apr 24 23:09:14 vultr systemd[1]: var-lib-docker-overlay2-4eef2981d3ee2463273fe7fde9aa2df20a66da244c4adfb81a3e8319f207dcf5\x2dinit-merged.mount: Succeeded.
-Apr 24 23:09:14 vultr systemd[1]: var-lib-docker-overlay2-4eef2981d3ee2463273fe7fde9aa2df20a66da244c4adfb81a3e8319f207dcf5-merged.mount: Succeeded.
-Apr 24 23:09:14 vultr systemd[1368]: var-lib-docker-overlay2-4eef2981d3ee2463273fe7fde9aa2df20a66da244c4adfb81a3e8319f207dcf5-merged.mount: Succeeded.
-Apr 24 23:09:14 vultr systemd[1368]: var-lib-docker-overlay2-4eef2981d3ee2463273fe7fde9aa2df20a66da244c4adfb81a3e8319f207dcf5-merged.mount: Succeeded.
-Apr 24 23:09:14 vultr systemd[1]: var-lib-docker-overlay2-4eef2981d3ee2463273fe7fde9aa2df20a66da244c4adfb81a3e8319f207dcf5-merged.mount: Succeeded.
-Apr 24 23:09:14 vultr dockerd[427]: time="2022-04-24T23:09:14.311829114Z" level=info msg="Layer sha256:01479e31d765bdb4254fff0833fd814eb3946fb19679405bedef9ab2a8ba4446 cleaned up"
-Apr 24 23:09:14 vultr systemd[1368]: var-lib-docker-overlay2-4eef2981d3ee2463273fe7fde9aa2df20a66da244c4adfb81a3e8319f207dcf5-merged.mount: Succeeded.
-Apr 24 23:09:14 vultr systemd[1]: var-lib-docker-overlay2-4eef2981d3ee2463273fe7fde9aa2df20a66da244c4adfb81a3e8319f207dcf5-merged.mount: Succeeded.
-Apr 24 23:09:14 vultr systemd[1368]: var-lib-docker-overlay2-e74221f170e9da9ec784e48a831dd083da8b2982462a2ef34f85a5b95b447793\x2dinit-merged.mount: Succeeded.
-Apr 24 23:09:14 vultr systemd[1]: var-lib-docker-overlay2-e74221f170e9da9ec784e48a831dd083da8b2982462a2ef34f85a5b95b447793\x2dinit-merged.mount: Succeeded.
-Apr 24 23:09:14 vultr systemd[1]: var-lib-docker-overlay2-e74221f170e9da9ec784e48a831dd083da8b2982462a2ef34f85a5b95b447793-merged.mount: Succeeded.
-Apr 24 23:09:14 vultr systemd[1368]: var-lib-docker-overlay2-e74221f170e9da9ec784e48a831dd083da8b2982462a2ef34f85a5b95b447793-merged.mount: Succeeded.
-Apr 24 23:09:14 vultr systemd-udevd[19779]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
-Apr 24 23:09:14 vultr systemd-udevd[19779]: Could not generate persistent MAC address for veth357f5d3: No such file or directory
-Apr 24 23:09:14 vultr systemd-udevd[19790]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
-Apr 24 23:09:14 vultr systemd-udevd[19790]: Could not generate persistent MAC address for veth0eb5c53: No such file or directory
-Apr 24 23:09:14 vultr dockerd[427]: time="2022-04-24T23:09:14.424491092Z" level=info msg="shim docker-containerd-shim started" address="unix:///run/containerd/s/d5e25c67312caee5b667a52f3cd8aa06028f568658448f1daa68a29636f85770" debug=false pid=20010
-Apr 24 23:09:14 vultr dockerd[427]: time="2022-04-24T23:09:14.836509549Z" level=info msg="shim reaped" id=d242d13f49fa60bf7d8b2df4a677fe6d4180fa98b20f5de244f2f19a3e441e09
-Apr 24 23:09:14 vultr dockerd[427]: time="2022-04-24T23:09:14.847947548Z" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
-Apr 24 23:09:14 vultr systemd-udevd[19779]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
-Apr 24 23:09:14 vultr systemd[1368]: run-docker-netns-28247aa403c2.mount: Succeeded.
-Apr 24 23:09:14 vultr systemd[1]: run-docker-netns-28247aa403c2.mount: Succeeded.
-Apr 24 23:09:14 vultr systemd[1368]: var-lib-docker-containers-d242d13f49fa60bf7d8b2df4a677fe6d4180fa98b20f5de244f2f19a3e441e09-mounts-shm.mount: Succeeded.
-Apr 24 23:09:14 vultr systemd[1]: var-lib-docker-containers-d242d13f49fa60bf7d8b2df4a677fe6d4180fa98b20f5de244f2f19a3e441e09-mounts-shm.mount: Succeeded.
-Apr 24 23:09:14 vultr systemd[1368]: var-lib-docker-overlay2-e74221f170e9da9ec784e48a831dd083da8b2982462a2ef34f85a5b95b447793-merged.mount: Succeeded.
-Apr 24 23:09:14 vultr systemd[1]: var-lib-docker-overlay2-e74221f170e9da9ec784e48a831dd083da8b2982462a2ef34f85a5b95b447793-merged.mount: Succeeded.
-Apr 24 23:09:14 vultr systemd-udevd[19779]: link_config: could not get ethtool features for veth357f5d3
-Apr 24 23:09:14 vultr systemd-udevd[19779]: Could not set offload features of veth357f5d3: No such device
-Apr 24 23:09:15 vultr systemd[1368]: var-lib-docker-overlay2-e74221f170e9da9ec784e48a831dd083da8b2982462a2ef34f85a5b95b447793-merged.mount: Succeeded.
-Apr 24 23:09:15 vultr systemd[1]: var-lib-docker-overlay2-e74221f170e9da9ec784e48a831dd083da8b2982462a2ef34f85a5b95b447793-merged.mount: Succeeded.
-Apr 24 23:09:15 vultr systemd[1368]: var-lib-docker-overlay2-1521c80ed3d5eaed921507631592c6261786cefdcb57a50e33170619d017e1bf-merged.mount: Succeeded.
-Apr 24 23:09:15 vultr systemd[1]: var-lib-docker-overlay2-1521c80ed3d5eaed921507631592c6261786cefdcb57a50e33170619d017e1bf-merged.mount: Succeeded.
-Apr 24 23:09:15 vultr systemd[1]: var-lib-docker-overlay2-2593370a270dfd25514419fe4af970c313bdab5c7f7ce69f00835b033ab72cd3\x2dinit-merged.mount: Succeeded.
-Apr 24 23:09:15 vultr systemd[1368]: var-lib-docker-overlay2-2593370a270dfd25514419fe4af970c313bdab5c7f7ce69f00835b033ab72cd3\x2dinit-merged.mount: Succeeded.
-Apr 24 23:09:15 vultr systemd[1]: var-lib-docker-overlay2-2593370a270dfd25514419fe4af970c313bdab5c7f7ce69f00835b033ab72cd3-merged.mount: Succeeded.
-Apr 24 23:09:15 vultr systemd-udevd[19779]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
-Apr 24 23:09:15 vultr systemd-udevd[19779]: Could not generate persistent MAC address for veth609eb1c: No such file or directory
-Apr 24 23:09:15 vultr systemd-udevd[19790]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
-Apr 24 23:09:15 vultr systemd-udevd[19790]: Could not generate persistent MAC address for vethe9b0e94: No such file or directory
-Apr 24 23:09:15 vultr dockerd[427]: time="2022-04-24T23:09:15.387891476Z" level=info msg="shim docker-containerd-shim started" address="unix:///run/containerd/s/bfbde91df8306bf8e2125b446874dcf80f93c05098623146f942eb93f42c0a64" debug=false pid=20124
-Apr 24 23:09:17 vultr ntpd[454]: Listen normally on 14 docker0 172.17.0.1:123
-Apr 24 23:09:17 vultr ntpd[454]: Listen normally on 15 docker0 [fe80::42:94ff:fe84:1837%3]:123
-Apr 24 23:09:17 vultr ntpd[454]: bind(30) AF_INET6 fe80::7cc8:d0ff:fea6:3d8a%23#123 flags 0x11 failed: Cannot assign requested address
-Apr 24 23:09:17 vultr ntpd[454]: unable to create socket on vethe9b0e94 (16) for fe80::7cc8:d0ff:fea6:3d8a%23#123
-Apr 24 23:09:17 vultr ntpd[454]: failed to init interface for address fe80::7cc8:d0ff:fea6:3d8a%23
-Apr 24 23:09:17 vultr ntpd[454]: new interface(s) found: waking up resolver
-Apr 24 23:09:19 vultr ntpd[454]: Listen normally on 17 vethe9b0e94 [fe80::7cc8:d0ff:fea6:3d8a%23]:123
-Apr 24 23:09:19 vultr ntpd[454]: new interface(s) found: waking up resolver
-Apr 24 23:09:44 vultr systemd[1]: Started Session 224 of user adam.
-Apr 24 23:09:55 vultr dockerd[427]: time="2022-04-24T23:09:55.398322501Z" level=info msg="shim reaped" id=a6431254df103dc52fce1acd085d5429f8c0f5cffc2e96130fddd76ed422d873
-Apr 24 23:09:55 vultr dockerd[427]: time="2022-04-24T23:09:55.420150235Z" level=info msg="ignoring event" module=libcontainerd namespace=moby topic=/tasks/delete type="*events.TaskDelete"
-Apr 24 23:09:55 vultr systemd-udevd[20323]: link_config: autonegotiation is unset or enabled, the speed and duplex are not writable.
-Apr 24 23:09:55 vultr systemd-udevd[20323]: Using default interface naming scheme 'v240'.
-Apr 24 23:09:55 vultr systemd[1]: run-docker-netns-2849fc82e8d4.mount: Succeeded.
-Apr 24 23:09:55 vultr systemd[1368]: run-docker-netns-2849fc82e8d4.mount: Succeeded.
-Apr 24 23:09:55 vultr systemd[1368]: var-lib-docker-containers-a6431254df103dc52fce1acd085d5429f8c0f5cffc2e96130fddd76ed422d873-mounts-shm.mount: Succeeded.
-Apr 24 23:09:55 vultr systemd[1]: var-lib-docker-containers-a6431254df103dc52fce1acd085d5429f8c0f5cffc2e96130fddd76ed422d873-mounts-shm.mount: Succeeded.
-Apr 24 23:09:55 vultr systemd[1368]: var-lib-docker-overlay2-2593370a270dfd25514419fe4af970c313bdab5c7f7ce69f00835b033ab72cd3-merged.mount: Succeeded.
-Apr 24 23:09:55 vultr systemd[1]: var-lib-docker-overlay2-2593370a270dfd25514419fe4af970c313bdab5c7f7ce69f00835b033ab72cd3-merged.mount: Succeeded.
-Apr 24 23:09:58 vultr ntpd[454]: Deleting interface #14 docker0, 172.17.0.1#123, interface stats: received=0, sent=0, dropped=0, active_time=41 secs
-Apr 24 23:09:58 vultr ntpd[454]: Deleting interface #15 docker0, fe80::42:94ff:fe84:1837%3#123, interface stats: received=0, sent=0, dropped=0, active_time=41 secs
-Apr 24 23:09:58 vultr ntpd[454]: Deleting interface #17 vethe9b0e94, fe80::7cc8:d0ff:fea6:3d8a%23#123, interface stats: received=0, sent=0, dropped=0, active_time=39 secs
-Apr 24 23:10:00 vultr systemd[1]: var-lib-docker-overlay2-2593370a270dfd25514419fe4af970c313bdab5c7f7ce69f00835b033ab72cd3-merged.mount: Succeeded.
-Apr 24 23:10:00 vultr systemd[1368]: var-lib-docker-overlay2-2593370a270dfd25514419fe4af970c313bdab5c7f7ce69f00835b033ab72cd3-merged.mount: Succeeded.
-Apr 24 23:10:00 vultr systemd[1368]: var-lib-docker-overlay2-3fba33573e5dfb695344aa66c54a801ca1d6fe0f62b7fb52e0e691f26e402047-merged.mount: Succeeded.
-Apr 24 23:10:00 vultr systemd[1]: var-lib-docker-overlay2-3fba33573e5dfb695344aa66c54a801ca1d6fe0f62b7fb52e0e691f26e402047-merged.mount: Succeeded.
-Apr 24 23:10:01 vultr systemd[1]: var-lib-docker-overlay2-ae548000f2d75e453d6c31e6b81bb67692ee990b24d2e66248b8a5491e6c6b2d-merged.mount: Succeeded.
-Apr 24 23:10:01 vultr systemd[1368]: var-lib-docker-overlay2-ae548000f2d75e453d6c31e6b81bb67692ee990b24d2e66248b8a5491e6c6b2d-merged.mount: Succeeded.
-Apr 24 23:10:01 vultr systemd[1]: var-lib-docker-overlay2-ea1320200a0b0d6f81f01f61b99e7a2cc6921c37210fabb8699b7315c82d4efa-merged.mount: Succeeded.
-Apr 24 23:10:01 vultr systemd[1368]: var-lib-docker-overlay2-ea1320200a0b0d6f81f01f61b99e7a2cc6921c37210fabb8699b7315c82d4efa-merged.mount: Succeeded.
-Apr 24 23:10:01 vultr systemd[1]: var-lib-docker-overlay2-34d8fa384b544772eaccead38b404d5f61c271181c4b5def9f1b0d7813dbf073-merged.mount: Succeeded.
-Apr 24 23:10:01 vultr systemd[1368]: var-lib-docker-overlay2-34d8fa384b544772eaccead38b404d5f61c271181c4b5def9f1b0d7813dbf073-merged.mount: Succeeded.
-Apr 24 23:10:03 vultr systemd[1]: var-lib-docker-overlay2-1f3dd0f429b6399524e693cc8f5fe47c962980fc63fe6b2937380a8925ae124b-merged.mount: Succeeded.
-Apr 24 23:10:03 vultr systemd[1368]: var-lib-docker-overlay2-1f3dd0f429b6399524e693cc8f5fe47c962980fc63fe6b2937380a8925ae124b-merged.mount: Succeeded.
-Apr 24 23:10:03 vultr systemd[1368]: var-lib-docker-overlay2-158f6deb7660c964d59ccd0cb6645851d6731912c5e2715f8ba56425b2ce3c9e\x2dinit-merged.mount: Succeeded.
-Apr 24 23:10:03 vultr systemd[1]: var-lib-docker-overlay2-158f6deb7660c964d59ccd0cb6645851d6731912c5e2715f8ba56425b2ce3c9e\x2dinit-merged.mount: Succeeded.
-Apr 24 23:10:03 vultr systemd[1]: var-lib-docker-overlay2-158f6deb7660c964d59ccd0cb6645851d6731912c5e2715f8ba56425b2ce3c9e-merged.mount: Succeeded.
-Apr 24 23:10:03 vultr systemd[1368]: var-lib-docker-overlay2-158f6deb7660c964d59ccd0cb6645851d6731912c5e2715f8ba56425b2ce3c9e-merged.mount: Succeeded.
-Apr 24 23:10:03 vultr dockerd[427]: time="2022-04-24T23:10:03.637557308Z" level=info msg="Layer sha256:f9062a36ebcf597f04201344a1fc582344c66fa5e63c9f71a5f45b6e520fc819 cleaned up"
-Apr 24 23:10:03 vultr systemd[1368]: var-lib-docker-overlay2-158f6deb7660c964d59ccd0cb6645851d6731912c5e2715f8ba56425b2ce3c9e-merged.mount: Succeeded.
-Apr 24 23:10:03 vultr systemd[1]: var-lib-docker-overlay2-158f6deb7660c964d59ccd0cb6645851d6731912c5e2715f8ba56425b2ce3c9e-merged.mount: Succeeded.
-Apr 24 23:10:03 vultr systemd[1368]: var-lib-docker-overlay2-ad0e85270721479d3f8ec5d995fa54d92da2da6b4a5b94de79e677f0306365f6\x2dinit-merged.mount: Succeeded.
-Apr 24 23:10:03 vultr systemd[1]: var-lib-docker-overlay2-ad0e85270721479d3f8ec5d995fa54d92da2da6b4a5b94de79e677f0306365f6\x2dinit-merged.mount: Succeeded.
-Apr 24 23:10:03 vultr systemd[1368]: var-lib-docker-overlay2-ad0e85270721479d3f8ec5d995fa54d92da2da6b4a5b94de79e677f0306365f6-merged.mount: Succeeded.
-Apr 24 23:10:03 vultr systemd[1]: var-lib-docker-overlay2-ad0e85270721479d3f8ec5d995fa54d92da2da6b4a5b94de79e677f0306365f6-merged.mount: Succeeded.
-Apr 24 23:10:03 vultr dockerd[427]: time="2022-04-24T23:10:03.827941511Z" level=info msg="Layer sha256:f9062a36ebcf597f04201344a1fc582344c66fa5e63c9f71a5f45b6e520fc819 cleaned up"
-Apr 24 23:10:03 vultr systemd[1]: var-lib-docker-overlay2-ad0e85270721479d3f8ec5d995fa54d92da2da6b4a5b94de79e677f0306365f6-merged.mount: Succeeded.
-Apr 24 23:10:03 vultr systemd[1368]: var-lib-docker-overlay2-ad0e85270721479d3f8ec5d995fa54d92da2da6b4a5b94de79e677f0306365f6-merged.mount: Succeeded.
-Apr 24 23:12:14 vultr dockerd[427]: time="2022-04-24T23:12:14.057662916Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 23:17:14 vultr dockerd[427]: time="2022-04-24T23:17:14.258201469Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 23:22:14 vultr dockerd[427]: time="2022-04-24T23:22:14.458218535Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
-Apr 24 23:27:14 vultr dockerd[427]: time="2022-04-24T23:27:14.657750327Z" level=info msg="NetworkDB stats vultr.guest(8faeaca9a776) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 00:00:50 vultr systemd[1]: logrotate.service: Succeeded.
+May 29 00:00:50 vultr systemd[1]: Started Rotate log files.
+May 29 00:04:31 vultr dockerd[433]: time="2022-05-29T00:04:31.685850585Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 00:09:01 vultr systemd[1]: Starting Clean php session files...
+May 29 00:09:02 vultr systemd[1]: phpsessionclean.service: Succeeded.
+May 29 00:09:02 vultr systemd[1]: Started Clean php session files.
+May 29 00:09:31 vultr dockerd[433]: time="2022-05-29T00:09:31.885708081Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 00:14:32 vultr dockerd[433]: time="2022-05-29T00:14:32.085704266Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 00:19:32 vultr dockerd[433]: time="2022-05-29T00:19:32.286375677Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 00:24:32 vultr dockerd[433]: time="2022-05-29T00:24:32.485819524Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 00:29:32 vultr dockerd[433]: time="2022-05-29T00:29:32.685715535Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 00:34:32 vultr dockerd[433]: time="2022-05-29T00:34:32.885745538Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 00:39:01 vultr systemd[1]: Starting Clean php session files...
+May 29 00:39:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
+May 29 00:39:01 vultr systemd[1]: Started Clean php session files.
+May 29 00:39:33 vultr dockerd[433]: time="2022-05-29T00:39:33.085665966Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 00:39:39 vultr dhclient[809]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
+May 29 00:39:39 vultr dhclient[809]: DHCPACK of 158.247.223.84 from 169.254.169.254
+May 29 00:39:39 vultr dhclient[809]: bound to 158.247.223.84 -- renewal in 38781 seconds.
+May 29 00:44:33 vultr dockerd[433]: time="2022-05-29T00:44:33.285718014Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 00:49:33 vultr dockerd[433]: time="2022-05-29T00:49:33.485686587Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 00:54:33 vultr dockerd[433]: time="2022-05-29T00:54:33.685704788Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 00:59:33 vultr dockerd[433]: time="2022-05-29T00:59:33.885771718Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 01:04:34 vultr dockerd[433]: time="2022-05-29T01:04:34.085737230Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 01:09:01 vultr systemd[1]: Starting Clean php session files...
+May 29 01:09:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
+May 29 01:09:01 vultr systemd[1]: Started Clean php session files.
+May 29 01:09:34 vultr dockerd[433]: time="2022-05-29T01:09:34.285673408Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 01:14:34 vultr dockerd[433]: time="2022-05-29T01:14:34.485673120Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 01:15:10 vultr systemd[1]: Starting Daily apt download activities...
+May 29 01:15:16 vultr systemd[1]: apt-daily.service: Succeeded.
+May 29 01:15:16 vultr systemd[1]: Started Daily apt download activities.
+May 29 01:19:34 vultr dockerd[433]: time="2022-05-29T01:19:34.685702822Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 01:24:34 vultr dockerd[433]: time="2022-05-29T01:24:34.885681679Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 01:29:35 vultr dockerd[433]: time="2022-05-29T01:29:35.086120289Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 01:34:35 vultr dockerd[433]: time="2022-05-29T01:34:35.285670063Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 01:39:01 vultr systemd[1]: Starting Clean php session files...
+May 29 01:39:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
+May 29 01:39:01 vultr systemd[1]: Started Clean php session files.
+May 29 01:39:35 vultr dockerd[433]: time="2022-05-29T01:39:35.485758420Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 01:44:35 vultr dockerd[433]: time="2022-05-29T01:44:35.686232661Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 01:49:35 vultr dockerd[433]: time="2022-05-29T01:49:35.886200101Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 01:54:36 vultr dockerd[433]: time="2022-05-29T01:54:36.085694959Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 01:59:36 vultr dockerd[433]: time="2022-05-29T01:59:36.285697820Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 02:04:36 vultr dockerd[433]: time="2022-05-29T02:04:36.485839900Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 02:09:01 vultr systemd[1]: Starting Clean php session files...
+May 29 02:09:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
+May 29 02:09:01 vultr systemd[1]: Started Clean php session files.
+May 29 02:09:36 vultr dockerd[433]: time="2022-05-29T02:09:36.685718392Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 02:14:36 vultr dockerd[433]: time="2022-05-29T02:14:36.885729542Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 02:19:37 vultr dockerd[433]: time="2022-05-29T02:19:37.085713328Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 02:24:37 vultr dockerd[433]: time="2022-05-29T02:24:37.285638363Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 02:29:37 vultr dockerd[433]: time="2022-05-29T02:29:37.485669977Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 02:34:37 vultr dockerd[433]: time="2022-05-29T02:34:37.685721866Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 02:39:01 vultr systemd[1]: Starting Clean php session files...
+May 29 02:39:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
+May 29 02:39:01 vultr systemd[1]: Started Clean php session files.
+May 29 02:39:37 vultr dockerd[433]: time="2022-05-29T02:39:37.885719122Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 02:44:38 vultr dockerd[433]: time="2022-05-29T02:44:38.085713948Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 02:49:38 vultr dockerd[433]: time="2022-05-29T02:49:38.285696209Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 02:54:38 vultr dockerd[433]: time="2022-05-29T02:54:38.485666996Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 02:59:38 vultr dockerd[433]: time="2022-05-29T02:59:38.685716885Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 03:04:38 vultr dockerd[433]: time="2022-05-29T03:04:38.885724561Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 03:09:01 vultr systemd[1]: Starting Clean php session files...
+May 29 03:09:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
+May 29 03:09:01 vultr systemd[1]: Started Clean php session files.
+May 29 03:09:39 vultr dockerd[433]: time="2022-05-29T03:09:39.092214740Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 03:14:39 vultr dockerd[433]: time="2022-05-29T03:14:39.285679487Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 03:19:39 vultr dockerd[433]: time="2022-05-29T03:19:39.485700396Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 03:24:39 vultr dockerd[433]: time="2022-05-29T03:24:39.685666054Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 03:29:39 vultr dockerd[433]: time="2022-05-29T03:29:39.885678692Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 03:34:40 vultr dockerd[433]: time="2022-05-29T03:34:40.085758817Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 03:39:01 vultr systemd[1]: Starting Clean php session files...
+May 29 03:39:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
+May 29 03:39:01 vultr systemd[1]: Started Clean php session files.
+May 29 03:39:40 vultr dockerd[433]: time="2022-05-29T03:39:40.285687294Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 03:44:40 vultr dockerd[433]: time="2022-05-29T03:44:40.485672694Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 03:49:40 vultr dockerd[433]: time="2022-05-29T03:49:40.685711547Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 03:54:40 vultr dockerd[433]: time="2022-05-29T03:54:40.885675684Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 03:59:41 vultr dockerd[433]: time="2022-05-29T03:59:41.085702658Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 04:04:41 vultr dockerd[433]: time="2022-05-29T04:04:41.285772918Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 04:09:01 vultr systemd[1]: Starting Clean php session files...
+May 29 04:09:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
+May 29 04:09:01 vultr systemd[1]: Started Clean php session files.
+May 29 04:09:41 vultr dockerd[433]: time="2022-05-29T04:09:41.485676630Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 04:14:41 vultr dockerd[433]: time="2022-05-29T04:14:41.685723456Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 04:19:41 vultr dockerd[433]: time="2022-05-29T04:19:41.885743792Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 04:24:42 vultr dockerd[433]: time="2022-05-29T04:24:42.085738049Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 04:29:42 vultr dockerd[433]: time="2022-05-29T04:29:42.285643000Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 04:34:42 vultr dockerd[433]: time="2022-05-29T04:34:42.485633224Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 04:39:01 vultr systemd[1]: Starting Clean php session files...
+May 29 04:39:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
+May 29 04:39:01 vultr systemd[1]: Started Clean php session files.
+May 29 04:39:42 vultr dockerd[433]: time="2022-05-29T04:39:42.685644934Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 04:44:42 vultr dockerd[433]: time="2022-05-29T04:44:42.885684125Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 04:49:43 vultr dockerd[433]: time="2022-05-29T04:49:43.085691926Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 04:54:43 vultr dockerd[433]: time="2022-05-29T04:54:43.285670088Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 04:59:43 vultr dockerd[433]: time="2022-05-29T04:59:43.485706257Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 05:04:43 vultr dockerd[433]: time="2022-05-29T05:04:43.685709035Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 05:09:01 vultr systemd[1]: Starting Clean php session files...
+May 29 05:09:02 vultr systemd[1]: phpsessionclean.service: Succeeded.
+May 29 05:09:02 vultr systemd[1]: Started Clean php session files.
+May 29 05:09:43 vultr dockerd[433]: time="2022-05-29T05:09:43.885771197Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 05:14:44 vultr dockerd[433]: time="2022-05-29T05:14:44.085680056Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 05:19:44 vultr dockerd[433]: time="2022-05-29T05:19:44.285684359Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 05:24:44 vultr dockerd[433]: time="2022-05-29T05:24:44.485872289Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 05:29:44 vultr dockerd[433]: time="2022-05-29T05:29:44.685759768Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 05:34:44 vultr dockerd[433]: time="2022-05-29T05:34:44.885672201Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 05:39:01 vultr systemd[1]: Starting Clean php session files...
+May 29 05:39:02 vultr systemd[1]: phpsessionclean.service: Succeeded.
+May 29 05:39:02 vultr systemd[1]: Started Clean php session files.
+May 29 05:39:45 vultr dockerd[433]: time="2022-05-29T05:39:45.085663085Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 05:44:45 vultr dockerd[433]: time="2022-05-29T05:44:45.287702503Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 05:49:45 vultr dockerd[433]: time="2022-05-29T05:49:45.485639391Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 05:54:45 vultr dockerd[433]: time="2022-05-29T05:54:45.685720528Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 05:59:45 vultr dockerd[433]: time="2022-05-29T05:59:45.885672822Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 06:04:45 vultr dockerd[433]: time="2022-05-29T06:04:45.893558728Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 06:09:01 vultr systemd[1]: Starting Clean php session files...
+May 29 06:09:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
+May 29 06:09:01 vultr systemd[1]: Started Clean php session files.
+May 29 06:09:46 vultr dockerd[433]: time="2022-05-29T06:09:46.085657507Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 06:14:46 vultr dockerd[433]: time="2022-05-29T06:14:46.285679262Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 06:19:46 vultr dockerd[433]: time="2022-05-29T06:19:46.485636794Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 06:24:46 vultr dockerd[433]: time="2022-05-29T06:24:46.490575678Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 06:29:46 vultr dockerd[433]: time="2022-05-29T06:29:46.692615461Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 06:34:46 vultr dockerd[433]: time="2022-05-29T06:34:46.886274359Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 06:39:01 vultr systemd[1]: Starting Clean php session files...
+May 29 06:39:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
+May 29 06:39:01 vultr systemd[1]: Started Clean php session files.
+May 29 06:39:47 vultr dockerd[433]: time="2022-05-29T06:39:47.085727099Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 06:44:47 vultr dockerd[433]: time="2022-05-29T06:44:47.285700337Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 06:49:47 vultr dockerd[433]: time="2022-05-29T06:49:47.485734270Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 06:53:45 vultr systemd[1]: Starting Daily apt upgrade and clean activities...
+May 29 06:53:49 vultr systemd[1]: Reloading.
+May 29 06:53:49 vultr systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+May 29 06:53:49 vultr systemd[1]: /lib/systemd/system/dovecot.service:9: PIDFile= references path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.
+May 29 06:53:49 vultr systemd[1]: getty@tty1.service: Current command vanished from the unit file, execution of the command list won't be resumed.
+May 29 06:53:49 vultr systemd[1]: Reloading.
+May 29 06:53:49 vultr systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+May 29 06:53:50 vultr systemd[1]: /lib/systemd/system/dovecot.service:9: PIDFile= references path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.
+May 29 06:53:50 vultr systemd[1]: Reloading.
+May 29 06:53:50 vultr systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+May 29 06:53:50 vultr systemd[1]: /lib/systemd/system/dovecot.service:9: PIDFile= references path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.
+May 29 06:53:50 vultr systemd[1]: Reloading.
+May 29 06:53:50 vultr systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+May 29 06:53:50 vultr systemd[1]: /lib/systemd/system/dovecot.service:9: PIDFile= references path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.
+May 29 06:53:50 vultr systemd[1]: Stopping System Logging Service...
+May 29 06:53:50 vultr systemd[1]: rsyslog.service: Succeeded.
+May 29 06:53:50 vultr systemd[1]: Stopped System Logging Service.
+May 29 06:53:50 vultr systemd[1]: Starting System Logging Service...
+May 29 06:53:50 vultr systemd[1]: Started System Logging Service.
+May 29 06:53:51 vultr systemd[1]: Reloading.
+May 29 06:53:51 vultr systemd[1]: /lib/systemd/system/rdnssd.service:14: PIDFile= references path below legacy directory /var/run/, updating /var/run/rdnssd.pid → /run/rdnssd.pid; please update the unit file accordingly.
+May 29 06:53:51 vultr systemd[1]: /lib/systemd/system/dovecot.service:9: PIDFile= references path below legacy directory /var/run/, updating /var/run/dovecot/master.pid → /run/dovecot/master.pid; please update the unit file accordingly.
+May 29 06:53:51 vultr systemd[1]: Starting Daily apt download activities...
+May 29 06:53:53 vultr systemd[1]: apt-daily-upgrade.service: Succeeded.
+May 29 06:53:53 vultr systemd[1]: Started Daily apt upgrade and clean activities.
+May 29 06:53:54 vultr systemd[1]: apt-daily.service: Succeeded.
+May 29 06:53:54 vultr systemd[1]: Started Daily apt download activities.
+May 29 06:54:47 vultr dockerd[433]: time="2022-05-29T06:54:47.685695590Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 06:59:47 vultr dockerd[433]: time="2022-05-29T06:59:47.885720602Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 07:04:48 vultr dockerd[433]: time="2022-05-29T07:04:48.085753650Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 07:09:01 vultr systemd[1]: Starting Clean php session files...
+May 29 07:09:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
+May 29 07:09:01 vultr systemd[1]: Started Clean php session files.
+May 29 07:09:48 vultr dockerd[433]: time="2022-05-29T07:09:48.285664468Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 07:14:48 vultr dockerd[433]: time="2022-05-29T07:14:48.486370854Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 07:19:48 vultr dockerd[433]: time="2022-05-29T07:19:48.685844582Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 07:24:48 vultr dockerd[433]: time="2022-05-29T07:24:48.885681297Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 07:29:49 vultr dockerd[433]: time="2022-05-29T07:29:49.085776125Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 07:34:49 vultr dockerd[433]: time="2022-05-29T07:34:49.285769475Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 07:39:01 vultr systemd[1]: Starting Clean php session files...
+May 29 07:39:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
+May 29 07:39:01 vultr systemd[1]: Started Clean php session files.
+May 29 07:39:49 vultr dockerd[433]: time="2022-05-29T07:39:49.485739889Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 07:44:49 vultr dockerd[433]: time="2022-05-29T07:44:49.685703829Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 07:49:49 vultr dockerd[433]: time="2022-05-29T07:49:49.885689271Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 07:54:50 vultr dockerd[433]: time="2022-05-29T07:54:50.085651380Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 07:59:50 vultr dockerd[433]: time="2022-05-29T07:59:50.285671615Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 08:04:50 vultr dockerd[433]: time="2022-05-29T08:04:50.485827456Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 08:09:01 vultr systemd[1]: Starting Clean php session files...
+May 29 08:09:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
+May 29 08:09:01 vultr systemd[1]: Started Clean php session files.
+May 29 08:09:50 vultr dockerd[433]: time="2022-05-29T08:09:50.686163465Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 08:14:50 vultr dockerd[433]: time="2022-05-29T08:14:50.885697921Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 08:19:51 vultr dockerd[433]: time="2022-05-29T08:19:51.086171525Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 08:24:51 vultr dockerd[433]: time="2022-05-29T08:24:51.285713313Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 08:29:51 vultr dockerd[433]: time="2022-05-29T08:29:51.485695523Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 08:34:51 vultr dockerd[433]: time="2022-05-29T08:34:51.685876758Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 08:39:01 vultr systemd[1]: Starting Clean php session files...
+May 29 08:39:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
+May 29 08:39:01 vultr systemd[1]: Started Clean php session files.
+May 29 08:39:51 vultr dockerd[433]: time="2022-05-29T08:39:51.885685189Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 08:44:52 vultr dockerd[433]: time="2022-05-29T08:44:52.085706809Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 08:49:52 vultr dockerd[433]: time="2022-05-29T08:49:52.285768956Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 08:54:52 vultr dockerd[433]: time="2022-05-29T08:54:52.485674478Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 08:59:52 vultr dockerd[433]: time="2022-05-29T08:59:52.685745311Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 09:04:52 vultr dockerd[433]: time="2022-05-29T09:04:52.885779048Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 09:09:01 vultr systemd[1]: Starting Clean php session files...
+May 29 09:09:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
+May 29 09:09:01 vultr systemd[1]: Started Clean php session files.
+May 29 09:09:53 vultr dockerd[433]: time="2022-05-29T09:09:53.085725230Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 09:14:53 vultr dockerd[433]: time="2022-05-29T09:14:53.285705432Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 09:19:53 vultr dockerd[433]: time="2022-05-29T09:19:53.485735902Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 09:24:53 vultr dockerd[433]: time="2022-05-29T09:24:53.685697219Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 09:29:53 vultr dockerd[433]: time="2022-05-29T09:29:53.885721835Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 09:34:54 vultr dockerd[433]: time="2022-05-29T09:34:54.085697247Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 09:39:01 vultr systemd[1]: Starting Clean php session files...
+May 29 09:39:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
+May 29 09:39:01 vultr systemd[1]: Started Clean php session files.
+May 29 09:39:54 vultr dockerd[433]: time="2022-05-29T09:39:54.285685524Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 09:44:54 vultr dockerd[433]: time="2022-05-29T09:44:54.485659210Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 09:49:54 vultr dockerd[433]: time="2022-05-29T09:49:54.685727854Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 09:54:54 vultr dockerd[433]: time="2022-05-29T09:54:54.885752897Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 09:59:55 vultr dockerd[433]: time="2022-05-29T09:59:55.086137196Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 10:04:55 vultr dockerd[433]: time="2022-05-29T10:04:55.285638177Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 10:09:01 vultr systemd[1]: Starting Clean php session files...
+May 29 10:09:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
+May 29 10:09:01 vultr systemd[1]: Started Clean php session files.
+May 29 10:09:55 vultr dockerd[433]: time="2022-05-29T10:09:55.486297237Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 10:14:55 vultr dockerd[433]: time="2022-05-29T10:14:55.685719867Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 10:19:55 vultr dockerd[433]: time="2022-05-29T10:19:55.886289302Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 10:24:56 vultr dockerd[433]: time="2022-05-29T10:24:56.085681727Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 10:29:56 vultr dockerd[433]: time="2022-05-29T10:29:56.285956422Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 10:34:56 vultr dockerd[433]: time="2022-05-29T10:34:56.485750358Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 10:39:01 vultr systemd[1]: Starting Clean php session files...
+May 29 10:39:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
+May 29 10:39:01 vultr systemd[1]: Started Clean php session files.
+May 29 10:39:56 vultr dockerd[433]: time="2022-05-29T10:39:56.685769062Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 10:44:56 vultr dockerd[433]: time="2022-05-29T10:44:56.885754445Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 10:49:57 vultr dockerd[433]: time="2022-05-29T10:49:57.085801100Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 10:54:57 vultr dockerd[433]: time="2022-05-29T10:54:57.285616973Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 10:59:57 vultr dockerd[433]: time="2022-05-29T10:59:57.485708731Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 11:04:57 vultr dockerd[433]: time="2022-05-29T11:04:57.685811043Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 11:09:01 vultr systemd[1]: Starting Clean php session files...
+May 29 11:09:01 vultr systemd[1]: phpsessionclean.service: Succeeded.
+May 29 11:09:01 vultr systemd[1]: Started Clean php session files.
+May 29 11:09:57 vultr dockerd[433]: time="2022-05-29T11:09:57.885884295Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 11:14:58 vultr dockerd[433]: time="2022-05-29T11:14:58.085626808Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 11:19:58 vultr dockerd[433]: time="2022-05-29T11:19:58.285713745Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 11:24:58 vultr dockerd[433]: time="2022-05-29T11:24:58.485743672Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 11:26:00 vultr dhclient[809]: DHCPREQUEST for 158.247.223.84 on ens3 to 169.254.169.254 port 67
+May 29 11:26:00 vultr dhclient[809]: DHCPACK of 158.247.223.84 from 169.254.169.254
+May 29 11:26:00 vultr dhclient[809]: bound to 158.247.223.84 -- renewal in 31982 seconds.
+May 29 11:29:58 vultr dockerd[433]: time="2022-05-29T11:29:58.685704731Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 11:34:58 vultr dockerd[433]: time="2022-05-29T11:34:58.885704926Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 11:39:01 vultr systemd[1]: Starting Clean php session files...
+May 29 11:39:02 vultr systemd[1]: phpsessionclean.service: Succeeded.
+May 29 11:39:02 vultr systemd[1]: Started Clean php session files.
+May 29 11:39:59 vultr dockerd[433]: time="2022-05-29T11:39:59.085791517Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 11:44:59 vultr dockerd[433]: time="2022-05-29T11:44:59.285700683Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 11:49:59 vultr dockerd[433]: time="2022-05-29T11:49:59.485697805Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 11:54:59 vultr dockerd[433]: time="2022-05-29T11:54:59.685725005Z" level=info msg="NetworkDB stats vultr.guest(55c52e6b8c07) - netID:0rz6hg0qghb21juyqti61umko leaving:false netPeers:1 entries:2 Queue qLen:0 netMsg/s:0"
+May 29 11:55:07 vultr systemd[1]: Created slice User Slice of UID 1001.
+May 29 11:55:07 vultr systemd[1]: Starting User Runtime Directory /run/user/1001...
+May 29 11:55:07 vultr systemd[1]: Started User Runtime Directory /run/user/1001.
+May 29 11:55:07 vultr systemd[1]: Starting User Manager for UID 1001...
+May 29 11:55:07 vultr systemd[17123]: Listening on GnuPG cryptographic agent and passphrase cache (access for web browsers).
+May 29 11:55:07 vultr systemd[17123]: Listening on GnuPG cryptographic agent (ssh-agent emulation).
+May 29 11:55:07 vultr systemd[17123]: Reached target Timers.
+May 29 11:55:07 vultr systemd[17123]: Reached target Paths.
+May 29 11:55:07 vultr systemd[17123]: Listening on GnuPG network certificate management daemon.
+May 29 11:55:07 vultr systemd[17123]: Listening on GnuPG cryptographic agent and passphrase cache.
+May 29 11:55:07 vultr systemd[17123]: Listening on GnuPG cryptographic agent and passphrase cache (restricted).
+May 29 11:55:07 vultr systemd[17123]: Reached target Sockets.
+May 29 11:55:07 vultr systemd[17123]: Reached target Basic System.
+May 29 11:55:07 vultr systemd[1]: Started User Manager for UID 1001.
+May 29 11:55:07 vultr systemd[1]: Started Session 1438 of user adam.
+May 29 11:55:07 vultr systemd[17123]: Reached target Default.
+May 29 11:55:07 vultr systemd[17123]: Startup finished in 55ms.
+May 29 11:55:28 vultr systemd[1]: Mounting FUSE Control File System...
+May 29 11:55:28 vultr systemd[1]: Mounted FUSE Control File System.

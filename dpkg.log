@@ -1,42 +1,240 @@
-2022-04-24 23:10:55 startup archives unpack
-2022-04-24 23:10:55 install liblz1:amd64 <none> 1.11-3
-2022-04-24 23:10:55 status triggers-pending libc-bin:amd64 2.28-10
-2022-04-24 23:10:55 status half-installed liblz1:amd64 1.11-3
-2022-04-24 23:10:55 status unpacked liblz1:amd64 1.11-3
-2022-04-24 23:10:55 install links:amd64 <none> 2.18-2
-2022-04-24 23:10:55 status half-installed links:amd64 2.18-2
-2022-04-24 23:10:55 status triggers-pending mime-support:all 3.62
-2022-04-24 23:10:55 status triggers-pending man-db:amd64 2.8.5-2
-2022-04-24 23:10:55 status unpacked links:amd64 2.18-2
-2022-04-24 23:10:55 install lynx-common:all <none> 2.8.9rel.1-3+deb10u1
-2022-04-24 23:10:55 status half-installed lynx-common:all 2.8.9rel.1-3+deb10u1
-2022-04-24 23:10:56 status unpacked lynx-common:all 2.8.9rel.1-3+deb10u1
-2022-04-24 23:10:56 install lynx:amd64 <none> 2.8.9rel.1-3+deb10u1
-2022-04-24 23:10:56 status half-installed lynx:amd64 2.8.9rel.1-3+deb10u1
-2022-04-24 23:10:56 status unpacked lynx:amd64 2.8.9rel.1-3+deb10u1
-2022-04-24 23:10:56 startup packages configure
-2022-04-24 23:10:56 configure liblz1:amd64 1.11-3 <none>
-2022-04-24 23:10:56 status unpacked liblz1:amd64 1.11-3
-2022-04-24 23:10:56 status half-configured liblz1:amd64 1.11-3
-2022-04-24 23:10:56 status installed liblz1:amd64 1.11-3
-2022-04-24 23:10:56 configure links:amd64 2.18-2 <none>
-2022-04-24 23:10:56 status unpacked links:amd64 2.18-2
-2022-04-24 23:10:56 status half-configured links:amd64 2.18-2
-2022-04-24 23:10:56 status installed links:amd64 2.18-2
-2022-04-24 23:10:56 configure lynx-common:all 2.8.9rel.1-3+deb10u1 <none>
-2022-04-24 23:10:56 status unpacked lynx-common:all 2.8.9rel.1-3+deb10u1
-2022-04-24 23:10:56 status half-configured lynx-common:all 2.8.9rel.1-3+deb10u1
-2022-04-24 23:10:56 status installed lynx-common:all 2.8.9rel.1-3+deb10u1
-2022-04-24 23:10:56 configure lynx:amd64 2.8.9rel.1-3+deb10u1 <none>
-2022-04-24 23:10:56 status unpacked lynx:amd64 2.8.9rel.1-3+deb10u1
-2022-04-24 23:10:56 status half-configured lynx:amd64 2.8.9rel.1-3+deb10u1
-2022-04-24 23:10:56 status installed lynx:amd64 2.8.9rel.1-3+deb10u1
-2022-04-24 23:10:56 trigproc libc-bin:amd64 2.28-10 <none>
-2022-04-24 23:10:56 status half-configured libc-bin:amd64 2.28-10
-2022-04-24 23:10:56 status installed libc-bin:amd64 2.28-10
-2022-04-24 23:10:56 trigproc man-db:amd64 2.8.5-2 <none>
-2022-04-24 23:10:56 status half-configured man-db:amd64 2.8.5-2
-2022-04-24 23:10:56 status installed man-db:amd64 2.8.5-2
-2022-04-24 23:10:56 trigproc mime-support:all 3.62 <none>
-2022-04-24 23:10:56 status half-configured mime-support:all 3.62
-2022-04-24 23:10:56 status installed mime-support:all 3.62
+2022-05-14 06:22:47 startup archives unpack
+2022-05-14 06:22:47 upgrade libpq-dev:amd64 11.14-0+deb10u1 11.16-0+deb10u1
+2022-05-14 06:22:47 status half-configured libpq-dev:amd64 11.14-0+deb10u1
+2022-05-14 06:22:47 status unpacked libpq-dev:amd64 11.14-0+deb10u1
+2022-05-14 06:22:47 status half-installed libpq-dev:amd64 11.14-0+deb10u1
+2022-05-14 06:22:47 status triggers-pending man-db:amd64 2.8.5-2
+2022-05-14 06:22:47 status unpacked libpq-dev:amd64 11.16-0+deb10u1
+2022-05-14 06:22:47 upgrade libpq5:amd64 11.14-0+deb10u1 11.16-0+deb10u1
+2022-05-14 06:22:47 status triggers-pending libc-bin:amd64 2.28-10+deb10u1
+2022-05-14 06:22:47 status half-configured libpq5:amd64 11.14-0+deb10u1
+2022-05-14 06:22:47 status unpacked libpq5:amd64 11.14-0+deb10u1
+2022-05-14 06:22:47 status half-installed libpq5:amd64 11.14-0+deb10u1
+2022-05-14 06:22:47 status unpacked libpq5:amd64 11.16-0+deb10u1
+2022-05-14 06:22:47 startup packages configure
+2022-05-14 06:22:47 configure libpq5:amd64 11.16-0+deb10u1 <none>
+2022-05-14 06:22:47 status unpacked libpq5:amd64 11.16-0+deb10u1
+2022-05-14 06:22:47 status half-configured libpq5:amd64 11.16-0+deb10u1
+2022-05-14 06:22:47 status installed libpq5:amd64 11.16-0+deb10u1
+2022-05-14 06:22:47 configure libpq-dev:amd64 11.16-0+deb10u1 <none>
+2022-05-14 06:22:47 status unpacked libpq-dev:amd64 11.16-0+deb10u1
+2022-05-14 06:22:47 status half-configured libpq-dev:amd64 11.16-0+deb10u1
+2022-05-14 06:22:47 status installed libpq-dev:amd64 11.16-0+deb10u1
+2022-05-14 06:22:47 trigproc libc-bin:amd64 2.28-10+deb10u1 <none>
+2022-05-14 06:22:47 status half-configured libc-bin:amd64 2.28-10+deb10u1
+2022-05-14 06:22:47 status installed libc-bin:amd64 2.28-10+deb10u1
+2022-05-14 06:22:47 trigproc man-db:amd64 2.8.5-2 <none>
+2022-05-14 06:22:47 status half-configured man-db:amd64 2.8.5-2
+2022-05-14 06:22:47 status installed man-db:amd64 2.8.5-2
+2022-05-14 06:22:49 startup archives unpack
+2022-05-14 06:22:49 upgrade postgresql-server-dev-11:amd64 11.14-0+deb10u1 11.16-0+deb10u1
+2022-05-14 06:22:49 status half-configured postgresql-server-dev-11:amd64 11.14-0+deb10u1
+2022-05-14 06:22:49 status unpacked postgresql-server-dev-11:amd64 11.14-0+deb10u1
+2022-05-14 06:22:49 status half-installed postgresql-server-dev-11:amd64 11.14-0+deb10u1
+2022-05-14 06:22:50 status unpacked postgresql-server-dev-11:amd64 11.16-0+deb10u1
+2022-05-14 06:22:50 startup packages configure
+2022-05-14 06:22:50 configure postgresql-server-dev-11:amd64 11.16-0+deb10u1 <none>
+2022-05-14 06:22:50 status unpacked postgresql-server-dev-11:amd64 11.16-0+deb10u1
+2022-05-14 06:22:50 status half-configured postgresql-server-dev-11:amd64 11.16-0+deb10u1
+2022-05-14 06:22:50 status installed postgresql-server-dev-11:amd64 11.16-0+deb10u1
+2022-05-14 06:22:52 startup archives unpack
+2022-05-14 06:22:53 upgrade postgresql-11:amd64 11.14-0+deb10u1 11.16-0+deb10u1
+2022-05-14 06:22:53 status half-configured postgresql-11:amd64 11.14-0+deb10u1
+2022-05-14 06:22:53 status unpacked postgresql-11:amd64 11.14-0+deb10u1
+2022-05-14 06:22:53 status half-installed postgresql-11:amd64 11.14-0+deb10u1
+2022-05-14 06:22:54 status triggers-pending postgresql-common:all 200+deb10u4
+2022-05-14 06:22:54 status unpacked postgresql-11:amd64 11.16-0+deb10u1
+2022-05-14 06:22:54 startup packages configure
+2022-05-14 06:22:54 configure postgresql-11:amd64 11.16-0+deb10u1 <none>
+2022-05-14 06:22:54 status unpacked postgresql-11:amd64 11.16-0+deb10u1
+2022-05-14 06:22:54 status half-configured postgresql-11:amd64 11.16-0+deb10u1
+2022-05-14 06:22:58 status installed postgresql-11:amd64 11.16-0+deb10u1
+2022-05-14 06:22:58 trigproc postgresql-common:all 200+deb10u4 <none>
+2022-05-14 06:22:58 status half-configured postgresql-common:all 200+deb10u4
+2022-05-14 06:22:58 status installed postgresql-common:all 200+deb10u4
+2022-05-14 06:22:59 startup archives unpack
+2022-05-14 06:22:59 upgrade postgresql-client-11:amd64 11.14-0+deb10u1 11.16-0+deb10u1
+2022-05-14 06:22:59 status half-configured postgresql-client-11:amd64 11.14-0+deb10u1
+2022-05-14 06:22:59 status unpacked postgresql-client-11:amd64 11.14-0+deb10u1
+2022-05-14 06:22:59 status half-installed postgresql-client-11:amd64 11.14-0+deb10u1
+2022-05-14 06:23:00 status triggers-pending postgresql-common:all 200+deb10u4
+2022-05-14 06:23:00 status unpacked postgresql-client-11:amd64 11.16-0+deb10u1
+2022-05-14 06:23:00 startup packages configure
+2022-05-14 06:23:00 configure postgresql-client-11:amd64 11.16-0+deb10u1 <none>
+2022-05-14 06:23:00 status unpacked postgresql-client-11:amd64 11.16-0+deb10u1
+2022-05-14 06:23:00 status half-configured postgresql-client-11:amd64 11.16-0+deb10u1
+2022-05-14 06:23:00 status installed postgresql-client-11:amd64 11.16-0+deb10u1
+2022-05-14 06:23:00 trigproc postgresql-common:all 200+deb10u4 <none>
+2022-05-14 06:23:00 status half-configured postgresql-common:all 200+deb10u4
+2022-05-14 06:23:00 status installed postgresql-common:all 200+deb10u4
+2022-05-19 06:50:44 startup archives unpack
+2022-05-19 06:50:45 upgrade libssl-dev:amd64 1.1.1n-0+deb10u1 1.1.1n-0+deb10u2
+2022-05-19 06:50:45 status half-configured libssl-dev:amd64 1.1.1n-0+deb10u1
+2022-05-19 06:50:45 status unpacked libssl-dev:amd64 1.1.1n-0+deb10u1
+2022-05-19 06:50:45 status half-installed libssl-dev:amd64 1.1.1n-0+deb10u1
+2022-05-19 06:50:45 status unpacked libssl-dev:amd64 1.1.1n-0+deb10u2
+2022-05-19 06:50:45 upgrade libssl1.1:amd64 1.1.1n-0+deb10u1 1.1.1n-0+deb10u2
+2022-05-19 06:50:45 status triggers-pending libc-bin:amd64 2.28-10+deb10u1
+2022-05-19 06:50:45 status half-configured libssl1.1:amd64 1.1.1n-0+deb10u1
+2022-05-19 06:50:45 status unpacked libssl1.1:amd64 1.1.1n-0+deb10u1
+2022-05-19 06:50:45 status half-installed libssl1.1:amd64 1.1.1n-0+deb10u1
+2022-05-19 06:50:45 status unpacked libssl1.1:amd64 1.1.1n-0+deb10u2
+2022-05-19 06:50:45 startup packages configure
+2022-05-19 06:50:45 configure libssl1.1:amd64 1.1.1n-0+deb10u2 <none>
+2022-05-19 06:50:45 status unpacked libssl1.1:amd64 1.1.1n-0+deb10u2
+2022-05-19 06:50:45 status half-configured libssl1.1:amd64 1.1.1n-0+deb10u2
+2022-05-19 06:50:45 status installed libssl1.1:amd64 1.1.1n-0+deb10u2
+2022-05-19 06:50:45 configure libssl-dev:amd64 1.1.1n-0+deb10u2 <none>
+2022-05-19 06:50:45 status unpacked libssl-dev:amd64 1.1.1n-0+deb10u2
+2022-05-19 06:50:45 status half-configured libssl-dev:amd64 1.1.1n-0+deb10u2
+2022-05-19 06:50:45 status installed libssl-dev:amd64 1.1.1n-0+deb10u2
+2022-05-19 06:50:45 trigproc libc-bin:amd64 2.28-10+deb10u1 <none>
+2022-05-19 06:50:45 status half-configured libc-bin:amd64 2.28-10+deb10u1
+2022-05-19 06:50:45 status installed libc-bin:amd64 2.28-10+deb10u1
+2022-05-19 06:50:47 startup archives unpack
+2022-05-19 06:50:48 upgrade needrestart:all 3.4-5 3.4-5+deb10u1
+2022-05-19 06:50:48 status half-configured needrestart:all 3.4-5
+2022-05-19 06:50:48 status unpacked needrestart:all 3.4-5
+2022-05-19 06:50:48 status half-installed needrestart:all 3.4-5
+2022-05-19 06:50:48 status triggers-pending man-db:amd64 2.8.5-2
+2022-05-19 06:50:48 status unpacked needrestart:all 3.4-5+deb10u1
+2022-05-19 06:50:48 startup packages configure
+2022-05-19 06:50:48 configure needrestart:all 3.4-5+deb10u1 <none>
+2022-05-19 06:50:48 status unpacked needrestart:all 3.4-5+deb10u1
+2022-05-19 06:50:48 status half-configured needrestart:all 3.4-5+deb10u1
+2022-05-19 06:50:48 status installed needrestart:all 3.4-5+deb10u1
+2022-05-19 06:50:48 trigproc man-db:amd64 2.8.5-2 <none>
+2022-05-19 06:50:48 status half-configured man-db:amd64 2.8.5-2
+2022-05-19 06:50:48 status installed man-db:amd64 2.8.5-2
+2022-05-19 06:50:50 startup archives unpack
+2022-05-19 06:50:50 upgrade openssl:amd64 1.1.1n-0+deb10u1 1.1.1n-0+deb10u2
+2022-05-19 06:50:50 status half-configured openssl:amd64 1.1.1n-0+deb10u1
+2022-05-19 06:50:50 status unpacked openssl:amd64 1.1.1n-0+deb10u1
+2022-05-19 06:50:50 status half-installed openssl:amd64 1.1.1n-0+deb10u1
+2022-05-19 06:50:50 status triggers-pending man-db:amd64 2.8.5-2
+2022-05-19 06:50:50 status unpacked openssl:amd64 1.1.1n-0+deb10u2
+2022-05-19 06:50:50 startup packages configure
+2022-05-19 06:50:50 configure openssl:amd64 1.1.1n-0+deb10u2 <none>
+2022-05-19 06:50:50 status unpacked openssl:amd64 1.1.1n-0+deb10u2
+2022-05-19 06:50:50 status half-configured openssl:amd64 1.1.1n-0+deb10u2
+2022-05-19 06:50:50 status installed openssl:amd64 1.1.1n-0+deb10u2
+2022-05-19 06:50:50 trigproc man-db:amd64 2.8.5-2 <none>
+2022-05-19 06:50:50 status half-configured man-db:amd64 2.8.5-2
+2022-05-19 06:50:52 status installed man-db:amd64 2.8.5-2
+2022-05-20 06:22:08 startup archives unpack
+2022-05-20 06:22:08 upgrade libldap2-dev:amd64 2.4.47+dfsg-3+deb10u6 2.4.47+dfsg-3+deb10u7
+2022-05-20 06:22:08 status half-configured libldap2-dev:amd64 2.4.47+dfsg-3+deb10u6
+2022-05-20 06:22:08 status unpacked libldap2-dev:amd64 2.4.47+dfsg-3+deb10u6
+2022-05-20 06:22:08 status half-installed libldap2-dev:amd64 2.4.47+dfsg-3+deb10u6
+2022-05-20 06:22:08 status triggers-pending man-db:amd64 2.8.5-2
+2022-05-20 06:22:08 status unpacked libldap2-dev:amd64 2.4.47+dfsg-3+deb10u7
+2022-05-20 06:22:08 upgrade libldap-2.4-2:amd64 2.4.47+dfsg-3+deb10u6 2.4.47+dfsg-3+deb10u7
+2022-05-20 06:22:08 status triggers-pending libc-bin:amd64 2.28-10+deb10u1
+2022-05-20 06:22:08 status half-configured libldap-2.4-2:amd64 2.4.47+dfsg-3+deb10u6
+2022-05-20 06:22:08 status unpacked libldap-2.4-2:amd64 2.4.47+dfsg-3+deb10u6
+2022-05-20 06:22:08 status half-installed libldap-2.4-2:amd64 2.4.47+dfsg-3+deb10u6
+2022-05-20 06:22:08 status unpacked libldap-2.4-2:amd64 2.4.47+dfsg-3+deb10u7
+2022-05-20 06:22:08 startup packages configure
+2022-05-20 06:22:08 configure libldap-2.4-2:amd64 2.4.47+dfsg-3+deb10u7 <none>
+2022-05-20 06:22:08 status unpacked libldap-2.4-2:amd64 2.4.47+dfsg-3+deb10u7
+2022-05-20 06:22:08 status half-configured libldap-2.4-2:amd64 2.4.47+dfsg-3+deb10u7
+2022-05-20 06:22:08 status installed libldap-2.4-2:amd64 2.4.47+dfsg-3+deb10u7
+2022-05-20 06:22:08 configure libldap2-dev:amd64 2.4.47+dfsg-3+deb10u7 <none>
+2022-05-20 06:22:08 status unpacked libldap2-dev:amd64 2.4.47+dfsg-3+deb10u7
+2022-05-20 06:22:08 status half-configured libldap2-dev:amd64 2.4.47+dfsg-3+deb10u7
+2022-05-20 06:22:08 status installed libldap2-dev:amd64 2.4.47+dfsg-3+deb10u7
+2022-05-20 06:22:08 trigproc man-db:amd64 2.8.5-2 <none>
+2022-05-20 06:22:08 status half-configured man-db:amd64 2.8.5-2
+2022-05-20 06:22:10 status installed man-db:amd64 2.8.5-2
+2022-05-20 06:22:10 trigproc libc-bin:amd64 2.28-10+deb10u1 <none>
+2022-05-20 06:22:10 status half-configured libc-bin:amd64 2.28-10+deb10u1
+2022-05-20 06:22:10 status installed libc-bin:amd64 2.28-10+deb10u1
+2022-05-20 06:22:12 startup archives unpack
+2022-05-20 06:22:12 upgrade libldap-common:all 2.4.47+dfsg-3+deb10u6 2.4.47+dfsg-3+deb10u7
+2022-05-20 06:22:12 status half-configured libldap-common:all 2.4.47+dfsg-3+deb10u6
+2022-05-20 06:22:12 status unpacked libldap-common:all 2.4.47+dfsg-3+deb10u6
+2022-05-20 06:22:12 status half-installed libldap-common:all 2.4.47+dfsg-3+deb10u6
+2022-05-20 06:22:12 status triggers-pending man-db:amd64 2.8.5-2
+2022-05-20 06:22:12 status unpacked libldap-common:all 2.4.47+dfsg-3+deb10u7
+2022-05-20 06:22:12 startup packages configure
+2022-05-20 06:22:12 configure libldap-common:all 2.4.47+dfsg-3+deb10u7 <none>
+2022-05-20 06:22:12 status unpacked libldap-common:all 2.4.47+dfsg-3+deb10u7
+2022-05-20 06:22:12 status half-configured libldap-common:all 2.4.47+dfsg-3+deb10u7
+2022-05-20 06:22:12 status installed libldap-common:all 2.4.47+dfsg-3+deb10u7
+2022-05-20 06:22:12 trigproc man-db:amd64 2.8.5-2 <none>
+2022-05-20 06:22:12 status half-configured man-db:amd64 2.8.5-2
+2022-05-20 06:22:12 status installed man-db:amd64 2.8.5-2
+2022-05-23 06:21:51 startup archives unpack
+2022-05-23 06:21:52 upgrade libxml2:amd64 2.9.4+dfsg1-7+deb10u3 2.9.4+dfsg1-7+deb10u4
+2022-05-23 06:21:52 status triggers-pending libc-bin:amd64 2.28-10+deb10u1
+2022-05-23 06:21:52 status half-configured libxml2:amd64 2.9.4+dfsg1-7+deb10u3
+2022-05-23 06:21:52 status unpacked libxml2:amd64 2.9.4+dfsg1-7+deb10u3
+2022-05-23 06:21:52 status half-installed libxml2:amd64 2.9.4+dfsg1-7+deb10u3
+2022-05-23 06:21:52 status unpacked libxml2:amd64 2.9.4+dfsg1-7+deb10u4
+2022-05-23 06:21:52 startup packages configure
+2022-05-23 06:21:52 configure libxml2:amd64 2.9.4+dfsg1-7+deb10u4 <none>
+2022-05-23 06:21:52 status unpacked libxml2:amd64 2.9.4+dfsg1-7+deb10u4
+2022-05-23 06:21:52 status half-configured libxml2:amd64 2.9.4+dfsg1-7+deb10u4
+2022-05-23 06:21:52 status installed libxml2:amd64 2.9.4+dfsg1-7+deb10u4
+2022-05-23 06:21:52 trigproc libc-bin:amd64 2.28-10+deb10u1 <none>
+2022-05-23 06:21:52 status half-configured libc-bin:amd64 2.28-10+deb10u1
+2022-05-23 06:21:52 status installed libc-bin:amd64 2.28-10+deb10u1
+2022-05-26 06:10:49 startup archives unpack
+2022-05-26 06:10:49 upgrade dpkg:amd64 1.19.7 1.19.8
+2022-05-26 06:10:49 status half-configured dpkg:amd64 1.19.7
+2022-05-26 06:10:49 status unpacked dpkg:amd64 1.19.7
+2022-05-26 06:10:49 status half-installed dpkg:amd64 1.19.7
+2022-05-26 06:10:49 status triggers-pending man-db:amd64 2.8.5-2
+2022-05-26 06:10:49 status unpacked dpkg:amd64 1.19.8
+2022-05-26 06:10:49 startup packages configure
+2022-05-26 06:10:49 configure dpkg:amd64 1.19.8 <none>
+2022-05-26 06:10:49 status unpacked dpkg:amd64 1.19.8
+2022-05-26 06:10:49 status half-configured dpkg:amd64 1.19.8
+2022-05-26 06:10:49 status installed dpkg:amd64 1.19.8
+2022-05-26 06:10:49 startup packages configure
+2022-05-26 06:10:49 trigproc man-db:amd64 2.8.5-2 <none>
+2022-05-26 06:10:49 status half-configured man-db:amd64 2.8.5-2
+2022-05-26 06:10:51 status installed man-db:amd64 2.8.5-2
+2022-05-26 06:10:52 startup archives unpack
+2022-05-26 06:10:52 upgrade dpkg-dev:all 1.19.7 1.19.8
+2022-05-26 06:10:52 status half-configured dpkg-dev:all 1.19.7
+2022-05-26 06:10:52 status unpacked dpkg-dev:all 1.19.7
+2022-05-26 06:10:52 status half-installed dpkg-dev:all 1.19.7
+2022-05-26 06:10:52 status triggers-pending man-db:amd64 2.8.5-2
+2022-05-26 06:10:53 status unpacked dpkg-dev:all 1.19.8
+2022-05-26 06:10:53 upgrade libdpkg-perl:all 1.19.7 1.19.8
+2022-05-26 06:10:53 status half-configured libdpkg-perl:all 1.19.7
+2022-05-26 06:10:53 status unpacked libdpkg-perl:all 1.19.7
+2022-05-26 06:10:53 status half-installed libdpkg-perl:all 1.19.7
+2022-05-26 06:10:53 status unpacked libdpkg-perl:all 1.19.8
+2022-05-26 06:10:53 startup packages configure
+2022-05-26 06:10:53 configure libdpkg-perl:all 1.19.8 <none>
+2022-05-26 06:10:53 status unpacked libdpkg-perl:all 1.19.8
+2022-05-26 06:10:53 status half-configured libdpkg-perl:all 1.19.8
+2022-05-26 06:10:53 status installed libdpkg-perl:all 1.19.8
+2022-05-26 06:10:53 configure dpkg-dev:all 1.19.8 <none>
+2022-05-26 06:10:53 status unpacked dpkg-dev:all 1.19.8
+2022-05-26 06:10:53 status half-configured dpkg-dev:all 1.19.8
+2022-05-26 06:10:53 status installed dpkg-dev:all 1.19.8
+2022-05-26 06:10:53 trigproc man-db:amd64 2.8.5-2 <none>
+2022-05-26 06:10:53 status half-configured man-db:amd64 2.8.5-2
+2022-05-26 06:10:56 status installed man-db:amd64 2.8.5-2
+2022-05-29 06:53:48 startup archives unpack
+2022-05-29 06:53:49 upgrade rsyslog:amd64 8.1901.0-1+deb10u1 8.1901.0-1+deb10u2
+2022-05-29 06:53:49 status half-configured rsyslog:amd64 8.1901.0-1+deb10u1
+2022-05-29 06:53:49 status unpacked rsyslog:amd64 8.1901.0-1+deb10u1
+2022-05-29 06:53:49 status half-installed rsyslog:amd64 8.1901.0-1+deb10u1
+2022-05-29 06:53:49 status triggers-pending systemd:amd64 241-7~deb10u8
+2022-05-29 06:53:49 status triggers-pending man-db:amd64 2.8.5-2
+2022-05-29 06:53:49 status unpacked rsyslog:amd64 8.1901.0-1+deb10u2
+2022-05-29 06:53:49 startup packages configure
+2022-05-29 06:53:49 configure rsyslog:amd64 8.1901.0-1+deb10u2 <none>
+2022-05-29 06:53:49 status unpacked rsyslog:amd64 8.1901.0-1+deb10u2
+2022-05-29 06:53:49 status half-configured rsyslog:amd64 8.1901.0-1+deb10u2
+2022-05-29 06:53:50 status installed rsyslog:amd64 8.1901.0-1+deb10u2
+2022-05-29 06:53:50 trigproc man-db:amd64 2.8.5-2 <none>
+2022-05-29 06:53:50 status half-configured man-db:amd64 2.8.5-2
+2022-05-29 06:53:51 status installed man-db:amd64 2.8.5-2
+2022-05-29 06:53:51 trigproc systemd:amd64 241-7~deb10u8 <none>
+2022-05-29 06:53:51 status half-configured systemd:amd64 241-7~deb10u8
+2022-05-29 06:53:51 status installed systemd:amd64 241-7~deb10u8
